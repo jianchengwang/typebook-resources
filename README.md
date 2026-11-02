@@ -1,8 +1,7 @@
 # TypeBook Resources
 
 Standalone official resource catalog extracted from TypeBook.fun on November 2,
-2026. This directory is an independent local repository, ready to push to a new
-public GitHub repository. It contains resources, catalogs and validation tools;
+2026. This independent public repository contains resources, catalogs and validation tools;
 the application source remains in its existing repository.
 
 ## Contents
@@ -70,29 +69,27 @@ The full resource set is approximately 259 MiB. Live2D files account for about
 browser runtimes: all books, dictionaries, prompts and demo/starter texts, plus
 the Yuki model. The other seven models can be loaded on demand.
 
-Keep a usable default profile alongside the frontend static files. Use a public
-repository or another HTTPS resource directory for optional resources and
-updates. Load individual dictionaries, chapters and models only when opened;
+TypeBook's selected default source is this public repository. The application
+pins a specific commit and verifies downloaded catalogs and text payloads.
+The default profile also describes a possible smaller bundled distribution.
+Load individual dictionaries, chapters and models only when opened;
 shipping static files does not require downloading all of them at startup.
 
 See [the implementation assessment](docs/frontend-resource-strategy.md).
-No application resource loader or production default has been changed by this
-export. Existing Cloudflare R2 objects and D1 rows were retained.
+Application integration is maintained in the separate application repository.
+Existing Cloudflare R2 objects and D1 rows are retained.
 
-## Publish later
+## Repository
 
-Create an empty public repository, without initializing a README, license or
-gitignore. If its name is `jianchengwang/typebook-resources`, run:
+Public repository: https://github.com/jianchengwang/typebook-resources
+
+For a new checkout:
 
 ```sh
-git remote add origin git@github.com:jianchengwang/typebook-resources.git
-git push -u origin main
+git clone https://github.com/jianchengwang/typebook-resources.git
 ```
 
-Use the actual repository URL if a different owner or name is chosen.
-The current local repository intentionally has no remote.
-
-After publishing, use the `manifest.json` at a fixed commit or release when
+Use the `manifest.json` at a fixed commit or release when
 configuring an app. A `main` URL is convenient for browsing, but its contents
 can change. See [the hosting contract](docs/resource-hosting.md).
 

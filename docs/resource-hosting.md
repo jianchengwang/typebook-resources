@@ -53,8 +53,9 @@ An independently hosted directory:
 }
 ```
 
-These examples describe the proposed application settings, not an existing
-TypeBook setting or a currently published repository.
+These examples describe the resource-source contract. The application pins the
+published repository to a specific commit; arbitrary source selection remains
+a possible future setting.
 
 ## Host requirements
 
@@ -106,5 +107,5 @@ Official reference pages to check before selecting a delivery host:
 - MDN browser CORS requirements:
   https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
 
-This local preparation did not validate an as-yet uncreated public repository's
-raw URLs, CORS responses or availability on users' networks.
+Public raw URLs and browser access should be checked with each application
+integration. Availability can differ between users' networks.

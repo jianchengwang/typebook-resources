@@ -45,7 +45,7 @@
     "live2d_files": 158,
     "cloudflare_objects_verified": 218
   },
-  "total_bytes": 271475273,
+  "total_bytes": 271475388,
   "files": [
     {
       "path": ".gitattributes",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4724,
-      "sha256": "6c8bbcbd2a58700ec0585ea48a61d6cde445953e3de88f3195bab141a14117a0",
+      "bytes": 4479,
+      "sha256": "9f676c5e12e4dbd23a720b9a8638946e50955bb5310a03b359ff13bceb4ae7a3",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -879,15 +879,15 @@
     },
     {
       "path": "docs/frontend-resource-strategy.md",
-      "bytes": 5125,
-      "sha256": "faf21ffe8938aea5b93aabc0abd59d6c0ddb92683e0c6e099f3050b5e00a3706",
+      "bytes": 5434,
+      "sha256": "ea974a059f877c66295ce8382f8d70b8c50eabcd45bcd7b5c77d9f55c2918eaa",
       "content_type": "text/markdown",
       "category": "documentation"
     },
     {
       "path": "docs/resource-hosting.md",
-      "bytes": 4247,
-      "sha256": "055972913002e588db4b5ca949013a4a018d660110fa6c88545cb30c423e8b6a",
+      "bytes": 4298,
+      "sha256": "4ec5257b2989c33adecb7801bbbe577ac5e192e135d04acad8ccce22026bdac8",
       "content_type": "text/markdown",
       "category": "documentation"
     },

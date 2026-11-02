@@ -2,6 +2,11 @@
 
 Assessment date: November 2, 2026.
 
+Publication decision: the user selected the public resource repository as the
+application's default official source. The bundling recommendation below is
+retained as an alternative distribution strategy. Application integration pins
+a commit, fetches resources on demand and verifies catalog/text checksums.
+
 ## Recommendation
 
 Maintain the complete catalog in this independent resource repository. Bundle
