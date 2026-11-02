@@ -1,0 +1,20 @@
+[
+  {
+    "id": "public:demo-anthology",
+    "kind": "general",
+    "title": "Demo anthology",
+    "author": "TypeBook Fun",
+    "description": "Three original practice pieces long enough for a calm typing session.",
+    "cover_url": null,
+    "visibility": "public",
+    "source_type": "official",
+    "source_label": null,
+    "revision": 2,
+    "item_count": 3,
+    "items": [
+      "article:900001",
+      "article:900002",
+      "article:900003"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "model_source": "https://huggingface.co/sahilmahendrakar/Paradee-8M-v1.0",
+  "model_revision": "f662642d44c03c17588e4176469c54d462c0b623",
+  "mapping_source": "https://github.com/sahilmahendrakar/paradee",
+  "mapping_revision": "9c8b4d7504cbee7e64de2d0341bb690f0b0ab708",
+  "license": "Apache-2.0",
+  "voice": "af_heart",
+  "sample_rate": 24000,
+  "max_input_ids": 512,
+  "files": {
+    "paradee_int8.onnx": {
+      "bytes": 9037971,
+      "sha256": "60e8f8a1bc7c546488154e9d99ecac6e9c50baf3f4b684c5b0de48ea03b698eb"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "config.json": {
+      "bytes": 1774,
+      "sha256": "f24046974a3a8c747affefb45c7c504263a99d5081787908b16abe8f5ac94fcd"
+    },
+    "misaki.js": {
+      "bytes": 1568,
+      "sha256": "84072f9db03f1139448044ca2549271de1e29d9e7b43da09607cd2cc413a5e39"
+    }
+  }
+}

@@ -1,0 +1,423 @@
+[
+  {
+    "title": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "description": "An allegorical novella descibing the rehabilitation of bitter, miserly businessman Ebenezer Scrooge. The reader is witness to his transformation as Scrooge is shown the error of his ways by the ghost of former partner Jacob Marley and the spirits of Christmas past, present and future. The first of the Christmas books (Dickens released one a year from 1843&ndash;1847) it became an instant hit.",
+    "tags": "[\"selected-classics\"]",
+    "word_count": 25973,
+    "chapter_count": 5,
+    "revision": 2,
+    "id": "book:1",
+    "legacy_id": 1,
+    "license_status": "not-recorded-in-source",
+    "cover": {
+      "path": "books/a-christmas-carol/cover.jpg",
+      "sha256": "46aa789a59263205244a3040216063bd3d69e8c766d861c279a90cff76bb4d23",
+      "bytes": 51276
+    },
+    "chapters": [
+      {
+        "book_id": 1,
+        "title": "Chapter 1",
+        "chapter_number": 1,
+        "word_count": 5866,
+        "revision": 1,
+        "id": "chapter:1",
+        "legacy_id": 1,
+        "body": {
+          "path": "books/a-christmas-carol/chapters/001.txt",
+          "sha256": "c40b23d52d68427e8fd0e68208d20ff7512a55b93a03aad518223e519f8a0300",
+          "bytes": 36398
+        }
+      },
+      {
+        "book_id": 1,
+        "title": "Chapter 2",
+        "chapter_number": 2,
+        "word_count": 5638,
+        "revision": 1,
+        "id": "chapter:2",
+        "legacy_id": 2,
+        "body": {
+          "path": "books/a-christmas-carol/chapters/002.txt",
+          "sha256": "25f57d683fdb8652781448fa0aa1b0fae23a7200ccfd11a78c427f332ec34b75",
+          "bytes": 34189
+        }
+      },
+      {
+        "book_id": 1,
+        "title": "Chapter 3",
+        "chapter_number": 3,
+        "word_count": 7492,
+        "revision": 1,
+        "id": "chapter:3",
+        "legacy_id": 3,
+        "body": {
+          "path": "books/a-christmas-carol/chapters/003.txt",
+          "sha256": "2f9d195ef9c47afc98bee30dbd6bf51cd0a481567d1544330f0b3f6ca136ea9d",
+          "bytes": 46227
+        }
+      },
+      {
+        "book_id": 1,
+        "title": "Chapter 4",
+        "chapter_number": 4,
+        "word_count": 4863,
+        "revision": 1,
+        "id": "chapter:4",
+        "legacy_id": 4,
+        "body": {
+          "path": "books/a-christmas-carol/chapters/004.txt",
+          "sha256": "d0e27c52042d331fb85d294158db6dd44f9c4492531e7e94647e067cca8ba230",
+          "bytes": 29046
+        }
+      },
+      {
+        "book_id": 1,
+        "title": "Chapter 5",
+        "chapter_number": 5,
+        "word_count": 2114,
+        "revision": 1,
+        "id": "chapter:5",
+        "legacy_id": 5,
+        "body": {
+          "path": "books/a-christmas-carol/chapters/005.txt",
+          "sha256": "6a4e7a79e02c14ba38079b5c3531afc437a09fc7d63ccf675b397f9ffa7bacce",
+          "bytes": 12541
+        }
+      }
+    ]
+  },
+  {
+    "title": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "description": "A Study in Scarlet is an 1887 detective novel by British writer Arthur Conan Doyle. The story marks the first appearance of Sherlock Holmes and Dr. Watson, who would become the most famous detective duo in literature.",
+    "tags": "[\"selected-classics\"]",
+    "word_count": 39995,
+    "chapter_count": 14,
+    "revision": 2,
+    "id": "book:7",
+    "legacy_id": 7,
+    "license_status": "not-recorded-in-source",
+    "cover": {
+      "path": "books/a-study-in-scarlet/cover.jpg",
+      "sha256": "234c2416a6cb33ea99f77c4c7835e2e36fde6f55fab2a54473043bb610e55515",
+      "bytes": 36913
+    },
+    "chapters": [
+      {
+        "book_id": 7,
+        "title": "Chapter 1",
+        "chapter_number": 1,
+        "word_count": 2510,
+        "revision": 1,
+        "id": "chapter:145",
+        "legacy_id": 145,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/001.txt",
+          "sha256": "948934d0995ca3ae265a99cf46512bb0358a5a5bcb0cef046d458823ee23b30a",
+          "bytes": 15353
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 2",
+        "chapter_number": 2,
+        "word_count": 3657,
+        "revision": 1,
+        "id": "chapter:146",
+        "legacy_id": 146,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/002.txt",
+          "sha256": "d0efbcfc8ba117892ae081f6ee5a1b935ac193012de7ecabbf4e15fab767e897",
+          "bytes": 20292
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 3",
+        "chapter_number": 3,
+        "word_count": 3498,
+        "revision": 1,
+        "id": "chapter:147",
+        "legacy_id": 147,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/003.txt",
+          "sha256": "a8e081514097b69712d9d6854e35ff82a6fd8890cf70f770a3112ec07566bcef",
+          "bytes": 21432
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 4",
+        "chapter_number": 4,
+        "word_count": 2318,
+        "revision": 1,
+        "id": "chapter:148",
+        "legacy_id": 148,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/004.txt",
+          "sha256": "64e9c5d3cdd02b300a7290518091251b4f26dbf3b80a2dec643da0a71de21065",
+          "bytes": 13539
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 5",
+        "chapter_number": 5,
+        "word_count": 2299,
+        "revision": 1,
+        "id": "chapter:149",
+        "legacy_id": 149,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/005.txt",
+          "sha256": "4d4ca99b71b96cbddfa949b0e695d2cdf7a7e25f301ee2ff35e3b456e22f4be6",
+          "bytes": 13605
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 6",
+        "chapter_number": 6,
+        "word_count": 2903,
+        "revision": 1,
+        "id": "chapter:150",
+        "legacy_id": 150,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/006.txt",
+          "sha256": "7af872f0bf30a24cc248a0cdd1f7976a02b6928d836744bf217d7cf486f29f6c",
+          "bytes": 17920
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 7",
+        "chapter_number": 7,
+        "word_count": 3039,
+        "revision": 1,
+        "id": "chapter:151",
+        "legacy_id": 151,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/007.txt",
+          "sha256": "58754ab5dc8e45479ce0f84d6edb7ff9737a9bb965f8eeea49ee11c1ce4baf1c",
+          "bytes": 18298
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 8",
+        "chapter_number": 8,
+        "word_count": 3285,
+        "revision": 1,
+        "id": "chapter:152",
+        "legacy_id": 152,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/008.txt",
+          "sha256": "fb956d0b1b4552e12adcdea906858cd414f81b3f9908f6bb1de123547286a489",
+          "bytes": 20369
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 9",
+        "chapter_number": 9,
+        "word_count": 2356,
+        "revision": 1,
+        "id": "chapter:153",
+        "legacy_id": 153,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/009.txt",
+          "sha256": "d481726ed20798d640210bb467fe847ca6b599b450b7f710715f1f34f6a0ee25",
+          "bytes": 14353
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 10",
+        "chapter_number": 10,
+        "word_count": 1657,
+        "revision": 1,
+        "id": "chapter:154",
+        "legacy_id": 154,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/010.txt",
+          "sha256": "f2fbaaa51891ede81a25ac59d2d55acc4b385d6c085e3a275458f13a5005a0c6",
+          "bytes": 10119
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 11",
+        "chapter_number": 11,
+        "word_count": 3082,
+        "revision": 1,
+        "id": "chapter:155",
+        "legacy_id": 155,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/011.txt",
+          "sha256": "29bb9a7b9933105dd0dc8940749adcf3d24728a6e8d1a042caeea314fca5ff28",
+          "bytes": 18644
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 12",
+        "chapter_number": 12,
+        "word_count": 3293,
+        "revision": 1,
+        "id": "chapter:156",
+        "legacy_id": 156,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/012.txt",
+          "sha256": "f0dca2151e036de6cfd97927ceeb98b4feeb403890b2bb3c9378a130ac221b65",
+          "bytes": 19681
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 13",
+        "chapter_number": 13,
+        "word_count": 4144,
+        "revision": 1,
+        "id": "chapter:157",
+        "legacy_id": 157,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/013.txt",
+          "sha256": "cca9ea52307bd827d5146bc75297ba124ed6d6b5c25697042718c9812b60cc66",
+          "bytes": 23333
+        }
+      },
+      {
+        "book_id": 7,
+        "title": "Chapter 14",
+        "chapter_number": 14,
+        "word_count": 1954,
+        "revision": 1,
+        "id": "chapter:158",
+        "legacy_id": 158,
+        "body": {
+          "path": "books/a-study-in-scarlet/chapters/014.txt",
+          "sha256": "563e574b304a6ec2cdc9b9968cd04bcc444a0119a0643e12dc66dd1e57484a6d",
+          "bytes": 11644
+        }
+      }
+    ]
+  },
+  {
+    "title": "The Wind in the Willows",
+    "author": "Kenneth Grahame",
+    "description": "The adventures of four amiable animals, Rat, Toad, Mole and Badger, along a river in the English countryside.",
+    "tags": "[\"selected-classics\"]",
+    "word_count": 54436,
+    "chapter_count": 7,
+    "revision": 2,
+    "id": "book:157",
+    "legacy_id": 157,
+    "license_status": "not-recorded-in-source",
+    "cover": {
+      "path": "books/the-wind-in-the-willows/cover.jpg",
+      "sha256": "cc352b1ef1d8c4651f1421e0b5fafd1d683bf293c0172db7f99469f10db614bc",
+      "bytes": 47991
+    },
+    "chapters": [
+      {
+        "book_id": 157,
+        "title": "Chapter 1",
+        "chapter_number": 1,
+        "word_count": 3920,
+        "revision": 1,
+        "id": "chapter:8650",
+        "legacy_id": 8650,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/001.txt",
+          "sha256": "1fd4989d6a7214c6098ff7431353be04d4d73d1a0b416ab8374a414906a9f745",
+          "bytes": 23878
+        }
+      },
+      {
+        "book_id": 157,
+        "title": "Chapter 2",
+        "chapter_number": 2,
+        "word_count": 4039,
+        "revision": 1,
+        "id": "chapter:8651",
+        "legacy_id": 8651,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/002.txt",
+          "sha256": "fba8d07ad62c6286d55a24b501c3f1777077e183e56875591f2376b83e8f3281",
+          "bytes": 23950
+        }
+      },
+      {
+        "book_id": 157,
+        "title": "Chapter 3",
+        "chapter_number": 3,
+        "word_count": 8303,
+        "revision": 1,
+        "id": "chapter:8652",
+        "legacy_id": 8652,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/003.txt",
+          "sha256": "2644f65b0f7caf6a969568c95bddb5d1255d5e8c0416ed2988a8396952b815da",
+          "bytes": 50406
+        }
+      },
+      {
+        "book_id": 157,
+        "title": "Chapter 4",
+        "chapter_number": 4,
+        "word_count": 9087,
+        "revision": 1,
+        "id": "chapter:8653",
+        "legacy_id": 8653,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/004.txt",
+          "sha256": "b6456e66a00964bb47d6b64e926806cc82968483b2dd059f8311c0b24689176b",
+          "bytes": 54643
+        }
+      },
+      {
+        "book_id": 157,
+        "title": "Chapter 5",
+        "chapter_number": 5,
+        "word_count": 7772,
+        "revision": 1,
+        "id": "chapter:8654",
+        "legacy_id": 8654,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/005.txt",
+          "sha256": "4a4f861ada0cdfab4620fd90a9e91bf47fcdf106a136827db53456204d7acb6b",
+          "bytes": 47591
+        }
+      },
+      {
+        "book_id": 157,
+        "title": "Chapter 6",
+        "chapter_number": 6,
+        "word_count": 10987,
+        "revision": 1,
+        "id": "chapter:8655",
+        "legacy_id": 8655,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/006.txt",
+          "sha256": "a344aeae82de07ee8a15539a11f00fac020fdb87bce83b72142b07cd053681f3",
+          "bytes": 65207
+        }
+      },
+      {
+        "book_id": 157,
+        "title": "Chapter 7",
+        "chapter_number": 7,
+        "word_count": 10328,
+        "revision": 1,
+        "id": "chapter:8656",
+        "legacy_id": 8656,
+        "body": {
+          "path": "books/the-wind-in-the-willows/chapters/007.txt",
+          "sha256": "d995d0a83c4f17273de2ea9ba01bd53e2acba62b1e41abff8c422e39b89693c6",
+          "bytes": 60607
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+* -text
+*.md text eol=lf
+*.py text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+books/** -whitespace
+dictionaries/** -whitespace
+live2d/** -whitespace
+onnx-runtime/** -whitespace
+phonemizer/** -whitespace
+paradee/** -whitespace
+qwerty/** -whitespace

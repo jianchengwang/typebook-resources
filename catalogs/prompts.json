@@ -1,0 +1,26 @@
+[
+  {
+    "id": "builtin-typing-article",
+    "name": "Typing article",
+    "source_type": "official",
+    "display_type": "reading",
+    "legacy_id": -1,
+    "path": "prompts/builtin-typing-article.json"
+  },
+  {
+    "id": "builtin-english-companion",
+    "name": "English companion",
+    "source_type": "official",
+    "display_type": "chat",
+    "legacy_id": -2,
+    "path": "prompts/builtin-english-companion.json"
+  },
+  {
+    "id": "builtin-english-only",
+    "name": "English-only Chat",
+    "source_type": "official",
+    "display_type": "chat",
+    "legacy_id": -3,
+    "path": "prompts/builtin-english-only.json"
+  }
+]

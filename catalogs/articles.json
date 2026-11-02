@@ -1,0 +1,98 @@
+[
+  {
+    "title": "A Small Plan for the Morning",
+    "author": "TypeBook",
+    "audio_url": null,
+    "source_url": null,
+    "tags": "[\"starter-original\",\"everyday-english\"]",
+    "word_count": 115,
+    "revision": 1,
+    "id": "article:114320",
+    "legacy_id": 114320,
+    "license_status": "not-recorded-in-source",
+    "body": {
+      "path": "articles/starter/a-small-plan-for-the-morning.txt",
+      "sha256": "e029c561567e8c74759266baea688106fbc6b53d70862be977e1808bd45d06fc",
+      "bytes": 571
+    }
+  },
+  {
+    "title": "A Walk After Lunch",
+    "author": "TypeBook",
+    "audio_url": null,
+    "source_url": null,
+    "tags": "[\"starter-original\",\"everyday-english\"]",
+    "word_count": 120,
+    "revision": 1,
+    "id": "article:114321",
+    "legacy_id": 114321,
+    "license_status": "not-recorded-in-source",
+    "body": {
+      "path": "articles/starter/a-walk-after-lunch.txt",
+      "sha256": "ab74b57be7fc7066180f38c3a535af04b6e56819c00ba41d4f9ef4741c7eb91a",
+      "bytes": 636
+    }
+  },
+  {
+    "title": "The New Library Card",
+    "author": "TypeBook",
+    "audio_url": null,
+    "source_url": null,
+    "tags": "[\"starter-original\",\"everyday-english\"]",
+    "word_count": 121,
+    "revision": 1,
+    "id": "article:114322",
+    "legacy_id": 114322,
+    "license_status": "not-recorded-in-source",
+    "body": {
+      "path": "articles/starter/the-new-library-card.txt",
+      "sha256": "f2b28d72ec74640fe4a9d884b22b15528767accdfc9c1bdf9913016df535938b",
+      "bytes": 616
+    }
+  },
+  {
+    "id": "article:900001",
+    "legacy_id": 900001,
+    "title": "Morning Route",
+    "author": "TypeBook Fun",
+    "word_count": 339,
+    "license_label": "Original demo text",
+    "attribution": "Written for TypeBook.fun",
+    "can_copy": false,
+    "body": {
+      "path": "collections/demo-anthology/morning-route.txt",
+      "sha256": "7accda200ff4f5f8b417b5b34fd718ae812cb849933f7e167c42ea5afdfc5fcb",
+      "bytes": 1787
+    }
+  },
+  {
+    "id": "article:900002",
+    "legacy_id": 900002,
+    "title": "The Blue Weather Book",
+    "author": "TypeBook Fun",
+    "word_count": 353,
+    "license_label": "Original demo text",
+    "attribution": "Written for TypeBook.fun",
+    "can_copy": false,
+    "body": {
+      "path": "collections/demo-anthology/the-blue-weather-book.txt",
+      "sha256": "dad732c1c8b944ccef2fa579f99aa32ee363ab0cab1d6a774a5b11c3f5262bf8",
+      "bytes": 1927
+    }
+  },
+  {
+    "id": "article:900003",
+    "legacy_id": 900003,
+    "title": "One Crooked Chair",
+    "author": "TypeBook Fun",
+    "word_count": 311,
+    "license_label": "Original demo text",
+    "attribution": "Written for TypeBook.fun",
+    "can_copy": false,
+    "body": {
+      "path": "collections/demo-anthology/one-crooked-chair.txt",
+      "sha256": "48e692ae4876a2bc19ff628a1c499b0f5a757c20998f234e27ac18838cb1f5be",
+      "bytes": 1819
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "exported_on": "2026-11-02",
+  "source_application": "TypeBook.fun",
+  "source_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
+  "scope": "Official/public resource rows and existing frontend public assets only.",
+  "cloudflare_operations": "Read-only SELECT and public object GET. Existing R2/D1 resources retained.",
+  "excluded": [
+    "accounts",
+    "profiles",
+    "credentials",
+    "API keys",
+    "private user content",
+    "practice history",
+    "personal prompts",
+    "personal dictionaries",
+    "learning saves"
+  ],
+  "removed_resources_not_exported": [
+    "Medium",
+    "TED",
+    "Oxford3000",
+    "Oxford5000"
+  ],
+  "license_policy": "Preserve existing notices. No new blanket license is assigned to third-party assets."
+}
