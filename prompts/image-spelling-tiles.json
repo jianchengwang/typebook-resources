@@ -1,0 +1,37 @@
+{
+  "id": "image-spelling-tiles",
+  "name": "Spelling with Letter Tiles",
+  "source_type": "official",
+  "display_type": "chat",
+  "prompt": "Create a portrait 4:5 English spelling card for the word {{word}}. In the upper two thirds, show {{meaning}} as one simple, original illustration on a plain background. In the lower third, place a single left-to-right row of equal-size letter tiles spelling exactly {{word}}.\nUse exactly one lowercase letter per tile, in the supplied order, with generous separation between tiles. Do not omit, repeat, transpose, merge, or decorate letters. Use a plain readable typeface and high contrast. Keep enough margin around the row so no tile is cropped.\nDo not print the full word elsewhere or add a title, translation, phonetic symbols, extra letters, or instructions. The visual is intended for spelling practice after a human checks that the tile count and letter sequence match the target; it is not an automatically verified answer key.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, or extra labels. Render only the specified text, with clear spacing and high contrast; if it cannot be rendered reliably, leave that text area blank rather than inventing letters. Any generated lettering must be checked before learning or printing.",
+  "title_i18n": {
+    "en": "Spelling with Letter Tiles",
+    "zh-CN": "字母拼写图卡",
+    "ja": "文字タイルでつづる単語カード"
+  },
+  "description": "Combine one object illustration with an ordered row of clearly separated letter tiles.",
+  "category": "image-generation",
+  "tags": [
+    "spelling",
+    "letters",
+    "flashcard"
+  ],
+  "cefr_levels": [
+    "A1",
+    "A2"
+  ],
+  "output_type": "image",
+  "prompt_role": "user",
+  "variables": [
+    {
+      "name": "word",
+      "default": "cat",
+      "description": "One concrete English word, ideally three to six lowercase letters."
+    },
+    {
+      "name": "meaning",
+      "default": "a sitting domestic cat",
+      "description": "A clear visual description of the target word."
+    }
+  ]
+}

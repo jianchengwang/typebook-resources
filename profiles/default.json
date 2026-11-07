@@ -148,7 +148,22 @@
   "prompts": [
     "builtin-typing-article",
     "builtin-english-companion",
-    "builtin-english-only"
+    "builtin-english-only",
+    "image-preposition-cards",
+    "image-scene-vocabulary",
+    "image-spelling-tiles",
+    "image-story-sequence",
+    "image-vocabulary-card",
+    "learn-collocation-lab",
+    "learn-email-practice",
+    "learn-everyday-roleplay",
+    "learn-grammar-repair",
+    "learn-reading-check",
+    "learn-summary-paraphrase",
+    "learn-vocabulary-recall",
+    "typing-error-review",
+    "typing-precision-copy",
+    "typing-restricted-keys"
   ],
   "models": [
     "live2d:1"
@@ -740,6 +755,21 @@
     "prompts/builtin-english-companion.json",
     "prompts/builtin-english-only.json",
     "prompts/builtin-typing-article.json",
+    "prompts/image-preposition-cards.json",
+    "prompts/image-scene-vocabulary.json",
+    "prompts/image-spelling-tiles.json",
+    "prompts/image-story-sequence.json",
+    "prompts/image-vocabulary-card.json",
+    "prompts/learn-collocation-lab.json",
+    "prompts/learn-email-practice.json",
+    "prompts/learn-everyday-roleplay.json",
+    "prompts/learn-grammar-repair.json",
+    "prompts/learn-reading-check.json",
+    "prompts/learn-summary-paraphrase.json",
+    "prompts/learn-vocabulary-recall.json",
+    "prompts/typing-error-review.json",
+    "prompts/typing-precision-copy.json",
+    "prompts/typing-restricted-keys.json",
     "qwerty/sounds/beep.wav",
     "qwerty/sounds/click.wav",
     "qwerty/sounds/correct.wav",
@@ -747,5 +777,5 @@
     "xlsx.mjs",
     "yuki-avatar.png"
   ],
-  "payload_bytes": 65063892
+  "payload_bytes": 65115074
 }

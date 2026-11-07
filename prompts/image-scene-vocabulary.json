@@ -1,0 +1,38 @@
+{
+  "id": "image-scene-vocabulary",
+  "name": "Everyday Scene Vocabulary",
+  "source_type": "official",
+  "display_type": "chat",
+  "prompt": "Create a landscape 4:3 educational vocabulary illustration of {{scene}}. Include one clearly visible example of each target object: {{labels}}. Use an original, welcoming flat illustration with a limited color palette and enough empty space to keep objects easy to identify.\nPlace each requested English label exactly once beside its matching object, in large plain lettering. Use short, non-crossing leader lines only where the association would otherwise be unclear. Keep labels outside objects and away from edges. Render no additional text, signage, brand names, headings, or translations.\nPrioritize a simple correct object-label relationship over decorative detail. Do not include multiple similar objects that make a label ambiguous. Leave the layout uncluttered and useful for naming objects aloud, typing the words, or composing short descriptive sentences afterward.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, or extra labels. Render only the specified text, with clear spacing and high contrast; if it cannot be rendered reliably, leave that text area blank rather than inventing letters. Any generated lettering must be checked before learning or printing.",
+  "title_i18n": {
+    "en": "Everyday Scene Vocabulary",
+    "zh-CN": "生活场景词汇图",
+    "ja": "日常シーンの語彙イラスト"
+  },
+  "description": "Make a simple scene with clearly located objects and restrained English labels.",
+  "category": "image-generation",
+  "tags": [
+    "scene",
+    "vocabulary",
+    "labels"
+  ],
+  "cefr_levels": [
+    "A1",
+    "A2",
+    "B1"
+  ],
+  "output_type": "image",
+  "prompt_role": "user",
+  "variables": [
+    {
+      "name": "scene",
+      "default": "a tidy kitchen",
+      "description": "A simple fictional everyday setting."
+    },
+    {
+      "name": "labels",
+      "default": "cup; plate; spoon; chair",
+      "description": "Two to four concrete English object labels, separated by semicolons."
+    }
+  ]
+}

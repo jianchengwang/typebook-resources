@@ -1,0 +1,37 @@
+{
+  "id": "image-preposition-cards",
+  "name": "Prepositions in Pictures",
+  "source_type": "official",
+  "display_type": "chat",
+  "prompt": "Create a landscape 3-by-2 educational card sheet to show English prepositions. Use {{object}} and {{reference}} consistently in every panel. The six panels, in reading order, illustrate exactly: in, on, under, next to, behind, in front of.\nMake the spatial relation physically clear and distinct. For \"in\", open the lid or use a cutaway so the object is visibly inside; for \"on\", close the lid and show contact with its top surface. For \"under\", use a simple raised support so the object can clearly sit below the box. For \"behind\", retain enough of the object to make its position clear. Use a simple shared viewpoint, soft grounding shadows, and no distracting props.\nBelow each panel, render only the corresponding preposition or phrase exactly as listed. Use large legible lettering, generous spacing, equal panel sizes, and a neutral background. Do not include a title, translation, arrows that obscure the scene, or extra labels.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, or extra labels. Render only the specified text, with clear spacing and high contrast; if it cannot be rendered reliably, leave that text area blank rather than inventing letters. Any generated lettering must be checked before learning or printing.",
+  "title_i18n": {
+    "en": "Prepositions in Pictures",
+    "zh-CN": "方位介词图卡",
+    "ja": "絵で学ぶ位置の前置詞"
+  },
+  "description": "Contrast spatial relationships using the same two objects across six panels.",
+  "category": "image-generation",
+  "tags": [
+    "grammar",
+    "prepositions",
+    "spatial"
+  ],
+  "cefr_levels": [
+    "A1",
+    "A2"
+  ],
+  "output_type": "image",
+  "prompt_role": "user",
+  "variables": [
+    {
+      "name": "object",
+      "default": "a red ball",
+      "description": "One small concrete object used in every panel."
+    },
+    {
+      "name": "reference",
+      "default": "a blue box with a flat lid",
+      "description": "A box-like container with a lid, suitable for all six spatial relationships."
+    }
+  ]
+}

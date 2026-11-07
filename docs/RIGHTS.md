@@ -64,3 +64,13 @@ redistributed. This does not change the rights status of pre-existing assets.
 
 See [the import documentation](huggingface-readers.md) for the full reading list
 and reproducibility instructions.
+
+## Original learning prompt additions (November 2026)
+
+The 15 new learning, typing and image-generation templates, their descriptions,
+and all prompt display-title translations were newly authored for this catalog,
+not copied from third-party prompt collections. Original built-in prompt values
+remain unchanged. This addition does not relicense any existing resource or
+assert blanket rights over model-generated output. The image entries contain
+text templates only, not third-party illustrations or generated image assets.
+See [prompt usage and verification notes](prompts.md).

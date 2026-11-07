@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "typebook-official-resources",
-  "revision": "2026-11-07-multilingual-book-titles",
+  "revision": "2026-11-07-learning-prompts",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -40,12 +40,12 @@
     "chapters": 123,
     "dictionaries": 28,
     "dictionary_entries": 81119,
-    "prompts": 3,
+    "prompts": 18,
     "live2d_models": 8,
     "live2d_files": 158,
     "cloudflare_objects_verified": 218
   },
-  "total_bytes": 272593516,
+  "total_bytes": 272683780,
   "files": [
     {
       "path": ".gitattributes",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5650,
-      "sha256": "6cbb98d5ca45058b555735adfa4da16bb53f5ec72d3b07106d626ed9b851510b",
+      "bytes": 6768,
+      "sha256": "d54e66e820b95af5a8ff1d5511ccc57e5c405b69a2e1aea4eb49fad1a2418228",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -6309,15 +6309,15 @@
     },
     {
       "path": "catalogs/prompts.json",
-      "bytes": 629,
-      "sha256": "240102eb1eac6b96ef96bd189835fa973b846c7f1d58c647209979b3cb78ea43",
+      "bytes": 18419,
+      "sha256": "5f5fc0bd422092ec19dd2587915bf70d9ba060bbbba7cf9ee306ff5f8dfe4862",
       "content_type": "application/json",
       "category": "catalog"
     },
     {
       "path": "catalogs/summary.json",
-      "bytes": 268,
-      "sha256": "ae7eead3ac05929455e81062286eb3e9233bdc9d986748b0cdd80dd57c353198",
+      "bytes": 269,
+      "sha256": "e6fb034aa87b48e4d2516aa2aecc40b4686bf7219aba178407b6f417ff9bef4a",
       "content_type": "application/json",
       "category": "catalog"
     },
@@ -6692,8 +6692,8 @@
     },
     {
       "path": "docs/RIGHTS.md",
-      "bytes": 3446,
-      "sha256": "ced4ef4ba19da35eac831405d78a246e5882424593d4aa2971a33767c7eb6475",
+      "bytes": 4028,
+      "sha256": "debf0417beccd0830fb204152b071810c9afe5ae26c5bf2c85e065f04ca0165d",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -6715,6 +6715,13 @@
       "path": "docs/huggingface-readers.md",
       "bytes": 25180,
       "sha256": "02616dbda1d72fe723168a38bc74311339f29f8a74b67ddcd45e94b6ae67263d",
+      "content_type": "text/markdown",
+      "category": "documentation"
+    },
+    {
+      "path": "docs/prompts.md",
+      "bytes": 11156,
+      "sha256": "2bd332262598ba5ed1f58e2a51f9b130e6b4c659721e22c43a1cf5990cbfef0c",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -8755,42 +8762,195 @@
     },
     {
       "path": "profiles/default.json",
-      "bytes": 30234,
-      "sha256": "31aaa679edb18821fdec3d9e2e0c7203acec9090c720842973b67c25b8cc717b",
+      "bytes": 31305,
+      "sha256": "396456fe1be896f7f155b924f9822857bd30347b077195967c9107384835ed84",
       "content_type": "application/json",
       "category": "profile"
     },
     {
       "path": "prompts/builtin-english-companion.json",
-      "bytes": 1805,
-      "sha256": "1ad3462665835f9296ec2eaa4b60726dcb85f8e4df39d5fced1921f30476924d",
+      "bytes": 2249,
+      "sha256": "109686081e6639c2b21dee58312846ebdffb402b01178650f24232ae07c554b2",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
         "kind": "frontend-builtin",
-        "source_file": "shared/yukiBuiltinPrompts.ts"
+        "source_file": "shared/yukiBuiltinPrompts.ts",
+        "metadata_note": "Additive display and usage metadata authored in this resource repository; original prompt fields preserved."
       }
     },
     {
       "path": "prompts/builtin-english-only.json",
-      "bytes": 978,
-      "sha256": "e481fc1b7165a19d3b0a9427ab5fd9a26815aef31ab17e3e60fffd8fa78545cb",
+      "bytes": 1401,
+      "sha256": "0a9fd7ea77ff24a572062778833768e405741c3ba8d9e736ba4d1a2c51f13905",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
         "kind": "frontend-builtin",
-        "source_file": "shared/yukiBuiltinPrompts.ts"
+        "source_file": "shared/yukiBuiltinPrompts.ts",
+        "metadata_note": "Additive display and usage metadata authored in this resource repository; original prompt fields preserved."
       }
     },
     {
       "path": "prompts/builtin-typing-article.json",
-      "bytes": 1452,
-      "sha256": "ac5a9c2a89263b31692c83ce1b6f9287268f90c9bf3cd1dce6b5402bbd888df5",
+      "bytes": 1892,
+      "sha256": "fa6ee7a809db8dadc24bd2bbe253ffb81118fb2d26df2368be92767cf8ebd8f2",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
         "kind": "frontend-builtin",
-        "source_file": "shared/yukiBuiltinPrompts.ts"
+        "source_file": "shared/yukiBuiltinPrompts.ts",
+        "metadata_note": "Additive display and usage metadata authored in this resource repository; original prompt fields preserved."
+      }
+    },
+    {
+      "path": "prompts/image-preposition-cards.json",
+      "bytes": 2263,
+      "sha256": "21e66c73385ad1ba304b7072e16f9c29858b52228e9f06b39f65af1969101772",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/image-scene-vocabulary.json",
+      "bytes": 2194,
+      "sha256": "8aad6f3090ea8fa81f24520fe50bac345f7f301d37160da4fbc823cca613a8d5",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/image-spelling-tiles.json",
+      "bytes": 2151,
+      "sha256": "452c03aad067ae0d8255b422f9abbdfaed145411a2fc7aeae1d92f8a6173cd8d",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/image-story-sequence.json",
+      "bytes": 1958,
+      "sha256": "4ce089e3d56511a87998550415221fd37747c0197b1cb28940f3e273ca086300",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/image-vocabulary-card.json",
+      "bytes": 2280,
+      "sha256": "75980fb308d9c529412a2206d007da085715e57a1d3765113e184e27113ad2ba",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-collocation-lab.json",
+      "bytes": 2107,
+      "sha256": "23ba3acc90f46dd139bbc70f3a76364274911696a41b745958c8bbbcb1957f37",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-email-practice.json",
+      "bytes": 2175,
+      "sha256": "1b6b9fb896ff01bb9a6a745291a88033445c7780790e3073e0da1e35d7b809e4",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-everyday-roleplay.json",
+      "bytes": 2096,
+      "sha256": "ee94008f397f5bb84591613cd00d0855b43456ad4854d78cfa31926c1d17146f",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-grammar-repair.json",
+      "bytes": 2196,
+      "sha256": "3834893f8c72ae3917d9c8a976820e46d8911dc21cc2875c81438de44a92ee6e",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-reading-check.json",
+      "bytes": 2144,
+      "sha256": "a3b1e3829d3cbba567eeb4722fc577446b11a38b3c877b5f6e49df27629fab60",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-summary-paraphrase.json",
+      "bytes": 2211,
+      "sha256": "107f5e4bddd7362a18206277c47fd846f9e2cc1e86c76b0441548c97382cc086",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/learn-vocabulary-recall.json",
+      "bytes": 2237,
+      "sha256": "5b8698d543ee7292e2166b46f9d90f78bfc2c4b2bf3ad9560349178e39e6e73a",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/typing-error-review.json",
+      "bytes": 1994,
+      "sha256": "651c9837d3e59722e378a22c023ce4b5ab0ae803b14f90c8e9bcb92f23e6d7aa",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/typing-precision-copy.json",
+      "bytes": 2179,
+      "sha256": "b26266849e0387fecbec702b9ecf4bf4e5349df5a579ef9e0f8325d37e3e6d1d",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
+      }
+    },
+    {
+      "path": "prompts/typing-restricted-keys.json",
+      "bytes": 1900,
+      "sha256": "9dbdcb37755791d7fe781080f72b5e5ec57fe3982b1faaeb10c1f375ec9ced38",
+      "content_type": "application/json",
+      "category": "prompt",
+      "source": {
+        "kind": "original-typebook-prompt"
       }
     },
     {
@@ -8848,6 +9008,13 @@
       "category": "tooling"
     },
     {
+      "path": "tests/test_prompts.py",
+      "bytes": 12795,
+      "sha256": "2c35d5289d1b055eb3a93660333f825b992de7257b6842e2f275fb0774235449",
+      "content_type": "text/x-python",
+      "category": "tooling"
+    },
+    {
       "path": "tools/book_titles.json",
       "bytes": 14240,
       "sha256": "f2ee7956cb40cf6d07b7cd52f79b792deebafe2369388a83eb2ee895d87b7f19",
@@ -8863,15 +9030,22 @@
     },
     {
       "path": "tools/import_hf_readers.py",
-      "bytes": 28336,
-      "sha256": "8f0aa7d288b613cd01eea105e3f6d3257b3637cab6801fcb1460e80731f159d6",
+      "bytes": 28753,
+      "sha256": "750ce14714618a3e2167b1ff094589a036e12dc1ecd989df9cae7f607e2c49cf",
+      "content_type": "text/x-python",
+      "category": "tooling"
+    },
+    {
+      "path": "tools/rebuild_prompts.py",
+      "bytes": 11043,
+      "sha256": "49e7014de2736a1f712f37d9ba88dc345e9b7d948270d797f5ebf03472461de3",
       "content_type": "text/x-python",
       "category": "tooling"
     },
     {
       "path": "tools/verify.py",
-      "bytes": 8343,
-      "sha256": "1d9b750b3aa93060254628660bf1fd92dabfdddc93ded23804a296c1f038e07f",
+      "bytes": 9242,
+      "sha256": "7cff9aaaca35ed19ca4ec74488252598075aa27e3264dc992a0aa0f9b84597da",
       "content_type": "text/x-python",
       "category": "tooling"
     },

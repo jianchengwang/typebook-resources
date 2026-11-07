@@ -305,7 +305,12 @@ def make_plan(root, config, new_books, outputs):
             entry["source"] = {"kind": "curated-huggingface-import", "import_id": config["import_id"], "provenance": str(pathlib.PurePosixPath(relative).parents[1] if "/chapters/" in relative else pathlib.PurePosixPath(relative).parent) + "/source.json"}
         files.append(entry)
     manifest = dict(old_manifest)
-    manifest.update(revision=config["revision"], counts=summary, files=files, total_bytes=sum(item["bytes"] for item in files))
+    # Do not roll back an independent prompt/catalog revision on a no-op book import.
+    changed_book_data = any(not (root / p).is_file() or (root / p).read_bytes() != data
+                            for p, data in outputs.items()
+                            if p.startswith("books/") or p == "catalogs/books.json")
+    revision = config["revision"] if changed_book_data else old_manifest.get("revision", config["revision"])
+    manifest.update(revision=revision, counts=summary, files=files, total_bytes=sum(item["bytes"] for item in files))
     outputs["manifest.json"] = json_bytes(manifest)
     return outputs
 

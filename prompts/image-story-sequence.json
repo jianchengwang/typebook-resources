@@ -1,0 +1,33 @@
+{
+  "id": "image-story-sequence",
+  "name": "Four-panel Story Prompts",
+  "source_type": "official",
+  "display_type": "chat",
+  "prompt": "Create a landscape four-panel picture sequence for English speaking and typing practice. Story brief: {{story}}. Arrange four equally sized panels from left to right, with clear gutters. Show one key event per panel in a logically readable order, with consistent original characters, objects, and setting.\nUse a clean, friendly illustration style and emphasize visible actions, changes, and cause and effect. Keep background details restrained so an A2-B1 learner can describe what happens; more advanced learners can add their own connections. Do not introduce an unexplained extra event or change a character's identity between panels.\nUse no text at all: no captions, panel numbers, speech bubbles, signs, labels, or letters. The result should invite learners to write their own sentences rather than reveal a prewritten answer. Do not depict real people or use a recognizable copyrighted character.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, labels, letters, or numerals. Keep every panel completely text-free.",
+  "title_i18n": {
+    "en": "Four-panel Story Prompts",
+    "zh-CN": "四格故事表达图",
+    "ja": "4コマで話すストーリー"
+  },
+  "description": "Generate a wordless story sequence for describing events and writing short sentences.",
+  "category": "image-generation",
+  "tags": [
+    "storytelling",
+    "sequence",
+    "text-free"
+  ],
+  "cefr_levels": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "output_type": "image",
+  "prompt_role": "user",
+  "variables": [
+    {
+      "name": "story",
+      "default": "A person plants a seed, waters it, sees a sprout, and later picks a flower.",
+      "description": "A fictional four-step sequence with a clear beginning and end."
+    }
+  ]
+}

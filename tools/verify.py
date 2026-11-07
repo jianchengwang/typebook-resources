@@ -6,6 +6,7 @@ import pathlib
 import sys
 from urllib.parse import unquote
 from import_hf_readers import apply_title_translations
+from rebuild_prompts import catalog_entry, load_prompts
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -122,9 +123,12 @@ def main():
     for collection in catalogs["collections"]:
         require(collection["item_count"] == len(collection["items"]), "Collection size mismatch")
         require(all(item in article_ids for item in collection["items"]), "Unknown collection article")
+    prompt_sources = {p["id"]: p for p in load_prompts(ROOT)}
+    require(set(prompt_sources) == {p["id"] for p in catalogs["prompts"]}, "Prompt source/catalog IDs differ")
     for prompt in catalogs["prompts"]:
-        stored = read_json(prompt["path"])
-        require(stored["id"] == prompt["id"] and stored["prompt"].strip(), "Invalid prompt")
+        require(prompt == catalog_entry(prompt_sources[prompt["id"]]), "Prompt metadata differs: " + prompt["id"])
+    require(catalogs["summary"]["prompts"] == len(prompt_sources), "Prompt summary count mismatch")
+    require(manifest["counts"] == catalogs["summary"], "Manifest summary counts differ")
     dependencies = 0
     for model in catalogs["live2d"]:
         files = [item for name, item in recorded.items() if name.startswith(model["directory"])]
@@ -139,6 +143,8 @@ def main():
     require(all(path in recorded for path in profile["files"]), "Unknown default-profile file")
     require(sum(recorded[path]["bytes"] for path in profile["files"]) == profile["payload_bytes"], "Default-profile size mismatch")
     default_paths = set(profile["files"])
+    require(set(profile["prompts"]) == set(prompt_sources), "Default profile must include all prompts")
+    require(all(p["path"] in default_paths for p in catalogs["prompts"]), "Default profile missing prompt payload")
     for name, key in (("books", "books"), ("dictionaries", "dictionaries"), ("articles", "articles"),
                       ("collections", "collections"), ("prompts", "prompts"), ("live2d", "models")):
         require(set(profile[key]) <= {item["id"] for item in catalogs[name]}, "Unknown default-profile ID: " + key)
@@ -153,7 +159,11 @@ def main():
         "books_with_localized_titles": len(localized), "title_locales": ["en", "zh-CN", "ja"],
         "dictionaries": len(catalogs["dictionaries"]), "dictionary_entries": dictionary_entries,
         "articles": len(catalogs["articles"]), "collections": len(catalogs["collections"]),
-        "prompts": len(catalogs["prompts"]), "models": len(catalogs["live2d"]),
+        "prompts": len(catalogs["prompts"]),
+        "prompts_with_localized_titles": len(prompt_sources),
+        "prompt_categories": {category: sum(p["category"] == category for p in prompt_sources.values())
+                              for category in ("english-learning", "typing-practice", "image-generation")},
+        "models": len(catalogs["live2d"]),
         "model_dependencies_verified": dependencies, "default_profile_bytes": profile["payload_bytes"]
     }, indent=2))
 

@@ -5,6 +5,28 @@
     "source_type": "official",
     "display_type": "reading",
     "legacy_id": -1,
+    "title_i18n": {
+      "en": "Typing article",
+      "zh-CN": "打字练习文章",
+      "ja": "タイピング練習用の文章"
+    },
+    "description": "Original level-targeted prose for typing practice.",
+    "category": "typing-practice",
+    "tags": [
+      "passages",
+      "plain-text"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "output_type": "text",
+    "prompt_role": "system",
+    "variables": [],
     "path": "prompts/builtin-typing-article.json"
   },
   {
@@ -13,6 +35,28 @@
     "source_type": "official",
     "display_type": "chat",
     "legacy_id": -2,
+    "title_i18n": {
+      "en": "English companion",
+      "zh-CN": "英语学习伙伴",
+      "ja": "英語学習パートナー"
+    },
+    "description": "Natural conversation with optional gentle corrections.",
+    "category": "english-learning",
+    "tags": [
+      "conversation",
+      "feedback"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "output_type": "text",
+    "prompt_role": "system",
+    "variables": [],
     "path": "prompts/builtin-english-companion.json"
   },
   {
@@ -21,6 +65,625 @@
     "source_type": "official",
     "display_type": "chat",
     "legacy_id": -3,
+    "title_i18n": {
+      "en": "English-only Chat",
+      "zh-CN": "纯英语聊天",
+      "ja": "英語だけで会話"
+    },
+    "description": "Concise conversation entirely in English.",
+    "category": "english-learning",
+    "tags": [
+      "conversation",
+      "immersion"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "output_type": "text",
+    "prompt_role": "system",
+    "variables": [],
     "path": "prompts/builtin-english-only.json"
+  },
+  {
+    "id": "image-preposition-cards",
+    "name": "Prepositions in Pictures",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Prepositions in Pictures",
+      "zh-CN": "方位介词图卡",
+      "ja": "絵で学ぶ位置の前置詞"
+    },
+    "description": "Contrast spatial relationships using the same two objects across six panels.",
+    "category": "image-generation",
+    "tags": [
+      "grammar",
+      "prepositions",
+      "spatial"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2"
+    ],
+    "output_type": "image",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "object",
+        "default": "a red ball",
+        "description": "One small concrete object used in every panel."
+      },
+      {
+        "name": "reference",
+        "default": "a blue box with a flat lid",
+        "description": "A box-like container with a lid, suitable for all six spatial relationships."
+      }
+    ],
+    "path": "prompts/image-preposition-cards.json"
+  },
+  {
+    "id": "image-scene-vocabulary",
+    "name": "Everyday Scene Vocabulary",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Everyday Scene Vocabulary",
+      "zh-CN": "生活场景词汇图",
+      "ja": "日常シーンの語彙イラスト"
+    },
+    "description": "Make a simple scene with clearly located objects and restrained English labels.",
+    "category": "image-generation",
+    "tags": [
+      "scene",
+      "vocabulary",
+      "labels"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "output_type": "image",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "scene",
+        "default": "a tidy kitchen",
+        "description": "A simple fictional everyday setting."
+      },
+      {
+        "name": "labels",
+        "default": "cup; plate; spoon; chair",
+        "description": "Two to four concrete English object labels, separated by semicolons."
+      }
+    ],
+    "path": "prompts/image-scene-vocabulary.json"
+  },
+  {
+    "id": "image-spelling-tiles",
+    "name": "Spelling with Letter Tiles",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Spelling with Letter Tiles",
+      "zh-CN": "字母拼写图卡",
+      "ja": "文字タイルでつづる単語カード"
+    },
+    "description": "Combine one object illustration with an ordered row of clearly separated letter tiles.",
+    "category": "image-generation",
+    "tags": [
+      "spelling",
+      "letters",
+      "flashcard"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2"
+    ],
+    "output_type": "image",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "word",
+        "default": "cat",
+        "description": "One concrete English word, ideally three to six lowercase letters."
+      },
+      {
+        "name": "meaning",
+        "default": "a sitting domestic cat",
+        "description": "A clear visual description of the target word."
+      }
+    ],
+    "path": "prompts/image-spelling-tiles.json"
+  },
+  {
+    "id": "image-story-sequence",
+    "name": "Four-panel Story Prompts",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Four-panel Story Prompts",
+      "zh-CN": "四格故事表达图",
+      "ja": "4コマで話すストーリー"
+    },
+    "description": "Generate a wordless story sequence for describing events and writing short sentences.",
+    "category": "image-generation",
+    "tags": [
+      "storytelling",
+      "sequence",
+      "text-free"
+    ],
+    "cefr_levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "output_type": "image",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "story",
+        "default": "A person plants a seed, waters it, sees a sprout, and later picks a flower.",
+        "description": "A fictional four-step sequence with a clear beginning and end."
+      }
+    ],
+    "path": "prompts/image-story-sequence.json"
+  },
+  {
+    "id": "image-vocabulary-card",
+    "name": "Illustrated Vocabulary Card",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Illustrated Vocabulary Card",
+      "zh-CN": "插画单词卡",
+      "ja": "イラスト単語カード"
+    },
+    "description": "Create a single visual word card with one clear illustration and one exact label.",
+    "category": "image-generation",
+    "tags": [
+      "flashcard",
+      "vocabulary",
+      "illustration"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "output_type": "image",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "word",
+        "default": "apple",
+        "description": "One English word to render exactly."
+      },
+      {
+        "name": "meaning",
+        "default": "a whole red apple with a green leaf",
+        "description": "A concrete visual sense, not a translation label."
+      },
+      {
+        "name": "style",
+        "default": "simple flat illustration",
+        "description": "A general visual style, not a named artist."
+      }
+    ],
+    "path": "prompts/image-vocabulary-card.json"
+  },
+  {
+    "id": "learn-collocation-lab",
+    "name": "Collocation Lab",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Collocation Lab",
+      "zh-CN": "英语搭配练习室",
+      "ja": "自然な語の組み合わせ練習"
+    },
+    "description": "Learn natural word partners through contextual choices and short rewrites.",
+    "category": "english-learning",
+    "tags": [
+      "vocabulary",
+      "collocations",
+      "usage"
+    ],
+    "cefr_levels": [
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "word",
+        "default": "decision",
+        "description": "One English word or short phrase."
+      },
+      {
+        "name": "level",
+        "default": "B2",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-collocation-lab.json"
+  },
+  {
+    "id": "learn-email-practice",
+    "name": "Everyday Email Practice",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Everyday Email Practice",
+      "zh-CN": "日常英文邮件练习",
+      "ja": "日常の英文メール練習"
+    },
+    "description": "Draft a fictional practical email and revise its clarity, tone, and wording.",
+    "category": "english-learning",
+    "tags": [
+      "writing",
+      "email",
+      "tone"
+    ],
+    "cefr_levels": [
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "situation",
+        "default": "asking a classmate to reschedule a study session",
+        "description": "A fictional low-stakes writing scenario."
+      },
+      {
+        "name": "level",
+        "default": "B1",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-email-practice.json"
+  },
+  {
+    "id": "learn-everyday-roleplay",
+    "name": "Everyday Role-play",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Everyday Role-play",
+      "zh-CN": "日常情景角色扮演",
+      "ja": "日常場面のロールプレイ"
+    },
+    "description": "Rehearse a practical situation through realistic turns and a short recap.",
+    "category": "english-learning",
+    "tags": [
+      "conversation",
+      "roleplay",
+      "real-life"
+    ],
+    "cefr_levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "scenario",
+        "default": "ordering a snack at a cafe",
+        "description": "A fictional everyday situation."
+      },
+      {
+        "name": "level",
+        "default": "A2",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-everyday-roleplay.json"
+  },
+  {
+    "id": "learn-grammar-repair",
+    "name": "Grammar Repair Workshop",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Grammar Repair Workshop",
+      "zh-CN": "语法纠错练习坊",
+      "ja": "文法リペア練習"
+    },
+    "description": "Correct one grammar point at a time with explanations and a fresh retry.",
+    "category": "english-learning",
+    "tags": [
+      "grammar",
+      "editing",
+      "feedback"
+    ],
+    "cefr_levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "grammar",
+        "default": "past simple versus present perfect",
+        "description": "One grammar point."
+      },
+      {
+        "name": "level",
+        "default": "B1",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-grammar-repair.json"
+  },
+  {
+    "id": "learn-reading-check",
+    "name": "Read, Recall, Explain",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Read, Recall, Explain",
+      "zh-CN": "阅读、回忆与表达",
+      "ja": "読んで、思い出して、説明する"
+    },
+    "description": "Read a short original passage and discuss comprehension without answer spoilers.",
+    "category": "english-learning",
+    "tags": [
+      "reading",
+      "comprehension",
+      "retrieval"
+    ],
+    "cefr_levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "topic",
+        "default": "a community garden",
+        "description": "A non-sensitive topic for original practice material."
+      },
+      {
+        "name": "level",
+        "default": "B1",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-reading-check.json"
+  },
+  {
+    "id": "learn-summary-paraphrase",
+    "name": "Summarize and Paraphrase",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Summarize and Paraphrase",
+      "zh-CN": "摘要与改写训练",
+      "ja": "要約とパラフレーズ練習"
+    },
+    "description": "Practice concise, accurate summaries while preserving meaning and uncertainty.",
+    "category": "english-learning",
+    "tags": [
+      "writing",
+      "summarizing",
+      "paraphrasing"
+    ],
+    "cefr_levels": [
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "topic",
+        "default": "why small habits can be easier to maintain",
+        "description": "A non-sensitive topic for original practice material."
+      },
+      {
+        "name": "level",
+        "default": "B2",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-summary-paraphrase.json"
+  },
+  {
+    "id": "learn-vocabulary-recall",
+    "name": "Vocabulary Recall Coach",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Vocabulary Recall Coach",
+      "zh-CN": "词汇主动回忆教练",
+      "ja": "語彙の思い出し練習"
+    },
+    "description": "Practice meaning-to-word recall, contextual use, and retrying missed words.",
+    "category": "english-learning",
+    "tags": [
+      "vocabulary",
+      "retrieval",
+      "feedback"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "words",
+        "default": "borrow, lend, return, keep",
+        "description": "Three to eight English words to practice."
+      },
+      {
+        "name": "level",
+        "default": "B1",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      },
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/learn-vocabulary-recall.json"
+  },
+  {
+    "id": "typing-error-review",
+    "name": "Typing Error Review",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Typing Error Review",
+      "zh-CN": "打字错误复盘",
+      "ja": "タイピングミスの振り返り"
+    },
+    "description": "Compare a short source and typed attempt, then prepare a focused clean retry.",
+    "category": "typing-practice",
+    "tags": [
+      "feedback",
+      "error-review",
+      "accuracy"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "feedback_language",
+        "default": "English",
+        "description": "Language for brief explanations; practice answers remain in English."
+      }
+    ],
+    "path": "prompts/typing-error-review.json"
+  },
+  {
+    "id": "typing-precision-copy",
+    "name": "Punctuation and Number Practice",
+    "source_type": "official",
+    "display_type": "reading",
+    "title_i18n": {
+      "en": "Punctuation and Number Practice",
+      "zh-CN": "标点与数字精确打字",
+      "ja": "句読点と数字を正確に打つ練習"
+    },
+    "description": "Copy a short scene containing dialogue punctuation, times, quantities, and symbols.",
+    "category": "typing-practice",
+    "tags": [
+      "punctuation",
+      "numbers",
+      "symbols"
+    ],
+    "cefr_levels": [
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "topic",
+        "default": "planning a small picnic",
+        "description": "A fictional low-stakes setting for the scene."
+      },
+      {
+        "name": "level",
+        "default": "B1",
+        "description": "Target CEFR writing difficulty, not a proficiency assessment."
+      }
+    ],
+    "path": "prompts/typing-precision-copy.json"
+  },
+  {
+    "id": "typing-restricted-keys",
+    "name": "Restricted-key Typing Drill",
+    "source_type": "official",
+    "display_type": "reading",
+    "title_i18n": {
+      "en": "Restricted-key Typing Drill",
+      "zh-CN": "限定按键打字练习",
+      "ja": "使用キーを絞ったタイピング練習"
+    },
+    "description": "Practice a restricted letter set with short real words and comfortable repetition.",
+    "category": "typing-practice",
+    "tags": [
+      "keyboard",
+      "restricted-keys",
+      "accuracy"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2"
+    ],
+    "output_type": "text",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "letters",
+        "default": "asdfjkl",
+        "description": "Allowed lowercase English letters, without punctuation."
+      }
+    ],
+    "path": "prompts/typing-restricted-keys.json"
   }
 ]

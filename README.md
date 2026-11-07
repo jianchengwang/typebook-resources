@@ -12,7 +12,7 @@ the application source remains in its existing repository.
 | Additional starter articles | 3 original articles retained in the official catalog |
 | Books | 100 books, 123 stored chapters and 100 covers |
 | Dictionaries | 28 dictionaries, 81,119 entries |
-| Yuki prompts | 3 built-in modes |
+| Learning prompts | 3 preserved built-ins + 15 distinct learning, typing and image tasks; titles in English, Chinese and Japanese |
 | Live2D models | 8 models, 158 files |
 | Browser support assets | Existing speech model, WASM/runtime files, Live2D core and other public assets |
 
@@ -41,6 +41,20 @@ The existing English `title`, chapter text and original credits are unchanged.
 See [the field contract and reproducible editing workflow](docs/book-titles.md).
 Application integration is separate; this resource update does not deploy the site.
 
+## Learning and typing prompts
+
+The 18-prompt catalog preserves the original 3 built-ins and adds 15 focused
+workflows: 7 English learning tasks, 3 typing tasks and 5 image generation tasks.
+These include role-play, active vocabulary recall, grammar repair, precise
+punctuation/number copying, typed-error review, word cards, spelling tiles and
+wordless story sequences. Similar variants were deliberately consolidated.
+All prompts include additive `title_i18n` labels for `en`, `zh-CN` and `ja`,
+plus task, output and placeholder metadata. Existing English `name` values and
+the three original prompt bodies are unchanged. See [task selection, field
+contracts and local rendering](docs/prompts.md). Image entries are templates,
+not generated images; a compatible consumer route is required. Application
+integration and deployment remain separate.
+
 ## Layout
 
 ```text
@@ -52,14 +66,15 @@ books/                       Chapter text and covers
 collections/demo-anthology/  Original demo articles
 articles/starter/            Existing additional starter articles
 dictionaries/                Complete official dictionary JSON
-prompts/                     Default prompt JSON
+prompts/                     Prompt source JSON and localized display metadata
 live2d/models/               All eight model directories and their dependencies
 paradee/, onnx-runtime/      Existing browser speech assets
 tools/verify.py              Offline integrity and dependency checks
 tools/import_hf_readers.py   Pinned, license-checked English reader importer
 tools/hf_readers.json        Curated reading list and upstream checksums
-tools/book_titles.json        English, Chinese and Japanese display titles
-tests/                      Offline importer regression tests
+tools/book_titles.json       English, Chinese and Japanese book display titles
+tools/rebuild_prompts.py     Offline prompt validation, rendering and catalog rebuild
+tests/                      Offline importer and prompt regression tests
 docs/                       Hosting, frontend integration and rights notes
 ```
 
@@ -73,6 +88,7 @@ It contains no API keys, credentials, private user content or user progress.
 Python 3 is sufficient; no npm installation or backend is needed.
 
 ```sh
+python3 tools/rebuild_prompts.py --check
 python3 tools/verify.py
 python3 -m unittest discover -s tests -v
 ```

@@ -1,0 +1,43 @@
+{
+  "id": "image-vocabulary-card",
+  "name": "Illustrated Vocabulary Card",
+  "source_type": "official",
+  "display_type": "chat",
+  "prompt": "Create one English vocabulary flashcard in a portrait 4:5 composition. Target word: {{word}}. Illustrate this meaning: {{meaning}}. Use {{style}}, a plain warm-white background, generous margins, and a single unmistakable focal object. Keep the subject separate from the text.\nReserve the lower quarter for exactly this lowercase or case-sensitive label as supplied: {{word}}. Use large, plain, easy-to-read lettering. Do not include a translation, example sentence, pronunciation guide, frame title, or other words. The illustration must convey the specified sense rather than an unrelated meaning of the word.\nKeep details simple enough for a beginner to recognize at a glance, and make the card suitable for screen viewing or later printing. This is a visual draft, not a guarantee of exact print dimensions or spelling accuracy.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, or extra labels. Render only the specified text, with clear spacing and high contrast; if it cannot be rendered reliably, leave that text area blank rather than inventing letters. Any generated lettering must be checked before learning or printing.",
+  "title_i18n": {
+    "en": "Illustrated Vocabulary Card",
+    "zh-CN": "插画单词卡",
+    "ja": "イラスト単語カード"
+  },
+  "description": "Create a single visual word card with one clear illustration and one exact label.",
+  "category": "image-generation",
+  "tags": [
+    "flashcard",
+    "vocabulary",
+    "illustration"
+  ],
+  "cefr_levels": [
+    "A1",
+    "A2",
+    "B1"
+  ],
+  "output_type": "image",
+  "prompt_role": "user",
+  "variables": [
+    {
+      "name": "word",
+      "default": "apple",
+      "description": "One English word to render exactly."
+    },
+    {
+      "name": "meaning",
+      "default": "a whole red apple with a green leaf",
+      "description": "A concrete visual sense, not a translation label."
+    },
+    {
+      "name": "style",
+      "default": "simple flat illustration",
+      "description": "A general visual style, not a named artist."
+    }
+  ]
+}
