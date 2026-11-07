@@ -39,3 +39,26 @@ items. Source database metadata used internally to prepare the export is not
 part of this publishable directory.
 
 No Cloudflare object or database resource was deleted or changed during export.
+
+## Individually licensed Hugging Face readers (November 2026)
+
+The 16 `books/asp-*/` additions are English African Storybook texts obtained
+through `cis-lmu/GlotStoryBook` on Hugging Face. Each story was checked against
+its original English Markdown and its own license entry in the upstream index,
+with publication credits also checked on Storybooks Canada. They are licensed
+CC BY 3.0 or CC BY 4.0, as identified per book.
+
+Each folder includes `LICENSE.md` (attribution and license link), `source.json`
+(immutable source revision, SHA-256, original links and transformation notes),
+and the selected original Markdown with its notices. Practice text changes are
+limited to whitespace, page-to-paragraph layout and keyboard-friendly quotation
+marks/dashes. No source illustrations are distributed. The SVG covers are
+new typographic designs, not copies of the source artwork.
+
+The Hugging Face dataset contains mixed licenses, including noncommercial
+material. Its top-level metadata is not treated as permission for every story.
+Only the explicitly curated CC BY texts are included; the full CSV is not
+redistributed. This does not change the rights status of pre-existing assets.
+
+See [the import documentation](huggingface-readers.md) for the full reading list
+and reproducibility instructions.

@@ -10,19 +10,25 @@ the application source remains in its existing repository.
 | --- | --- |
 | Demo anthology | 3 original articles |
 | Additional starter articles | 3 original articles retained in the official catalog |
-| Books | 3 books, 26 stored chapters and 3 covers |
+| Books | 19 books, 42 stored chapters and 19 covers |
 | Dictionaries | 28 dictionaries, 81,119 entries |
 | Yuki prompts | 3 built-in modes |
 | Live2D models | 8 models, 158 files |
 | Browser support assets | Existing speech model, WASM/runtime files, Live2D core and other public assets |
 
-Books:
+Original books:
 
 - A Christmas Carol, Charles Dickens: 5 stored chapters.
 - A Study in Scarlet, Arthur Conan Doyle: 14 stored chapters.
 - The Wind in the Willows, Kenneth Grahame: 7 stored chapters.
 
-Chapter boundaries and content are preserved as currently stored. This export
+The November 2026 reader addition contains 16 short English children’s books
+from Hugging Face’s GlotStoryBook dataset, individually verified as CC BY 3.0
+or CC BY 4.0. Each has one complete-story chapter (21–564 words), source
+attribution and an original typographic cover. See [the reading list and
+reproducible importer](docs/huggingface-readers.md).
+
+For the original three books, chapter boundaries and content are preserved as currently stored. This export
 does not assert that every edition's original chapter structure is represented.
 Dictionary JSON, chapter text, images and model binaries retain their original
 bytes. Git attributes disable newline conversion for payload files.
@@ -42,6 +48,9 @@ prompts/                     Default prompt JSON
 live2d/models/               All eight model directories and their dependencies
 paradee/, onnx-runtime/      Existing browser speech assets
 tools/verify.py              Offline integrity and dependency checks
+tools/import_hf_readers.py   Pinned, license-checked English reader importer
+tools/hf_readers.json        Curated reading list and upstream checksums
+tests/                      Offline importer regression tests
 docs/                       Hosting, frontend integration and rights notes
 ```
 
@@ -56,6 +65,7 @@ Python 3 is sufficient; no npm installation or backend is needed.
 
 ```sh
 python3 tools/verify.py
+python3 -m unittest discover -s tests -v
 ```
 
 The validator checks every recorded file's size and SHA-256, dictionary entry

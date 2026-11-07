@@ -419,5 +419,741 @@
         }
       }
     ]
+  },
+  {
+    "title": "Fire",
+    "author": "Deborah Namugosa, Beatrice Nabune, Alison Tukei, Rose Sabano",
+    "description": "Very short sentences about fire and safety. A 21-word English reader from African Storybook, imported through GlotStoryBook. Text by Deborah Namugosa, Beatrice Nabune, Alison Tukei, Rose Sabano; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0302_fire.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
+    "word_count": 21,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800302",
+    "legacy_id": 800302,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-fire/source.json"
+    },
+    "cover": {
+      "path": "books/asp-fire/cover.svg",
+      "sha256": "479de5f636af4d55584a10379ad4f59b78243ecfebc30e9f67dd68f8822cbb5a",
+      "bytes": 526
+    },
+    "chapters": [
+      {
+        "book_id": 800302,
+        "title": "Fire",
+        "chapter_number": 1,
+        "word_count": 21,
+        "revision": 1,
+        "id": "chapter:800302",
+        "legacy_id": 800302,
+        "source_url": "https://africanstorybook.org/reader.php?id=8565",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Deborah Namugosa, Beatrice Nabune, Alison Tukei, Rose Sabano. Original illustrations (not included): Rob Owen. Translation: Deborah Namugosa, Beatrice Nabune, Alison Tukei, Rose Sabano. African Storybook. Source: https://africanstorybook.org/reader.php?id=8565 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-fire/chapters/001.txt",
+          "sha256": "25f5d1e891aa5b521a698dbd47d9e7663194636e64913cf647b40b1ee5e64d1f",
+          "bytes": 131
+        }
+      }
+    ]
+  },
+  {
+    "title": "What are you doing?",
+    "author": "Nina Orange",
+    "description": "Everyday actions and repeated present-tense sentences. A 25-word English reader from African Storybook, imported through GlotStoryBook. Text by Nina Orange; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0008_what-are-you-doing.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
+    "word_count": 25,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800008",
+    "legacy_id": 800008,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-what-are-you-doing/source.json"
+    },
+    "cover": {
+      "path": "books/asp-what-are-you-doing/cover.svg",
+      "sha256": "8dca33d58d35dabf4518ea214ce80137b3a600567ac57ce2fdce5ca2d6c9da2e",
+      "bytes": 541
+    },
+    "chapters": [
+      {
+        "book_id": 800008,
+        "title": "What are you doing?",
+        "chapter_number": 1,
+        "word_count": 25,
+        "revision": 1,
+        "id": "chapter:800008",
+        "legacy_id": 800008,
+        "source_url": "https://africanstorybook.org/reader.php?id=7292",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Nina Orange. Original illustrations (not included): Wiehan de Jager. African Storybook. Source: https://africanstorybook.org/reader.php?id=7292 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-what-are-you-doing/chapters/001.txt",
+          "sha256": "40cf9303a969975c0626f13b1212a3d96b5bc9afd3b6607f716264d87d4ff321",
+          "bytes": 139
+        }
+      }
+    ]
+  },
+  {
+    "title": "I like to read!",
+    "author": "Letta Machoga",
+    "description": "Reading and family; repeated short questions. A 45-word English reader from African Storybook, imported through GlotStoryBook. Text by Letta Machoga; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0087_i-like-to-read.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
+    "word_count": 45,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800087",
+    "legacy_id": 800087,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-i-like-to-read/source.json"
+    },
+    "cover": {
+      "path": "books/asp-i-like-to-read/cover.svg",
+      "sha256": "63c5d31d3fbe707512b6e0fa793d59f99681426b0ffd619514d0546930eb00b7",
+      "bytes": 537
+    },
+    "chapters": [
+      {
+        "book_id": 800087,
+        "title": "I like to read!",
+        "chapter_number": 1,
+        "word_count": 45,
+        "revision": 1,
+        "id": "chapter:800087",
+        "legacy_id": 800087,
+        "source_url": "https://africanstorybook.org/reader.php?id=10547",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Letta Machoga. Original illustrations (not included): Wiehan de Jager. Translation: Letta Machoga. African Storybook. Source: https://africanstorybook.org/reader.php?id=10547 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-i-like-to-read/chapters/001.txt",
+          "sha256": "c0cc696105ffb240695fc1ff4e4676f07c9cf69e66b98ed155fb0ba2f753bbb0",
+          "bytes": 214
+        }
+      }
+    ]
+  },
+  {
+    "title": "Counting animals",
+    "author": "Zanele Buthelezi, Thembani Dladla, Clare Verbeek",
+    "description": "Numbers, animals and present-tense action words. A 74-word English reader from African Storybook, imported through GlotStoryBook. Text by Zanele Buthelezi, Thembani Dladla, Clare Verbeek; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0327_counting-animals.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
+    "word_count": 74,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800327",
+    "legacy_id": 800327,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-counting-animals/source.json"
+    },
+    "cover": {
+      "path": "books/asp-counting-animals/cover.svg",
+      "sha256": "eaf9e0301d826382b5b868cd6dfa69e98a9596f900dc426f4f95d0c74dd705c0",
+      "bytes": 538
+    },
+    "chapters": [
+      {
+        "book_id": 800327,
+        "title": "Counting animals",
+        "chapter_number": 1,
+        "word_count": 74,
+        "revision": 1,
+        "id": "chapter:800327",
+        "legacy_id": 800327,
+        "source_url": "https://africanstorybook.org/reader.php?id=9671",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Zanele Buthelezi, Thembani Dladla, Clare Verbeek. Original illustrations (not included): Rob Owen. African Storybook. Source: https://africanstorybook.org/reader.php?id=9671 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-counting-animals/chapters/001.txt",
+          "sha256": "e14262b9345485bf07f885a97bf333cecf145a75fded84ac4036bdabd0a8dab3",
+          "bytes": 407
+        }
+      }
+    ]
+  },
+  {
+    "title": "A very tall man",
+    "author": "Cornelius Gulere",
+    "description": "Adjectives and everyday objects in a playful story. A 79-word English reader from African Storybook, imported through GlotStoryBook. Text by Cornelius Gulere; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0001_a-very-tall-man.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
+    "word_count": 79,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800001",
+    "legacy_id": 800001,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-a-very-tall-man/source.json"
+    },
+    "cover": {
+      "path": "books/asp-a-very-tall-man/cover.svg",
+      "sha256": "bc39ed4ed5878b9436db746f6fcf9a01dc8b995083e58cf1aae966f3871475b5",
+      "bytes": 534
+    },
+    "chapters": [
+      {
+        "book_id": 800001,
+        "title": "A very tall man",
+        "chapter_number": 1,
+        "word_count": 79,
+        "revision": 1,
+        "id": "chapter:800001",
+        "legacy_id": 800001,
+        "source_url": "https://africanstorybook.org/reader.php?id=918",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Cornelius Gulere. Original illustrations (not included): Catherine Groenewald. African Storybook. Source: https://africanstorybook.org/reader.php?id=918 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-a-very-tall-man/chapters/001.txt",
+          "sha256": "c0df905de359f03593206437cfac2dfbbf936065c600715744b0cc07b09b1955",
+          "bytes": 379
+        }
+      }
+    ]
+  },
+  {
+    "title": "Zama is great!",
+    "author": "Michael Oguttu",
+    "description": "Daily routines, school and helping at home. A 127-word English reader from African Storybook, imported through GlotStoryBook. Text by Michael Oguttu; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0095_zama-is-great.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
+    "word_count": 127,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800095",
+    "legacy_id": 800095,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-zama-is-great/source.json"
+    },
+    "cover": {
+      "path": "books/asp-zama-is-great/cover.svg",
+      "sha256": "a0d58bc4e81005a372b33768b10784f3128692776ce97b23e8a5ae492066667b",
+      "bytes": 534
+    },
+    "chapters": [
+      {
+        "book_id": 800095,
+        "title": "Zama is great!",
+        "chapter_number": 1,
+        "word_count": 127,
+        "revision": 1,
+        "id": "chapter:800095",
+        "legacy_id": 800095,
+        "source_url": "https://africanstorybook.org/reader.php?id=9984",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Michael Oguttu. Original illustrations (not included): Vusi Malindi. Original adaptation: Nina Orange. African Storybook. Source: https://africanstorybook.org/reader.php?id=9984 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-zama-is-great/chapters/001.txt",
+          "sha256": "546923a17038b028d78bd524a14ab4b9f27678754dd19c11b9ebddd399b263b5",
+          "bytes": 636
+        }
+      }
+    ]
+  },
+  {
+    "title": "Tom the banana seller",
+    "author": "Humphreys Odunga",
+    "description": "Buying and selling food; questions and short dialogue. A 140-word English reader from African Storybook, imported through GlotStoryBook. Text by Humphreys Odunga; CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0296_tom-the-banana-seller.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
+    "word_count": 140,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800296",
+    "legacy_id": 800296,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-tom-the-banana-seller/source.json"
+    },
+    "cover": {
+      "path": "books/asp-tom-the-banana-seller/cover.svg",
+      "sha256": "f5079eeaad737df3b1ecec7ba00ea02642d44bb8bcb88ea69df93027c3ca6565",
+      "bytes": 541
+    },
+    "chapters": [
+      {
+        "book_id": 800296,
+        "title": "Tom the banana seller",
+        "chapter_number": 1,
+        "word_count": 140,
+        "revision": 1,
+        "id": "chapter:800296",
+        "legacy_id": 800296,
+        "source_url": "https://africanstorybook.org/reader.php?id=13627",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_label": "CC-BY-4.0",
+        "attribution": "Text: Humphreys Odunga. Original illustrations (not included): Zablon Alex Nguku. African Storybook. Source: https://africanstorybook.org/reader.php?id=13627 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-tom-the-banana-seller/chapters/001.txt",
+          "sha256": "b956681fd2e9803564ee7b46a5eecfae1647c8166763c33791116fe915b42ff8",
+          "bytes": 738
+        }
+      }
+    ]
+  },
+  {
+    "title": "Goat, Dog, and Cow",
+    "author": "Fabian Wakholi",
+    "description": "Animal characters, transport and simple past tense. A 148-word English reader from African Storybook, imported through GlotStoryBook. Text by Fabian Wakholi; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0004_goat-dog-and-cow.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
+    "word_count": 148,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800004",
+    "legacy_id": 800004,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-goat-dog-and-cow/source.json"
+    },
+    "cover": {
+      "path": "books/asp-goat-dog-and-cow/cover.svg",
+      "sha256": "ae8f8265d75afbc8e70db81ae09ed5f5fb2c66eacd218efb59d4fee68d1afaa4",
+      "bytes": 538
+    },
+    "chapters": [
+      {
+        "book_id": 800004,
+        "title": "Goat, Dog, and Cow",
+        "chapter_number": 1,
+        "word_count": 148,
+        "revision": 1,
+        "id": "chapter:800004",
+        "legacy_id": 800004,
+        "source_url": "https://africanstorybook.org/reader.php?id=6380",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Fabian Wakholi. Original illustrations (not included): Marleen Visser, Ingrid Schechter. African Storybook. Source: https://africanstorybook.org/reader.php?id=6380 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-goat-dog-and-cow/chapters/001.txt",
+          "sha256": "bdc43dbac81b7cee08a08735d0b5088350d52f5e7bcc053a5db24b81335d976a",
+          "bytes": 756
+        }
+      }
+    ]
+  },
+  {
+    "title": "Khalai talks to plants",
+    "author": "Ursula Nafula",
+    "description": "Plants, wishes and repeated requests. A 163-word English reader from African Storybook, imported through GlotStoryBook. Text by Ursula Nafula; CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0089_khalai-talks-to-plants.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
+    "word_count": 163,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800089",
+    "legacy_id": 800089,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-khalai-talks-to-plants/source.json"
+    },
+    "cover": {
+      "path": "books/asp-khalai-talks-to-plants/cover.svg",
+      "sha256": "99e8207811fc55ab7bb3e76c7baf1cb886095128a76c6dbe058c0a7863d22911",
+      "bytes": 542
+    },
+    "chapters": [
+      {
+        "book_id": 800089,
+        "title": "Khalai talks to plants",
+        "chapter_number": 1,
+        "word_count": 163,
+        "revision": 1,
+        "id": "chapter:800089",
+        "legacy_id": 800089,
+        "source_url": "https://africanstorybook.org/reader.php?id=13545",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_label": "CC-BY-4.0",
+        "attribution": "Text: Ursula Nafula. Original illustrations (not included): Jesse Pietersen. African Storybook. Source: https://africanstorybook.org/reader.php?id=13545 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-khalai-talks-to-plants/chapters/001.txt",
+          "sha256": "ab557c293dff0eda9f8fb9912bac15955e6cb51f2a8b9fe44f41600d355ae983",
+          "bytes": 904
+        }
+      }
+    ]
+  },
+  {
+    "title": "Decision",
+    "author": "Ursula Nafula",
+    "description": "A village works together to solve a problem. A 185-word English reader from African Storybook, imported through GlotStoryBook. Text by Ursula Nafula; CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0027_decision.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
+    "word_count": 185,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800027",
+    "legacy_id": 800027,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-decision/source.json"
+    },
+    "cover": {
+      "path": "books/asp-decision/cover.svg",
+      "sha256": "a7882e3da02a67bbb3bf671818c4d5fbbb82fcd0f4668bdbb275a954f44e5fad",
+      "bytes": 528
+    },
+    "chapters": [
+      {
+        "book_id": 800027,
+        "title": "Decision",
+        "chapter_number": 1,
+        "word_count": 185,
+        "revision": 1,
+        "id": "chapter:800027",
+        "legacy_id": 800027,
+        "source_url": "https://africanstorybook.org/reader.php?id=13304",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_label": "CC-BY-4.0",
+        "attribution": "Text: Ursula Nafula. Original illustrations (not included): Vusi Malindi. African Storybook. Source: https://africanstorybook.org/reader.php?id=13304 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-decision/chapters/001.txt",
+          "sha256": "77ec2c4f2b36dc74ac9caa971465317ee00a759524dfe376ca947667de8d9bf7",
+          "bytes": 1037
+        }
+      }
+    ]
+  },
+  {
+    "title": "Anansi and Wisdom",
+    "author": "Ghanaian folktale",
+    "description": "A folk tale with dialogue and a longer sequence of events. A 285-word English reader from African Storybook, imported through GlotStoryBook. Text by Ghanaian folktale; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0006_anansi-and-wisdom.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
+    "word_count": 285,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800006",
+    "legacy_id": 800006,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-anansi-and-wisdom/source.json"
+    },
+    "cover": {
+      "path": "books/asp-anansi-and-wisdom/cover.svg",
+      "sha256": "f61678563cf2d318364281c7d6c5083c055140e5580fbd3d0842de431abc9f86",
+      "bytes": 543
+    },
+    "chapters": [
+      {
+        "book_id": 800006,
+        "title": "Anansi and Wisdom",
+        "chapter_number": 1,
+        "word_count": 285,
+        "revision": 1,
+        "id": "chapter:800006",
+        "legacy_id": 800006,
+        "source_url": "https://africanstorybook.org/reader.php?id=1938",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Ghanaian folktale. Original illustrations (not included): Wiehan de Jager. African Storybook. Source: https://africanstorybook.org/reader.php?id=1938 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-anansi-and-wisdom/chapters/001.txt",
+          "sha256": "b2a9911bfb31bfa2c92e13a2e7fef0419f62b672f5705001c3c779bab34debf4",
+          "bytes": 1405
+        }
+      }
+    ]
+  },
+  {
+    "title": "A Tiny Seed: The Story of Wangari Maathai",
+    "author": "Nicola Rijsdijk",
+    "description": "An accessible biography about trees and community action. A 412-word English reader from African Storybook, imported through GlotStoryBook. Text by Nicola Rijsdijk; CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0110_a-tiny-seed-the-story-of-wangari-maathai.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
+    "word_count": 412,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800110",
+    "legacy_id": 800110,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json"
+    },
+    "cover": {
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/cover.svg",
+      "sha256": "7a78230cdb051f7ca217a649068f9b398afcf325c088a39134a1c56ee421c5b4",
+      "bytes": 628
+    },
+    "chapters": [
+      {
+        "book_id": 800110,
+        "title": "A Tiny Seed: The Story of Wangari Maathai",
+        "chapter_number": 1,
+        "word_count": 412,
+        "revision": 1,
+        "id": "chapter:800110",
+        "legacy_id": 800110,
+        "source_url": "https://africanstorybook.org/reader.php?id=9809",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_label": "CC-BY-4.0",
+        "attribution": "Text: Nicola Rijsdijk. Original illustrations (not included): Maya Marshak. African Storybook. Source: https://africanstorybook.org/reader.php?id=9809 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/chapters/001.txt",
+          "sha256": "f9f4ff5b21ec3141c8450dc9b3520eab9a57666a30041bd3df856940f618a732",
+          "bytes": 2243
+        }
+      }
+    ]
+  },
+  {
+    "title": "The day I left home for the city",
+    "author": "Lesley Koyi, Ursula Nafula",
+    "description": "Travel and description in a first-person narrative. A 442-word English reader from African Storybook, imported through GlotStoryBook. Text by Lesley Koyi, Ursula Nafula; CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0324_the-day-i-left-home-for-the-city.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
+    "word_count": 442,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800324",
+    "legacy_id": 800324,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-the-day-i-left-home-for-the-city/source.json"
+    },
+    "cover": {
+      "path": "books/asp-the-day-i-left-home-for-the-city/cover.svg",
+      "sha256": "75016b56b917b81b10405c8f714bdd7dc5646fa83574b40beb2a8a585bcf9272",
+      "bytes": 619
+    },
+    "chapters": [
+      {
+        "book_id": 800324,
+        "title": "The day I left home for the city",
+        "chapter_number": 1,
+        "word_count": 442,
+        "revision": 1,
+        "id": "chapter:800324",
+        "legacy_id": 800324,
+        "source_url": "https://africanstorybook.org/reader.php?id=15029",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_label": "CC-BY-4.0",
+        "attribution": "Text: Lesley Koyi, Ursula Nafula. Original illustrations (not included): Brian Wambi. African Storybook. Source: https://africanstorybook.org/reader.php?id=15029 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-the-day-i-left-home-for-the-city/chapters/001.txt",
+          "sha256": "3968b2a2519eac498454bd631e61268dbd7e5e8396b1b10ca1ae260f547a5141",
+          "bytes": 2351
+        }
+      }
+    ]
+  },
+  {
+    "title": "What Vusi's sister said",
+    "author": "Nina Orange",
+    "description": "A repeating chain of events and dialogue for sustained typing. A 503-word English reader from African Storybook, imported through GlotStoryBook. Text by Nina Orange; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0291_what-vusis-sister-said.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
+    "word_count": 503,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800291",
+    "legacy_id": 800291,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-what-vusis-sister-said/source.json"
+    },
+    "cover": {
+      "path": "books/asp-what-vusis-sister-said/cover.svg",
+      "sha256": "2180ebd1e0bf500ad2de31872d487c4a782814b6917bffe06ab9c07d621ac8e3",
+      "bytes": 611
+    },
+    "chapters": [
+      {
+        "book_id": 800291,
+        "title": "What Vusi's sister said",
+        "chapter_number": 1,
+        "word_count": 503,
+        "revision": 1,
+        "id": "chapter:800291",
+        "legacy_id": 800291,
+        "source_url": "https://africanstorybook.org/reader.php?id=6895",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Nina Orange. Original illustrations (not included): Wiehan de Jager. African Storybook. Source: https://africanstorybook.org/reader.php?id=6895 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-what-vusis-sister-said/chapters/001.txt",
+          "sha256": "8d60a95b987a87d1f292f879bbfe38aa7c2a5f33e00bcd6d173982a61ac49a26",
+          "bytes": 2595
+        }
+      }
+    ]
+  },
+  {
+    "title": "Grandma's bananas",
+    "author": "Ursula Nafula",
+    "description": "Family, fruit and a longer childhood narrative. A 528-word English reader from African Storybook, imported through GlotStoryBook. Text by Ursula Nafula; CC-BY-3.0: https://creativecommons.org/licenses/by/3.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0294_grandmas-bananas.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
+    "word_count": 528,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800294",
+    "legacy_id": 800294,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-3.0",
+      "url": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-grandmas-bananas/source.json"
+    },
+    "cover": {
+      "path": "books/asp-grandmas-bananas/cover.svg",
+      "sha256": "2a266390beea26172cd34e18e82bd7450a7a03732c8638990244531f23d4dcc4",
+      "bytes": 544
+    },
+    "chapters": [
+      {
+        "book_id": 800294,
+        "title": "Grandma's bananas",
+        "chapter_number": 1,
+        "word_count": 528,
+        "revision": 1,
+        "id": "chapter:800294",
+        "legacy_id": 800294,
+        "source_url": "https://africanstorybook.org/reader.php?id=2094",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_label": "CC-BY-3.0",
+        "attribution": "Text: Ursula Nafula. Original illustrations (not included): Catherine Groenewald. African Storybook. Source: https://africanstorybook.org/reader.php?id=2094 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-grandmas-bananas/chapters/001.txt",
+          "sha256": "016ceb7a7b9f99e8b0f6a7d0808558ab36604eed10bd963037fe74dc125205a7",
+          "bytes": 2848
+        }
+      }
+    ]
+  },
+  {
+    "title": "Holidays with grandmother",
+    "author": "Violet Otieno",
+    "description": "A family visit with everyday routines and descriptive sentences. A 564-word English reader from African Storybook, imported through GlotStoryBook. Text by Violet Otieno; CC-BY-4.0: https://creativecommons.org/licenses/by/4.0/ Source: https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0243_holidays-with-grandmother.md",
+    "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
+    "word_count": 564,
+    "chapter_count": 1,
+    "revision": 1,
+    "id": "book:800243",
+    "legacy_id": 800243,
+    "license_status": "verified-cc-by",
+    "license": {
+      "id": "CC-BY-4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "source": {
+      "import_id": "hf-glotstorybook-english-v1",
+      "path": "books/asp-holidays-with-grandmother/source.json"
+    },
+    "cover": {
+      "path": "books/asp-holidays-with-grandmother/cover.svg",
+      "sha256": "cc44c5551c3eecc1f47930109c96037784eae16791e105d74ee42c376a7666fa",
+      "bytes": 608
+    },
+    "chapters": [
+      {
+        "book_id": 800243,
+        "title": "Holidays with grandmother",
+        "chapter_number": 1,
+        "word_count": 564,
+        "revision": 1,
+        "id": "chapter:800243",
+        "legacy_id": 800243,
+        "source_url": "https://africanstorybook.org/reader.php?id=12084",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_label": "CC-BY-4.0",
+        "attribution": "Text: Violet Otieno. Original illustrations (not included): Catherine Groenewald. African Storybook. Source: https://africanstorybook.org/reader.php?id=12084 Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "adaptation_note": "Page breaks become paragraphs; whitespace and curly quotes/dashes are normalized for keyboard practice. No words are rewritten. Original illustrations are not included.",
+        "body": {
+          "path": "books/asp-holidays-with-grandmother/chapters/001.txt",
+          "sha256": "500cc0162906d1ff1cd5510268e378fac35c561579a9e04894069d778d643d99",
+          "bytes": 3251
+        }
+      }
+    ]
   }
 ]

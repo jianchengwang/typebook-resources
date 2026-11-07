@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "typebook-official-resources",
-  "revision": "2026-11-02",
+  "revision": "2026-11-07-hf-readers-1",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -36,8 +36,8 @@
     "collections": 1,
     "demo_articles": 3,
     "additional_starter_articles": 3,
-    "books": 3,
-    "chapters": 26,
+    "books": 19,
+    "chapters": 42,
     "dictionaries": 28,
     "dictionary_entries": 81119,
     "prompts": 3,
@@ -45,7 +45,7 @@
     "live2d_files": 158,
     "cloudflare_objects_verified": 218
   },
-  "total_bytes": 271475388,
+  "total_bytes": 271685858,
   "files": [
     {
       "path": ".gitattributes",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4479,
-      "sha256": "9f676c5e12e4dbd23a720b9a8638946e50955bb5310a03b359ff13bceb4ae7a3",
+      "bytes": 5134,
+      "sha256": "3e303a8d57d7971563ca85a424c50a7b46d03efc20cf9ea7461b52eb2067fc4d",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -357,6 +357,966 @@
       }
     },
     {
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/LICENSE.md",
+      "bytes": 1137,
+      "sha256": "698b0776337037752c704a7e152d1625713a2f8c3c21150ee2a8980bc153cf8b",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/chapters/001.txt",
+      "bytes": 2243,
+      "sha256": "f9f4ff5b21ec3141c8450dc9b3520eab9a57666a30041bd3df856940f618a732",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/cover.svg",
+      "bytes": 628,
+      "sha256": "7a78230cdb051f7ca217a649068f9b398afcf325c088a39134a1c56ee421c5b4",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/original.md",
+      "bytes": 2419,
+      "sha256": "26380f8e67773cc1f493d0c2d84c8651e41e7281a6288966709d8e80694ba783",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json",
+      "bytes": 2067,
+      "sha256": "c26d8107acaf0adece426802e74e9e421dad27130675ce7ab35e8caa4ae1ce2c",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-very-tall-man/LICENSE.md",
+      "bytes": 1094,
+      "sha256": "1e0c920e1a2650ba0e22c7fe3761b59e679b0264b2dcd05efd4b3303a062391b",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-very-tall-man/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-very-tall-man/chapters/001.txt",
+      "bytes": 379,
+      "sha256": "c0df905de359f03593206437cfac2dfbbf936065c600715744b0cc07b09b1955",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-very-tall-man/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-very-tall-man/cover.svg",
+      "bytes": 534,
+      "sha256": "bc39ed4ed5878b9436db746f6fcf9a01dc8b995083e58cf1aae966f3871475b5",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-very-tall-man/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-very-tall-man/original.md",
+      "bytes": 531,
+      "sha256": "4fbf2cccbea358933c9960229d2fc509cdd26c6e483216be80c6b20afb2e869c",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-very-tall-man/source.json"
+      }
+    },
+    {
+      "path": "books/asp-a-very-tall-man/source.json",
+      "bytes": 1934,
+      "sha256": "61c76384b7b6daf7924e8cfe700f42e99db7b483d6ee271aa1107b39866d679c",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-a-very-tall-man/source.json"
+      }
+    },
+    {
+      "path": "books/asp-anansi-and-wisdom/LICENSE.md",
+      "bytes": 1095,
+      "sha256": "80bc6cada33830072f55201b1bd382acf54cd404741e5c9972cb5f7edcb1ffd3",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-anansi-and-wisdom/source.json"
+      }
+    },
+    {
+      "path": "books/asp-anansi-and-wisdom/chapters/001.txt",
+      "bytes": 1405,
+      "sha256": "b2a9911bfb31bfa2c92e13a2e7fef0419f62b672f5705001c3c779bab34debf4",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-anansi-and-wisdom/source.json"
+      }
+    },
+    {
+      "path": "books/asp-anansi-and-wisdom/cover.svg",
+      "bytes": 543,
+      "sha256": "f61678563cf2d318364281c7d6c5083c055140e5580fbd3d0842de431abc9f86",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-anansi-and-wisdom/source.json"
+      }
+    },
+    {
+      "path": "books/asp-anansi-and-wisdom/original.md",
+      "bytes": 1541,
+      "sha256": "10443df452ac05b0efeeb038168d848e0496129efcf81bb3b173d847c05ba321",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-anansi-and-wisdom/source.json"
+      }
+    },
+    {
+      "path": "books/asp-anansi-and-wisdom/source.json",
+      "bytes": 1956,
+      "sha256": "c02dbb3aa261967ac0c005929dad2c18ea37ab91e53aaf7776b7c8af5f36224b",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-anansi-and-wisdom/source.json"
+      }
+    },
+    {
+      "path": "books/asp-counting-animals/LICENSE.md",
+      "bytes": 1117,
+      "sha256": "7fa4a7242426e2a5ef12c823092f3ae7e52ad520edcdf59d4acc4d02395f3f9e",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-counting-animals/source.json"
+      }
+    },
+    {
+      "path": "books/asp-counting-animals/chapters/001.txt",
+      "bytes": 407,
+      "sha256": "e14262b9345485bf07f885a97bf333cecf145a75fded84ac4036bdabd0a8dab3",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-counting-animals/source.json"
+      }
+    },
+    {
+      "path": "books/asp-counting-animals/cover.svg",
+      "bytes": 538,
+      "sha256": "eaf9e0301d826382b5b868cd6dfa69e98a9596f900dc426f4f95d0c74dd705c0",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-counting-animals/source.json"
+      }
+    },
+    {
+      "path": "books/asp-counting-animals/original.md",
+      "bytes": 571,
+      "sha256": "b0538593457e44adb0c6b33a3e05c5062930f95c146226dadf250a1e97ca88bb",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-counting-animals/source.json"
+      }
+    },
+    {
+      "path": "books/asp-counting-animals/source.json",
+      "bytes": 1985,
+      "sha256": "1ec51e6d9e9f86e27257dff970c8b10ed4a05078b0b85425f9a48fa723f168b0",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-counting-animals/source.json"
+      }
+    },
+    {
+      "path": "books/asp-decision/LICENSE.md",
+      "bytes": 1071,
+      "sha256": "f0db0eee20bbc17b3278743c4bf2363260cd63bbbdc865d9a7cec4d721b2adc2",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-decision/source.json"
+      }
+    },
+    {
+      "path": "books/asp-decision/chapters/001.txt",
+      "bytes": 1037,
+      "sha256": "77ec2c4f2b36dc74ac9caa971465317ee00a759524dfe376ca947667de8d9bf7",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-decision/source.json"
+      }
+    },
+    {
+      "path": "books/asp-decision/cover.svg",
+      "bytes": 528,
+      "sha256": "a7882e3da02a67bbb3bf671818c4d5fbbb82fcd0f4668bdbb275a954f44e5fad",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-decision/source.json"
+      }
+    },
+    {
+      "path": "books/asp-decision/original.md",
+      "bytes": 1188,
+      "sha256": "a4d058ab621973c179804bef43ff84a75746d4f62c938a9f6be70d99c140b156",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-decision/source.json"
+      }
+    },
+    {
+      "path": "books/asp-decision/source.json",
+      "bytes": 1869,
+      "sha256": "b6ec5cd91259760b81124c8bce775e59e419b3880a9ae95844848c7fe47b0100",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-decision/source.json"
+      }
+    },
+    {
+      "path": "books/asp-fire/LICENSE.md",
+      "bytes": 1180,
+      "sha256": "bcaab1f9371980e11c02dad3e57675c14d9304dbeda429add6f47a720b2f7f57",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-fire/source.json"
+      }
+    },
+    {
+      "path": "books/asp-fire/chapters/001.txt",
+      "bytes": 131,
+      "sha256": "25f5d1e891aa5b521a698dbd47d9e7663194636e64913cf647b40b1ee5e64d1f",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-fire/source.json"
+      }
+    },
+    {
+      "path": "books/asp-fire/cover.svg",
+      "bytes": 526,
+      "sha256": "479de5f636af4d55584a10379ad4f59b78243ecfebc30e9f67dd68f8822cbb5a",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-fire/source.json"
+      }
+    },
+    {
+      "path": "books/asp-fire/original.md",
+      "bytes": 373,
+      "sha256": "8b2eab28d9ae11962f66cfd1fb42459d8b4f6e742ea398e5d96328e4f1ae6e12",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-fire/source.json"
+      }
+    },
+    {
+      "path": "books/asp-fire/source.json",
+      "bytes": 2075,
+      "sha256": "d1a61177f86ee099e22c188a63800a8e2a605fed2b603216eedaa84f8466bebc",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-fire/source.json"
+      }
+    },
+    {
+      "path": "books/asp-goat-dog-and-cow/LICENSE.md",
+      "bytes": 1109,
+      "sha256": "818c3c18829df78ea07cceb8d0ab006b2de78b3ed0cd47aace1197d36d0410f1",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-goat-dog-and-cow/source.json"
+      }
+    },
+    {
+      "path": "books/asp-goat-dog-and-cow/chapters/001.txt",
+      "bytes": 756,
+      "sha256": "bdc43dbac81b7cee08a08735d0b5088350d52f5e7bcc053a5db24b81335d976a",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-goat-dog-and-cow/source.json"
+      }
+    },
+    {
+      "path": "books/asp-goat-dog-and-cow/cover.svg",
+      "bytes": 538,
+      "sha256": "ae8f8265d75afbc8e70db81ae09ed5f5fb2c66eacd218efb59d4fee68d1afaa4",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-goat-dog-and-cow/source.json"
+      }
+    },
+    {
+      "path": "books/asp-goat-dog-and-cow/original.md",
+      "bytes": 912,
+      "sha256": "37a94dc6188d5d1f039e9f0fa0fe4cc3cdcc54c65163cbb92f2c1eeb5dcf3a52",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-goat-dog-and-cow/source.json"
+      }
+    },
+    {
+      "path": "books/asp-goat-dog-and-cow/source.json",
+      "bytes": 1969,
+      "sha256": "6bc4908ab028b1dc7570cab943a150c78865a17619768a2d96cd6b964d31791c",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-goat-dog-and-cow/source.json"
+      }
+    },
+    {
+      "path": "books/asp-grandmas-bananas/LICENSE.md",
+      "bytes": 1095,
+      "sha256": "7f319d72f4d402b649ac658728aca085a101c8d787ecfec95addce6c9719de06",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-grandmas-bananas/source.json"
+      }
+    },
+    {
+      "path": "books/asp-grandmas-bananas/chapters/001.txt",
+      "bytes": 2848,
+      "sha256": "016ceb7a7b9f99e8b0f6a7d0808558ab36604eed10bd963037fe74dc125205a7",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-grandmas-bananas/source.json"
+      }
+    },
+    {
+      "path": "books/asp-grandmas-bananas/cover.svg",
+      "bytes": 544,
+      "sha256": "2a266390beea26172cd34e18e82bd7450a7a03732c8638990244531f23d4dcc4",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-grandmas-bananas/source.json"
+      }
+    },
+    {
+      "path": "books/asp-grandmas-bananas/original.md",
+      "bytes": 3012,
+      "sha256": "934f4d98a3112def848096459e3033cbf9a299c2fd53823fc41e39062a991458",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-grandmas-bananas/source.json"
+      }
+    },
+    {
+      "path": "books/asp-grandmas-bananas/source.json",
+      "bytes": 1957,
+      "sha256": "89dc217b7d3b52066dc39727ecfc1ebbbd45a96911fa4f0deb7e4f155e0ee6ab",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-grandmas-bananas/source.json"
+      }
+    },
+    {
+      "path": "books/asp-holidays-with-grandmother/LICENSE.md",
+      "bytes": 1113,
+      "sha256": "0a73e1a451f3afdc8b57a3def3896a80318cc417e60a72f14cbb03aa8c41bef1",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-holidays-with-grandmother/source.json"
+      }
+    },
+    {
+      "path": "books/asp-holidays-with-grandmother/chapters/001.txt",
+      "bytes": 3251,
+      "sha256": "500cc0162906d1ff1cd5510268e378fac35c561579a9e04894069d778d643d99",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-holidays-with-grandmother/source.json"
+      }
+    },
+    {
+      "path": "books/asp-holidays-with-grandmother/cover.svg",
+      "bytes": 608,
+      "sha256": "cc44c5551c3eecc1f47930109c96037784eae16791e105d74ee42c376a7666fa",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-holidays-with-grandmother/source.json"
+      }
+    },
+    {
+      "path": "books/asp-holidays-with-grandmother/original.md",
+      "bytes": 3450,
+      "sha256": "4dc22bddd286d4b57e0d1b1e74bfa66633f119c111be3f635425ac4c13087325",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-holidays-with-grandmother/source.json"
+      }
+    },
+    {
+      "path": "books/asp-holidays-with-grandmother/source.json",
+      "bytes": 1999,
+      "sha256": "6c1a474685e0a3dfd130a171e5ac625b22227802a27cf3c9e808cd27fe8b7c24",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-holidays-with-grandmother/source.json"
+      }
+    },
+    {
+      "path": "books/asp-i-like-to-read/LICENSE.md",
+      "bytes": 1115,
+      "sha256": "d8d65b8b9f14a3e0074a94f31e54c6859489a21077c872fb11e23d874ffe755f",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-i-like-to-read/source.json"
+      }
+    },
+    {
+      "path": "books/asp-i-like-to-read/chapters/001.txt",
+      "bytes": 214,
+      "sha256": "c0cc696105ffb240695fc1ff4e4676f07c9cf69e66b98ed155fb0ba2f753bbb0",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-i-like-to-read/source.json"
+      }
+    },
+    {
+      "path": "books/asp-i-like-to-read/cover.svg",
+      "bytes": 537,
+      "sha256": "63c5d31d3fbe707512b6e0fa793d59f99681426b0ffd619514d0546930eb00b7",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-i-like-to-read/source.json"
+      }
+    },
+    {
+      "path": "books/asp-i-like-to-read/original.md",
+      "bytes": 380,
+      "sha256": "841e2fb5dfce0ea030dd956be498a97a7d757e5aca189c5ff8930f65cf37ecd2",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-i-like-to-read/source.json"
+      }
+    },
+    {
+      "path": "books/asp-i-like-to-read/source.json",
+      "bytes": 1949,
+      "sha256": "268b111585c9c0db26098a309afb79194fcbff21f5a84292ada0a5e518e207d3",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-i-like-to-read/source.json"
+      }
+    },
+    {
+      "path": "books/asp-khalai-talks-to-plants/LICENSE.md",
+      "bytes": 1102,
+      "sha256": "8acf1ece2f7ef266d13e263bfd1714127029307d3757f12365e6dca526242a0e",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-khalai-talks-to-plants/source.json"
+      }
+    },
+    {
+      "path": "books/asp-khalai-talks-to-plants/chapters/001.txt",
+      "bytes": 904,
+      "sha256": "ab557c293dff0eda9f8fb9912bac15955e6cb51f2a8b9fe44f41600d355ae983",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-khalai-talks-to-plants/source.json"
+      }
+    },
+    {
+      "path": "books/asp-khalai-talks-to-plants/cover.svg",
+      "bytes": 542,
+      "sha256": "99e8207811fc55ab7bb3e76c7baf1cb886095128a76c6dbe058c0a7863d22911",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-khalai-talks-to-plants/source.json"
+      }
+    },
+    {
+      "path": "books/asp-khalai-talks-to-plants/original.md",
+      "bytes": 1046,
+      "sha256": "e4b6404f0f2c52ab2caaf964aa6f866cf4cdd35d9036d019be5fc4cd776942a6",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-khalai-talks-to-plants/source.json"
+      }
+    },
+    {
+      "path": "books/asp-khalai-talks-to-plants/source.json",
+      "bytes": 1946,
+      "sha256": "0629297a4ed650f7379961c73df098c388917175c43e40505a09b80ebd9ea591",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-khalai-talks-to-plants/source.json"
+      }
+    },
+    {
+      "path": "books/asp-the-day-i-left-home-for-the-city/LICENSE.md",
+      "bytes": 1131,
+      "sha256": "51f6e0469864bcb5af24a340ac3f0f88bb84a58e9cebbb0d2e0a95611831c41a",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-the-day-i-left-home-for-the-city/source.json"
+      }
+    },
+    {
+      "path": "books/asp-the-day-i-left-home-for-the-city/chapters/001.txt",
+      "bytes": 2351,
+      "sha256": "3968b2a2519eac498454bd631e61268dbd7e5e8396b1b10ca1ae260f547a5141",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-the-day-i-left-home-for-the-city/source.json"
+      }
+    },
+    {
+      "path": "books/asp-the-day-i-left-home-for-the-city/cover.svg",
+      "bytes": 619,
+      "sha256": "75016b56b917b81b10405c8f714bdd7dc5646fa83574b40beb2a8a585bcf9272",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-the-day-i-left-home-for-the-city/source.json"
+      }
+    },
+    {
+      "path": "books/asp-the-day-i-left-home-for-the-city/original.md",
+      "bytes": 2536,
+      "sha256": "087cc98065e05f8a09a19afec3423c80206cb621e60f758a8170aeb3f6388982",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-the-day-i-left-home-for-the-city/source.json"
+      }
+    },
+    {
+      "path": "books/asp-the-day-i-left-home-for-the-city/source.json",
+      "bytes": 2026,
+      "sha256": "00c23b7facd6d3d2c89c3c176332498b7b7a6a1c3acb7d447bde6d39042ac17d",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-the-day-i-left-home-for-the-city/source.json"
+      }
+    },
+    {
+      "path": "books/asp-tom-the-banana-seller/LICENSE.md",
+      "bytes": 1105,
+      "sha256": "297d5abdbd7e3a45ad23105b0ae801791f374ac28f361805b92d963784d2614b",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-tom-the-banana-seller/source.json"
+      }
+    },
+    {
+      "path": "books/asp-tom-the-banana-seller/chapters/001.txt",
+      "bytes": 738,
+      "sha256": "b956681fd2e9803564ee7b46a5eecfae1647c8166763c33791116fe915b42ff8",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-tom-the-banana-seller/source.json"
+      }
+    },
+    {
+      "path": "books/asp-tom-the-banana-seller/cover.svg",
+      "bytes": 541,
+      "sha256": "f5079eeaad737df3b1ecec7ba00ea02642d44bb8bcb88ea69df93027c3ca6565",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-tom-the-banana-seller/source.json"
+      }
+    },
+    {
+      "path": "books/asp-tom-the-banana-seller/original.md",
+      "bytes": 904,
+      "sha256": "62e91168e3ec0ecbc2e604baf73c33b1b69ee65848ae5199fc25c6bfcf71efa7",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-tom-the-banana-seller/source.json"
+      }
+    },
+    {
+      "path": "books/asp-tom-the-banana-seller/source.json",
+      "bytes": 1965,
+      "sha256": "63d5a2698b3eb03cac6981f06f7be499f99ea78b7811d6659e0da6c9837bf246",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-tom-the-banana-seller/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-are-you-doing/LICENSE.md",
+      "bytes": 1092,
+      "sha256": "5ba9cf5cad913fcc55e4a9ec5835a38f1220814c7e0c4d1768cb190879d17b90",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-are-you-doing/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-are-you-doing/chapters/001.txt",
+      "bytes": 139,
+      "sha256": "40cf9303a969975c0626f13b1212a3d96b5bc9afd3b6607f716264d87d4ff321",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-are-you-doing/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-are-you-doing/cover.svg",
+      "bytes": 541,
+      "sha256": "8dca33d58d35dabf4518ea214ce80137b3a600567ac57ce2fdce5ca2d6c9da2e",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-are-you-doing/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-are-you-doing/original.md",
+      "bytes": 276,
+      "sha256": "188eeccc3f8f990fee46ba3f160366764b36d9293ef1406b93cc62df1eccbbc1",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-are-you-doing/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-are-you-doing/source.json",
+      "bytes": 1945,
+      "sha256": "f3e4bddfbf7b3b1fe1875bb2524be947a4b0c946d23253057a61c28e92de551f",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-are-you-doing/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-vusis-sister-said/LICENSE.md",
+      "bytes": 1100,
+      "sha256": "5db14997d5c0837aa6f4a62ba242b17d29e3083b8fdd85a9cf36fc2210128ced",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-vusis-sister-said/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-vusis-sister-said/chapters/001.txt",
+      "bytes": 2595,
+      "sha256": "8d60a95b987a87d1f292f879bbfe38aa7c2a5f33e00bcd6d173982a61ac49a26",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-vusis-sister-said/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-vusis-sister-said/cover.svg",
+      "bytes": 611,
+      "sha256": "2180ebd1e0bf500ad2de31872d487c4a782814b6917bffe06ab9c07d621ac8e3",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-vusis-sister-said/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-vusis-sister-said/original.md",
+      "bytes": 2751,
+      "sha256": "c8426f9435eac1ba0f857f924805429666da755abfca6184689b3d9efb798d6c",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-vusis-sister-said/source.json"
+      }
+    },
+    {
+      "path": "books/asp-what-vusis-sister-said/source.json",
+      "bytes": 1976,
+      "sha256": "77638d807dd93889ed4863d950f4c14a1fda49aa994b72191eaf2c2ee49f3b90",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-what-vusis-sister-said/source.json"
+      }
+    },
+    {
+      "path": "books/asp-zama-is-great/LICENSE.md",
+      "bytes": 1116,
+      "sha256": "d9b354f94372f535766f41751051d434ed3396a7f37287dbd776c5230cc267d1",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-zama-is-great/source.json"
+      }
+    },
+    {
+      "path": "books/asp-zama-is-great/chapters/001.txt",
+      "bytes": 636,
+      "sha256": "546923a17038b028d78bd524a14ab4b9f27678754dd19c11b9ebddd399b263b5",
+      "content_type": "text/plain",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-zama-is-great/source.json"
+      }
+    },
+    {
+      "path": "books/asp-zama-is-great/cover.svg",
+      "bytes": 534,
+      "sha256": "a0d58bc4e81005a372b33768b10784f3128692776ce97b23e8a5ae492066667b",
+      "content_type": "image/svg+xml",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-zama-is-great/source.json"
+      }
+    },
+    {
+      "path": "books/asp-zama-is-great/original.md",
+      "bytes": 806,
+      "sha256": "b8258fbe933abf5521341f8c56b95800e889ef70356b5671819e591f4a94b9c6",
+      "content_type": "text/markdown",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-zama-is-great/source.json"
+      }
+    },
+    {
+      "path": "books/asp-zama-is-great/source.json",
+      "bytes": 1937,
+      "sha256": "0a6fe36e50a032adbff8f01b37634b19f8bd929494bea2f8224b4117a73912de",
+      "content_type": "application/json",
+      "category": "book",
+      "source": {
+        "kind": "curated-huggingface-import",
+        "import_id": "hf-glotstorybook-english-v1",
+        "provenance": "books/asp-zama-is-great/source.json"
+      }
+    },
+    {
       "path": "books/the-wind-in-the-willows/chapters/001.txt",
       "bytes": 23878,
       "sha256": "1fd4989d6a7214c6098ff7431353be04d4d73d1a0b416ab8374a414906a9f745",
@@ -461,8 +1421,8 @@
     },
     {
       "path": "catalogs/books.json",
-      "bytes": 12889,
-      "sha256": "a2e5f67eff6dd4ac0098a15ed475ea8232b528a3c46ed44dadb8b2fcbefeeadc",
+      "bytes": 49925,
+      "sha256": "47cb03408034684e93d11433bf714ed2180322600852468b2047638027f80bd9",
       "content_type": "application/json",
       "category": "catalog"
     },
@@ -496,8 +1456,8 @@
     },
     {
       "path": "catalogs/summary.json",
-      "bytes": 265,
-      "sha256": "d63445ba7a08632266c3160d66eead2a692e9cb524c71279136d61113421c624",
+      "bytes": 266,
+      "sha256": "9beb3aa8bb6cf49017fd9ad3105162ccffc151fbf2db467a3df0db7fed8ae858",
       "content_type": "application/json",
       "category": "catalog"
     },
@@ -872,8 +1832,8 @@
     },
     {
       "path": "docs/RIGHTS.md",
-      "bytes": 1987,
-      "sha256": "28accacff4cef5a6d78d27ba64cc19948e5cad704a2047e0f887108e5aff0efb",
+      "bytes": 3287,
+      "sha256": "f937bc70e4cd2568cef2bf02fda2390c51250c4b9b0adbd13b3f2d9cdfe2cc72",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -885,11 +1845,29 @@
       "category": "documentation"
     },
     {
+      "path": "docs/huggingface-readers.md",
+      "bytes": 8642,
+      "sha256": "f7cbe6d41c6c695c440d5fcd75beb59ad516b6169c74c78426ba8d9bba799681",
+      "content_type": "text/markdown",
+      "category": "documentation"
+    },
+    {
       "path": "docs/resource-hosting.md",
       "bytes": 4298,
       "sha256": "4ec5257b2989c33adecb7801bbbe577ac5e192e135d04acad8ccce22026bdac8",
       "content_type": "text/markdown",
       "category": "documentation"
+    },
+    {
+      "path": "live2d-assets-sw.js",
+      "bytes": 8304,
+      "sha256": "061f63cb6495084bc5ab1213d9dcf493bd1b92e6ebcf69d712292221dae4b161",
+      "content_type": "text/javascript",
+      "category": "runtime",
+      "source": {
+        "kind": "frontend-public",
+        "source_file": "frontend/public/live2d-assets-sw.js"
+      }
     },
     {
       "path": "live2d/live2dcubismcore.min.js",
@@ -2799,17 +3777,6 @@
       }
     },
     {
-      "path": "live2d-assets-sw.js",
-      "bytes": 8304,
-      "sha256": "061f63cb6495084bc5ab1213d9dcf493bd1b92e6ebcf69d712292221dae4b161",
-      "content_type": "text/javascript",
-      "category": "runtime",
-      "source": {
-        "kind": "frontend-public",
-        "source_file": "frontend/public/live2d-assets-sw.js"
-      }
-    },
-    {
       "path": "onnx-runtime/ort-wasm-simd-threaded.jsep.mjs",
       "bytes": 44677,
       "sha256": "1cbcba8f2c769c1eecbab66a1b1e55ef11704515bf4306373e3db3c37cf6dcd8",
@@ -2921,8 +3888,8 @@
     },
     {
       "path": "profiles/default.json",
-      "bytes": 5322,
-      "sha256": "87fba64346dc7923471be9905d3f42a734488338d2230b4a48e1d4c283b86b07",
+      "bytes": 9553,
+      "sha256": "62661b91a4088ccf36545933fa6e393e88e4c73e96b5b236ed8af42db2e1b091",
       "content_type": "application/json",
       "category": "profile"
     },
@@ -2998,6 +3965,27 @@
         "kind": "frontend-public",
         "source_file": "frontend/public/qwerty/sounds/correct.wav"
       }
+    },
+    {
+      "path": "tests/test_import_hf_readers.py",
+      "bytes": 18296,
+      "sha256": "573106017ae227a2afb96de694f7b919052a2febc6995acde9c0f0f20855d0be",
+      "content_type": "text/x-python",
+      "category": "tooling"
+    },
+    {
+      "path": "tools/hf_readers.json",
+      "bytes": 14381,
+      "sha256": "b218292d8474bd5e1bf45b83a76fcadb1fa89953836c2b3fab3bcef8f5a78037",
+      "content_type": "application/json",
+      "category": "tooling"
+    },
+    {
+      "path": "tools/import_hf_readers.py",
+      "bytes": 24959,
+      "sha256": "03566451e6becbedfc5e97f97eb27390b0b579441f0ea00ac3337bbe1b724687",
+      "content_type": "text/x-python",
+      "category": "tooling"
     },
     {
       "path": "tools/verify.py",
