@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "description": "TypeBook editorial display titles. The en title is preserved verbatim; zh-CN and ja help readers choose books and do not imply translated book contents or publisher-approved editions.",
+  "books": {
+    "book:1": {
+      "en": "A Christmas Carol",
+      "zh-CN": "圣诞颂歌",
+      "ja": "クリスマス・キャロル"
+    },
+    "book:7": {
+      "en": "A Study in Scarlet",
+      "zh-CN": "血字的研究",
+      "ja": "緋色の研究"
+    },
+    "book:157": {
+      "en": "The Wind in the Willows",
+      "zh-CN": "柳林风声",
+      "ja": "たのしい川べ"
+    },
+    "book:800302": {
+      "en": "Fire",
+      "zh-CN": "火",
+      "ja": "火"
+    },
+    "book:800008": {
+      "en": "What are you doing?",
+      "zh-CN": "你在做什么？",
+      "ja": "何をしているの？"
+    },
+    "book:800087": {
+      "en": "I like to read!",
+      "zh-CN": "我爱读书！",
+      "ja": "本を読むのが大好き！"
+    },
+    "book:800327": {
+      "en": "Counting animals",
+      "zh-CN": "数一数动物",
+      "ja": "動物を数えよう"
+    },
+    "book:800001": {
+      "en": "A very tall man",
+      "zh-CN": "一个很高很高的人",
+      "ja": "とても背の高い男の人"
+    },
+    "book:800095": {
+      "en": "Zama is great!",
+      "zh-CN": "扎玛真棒！",
+      "ja": "ザマはすごい！"
+    },
+    "book:800296": {
+      "en": "Tom the banana seller",
+      "zh-CN": "卖香蕉的汤姆",
+      "ja": "バナナ売りのトム"
+    },
+    "book:800004": {
+      "en": "Goat, Dog, and Cow",
+      "zh-CN": "山羊、狗和牛",
+      "ja": "ヤギとイヌとウシ"
+    },
+    "book:800089": {
+      "en": "Khalai talks to plants",
+      "zh-CN": "卡莱和植物说话",
+      "ja": "カライは植物とおしゃべり"
+    },
+    "book:800027": {
+      "en": "Decision",
+      "zh-CN": "决定",
+      "ja": "決意"
+    },
+    "book:800006": {
+      "en": "Anansi and Wisdom",
+      "zh-CN": "阿南西与智慧",
+      "ja": "アナンシと知恵"
+    },
+    "book:800110": {
+      "en": "A Tiny Seed: The Story of Wangari Maathai",
+      "zh-CN": "一粒小种子：旺加里·马塔伊的故事",
+      "ja": "小さな種：ワンガリ・マータイの物語"
+    },
+    "book:800324": {
+      "en": "The day I left home for the city",
+      "zh-CN": "我离家进城的那一天",
+      "ja": "ふるさとを離れて都会へ向かった日"
+    },
+    "book:800291": {
+      "en": "What Vusi's sister said",
+      "zh-CN": "武西的姐姐说了什么",
+      "ja": "ヴシのお姉さんが言ったこと"
+    },
+    "book:800294": {
+      "en": "Grandma's bananas",
+      "zh-CN": "奶奶的香蕉",
+      "ja": "おばあちゃんのバナナ"
+    },
+    "book:800243": {
+      "en": "Holidays with grandmother",
+      "zh-CN": "和奶奶一起过假期",
+      "ja": "おばあちゃんと過ごす休み"
+    },
+    "book:800049": {
+      "en": "The Rainbow",
+      "zh-CN": "彩虹",
+      "ja": "虹"
+    },
+    "book:800126": {
+      "en": "Clouds",
+      "zh-CN": "云",
+      "ja": "雲"
+    },
+    "book:800212": {
+      "en": "My little goat",
+      "zh-CN": "我的小山羊",
+      "ja": "わたしの子ヤギ"
+    },
+    "book:800331": {
+      "en": "Rain",
+      "zh-CN": "雨",
+      "ja": "雨"
+    },
+    "book:800172": {
+      "en": "Fruits",
+      "zh-CN": "水果",
+      "ja": "くだもの"
+    },
+    "book:800316": {
+      "en": "I enjoy doing",
+      "zh-CN": "我喜欢做的事",
+      "ja": "わたしの好きなこと"
+    },
+    "book:800240": {
+      "en": "Pendo our cow",
+      "zh-CN": "我家的奶牛彭多",
+      "ja": "うちのウシ、ペンド"
+    },
+    "book:800113": {
+      "en": "New pussy cat",
+      "zh-CN": "新来的小猫",
+      "ja": "新しくやってきた子ネコ"
+    },
+    "book:800157": {
+      "en": "Children like to play",
+      "zh-CN": "孩子们爱玩耍",
+      "ja": "子どもたちは遊ぶのが大好き"
+    },
+    "book:800043": {
+      "en": "Fire's story",
+      "zh-CN": "火的故事",
+      "ja": "火のお話"
+    },
+    "book:800265": {
+      "en": "Tell me...now! Happy and sad",
+      "zh-CN": "快告诉我！开心与难过",
+      "ja": "ねえ、教えて！うれしい気持ちと悲しい気持ち"
+    },
+    "book:800050": {
+      "en": "What type of teeth?",
+      "zh-CN": "什么样的牙齿？",
+      "ja": "どんな歯かな？"
+    },
+    "book:800355": {
+      "en": "Tell me...now! Colours",
+      "zh-CN": "快告诉我！颜色",
+      "ja": "ねえ、教えて！いろいろな色"
+    },
+    "book:800058": {
+      "en": "Soccer game",
+      "zh-CN": "足球比赛",
+      "ja": "サッカーの試合"
+    },
+    "book:800109": {
+      "en": "Lekishon and the cows",
+      "zh-CN": "莱基雄和牛群",
+      "ja": "レキションとウシたち"
+    },
+    "book:800160": {
+      "en": "Disability is Not Inability",
+      "zh-CN": "有障碍不等于没能力",
+      "ja": "障害があっても、できることはたくさん"
+    },
+    "book:800245": {
+      "en": "Our day at the zoo",
+      "zh-CN": "我们在动物园的一天",
+      "ja": "動物園で過ごした一日"
+    },
+    "book:800143": {
+      "en": "My red ball",
+      "zh-CN": "我的红皮球",
+      "ja": "わたしの赤いボール"
+    },
+    "book:800117": {
+      "en": "Friendship between Hyena and Hare",
+      "zh-CN": "鬣狗和野兔的友谊",
+      "ja": "ハイエナとウサギの友情"
+    },
+    "book:800217": {
+      "en": "My teacher",
+      "zh-CN": "我的老师",
+      "ja": "わたしの先生"
+    },
+    "book:800152": {
+      "en": "What is wrong child?",
+      "zh-CN": "孩子，你怎么了？",
+      "ja": "どうしたの、赤ちゃん？"
+    },
+    "book:800285": {
+      "en": "Serious accident",
+      "zh-CN": "严重的车祸",
+      "ja": "大きな交通事故"
+    },
+    "book:800175": {
+      "en": "The Chase",
+      "zh-CN": "你追我赶",
+      "ja": "追いかけっこ"
+    },
+    "book:800159": {
+      "en": "Cow with one horn",
+      "zh-CN": "一只角的牛",
+      "ja": "一本角のウシ"
+    },
+    "book:800174": {
+      "en": "Who is Big?",
+      "zh-CN": "谁最大？",
+      "ja": "だれが大きい？"
+    },
+    "book:800021": {
+      "en": "Dembe the shopkeeper",
+      "zh-CN": "店主登贝",
+      "ja": "お店屋さんのデンベ"
+    },
+    "book:800188": {
+      "en": "My mother planted",
+      "zh-CN": "妈妈种下了种子",
+      "ja": "お母さんが種をまいた"
+    },
+    "book:800136": {
+      "en": "Hamisi's lucky day",
+      "zh-CN": "哈米西的幸运日",
+      "ja": "ハミシの幸運な一日"
+    },
+    "book:800011": {
+      "en": "Father and son",
+      "zh-CN": "父与子",
+      "ja": "お父さんと息子"
+    },
+    "book:800257": {
+      "en": "Colours of a rainbow",
+      "zh-CN": "彩虹的颜色",
+      "ja": "虹の色"
+    },
+    "book:800266": {
+      "en": "Bunty and Bubbly",
+      "zh-CN": "邦蒂和泡泡王",
+      "ja": "バンティと泡の王さまバブリー"
+    },
+    "book:800269": {
+      "en": "Soccer skills",
+      "zh-CN": "足球技巧",
+      "ja": "サッカーの技"
+    },
+    "book:800014": {
+      "en": "Girl called Norah",
+      "zh-CN": "名叫诺拉的女孩",
+      "ja": "ノラという女の子"
+    },
+    "book:800035": {
+      "en": "Wind",
+      "zh-CN": "风",
+      "ja": "風"
+    },
+    "book:800071": {
+      "en": "Our river, our life",
+      "zh-CN": "我们的河流，我们的生活",
+      "ja": "わたしたちの川、わたしたちの暮らし"
+    },
+    "book:800342": {
+      "en": "Punishment",
+      "zh-CN": "惩罚",
+      "ja": "おしおき"
+    },
+    "book:800056": {
+      "en": "Clever cat",
+      "zh-CN": "聪明的猫",
+      "ja": "かしこいネコ"
+    },
+    "book:800105": {
+      "en": "Ms Phone",
+      "zh-CN": "手机女士",
+      "ja": "ケータイおばさん"
+    },
+    "book:800149": {
+      "en": "The Moon and the Cap",
+      "zh-CN": "月亮和帽子",
+      "ja": "お月さまと帽子"
+    },
+    "book:800233": {
+      "en": "Rabbit Goes to a Party",
+      "zh-CN": "兔子去赴宴",
+      "ja": "ウサギ、パーティーに行く"
+    },
+    "book:800096": {
+      "en": "Rainbow visits the village",
+      "zh-CN": "彩虹来到村庄",
+      "ja": "村にやってきた虹"
+    },
+    "book:800153": {
+      "en": "Rats!",
+      "zh-CN": "老鼠！",
+      "ja": "ネズミだ！"
+    },
+    "book:800042": {
+      "en": "Hungry jackal and the sour grapes",
+      "zh-CN": "饥饿的胡狼与酸葡萄",
+      "ja": "おなかをすかせたジャッカルとすっぱいブドウ"
+    },
+    "book:800181": {
+      "en": "Sunday at the park",
+      "zh-CN": "公园里的星期天",
+      "ja": "公園で過ごす日曜日"
+    },
+    "book:800018": {
+      "en": "Why is Yayeri great?",
+      "zh-CN": "亚耶丽为什么这么棒？",
+      "ja": "ヤイェリはどうしてすごいの？"
+    },
+    "book:800283": {
+      "en": "Teacher Akinyi",
+      "zh-CN": "阿基尼老师",
+      "ja": "アキニ先生"
+    },
+    "book:800220": {
+      "en": "Keeper and His Special Nursery",
+      "zh-CN": "饲养员和他的特别育幼院",
+      "ja": "飼育員さんと動物の赤ちゃんの家"
+    },
+    "book:800137": {
+      "en": "Locusts",
+      "zh-CN": "蝗虫",
+      "ja": "バッタ"
+    },
+    "book:800361": {
+      "en": "The Man and the Lion",
+      "zh-CN": "人与狮子",
+      "ja": "男の人とライオン"
+    },
+    "book:800197": {
+      "en": "Dog and Crocodile",
+      "zh-CN": "狗与鳄鱼",
+      "ja": "イヌとワニ"
+    },
+    "book:800216": {
+      "en": "The day the sun went away",
+      "zh-CN": "太阳离开的那一天",
+      "ja": "太陽がいなくなった日"
+    },
+    "book:800177": {
+      "en": "Little Dog",
+      "zh-CN": "小狗",
+      "ja": "小さなイヌ"
+    },
+    "book:800024": {
+      "en": "The Sick Hyena",
+      "zh-CN": "生病的鬣狗",
+      "ja": "病気のハイエナ"
+    },
+    "book:800232": {
+      "en": "Sleepy Mr. Sloth",
+      "zh-CN": "爱打瞌睡的树懒先生",
+      "ja": "ねむたがりのナマケモノさん"
+    },
+    "book:800189": {
+      "en": "Hare the trickster",
+      "zh-CN": "诡计多端的野兔",
+      "ja": "ずるがしこいウサギ"
+    },
+    "book:800045": {
+      "en": "The clever jackal and the foolish crow",
+      "zh-CN": "聪明的胡狼与愚蠢的乌鸦",
+      "ja": "かしこいジャッカルとおろかなカラス"
+    },
+    "book:800314": {
+      "en": "Fox and Rooster",
+      "zh-CN": "狐狸与公鸡",
+      "ja": "キツネとおんどり"
+    },
+    "book:800065": {
+      "en": "Ah! Football!",
+      "zh-CN": "啊！足球！",
+      "ja": "ああ、サッカー！"
+    },
+    "book:800351": {
+      "en": "Friends become enemies",
+      "zh-CN": "朋友变仇敌",
+      "ja": "友だちが敵になった"
+    },
+    "book:800141": {
+      "en": "Chicken and Millipede",
+      "zh-CN": "鸡与马陆",
+      "ja": "ニワトリとヤスデ"
+    },
+    "book:800304": {
+      "en": "Greedy Kiundu",
+      "zh-CN": "贪吃的基温杜",
+      "ja": "食いしんぼうのキウンドゥ"
+    },
+    "book:800013": {
+      "en": "Letter to mum",
+      "zh-CN": "给妈妈的信",
+      "ja": "お母さんへの手紙"
+    },
+    "book:800161": {
+      "en": "Keke's swing",
+      "zh-CN": "凯凯的秋千",
+      "ja": "ケケのブランコ"
+    },
+    "book:800362": {
+      "en": "Nanu's taxi",
+      "zh-CN": "娜努的出租车",
+      "ja": "ナヌのタクシー"
+    },
+    "book:800345": {
+      "en": "Khayanga and her Gourd",
+      "zh-CN": "卡扬加和她的葫芦",
+      "ja": "カヤンガとひょうたん"
+    },
+    "book:800039": {
+      "en": "First man and first woman",
+      "zh-CN": "最初的男人和女人",
+      "ja": "最初の男と女"
+    },
+    "book:800256": {
+      "en": "My first pair of shoes",
+      "zh-CN": "我的第一双鞋",
+      "ja": "はじめてのくつ"
+    },
+    "book:800276": {
+      "en": "Big blue bus",
+      "zh-CN": "蓝色大巴士",
+      "ja": "大きな青いバス"
+    },
+    "book:800200": {
+      "en": "Amazing Daisy",
+      "zh-CN": "了不起的黛西",
+      "ja": "すごいぞ、デイジー！"
+    },
+    "book:800016": {
+      "en": "My friend Coco",
+      "zh-CN": "我的朋友可可",
+      "ja": "わたしの友だちココ"
+    },
+    "book:800312": {
+      "en": "Curious Baby Elephant",
+      "zh-CN": "好奇的小象",
+      "ja": "好奇心いっぱいの子ゾウ"
+    },
+    "book:800059": {
+      "en": "Akai's special mat",
+      "zh-CN": "阿凯的神奇席子",
+      "ja": "アカイの特別な敷物"
+    },
+    "book:800185": {
+      "en": "How night came to Opio's village",
+      "zh-CN": "黑夜如何来到奥皮奥的村庄",
+      "ja": "オピオの村に夜がやってきたわけ"
+    },
+    "book:800329": {
+      "en": "Lazy Anansi",
+      "zh-CN": "懒惰的阿南西",
+      "ja": "なまけもののアナンシ"
+    },
+    "book:800092": {
+      "en": "Hare and Tortoise (Again!)",
+      "zh-CN": "龟兔再相逢！",
+      "ja": "ウサギとカメ、ふたたび！"
+    },
+    "book:800299": {
+      "en": "Tortoise finds his house",
+      "zh-CN": "乌龟找到自己的家",
+      "ja": "カメが自分の家を見つけた"
+    },
+    "book:800103": {
+      "en": "Singing the Truth: The Story of Miriam Makeba",
+      "zh-CN": "唱出真相：米丽娅姆·马凯巴的故事",
+      "ja": "真実を歌う：ミリアム・マケバの物語"
+    },
+    "book:800005": {
+      "en": "Anansi and Turtle",
+      "zh-CN": "阿南西与乌龟",
+      "ja": "アナンシとカメ"
+    },
+    "book:800019": {
+      "en": "My first day at the market",
+      "zh-CN": "我第一次赶集",
+      "ja": "はじめての市場"
+    },
+    "book:800124": {
+      "en": "A Fish and a Gift",
+      "zh-CN": "一条鱼和一份礼物",
+      "ja": "一匹の魚と贈りもの"
+    },
+    "book:800273": {
+      "en": "Sizwe's Smile",
+      "zh-CN": "西兹韦的微笑",
+      "ja": "シズウェの笑顔"
+    }
+  }
+}

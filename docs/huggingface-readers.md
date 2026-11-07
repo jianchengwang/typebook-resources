@@ -19,6 +19,9 @@ The three classic books are not included in these band counts.
 Texts retain their original cultural context, proper names and British-English
 spelling. They are not rewritten or AI-generated stories.
 
+All 100 books also have English, Simplified Chinese and Japanese display titles;
+see [the title field contract](book-titles.md). Chapter text remains English.
+
 ## Reading list
 
 | Band | Title | Words | Text author | License |

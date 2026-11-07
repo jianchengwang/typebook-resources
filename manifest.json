@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "typebook-official-resources",
-  "revision": "2026-11-07-hf-readers-100",
+  "revision": "2026-11-07-multilingual-book-titles",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -45,7 +45,7 @@
     "live2d_files": 158,
     "cloudflare_objects_verified": 218
   },
-  "total_bytes": 272553818,
+  "total_bytes": 272593516,
   "files": [
     {
       "path": ".gitattributes",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5222,
-      "sha256": "ded4b90c11a452822e4ed2f3c8389863e810752d9cb22af264012b61c9f1571d",
+      "bytes": 5650,
+      "sha256": "6cbb98d5ca45058b555735adfa4da16bb53f5ec72d3b07106d626ed9b851510b",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -6281,8 +6281,8 @@
     },
     {
       "path": "catalogs/books.json",
-      "bytes": 259662,
-      "sha256": "771b84c05b0e6c44c611f30a68f67f84675f3cd6159e76c6c5e1164fd97c70cb",
+      "bytes": 273568,
+      "sha256": "46092e64c0d557a6d37d7908e0c2b328dccadadee855fd1f0815e159f65df0fc",
       "content_type": "application/json",
       "category": "catalog"
     },
@@ -6698,6 +6698,13 @@
       "category": "documentation"
     },
     {
+      "path": "docs/book-titles.md",
+      "bytes": 2886,
+      "sha256": "c999a8dca8b4af2537f32249074ecc13acba9430a6782a00622d1a1af33252c7",
+      "content_type": "text/markdown",
+      "category": "documentation"
+    },
+    {
       "path": "docs/frontend-resource-strategy.md",
       "bytes": 5434,
       "sha256": "ea974a059f877c66295ce8382f8d70b8c50eabcd45bcd7b5c77d9f55c2918eaa",
@@ -6706,8 +6713,8 @@
     },
     {
       "path": "docs/huggingface-readers.md",
-      "bytes": 25020,
-      "sha256": "34447e7e93be1ce79baa84b2d1d040b33c164c2ee903c6882d0d7880453dc3e9",
+      "bytes": 25180,
+      "sha256": "02616dbda1d72fe723168a38bc74311339f29f8a74b67ddcd45e94b6ae67263d",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -8749,7 +8756,7 @@
     {
       "path": "profiles/default.json",
       "bytes": 30234,
-      "sha256": "e57dc125366355696672824788d649511c0cc06b995988322358b0a1c9418420",
+      "sha256": "31aaa679edb18821fdec3d9e2e0c7203acec9090c720842973b67c25b8cc717b",
       "content_type": "application/json",
       "category": "profile"
     },
@@ -8827,6 +8834,13 @@
       }
     },
     {
+      "path": "tests/test_book_titles.py",
+      "bytes": 5823,
+      "sha256": "0e8bfbe804e130d0d59c47feabff220f628124fa0499115b70d937f6743e89a4",
+      "content_type": "text/x-python",
+      "category": "tooling"
+    },
+    {
       "path": "tests/test_import_hf_readers.py",
       "bytes": 22761,
       "sha256": "1d50dae1e90bf5b5e7b2ff3898d9592c98bd73bec2300091be7da31fbf2ff4a3",
@@ -8834,23 +8848,30 @@
       "category": "tooling"
     },
     {
+      "path": "tools/book_titles.json",
+      "bytes": 14240,
+      "sha256": "f2ee7956cb40cf6d07b7cd52f79b792deebafe2369388a83eb2ee895d87b7f19",
+      "content_type": "application/json",
+      "category": "tooling"
+    },
+    {
       "path": "tools/hf_readers.json",
-      "bytes": 108860,
-      "sha256": "e3d16ca66cd63b2d6ee37202eeabb141f35d8b7ceb41bf71a4492964656da1c8",
+      "bytes": 108925,
+      "sha256": "15a6da45a4af6d70720b903db3f957dbd8a6c430a660d3818a7e72bfb65e24c0",
       "content_type": "application/json",
       "category": "tooling"
     },
     {
       "path": "tools/import_hf_readers.py",
-      "bytes": 26547,
-      "sha256": "2601a9e574d32e65c14069158ce72e8ba8f958076d000c515c4f6f40ba97304f",
+      "bytes": 28336,
+      "sha256": "8f0aa7d288b613cd01eea105e3f6d3257b3637cab6801fcb1460e80731f159d6",
       "content_type": "text/x-python",
       "category": "tooling"
     },
     {
       "path": "tools/verify.py",
-      "bytes": 7942,
-      "sha256": "b15d7c2362c2a43fe2a81cbbd6cc1e924e0394b7abfc80c4bed2741fccdd2558",
+      "bytes": 8343,
+      "sha256": "1d9b750b3aa93060254628660bf1fd92dabfdddc93ded23804a296c1f038e07f",
       "content_type": "text/x-python",
       "category": "tooling"
     },

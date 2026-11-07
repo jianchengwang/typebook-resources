@@ -34,6 +34,13 @@ does not assert that every edition's original chapter structure is represented.
 Dictionary JSON, chapter text, images and model binaries retain their original
 bytes. Git attributes disable newline conversion for payload files.
 
+## Multilingual book titles
+
+All 100 books include `title_i18n` with `en`, `zh-CN` and `ja` display titles.
+The existing English `title`, chapter text and original credits are unchanged.
+See [the field contract and reproducible editing workflow](docs/book-titles.md).
+Application integration is separate; this resource update does not deploy the site.
+
 ## Layout
 
 ```text
@@ -51,6 +58,7 @@ paradee/, onnx-runtime/      Existing browser speech assets
 tools/verify.py              Offline integrity and dependency checks
 tools/import_hf_readers.py   Pinned, license-checked English reader importer
 tools/hf_readers.json        Curated reading list and upstream checksums
+tools/book_titles.json        English, Chinese and Japanese display titles
 tests/                      Offline importer regression tests
 docs/                       Hosting, frontend integration and rights notes
 ```

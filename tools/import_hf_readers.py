@@ -22,8 +22,9 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "tools/hf_readers.json"
-SUPPORT_FILES = {"tools/import_hf_readers.py", "tools/hf_readers.json",
-                 "tests/test_import_hf_readers.py", "docs/huggingface-readers.md"}
+SUPPORT_FILES = {"tools/import_hf_readers.py", "tools/hf_readers.json", "tools/book_titles.json",
+                 "tests/test_import_hf_readers.py", "tests/test_book_titles.py",
+                 "docs/huggingface-readers.md", "docs/book-titles.md"}
 LICENSES = {
     "CC-BY-3.0": "https://creativecommons.org/licenses/by/3.0/",
     "CC-BY-4.0": "https://creativecommons.org/licenses/by/4.0/",
@@ -224,6 +225,31 @@ def resource_files(root):
     return sorted(path for path in root.rglob("*") if (path.is_file() or path.is_symlink()) and not set(path.relative_to(root).parts) & {".git", "__pycache__"} and path.name not in ("manifest.json", ".DS_Store"))
 
 
+def apply_title_translations(books, translations, previous_books):
+    """Add display metadata without changing original titles or book payloads."""
+    require(isinstance(translations, dict) and translations.get("schema_version") == 1,
+            "Unsupported title translation schema")
+    titles = translations.get("books")
+    require(isinstance(titles, dict), "Missing title translations")
+    require(set(titles) == {book["id"] for book in books}, "Title translation book IDs differ from catalog")
+    previous = {book["id"]: book for book in previous_books}
+    localized = []
+    for book in books:
+        values = titles[book["id"]]
+        require(isinstance(values, dict) and set(values) == {"en", "zh-CN", "ja"},
+                "Missing or unsupported title locale: " + book["id"])
+        require(all(isinstance(value, str) and value.strip() == value and value
+                    and not any(unicodedata.category(char).startswith("C") for char in value)
+                    for value in values.values()), "Invalid localized title: " + book["id"])
+        require(values["en"] == book["title"], "English title differs from original: " + book["id"])
+        old = previous.get(book["id"])
+        revision = max(book["revision"], old["revision"] if old else 1)
+        if old and old.get("title_i18n") != values:
+            revision += 1
+        localized.append({**book, "title_i18n": dict(values), "revision": revision})
+    return localized
+
+
 def make_plan(root, config, new_books, outputs):
     outputs = dict(outputs)
     old_manifest = json.loads((root / "manifest.json").read_text())
@@ -246,6 +272,9 @@ def make_plan(root, config, new_books, outputs):
     replacements = {book["id"]: book for book in new_books}
     books = [replacements.get(book["id"], book) for book in existing]
     books.extend(book for book in new_books if book["id"] not in {b["id"] for b in existing})
+    if config.get("title_translations_path"):
+        translations = json.loads(safe_path(root, config["title_translations_path"]).read_text(encoding="utf-8"))
+        books = apply_title_translations(books, translations, existing)
     outputs["catalogs/books.json"] = json_bytes(books)
     summary = json.loads((root / "catalogs/summary.json").read_text())
     summary.update(books=len(books), chapters=sum(book["chapter_count"] for book in books))

@@ -1,7 +1,8 @@
 {
   "schema_version": 1,
   "import_id": "hf-glotstorybook-english-v1",
-  "revision": "2026-11-07-hf-readers-100",
+  "revision": "2026-11-07-multilingual-book-titles",
+  "title_translations_path": "tools/book_titles.json",
   "dataset": {
     "repository": "cis-lmu/GlotStoryBook",
     "revision": "ad913a24f4a912cc0cd49a5f69e2055eba483d1f",

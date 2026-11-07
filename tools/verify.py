@@ -5,6 +5,7 @@ import json
 import pathlib
 import sys
 from urllib.parse import unquote
+from import_hf_readers import apply_title_translations
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -94,6 +95,9 @@ def main():
         require(len(ids) == len(set(ids)), "Duplicate resource ID in " + name)
 
     chapter_count = 0
+    translations = read_json("tools/book_titles.json")
+    localized = apply_title_translations(catalogs["books"], translations, catalogs["books"])
+    require(localized == catalogs["books"], "Catalog title translations differ from editorial source")
     for book in catalogs["books"]:
         require(book["chapter_count"] == len(book["chapters"]), "Chapter count mismatch: " + book["id"])
         verify_body(book["cover"])
@@ -146,6 +150,7 @@ def main():
     print(json.dumps({
         "status": "ok", "files_verified": len(recorded), "bytes_verified": total_bytes,
         "books": len(catalogs["books"]), "chapters": chapter_count,
+        "books_with_localized_titles": len(localized), "title_locales": ["en", "zh-CN", "ja"],
         "dictionaries": len(catalogs["dictionaries"]), "dictionary_entries": dictionary_entries,
         "articles": len(catalogs["articles"]), "collections": len(catalogs["collections"]),
         "prompts": len(catalogs["prompts"]), "models": len(catalogs["live2d"]),

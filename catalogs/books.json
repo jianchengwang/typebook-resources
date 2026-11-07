@@ -6,7 +6,7 @@
     "tags": "[\"selected-classics\"]",
     "word_count": 25973,
     "chapter_count": 5,
-    "revision": 2,
+    "revision": 3,
     "id": "book:1",
     "legacy_id": 1,
     "license_status": "not-recorded-in-source",
@@ -86,7 +86,12 @@
           "bytes": 12541
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "A Christmas Carol",
+      "zh-CN": "圣诞颂歌",
+      "ja": "クリスマス・キャロル"
+    }
   },
   {
     "title": "A Study in Scarlet",
@@ -95,7 +100,7 @@
     "tags": "[\"selected-classics\"]",
     "word_count": 39995,
     "chapter_count": 14,
-    "revision": 2,
+    "revision": 3,
     "id": "book:7",
     "legacy_id": 7,
     "license_status": "not-recorded-in-source",
@@ -301,7 +306,12 @@
           "bytes": 11644
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "A Study in Scarlet",
+      "zh-CN": "血字的研究",
+      "ja": "緋色の研究"
+    }
   },
   {
     "title": "The Wind in the Willows",
@@ -310,7 +320,7 @@
     "tags": "[\"selected-classics\"]",
     "word_count": 54436,
     "chapter_count": 7,
-    "revision": 2,
+    "revision": 3,
     "id": "book:157",
     "legacy_id": 157,
     "license_status": "not-recorded-in-source",
@@ -418,7 +428,12 @@
           "bytes": 60607
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The Wind in the Willows",
+      "zh-CN": "柳林风声",
+      "ja": "たのしい川べ"
+    }
   },
   {
     "title": "Fire",
@@ -427,7 +442,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 21,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800302",
     "legacy_id": 800302,
     "license_status": "verified-cc-by",
@@ -464,7 +479,12 @@
           "bytes": 131
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Fire",
+      "zh-CN": "火",
+      "ja": "火"
+    }
   },
   {
     "title": "What are you doing?",
@@ -473,7 +493,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 25,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800008",
     "legacy_id": 800008,
     "license_status": "verified-cc-by",
@@ -510,7 +530,12 @@
           "bytes": 139
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "What are you doing?",
+      "zh-CN": "你在做什么？",
+      "ja": "何をしているの？"
+    }
   },
   {
     "title": "I like to read!",
@@ -519,7 +544,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 45,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800087",
     "legacy_id": 800087,
     "license_status": "verified-cc-by",
@@ -556,7 +581,12 @@
           "bytes": 214
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "I like to read!",
+      "zh-CN": "我爱读书！",
+      "ja": "本を読むのが大好き！"
+    }
   },
   {
     "title": "Counting animals",
@@ -565,7 +595,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 74,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800327",
     "legacy_id": 800327,
     "license_status": "verified-cc-by",
@@ -602,7 +632,12 @@
           "bytes": 407
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Counting animals",
+      "zh-CN": "数一数动物",
+      "ja": "動物を数えよう"
+    }
   },
   {
     "title": "A very tall man",
@@ -611,7 +646,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 79,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800001",
     "legacy_id": 800001,
     "license_status": "verified-cc-by",
@@ -648,7 +683,12 @@
           "bytes": 379
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "A very tall man",
+      "zh-CN": "一个很高很高的人",
+      "ja": "とても背の高い男の人"
+    }
   },
   {
     "title": "Zama is great!",
@@ -657,7 +697,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 127,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800095",
     "legacy_id": 800095,
     "license_status": "verified-cc-by",
@@ -694,7 +734,12 @@
           "bytes": 636
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Zama is great!",
+      "zh-CN": "扎玛真棒！",
+      "ja": "ザマはすごい！"
+    }
   },
   {
     "title": "Tom the banana seller",
@@ -703,7 +748,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 140,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800296",
     "legacy_id": 800296,
     "license_status": "verified-cc-by",
@@ -740,7 +785,12 @@
           "bytes": 738
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Tom the banana seller",
+      "zh-CN": "卖香蕉的汤姆",
+      "ja": "バナナ売りのトム"
+    }
   },
   {
     "title": "Goat, Dog, and Cow",
@@ -749,7 +799,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 148,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800004",
     "legacy_id": 800004,
     "license_status": "verified-cc-by",
@@ -786,7 +836,12 @@
           "bytes": 756
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Goat, Dog, and Cow",
+      "zh-CN": "山羊、狗和牛",
+      "ja": "ヤギとイヌとウシ"
+    }
   },
   {
     "title": "Khalai talks to plants",
@@ -795,7 +850,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 163,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800089",
     "legacy_id": 800089,
     "license_status": "verified-cc-by",
@@ -832,7 +887,12 @@
           "bytes": 904
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Khalai talks to plants",
+      "zh-CN": "卡莱和植物说话",
+      "ja": "カライは植物とおしゃべり"
+    }
   },
   {
     "title": "Decision",
@@ -841,7 +901,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 185,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800027",
     "legacy_id": 800027,
     "license_status": "verified-cc-by",
@@ -878,7 +938,12 @@
           "bytes": 1037
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Decision",
+      "zh-CN": "决定",
+      "ja": "決意"
+    }
   },
   {
     "title": "Anansi and Wisdom",
@@ -887,7 +952,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 285,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800006",
     "legacy_id": 800006,
     "license_status": "verified-cc-by",
@@ -924,7 +989,12 @@
           "bytes": 1405
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Anansi and Wisdom",
+      "zh-CN": "阿南西与智慧",
+      "ja": "アナンシと知恵"
+    }
   },
   {
     "title": "A Tiny Seed: The Story of Wangari Maathai",
@@ -933,7 +1003,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 412,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800110",
     "legacy_id": 800110,
     "license_status": "verified-cc-by",
@@ -970,7 +1040,12 @@
           "bytes": 2243
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "A Tiny Seed: The Story of Wangari Maathai",
+      "zh-CN": "一粒小种子：旺加里·马塔伊的故事",
+      "ja": "小さな種：ワンガリ・マータイの物語"
+    }
   },
   {
     "title": "The day I left home for the city",
@@ -979,7 +1054,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 442,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800324",
     "legacy_id": 800324,
     "license_status": "verified-cc-by",
@@ -1016,7 +1091,12 @@
           "bytes": 2351
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The day I left home for the city",
+      "zh-CN": "我离家进城的那一天",
+      "ja": "ふるさとを離れて都会へ向かった日"
+    }
   },
   {
     "title": "What Vusi's sister said",
@@ -1025,7 +1105,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 503,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800291",
     "legacy_id": 800291,
     "license_status": "verified-cc-by",
@@ -1062,7 +1142,12 @@
           "bytes": 2595
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "What Vusi's sister said",
+      "zh-CN": "武西的姐姐说了什么",
+      "ja": "ヴシのお姉さんが言ったこと"
+    }
   },
   {
     "title": "Grandma's bananas",
@@ -1071,7 +1156,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 528,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800294",
     "legacy_id": 800294,
     "license_status": "verified-cc-by",
@@ -1108,7 +1193,12 @@
           "bytes": 2848
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Grandma's bananas",
+      "zh-CN": "奶奶的香蕉",
+      "ja": "おばあちゃんのバナナ"
+    }
   },
   {
     "title": "Holidays with grandmother",
@@ -1117,7 +1207,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 564,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800243",
     "legacy_id": 800243,
     "license_status": "verified-cc-by",
@@ -1154,7 +1244,12 @@
           "bytes": 3251
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Holidays with grandmother",
+      "zh-CN": "和奶奶一起过假期",
+      "ja": "おばあちゃんと過ごす休み"
+    }
   },
   {
     "title": "The Rainbow",
@@ -1163,7 +1258,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 21,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800049",
     "legacy_id": 800049,
     "license_status": "verified-cc-by",
@@ -1200,7 +1295,12 @@
           "bytes": 121
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The Rainbow",
+      "zh-CN": "彩虹",
+      "ja": "虹"
+    }
   },
   {
     "title": "Clouds",
@@ -1209,7 +1309,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 30,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800126",
     "legacy_id": 800126,
     "license_status": "verified-cc-by",
@@ -1246,7 +1346,12 @@
           "bytes": 161
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Clouds",
+      "zh-CN": "云",
+      "ja": "雲"
+    }
   },
   {
     "title": "My little goat",
@@ -1255,7 +1360,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 37,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800212",
     "legacy_id": 800212,
     "license_status": "verified-cc-by",
@@ -1292,7 +1397,12 @@
           "bytes": 164
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My little goat",
+      "zh-CN": "我的小山羊",
+      "ja": "わたしの子ヤギ"
+    }
   },
   {
     "title": "Rain",
@@ -1301,7 +1411,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 45,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800331",
     "legacy_id": 800331,
     "license_status": "verified-cc-by",
@@ -1338,7 +1448,12 @@
           "bytes": 232
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Rain",
+      "zh-CN": "雨",
+      "ja": "雨"
+    }
   },
   {
     "title": "Fruits",
@@ -1347,7 +1462,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 46,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800172",
     "legacy_id": 800172,
     "license_status": "verified-cc-by",
@@ -1384,7 +1499,12 @@
           "bytes": 283
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Fruits",
+      "zh-CN": "水果",
+      "ja": "くだもの"
+    }
   },
   {
     "title": "I enjoy doing",
@@ -1393,7 +1513,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 53,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800316",
     "legacy_id": 800316,
     "license_status": "verified-cc-by",
@@ -1430,7 +1550,12 @@
           "bytes": 298
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "I enjoy doing",
+      "zh-CN": "我喜欢做的事",
+      "ja": "わたしの好きなこと"
+    }
   },
   {
     "title": "Pendo our cow",
@@ -1439,7 +1564,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 58,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800240",
     "legacy_id": 800240,
     "license_status": "verified-cc-by",
@@ -1476,7 +1601,12 @@
           "bytes": 332
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Pendo our cow",
+      "zh-CN": "我家的奶牛彭多",
+      "ja": "うちのウシ、ペンド"
+    }
   },
   {
     "title": "New pussy cat",
@@ -1485,7 +1615,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 59,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800113",
     "legacy_id": 800113,
     "license_status": "verified-cc-by",
@@ -1522,7 +1652,12 @@
           "bytes": 317
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "New pussy cat",
+      "zh-CN": "新来的小猫",
+      "ja": "新しくやってきた子ネコ"
+    }
   },
   {
     "title": "Children like to play",
@@ -1531,7 +1666,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 60,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800157",
     "legacy_id": 800157,
     "license_status": "verified-cc-by",
@@ -1568,7 +1703,12 @@
           "bytes": 349
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Children like to play",
+      "zh-CN": "孩子们爱玩耍",
+      "ja": "子どもたちは遊ぶのが大好き"
+    }
   },
   {
     "title": "Fire's story",
@@ -1577,7 +1717,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 62,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800043",
     "legacy_id": 800043,
     "license_status": "verified-cc-by",
@@ -1614,7 +1754,12 @@
           "bytes": 291
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Fire's story",
+      "zh-CN": "火的故事",
+      "ja": "火のお話"
+    }
   },
   {
     "title": "Tell me...now! Happy and sad",
@@ -1623,7 +1768,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 64,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800265",
     "legacy_id": 800265,
     "license_status": "verified-cc-by",
@@ -1660,7 +1805,12 @@
           "bytes": 320
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Tell me...now! Happy and sad",
+      "zh-CN": "快告诉我！开心与难过",
+      "ja": "ねえ、教えて！うれしい気持ちと悲しい気持ち"
+    }
   },
   {
     "title": "What type of teeth?",
@@ -1669,7 +1819,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 65,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800050",
     "legacy_id": 800050,
     "license_status": "verified-cc-by",
@@ -1706,7 +1856,12 @@
           "bytes": 330
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "What type of teeth?",
+      "zh-CN": "什么样的牙齿？",
+      "ja": "どんな歯かな？"
+    }
   },
   {
     "title": "Tell me...now! Colours",
@@ -1715,7 +1870,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 65,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800355",
     "legacy_id": 800355,
     "license_status": "verified-cc-by",
@@ -1752,7 +1907,12 @@
           "bytes": 348
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Tell me...now! Colours",
+      "zh-CN": "快告诉我！颜色",
+      "ja": "ねえ、教えて！いろいろな色"
+    }
   },
   {
     "title": "Soccer game",
@@ -1761,7 +1921,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 67,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800058",
     "legacy_id": 800058,
     "license_status": "verified-cc-by",
@@ -1798,7 +1958,12 @@
           "bytes": 350
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Soccer game",
+      "zh-CN": "足球比赛",
+      "ja": "サッカーの試合"
+    }
   },
   {
     "title": "Lekishon and the cows",
@@ -1807,7 +1972,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 67,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800109",
     "legacy_id": 800109,
     "license_status": "verified-cc-by",
@@ -1844,7 +2009,12 @@
           "bytes": 355
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Lekishon and the cows",
+      "zh-CN": "莱基雄和牛群",
+      "ja": "レキションとウシたち"
+    }
   },
   {
     "title": "Disability is Not Inability",
@@ -1853,7 +2023,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 68,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800160",
     "legacy_id": 800160,
     "license_status": "verified-cc-by",
@@ -1890,7 +2060,12 @@
           "bytes": 366
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Disability is Not Inability",
+      "zh-CN": "有障碍不等于没能力",
+      "ja": "障害があっても、できることはたくさん"
+    }
   },
   {
     "title": "Our day at the zoo",
@@ -1899,7 +2074,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 70,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800245",
     "legacy_id": 800245,
     "license_status": "verified-cc-by",
@@ -1936,7 +2111,12 @@
           "bytes": 360
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Our day at the zoo",
+      "zh-CN": "我们在动物园的一天",
+      "ja": "動物園で過ごした一日"
+    }
   },
   {
     "title": "My red ball",
@@ -1945,7 +2125,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 72,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800143",
     "legacy_id": 800143,
     "license_status": "verified-cc-by",
@@ -1982,7 +2162,12 @@
           "bytes": 312
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My red ball",
+      "zh-CN": "我的红皮球",
+      "ja": "わたしの赤いボール"
+    }
   },
   {
     "title": "Friendship between Hyena and Hare",
@@ -1991,7 +2176,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 73,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800117",
     "legacy_id": 800117,
     "license_status": "verified-cc-by",
@@ -2028,7 +2213,12 @@
           "bytes": 396
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Friendship between Hyena and Hare",
+      "zh-CN": "鬣狗和野兔的友谊",
+      "ja": "ハイエナとウサギの友情"
+    }
   },
   {
     "title": "My teacher",
@@ -2037,7 +2227,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 73,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800217",
     "legacy_id": 800217,
     "license_status": "verified-cc-by",
@@ -2074,7 +2264,12 @@
           "bytes": 378
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My teacher",
+      "zh-CN": "我的老师",
+      "ja": "わたしの先生"
+    }
   },
   {
     "title": "What is wrong child?",
@@ -2083,7 +2278,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 74,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800152",
     "legacy_id": 800152,
     "license_status": "verified-cc-by",
@@ -2120,7 +2315,12 @@
           "bytes": 419
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "What is wrong child?",
+      "zh-CN": "孩子，你怎么了？",
+      "ja": "どうしたの、赤ちゃん？"
+    }
   },
   {
     "title": "Serious accident",
@@ -2129,7 +2329,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"starter\"]",
     "word_count": 75,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800285",
     "legacy_id": 800285,
     "license_status": "verified-cc-by",
@@ -2166,7 +2366,12 @@
           "bytes": 387
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Serious accident",
+      "zh-CN": "严重的车祸",
+      "ja": "大きな交通事故"
+    }
   },
   {
     "title": "The Chase",
@@ -2175,7 +2380,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 102,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800175",
     "legacy_id": 800175,
     "license_status": "verified-cc-by",
@@ -2212,7 +2417,12 @@
           "bytes": 466
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The Chase",
+      "zh-CN": "你追我赶",
+      "ja": "追いかけっこ"
+    }
   },
   {
     "title": "Cow with one horn",
@@ -2221,7 +2431,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 104,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800159",
     "legacy_id": 800159,
     "license_status": "verified-cc-by",
@@ -2258,7 +2468,12 @@
           "bytes": 508
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Cow with one horn",
+      "zh-CN": "一只角的牛",
+      "ja": "一本角のウシ"
+    }
   },
   {
     "title": "Who is Big?",
@@ -2267,7 +2482,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 104,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800174",
     "legacy_id": 800174,
     "license_status": "verified-cc-by",
@@ -2304,7 +2519,12 @@
           "bytes": 531
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Who is Big?",
+      "zh-CN": "谁最大？",
+      "ja": "だれが大きい？"
+    }
   },
   {
     "title": "Dembe the shopkeeper",
@@ -2313,7 +2533,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 110,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800021",
     "legacy_id": 800021,
     "license_status": "verified-cc-by",
@@ -2350,7 +2570,12 @@
           "bytes": 601
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Dembe the shopkeeper",
+      "zh-CN": "店主登贝",
+      "ja": "お店屋さんのデンベ"
+    }
   },
   {
     "title": "My mother planted",
@@ -2359,7 +2584,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 110,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800188",
     "legacy_id": 800188,
     "license_status": "verified-cc-by",
@@ -2396,7 +2621,12 @@
           "bytes": 618
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My mother planted",
+      "zh-CN": "妈妈种下了种子",
+      "ja": "お母さんが種をまいた"
+    }
   },
   {
     "title": "Hamisi's lucky day",
@@ -2405,7 +2635,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 111,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800136",
     "legacy_id": 800136,
     "license_status": "verified-cc-by",
@@ -2442,7 +2672,12 @@
           "bytes": 593
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Hamisi's lucky day",
+      "zh-CN": "哈米西的幸运日",
+      "ja": "ハミシの幸運な一日"
+    }
   },
   {
     "title": "Father and son",
@@ -2451,7 +2686,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 112,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800011",
     "legacy_id": 800011,
     "license_status": "verified-cc-by",
@@ -2488,7 +2723,12 @@
           "bytes": 596
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Father and son",
+      "zh-CN": "父与子",
+      "ja": "お父さんと息子"
+    }
   },
   {
     "title": "Colours of a rainbow",
@@ -2497,7 +2737,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 115,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800257",
     "legacy_id": 800257,
     "license_status": "verified-cc-by",
@@ -2534,7 +2774,12 @@
           "bytes": 625
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Colours of a rainbow",
+      "zh-CN": "彩虹的颜色",
+      "ja": "虹の色"
+    }
   },
   {
     "title": "Bunty and Bubbly",
@@ -2543,7 +2788,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 118,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800266",
     "legacy_id": 800266,
     "license_status": "verified-cc-by",
@@ -2580,7 +2825,12 @@
           "bytes": 669
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Bunty and Bubbly",
+      "zh-CN": "邦蒂和泡泡王",
+      "ja": "バンティと泡の王さまバブリー"
+    }
   },
   {
     "title": "Soccer skills",
@@ -2589,7 +2839,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 118,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800269",
     "legacy_id": 800269,
     "license_status": "verified-cc-by",
@@ -2626,7 +2876,12 @@
           "bytes": 632
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Soccer skills",
+      "zh-CN": "足球技巧",
+      "ja": "サッカーの技"
+    }
   },
   {
     "title": "Girl called Norah",
@@ -2635,7 +2890,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 119,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800014",
     "legacy_id": 800014,
     "license_status": "verified-cc-by",
@@ -2672,7 +2927,12 @@
           "bytes": 655
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Girl called Norah",
+      "zh-CN": "名叫诺拉的女孩",
+      "ja": "ノラという女の子"
+    }
   },
   {
     "title": "Wind",
@@ -2681,7 +2941,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 128,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800035",
     "legacy_id": 800035,
     "license_status": "verified-cc-by",
@@ -2718,7 +2978,12 @@
           "bytes": 654
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Wind",
+      "zh-CN": "风",
+      "ja": "風"
+    }
   },
   {
     "title": "Our river, our life",
@@ -2727,7 +2992,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 130,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800071",
     "legacy_id": 800071,
     "license_status": "verified-cc-by",
@@ -2764,7 +3029,12 @@
           "bytes": 760
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Our river, our life",
+      "zh-CN": "我们的河流，我们的生活",
+      "ja": "わたしたちの川、わたしたちの暮らし"
+    }
   },
   {
     "title": "Punishment",
@@ -2773,7 +3043,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 131,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800342",
     "legacy_id": 800342,
     "license_status": "verified-cc-by",
@@ -2810,7 +3080,12 @@
           "bytes": 706
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Punishment",
+      "zh-CN": "惩罚",
+      "ja": "おしおき"
+    }
   },
   {
     "title": "Clever cat",
@@ -2819,7 +3094,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 138,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800056",
     "legacy_id": 800056,
     "license_status": "verified-cc-by",
@@ -2856,7 +3131,12 @@
           "bytes": 766
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Clever cat",
+      "zh-CN": "聪明的猫",
+      "ja": "かしこいネコ"
+    }
   },
   {
     "title": "Ms Phone",
@@ -2865,7 +3145,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 140,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800105",
     "legacy_id": 800105,
     "license_status": "verified-cc-by",
@@ -2902,7 +3182,12 @@
           "bytes": 771
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Ms Phone",
+      "zh-CN": "手机女士",
+      "ja": "ケータイおばさん"
+    }
   },
   {
     "title": "The Moon and the Cap",
@@ -2911,7 +3196,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 143,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800149",
     "legacy_id": 800149,
     "license_status": "verified-cc-by",
@@ -2948,7 +3233,12 @@
           "bytes": 677
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The Moon and the Cap",
+      "zh-CN": "月亮和帽子",
+      "ja": "お月さまと帽子"
+    }
   },
   {
     "title": "Rabbit Goes to a Party",
@@ -2957,7 +3247,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 146,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800233",
     "legacy_id": 800233,
     "license_status": "verified-cc-by",
@@ -2994,7 +3284,12 @@
           "bytes": 746
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Rabbit Goes to a Party",
+      "zh-CN": "兔子去赴宴",
+      "ja": "ウサギ、パーティーに行く"
+    }
   },
   {
     "title": "Rainbow visits the village",
@@ -3003,7 +3298,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 151,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800096",
     "legacy_id": 800096,
     "license_status": "verified-cc-by",
@@ -3040,7 +3335,12 @@
           "bytes": 877
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Rainbow visits the village",
+      "zh-CN": "彩虹来到村庄",
+      "ja": "村にやってきた虹"
+    }
   },
   {
     "title": "Rats!",
@@ -3049,7 +3349,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 158,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800153",
     "legacy_id": 800153,
     "license_status": "verified-cc-by",
@@ -3086,7 +3386,12 @@
           "bytes": 775
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Rats!",
+      "zh-CN": "老鼠！",
+      "ja": "ネズミだ！"
+    }
   },
   {
     "title": "Hungry jackal and the sour grapes",
@@ -3095,7 +3400,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 164,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800042",
     "legacy_id": 800042,
     "license_status": "verified-cc-by",
@@ -3132,7 +3437,12 @@
           "bytes": 879
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Hungry jackal and the sour grapes",
+      "zh-CN": "饥饿的胡狼与酸葡萄",
+      "ja": "おなかをすかせたジャッカルとすっぱいブドウ"
+    }
   },
   {
     "title": "Sunday at the park",
@@ -3141,7 +3451,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 168,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800181",
     "legacy_id": 800181,
     "license_status": "verified-cc-by",
@@ -3178,7 +3488,12 @@
           "bytes": 787
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Sunday at the park",
+      "zh-CN": "公园里的星期天",
+      "ja": "公園で過ごす日曜日"
+    }
   },
   {
     "title": "Why is Yayeri great?",
@@ -3187,7 +3502,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 169,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800018",
     "legacy_id": 800018,
     "license_status": "verified-cc-by",
@@ -3224,7 +3539,12 @@
           "bytes": 998
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Why is Yayeri great?",
+      "zh-CN": "亚耶丽为什么这么棒？",
+      "ja": "ヤイェリはどうしてすごいの？"
+    }
   },
   {
     "title": "Teacher Akinyi",
@@ -3233,7 +3553,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 177,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800283",
     "legacy_id": 800283,
     "license_status": "verified-cc-by",
@@ -3270,7 +3590,12 @@
           "bytes": 955
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Teacher Akinyi",
+      "zh-CN": "阿基尼老师",
+      "ja": "アキニ先生"
+    }
   },
   {
     "title": "Keeper and His Special Nursery",
@@ -3279,7 +3604,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 183,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800220",
     "legacy_id": 800220,
     "license_status": "verified-cc-by",
@@ -3316,7 +3641,12 @@
           "bytes": 995
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Keeper and His Special Nursery",
+      "zh-CN": "饲养员和他的特别育幼院",
+      "ja": "飼育員さんと動物の赤ちゃんの家"
+    }
   },
   {
     "title": "Locusts",
@@ -3325,7 +3655,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 185,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800137",
     "legacy_id": 800137,
     "license_status": "verified-cc-by",
@@ -3362,7 +3692,12 @@
           "bytes": 1026
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Locusts",
+      "zh-CN": "蝗虫",
+      "ja": "バッタ"
+    }
   },
   {
     "title": "The Man and the Lion",
@@ -3371,7 +3706,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 185,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800361",
     "legacy_id": 800361,
     "license_status": "verified-cc-by",
@@ -3408,7 +3743,12 @@
           "bytes": 935
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The Man and the Lion",
+      "zh-CN": "人与狮子",
+      "ja": "男の人とライオン"
+    }
   },
   {
     "title": "Dog and Crocodile",
@@ -3417,7 +3757,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 188,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800197",
     "legacy_id": 800197,
     "license_status": "verified-cc-by",
@@ -3454,7 +3794,12 @@
           "bytes": 1062
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Dog and Crocodile",
+      "zh-CN": "狗与鳄鱼",
+      "ja": "イヌとワニ"
+    }
   },
   {
     "title": "The day the sun went away",
@@ -3463,7 +3808,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 189,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800216",
     "legacy_id": 800216,
     "license_status": "verified-cc-by",
@@ -3500,7 +3845,12 @@
           "bytes": 1028
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The day the sun went away",
+      "zh-CN": "太阳离开的那一天",
+      "ja": "太陽がいなくなった日"
+    }
   },
   {
     "title": "Little Dog",
@@ -3509,7 +3859,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"easy\"]",
     "word_count": 191,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800177",
     "legacy_id": 800177,
     "license_status": "verified-cc-by",
@@ -3546,7 +3896,12 @@
           "bytes": 908
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Little Dog",
+      "zh-CN": "小狗",
+      "ja": "小さなイヌ"
+    }
   },
   {
     "title": "The Sick Hyena",
@@ -3555,7 +3910,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 222,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800024",
     "legacy_id": 800024,
     "license_status": "verified-cc-by",
@@ -3592,7 +3947,12 @@
           "bytes": 1149
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The Sick Hyena",
+      "zh-CN": "生病的鬣狗",
+      "ja": "病気のハイエナ"
+    }
   },
   {
     "title": "Sleepy Mr. Sloth",
@@ -3601,7 +3961,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 222,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800232",
     "legacy_id": 800232,
     "license_status": "verified-cc-by",
@@ -3638,7 +3998,12 @@
           "bytes": 1197
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Sleepy Mr. Sloth",
+      "zh-CN": "爱打瞌睡的树懒先生",
+      "ja": "ねむたがりのナマケモノさん"
+    }
   },
   {
     "title": "Hare the trickster",
@@ -3647,7 +4012,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 237,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800189",
     "legacy_id": 800189,
     "license_status": "verified-cc-by",
@@ -3684,7 +4049,12 @@
           "bytes": 1325
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Hare the trickster",
+      "zh-CN": "诡计多端的野兔",
+      "ja": "ずるがしこいウサギ"
+    }
   },
   {
     "title": "The clever jackal and the foolish crow",
@@ -3693,7 +4063,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 246,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800045",
     "legacy_id": 800045,
     "license_status": "verified-cc-by",
@@ -3730,7 +4100,12 @@
           "bytes": 1304
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "The clever jackal and the foolish crow",
+      "zh-CN": "聪明的胡狼与愚蠢的乌鸦",
+      "ja": "かしこいジャッカルとおろかなカラス"
+    }
   },
   {
     "title": "Fox and Rooster",
@@ -3739,7 +4114,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 246,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800314",
     "legacy_id": 800314,
     "license_status": "verified-cc-by",
@@ -3776,7 +4151,12 @@
           "bytes": 1324
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Fox and Rooster",
+      "zh-CN": "狐狸与公鸡",
+      "ja": "キツネとおんどり"
+    }
   },
   {
     "title": "Ah! Football!",
@@ -3785,7 +4165,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 253,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800065",
     "legacy_id": 800065,
     "license_status": "verified-cc-by",
@@ -3822,7 +4202,12 @@
           "bytes": 1300
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Ah! Football!",
+      "zh-CN": "啊！足球！",
+      "ja": "ああ、サッカー！"
+    }
   },
   {
     "title": "Friends become enemies",
@@ -3831,7 +4216,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 264,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800351",
     "legacy_id": 800351,
     "license_status": "verified-cc-by",
@@ -3868,7 +4253,12 @@
           "bytes": 1411
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Friends become enemies",
+      "zh-CN": "朋友变仇敌",
+      "ja": "友だちが敵になった"
+    }
   },
   {
     "title": "Chicken and Millipede",
@@ -3877,7 +4267,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 268,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800141",
     "legacy_id": 800141,
     "license_status": "verified-cc-by",
@@ -3914,7 +4304,12 @@
           "bytes": 1641
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Chicken and Millipede",
+      "zh-CN": "鸡与马陆",
+      "ja": "ニワトリとヤスデ"
+    }
   },
   {
     "title": "Greedy Kiundu",
@@ -3923,7 +4318,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 280,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800304",
     "legacy_id": 800304,
     "license_status": "verified-cc-by",
@@ -3960,7 +4355,12 @@
           "bytes": 1543
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Greedy Kiundu",
+      "zh-CN": "贪吃的基温杜",
+      "ja": "食いしんぼうのキウンドゥ"
+    }
   },
   {
     "title": "Letter to mum",
@@ -3969,7 +4369,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 285,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800013",
     "legacy_id": 800013,
     "license_status": "verified-cc-by",
@@ -4006,7 +4406,12 @@
           "bytes": 1428
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Letter to mum",
+      "zh-CN": "给妈妈的信",
+      "ja": "お母さんへの手紙"
+    }
   },
   {
     "title": "Keke's swing",
@@ -4015,7 +4420,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 285,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800161",
     "legacy_id": 800161,
     "license_status": "verified-cc-by",
@@ -4052,7 +4457,12 @@
           "bytes": 1479
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Keke's swing",
+      "zh-CN": "凯凯的秋千",
+      "ja": "ケケのブランコ"
+    }
   },
   {
     "title": "Nanu's taxi",
@@ -4061,7 +4471,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 298,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800362",
     "legacy_id": 800362,
     "license_status": "verified-cc-by",
@@ -4098,7 +4508,12 @@
           "bytes": 1508
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Nanu's taxi",
+      "zh-CN": "娜努的出租车",
+      "ja": "ナヌのタクシー"
+    }
   },
   {
     "title": "Khayanga and her Gourd",
@@ -4107,7 +4522,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 303,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800345",
     "legacy_id": 800345,
     "license_status": "verified-cc-by",
@@ -4144,7 +4559,12 @@
           "bytes": 1747
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Khayanga and her Gourd",
+      "zh-CN": "卡扬加和她的葫芦",
+      "ja": "カヤンガとひょうたん"
+    }
   },
   {
     "title": "First man and first woman",
@@ -4153,7 +4573,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 304,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800039",
     "legacy_id": 800039,
     "license_status": "verified-cc-by",
@@ -4190,7 +4610,12 @@
           "bytes": 1621
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "First man and first woman",
+      "zh-CN": "最初的男人和女人",
+      "ja": "最初の男と女"
+    }
   },
   {
     "title": "My first pair of shoes",
@@ -4199,7 +4624,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 318,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800256",
     "legacy_id": 800256,
     "license_status": "verified-cc-by",
@@ -4236,7 +4661,12 @@
           "bytes": 1626
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My first pair of shoes",
+      "zh-CN": "我的第一双鞋",
+      "ja": "はじめてのくつ"
+    }
   },
   {
     "title": "Big blue bus",
@@ -4245,7 +4675,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 321,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800276",
     "legacy_id": 800276,
     "license_status": "verified-cc-by",
@@ -4282,7 +4712,12 @@
           "bytes": 1618
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Big blue bus",
+      "zh-CN": "蓝色大巴士",
+      "ja": "大きな青いバス"
+    }
   },
   {
     "title": "Amazing Daisy",
@@ -4291,7 +4726,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 332,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800200",
     "legacy_id": 800200,
     "license_status": "verified-cc-by",
@@ -4328,7 +4763,12 @@
           "bytes": 1843
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Amazing Daisy",
+      "zh-CN": "了不起的黛西",
+      "ja": "すごいぞ、デイジー！"
+    }
   },
   {
     "title": "My friend Coco",
@@ -4337,7 +4777,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 338,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800016",
     "legacy_id": 800016,
     "license_status": "verified-cc-by",
@@ -4374,7 +4814,12 @@
           "bytes": 1690
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My friend Coco",
+      "zh-CN": "我的朋友可可",
+      "ja": "わたしの友だちココ"
+    }
   },
   {
     "title": "Curious Baby Elephant",
@@ -4383,7 +4828,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 341,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800312",
     "legacy_id": 800312,
     "license_status": "verified-cc-by",
@@ -4420,7 +4865,12 @@
           "bytes": 1917
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Curious Baby Elephant",
+      "zh-CN": "好奇的小象",
+      "ja": "好奇心いっぱいの子ゾウ"
+    }
   },
   {
     "title": "Akai's special mat",
@@ -4429,7 +4879,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 358,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800059",
     "legacy_id": 800059,
     "license_status": "verified-cc-by",
@@ -4466,7 +4916,12 @@
           "bytes": 1914
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Akai's special mat",
+      "zh-CN": "阿凯的神奇席子",
+      "ja": "アカイの特別な敷物"
+    }
   },
   {
     "title": "How night came to Opio's village",
@@ -4475,7 +4930,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 399,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800185",
     "legacy_id": 800185,
     "license_status": "verified-cc-by",
@@ -4512,7 +4967,12 @@
           "bytes": 2049
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "How night came to Opio's village",
+      "zh-CN": "黑夜如何来到奥皮奥的村庄",
+      "ja": "オピオの村に夜がやってきたわけ"
+    }
   },
   {
     "title": "Lazy Anansi",
@@ -4521,7 +4981,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"developing\"]",
     "word_count": 432,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800329",
     "legacy_id": 800329,
     "license_status": "verified-cc-by",
@@ -4558,7 +5018,12 @@
           "bytes": 2233
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Lazy Anansi",
+      "zh-CN": "懒惰的阿南西",
+      "ja": "なまけもののアナンシ"
+    }
   },
   {
     "title": "Hare and Tortoise (Again!)",
@@ -4567,7 +5032,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 461,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800092",
     "legacy_id": 800092,
     "license_status": "verified-cc-by",
@@ -4604,7 +5069,12 @@
           "bytes": 2564
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Hare and Tortoise (Again!)",
+      "zh-CN": "龟兔再相逢！",
+      "ja": "ウサギとカメ、ふたたび！"
+    }
   },
   {
     "title": "Tortoise finds his house",
@@ -4613,7 +5083,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 465,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800299",
     "legacy_id": 800299,
     "license_status": "verified-cc-by",
@@ -4650,7 +5120,12 @@
           "bytes": 2630
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Tortoise finds his house",
+      "zh-CN": "乌龟找到自己的家",
+      "ja": "カメが自分の家を見つけた"
+    }
   },
   {
     "title": "Singing the Truth: The Story of Miriam Makeba",
@@ -4659,7 +5134,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 469,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800103",
     "legacy_id": 800103,
     "license_status": "verified-cc-by",
@@ -4696,7 +5171,12 @@
           "bytes": 2429
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Singing the Truth: The Story of Miriam Makeba",
+      "zh-CN": "唱出真相：米丽娅姆·马凯巴的故事",
+      "ja": "真実を歌う：ミリアム・マケバの物語"
+    }
   },
   {
     "title": "Anansi and Turtle",
@@ -4705,7 +5185,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 605,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800005",
     "legacy_id": 800005,
     "license_status": "verified-cc-by",
@@ -4742,7 +5222,12 @@
           "bytes": 3192
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Anansi and Turtle",
+      "zh-CN": "阿南西与乌龟",
+      "ja": "アナンシとカメ"
+    }
   },
   {
     "title": "My first day at the market",
@@ -4751,7 +5236,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 630,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800019",
     "legacy_id": 800019,
     "license_status": "verified-cc-by",
@@ -4788,7 +5273,12 @@
           "bytes": 3213
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "My first day at the market",
+      "zh-CN": "我第一次赶集",
+      "ja": "はじめての市場"
+    }
   },
   {
     "title": "A Fish and a Gift",
@@ -4797,7 +5287,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 655,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800124",
     "legacy_id": 800124,
     "license_status": "verified-cc-by",
@@ -4834,7 +5324,12 @@
           "bytes": 3620
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "A Fish and a Gift",
+      "zh-CN": "一条鱼和一份礼物",
+      "ja": "一匹の魚と贈りもの"
+    }
   },
   {
     "title": "Sizwe's Smile",
@@ -4843,7 +5338,7 @@
     "tags": "[\"english-learning\", \"short-readers\", \"typing-practice\", \"longer\"]",
     "word_count": 687,
     "chapter_count": 1,
-    "revision": 1,
+    "revision": 2,
     "id": "book:800273",
     "legacy_id": 800273,
     "license_status": "verified-cc-by",
@@ -4880,6 +5375,11 @@
           "bytes": 3724
         }
       }
-    ]
+    ],
+    "title_i18n": {
+      "en": "Sizwe's Smile",
+      "zh-CN": "西兹韦的微笑",
+      "ja": "シズウェの笑顔"
+    }
   }
 ]
