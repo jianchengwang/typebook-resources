@@ -5,6 +5,7 @@ No network access. --write applies an atomic, recoverable plan; --check verifies
 reproducibility. Copyright clearance is editorial, not inferred from a checksum.
 """
 import argparse
+from manifest_io import load_manifest, finish_manifest
 import copy
 import html
 import json
@@ -139,7 +140,7 @@ def build_book(root,cache,b):
 
 def make_plan(root,config,cache=None):
     validate_config(config)
-    manifest=json.loads((root/'manifest.json').read_text()); recorded={x['path']:x for x in manifest['files']}
+    manifest=load_manifest(root); recorded={x['path']:x for x in manifest['files']}
     public=json.loads((root/'catalogs/books.json').read_text())
     owned=[b for b in public if b.get('source',{}).get('import_id')==IMPORT_ID]
     others=[b for b in public if b not in owned]
@@ -192,7 +193,7 @@ def make_plan(root,config,cache=None):
     changed=any(not (root/p).exists() or (root/p).read_bytes()!=data for p,data in outputs.items())
     manifest.update(counts=summary,files=files,total_bytes=sum(f['bytes'] for f in files))
     if changed: manifest['revision']=config['revision']
-    outputs['manifest.json']=json_bytes(manifest)
+    finish_manifest(manifest, outputs)
     return outputs
 
 def main():

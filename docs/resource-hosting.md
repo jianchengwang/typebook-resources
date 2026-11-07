@@ -4,7 +4,9 @@
 
 The root `manifest.json` has `schema_version: 1`, a source revision, catalog
 locations and a file inventory. Each file entry includes a relative `path`,
-`bytes`, `sha256`, a content type, category and available provenance.
+`bytes`, `sha256`, a content type and category. Optional source provenance is
+stored in the integrity-checked `file_sources` sidecar; see
+[compact manifest](compact-manifest.md) for its lossless lookup contract.
 
 Catalog entries preserve stable namespaced IDs such as `book:1`, `dict:22`,
 `article:900001` and `live2d:1`. Legacy IDs are retained as metadata, not as a

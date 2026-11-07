@@ -453,8 +453,9 @@ class PromptTests(unittest.TestCase):
             second = prompts.make_plan(root)
             self.assertEqual(first, second)
             self.assertEqual(json.loads(first['manifest.json'])['revision'], 'before')
-            for item in json.loads(first['manifest.json'])['files']:
-                self.assertEqual(item['source'], {'kind': 'preserved-source'})
+            for item in prompts.load_manifest(root)['files']:
+                if item['path'] != 'catalogs/file-sources.json':
+                    self.assertEqual(item['source'], {'kind': 'preserved-source'})
 
     def test_append_new_prompt_preserves_order_and_includes_profile(self):
         with tempfile.TemporaryDirectory() as directory:

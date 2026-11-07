@@ -4,7 +4,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 2607,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:22",
     "legacy_id": 22,
     "license_status": "not-recorded-in-source",
@@ -12,6 +12,11 @@
       "path": "dictionaries/cet-4.json",
       "sha256": "134323db7af11e751f92ab5eb8739340df821185a31b71512cffff4dfd9889bb",
       "bytes": 521112
+    },
+    "title_i18n": {
+      "en": "CET-4 Vocabulary",
+      "zh-CN": "大学英语四级词汇",
+      "ja": "大学英語四級（CET-4）語彙"
     }
   },
   {
@@ -19,7 +24,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 2345,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:23",
     "legacy_id": 23,
     "license_status": "not-recorded-in-source",
@@ -27,6 +32,11 @@
       "path": "dictionaries/cet-6.json",
       "sha256": "512f34c2e01095a3f64757dadfd5810bd61940724e28f1b1d8899b7478cdb2d6",
       "bytes": 500940
+    },
+    "title_i18n": {
+      "en": "CET-6 Vocabulary",
+      "zh-CN": "大学英语六级词汇",
+      "ja": "大学英語六級（CET-6）語彙"
     }
   },
   {
@@ -34,7 +44,7 @@
     "description": null,
     "difficulty": "hard",
     "word_count": 3041,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:24",
     "legacy_id": 24,
     "license_status": "not-recorded-in-source",
@@ -42,6 +52,11 @@
       "path": "dictionaries/gre.json",
       "sha256": "698e70484d7e809c8cda1a6851f605cd390c23cd9dc75918f76cbbde536fd8fa",
       "bytes": 559238
+    },
+    "title_i18n": {
+      "en": "GRE Vocabulary",
+      "zh-CN": "GRE 考试词汇",
+      "ja": "GRE 試験語彙"
     }
   },
   {
@@ -49,7 +64,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 2809,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:25",
     "legacy_id": 25,
     "license_status": "not-recorded-in-source",
@@ -57,6 +72,11 @@
       "path": "dictionaries/ngsl.json",
       "sha256": "86e640d1fe5f3ea13157c30ad5991079b79c988fbc0b3364ffb921a057bbd025",
       "bytes": 350725
+    },
+    "title_i18n": {
+      "en": "NGSL Core Vocabulary",
+      "zh-CN": "NGSL 核心词汇",
+      "ja": "NGSL 基礎語彙"
     }
   },
   {
@@ -64,7 +84,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 801,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:26",
     "legacy_id": 26,
     "license_status": "not-recorded-in-source",
@@ -72,6 +92,11 @@
       "path": "dictionaries/duolingguo-b1.json",
       "sha256": "5690b8a2dbc3c1c2d4389f20364208feba8612cdfc49ca97c501fa915f3c3073",
       "bytes": 159041
+    },
+    "title_i18n": {
+      "en": "Duolingo B1 Vocabulary",
+      "zh-CN": "多邻国 B1 词汇",
+      "ja": "Duolingo B1 語彙"
     }
   },
   {
@@ -79,7 +104,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 1423,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:27",
     "legacy_id": 27,
     "license_status": "not-recorded-in-source",
@@ -87,6 +112,11 @@
       "path": "dictionaries/duolingguo-b2.json",
       "sha256": "234ec0a1e6a23bcf2fd9fa8a8ab196675fb6c0dc4904ca45158d5e0452d8287d",
       "bytes": 286874
+    },
+    "title_i18n": {
+      "en": "Duolingo B2 Vocabulary",
+      "zh-CN": "多邻国 B2 词汇",
+      "ja": "Duolingo B2 語彙"
     }
   },
   {
@@ -94,7 +124,7 @@
     "description": null,
     "difficulty": "hard",
     "word_count": 1314,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:28",
     "legacy_id": 28,
     "license_status": "not-recorded-in-source",
@@ -102,6 +132,11 @@
       "path": "dictionaries/duolingguo-c1.json",
       "sha256": "02a88205076a953d8060bc4b3160f2a51981236ced5e085344ed36702b2b54ea",
       "bytes": 267096
+    },
+    "title_i18n": {
+      "en": "Duolingo C1 Vocabulary",
+      "zh-CN": "多邻国 C1 词汇",
+      "ja": "Duolingo C1 語彙"
     }
   },
   {
@@ -109,7 +144,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 3000,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:29",
     "legacy_id": 29,
     "license_status": "not-recorded-in-source",
@@ -117,6 +152,11 @@
       "path": "dictionaries/englishchunk-3000.json",
       "sha256": "89c39d238bcdf426255e4741df398833ab519dd662aa69f878b4bc7df31aeb41",
       "bytes": 550534
+    },
+    "title_i18n": {
+      "en": "English Chunks 3000",
+      "zh-CN": "英语词块 3000",
+      "ja": "英語チャンク 3000"
     }
   },
   {
@@ -124,7 +164,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 4264,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:30",
     "legacy_id": 30,
     "license_status": "not-recorded-in-source",
@@ -132,6 +172,11 @@
       "path": "dictionaries/toefl.json",
       "sha256": "20ffa5d5f4db51df9bddd1e23f3dcf54ef1ac88acc2ff1158d22f290bc89b6cd",
       "bytes": 680020
+    },
+    "title_i18n": {
+      "en": "TOEFL Vocabulary",
+      "zh-CN": "托福词汇",
+      "ja": "TOEFL 語彙"
     }
   },
   {
@@ -139,7 +184,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 4025,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:31",
     "legacy_id": 31,
     "license_status": "not-recorded-in-source",
@@ -147,6 +192,11 @@
       "path": "dictionaries/z4.json",
       "sha256": "fa22bd2c884839816df4069789d1df6dfa66eb3e3f1cc2db1cdbe02fd8f98430",
       "bytes": 698129
+    },
+    "title_i18n": {
+      "en": "TEM-4 Vocabulary",
+      "zh-CN": "英语专业四级词汇",
+      "ja": "英語専攻四級（TEM-4）語彙"
     }
   },
   {
@@ -154,7 +204,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 12197,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:32",
     "legacy_id": 32,
     "license_status": "not-recorded-in-source",
@@ -162,6 +212,11 @@
       "path": "dictionaries/z8.json",
       "sha256": "6287d6ab6d23152a44e08a1fc72463e5132e05313e5cb7655f85db0c47bfcee0",
       "bytes": 2107956
+    },
+    "title_i18n": {
+      "en": "TEM-8 Vocabulary",
+      "zh-CN": "英语专业八级词汇",
+      "ja": "英語専攻八級（TEM-8）語彙"
     }
   },
   {
@@ -169,7 +224,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 1191,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:35",
     "legacy_id": 35,
     "license_status": "not-recorded-in-source",
@@ -177,6 +232,11 @@
       "path": "dictionaries/wscd.json",
       "sha256": "10302e29e160e1ab5d281e7a536e51bc40354461c932b48ee99768303c6dfd68",
       "bytes": 238121
+    },
+    "title_i18n": {
+      "en": "WSCD Vocabulary",
+      "zh-CN": "WSCD 词汇",
+      "ja": "WSCD 語彙"
     }
   },
   {
@@ -184,7 +244,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 9389,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:36",
     "legacy_id": 36,
     "license_status": "not-recorded-in-source",
@@ -192,6 +252,11 @@
       "path": "dictionaries/ielts.json",
       "sha256": "df4671c1e4725c9c1259689b56035382639e26c39fa5e477e550477b60565d4f",
       "bytes": 1438614
+    },
+    "title_i18n": {
+      "en": "IELTS Vocabulary",
+      "zh-CN": "雅思词汇",
+      "ja": "IELTS 語彙"
     }
   },
   {
@@ -199,7 +264,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 2753,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:37",
     "legacy_id": 37,
     "license_status": "not-recorded-in-source",
@@ -207,6 +272,11 @@
       "path": "dictionaries/bec-2.json",
       "sha256": "4d9e8da2179cd55811c1a1110282a6b0446a95a58b98f0d0d133a4115d8f4cf8",
       "bytes": 490516
+    },
+    "title_i18n": {
+      "en": "BEC Intermediate Vocabulary",
+      "zh-CN": "商务英语中级词汇（BEC）",
+      "ja": "BEC 中級ビジネス英語語彙"
     }
   },
   {
@@ -214,7 +284,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 2825,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:38",
     "legacy_id": 38,
     "license_status": "not-recorded-in-source",
@@ -222,6 +292,11 @@
       "path": "dictionaries/bec-3.json",
       "sha256": "d71b1ae91c9b5d39f0497d0d24e24a197e59dd3d7a0887fe3a2fa0de329df335",
       "bytes": 486968
+    },
+    "title_i18n": {
+      "en": "BEC Higher Vocabulary",
+      "zh-CN": "商务英语高级词汇（BEC）",
+      "ja": "BEC 上級ビジネス英語語彙"
     }
   },
   {
@@ -229,7 +304,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 3893,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:39",
     "legacy_id": 39,
     "license_status": "not-recorded-in-source",
@@ -237,6 +312,11 @@
       "path": "dictionaries/gaokao-3500.json",
       "sha256": "d41c632ec26098b5592f75a7c4b88b29ba83eb55dff0c0b2a6d109b378bceaa7",
       "bytes": 563175
+    },
+    "title_i18n": {
+      "en": "Gaokao English 3500",
+      "zh-CN": "高考英语 3500 词",
+      "ja": "中国大学入試英語 3500 語"
     }
   },
   {
@@ -244,7 +324,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 900,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:40",
     "legacy_id": 40,
     "license_status": "not-recorded-in-source",
@@ -252,6 +332,11 @@
       "path": "dictionaries/nce-1.json",
       "sha256": "ddedd9a44bfb002d74d01fd1eda1ed95ceb6c2f1ed0b4077c5f98250b4a2ce70",
       "bytes": 111434
+    },
+    "title_i18n": {
+      "en": "New Concept English 1 Vocabulary",
+      "zh-CN": "新概念英语第 1 册词汇",
+      "ja": "新概念英語 第1巻 語彙"
     }
   },
   {
@@ -259,7 +344,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 858,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:41",
     "legacy_id": 41,
     "license_status": "not-recorded-in-source",
@@ -267,6 +352,11 @@
       "path": "dictionaries/nce-2.json",
       "sha256": "5254e20dc6092686f9cd8ab65026843a6cf975f4806f3c1e5f974efd26cd8259",
       "bytes": 110008
+    },
+    "title_i18n": {
+      "en": "New Concept English 2 Vocabulary",
+      "zh-CN": "新概念英语第 2 册词汇",
+      "ja": "新概念英語 第2巻 語彙"
     }
   },
   {
@@ -274,7 +364,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 1052,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:42",
     "legacy_id": 42,
     "license_status": "not-recorded-in-source",
@@ -282,6 +372,11 @@
       "path": "dictionaries/nce-3.json",
       "sha256": "98e55bf1dd53f3a91128efa83b7c0edb340f0be79fb1883884733a43a381d428",
       "bytes": 138975
+    },
+    "title_i18n": {
+      "en": "New Concept English 3 Vocabulary",
+      "zh-CN": "新概念英语第 3 册词汇",
+      "ja": "新概念英語 第3巻 語彙"
     }
   },
   {
@@ -289,7 +384,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 784,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:43",
     "legacy_id": 43,
     "license_status": "not-recorded-in-source",
@@ -297,6 +392,11 @@
       "path": "dictionaries/nce-4.json",
       "sha256": "9e32ed43b71a24be699094b6ef9ed989b6dff633e32418cdb30bfeb5f42646b0",
       "bytes": 103203
+    },
+    "title_i18n": {
+      "en": "New Concept English 4 Vocabulary",
+      "zh-CN": "新概念英语第 4 册词汇",
+      "ja": "新概念英語 第4巻 語彙"
     }
   },
   {
@@ -304,7 +404,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 908,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:44",
     "legacy_id": 44,
     "license_status": "not-recorded-in-source",
@@ -312,6 +412,11 @@
       "path": "dictionaries/nce-new-1.json",
       "sha256": "9559d860da7df3a5b208718dbf2a8eda8be5d9bf8905fc5d1939402a25c6bbf8",
       "bytes": 180203
+    },
+    "title_i18n": {
+      "en": "New Concept English 1 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 1 册词汇（NEW 系列）",
+      "ja": "新概念英語 第1巻 語彙（NEW シリーズ）"
     }
   },
   {
@@ -319,7 +424,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 862,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:45",
     "legacy_id": 45,
     "license_status": "not-recorded-in-source",
@@ -327,6 +432,11 @@
       "path": "dictionaries/nce-new-2.json",
       "sha256": "e50ab7d66a3b1e9f4edac6790130cfe7875f0358b78c06df2033921eda0b571a",
       "bytes": 169887
+    },
+    "title_i18n": {
+      "en": "New Concept English 2 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 2 册词汇（NEW 系列）",
+      "ja": "新概念英語 第2巻 語彙（NEW シリーズ）"
     }
   },
   {
@@ -334,7 +444,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 1062,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:46",
     "legacy_id": 46,
     "license_status": "not-recorded-in-source",
@@ -342,6 +452,11 @@
       "path": "dictionaries/nce-new-3.json",
       "sha256": "df48b204c33abcc2b6f2b1b1373a26c886d77ee9ff8542fdb746ff24c0ac081d",
       "bytes": 202126
+    },
+    "title_i18n": {
+      "en": "New Concept English 3 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 3 册词汇（NEW 系列）",
+      "ja": "新概念英語 第3巻 語彙（NEW シリーズ）"
     }
   },
   {
@@ -349,7 +464,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 793,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:47",
     "legacy_id": 47,
     "license_status": "not-recorded-in-source",
@@ -357,6 +472,11 @@
       "path": "dictionaries/nec-new-4.json",
       "sha256": "f20a91049d29969c967924af5dbe18a4156490a0980fd969e9cfdac997745c4e",
       "bytes": 148902
+    },
+    "title_i18n": {
+      "en": "New Concept English 4 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 4 册词汇（NEW 系列）",
+      "ja": "新概念英語 第4巻 語彙（NEW シリーズ）"
     }
   },
   {
@@ -364,7 +484,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 5831,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:48",
     "legacy_id": 48,
     "license_status": "not-recorded-in-source",
@@ -372,6 +492,11 @@
       "path": "dictionaries/raz-all.json",
       "sha256": "a85b9f57ff48ed436e452db1357cb41b0fe74f1a742ebe79201761161441de9a",
       "bytes": 1216825
+    },
+    "title_i18n": {
+      "en": "RAZ Vocabulary Collection",
+      "zh-CN": "RAZ 词汇合集",
+      "ja": "RAZ 語彙集"
     }
   },
   {
@@ -379,7 +504,7 @@
     "description": null,
     "difficulty": "easy",
     "word_count": 3047,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:49",
     "legacy_id": 49,
     "license_status": "not-recorded-in-source",
@@ -387,6 +512,11 @@
       "path": "dictionaries/gmat.json",
       "sha256": "59bb855722e11799e3abcaaa87dc2f5640847e9bdcfa2508301adc237d6256ef",
       "bytes": 446333
+    },
+    "title_i18n": {
+      "en": "GMAT Vocabulary",
+      "zh-CN": "GMAT 考试词汇",
+      "ja": "GMAT 試験語彙"
     }
   },
   {
@@ -394,7 +524,7 @@
     "description": null,
     "difficulty": "medium",
     "word_count": 4464,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:50",
     "legacy_id": 50,
     "license_status": "not-recorded-in-source",
@@ -402,6 +532,11 @@
       "path": "dictionaries/sat.json",
       "sha256": "a69632f731c0d819a3c0f554a1c69de0c2a65b151ddbc528429e064a89f9f574",
       "bytes": 659516
+    },
+    "title_i18n": {
+      "en": "SAT Vocabulary",
+      "zh-CN": "SAT 考试词汇",
+      "ja": "SAT 試験語彙"
     }
   },
   {
@@ -409,7 +544,7 @@
     "description": null,
     "difficulty": "hard",
     "word_count": 2681,
-    "revision": 1,
+    "revision": 2,
     "id": "dict:51",
     "legacy_id": 51,
     "license_status": "not-recorded-in-source",
@@ -417,6 +552,11 @@
       "path": "dictionaries/sat-en.json",
       "sha256": "cc80123c1bb47ea18255c4248be33a48b9042a3c00d49ff787c7dda435fdec5a",
       "bytes": 415727
+    },
+    "title_i18n": {
+      "en": "SAT Vocabulary (English Definitions)",
+      "zh-CN": "SAT 词汇（英文释义）",
+      "ja": "SAT 語彙（英語の語義説明）"
     }
   }
 ]

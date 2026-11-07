@@ -4,6 +4,8 @@ import hashlib
 import json
 import pathlib
 import sys
+from manifest_io import load_manifest
+from rebuild_metadata import localized_dictionaries
 from urllib.parse import unquote
 from import_hf_readers import apply_title_translations
 from rebuild_prompts import catalog_entry, load_prompts
@@ -68,7 +70,7 @@ def model_dependencies(entrypoint):
 
 
 def main():
-    manifest = read_json("manifest.json")
+    manifest = load_manifest(ROOT)
     require(manifest["schema_version"] == 1, "Unsupported manifest version")
     recorded = {}
     total_bytes = 0
@@ -134,6 +136,8 @@ def main():
                 catalogs["summary"]["archived_standalone_chapters"] == archived, "Archive summary count mismatch")
         require(catalogs["summary"]["stored_chapter_payloads"] == len({c["body"]["path"] for b in all_books for c in b["chapters"]}),
                 "Unique stored chapter count mismatch")
+    require(localized_dictionaries(catalogs["dictionaries"], read_json("tools/dictionary_titles.json")) == catalogs["dictionaries"],
+            "Dictionary title translations differ from editorial source")
     dictionary_entries = 0
     for dictionary in catalogs["dictionaries"]:
         verify_body(dictionary["body"])

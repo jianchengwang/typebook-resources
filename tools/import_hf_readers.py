@@ -5,6 +5,7 @@ Python standard library only. Downloads are cached outside this repository.
 The default is a dry run; --write applies the plan and --check checks it offline.
 """
 import argparse
+from manifest_io import load_manifest, finish_manifest
 import csv
 import hashlib
 import html
@@ -252,7 +253,7 @@ def apply_title_translations(books, translations, previous_books):
 
 def make_plan(root, config, new_books, outputs):
     outputs = dict(outputs)
-    old_manifest = json.loads((root / "manifest.json").read_text())
+    old_manifest = load_manifest(root)
     recorded = {item["path"]: item for item in old_manifest["files"]}
     existing = json.loads((root / "catalogs/books.json").read_text())
     # Optional public anthology: old records remain in a separate compatibility catalog.
@@ -360,7 +361,7 @@ def make_plan(root, config, new_books, outputs):
         manifest["compatibility"] = {"archived_books": {"path": anthology["archive_path"]},
                                      "book_migrations": {"path": anthology["mapping_path"]}}
     manifest.update(revision=revision, counts=summary, files=files, total_bytes=sum(item["bytes"] for item in files))
-    outputs["manifest.json"] = json_bytes(manifest)
+    finish_manifest(manifest, outputs)
     return outputs
 
 

@@ -5,6 +5,7 @@ No network or third-party packages. Default: dry run. --render prints a resolved
 prompt locally; it never contacts a model or submits content to a provider.
 """
 import argparse
+from manifest_io import load_manifest, finish_manifest
 import json
 import pathlib
 import re
@@ -164,7 +165,7 @@ def make_plan(root, remove_ids=()):
     profile["payload_bytes"] = sum(len(outputs[p]) if p in outputs else safe_path(root, p).stat().st_size
                                    for p in profile["files"])
     outputs["profiles/default.json"] = json_bytes(profile)
-    manifest = json.loads((root / "manifest.json").read_text())
+    manifest = load_manifest(root)
     recorded = {item["path"]: item for item in manifest["files"]}
     actual = {p.relative_to(root).as_posix() for p in resource_files(root)}
     allowed = set(recorded) | set(outputs) | SUPPORT_FILES | {item["path"] for item in catalog}
@@ -192,7 +193,7 @@ def make_plan(root, remove_ids=()):
     # Later book-only imports preserve it when their generated book data is unchanged.
     if outputs["catalogs/prompts.json"] != (root / "catalogs/prompts.json").read_bytes():
         manifest["revision"] = "2026-11-07-grouped-optional-prompts"
-    outputs["manifest.json"] = json_bytes(manifest)
+    finish_manifest(manifest, outputs)
     return outputs
 
 

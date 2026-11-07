@@ -125,6 +125,9 @@ docs/                       Hosting, frontend integration and rights notes
 All catalog paths are relative to this repository root. Resolve them against
 the manifest directory, rather than against the website's origin.
 `manifest.json` covers the payloads and supporting files; it excludes itself.
+Its file inventory is compact; optional per-file source audit data lives in a
+deduplicated sidecar. Dictionary titles include English, Chinese and Japanese.
+See [compact manifest and dictionary titles](docs/compact-manifest.md).
 It contains no API keys, credentials, private user content or user progress.
 
 ## Verify locally

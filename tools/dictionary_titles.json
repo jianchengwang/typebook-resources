@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "dictionaries": {
+    "dict:22": {
+      "en": "CET-4 Vocabulary",
+      "zh-CN": "大学英语四级词汇",
+      "ja": "大学英語四級（CET-4）語彙"
+    },
+    "dict:23": {
+      "en": "CET-6 Vocabulary",
+      "zh-CN": "大学英语六级词汇",
+      "ja": "大学英語六級（CET-6）語彙"
+    },
+    "dict:24": {
+      "en": "GRE Vocabulary",
+      "zh-CN": "GRE 考试词汇",
+      "ja": "GRE 試験語彙"
+    },
+    "dict:25": {
+      "en": "NGSL Core Vocabulary",
+      "zh-CN": "NGSL 核心词汇",
+      "ja": "NGSL 基礎語彙"
+    },
+    "dict:26": {
+      "en": "Duolingo B1 Vocabulary",
+      "zh-CN": "多邻国 B1 词汇",
+      "ja": "Duolingo B1 語彙"
+    },
+    "dict:27": {
+      "en": "Duolingo B2 Vocabulary",
+      "zh-CN": "多邻国 B2 词汇",
+      "ja": "Duolingo B2 語彙"
+    },
+    "dict:28": {
+      "en": "Duolingo C1 Vocabulary",
+      "zh-CN": "多邻国 C1 词汇",
+      "ja": "Duolingo C1 語彙"
+    },
+    "dict:29": {
+      "en": "English Chunks 3000",
+      "zh-CN": "英语词块 3000",
+      "ja": "英語チャンク 3000"
+    },
+    "dict:30": {
+      "en": "TOEFL Vocabulary",
+      "zh-CN": "托福词汇",
+      "ja": "TOEFL 語彙"
+    },
+    "dict:31": {
+      "en": "TEM-4 Vocabulary",
+      "zh-CN": "英语专业四级词汇",
+      "ja": "英語専攻四級（TEM-4）語彙"
+    },
+    "dict:32": {
+      "en": "TEM-8 Vocabulary",
+      "zh-CN": "英语专业八级词汇",
+      "ja": "英語専攻八級（TEM-8）語彙"
+    },
+    "dict:35": {
+      "en": "WSCD Vocabulary",
+      "zh-CN": "WSCD 词汇",
+      "ja": "WSCD 語彙"
+    },
+    "dict:36": {
+      "en": "IELTS Vocabulary",
+      "zh-CN": "雅思词汇",
+      "ja": "IELTS 語彙"
+    },
+    "dict:37": {
+      "en": "BEC Intermediate Vocabulary",
+      "zh-CN": "商务英语中级词汇（BEC）",
+      "ja": "BEC 中級ビジネス英語語彙"
+    },
+    "dict:38": {
+      "en": "BEC Higher Vocabulary",
+      "zh-CN": "商务英语高级词汇（BEC）",
+      "ja": "BEC 上級ビジネス英語語彙"
+    },
+    "dict:39": {
+      "en": "Gaokao English 3500",
+      "zh-CN": "高考英语 3500 词",
+      "ja": "中国大学入試英語 3500 語"
+    },
+    "dict:40": {
+      "en": "New Concept English 1 Vocabulary",
+      "zh-CN": "新概念英语第 1 册词汇",
+      "ja": "新概念英語 第1巻 語彙"
+    },
+    "dict:41": {
+      "en": "New Concept English 2 Vocabulary",
+      "zh-CN": "新概念英语第 2 册词汇",
+      "ja": "新概念英語 第2巻 語彙"
+    },
+    "dict:42": {
+      "en": "New Concept English 3 Vocabulary",
+      "zh-CN": "新概念英语第 3 册词汇",
+      "ja": "新概念英語 第3巻 語彙"
+    },
+    "dict:43": {
+      "en": "New Concept English 4 Vocabulary",
+      "zh-CN": "新概念英语第 4 册词汇",
+      "ja": "新概念英語 第4巻 語彙"
+    },
+    "dict:44": {
+      "en": "New Concept English 1 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 1 册词汇（NEW 系列）",
+      "ja": "新概念英語 第1巻 語彙（NEW シリーズ）"
+    },
+    "dict:45": {
+      "en": "New Concept English 2 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 2 册词汇（NEW 系列）",
+      "ja": "新概念英語 第2巻 語彙（NEW シリーズ）"
+    },
+    "dict:46": {
+      "en": "New Concept English 3 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 3 册词汇（NEW 系列）",
+      "ja": "新概念英語 第3巻 語彙（NEW シリーズ）"
+    },
+    "dict:47": {
+      "en": "New Concept English 4 Vocabulary (NEW Series)",
+      "zh-CN": "新概念英语第 4 册词汇（NEW 系列）",
+      "ja": "新概念英語 第4巻 語彙（NEW シリーズ）"
+    },
+    "dict:48": {
+      "en": "RAZ Vocabulary Collection",
+      "zh-CN": "RAZ 词汇合集",
+      "ja": "RAZ 語彙集"
+    },
+    "dict:49": {
+      "en": "GMAT Vocabulary",
+      "zh-CN": "GMAT 考试词汇",
+      "ja": "GMAT 試験語彙"
+    },
+    "dict:50": {
+      "en": "SAT Vocabulary",
+      "zh-CN": "SAT 考试词汇",
+      "ja": "SAT 試験語彙"
+    },
+    "dict:51": {
+      "en": "SAT Vocabulary (English Definitions)",
+      "zh-CN": "SAT 词汇（英文释义）",
+      "ja": "SAT 語彙（英語の語義説明）"
+    }
+  }
+}
