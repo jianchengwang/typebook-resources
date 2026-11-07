@@ -162,6 +162,11 @@ def main():
         "prompts": len(catalogs["prompts"]),
         "prompts_with_localized_titles": len(prompt_sources),
         "prompts_with_localized_bodies": len(prompt_sources),
+        "prompts_with_localized_descriptions": len(prompt_sources),
+        "prompt_selection_groups": {group: sum(p["selection_group"] == group for p in prompt_sources.values())
+                                    for group in sorted({p["selection_group"] for p in prompt_sources.values()})},
+        "prompt_selection_tiers": {tier: sum(p["selection_tier"] == tier for p in prompt_sources.values())
+                                   for tier in ("core", "optional")},
         "prompt_body_locales": ["en", "zh-CN", "ja"],
         "prompt_categories": {category: sum(p["category"] == category for p in prompt_sources.values())
                               for category in ("english-learning", "typing-practice", "image-generation")},

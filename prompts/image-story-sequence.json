@@ -34,5 +34,17 @@
     "en": "Create a landscape four-panel picture sequence for English speaking and typing practice. Story brief: {{story}}. Arrange four equally sized panels from left to right, with clear gutters. Show one key event per panel in a logically readable order, with consistent original characters, objects, and setting.\nUse a clean, friendly illustration style and emphasize visible actions, changes, and cause and effect. Keep background details restrained so an A2-B1 learner can describe what happens; more advanced learners can add their own connections. Do not introduce an unexplained extra event or change a character's identity between panels.\nUse no text at all: no captions, panel numbers, speech bubbles, signs, labels, or letters. The result should invite learners to write their own sentences rather than reveal a prewritten answer. Do not depict real people or use a recognizable copyrighted character.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, labels, letters, or numerals. Keep every panel completely text-free.",
     "zh-CN": "制作一组横向四格连续图画，用于英语口语和打字练习。故事梗概：{{story}}。将四个大小相等的画格从左到右排列，并留出清晰的格间空隙。每格展示一个关键事件，按逻辑易懂的顺序组织，保持原创角色、物体和场景一致。\n使用干净、友好的插画风格，突出可见的动作、变化和因果关系。背景细节要克制，让 A2-B1 水平的学习者能够描述发生的事情；更高阶的学习者可以自行补充事件之间的联系。不要引入没有解释的额外事件，也不要在不同画格之间改变角色身份。\n完全不使用文字：不要有说明文字、画格编号、对话气泡、标牌、标签或字母。结果应鼓励学习者自己写句子，而不是展示预先写好的答案。不要描绘真实人物或使用可辨认的受版权保护的角色。\n\n使用原创、通用的主体，不含标志、品牌角色，也不模仿任何具名艺术家的风格。不要添加水印、装饰性文字、标签、字母或数字。保持每个画格完全无文字。",
     "ja": "英語のスピーキングとタイピングの練習用に、横長の4コマの連続絵を作成してください。物語の概要：{{story}}。同じ大きさの4つのコマを左から右へ並べ、コマの間を明確に空けてください。各コマに重要な出来事を1つずつ描き、論理的に読み取れる順序にし、独自の登場人物、物体、舞台に一貫性を持たせてください。\nすっきりした親しみやすいイラストのスタイルを使い、目に見える行動、変化、因果関係を強調してください。A2-B1 レベルの学習者が何が起きているか説明できるよう、背景の細部は控えめにしてください。より上級の学習者は、自分で出来事のつながりを補えます。説明のない余分な出来事を加えたり、コマの間で登場人物を別人に変えたりしないでください。\n文字は一切使わないでください。キャプション、コマ番号、吹き出し、看板、ラベル、文字を含めないでください。あらかじめ書かれた答えを示すのではなく、学習者が自分で文を書く意欲を促すものにしてください。実在の人物を描いたり、見てわかる著作権で保護されたキャラクターを使ったりしないでください。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、ラベル、文字、数字を加えないでください。すべてのコマを完全に文字のない状態にしてください。"
-  }
+  },
+  "description_i18n": {
+    "en": "Generate a wordless story sequence for describing events and writing short sentences.",
+    "zh-CN": "生成无字连续故事画面，用于描述事件和练习短句写作。",
+    "ja": "出来事の説明や短文作りに使う、文字のない連続した物語の絵を作成します。"
+  },
+  "selection_group": "learning-images",
+  "selection_group_i18n": {
+    "en": "Learning images",
+    "zh-CN": "学习图片",
+    "ja": "学習用画像"
+  },
+  "selection_tier": "optional"
 }

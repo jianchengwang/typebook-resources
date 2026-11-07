@@ -49,6 +49,26 @@ PRIOR_DIGESTS = {'builtin-english-companion': '7461e5659ee1aee95dfb8daefe33354d5
  'learn-vocabulary-recall': '99c386c735e82f3f489aec94301a5c3c661a940a0e23d6345e25e0e999400e77'}
 
 
+# Selection metadata is additive to every complete record in the 16-prompt catalog.
+SELECTION_FIELDS = {'description_i18n', 'selection_group', 'selection_group_i18n', 'selection_tier'}
+SELECTION_BASELINE_DIGESTS = {'builtin-english-companion': 'cc777972a104c943aa2a4fbdaaaa7756f14c47e422cc909c8578b3cb00f1d442',
+ 'builtin-english-only': '0630c81292eae482236d9978a77e6cb85e6c05200db3376fe612d62bc2f41eab',
+ 'builtin-typing-article': 'e77b6c0672a15ac896265efb1337e65cfc78619edc3de7de52326f3fcaae63bd',
+ 'image-preposition-cards': '410a08cca120f1f0559c81f444f0606efa3e859204a30c2c73980ff60f6445b3',
+ 'image-scene-vocabulary': '33e97c71770573804eb45bfd2fa800bf3cd30e1781aae8a6e2b3d3717a6cec12',
+ 'image-story-sequence': 'c5047a5b1d231d2c759f7560589a66eef75bb43442c47d4028c403694f5e5b47',
+ 'image-vocabulary-card': '67057585e8e7cee2fe9a4bce796ca11ada01fda93dacb1b2fda27743df3fdf43',
+ 'learn-childrens-storybook': '344426e8b22ae18464de166f5b825e0143b884d46da7e88f3c40ee3297fb44ea',
+ 'learn-choose-your-story': 'd9cb440e6c638992bb7408e5eab38f031454de86a15946b062f07cc0d33feefa',
+ 'learn-collocation-lab': '76b89d6d6514158fa2daf2397d5d0820c5624b43e15cafebced82a42bff7ffe0',
+ 'learn-email-practice': 'cf3db96500d84c93aed6f96c91f4e564fb2961a75e5435b49dd515b3d371c58e',
+ 'learn-everyday-roleplay': 'bf3e88ff35a5acf649692f11082a508424951e87b6424ba5a1f08b282c84b05a',
+ 'learn-grammar-repair': 'f59d0a470f5cc92a876c5ca75be60c27a883fa0fd728873f9863cb0ea78bc168',
+ 'learn-reading-check': 'd9a678ff0c5275a2b03fc616fe123d62905ed8c3a742ad926651e1cb5532c63b',
+ 'learn-summary-paraphrase': 'c593418f61f1460d7578e62664b82dabb05f712534c8e92a480feb222548f555',
+ 'learn-vocabulary-recall': '0b3334cb28bf42072349a41f2e1387aa4fde9fc459a67cb0170511322059ad34'}
+
+
 class PromptTests(unittest.TestCase):
     def setUp(self):
         self.sources = prompts.load_prompts(ROOT)
@@ -84,6 +104,66 @@ class PromptTests(unittest.TestCase):
             self.assertEqual(p['name'], p['title_i18n']['en'])
             self.assertNotEqual(p['name'], p['title_i18n']['zh-CN'])
             self.assertNotEqual(p['name'], p['title_i18n']['ja'])
+
+    def test_selection_metadata_preserves_all_existing_fields(self):
+        self.assertEqual({p['id'] for p in self.sources}, set(SELECTION_BASELINE_DIGESTS))
+        for p in self.sources:
+            with self.subTest(pid=p['id']):
+                original = {key: value for key, value in p.items() if key not in SELECTION_FIELDS}
+                digest = hashlib.sha256(json.dumps(original, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+                self.assertEqual(digest, SELECTION_BASELINE_DIGESTS[p['id']])
+
+    def test_six_selection_groups_keep_every_independent_task(self):
+        expected = {
+            'conversation': {'builtin-english-companion', 'builtin-english-only', 'learn-everyday-roleplay'},
+            'vocabulary': {'learn-vocabulary-recall', 'learn-collocation-lab'},
+            'reading-writing': {'builtin-typing-article', 'learn-reading-check', 'learn-summary-paraphrase', 'learn-email-practice'},
+            'grammar': {'learn-grammar-repair'},
+            'childrens-stories': {'learn-childrens-storybook', 'learn-choose-your-story'},
+            'learning-images': {'image-vocabulary-card', 'image-scene-vocabulary', 'image-preposition-cards', 'image-story-sequence'},
+        }
+        self.assertEqual(set(expected), set(prompts.SELECTION_GROUPS))
+        for group, ids in expected.items():
+            self.assertEqual({p['id'] for p in self.sources if p['selection_group'] == group}, ids)
+        self.assertEqual({p['id'] for p in self.sources if p['selection_tier'] == 'core'}, set(LEGACY_DIGESTS))
+        self.assertEqual(sum(p['selection_tier'] == 'optional' for p in self.sources), 13)
+        for p in self.sources:
+            self.assertEqual(set(p['description_i18n']), prompts.LOCALES)
+            self.assertEqual(p['description_i18n']['en'], p['description'])
+            self.assertEqual(p['selection_group_i18n'], prompts.SELECTION_GROUPS[p['selection_group']])
+        by_id = {p['id']: p for p in self.sources}
+        for pid in ('learn-email-practice', 'learn-grammar-repair'):
+            self.assertEqual(by_id[pid]['selection_tier'], 'optional')
+
+    def test_invalid_selection_metadata_rejected(self):
+        for key, value in [('selection_group', 'unknown'), ('selection_group', []),
+                           ('selection_group_i18n', {'en': 'Images'}),
+                           ('selection_group_i18n', prompts.SELECTION_GROUPS['grammar']),
+                           ('selection_tier', 'core'), ('selection_tier', 'hidden'),
+                           ('description_i18n', {'en': self.prompt['description']}),
+                           ('description_i18n', None)]:
+            bad = copy.deepcopy(self.prompt)
+            bad[key] = value
+            with self.subTest(key=key, value=value), self.assertRaises(ValueError):
+                prompts.validate_prompt(bad)
+        for key in SELECTION_FIELDS:
+            bad = copy.deepcopy(self.prompt)
+            del bad[key]
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                prompts.validate_prompt(bad)
+        for value in ('', ' padded ', 'bad\u202etext', None, 5):
+            bad = copy.deepcopy(self.prompt)
+            bad['description_i18n']['ja'] = value
+            with self.subTest(value=value), self.assertRaisesRegex(ValueError, 'Invalid localized description'):
+                prompts.validate_prompt(bad)
+        bad = copy.deepcopy(self.prompt)
+        bad['description_i18n']['en'] = 'Different description.'
+        with self.assertRaisesRegex(ValueError, 'English description differs'):
+            prompts.validate_prompt(bad)
+        bad = copy.deepcopy(next(p for p in self.sources if p['id'] == 'builtin-english-only'))
+        bad['selection_tier'] = 'optional'
+        with self.assertRaisesRegex(ValueError, 'Selection tier'):
+            prompts.validate_prompt(bad)
 
     def test_catalog_focus_and_retired_references(self):
         retired = {'typing-restricted-keys', 'typing-precision-copy', 'typing-error-review', 'image-spelling-tiles'}

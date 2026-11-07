@@ -44,7 +44,13 @@ Application integration is separate; this resource update does not deploy the si
 ## Learning and typing prompts
 
 The 16-prompt catalog preserves the original 3 built-ins and includes 13 focused
-task templates. Across all entries, there are 11 English learning prompts,
+task templates. Six optional browsing groups make the collection easier to
+choose from: conversation, vocabulary, reading/writing, grammar, children's
+stories, and learning images. The original three are marked `core` starting
+points; all other tasks, including email writing and grammar lessons, remain
+individually selectable `optional` entries. These are recommendations, not an
+automatic import selection. No prompt ID or existing body is removed by this
+grouping update. Across all entries, there are 11 English learning prompts,
 1 English passage typing prompt and 4 image generation prompts. Practical
 role-play, vocabulary recall, grammar repair, reading, writing and two children's
 story workflows each serve a different learning activity. Image tasks cover a
@@ -54,13 +60,17 @@ task. Restricted-key, punctuation/number and typing-error-review drills have bee
 retired; the existing typing-article built-in already generates English passages
 from a requested topic, level, approximate word count and genre.
 All prompts include additive `title_i18n` and `prompt_i18n` maps for `en`, `zh-CN`
-and `ja`, plus task, output and placeholder metadata. Existing `name` and `prompt`
+and `ja`, plus localized descriptions and group labels, selection recommendations,
+task, output and placeholder metadata. Existing `name` and `prompt`
 fields remain the English fallbacks. The three original built-ins remain unchanged;
 the vocabulary card intentionally merges the former spelling-tile option.
 Instruction translation does not change the target English practice language.
 See [task selection, field contracts and local rendering](docs/prompts.md). Image entries are templates,
-not generated images; a compatible consumer route is required. Application
-integration and deployment remain separate.
+not generated images; a compatible consumer route is required. The current
+application importer still uses the legacy English fields; it does not yet
+preserve prompt translations, render variables, group choices, or route image
+tasks. This resource-only update does not implement those application features
+or deploy the site. See the documented importer compatibility audit before use.
 
 ## Layout
 

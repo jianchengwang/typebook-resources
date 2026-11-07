@@ -29,6 +29,59 @@ tiles instead of offering near-duplicate picture-card tasks.
 
 ## Choose by task
 
+### Six browsing groups, with individual choice
+
+The collection is organized into **six groups, not reduced to six prompts**.
+Each source and catalog entry includes a stable `selection_group`, translated
+`selection_group_i18n` labels, a `selection_tier`, and `description_i18n` in
+English, Simplified Chinese, and Japanese. The three existing built-ins are
+`core` starting points. All 13 additional tasks are `optional`, including email
+writing and grammar lessons. Optional means available to choose, not hidden,
+unsupported, or removed. Core means a recommendation, not mandatory import.
+If the three built-ins are already present, users do not need to import another
+copy just to use them.
+
+| Group ID | English / 中文 / 日本語 | Available choices |
+| --- | --- | --- |
+| `conversation` | Conversation / 英语会话 / 英会話 | English companion and English-only Chat (core); Everyday Role-play (optional). |
+| `vocabulary` | Vocabulary / 词汇训练 / 語彙練習 | Vocabulary Recall and Collocation Lab (both optional). |
+| `reading-writing` | Reading and writing / 阅读与写作 / 読む・書く | Typing article (core); Reading Check, Summary and Paraphrase, and Email Practice (optional). |
+| `grammar` | Grammar / 语法课堂 / 文法レッスン | Grammar Repair (optional), kept as a separate lesson choice. |
+| `childrens-stories` | Children’s stories / 儿童故事 / 子ども向けの物語 | Storybook Builder and Choose Your Story (both optional). |
+| `learning-images` | Learning images / 学习图片 / 学習用画像 | Vocabulary Card, Scene Vocabulary, Preposition Cards, and Story Sequence (all optional; require an image-capable route). |
+
+The default distribution profile still contains all 16 prompts. A distribution
+profile is a list of available files, not a list of checked import boxes. This
+repository does not automatically select, import, overwrite, or delete any
+user's prompts. A future consumer may group and filter choices using this
+metadata, but it must retain individual choice and a flat-list fallback.
+
+### Why nearby tasks remain separate
+
+The previous vocabulary-card/spelling-tile consolidation remains in place:
+`image-vocabulary-card` uses `label_layout=word` or `letter-tiles`. No additional
+IDs are retired in this grouping revision. The overlap audit found different
+learning actions and compatibility contracts in the remaining nearby choices:
+
+- **Conversation and role-play:** the original conversation definitions are
+  system prompts with no variables. English-only Chat must never switch language.
+  Role-play is a user template with scenario, level, and feedback-language
+  variables, scene progression, and a final recap. Grouping does not weaken the
+  English-only rule or replace either original mode.
+- **Vocabulary:** recall starts from a hidden target and retries missed words;
+  collocations introduces word partners before gap fills and a mini-story. Their
+  `words` and `word` inputs and default levels differ. They are not aliases.
+- **Reading/writing:** the typing built-in returns only clean prose. Reading
+  Check asks separate comprehension questions; Summary and Paraphrase waits for
+  a summary and revision before showing an example. Email Practice uses a
+  fictional recipient and tone-sensitive revision. Each remains selectable.
+- **Children's stories:** the book builder produces all pages and illustration
+  briefs at once; the interactive story waits for decisions that change the next
+  scene. Neither replaces the other's pacing, variables, or reading-copy rules.
+- **Images:** one labeled object, a labeled scene, a spatial comparison, and a
+  wordless story sequence are distinct outputs. A shared image group does not
+  imply one combined prompt or an available image provider.
+
 ### Preserved built-ins
 
 | ID | Existing purpose |
@@ -127,6 +180,17 @@ For example (abridged):
   to `zh-CN` deliberately in the consumer if desired.
 - **`description`** is a short English purpose statement. **`tags`** are stable
   English filter terms, not localized interface labels.
+- **`description_i18n`** contains the same purpose in `en`, `zh-CN`, and `ja`.
+  Its English value equals `description`; use `description` as the fallback.
+- **`selection_group`** is one of the six stable group IDs above.
+  **`selection_group_i18n`** supplies the group's three display labels, identical
+  on all records in that group. These fields supplement `category` rather than
+  replacing it: browsing groups describe the learner's goal; `category` and
+  `output_type` still describe the existing resource contract.
+- **`selection_tier`** is `core` for the three preserved built-ins and `optional`
+  for the 13 additional templates. It does not change `source_type`, message role,
+  import permission, availability, or automatic checkbox state. Older consumers
+  may ignore the new fields and continue showing the unchanged flat list.
 - **`category`** is `english-learning`, `typing-practice`, or `image-generation`.
 - **`cefr_levels`** lists intended practice difficulties, not assessed levels,
   official certification, or a guarantee that a generated result meets CEFR.
@@ -156,10 +220,43 @@ configuration, database, frontend, or live deployment. Consumers pinned to an
 older commit must deliberately adopt the new commit and its manifest. Preserve
 the localized maps and template metadata during that later import.
 
+### Current application importer audit
+
+The read-only review of TypeBook application commit
+`17755a7a4835fdf22ba55a1fe304b8ee9a16eef9` checked
+`frontend/src/utils/resourceImport.ts`,
+`frontend/src/components/ResourceImportDialog.vue`, and
+`shared/yukiBuiltinPrompts.ts`. No application files were changed.
+
+- The import dialog already lets users select individual prompts; it does not
+  implement these six groups or core/optional recommendations.
+- Prompt list titles and descriptions come from the existing English `name`
+  and `description`. Import stores `name`, `description`, `prompt`, `model_name`,
+  `display_type`, and an `origin_url` derived from the unchanged resource ID.
+  All 16 current paths, IDs, original fields, and full instruction maps are
+  preserved, so the grouping update does not break those existing field reads.
+- That importer does **not** yet preserve `title_i18n`, `prompt_i18n`, variables,
+  `prompt_role`, `output_type`, or selection metadata. It does not substitute
+  template placeholders or configure an image route. Consequently, successful
+  import alone does not prove the multilingual or image templates work end to
+  end. Render templates locally first, or implement those capabilities in a
+  separate application change before advertising full support.
+- Existing imports are identified by source origin and skipped rather than
+  upgraded. Publishing this revision does not migrate them. The import library
+  can follow the repository's `main` alias, while the built-in resource fallback
+  is separately pinned; neither route adds frontend capabilities on its own.
+
+This audit is source-level compatibility evidence, not a deployed browser test.
+No redirect, deletion, or legacy-ID migration is needed for this revision.
+
 A consumer integration can keep its current English flow, then add locale
 selection in this order:
 
-1. Display `title_i18n[locale]` with `name` fallback when browsing the catalog.
+1. Display `title_i18n[locale]` with `name` fallback and `description_i18n[locale]`
+   with `description` fallback when browsing. Optionally group entries using
+   `selection_group` and `selection_group_i18n[locale]`, show the core/optional
+   recommendation, and leave each import choice to the user. Do not silently
+   collapse records, preselect an entire group, or hide optional tasks.
 2. Fetch the source JSON at `path`, preserving `prompt` and the full `prompt_i18n`
    map in storage. Do not turn translated instruction content into generated
    learning material or concatenate all three languages into one model request.
@@ -309,6 +406,8 @@ A successful retirement updates the catalog, profile, manifest, and counts
 without erasing history or touching unrelated resources.
 
 Tests cover preserved built-in fields, localized titles and bodies,
+all 16 pre-grouping records and their unchanged fields, localized descriptions,
+the six selection groups and core/optional recommendations,
 source/catalog consistency, image/text routing metadata, placeholder parity across
 languages, localized rendering and fallback, story task contracts, vocabulary-card
 layouts, explicit retirement safeguards, variable rendering and rejection cases,

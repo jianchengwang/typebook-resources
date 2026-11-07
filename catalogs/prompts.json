@@ -27,6 +27,18 @@
     "output_type": "text",
     "prompt_role": "system",
     "variables": [],
+    "description_i18n": {
+      "en": "Original level-targeted prose for typing practice.",
+      "zh-CN": "生成符合目标难度的原创文章，供打字练习使用。",
+      "ja": "目標の難易度に合わせた、タイピング練習用のオリジナル文章を作成します。"
+    },
+    "selection_group": "reading-writing",
+    "selection_group_i18n": {
+      "en": "Reading and writing",
+      "zh-CN": "阅读与写作",
+      "ja": "読む・書く"
+    },
+    "selection_tier": "core",
     "path": "prompts/builtin-typing-article.json"
   },
   {
@@ -57,6 +69,18 @@
     "output_type": "text",
     "prompt_role": "system",
     "variables": [],
+    "description_i18n": {
+      "en": "Natural conversation with optional gentle corrections.",
+      "zh-CN": "自然英语会话，可选择温和纠错。",
+      "ja": "自然な英会話。希望に応じて穏やかに間違いを訂正します。"
+    },
+    "selection_group": "conversation",
+    "selection_group_i18n": {
+      "en": "Conversation",
+      "zh-CN": "英语会话",
+      "ja": "英会話"
+    },
+    "selection_tier": "core",
     "path": "prompts/builtin-english-companion.json"
   },
   {
@@ -87,6 +111,18 @@
     "output_type": "text",
     "prompt_role": "system",
     "variables": [],
+    "description_i18n": {
+      "en": "Concise conversation entirely in English.",
+      "zh-CN": "全程只用英语进行简洁对话。",
+      "ja": "英語だけで簡潔に会話します。"
+    },
+    "selection_group": "conversation",
+    "selection_group_i18n": {
+      "en": "Conversation",
+      "zh-CN": "英语会话",
+      "ja": "英会話"
+    },
+    "selection_tier": "core",
     "path": "prompts/builtin-english-only.json"
   },
   {
@@ -124,6 +160,18 @@
         "description": "A box-like container with a lid, suitable for all six spatial relationships."
       }
     ],
+    "description_i18n": {
+      "en": "Contrast spatial relationships using the same two objects across six panels.",
+      "zh-CN": "在六格画面中使用同样的两个物体，对比不同空间关系。",
+      "ja": "同じ二つの物を使い、六つのコマで位置関係を比較します。"
+    },
+    "selection_group": "learning-images",
+    "selection_group_i18n": {
+      "en": "Learning images",
+      "zh-CN": "学习图片",
+      "ja": "学習用画像"
+    },
+    "selection_tier": "optional",
     "path": "prompts/image-preposition-cards.json"
   },
   {
@@ -162,6 +210,18 @@
         "description": "Two to four concrete English object labels, separated by semicolons."
       }
     ],
+    "description_i18n": {
+      "en": "Make a simple scene with clearly located objects and restrained English labels.",
+      "zh-CN": "生成简洁场景，清楚呈现物体位置，并添加少量英语标签。",
+      "ja": "物の位置が明確なシンプルな場面に、少数の英語ラベルを付けます。"
+    },
+    "selection_group": "learning-images",
+    "selection_group_i18n": {
+      "en": "Learning images",
+      "zh-CN": "学习图片",
+      "ja": "学習用画像"
+    },
+    "selection_tier": "optional",
     "path": "prompts/image-scene-vocabulary.json"
   },
   {
@@ -195,6 +255,18 @@
         "description": "A fictional four-step sequence with a clear beginning and end."
       }
     ],
+    "description_i18n": {
+      "en": "Generate a wordless story sequence for describing events and writing short sentences.",
+      "zh-CN": "生成无字连续故事画面，用于描述事件和练习短句写作。",
+      "ja": "出来事の説明や短文作りに使う、文字のない連続した物語の絵を作成します。"
+    },
+    "selection_group": "learning-images",
+    "selection_group_i18n": {
+      "en": "Learning images",
+      "zh-CN": "学习图片",
+      "ja": "学習用画像"
+    },
+    "selection_tier": "optional",
     "path": "prompts/image-story-sequence.json"
   },
   {
@@ -244,6 +316,18 @@
         "description": "word for a whole-word label, or letter-tiles for one letter per tile; short words of three to six lowercase letters work best for tiles."
       }
     ],
+    "description_i18n": {
+      "en": "Create one illustrated word card with either a whole-word label or ordered letter tiles.",
+      "zh-CN": "生成一张插画单词卡，可选择完整单词标签或按顺序排列的字母方块。",
+      "ja": "イラスト付きの単語カードを一枚作成し、単語全体のラベルか、順番に並べた文字タイルを選べます。"
+    },
+    "selection_group": "learning-images",
+    "selection_group_i18n": {
+      "en": "Learning images",
+      "zh-CN": "学习图片",
+      "ja": "学習用画像"
+    },
+    "selection_tier": "optional",
     "path": "prompts/image-vocabulary-card.json"
   },
   {
@@ -287,6 +371,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Learn natural word partners through contextual choices and short rewrites.",
+      "zh-CN": "通过语境选择和简短改写，练习自然的词语搭配。",
+      "ja": "文脈に合う表現の選択と短い書き換えで、自然な語の組み合わせを練習します。"
+    },
+    "selection_group": "vocabulary",
+    "selection_group_i18n": {
+      "en": "Vocabulary",
+      "zh-CN": "词汇训练",
+      "ja": "語彙練習"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-collocation-lab.json"
   },
   {
@@ -331,6 +427,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Draft a fictional practical email and revise its clarity, tone, and wording.",
+      "zh-CN": "练习撰写虚构场景的实用邮件，改进表达清晰度、语气和措辞。",
+      "ja": "架空の実用的なメールを書き、明確さ、語調、言葉遣いを改善します。"
+    },
+    "selection_group": "reading-writing",
+    "selection_group_i18n": {
+      "en": "Reading and writing",
+      "zh-CN": "阅读与写作",
+      "ja": "読む・書く"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-email-practice.json"
   },
   {
@@ -374,6 +482,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Rehearse a practical situation through realistic turns and a short recap.",
+      "zh-CN": "通过真实感的轮流对话练习实用场景，结束后简短回顾。",
+      "ja": "実用的な場面を自然なやり取りで練習し、最後に短く振り返ります。"
+    },
+    "selection_group": "conversation",
+    "selection_group_i18n": {
+      "en": "Conversation",
+      "zh-CN": "英语会话",
+      "ja": "英会話"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-everyday-roleplay.json"
   },
   {
@@ -417,6 +537,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Correct one grammar point at a time with explanations and a fresh retry.",
+      "zh-CN": "每次纠正一个语法要点，结合解释和新题重练。",
+      "ja": "一度に一つの文法事項を直し、説明を確認して新しい文で再練習します。"
+    },
+    "selection_group": "grammar",
+    "selection_group_i18n": {
+      "en": "Grammar",
+      "zh-CN": "语法课堂",
+      "ja": "文法レッスン"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-grammar-repair.json"
   },
   {
@@ -460,6 +592,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Read a short original passage and discuss comprehension without answer spoilers.",
+      "zh-CN": "阅读原创短文，通过问答检查理解，不提前泄露答案。",
+      "ja": "オリジナルの短文を読み、答えを先に見ずに読解のやり取りをします。"
+    },
+    "selection_group": "reading-writing",
+    "selection_group_i18n": {
+      "en": "Reading and writing",
+      "zh-CN": "阅读与写作",
+      "ja": "読む・書く"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-reading-check.json"
   },
   {
@@ -503,6 +647,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Practice concise, accurate summaries while preserving meaning and uncertainty.",
+      "zh-CN": "练习简洁准确的摘要，保留原意和不确定程度。",
+      "ja": "元の意味と不確かさを保ちながら、簡潔で正確な要約を練習します。"
+    },
+    "selection_group": "reading-writing",
+    "selection_group_i18n": {
+      "en": "Reading and writing",
+      "zh-CN": "阅读与写作",
+      "ja": "読む・書く"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-summary-paraphrase.json"
   },
   {
@@ -547,6 +703,18 @@
         "description": "Language for brief explanations; practice answers remain in English."
       }
     ],
+    "description_i18n": {
+      "en": "Practice meaning-to-word recall, contextual use, and retrying missed words.",
+      "zh-CN": "根据词义回忆单词、在语境中使用，并重试答错的单词。",
+      "ja": "意味から単語を思い出し、文脈の中で使い、間違えた単語を再練習します。"
+    },
+    "selection_group": "vocabulary",
+    "selection_group_i18n": {
+      "en": "Vocabulary",
+      "zh-CN": "词汇训练",
+      "ja": "語彙練習"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-vocabulary-recall.json"
   },
   {
@@ -607,6 +775,18 @@
         "description": "A broad visual style, without a named artist or copyrighted franchise."
       }
     ],
+    "description_i18n": {
+      "en": "Create a complete paginated English storybook manuscript with consistent-character illustration briefs and a clean reading copy.",
+      "zh-CN": "生成完整分页的英语故事书文稿，附角色一致的插图说明和纯阅读副本。",
+      "ja": "ページ分けした英語の物語原稿を作成し、登場人物の一貫性を保つ挿絵指示と読み物用の本文を添えます。"
+    },
+    "selection_group": "childrens-stories",
+    "selection_group_i18n": {
+      "en": "Children’s stories",
+      "zh-CN": "儿童故事",
+      "ja": "子ども向けの物語"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-childrens-storybook.json"
   },
   {
@@ -662,6 +842,18 @@
         "description": "Language for requested help or feedback; story prose and choices stay in English."
       }
     ],
+    "description_i18n": {
+      "en": "Co-create a child-safe story through typed decisions that change the plot, then collect the chosen path into a clean reading copy.",
+      "zh-CN": "通过输入决定共同创作适合儿童的故事，选择会改变情节，最后可整理所选路线的纯阅读副本。",
+      "ja": "入力した選択で筋書きが変わる、子ども向けの安全な物語を一緒に作り、選んだ展開を読み物用の本文にまとめます。"
+    },
+    "selection_group": "childrens-stories",
+    "selection_group_i18n": {
+      "en": "Children’s stories",
+      "zh-CN": "儿童故事",
+      "ja": "子ども向けの物語"
+    },
+    "selection_tier": "optional",
     "path": "prompts/learn-choose-your-story.json"
   }
 ]

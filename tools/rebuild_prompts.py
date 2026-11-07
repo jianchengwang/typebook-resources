@@ -18,6 +18,14 @@ from import_hf_readers import (ROOT, apply_plan, json_bytes, recover_transaction
 LOCALES = {"en", "zh-CN", "ja"}
 LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
 CATEGORIES = {"english-learning", "typing-practice", "image-generation"}
+SELECTION_GROUPS = {
+    "conversation": {"en": "Conversation", "zh-CN": "英语会话", "ja": "英会話"},
+    "vocabulary": {"en": "Vocabulary", "zh-CN": "词汇训练", "ja": "語彙練習"},
+    "reading-writing": {"en": "Reading and writing", "zh-CN": "阅读与写作", "ja": "読む・書く"},
+    "grammar": {"en": "Grammar", "zh-CN": "语法课堂", "ja": "文法レッスン"},
+    "childrens-stories": {"en": "Children’s stories", "zh-CN": "儿童故事", "ja": "子ども向けの物語"},
+    "learning-images": {"en": "Learning images", "zh-CN": "学习图片", "ja": "学習用画像"},
+}
 TOKEN = re.compile(r"\{\{([a-z][a-z0-9_]*)\}\}")
 ID = re.compile(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*")
 SUPPORT_FILES = {"tools/rebuild_prompts.py", "tests/test_prompts.py", "docs/prompts.md"}
@@ -41,6 +49,17 @@ def validate_prompt(prompt):
     require(isinstance(titles, dict) and set(titles) == LOCALES, "Invalid title locales: " + pid)
     require(all(clean_text(v) for v in titles.values()), "Invalid localized title: " + pid)
     require(titles["en"] == prompt["name"], "English title differs from name: " + pid)
+    descriptions = prompt.get("description_i18n")
+    require(isinstance(descriptions, dict) and set(descriptions) == LOCALES,
+            "Invalid description locales: " + pid)
+    require(all(clean_text(v) for v in descriptions.values()), "Invalid localized description: " + pid)
+    require(descriptions["en"] == prompt["description"], "English description differs: " + pid)
+    group = prompt.get("selection_group")
+    require(isinstance(group, str) and group in SELECTION_GROUPS, "Invalid selection group: " + pid)
+    require(prompt.get("selection_group_i18n") == SELECTION_GROUPS[group],
+            "Invalid selection group titles: " + pid)
+    require(prompt.get("selection_tier") == ("core" if "legacy_id" in prompt else "optional"),
+            "Selection tier must preserve built-ins as core and other tasks as optional: " + pid)
     require(prompt.get("category") in CATEGORIES, "Invalid category: " + pid)
     require(prompt.get("output_type") in {"text", "image"}, "Invalid output_type: " + pid)
     require((prompt["category"] == "image-generation") == (prompt["output_type"] == "image"),
@@ -172,7 +191,7 @@ def make_plan(root, remove_ids=()):
     # This descriptive revision is supplied only on an intentional catalog update.
     # Later book-only imports preserve it when their generated book data is unchanged.
     if outputs["catalogs/prompts.json"] != (root / "catalogs/prompts.json").read_bytes():
-        manifest["revision"] = "2026-11-07-focused-learning-prompts"
+        manifest["revision"] = "2026-11-07-grouped-optional-prompts"
     outputs["manifest.json"] = json_bytes(manifest)
     return outputs
 

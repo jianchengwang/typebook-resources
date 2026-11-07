@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "typebook-official-resources",
-  "revision": "2026-11-07-focused-learning-prompts",
+  "revision": "2026-11-07-grouped-optional-prompts",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -45,7 +45,7 @@
     "live2d_files": 158,
     "cloudflare_objects_verified": 218
   },
-  "total_bytes": 272804938,
+  "total_bytes": 272837045,
   "files": [
     {
       "path": ".gitattributes",
@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7395,
-      "sha256": "a9f7ed8987ac52884a9a3478847212fe2c6fabf580cc79b6df39eaaa7c7d77d9",
+      "bytes": 8191,
+      "sha256": "00bbfb1aac4f17ab9d6b972fd1719d445c8a7656ff8943cd6b869a9cbc7487d8",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -6309,8 +6309,8 @@
     },
     {
       "path": "catalogs/prompts.json",
-      "bytes": 18432,
-      "sha256": "b57ca42c514a8f8d24980e6ba37a4715007e52707ba2a39bbdad0de192809d3b",
+      "bytes": 27098,
+      "sha256": "252d1da2d11293161dbddd203f95fb3e95858fa8194a532ad7a22d06a45c38ca",
       "content_type": "application/json",
       "category": "catalog"
     },
@@ -6720,8 +6720,8 @@
     },
     {
       "path": "docs/prompts.md",
-      "bytes": 20285,
-      "sha256": "eeec7788047de1a2deb877f671a693222a35c029aefe728860f8f13e86ac372a",
+      "bytes": 27119,
+      "sha256": "bad89d0f088a6f17bdfcb5e52922e3275acd42e926f2a1adb7d07a392379fa3c",
       "content_type": "text/markdown",
       "category": "documentation"
     },
@@ -8763,14 +8763,14 @@
     {
       "path": "profiles/default.json",
       "bytes": 31179,
-      "sha256": "6dff888930f7460738a8f4eef859dca1d33d11b6f7de8d7b45d4726dd9b34c63",
+      "sha256": "530cb71c488422dda3227a5035ff5a84aa26758a7d9d48522e7c798745fb77bd",
       "content_type": "application/json",
       "category": "profile"
     },
     {
       "path": "prompts/builtin-english-companion.json",
-      "bytes": 7811,
-      "sha256": "1b7c61d49c6bb4f217ade0d8f74c3bb9f87a62419510a63982a0d0e9eb9ee0da",
+      "bytes": 8239,
+      "sha256": "3b7a5dc0181f86dd9d2d6e786a23c23a8b7106d4e354676c6b2c291ea9a6e489",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8781,8 +8781,8 @@
     },
     {
       "path": "prompts/builtin-english-only.json",
-      "bytes": 4238,
-      "sha256": "c623e8521ef5691dedb8c8305fe009736f6bec861d05021209a4f5898bdcb72d",
+      "bytes": 4608,
+      "sha256": "9655a37c232bf452b1210530962a599957f4cbb144cdb44059bff6d465e91193",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8793,8 +8793,8 @@
     },
     {
       "path": "prompts/builtin-typing-article.json",
-      "bytes": 6101,
-      "sha256": "538d56bc809fb75f0307c1f6001c5440317fa7d4003c9ef40695eed3fa641ff6",
+      "bytes": 6589,
+      "sha256": "fd752770680cc51f238977acd874ab32c46ce0c1c852bf2f1201ba4a8a7e9f03",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8805,8 +8805,8 @@
     },
     {
       "path": "prompts/image-preposition-cards.json",
-      "bytes": 6985,
-      "sha256": "43350b936453cad2435ef3435ea7407877b3d537ea06bfef53a31daabe1a5d92",
+      "bytes": 7481,
+      "sha256": "00da02da0b224d3d12354fbdbe95a03b39b60c619958a7ae7cf5a846af26a1c0",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8815,8 +8815,8 @@
     },
     {
       "path": "prompts/image-scene-vocabulary.json",
-      "bytes": 6664,
-      "sha256": "2bb505a5635d21c1ad6d6a663b56b981b129fd449064ed1113989346b07d320a",
+      "bytes": 7178,
+      "sha256": "6db2d1e02ea78ccb4307076607e35979e15b53fe5dd46e4cac7ce151a6570f19",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8825,8 +8825,8 @@
     },
     {
       "path": "prompts/image-story-sequence.json",
-      "bytes": 5946,
-      "sha256": "025b50f758db3cf57dc4163277745118bd346220a768d449809970642c82eb42",
+      "bytes": 6475,
+      "sha256": "1d085f6456613f6b57ab85d235b7d1be1e81a51e2f6826c79e91207d8d8f6b24",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8835,8 +8835,8 @@
     },
     {
       "path": "prompts/image-vocabulary-card.json",
-      "bytes": 9089,
-      "sha256": "c87142f9b30ac28cfb5be8a0450fcd82851d6122ed6c7e445af96a24e9475287",
+      "bytes": 9672,
+      "sha256": "264bdf18376b8ca7a2fe7eb8130655b0f64b110803c312938ccd4f5296889415",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8845,8 +8845,8 @@
     },
     {
       "path": "prompts/learn-childrens-storybook.json",
-      "bytes": 22056,
-      "sha256": "cabee31ecb7f9a5edd9e516613f5c6a79479b27eab00a83036555686e391946f",
+      "bytes": 22704,
+      "sha256": "5d3185c08da9db2c9ad4312945bf6268bcd98ac3a0c6ee88257dfac80c582391",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8855,8 +8855,8 @@
     },
     {
       "path": "prompts/learn-choose-your-story.json",
-      "bytes": 20111,
-      "sha256": "fe8db5c2c68200b01c6cd799e2f72c6b17decaec7fdcbe56e59b22c2212276dc",
+      "bytes": 20806,
+      "sha256": "2f05d04a2269051ccc2550ccd27f4e3ae90b35d6d615ca1a666fcdc9c5552310",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8865,8 +8865,8 @@
     },
     {
       "path": "prompts/learn-collocation-lab.json",
-      "bytes": 5904,
-      "sha256": "78d88be300a0f1ae7bd9126cb60a22053054adc58ebc2144b459847900f6b192",
+      "bytes": 6403,
+      "sha256": "10fd4d6e0d93969ddd8d048b0bd679735c40110fea0e9b2d80ee8d87d41bbeee",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8875,8 +8875,8 @@
     },
     {
       "path": "prompts/learn-email-practice.json",
-      "bytes": 5917,
-      "sha256": "101698bf162cd06f7e10ffe091806c8b694233646d5556213f4635b8a0980b29",
+      "bytes": 6444,
+      "sha256": "67f6d75ecdf297518627de9c0bc3c5025c2d979e154ff22d695570d24a5a5261",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8885,8 +8885,8 @@
     },
     {
       "path": "prompts/learn-everyday-roleplay.json",
-      "bytes": 5838,
-      "sha256": "68688a194a0f1b1128a772afdd6d26980ef27813ebfe555a92a24b79ed261949",
+      "bytes": 6331,
+      "sha256": "b904f31725e0006a5ee673c9b5d762d03b04f378640c60f5f178f39c5176a704",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8895,8 +8895,8 @@
     },
     {
       "path": "prompts/learn-grammar-repair.json",
-      "bytes": 6198,
-      "sha256": "c512f4f9394b132ee31d10edf6ef60cfcd209791e9049acfc226e8b4d7806999",
+      "bytes": 6683,
+      "sha256": "c5dd2e5fdf574513cdef65e2ca9be998f1b6e8c64dbce31c16e233be3d0057cd",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8905,8 +8905,8 @@
     },
     {
       "path": "prompts/learn-reading-check.json",
-      "bytes": 5905,
-      "sha256": "4f4ce38a2db25054f291d5ad90bcd666d44dca65e2b9a866b7868d500081375b",
+      "bytes": 6424,
+      "sha256": "834a121fe6a8c7ffc38baa2e5ddd50d1aa204a045351c0d5b4bed6c0bcd1c319",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8915,8 +8915,8 @@
     },
     {
       "path": "prompts/learn-summary-paraphrase.json",
-      "bytes": 6109,
-      "sha256": "25f0eee337bb0c802a43fc73e40bf71ea1bd6bfbff8f93305cf8446b9dc02596",
+      "bytes": 6614,
+      "sha256": "83ac6d9344b5f56591d9e95a70ed4184ca769cf2e666a3e916c6038019e7127d",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8925,8 +8925,8 @@
     },
     {
       "path": "prompts/learn-vocabulary-recall.json",
-      "bytes": 6442,
-      "sha256": "05021e8a59f7271e6b1a9e6c744331e94f35a0af4296ee6a960c1a84d4347d04",
+      "bytes": 6945,
+      "sha256": "4167966567732c31faa6aabb2840d8b64e15b2e291b04f90b4a062a2390fd237",
       "content_type": "application/json",
       "category": "prompt",
       "source": {
@@ -8989,8 +8989,8 @@
     },
     {
       "path": "tests/test_prompts.py",
-      "bytes": 28113,
-      "sha256": "af81e1178ff9da7e2d4232ee28ce899c75b07b0309d4e80f044946370cbc3036",
+      "bytes": 33720,
+      "sha256": "0babb6c6a3b3f8ee25e5809435791b82a586164f061343459d7143f512873b9a",
       "content_type": "text/x-python",
       "category": "tooling"
     },
@@ -9017,15 +9017,15 @@
     },
     {
       "path": "tools/rebuild_prompts.py",
-      "bytes": 13437,
-      "sha256": "7895ce6b20cecbc8adf28c84c2a4621bcdb48fb6c58ad3c8c4fea112a21b54ae",
+      "bytes": 14888,
+      "sha256": "92cada99aaffeadfd60b940c4c30bebe574007333fa1dfd5f0e95345408e24d2",
       "content_type": "text/x-python",
       "category": "tooling"
     },
     {
       "path": "tools/verify.py",
-      "bytes": 9358,
-      "sha256": "a0d4ea8820b209ce0ae8dd5f6ffb822f5cb581ff9f11cdb1891b81229b2a8128",
+      "bytes": 9829,
+      "sha256": "58766b1a08e42b94895a933b8652afbd7879b196fd528d4a0fcd451a108ba0b4",
       "content_type": "text/x-python",
       "category": "tooling"
     },

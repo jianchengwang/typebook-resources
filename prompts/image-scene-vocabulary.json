@@ -39,5 +39,17 @@
     "en": "Create a landscape 4:3 educational vocabulary illustration of {{scene}}. Include one clearly visible example of each target object: {{labels}}. Use an original, welcoming flat illustration with a limited color palette and enough empty space to keep objects easy to identify.\nPlace each requested English label exactly once beside its matching object, in large plain lettering. Use short, non-crossing leader lines only where the association would otherwise be unclear. Keep labels outside objects and away from edges. Render no additional text, signage, brand names, headings, or translations.\nPrioritize a simple correct object-label relationship over decorative detail. Do not include multiple similar objects that make a label ambiguous. Leave the layout uncluttered and useful for naming objects aloud, typing the words, or composing short descriptive sentences afterward.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, or extra labels. Render only the specified text, with clear spacing and high contrast; if it cannot be rendered reliably, leave that text area blank rather than inventing letters. Any generated lettering must be checked before learning or printing.",
     "zh-CN": "制作一幅横向 4:3 的 {{scene}} 教学词汇插图。每个目标物体都要有一个清晰可见的实例：{{labels}}。使用原创、亲切的扁平插画，限制配色数量，并保留足够的空白，让物体易于辨认。\n将每个要求的英文标签恰好放置一次，置于与其对应的物体旁边，使用大号朴素文字。只有在对应关系否则会不清楚时，才使用短且不交叉的引导线。将标签放在物体外部，并远离画面边缘。不要呈现任何额外文字、标牌文字、品牌名称、标题或翻译。\n优先保证物体与标签的对应关系简单、正确，而非装饰细节。不要包含多个相似物体，导致标签所指不明确。布局应简洁不拥挤，便于之后大声说出物体名称、键入单词或编写简短的描述句。\n\n使用原创、通用的主体，不含标志、品牌角色，也不模仿任何具名艺术家的风格。不要添加水印、装饰性文字或额外标签。只呈现指定的文字，保持清晰的间距和高对比度；如果无法可靠地呈现文字，请将该文字区域留空，而不是编造字母。任何生成的文字都必须在用于学习或打印之前经过检查。",
     "ja": "{{scene}} を題材に、横長の 4:3 の教育用語彙イラストを作成してください。対象となる各物体を、それぞれ1つずつはっきり見えるように含めてください：{{labels}}。独自の親しみやすいフラットイラストにし、色数を抑え、物体を見分けやすくするために十分な空白を設けてください。\n指定された各英語ラベルを、対応する物体のそばにそれぞれちょうど1回ずつ、大きく装飾を抑えた文字で配置してください。対応関係がそれ以外では不明確になる場合に限り、短く交差しない引き出し線を使ってください。ラベルは物体の外側に置き、画面の端から離してください。追加の文字、看板の文字、ブランド名、見出し、訳は一切描画しないでください。\n装飾的な細部よりも、単純で正しい物体とラベルの対応関係を優先してください。ラベルが何を指すのか曖昧になるような、似た物体を複数含めないでください。レイアウトをすっきりさせ、後で物体の名前を声に出したり、単語をタイピングしたり、短い説明文を作ったりする際に役立つものにしてください。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、追加のラベルを加えないでください。指定された文字だけを、明確な間隔と高いコントラストで描画してください。文字を確実に描画できない場合は、字形をでっち上げず、その文字領域を空白にしてください。生成された文字はすべて、学習や印刷に使用する前に確認する必要があります。"
-  }
+  },
+  "description_i18n": {
+    "en": "Make a simple scene with clearly located objects and restrained English labels.",
+    "zh-CN": "生成简洁场景，清楚呈现物体位置，并添加少量英语标签。",
+    "ja": "物の位置が明確なシンプルな場面に、少数の英語ラベルを付けます。"
+  },
+  "selection_group": "learning-images",
+  "selection_group_i18n": {
+    "en": "Learning images",
+    "zh-CN": "学习图片",
+    "ja": "学習用画像"
+  },
+  "selection_tier": "optional"
 }

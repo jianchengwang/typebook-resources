@@ -50,5 +50,17 @@
     "en": "Create one English vocabulary flashcard in a portrait 4:5 composition. Target word: {{word}}. Illustrate this meaning: {{meaning}}. Use {{style}}, a plain warm-white background, generous margins, and a single unmistakable focal object. Keep the subject separate from the text.\nReserve the lower quarter for exactly this case-sensitive label as supplied: {{word}}. Label layout: {{label_layout}}. For 'word', show the label once as a complete word. For 'letter-tiles', arrange one left-to-right row of equal-size tiles, with exactly one supplied letter per tile in order; keep ample separation and margins so no tile is cropped. Do not omit, repeat, transpose, merge, or decorate letters, and do not print the full word elsewhere. Tile mode works best for short words of three to six lowercase letters. If the layout is unrecognized, use 'word'. Use large, plain, easy-to-read lettering and high contrast in either layout. Do not include a translation, example sentence, pronunciation guide, frame title, or other words. The illustration must convey the specified sense rather than an unrelated meaning of the word.\nKeep details simple enough for a beginner to recognize at a glance, and make the card suitable for screen viewing or later printing. This is a visual draft, not a guarantee of exact print dimensions or spelling accuracy.\n\nUse original, generic subjects, with no logos, branded characters, or imitation of a named artist. Do not add a watermark, decorative writing, or extra labels. Render only the specified text, with clear spacing and high contrast; if it cannot be rendered reliably, leave that text area blank rather than inventing letters. Any generated lettering must be checked before learning or printing.",
     "zh-CN": "制作一张纵向 4:5 构图的英语词汇闪卡。目标单词：{{word}}。用图画表达这个含义：{{meaning}}。采用 {{style}}，使用纯暖白色背景、宽裕的留白，以及一个一目了然的视觉焦点物体。将主体与文字分开。\n将底部四分之一区域留给以下标签，严格保留提供的大小写：{{word}}。标签排版：{{label_layout}}。选择 'word' 时，将完整单词作为一个标签，只显示一次。选择 'letter-tiles' 时，将大小相等的字母格从左到右排列成一行，每格恰好放一个原始字母，顺序不变；保留充足的间距和边距，确保没有字母格被裁切。不要遗漏、重复、调换、合并或装饰字母，也不要在其他地方再次印出完整单词。字母格模式最适合由三到六个小写字母组成的短词。无法识别排版值时使用 'word'。两种排版都使用大号、朴素、易读的文字和高对比度。不要包含翻译、例句、发音指南、卡片标题或其他词语。插图必须传达指定的词义，而不是该单词的其他无关含义。\n细节应足够简洁，让初学者一眼就能认出，并使卡片适合屏幕查看或日后打印。这是一份视觉草稿，并不保证精确的打印尺寸或拼写准确性。\n\n使用原创、通用的主体，不含标志、品牌角色，也不模仿任何具名艺术家的风格。不要添加水印、装饰性文字或额外标签。只呈现指定的文字，保持清晰的间距和高对比度；如果无法可靠地呈现文字，请将该文字区域留空，而不是编造字母。任何生成的文字都必须在用于学习或打印之前经过检查。",
     "ja": "縦長の 4:5 の構図で、英単語のフラッシュカードを1枚作成してください。対象の単語：{{word}}。次の意味を絵で表してください：{{meaning}}。{{style}} を用い、無地の温かみのある白い背景、十分な余白、ひと目で何かわかる単一の中心的な物体を配置してください。被写体と文字を分離してください。\n下部の4分の1は、次のラベルだけのために確保し、指定された大文字・小文字の区別をそのまま保持してください：{{word}}。ラベルの配置：{{label_layout}}。'word' では、単語全体を一つのラベルとして1回だけ表示してください。'letter-tiles' では、同じ大きさの文字タイルを左から右に1列に並べ、各タイルに指定された文字をちょうど1文字ずつ、元の順序で配置してください。タイルが切れないよう、十分な間隔と余白を確保してください。文字の省略、重複、順序の入れ替え、結合、装飾をせず、単語全体を別の場所に重ねて印字しないでください。タイル形式は、3-6文字の小文字からなる短い単語に最適です。配置の値が不明な場合は 'word' を使ってください。どちらの配置でも、大きく装飾を抑えた読みやすい文字と高いコントラストを使ってください。訳、例文、発音ガイド、カードの見出し、その他の単語を含めないでください。イラストは、その単語の無関係な別の意味ではなく、指定された語義を伝えるものにしてください。\n初心者がひと目で認識できる程度に細部をシンプルにし、画面での閲覧や後日の印刷に適したカードにしてください。これは視覚的な下書きであり、正確な印刷寸法や綴りの正確性を保証するものではありません。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、追加のラベルを加えないでください。指定された文字だけを、明確な間隔と高いコントラストで描画してください。文字を確実に描画できない場合は、字形をでっち上げず、その文字領域を空白にしてください。生成された文字はすべて、学習や印刷に使用する前に確認する必要があります。"
-  }
+  },
+  "description_i18n": {
+    "en": "Create one illustrated word card with either a whole-word label or ordered letter tiles.",
+    "zh-CN": "生成一张插画单词卡，可选择完整单词标签或按顺序排列的字母方块。",
+    "ja": "イラスト付きの単語カードを一枚作成し、単語全体のラベルか、順番に並べた文字タイルを選べます。"
+  },
+  "selection_group": "learning-images",
+  "selection_group_i18n": {
+    "en": "Learning images",
+    "zh-CN": "学习图片",
+    "ja": "学習用画像"
+  },
+  "selection_tier": "optional"
 }
