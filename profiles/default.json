@@ -163,7 +163,9 @@
     "learn-vocabulary-recall",
     "typing-error-review",
     "typing-precision-copy",
-    "typing-restricted-keys"
+    "typing-restricted-keys",
+    "learn-childrens-storybook",
+    "learn-choose-your-story"
   ],
   "models": [
     "live2d:1"
@@ -760,6 +762,8 @@
     "prompts/image-spelling-tiles.json",
     "prompts/image-story-sequence.json",
     "prompts/image-vocabulary-card.json",
+    "prompts/learn-childrens-storybook.json",
+    "prompts/learn-choose-your-story.json",
     "prompts/learn-collocation-lab.json",
     "prompts/learn-email-practice.json",
     "prompts/learn-everyday-roleplay.json",
@@ -777,5 +781,5 @@
     "xlsx.mjs",
     "yuki-avatar.png"
   ],
-  "payload_bytes": 65115074
+  "payload_bytes": 65234655
 }

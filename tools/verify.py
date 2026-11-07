@@ -161,6 +161,8 @@ def main():
         "articles": len(catalogs["articles"]), "collections": len(catalogs["collections"]),
         "prompts": len(catalogs["prompts"]),
         "prompts_with_localized_titles": len(prompt_sources),
+        "prompts_with_localized_bodies": len(prompt_sources),
+        "prompt_body_locales": ["en", "zh-CN", "ja"],
         "prompt_categories": {category: sum(p["category"] == category for p in prompt_sources.values())
                               for category in ("english-learning", "typing-practice", "image-generation")},
         "models": len(catalogs["live2d"]),

@@ -12,7 +12,7 @@ the application source remains in its existing repository.
 | Additional starter articles | 3 original articles retained in the official catalog |
 | Books | 100 books, 123 stored chapters and 100 covers |
 | Dictionaries | 28 dictionaries, 81,119 entries |
-| Learning prompts | 3 preserved built-ins + 15 distinct learning, typing and image tasks; titles in English, Chinese and Japanese |
+| Learning prompts | 3 preserved built-ins + 17 distinct learning, typing, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
 | Live2D models | 8 models, 158 files |
 | Browser support assets | Existing speech model, WASM/runtime files, Live2D core and other public assets |
 
@@ -43,15 +43,19 @@ Application integration is separate; this resource update does not deploy the si
 
 ## Learning and typing prompts
 
-The 18-prompt catalog preserves the original 3 built-ins and adds 15 focused
-workflows: 7 English learning tasks, 3 typing tasks and 5 image generation tasks.
+The 20-prompt catalog preserves the original 3 built-ins and adds 17 focused
+workflows: 9 English learning tasks, 3 typing tasks and 5 image generation tasks.
 These include role-play, active vocabulary recall, grammar repair, precise
 punctuation/number copying, typed-error review, word cards, spelling tiles and
-wordless story sequences. Similar variants were deliberately consolidated.
-All prompts include additive `title_i18n` labels for `en`, `zh-CN` and `ja`,
-plus task, output and placeholder metadata. Existing English `name` values and
-the three original prompt bodies are unchanged. See [task selection, field
-contracts and local rendering](docs/prompts.md). Image entries are templates,
+wordless story sequences. Two children's story workflows add a complete paginated
+storybook manuscript with consistent-character illustration briefs, and a typed-choice
+interactive story whose selected path can become a clean reading copy. Similar
+variants were deliberately consolidated.
+All prompts include additive `title_i18n` and `prompt_i18n` maps for `en`, `zh-CN`
+and `ja`, plus task, output and placeholder metadata. Existing `name` and `prompt`
+fields remain the English fallbacks; all 18 earlier English bodies are unchanged.
+Instruction translation does not change the target English practice language.
+See [task selection, field contracts and local rendering](docs/prompts.md). Image entries are templates,
 not generated images; a compatible consumer route is required. Application
 integration and deployment remain separate.
 

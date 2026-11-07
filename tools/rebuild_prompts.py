@@ -10,6 +10,7 @@ import pathlib
 import re
 import sys
 import unicodedata
+from collections import Counter
 from import_hf_readers import (ROOT, apply_plan, json_bytes, recover_transaction,
                                require, resource_files, safe_path, sha256,
                                transaction_directory)
@@ -55,6 +56,10 @@ def validate_prompt(prompt):
     require(set(prompt["cefr_levels"]) <= LEVELS, "Invalid CEFR level: " + pid)
     body = prompt.get("prompt")
     require(clean_text(body, multiline=True), "Empty or invalid prompt body: " + pid)
+    bodies = prompt.get("prompt_i18n")
+    require(isinstance(bodies, dict) and set(bodies) == LOCALES, "Invalid prompt locales: " + pid)
+    require(all(clean_text(v, multiline=True) for v in bodies.values()), "Invalid localized prompt: " + pid)
+    require(bodies["en"] == body, "English prompt differs from prompt: " + pid)
     variables = prompt.get("variables")
     require(isinstance(variables, list), "Invalid variables: " + pid)
     names = []
@@ -67,13 +72,18 @@ def validate_prompt(prompt):
         names.append(name)
     require(len(names) == len(set(names)), "Duplicate variable: " + pid)
     require(set(TOKEN.findall(body)) == set(names), "Placeholder/variable mismatch: " + pid)
-    remainder = TOKEN.sub("", body)
-    require("{{" not in remainder and "}}" not in remainder, "Malformed placeholder: " + pid)
+    for locale, localized in bodies.items():
+        require(Counter(TOKEN.findall(localized)) == Counter(TOKEN.findall(body)),
+                "Localized placeholder mismatch: " + pid + " / " + locale)
+        remainder = TOKEN.sub("", localized)
+        require("{{" not in remainder and "}}" not in remainder,
+                "Malformed placeholder: " + pid + " / " + locale)
 
 
-def render_prompt(prompt, values=None):
+def render_prompt(prompt, values=None, locale="en"):
     """One literal substitution pass; values are data, never executable code."""
     validate_prompt(prompt)
+    require(isinstance(locale, str) and bool(locale), "Locale must be a nonempty string")
     require(values is None or isinstance(values, dict), "Variable overrides must be an object")
     values = {} if values is None else values
     resolved = {item["name"]: item["default"] for item in prompt["variables"]}
@@ -81,7 +91,8 @@ def render_prompt(prompt, values=None):
     require(all(clean_text(v, multiline=True) for v in values.values()), "Invalid variable override")
     require(all("{{" not in v and "}}" not in v for v in values.values()), "Nested placeholder in override")
     resolved.update(values)
-    return TOKEN.sub(lambda match: resolved[match.group(1)], prompt["prompt"])
+    body = prompt["prompt_i18n"].get(locale, prompt["prompt"])
+    return TOKEN.sub(lambda match: resolved[match.group(1)], body)
 
 
 def load_prompts(root):
@@ -101,7 +112,7 @@ def load_prompts(root):
 
 
 def catalog_entry(prompt):
-    return {**{key: value for key, value in prompt.items() if key != "prompt"},
+    return {**{key: value for key, value in prompt.items() if key not in {"prompt", "prompt_i18n"}},
             "path": "prompts/" + prompt["id"] + ".json"}
 
 
@@ -150,7 +161,7 @@ def make_plan(root):
     # This descriptive revision is supplied only on an intentional catalog update.
     # Later book-only imports preserve it when their generated book data is unchanged.
     if outputs["catalogs/prompts.json"] != (root / "catalogs/prompts.json").read_bytes():
-        manifest["revision"] = "2026-11-07-learning-prompts"
+        manifest["revision"] = "2026-11-07-multilingual-storybook-prompts"
     outputs["manifest.json"] = json_bytes(manifest)
     return outputs
 
@@ -162,9 +173,11 @@ def main():
     modes.add_argument("--check", action="store_true")
     modes.add_argument("--recover", action="store_true")
     modes.add_argument("--render", metavar="PROMPT_ID")
+    parser.add_argument("--locale", help="Instruction locale for --render: en, zh-CN, ja; other locales fall back to English")
     parser.add_argument("--values", help='JSON object, e.g. {"word":"pear"}; --render only')
     args = parser.parse_args()
-    require(not args.values or args.render, "--values requires --render")
+    require(args.values is None or args.render, "--values requires --render")
+    require(args.locale is None or args.render, "--locale requires --render")
     if args.recover:
         recover_transaction(ROOT)
         print(json.dumps({"status": "ok", "mode": "recover"}))
@@ -173,7 +186,7 @@ def main():
     if args.render:
         prompts = {p["id"]: p for p in load_prompts(ROOT)}
         require(args.render in prompts, "Unknown prompt ID")
-        print(render_prompt(prompts[args.render], json.loads(args.values) if args.values else None))
+        print(render_prompt(prompts[args.render], json.loads(args.values) if args.values else None, args.locale or "en"))
         return
     plan = make_plan(ROOT)
     changed = [p for p, data in plan.items() if not (ROOT / p).is_file() or (ROOT / p).read_bytes() != data]
