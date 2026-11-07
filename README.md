@@ -10,7 +10,7 @@ the application source remains in its existing repository.
 | --- | --- |
 | Demo anthology | 3 original articles |
 | Additional starter articles | 3 original articles retained in the official catalog |
-| Books | 19 books, 42 stored chapters and 19 covers |
+| Books | 100 books, 123 stored chapters and 100 covers |
 | Dictionaries | 28 dictionaries, 81,119 entries |
 | Yuki prompts | 3 built-in modes |
 | Live2D models | 8 models, 158 files |
@@ -22,9 +22,10 @@ Original books:
 - A Study in Scarlet, Arthur Conan Doyle: 14 stored chapters.
 - The Wind in the Willows, Kenneth Grahame: 7 stored chapters.
 
-The November 2026 reader addition contains 16 short English children’s books
+The November 2026 reader addition contains 97 short English children’s books
 from Hugging Face’s GlotStoryBook dataset, individually verified as CC BY 3.0
-or CC BY 4.0. Each has one complete-story chapter (21–564 words), source
+or CC BY 4.0. The second curated batch adds 81 books to the original 19-book
+catalog. Each short reader has one complete-story chapter (21–687 words), source
 attribution and an original typographic cover. See [the reading list and
 reproducible importer](docs/huggingface-readers.md).
 

@@ -100,6 +100,59 @@ class ReaderTests(unittest.TestCase):
         self.config['books'].append(copy.deepcopy(self.config['books'][0]))
         with self.assertRaisesRegex(ValueError, 'Duplicate'): self.build()
 
+    def test_punctuated_source_filename_allowed(self):
+        old, new = '0001_test-reader.md', '0001_test.reader.md'
+        self.config['books'][0]['filename'] = new
+        self.csv = self.csv.replace(old.encode(), new.encode())
+        self.originals[new] = self.originals.pop(old)
+        self.assertEqual(len(self.build()[0]), 1)
+
+    def test_source_filename_traversal_rejected(self):
+        for filename in ('0001_../reader.md', '0001_test..reader.md', '0001_/reader.md'):
+            with self.subTest(filename=filename):
+                self.config['books'][0]['filename'] = filename
+                with self.assertRaisesRegex(ValueError, 'source filename'): self.build()
+
+    def test_source_story_id_mismatch_rejected(self):
+        self.config['books'][0]['parallel_id'] = 'asp_0002'
+        with self.assertRaisesRegex(ValueError, 'story ID'): self.build()
+
+    def test_stable_id_mismatch_rejected(self):
+        self.config['books'][0]['legacy_id'] = 800002
+        with self.assertRaisesRegex(ValueError, 'stable ID'): self.build()
+
+    def test_unknown_practice_band_rejected(self):
+        self.config['books'][0]['practice_band'] = 'certified-A1'
+        with self.assertRaisesRegex(ValueError, 'practice band'): self.build()
+
+    def test_duplicate_story_text_rejected(self):
+        other = copy.deepcopy(self.config['books'][0])
+        other.update(slug='asp-other-reader', legacy_id=800002, chapter_legacy_id=800002,
+                     parallel_id='asp_0002', filename='0002_other-reader.md')
+        self.config['books'].append(other)
+        self.csv += b'\n'.join(self.csv.splitlines()[1:]).replace(b'asp_0001', b'asp_0002').replace(b'0001_test-reader.md', b'0002_other-reader.md') + b'\n'
+        self.index += self.index.replace(b'0001', b'0002')
+        self.originals['0002_other-reader.md'] = self.originals['0001_test-reader.md']
+        with self.assertRaisesRegex(ValueError, 'Duplicate story text'): self.build()
+
+    def test_selection_expansion_preserves_existing_book(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            self.make_repo(root)
+            books, outputs = self.build()
+            for relative, data in reader.make_plan(root, self.config, books, outputs).items():
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(data)
+            second = copy.deepcopy(books[0])
+            second.update(id='book:800002', legacy_id=800002)
+            second['chapters'][0].update(id='chapter:800002', legacy_id=800002, book_id=800002)
+            plan = reader.make_plan(root, self.config, books + [second], outputs)
+            catalog = json.loads(plan['catalogs/books.json'])
+            self.assertEqual(catalog[0], books[0])
+            self.assertEqual([b['id'] for b in catalog], ['book:800001', 'book:800002'])
+            self.assertEqual(json.loads(plan['profiles/default.json'])['books'], ['book:800001', 'book:800002'])
+
     def test_cover_escapes_xml(self):
         book = self.config['books'][0]
         book['title'] = '<script>alert(1)</script>'
@@ -180,6 +233,29 @@ class ReaderTests(unittest.TestCase):
         self.assertIn('Example Writer', chapter['attribution'])
         # Collection loader currently discards adaptation_note, so credit includes it too.
         self.assertIn(reader.CHANGES, chapter['attribution'])
+
+    def test_additional_publisher_credit_preserved(self):
+        notice = {"text": "© Example Author, Designer and Publisher 2015", "evidence_url": "https://example.org/credits"}
+        self.config['books'][0]['additional_attribution'] = [notice]
+        books, files = self.build()
+        source = json.loads(files['books/asp-test-reader/source.json'])
+        self.assertEqual(source['additional_attribution'], [notice])
+        for value in (notice['text'], notice['evidence_url']):
+            self.assertIn(value, books[0]['chapters'][0]['attribution'])
+            self.assertIn(value, files['books/asp-test-reader/LICENSE.md'].decode())
+        self.assertEqual(books[0]['author'], 'Example Writer')
+        self.assertEqual(source['license']['id'], 'CC-BY-3.0')
+
+    def test_missing_publisher_credit_evidence_rejected(self):
+        self.config['books'][0]['additional_attribution'] = [{"text": "Publisher credit"}]
+        with self.assertRaisesRegex(ValueError, 'publisher notice evidence'): self.build()
+
+    def test_translation_alias_preserved(self):
+        self.originals['0001_test-reader.md'] += b'* Translation: Another Translator\n'
+        books, files = self.build()
+        source = json.loads(files['books/asp-test-reader/source.json'])
+        self.assertEqual(source['translator'], 'Another Translator')
+        self.assertIn('Translation: Another Translator.', books[0]['chapters'][0]['attribution'])
 
     def test_all_contributor_roles_preserved(self):
         key = '0001_test-reader.md'

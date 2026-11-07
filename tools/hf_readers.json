@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "import_id": "hf-glotstorybook-english-v1",
-  "revision": "2026-11-07-hf-readers-1",
+  "revision": "2026-11-07-hf-readers-100",
   "dataset": {
     "repository": "cis-lmu/GlotStoryBook",
     "revision": "ad913a24f4a912cc0cd49a5f69e2055eba483d1f",
@@ -319,6 +319,2013 @@
       "practice_note": "A family visit with everyday routines and descriptive sentences.",
       "reader_url": "https://africanstorybook.org/reader.php?id=12084",
       "verification_url": "https://www.storybookscanada.ca/stories/en/0243/"
+    },
+    {
+      "slug": "asp-the-rainbow",
+      "legacy_id": 800049,
+      "chapter_legacy_id": 800049,
+      "parallel_id": "asp_0049",
+      "filename": "0049_the-rainbow.md",
+      "title": "The Rainbow",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/rainbow",
+      "source_sha256": "fbc862d739b0a8fe5772101ae852793e0b6b823e8560f08f28c13f664e79ea70",
+      "paragraph_count": 6,
+      "word_count": 21,
+      "practice_band": "starter",
+      "practice_note": "Colours of a rainbow in very short sentences.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0049_the-rainbow.md",
+      "verification_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0049_the-rainbow.md"
+    },
+    {
+      "slug": "asp-clouds",
+      "legacy_id": 800126,
+      "chapter_legacy_id": 800126,
+      "parallel_id": "asp_0126",
+      "filename": "0126_clouds.md",
+      "title": "Clouds",
+      "author": "Clark Ness",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/clouds",
+      "source_sha256": "9340f51f469093f66521b2744ba278f1f3cffa30618247a71842f36e8441fcbb",
+      "paragraph_count": 4,
+      "word_count": 30,
+      "practice_band": "starter",
+      "practice_note": "Weather and repeated sentences about clouds.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0126_clouds.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2122&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Clark Ness 2008",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2122&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-little-goat",
+      "legacy_id": 800212,
+      "chapter_legacy_id": 800212,
+      "parallel_id": "asp_0212",
+      "filename": "0212_my-little-goat.md",
+      "title": "My little goat",
+      "author": "Bukheye Mulongo",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/my-little-goat-colour",
+      "source_sha256": "3db7053a7a57fc1a8b0056e815db29e799918eda08476f5fadb9fc8d718f1eef",
+      "paragraph_count": 5,
+      "word_count": 37,
+      "practice_band": "starter",
+      "practice_note": "Questions and rhyming words about a goat and a coat.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0212_my-little-goat.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9885&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Bukheye Mulongo Christopher 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9885&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-rain",
+      "legacy_id": 800331,
+      "chapter_legacy_id": 800331,
+      "parallel_id": "asp_0331",
+      "filename": "0331_rain.md",
+      "title": "Rain",
+      "author": "Letta Machoga",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/rain",
+      "source_sha256": "3f2ca8c61b1b49dc457e9153f3a84c9db9ec90e071f3a48727887be0c662d566",
+      "paragraph_count": 8,
+      "word_count": 45,
+      "practice_band": "starter",
+      "practice_note": "Rain, water and playing outside.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0331_rain.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9828&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative and Molteno Institute 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9828&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-fruits",
+      "legacy_id": 800172,
+      "chapter_legacy_id": 800172,
+      "parallel_id": "asp_0172",
+      "filename": "0172_fruits.md",
+      "title": "Fruits",
+      "author": "Ritah Katetemera",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/fruits",
+      "source_sha256": "ce94f21fa8148d1c446a1cb6efdd76544fa1f9ad36eeb4aefcf228da478fa531",
+      "paragraph_count": 8,
+      "word_count": 46,
+      "practice_band": "starter",
+      "practice_note": "Fruit names, preferences and healthy food.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0172_fruits.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=6369&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Ritah Katetemera 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=6369&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-i-enjoy-doing",
+      "legacy_id": 800316,
+      "chapter_legacy_id": 800316,
+      "parallel_id": "asp_0316",
+      "filename": "0316_i-enjoy-doing.md",
+      "title": "I enjoy doing",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/reader.php?id=15575&d=0&a=1",
+      "source_sha256": "b6f09a196f1503250eeebccda8ab09c61eee757b0061181e25e459b393c4386a",
+      "paragraph_count": 8,
+      "word_count": 53,
+      "practice_band": "starter",
+      "practice_note": "Repeated sentences about everyday activities and interests.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0316_i-enjoy-doing.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=15575&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=15575&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-pendo-our-cow",
+      "legacy_id": 800240,
+      "chapter_legacy_id": 800240,
+      "parallel_id": "asp_0240",
+      "filename": "0240_pendo-our-cow.md",
+      "title": "Pendo our cow",
+      "author": "Ruth Odondi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/pendo-our-cow",
+      "source_sha256": "b5c99f399ebc2b7e4de76f89e5e2cae5f6bc65c9b7c35c18866c385dc3bf9d65",
+      "paragraph_count": 12,
+      "word_count": 58,
+      "practice_band": "starter",
+      "practice_note": "A family cares for a cow and enjoys her milk.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0240_pendo-our-cow.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11991&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative and Molteno Institute, 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11991&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-new-pussy-cat",
+      "legacy_id": 800113,
+      "chapter_legacy_id": 800113,
+      "parallel_id": "asp_0113",
+      "filename": "0113_new-pussy-cat.md",
+      "title": "New pussy cat",
+      "author": "Ritah Katetemera",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/new-pussy-cat",
+      "source_sha256": "9eac4d766f9788054be08a891c17ffe6004b6e6d768ad30b90d2607b37238d90",
+      "paragraph_count": 8,
+      "word_count": 59,
+      "practice_band": "starter",
+      "practice_note": "A family chooses a kitten, with simple comparisons.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0113_new-pussy-cat.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=13631&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=13631&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-children-like-to-play",
+      "legacy_id": 800157,
+      "chapter_legacy_id": 800157,
+      "parallel_id": "asp_0157",
+      "filename": "0157_children-like-to-play.md",
+      "title": "Children like to play",
+      "author": "Annet Ssebaggala",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/children-play",
+      "source_sha256": "4943d67a4be5da223d7cf05d303dc6a99343e812dd6d2f25466f3399b6c028cc",
+      "paragraph_count": 12,
+      "word_count": 60,
+      "practice_band": "starter",
+      "practice_note": "Children describe favourite games and toys.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0157_children-like-to-play.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=7259&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Annet Ssebaggala 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=7259&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-fires-story",
+      "legacy_id": 800043,
+      "chapter_legacy_id": 800043,
+      "parallel_id": "asp_0043",
+      "filename": "0043_fires-story.md",
+      "title": "Fire's story",
+      "author": "Deborah Namugosa, Beatrice Nabune, Alison Tukei, Rose Sabano",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/fires-story",
+      "source_sha256": "66553cdafe3a9d4607ec316940e74f00bd81233bbe48a4f29885eee4afdf7b39",
+      "paragraph_count": 8,
+      "word_count": 62,
+      "practice_band": "starter",
+      "practice_note": "Fire tells its own story and reminds readers to take care.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0043_fires-story.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9296&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9296&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-tell-me-now-happy-and-sad",
+      "legacy_id": 800265,
+      "chapter_legacy_id": 800265,
+      "parallel_id": "asp_0265",
+      "filename": "0265_tell-me.now-happy-and-sad.md",
+      "title": "Tell me...now! Happy and sad",
+      "author": "Madhav Chavan",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/happy-and-sad",
+      "source_sha256": "afe719c0a2a229ebb6056ca35dbce227287eed02808329c6b8dc904399aec545",
+      "paragraph_count": 12,
+      "word_count": 64,
+      "practice_band": "starter",
+      "practice_note": "Questions and answers about feelings and their causes.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0265_tell-me.now-happy-and-sad.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=53349&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Pratham Books 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=53349&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-what-type-of-teeth",
+      "legacy_id": 800050,
+      "chapter_legacy_id": 800050,
+      "parallel_id": "asp_0050",
+      "filename": "0050_what-type-of-teeth.md",
+      "title": "What type of teeth?",
+      "author": "Zanele Buthelezi, Thembani Dladla, Clare Verbeek, Abu Enock, Dudu Mary, Ajuru Florence",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/what-type-teeth",
+      "source_sha256": "c14e4364321569c3b1e8085713ec0b1797fa36cedb2886481d7ad76fd913c30b",
+      "paragraph_count": 8,
+      "word_count": 65,
+      "practice_band": "starter",
+      "practice_note": "Animal teeth, descriptions and simple questions.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0050_what-type-of-teeth.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9653&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© School of Education and Development (Ukzn) and African Storybook Initiative 2007",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9653&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-tell-me-now-colours",
+      "legacy_id": 800355,
+      "chapter_legacy_id": 800355,
+      "parallel_id": "asp_0355",
+      "filename": "0355_tell-me.now-colours.md",
+      "title": "Tell me...now! Colours",
+      "author": "Madhav Chavan",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/colours-0",
+      "source_sha256": "289975fbcca89896d63370d5ab0e5f573279139bd552f02a6790a914b806e3bc",
+      "paragraph_count": 12,
+      "word_count": 65,
+      "practice_band": "starter",
+      "practice_note": "Questions and answers about colours in everyday life.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0355_tell-me.now-colours.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=1927&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Pratham Books 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=1927&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-soccer-game",
+      "legacy_id": 800058,
+      "chapter_legacy_id": 800058,
+      "parallel_id": "asp_0058",
+      "filename": "0058_soccer-game.md",
+      "title": "Soccer game",
+      "author": "Letta Machoga",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/soccer-game",
+      "source_sha256": "e1bdc56191c5330b635dfbe1d297afd373d8d548f1d0093b8227a8272ef82726",
+      "paragraph_count": 8,
+      "word_count": 67,
+      "practice_band": "starter",
+      "practice_note": "A soccer coach has a surprise for the team.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0058_soccer-game.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9825&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative and Molteno Institute 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9825&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-lekishon-and-the-cows",
+      "legacy_id": 800109,
+      "chapter_legacy_id": 800109,
+      "parallel_id": "asp_0109",
+      "filename": "0109_lekishon-and-the-cows.md",
+      "title": "Lekishon and the cows",
+      "author": "Paul Maseri",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/lekishon-and-cows",
+      "source_sha256": "b1ebee3997022ee94f0eaca106791d9f42ddd81c9c95449f838a6b75db5f7c5b",
+      "paragraph_count": 8,
+      "word_count": 67,
+      "practice_band": "starter",
+      "practice_note": "A boy searches for his cows and returns home.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0109_lekishon-and-the-cows.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=12603&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=12603&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-disability-is-not-inability",
+      "legacy_id": 800160,
+      "chapter_legacy_id": 800160,
+      "parallel_id": "asp_0160",
+      "filename": "0160_disability-is-not-inability.md",
+      "title": "Disability is Not Inability",
+      "author": "Agnes Mabururu",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/disability-not-inability",
+      "source_sha256": "683a91b723ab0ca7b6e017c675de2c3b2e4ddbfc15e6448daf1453ca283756aa",
+      "paragraph_count": 8,
+      "word_count": 68,
+      "practice_band": "starter",
+      "practice_note": "Short descriptions of people and the things they can do.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0160_disability-is-not-inability.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10416&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10416&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-our-day-zoo",
+      "legacy_id": 800245,
+      "chapter_legacy_id": 800245,
+      "parallel_id": "asp_0245",
+      "filename": "0245_our-day-zoo.md",
+      "title": "Our day at the zoo",
+      "author": "Zimbili Dlamini, Hlengiwe Zondi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/our-day-zoo",
+      "source_sha256": "1c304bb39b5725774aa37aa8ce346cc034d281aaf031448152a682967da49e49",
+      "paragraph_count": 12,
+      "word_count": 70,
+      "practice_band": "starter",
+      "practice_note": "A family visits the zoo in a simple sequence of events.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0245_our-day-zoo.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=14186&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative and Molteno Institute 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=14186&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-red-ball",
+      "legacy_id": 800143,
+      "chapter_legacy_id": 800143,
+      "parallel_id": "asp_0143",
+      "filename": "0143_my-red-ball.md",
+      "title": "My red ball",
+      "author": "Marion Drew",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/my-red-ball",
+      "source_sha256": "09f3d89eb7b2bd697ed49ea7fa879192104f1258c37f3c400b6c564767de5014",
+      "paragraph_count": 16,
+      "word_count": 72,
+      "practice_band": "starter",
+      "practice_note": "Repeated words build longer sentences about a red ball.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0143_my-red-ball.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=13308&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Artwork: African Storybook Initiative; Text: Khothatso Ranoosi and Marion Drew 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=13308&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-friendship-between-hyena-and-hare",
+      "legacy_id": 800117,
+      "chapter_legacy_id": 800117,
+      "parallel_id": "asp_0117",
+      "filename": "0117_friendship-between-hyena-and-hare.md",
+      "title": "Friendship between Hyena and Hare",
+      "author": "Adapted Aesop's Fable",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/friendship-between-hyena-and-hare",
+      "source_sha256": "775f840dd3ef83cacefeccf7b7f6c2b80fd7753159c89802d6422c6ba07ca9ed",
+      "paragraph_count": 7,
+      "word_count": 73,
+      "practice_band": "starter",
+      "practice_note": "A short animal fable explores what it means to be a friend.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0117_friendship-between-hyena-and-hare.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10563&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10563&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-teacher",
+      "legacy_id": 800217,
+      "chapter_legacy_id": 800217,
+      "parallel_id": "asp_0217",
+      "filename": "0217_my-teacher.md",
+      "title": "My teacher",
+      "author": "Zimbili Dlamini, Hlengiwe Zondi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/my-teacher",
+      "source_sha256": "1b9cfb357648ac31d3ecf4fd20ff659dcb9dbee6b0dfb342e71c5743e079b772",
+      "paragraph_count": 8,
+      "word_count": 73,
+      "practice_band": "starter",
+      "practice_note": "A child describes and admires her teacher.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0217_my-teacher.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8507&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8507&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-what-is-wrong-child",
+      "legacy_id": 800152,
+      "chapter_legacy_id": 800152,
+      "parallel_id": "asp_0152",
+      "filename": "0152_what-is-wrong-child.md",
+      "title": "What is wrong child?",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/what-wrong-child-mtoto-shida-ni-nini",
+      "source_sha256": "86d1186c3053595750e05991f2c9dca65f219383778e512506060e36360b753a",
+      "paragraph_count": 8,
+      "word_count": 74,
+      "practice_band": "starter",
+      "practice_note": "Repeated past-tense sentences about a crying baby.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0152_what-is-wrong-child.md",
+      "verification_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0152_what-is-wrong-child.md"
+    },
+    {
+      "slug": "asp-serious-accident",
+      "legacy_id": 800285,
+      "chapter_legacy_id": 800285,
+      "parallel_id": "asp_0285",
+      "filename": "0285_serious-accident.md",
+      "title": "Serious accident",
+      "author": "Zanele Buthelezi, Thembani Dladla, Clare Verbeek",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/serious-accident",
+      "source_sha256": "fd9e14a0131388adc8c67f7671d6a20ba4fd2c94fd8c206fb4421be325c07b00",
+      "paragraph_count": 8,
+      "word_count": 75,
+      "practice_band": "starter",
+      "practice_note": "A short road-safety story about a traffic accident.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0285_serious-accident.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9672&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© School of Education and Development (Ukzn) and African Storybook Initiative 2007",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9672&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-the-chase",
+      "legacy_id": 800175,
+      "chapter_legacy_id": 800175,
+      "parallel_id": "asp_0175",
+      "filename": "0175_the-chase.md",
+      "title": "The Chase",
+      "author": "Masika Grace, Sara Saunders",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/chase",
+      "source_sha256": "350bcb9d77dbb231aa9b3c7daa925edc3406d12ec612939202604100b82c19b1",
+      "paragraph_count": 5,
+      "word_count": 102,
+      "practice_band": "easy",
+      "practice_note": "A chain of animals chases one another.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0175_the-chase.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11684&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Masika Grace 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11684&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-cow-with-one-horn",
+      "legacy_id": 800159,
+      "chapter_legacy_id": 800159,
+      "parallel_id": "asp_0159",
+      "filename": "0159_cow-with-one-horn.md",
+      "title": "Cow with one horn",
+      "author": "Sebongile Daniel, Mpho Ntlhanngoe, Khothatso Ranoosi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/cow-one-horn",
+      "source_sha256": "490e1dce1efdd046c155a0fd4c6d88e1cf4f4a4b8cd1350b073af4c058443b43",
+      "paragraph_count": 8,
+      "word_count": 104,
+      "practice_band": "easy",
+      "practice_note": "Describing a distinctive cow and its behaviour.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0159_cow-with-one-horn.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9622&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9622&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-who-is-big",
+      "legacy_id": 800174,
+      "chapter_legacy_id": 800174,
+      "parallel_id": "asp_0174",
+      "filename": "0174_who-is-big.md",
+      "title": "Who is Big?",
+      "author": "Sara Saunders",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/who-big",
+      "source_sha256": "8b2d475ca78ff15a4482edb692f2d03d04babd0d673a6c3fa78c4db6e6d193fb",
+      "paragraph_count": 7,
+      "word_count": 104,
+      "practice_band": "easy",
+      "practice_note": "Animals compare their size with one another and the sky.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0174_who-is-big.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11703&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Sara Saunders (Text) 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11703&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-dembe-the-shopkeeper",
+      "legacy_id": 800021,
+      "chapter_legacy_id": 800021,
+      "parallel_id": "asp_0021",
+      "filename": "0021_dembe-the-shopkeeper.md",
+      "title": "Dembe the shopkeeper",
+      "author": "Annet Ssebaggala",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/dembe-shopkeeper",
+      "source_sha256": "7c64f3185af73568d300c1ee05ee19982d08e76e921c97c9f9a7585324d3349e",
+      "paragraph_count": 9,
+      "word_count": 110,
+      "practice_band": "easy",
+      "practice_note": "A family runs a shop and serves its village.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0021_dembe-the-shopkeeper.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11466&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11466&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-mother-planted",
+      "legacy_id": 800188,
+      "chapter_legacy_id": 800188,
+      "parallel_id": "asp_0188",
+      "filename": "0188_my-mother-planted.md",
+      "title": "My mother planted",
+      "author": "Tom Sabwa",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/my-mother-planted-0",
+      "source_sha256": "5c6e627dad3eddc2c8ae1c6d754f880bbadc80f7e55c48eef086e53e3c12ff3f",
+      "paragraph_count": 8,
+      "word_count": 110,
+      "practice_band": "easy",
+      "practice_note": "Repeated sentences about planting and tending gardens.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0188_my-mother-planted.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9034&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Text: Ugandan Community Libraries Association (Ugcla) Artwork: African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9034&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-hamisis-lucky-day",
+      "legacy_id": 800136,
+      "chapter_legacy_id": 800136,
+      "parallel_id": "asp_0136",
+      "filename": "0136_hamisis-lucky-day.md",
+      "title": "Hamisi's lucky day",
+      "author": "Adelheid Marie Bwire",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/hamisis-lucky-day",
+      "source_sha256": "1669f98f9553c70012c13680b46b44921dc93a46fa7e0f5007ad57383fd79cc4",
+      "paragraph_count": 8,
+      "word_count": 111,
+      "practice_band": "easy",
+      "practice_note": "A boy hopes to buy a special shirt at the market.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0136_hamisis-lucky-day.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11990&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative and Molteno Institute 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11990&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-father-and-son",
+      "legacy_id": 800011,
+      "chapter_legacy_id": 800011,
+      "parallel_id": "asp_0011",
+      "filename": "0011_father-and-son.md",
+      "title": "Father and son",
+      "author": "Frista Nattabira",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/father-and-son",
+      "source_sha256": "02036a6082802e7d1598dfc8dd2a0cfe2225fb481a7fcfb20b70f3cd05f4e79c",
+      "paragraph_count": 8,
+      "word_count": 112,
+      "practice_band": "easy",
+      "practice_note": "A father and son find a surprising suitcase.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0011_father-and-son.md",
+      "verification_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0011_father-and-son.md"
+    },
+    {
+      "slug": "asp-colours-of-a-rainbow",
+      "legacy_id": 800257,
+      "chapter_legacy_id": 800257,
+      "parallel_id": "asp_0257",
+      "filename": "0257_colours-of-a-rainbow.md",
+      "title": "Colours of a rainbow",
+      "author": "Caren Echesa",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/colours-rainbow",
+      "source_sha256": "f842be596aa80a88fbc245556a84ec8e10ce3c1cfb545ee8130e333641162ecd",
+      "paragraph_count": 16,
+      "word_count": 115,
+      "practice_band": "easy",
+      "practice_note": "Seven rainbow colours and familiar objects.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0257_colours-of-a-rainbow.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10463&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10463&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-bunty-and-bubbly",
+      "legacy_id": 800266,
+      "chapter_legacy_id": 800266,
+      "parallel_id": "asp_0266",
+      "filename": "0266_bunty-and-bubbly.md",
+      "title": "Bunty and Bubbly",
+      "author": "Sorit Gupto",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/bunty-and-bubbly",
+      "source_sha256": "0476ce9b13bc40aff8fb5039fc05d9576185499889973dea38499c7bfba4b498",
+      "paragraph_count": 11,
+      "word_count": 118,
+      "practice_band": "easy",
+      "practice_note": "A playful dream helps a child learn to wash with soap.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0266_bunty-and-bubbly.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=913&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Pratham Books 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=913&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-soccer-skills",
+      "legacy_id": 800269,
+      "chapter_legacy_id": 800269,
+      "parallel_id": "asp_0269",
+      "filename": "0269_soccer-skills.md",
+      "title": "Soccer skills",
+      "author": "Joseph Ejoyi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/soccer-skills",
+      "source_sha256": "6bbb8f213b9b24c3420095d8c9f156c1ddd067efaec04847f77c1ffa31d2b5c7",
+      "paragraph_count": 10,
+      "word_count": 118,
+      "practice_band": "easy",
+      "practice_note": "Action words describe different soccer skills.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0269_soccer-skills.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=32408&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiave 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=32408&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-girl-called-norah",
+      "legacy_id": 800014,
+      "chapter_legacy_id": 800014,
+      "parallel_id": "asp_0014",
+      "filename": "0014_girl-called-norah.md",
+      "title": "Girl called Norah",
+      "author": "Annet Ssebaggala",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/girl-called-norah-0",
+      "source_sha256": "76d7f3997359bb0643062f02fcc3dd6cda42a2acf6ef14b8a5b57a13f683f237",
+      "paragraph_count": 8,
+      "word_count": 119,
+      "practice_band": "easy",
+      "practice_note": "A child searches for her missing doll.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0014_girl-called-norah.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9797&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9797&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-wind",
+      "legacy_id": 800035,
+      "chapter_legacy_id": 800035,
+      "parallel_id": "asp_0035",
+      "filename": "0035_wind.md",
+      "title": "Wind",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/wind",
+      "source_sha256": "b3e1a2f25c9af71c41755815acda3d278f1f28ba42296f89ec05f0cc0ec48f2c",
+      "paragraph_count": 11,
+      "word_count": 128,
+      "practice_band": "easy",
+      "practice_note": "A child and a kite are caught in an imaginative wind story.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0035_wind.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=15055&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=15055&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-our-river-our-life",
+      "legacy_id": 800071,
+      "chapter_legacy_id": 800071,
+      "parallel_id": "asp_0071",
+      "filename": "0071_our-river-our-life.md",
+      "title": "Our river, our life",
+      "author": "Rebecca Njuguna",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/river-temu",
+      "source_sha256": "84408086eb7829fae97048b6b0224cca1e8256b9662a4d3c301c4987ddd14e8a",
+      "paragraph_count": 7,
+      "word_count": 130,
+      "practice_band": "easy",
+      "practice_note": "A village learns to care for its river and trees.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0071_our-river-our-life.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10561&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10561&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-punishment",
+      "legacy_id": 800342,
+      "chapter_legacy_id": 800342,
+      "parallel_id": "asp_0342",
+      "filename": "0342_punishment.md",
+      "title": "Punishment",
+      "author": "Adelheid Marie Bwire",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/punishment",
+      "source_sha256": "09250e771c10a4dd548e9a99427e0a1835b1439e9241e679895abe26dc922d7b",
+      "paragraph_count": 12,
+      "word_count": 131,
+      "practice_band": "easy",
+      "practice_note": "A child eats too much fruit and learns about sharing.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0342_punishment.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11989&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative and Molteno Institute 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11989&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-clever-cat",
+      "legacy_id": 800056,
+      "chapter_legacy_id": 800056,
+      "parallel_id": "asp_0056",
+      "filename": "0056_clever-cat.md",
+      "title": "Clever cat",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/clever-cat",
+      "source_sha256": "f049130ad5fb9e58509d29c2cf3e7832f6d5c1e1a72fa7d35dd731df35c78b2e",
+      "paragraph_count": 12,
+      "word_count": 138,
+      "practice_band": "easy",
+      "practice_note": "A clever cat guards a house and welcomes her owner home.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0056_clever-cat.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8878&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8878&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-ms-phone",
+      "legacy_id": 800105,
+      "chapter_legacy_id": 800105,
+      "parallel_id": "asp_0105",
+      "filename": "0105_ms-phone.md",
+      "title": "Ms Phone",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/ms-phone",
+      "source_sha256": "756ef46c54a93f901d51857f3ff9f8ffe7b458a84e1d8905240ed85bfef01718",
+      "paragraph_count": 12,
+      "word_count": 140,
+      "practice_band": "easy",
+      "practice_note": "Five coloured phones connect a woman with her community.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0105_ms-phone.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=14420&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=14420&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-the-moon-and-the-cap",
+      "legacy_id": 800149,
+      "chapter_legacy_id": 800149,
+      "parallel_id": "asp_0149",
+      "filename": "0149_the-moon-and-the-cap.md",
+      "title": "The Moon and the Cap",
+      "author": "Noni",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/moon-and-cap",
+      "source_sha256": "cdf07ff7d15aac3dea903cea70b5586896c857aeb7195b4846b2920d5c4567d1",
+      "paragraph_count": 11,
+      "word_count": 143,
+      "practice_band": "easy",
+      "practice_note": "A lost cap becomes part of a gentle story about the moon.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0149_the-moon-and-the-cap.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2154&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Pratham Books 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2154&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-rabbit-goes-to-a-party",
+      "legacy_id": 800233,
+      "chapter_legacy_id": 800233,
+      "parallel_id": "asp_0233",
+      "filename": "0233_rabbit-goes-to-a-party.md",
+      "title": "Rabbit Goes to a Party",
+      "author": "Mozambican folktale",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/rabbit-goes-party",
+      "source_sha256": "77feef93fb1cb19ef0034387340d7894c8b01dfd531fa7611ed164eb67aea0a1",
+      "paragraph_count": 7,
+      "word_count": 146,
+      "practice_band": "easy",
+      "practice_note": "A rabbit borrows horns to join an animal party in a short folktale.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0233_rabbit-goes-to-a-party.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10110&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Mozambican Writers 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10110&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-rainbow-visits-the-village",
+      "legacy_id": 800096,
+      "chapter_legacy_id": 800096,
+      "parallel_id": "asp_0096",
+      "filename": "0096_rainbow-visits-the-village.md",
+      "title": "Rainbow visits the village",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/day-we-saw-rainbow",
+      "source_sha256": "f5f1cb34013d01bf2189017d3222f55c9671d667d00de593e8c7b17a18ebffe2",
+      "paragraph_count": 12,
+      "word_count": 151,
+      "practice_band": "easy",
+      "practice_note": "Villagers discuss a rainbow they have never seen before.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0096_rainbow-visits-the-village.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11142&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11142&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-rats",
+      "legacy_id": 800153,
+      "chapter_legacy_id": 800153,
+      "parallel_id": "asp_0153",
+      "filename": "0153_rats.md",
+      "title": "Rats!",
+      "author": "Lourenço Magaia Sabão",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/rats",
+      "source_sha256": "a9825ad3991cc22b0a58d559faa3828b0a7baa1703b4599b7f05011b2e55beca",
+      "paragraph_count": 9,
+      "word_count": 158,
+      "practice_band": "easy",
+      "practice_note": "Rats work together to solve a problem with narrow bottles.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0153_rats.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10474&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Little Zebra Books 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10474&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-hungry-jackal-and-the-sour-grapes",
+      "legacy_id": 800042,
+      "chapter_legacy_id": 800042,
+      "parallel_id": "asp_0042",
+      "filename": "0042_hungry-jackal-and-the-sour-grapes.md",
+      "title": "Hungry jackal and the sour grapes",
+      "author": "Kholeka Mabeta",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/hungry-jackal-and-sour-grapes",
+      "source_sha256": "5573835671c79cfc0bba3e801a98f9eda6f37ac0bf4e21704db061eedc87bb8a",
+      "paragraph_count": 8,
+      "word_count": 164,
+      "practice_band": "easy",
+      "practice_note": "A hungry jackal tries to reach grapes in a familiar fable.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0042_hungry-jackal-and-the-sour-grapes.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2104&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2104&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-sunday-at-the-park",
+      "legacy_id": 800181,
+      "chapter_legacy_id": 800181,
+      "parallel_id": "asp_0181",
+      "filename": "0181_sunday-at-the-park.md",
+      "title": "Sunday at the park",
+      "author": "Neo",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/sunday-park",
+      "source_sha256": "50872cb939e4cb57f963c537729d14776b3359821b162e928fb40926aa3920b4",
+      "paragraph_count": 10,
+      "word_count": 168,
+      "practice_band": "easy",
+      "practice_note": "A family visits a seaside park, its playground and lighthouse.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0181_sunday-at-the-park.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=11031&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Neo 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=11031&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-why-is-yayeri-great",
+      "legacy_id": 800018,
+      "chapter_legacy_id": 800018,
+      "parallel_id": "asp_0018",
+      "filename": "0018_why-is-yayeri-great.md",
+      "title": "Why is Yayeri great?",
+      "author": "Michael Oguttu",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/why-yayeri-great",
+      "source_sha256": "9a504e360608c84661100d5d6e23e3763017e1cc2dc62b6cf82d8203d4bdfb2a",
+      "paragraph_count": 12,
+      "word_count": 169,
+      "practice_band": "easy",
+      "practice_note": "Repeated questions describe a child's morning and school day.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0018_why-is-yayeri-great.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=7588&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Text: Uganda Community Libraries Association (Ugcla) Artwork: African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=7588&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-teacher-akinyi",
+      "legacy_id": 800283,
+      "chapter_legacy_id": 800283,
+      "parallel_id": "asp_0283",
+      "filename": "0283_teacher-akinyi.md",
+      "title": "Teacher Akinyi",
+      "author": "Lawrence A. Konjuro",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/teacher-akinyi-0",
+      "source_sha256": "24685f737086d4f4df314b8a495ec02b832868760f47e97cd7627996b8f50272",
+      "paragraph_count": 12,
+      "word_count": 177,
+      "practice_band": "easy",
+      "practice_note": "School subjects, days of the week and a much-loved teacher.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0283_teacher-akinyi.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9700&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9700&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-keeper-and-his-special-nursery",
+      "legacy_id": 800220,
+      "chapter_legacy_id": 800220,
+      "parallel_id": "asp_0220",
+      "filename": "0220_keeper-and-his-special-nursery.md",
+      "title": "Keeper and His Special Nursery",
+      "author": "Ursula Nafula, Nina Orange",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/keeper-and-his-special-nursery-0",
+      "source_sha256": "a6b6c5e70798714de3ca1cec799f27d9eeedfc40a424619f351b224eb21e51f3",
+      "paragraph_count": 12,
+      "word_count": 183,
+      "practice_band": "easy",
+      "practice_note": "People care for orphaned animals at a wildlife nursery.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0220_keeper-and-his-special-nursery.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=13640&bt=2&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=13640&bt=2&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-locusts",
+      "legacy_id": 800137,
+      "chapter_legacy_id": 800137,
+      "parallel_id": "asp_0137",
+      "filename": "0137_locusts.md",
+      "title": "Locusts",
+      "author": "Mary Okere",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/locusts",
+      "source_sha256": "714dfcf560adbcea4e5fb98898873e27cad34c63c25a312d6d01a92ea41aca25",
+      "paragraph_count": 12,
+      "word_count": 185,
+      "practice_band": "easy",
+      "practice_note": "A village faces a swarm of locusts and a damaged harvest.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0137_locusts.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=13455&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=13455&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-the-man-and-the-lion",
+      "legacy_id": 800361,
+      "chapter_legacy_id": 800361,
+      "parallel_id": "asp_0361",
+      "filename": "0361_the-man-and-the-lion.md",
+      "title": "The Man and the Lion",
+      "author": "Mozambican folktale",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/man-and-lion",
+      "source_sha256": "7a349f0cc6557f55cc2b125df2d7b6e5422b815c8e919eadf302625861be24c5",
+      "paragraph_count": 11,
+      "word_count": 185,
+      "practice_band": "easy",
+      "practice_note": "A man and a lion surprise each other in a humorous folktale.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0361_the-man-and-the-lion.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8205&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Mozambican Folktale 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8205&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-dog-and-crocodile",
+      "legacy_id": 800197,
+      "chapter_legacy_id": 800197,
+      "parallel_id": "asp_0197",
+      "filename": "0197_dog-and-crocodile.md",
+      "title": "Dog and Crocodile",
+      "author": "Candiru Enzikuru Mary",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/dog-and-crocodile",
+      "source_sha256": "ef8c910f1670d1757f2e9e31270f30df0812c22b83317184c361ae165e4d9138",
+      "paragraph_count": 12,
+      "word_count": 188,
+      "practice_band": "easy",
+      "practice_note": "Dog looks after eggs that belong to Crocodile.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0197_dog-and-crocodile.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=17572&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2016",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=17572&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-the-day-the-sun-went-away",
+      "legacy_id": 800216,
+      "chapter_legacy_id": 800216,
+      "parallel_id": "asp_0216",
+      "filename": "0216_the_day-the-sun-went-away.md",
+      "title": "The day the sun went away",
+      "author": "Khothatso Ranoosi, Marion Drew",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/day-sun-went-away",
+      "source_sha256": "3ecb042049c41fc1d589769298a35af94ec0ebcde58de5a9c3c67515bc561fb8",
+      "paragraph_count": 12,
+      "word_count": 189,
+      "practice_band": "easy",
+      "practice_note": "Weather and seasons become characters in an imaginative story.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0216_the_day-the-sun-went-away.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=14771&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=14771&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-little-dog",
+      "legacy_id": 800177,
+      "chapter_legacy_id": 800177,
+      "parallel_id": "asp_0177",
+      "filename": "0177_little-dog.md",
+      "title": "Little Dog",
+      "author": "Val Morris",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/little-dog",
+      "source_sha256": "bc8631d03911a619245ee59149bd3ed5734cdce0f1055f4c0cb7f41ed2adf6e0",
+      "paragraph_count": 9,
+      "word_count": 191,
+      "practice_band": "easy",
+      "practice_note": "Two friends play with a ball and share a picture book.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0177_little-dog.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2387&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Books In Homes 2013",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2387&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-the-sick-hyena",
+      "legacy_id": 800024,
+      "chapter_legacy_id": 800024,
+      "parallel_id": "asp_0024",
+      "filename": "0024_the-sick-hyena.md",
+      "title": "The Sick Hyena",
+      "author": "Mozambican folktale",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/sick-hyena",
+      "source_sha256": "af3edfe74022a94476ea3cb63138bfd9ff3cdd61739260e5042de006ef2ccdcd",
+      "paragraph_count": 10,
+      "word_count": 222,
+      "practice_band": "developing",
+      "practice_note": "A rabbit uses observation to avoid a dangerous trap.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0024_the-sick-hyena.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8393&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Mozambican Writers 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8393&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-sleepy-mr-sloth",
+      "legacy_id": 800232,
+      "chapter_legacy_id": 800232,
+      "parallel_id": "asp_0232",
+      "filename": "0232_sleepy-mr-sloth.md",
+      "title": "Sleepy Mr. Sloth",
+      "author": "Paul Kennedy",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/sleepy-mr-sloth",
+      "source_sha256": "a9986feb56dab05c3e07fb3a45854059a6e1428f8d0eeda9f52f8bc10d6a7f4d",
+      "paragraph_count": 12,
+      "word_count": 222,
+      "practice_band": "developing",
+      "practice_note": "A sleepy sloth searches for a comfortable branch.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0232_sleepy-mr-sloth.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9039&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Paul Kennedy, Graham Peterson, Nick Mulgrew, and Bookdash.org 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9039&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-hare-trickster",
+      "legacy_id": 800189,
+      "chapter_legacy_id": 800189,
+      "parallel_id": "asp_0189",
+      "filename": "0189_hare-trickster.md",
+      "title": "Hare the trickster",
+      "author": "Dan Kaasha",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/hare-trickster",
+      "source_sha256": "df3c97b4a6fc6113f8af1c20c55d1b3a2138de83b23b957122627ade074e7e35",
+      "paragraph_count": 16,
+      "word_count": 237,
+      "practice_band": "developing",
+      "practice_note": "A trickster hare challenges two large animals to a contest.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0189_hare-trickster.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=17453&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2016",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=17453&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-the-clever-jackal-and-the-foolish-crow",
+      "legacy_id": 800045,
+      "chapter_legacy_id": 800045,
+      "parallel_id": "asp_0045",
+      "filename": "0045_the-clever-jackal-and-the-foolish-crow.md",
+      "title": "The clever jackal and the foolish crow",
+      "author": "Kholeka Mabeta",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/clever-jackal-and-foolish-crow",
+      "source_sha256": "0c6da681c5736b1dbe7657b5ee41cee38d2896f895a521cdf3d5c66906c35c59",
+      "paragraph_count": 8,
+      "word_count": 246,
+      "practice_band": "developing",
+      "practice_note": "A jackal uses flattery to steal a crow's cheese.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0045_the-clever-jackal-and-the-foolish-crow.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2205&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2205&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-fox-and-rooster",
+      "legacy_id": 800314,
+      "chapter_legacy_id": 800314,
+      "parallel_id": "asp_0314",
+      "filename": "0314_fox-and-rooster.md",
+      "title": "Fox and Rooster",
+      "author": "Vincent Afeku",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/what-do-you-0",
+      "source_sha256": "b2ee96ae3dca4a5de98c209aabb464cc131c8de0772ee4019f3918ab7ee082cd",
+      "paragraph_count": 12,
+      "word_count": 246,
+      "practice_band": "developing",
+      "practice_note": "Animals discover the truth about their rooster king.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0314_fox-and-rooster.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=14792&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=14792&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-ah-football",
+      "legacy_id": 800065,
+      "chapter_legacy_id": 800065,
+      "parallel_id": "asp_0065",
+      "filename": "0065_ah-football.md",
+      "title": "Ah! Football!",
+      "author": "Stella Kihweo",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/ah-football",
+      "source_sha256": "66ec7f96bbdb42831cf363d7bd590aa3796418fe28555229ebac50fb0e62da65",
+      "paragraph_count": 16,
+      "word_count": 253,
+      "practice_band": "developing",
+      "practice_note": "A football game distracts two friends from an errand.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0065_ah-football.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=12926&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=12926&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-friends-become-enemies",
+      "legacy_id": 800351,
+      "chapter_legacy_id": 800351,
+      "parallel_id": "asp_0351",
+      "filename": "0351_friends-become-enemies.md",
+      "title": "Friends become enemies",
+      "author": "Kennedy Amandu",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/friends-become-enemies",
+      "source_sha256": "c7c265d7c8ead4916470cf2cf443ebf31f5d73f1e762e07326829d5d00c1664f",
+      "paragraph_count": 10,
+      "word_count": 264,
+      "practice_band": "developing",
+      "practice_note": "Two farming friends fall out when one steals from the other.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0351_friends-become-enemies.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=12169&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=12169&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-chicken-and-millipede",
+      "legacy_id": 800141,
+      "chapter_legacy_id": 800141,
+      "parallel_id": "asp_0141",
+      "filename": "0141_chicken-and-millipede.md",
+      "title": "Chicken and Millipede",
+      "author": "Winny Asara",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/chicken-and-millipede",
+      "source_sha256": "d0cff1f6dded6dae3e2ef6c7c73a4aeb9f1a15a825293b033b4d7cb7f796e738",
+      "paragraph_count": 12,
+      "word_count": 268,
+      "practice_band": "developing",
+      "practice_note": "Two small animals compete at football and become enemies.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0141_chicken-and-millipede.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9094&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9094&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-greedy-kiundu",
+      "legacy_id": 800304,
+      "chapter_legacy_id": 800304,
+      "parallel_id": "asp_0304",
+      "filename": "0304_greedy-kiundu.md",
+      "title": "Greedy Kiundu",
+      "author": "Mutugi Kamundi",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/greedy-kiundu",
+      "source_sha256": "fb0f744d7e63ff7b578ff258474b24aa38ea3b7cf2e0c0165970494bca901aa7",
+      "paragraph_count": 12,
+      "word_count": 280,
+      "practice_band": "developing",
+      "practice_note": "A greedy wedding guest misses the food at two celebrations.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0304_greedy-kiundu.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9133&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9133&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-letter-to-mum",
+      "legacy_id": 800013,
+      "chapter_legacy_id": 800013,
+      "parallel_id": "asp_0013",
+      "filename": "0013_letter-to-mum.md",
+      "title": "Letter to mum",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/letter-mum",
+      "source_sha256": "20fb713a6dc608a4fb65f39f015ee3b9a38001cf71e3678746c6f1f745d969ef",
+      "paragraph_count": 18,
+      "word_count": 285,
+      "practice_band": "developing",
+      "practice_note": "A child writes a letter while waiting for a new baby.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0013_letter-to-mum.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2134&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2134&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-kekes-swing",
+      "legacy_id": 800161,
+      "chapter_legacy_id": 800161,
+      "parallel_id": "asp_0161",
+      "filename": "0161_kekes-swing.md",
+      "title": "Keke's swing",
+      "author": "Marion Drew, Khothatso Ranoosi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/kekes-swing",
+      "source_sha256": "d4eaf3bbb7cd14404255769e923a3ddbd819d00ef6358ab50fea9a808786b21f",
+      "paragraph_count": 12,
+      "word_count": 285,
+      "practice_band": "developing",
+      "practice_note": "A child needs help after going too high on a swing.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0161_kekes-swing.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9792&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9792&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-nanus-taxi",
+      "legacy_id": 800362,
+      "chapter_legacy_id": 800362,
+      "parallel_id": "asp_0362",
+      "filename": "0362_nanus-taxi.md",
+      "title": "Nanu's taxi",
+      "author": "Marion Drew",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/nanu%E2%80%99s-taxi",
+      "source_sha256": "5f0f8d7379b7a769cfd3597ce16e6c52553337aee97eb6a9d2a42360ab38e73b",
+      "paragraph_count": 16,
+      "word_count": 298,
+      "practice_band": "developing",
+      "practice_note": "A child describes the people waiting for a taxi home.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0362_nanus-taxi.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=7590&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Marion Drew 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=7590&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-khayanga-and-her-gourd",
+      "legacy_id": 800345,
+      "chapter_legacy_id": 800345,
+      "parallel_id": "asp_0345",
+      "filename": "0345_khayanga-and-her-gourd.md",
+      "title": "Khayanga and her Gourd",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/khayanga-and-her-gourd",
+      "source_sha256": "d200f564188dad28b35a5071d5e312579d13f80890bfaf49e83713ed35e95b45",
+      "paragraph_count": 11,
+      "word_count": 303,
+      "practice_band": "developing",
+      "practice_note": "A magical gourd comforts a girl who misses her parents.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0345_khayanga-and-her-gourd.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2107&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2107&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-first-man-and-first-woman",
+      "legacy_id": 800039,
+      "chapter_legacy_id": 800039,
+      "parallel_id": "asp_0039",
+      "filename": "0039_first-man-and-first-woman.md",
+      "title": "First man and first woman",
+      "author": "Southern African Folktale",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/first-man-and-first-woman",
+      "source_sha256": "6563a8ef6624d19e6cf4140d1950e79968a9b4a7429accc983d11531c89d1c4d",
+      "paragraph_count": 10,
+      "word_count": 304,
+      "practice_band": "developing",
+      "practice_note": "A creation folktale about the first people and the natural world.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0039_first-man-and-first-woman.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2185&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2185&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-first-pair-of-shoes",
+      "legacy_id": 800256,
+      "chapter_legacy_id": 800256,
+      "parallel_id": "asp_0256",
+      "filename": "0256_my-first-pair-of-shoes.md",
+      "title": "My first pair of shoes",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/my-first-pair-shoes-0",
+      "source_sha256": "2c6d6a8c2fa8ddcaed061bee6cd303b5dae133aa2c54520bf0921e53aab74e0a",
+      "paragraph_count": 12,
+      "word_count": 318,
+      "practice_band": "developing",
+      "practice_note": "A child's excitement about a first pair of shoes.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0256_my-first-pair-of-shoes.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=10446&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=10446&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-big-blue-bus",
+      "legacy_id": 800276,
+      "chapter_legacy_id": 800276,
+      "parallel_id": "asp_0276",
+      "filename": "0276_big-blue-bus.md",
+      "title": "Big blue bus",
+      "author": "Mecelin Kakoro",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/big-blue-bus",
+      "source_sha256": "7fd63696c9dec129b57d3f8c35fb81ccb3eb1d3193fa2912b787a30f6edbde36",
+      "paragraph_count": 16,
+      "word_count": 321,
+      "practice_band": "developing",
+      "practice_note": "A child waits for a bus to town to buy a school uniform.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0276_big-blue-bus.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=12083&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=12083&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-amazing-daisy",
+      "legacy_id": 800200,
+      "chapter_legacy_id": 800200,
+      "parallel_id": "asp_0200",
+      "filename": "0200_amazing-daisy.md",
+      "title": "Amazing Daisy",
+      "author": "Nozizwe Herero",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/amazing-daisy",
+      "source_sha256": "5197adc01a3c3315335ac85b54477cfb7dfbe8875835e8f852c3695f4318e3c5",
+      "paragraph_count": 20,
+      "word_count": 332,
+      "practice_band": "developing",
+      "practice_note": "A determined chicken practises until she learns to fly.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0200_amazing-daisy.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=15321&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Nozizwe Herero, Siya Masuku, Leona Ingram, Book Dash 2015",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=15321&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-friend-coco",
+      "legacy_id": 800016,
+      "chapter_legacy_id": 800016,
+      "parallel_id": "asp_0016",
+      "filename": "0016_my-friend-coco.md",
+      "title": "My friend Coco",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/my-friend-coco",
+      "source_sha256": "807f64b9c86e2777cd35b0505782bbe19adc7405b6459be745c8398970f3767b",
+      "paragraph_count": 11,
+      "word_count": 338,
+      "practice_band": "developing",
+      "practice_note": "A child learns what makes his puppy happy.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0016_my-friend-coco.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2548&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2548&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-curious-baby-elephant",
+      "legacy_id": 800312,
+      "chapter_legacy_id": 800312,
+      "parallel_id": "asp_0312",
+      "filename": "0312_curious-baby-elephant.md",
+      "title": "Curious Baby Elephant",
+      "author": "Judith Baker",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/curious-baby-elephant",
+      "source_sha256": "e2221124e93b96acc4059d3a90570fc6056436bf95bb0b0a63ba6ad396ed2891",
+      "paragraph_count": 20,
+      "word_count": 341,
+      "practice_band": "developing",
+      "practice_note": "A curious elephant learns how her long trunk can help her.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0312_curious-baby-elephant.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=1881&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=1881&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-akais-special-mat",
+      "legacy_id": 800059,
+      "chapter_legacy_id": 800059,
+      "parallel_id": "asp_0059",
+      "filename": "0059_akais-special-mat.md",
+      "title": "Akai's special mat",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/akais-special-mat",
+      "source_sha256": "47b67f887b6a686adb8f461a8e333c4a5a44bf1deabe91b58a3efbae842a8c50",
+      "paragraph_count": 15,
+      "word_count": 358,
+      "practice_band": "developing",
+      "practice_note": "A folktale about a lost child, a special mat and a safe return home.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0059_akais-special-mat.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=6008&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=6008&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-how-night-came-to-opios-village",
+      "legacy_id": 800185,
+      "chapter_legacy_id": 800185,
+      "parallel_id": "asp_0185",
+      "filename": "0185_how-night-came-to-opios-village.md",
+      "title": "How night came to Opio's village",
+      "author": "Robert Ekuka",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/how-night-came-opio%E2%80%99s-village",
+      "source_sha256": "005c467d697e2b788257d8d4e58289157781e5e76129056628cff7dd7e79fe51",
+      "paragraph_count": 10,
+      "word_count": 399,
+      "practice_band": "developing",
+      "practice_note": "A folktale imagines how a village first learned about night.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0185_how-night-came-to-opios-village.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2102&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2102&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-lazy-anansi",
+      "legacy_id": 800329,
+      "chapter_legacy_id": 800329,
+      "parallel_id": "asp_0329",
+      "filename": "0329_lazy-anansi.md",
+      "title": "Lazy Anansi",
+      "author": "Ghanaian folktale",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/lazy-anansi",
+      "source_sha256": "2741fc442ac23e790471276c8baa9c73be9fb43c276db22aad4a3e9803457a64",
+      "paragraph_count": 8,
+      "word_count": 432,
+      "practice_band": "developing",
+      "practice_note": "Anansi learns a lesson about sharing work and food.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0329_lazy-anansi.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=1077&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=1077&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-hare-and-tortoise-again",
+      "legacy_id": 800092,
+      "chapter_legacy_id": 800092,
+      "parallel_id": "asp_0092",
+      "filename": "0092_hare-and-tortoise-again.md",
+      "title": "Hare and Tortoise (Again!)",
+      "author": "Venkatramana Gowda, Divaspathy Hegde",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/hare-and-tortoise-again",
+      "source_sha256": "adf84ca80149d1609a43acc037167000f9e81f48f885cc2cce889ad3da7439a1",
+      "paragraph_count": 14,
+      "word_count": 461,
+      "practice_band": "longer",
+      "practice_note": "Hare and Tortoise cooperate on a journey in a sequel to the fable.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0092_hare-and-tortoise-again.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2058&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Pratham Books 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2058&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-tortoise-finds-his-house",
+      "legacy_id": 800299,
+      "chapter_legacy_id": 800299,
+      "parallel_id": "asp_0299",
+      "filename": "0299_tortoise-finds-his-house.md",
+      "title": "Tortoise finds his house",
+      "author": "Maya Fowler",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/tortoise-finds-his-house",
+      "source_sha256": "64c40fee410c0224a101e5587eff700d2cae93700833c03cd46d76de1cb33cc3",
+      "paragraph_count": 15,
+      "word_count": 465,
+      "practice_band": "longer",
+      "practice_note": "Animal friends help Tortoise look for his home.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0299_tortoise-finds-his-house.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=9229&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Katrin Coetzer, Maya Fowler, Damian Gibbs, Bookdash.org and African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=9229&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-singing-the-truth-the-story-of-miriam-makeba",
+      "legacy_id": 800103,
+      "chapter_legacy_id": 800103,
+      "parallel_id": "asp_0103",
+      "filename": "0103_singing-the-truth-the-story-of-miriam-makeba.md",
+      "title": "Singing the Truth: The Story of Miriam Makeba",
+      "author": "Jade Mathieson",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/singing-truth-story-miriam-makeba",
+      "source_sha256": "ca7dfc28f82a6d0bd67f71d91893179e9b6fdc6dfded2aaa4086077a28f5b302",
+      "paragraph_count": 12,
+      "word_count": 469,
+      "practice_band": "longer",
+      "practice_note": "A biography of singer Miriam Makeba, including apartheid and exile.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0103_singing-the-truth-the-story-of-miriam-makeba.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8964&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Louwrisa Blaauw, Jade Mathieson, Bianca De Jong, and Bookdash.org 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8964&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-anansi-and-turtle",
+      "legacy_id": 800005,
+      "chapter_legacy_id": 800005,
+      "parallel_id": "asp_0005",
+      "filename": "0005_anansi-and-turtle.md",
+      "title": "Anansi and Turtle",
+      "author": "Ghanaian folktale",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/anansi-and-turtle",
+      "source_sha256": "bcc9c28c00fefe728d7315fa0ced8811e877c5e8471a7a873e9b9be5dc651705",
+      "paragraph_count": 10,
+      "word_count": 605,
+      "practice_band": "longer",
+      "practice_note": "Anansi and Turtle learn about sharing in a longer folktale.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0005_anansi-and-turtle.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=40170&bt=3&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=40170&bt=3&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-my-first-day-at-the-market",
+      "legacy_id": 800019,
+      "chapter_legacy_id": 800019,
+      "parallel_id": "asp_0019",
+      "filename": "0019_my-first-day-at-the-market.md",
+      "title": "My first day at the market",
+      "author": "Timothy Kabare, Ursula Nafula",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/my-first-day-market",
+      "source_sha256": "cdb5da23d5c0812bf76c0a36185e7cdabae69e50347ce314c25a1627a1feaaf3",
+      "paragraph_count": 14,
+      "word_count": 630,
+      "practice_band": "longer",
+      "practice_note": "A child explores a busy market and is reunited with his family.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0019_my-first-day-at-the-market.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=2109&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© African Storybook Initiative, 2014 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=2109&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-a-fish-and-a-gift",
+      "legacy_id": 800124,
+      "chapter_legacy_id": 800124,
+      "parallel_id": "asp_0124",
+      "filename": "0124_a-fish-and-a-gift.md",
+      "title": "A Fish and a Gift",
+      "author": "Liesl Jobson",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/fish-and-gift",
+      "source_sha256": "03be63ac0f55e81424769dfa8569577d21be9762f80cf46ae778b038a8e4fb1f",
+      "paragraph_count": 12,
+      "word_count": 655,
+      "practice_band": "longer",
+      "practice_note": "A fishing family, the ocean and a special gift for a child.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0124_a-fish-and-a-gift.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8831&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Liesl Jobson, Jesse Breytenbach, Andy Thesen and Bookdash.org 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8831&bt=1&dual=false"
+        }
+      ]
+    },
+    {
+      "slug": "asp-sizwes-smile",
+      "legacy_id": 800273,
+      "chapter_legacy_id": 800273,
+      "parallel_id": "asp_0273",
+      "filename": "0273_sizwes-smile.md",
+      "title": "Sizwe's Smile",
+      "author": "Vianne Venter",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/sizwe%E2%80%99s-smile",
+      "source_sha256": "5d3d11d8146da37cb3890423814fcad8dba7999c3691a895111a972b5e4a066a",
+      "paragraph_count": 13,
+      "word_count": 687,
+      "practice_band": "longer",
+      "practice_note": "A smile spreads from person to person on a rainy day.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0273_sizwes-smile.md",
+      "verification_url": "https://africanstorybook.org/newviewer/index.php?id=8978&bt=1&dual=false",
+      "additional_attribution": [
+        {
+          "text": "© Vianne Venter, Genevieve Terblanche, Lauren Rycroft and Bookdash.org 2014",
+          "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8978&bt=1&dual=false"
+        }
+      ]
     }
   ]
 }

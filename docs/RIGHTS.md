@@ -42,10 +42,12 @@ No Cloudflare object or database resource was deleted or changed during export.
 
 ## Individually licensed Hugging Face readers (November 2026)
 
-The 16 `books/asp-*/` additions are English African Storybook texts obtained
+The 97 `books/asp-*/` additions are English African Storybook texts obtained
 through `cis-lmu/GlotStoryBook` on Hugging Face. Each story was checked against
-its original English Markdown and its own license entry in the upstream index,
-with publication credits also checked on Storybooks Canada. They are licensed
+its original English Markdown and its own license entry in the upstream index.
+The first 16 also had publication credits checked on Storybooks Canada;
+the later 81 were individually reviewed against the fixed originals, with
+additional current publisher notices retained separately where supplied. They are licensed
 CC BY 3.0 or CC BY 4.0, as identified per book.
 
 Each folder includes `LICENSE.md` (attribution and license link), `source.json`
