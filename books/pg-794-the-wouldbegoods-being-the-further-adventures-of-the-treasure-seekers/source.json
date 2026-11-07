@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 794,
+  "slug": "pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers",
+  "title": "The Wouldbegoods: Being the Further Adventures of the Treasure Seekers",
+  "title_i18n": {
+    "en": "The Wouldbegoods: Being the Further Adventures of the Treasure Seekers",
+    "zh-CN": "好心办坏事的孩子们",
+    "ja": "よい子になろうとした子どもたち"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/794/pg794-images.html",
+  "text_sha256": "d60749a5c8cce8c86f41f69b09f3ea8c11ae28a7eabb8a24421d23332465caf7",
+  "page_sha256": "93fc1ba03eb28670634db6b02b63bafd72bef11b79bdabc6841a0c9f719c87f8",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 14,
+    "word_count": 78201,
+    "selected_text_sha256": "35c7e65b3562de021f1cdad5631cd786e24049c823ba29451e736ba64396bcf0",
+    "section_titles": [
+      "CHAPTER 1. THE JUNGLE",
+      "CHAPTER 2. THE WOULDBEGOODS",
+      "CHAPTER 3. BILL’S TOMBSTONE",
+      "CHAPTER 4. THE TOWER OF MYSTERY",
+      "CHAPTER 5. THE WATERWORKS",
+      "CHAPTER 6. THE CIRCUS",
+      "CHAPTER 7. BEING BEAVERS; OR, THE YOUNG EXPLORERS (ARCTIC OR OTHERWISE)",
+      "CHAPTER 8. THE HIGH-BORN BABE",
+      "CHAPTER 9. HUNTING THE FOX",
+      "CHAPTER 10. THE SALE OF ANTIQUITIES",
+      "CHAPTER 11. THE BENEVOLENT BAR",
+      "CHAPTER 12. THE CANTERBURY PILGRIMS",
+      "CHAPTER 13. THE DRAGON’S TEETH; OR, ARMY-SEED",
+      "CHAPTER 14. ALBERT’S UNCLE’s GRANDMOTHER; OR, THE LONG-LOST"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 14,
+    "word_count": 78201,
+    "kept_blocks": 2064,
+    "omitted_blocks": 8,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 157,
+        "preview": "The Project Gutenberg eBook of The Wouldbegoods: Being the Further Adventures of the Treasure Seeker"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2913,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE WOULDBEGOODS: BEING THE FURTHER ADVENTURES OF THE TREASUR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE WOULDBEGOODS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "BEING THE FURTHER ADVENTURES OF THE TREASURE SEEKERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By E. Nesbit"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "TO My Dear Son Fabian Bland"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 75,
+        "preview": "CHAPTER 1. THE JUNGLE CHAPTER 2. THE WOULDBEGOODS CHAPTER 3. BILL’S TOMBSTONE CHAPTER 4. THE TOWER O"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "35c7e65b3562de021f1cdad5631cd786e24049c823ba29451e736ba64396bcf0",
+    "html_sha256": "d60749a5c8cce8c86f41f69b09f3ea8c11ae28a7eabb8a24421d23332465caf7",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/001.txt",
+      "sha256": "0a7ebfc415ba859e782c939a7d3ed659e5c075af96e1283b76db7402964e53f4",
+      "bytes": 26575
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/002.txt",
+      "sha256": "e74204fd1c546ad3a4b4996ac070ac2413ca59449889dba4a8a00fd3cd6d3366",
+      "bytes": 31057
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/003.txt",
+      "sha256": "abbf1b4f2b84a7b183450b26f4ee1a5e49e1f9dd4baf79e7945fbdcbcc93afeb",
+      "bytes": 26078
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/004.txt",
+      "sha256": "f011e46501b9ed66b9e968a1f17458df5a053a126da8010071c42c8eeb56a6a5",
+      "bytes": 31655
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/005.txt",
+      "sha256": "2df72575d43033832c6b3ef6372c6d017cf97b913f343377410f88e3929ea435",
+      "bytes": 33814
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/006.txt",
+      "sha256": "20a151193a50ff7b842bccab5552ce5bf15f45034371c7777aaacdfe68bc4a30",
+      "bytes": 31647
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/007.txt",
+      "sha256": "9f1105d5d8dc6236a4153b6eebd6bc227a3caa83cdf469b1bcc7322568164458",
+      "bytes": 32981
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/008.txt",
+      "sha256": "66586ea921b241f1ca249328b87bf8c134bc87022b195a0145694f7228acdf1b",
+      "bytes": 25614
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/009.txt",
+      "sha256": "a19490d7c3323b4f24ab509f933a2a4a1cc84edea9b7709a1ed75665bf0ebf19",
+      "bytes": 30578
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/010.txt",
+      "sha256": "5b00a2702843dc490581664aa4bd03ab1c82547f363c3f5fac214d665dacf5c5",
+      "bytes": 30704
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/011.txt",
+      "sha256": "a9f7ce040828d4a3420b0f33fb34df0b3c1f93e22fb6a276321386ff4e9fb9f5",
+      "bytes": 26353
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/012.txt",
+      "sha256": "ece58ee6b78b31562bdd69e60c03253e00e13eda2ea1f4ad5e5cbde3729cc6a4",
+      "bytes": 32394
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/013.txt",
+      "sha256": "558f3a40c56d552871b9df0d3e139333b76001c14104f89ba111446bc3c6f63c",
+      "bytes": 34174
+    },
+    {
+      "path": "books/pg-794-the-wouldbegoods-being-the-further-adventures-of-the-treasure-seekers/chapters/014.txt",
+      "sha256": "694c838c84e4c118e65c7ca1c07bf247cccce8f6b557c6dd7e0f50e8698418f4",
+      "bytes": 29721
+    }
+  ]
+}

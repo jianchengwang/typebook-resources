@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 120,
+  "slug": "pg-120-treasure-island",
+  "title": "Treasure Island",
+  "title_i18n": {
+    "en": "Treasure Island",
+    "zh-CN": "金银岛",
+    "ja": "宝島"
+  },
+  "author": "Robert Louis Stevenson",
+  "authors_catalog": "Stevenson, Robert Louis, 1850-1894; Rhead, Louis, 1857-1926 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/120/pg120-images.html",
+  "text_sha256": "0a4f57e172679b7eb6b9d24d8f8454681cd346ee0423832d34a146fbb2d74a6b",
+  "page_sha256": "183b7c1950e5d8934482b2aaf138cf50a692bee99982cf1df554c568f180fe55",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1894,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 34,
+    "word_count": 67868,
+    "selected_text_sha256": "282653f40651e623afb1fe7b572ea4e05ffa438cc6179246a85575679a82dfbc",
+    "section_titles": [
+      "PART ONE—The Old Buccaneer — I The Old Sea-dog at the “Admiral Benbow”",
+      "II Black Dog Appears and Disappears",
+      "III The Black Spot",
+      "IV The Sea-chest",
+      "V The Last of the Blind Man",
+      "VI The Captain’s Papers",
+      "PART TWO—The Sea-cook — VII I Go to Bristol",
+      "VIII At the Sign of the Spy-glass",
+      "IX Powder and Arms",
+      "X The Voyage",
+      "XI What I Heard in the Apple-Barrel",
+      "XII Council of War",
+      "PART THREE—My Shore Adventure — XIII How I Began My Shore Adventure",
+      "XIV The First Blow",
+      "XV The Man of the Island",
+      "PART FOUR—The Stockade — XVI Narrative Continued by the Doctor: How the Ship Was Abandoned",
+      "XVII Narrative Continued by the Doctor: The Jolly-boat’s Last Trip",
+      "XVIII Narrative Continued by the Doctor: End of the First Day’s Fighting",
+      "XIX Narrative Resumed by Jim Hawkins: The Garrison in the Stockade",
+      "XX Silver’s Embassy",
+      "XXI The Attack",
+      "PART FIVE—My Sea Adventure — XXII How I Began My Sea Adventure",
+      "XXIII The Ebb-tide Runs",
+      "XXIV The Cruise of the Coracle",
+      "XXV I Strike the Jolly Roger",
+      "XXVI Israel Hands",
+      "XXVII “Pieces of Eight”",
+      "PART SIX—Captain Silver — XXVIII In the Enemy’s Camp",
+      "XXIX The Black Spot Again",
+      "XXX On Parole",
+      "XXXI The Treasure-hunt—Flint’s Pointer",
+      "XXXII The Treasure-hunt—The Voice Among the Trees",
+      "XXXIII The Fall of a Chieftain",
+      "XXXIV And Last"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 34,
+    "word_count": 67868,
+    "kept_blocks": 1421,
+    "omitted_blocks": 52,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 129,
+        "preview": "The Project Gutenberg eBook of Treasure Island This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption0",
+        "words": 12,
+        "preview": "“Give me a hand up!” he cried. “Not I,” returned the captain."
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK TREASURE ISLAND *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "TREASURE ISLAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by Robert Louis Stevenson"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Illustrated by Louis Rhead"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "TREASURE ISLAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "PART ONE—The Old Buccaneer"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "I. The Old Sea-dog at the “Admiral Benbow”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "II. Black Dog Appears and Disappears"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "III. The Black Spot"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "IV. The Sea-chest"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "V. The Last of the Blind Man"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "VI. The Captain’s Papers"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "PART TWO—The Sea-cook"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "VII. I Go to Bristol"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "VIII. At the Sign of the Spy-glass"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "IX. Powder and Arms"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "X. The Voyage"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XI. What I Heard in the Apple-Barrel"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XII. Council of War"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "PART THREE—My Shore Adventure"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XIII. How I Began My Shore Adventure"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XIV. The First Blow"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XV. The Man of the Island"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "PART FOUR—The Stockade"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "XVI. Narrative Continued by the Doctor: How the Ship Was Abandoned"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "XVII. Narrative Continued by the Doctor: The Jolly-boat’s Last Trip"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "XVIII. Narrative Continued by the Doctor: End of the First Day’s Fighting"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "XIX. Narrative Resumed by Jim Hawkins: The Garrison in the Stockade"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XX. Silver’s Embassy"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXI. The Attack"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "PART FIVE—My Sea Adventure"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XXII. How I Began My Sea Adventure"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIII. The Ebb-tide Runs"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXIV. The Cruise of the Coracle"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXV. I Strike the Jolly Roger"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXVI. Israel Hands"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVII. “Pieces of Eight”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "PART SIX—Captain Silver"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXVIII. In the Enemy’s Camp"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXIX. The Black Spot Again"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXX. On Parole"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXXI. The Treasure-hunt—Flint’s Pointer"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XXXII. The Treasure-hunt—The Voice Among the Trees"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXXIII. The Fall of a Chieftain"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXXIV. And Last"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "TREASURE ISLAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 36,
+        "preview": "To S.L.O., an American gentleman in accordance with whose classic taste the following narrative has "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "the author."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 100,
+        "preview": "TO THE HESITATING PURCHASER\nIf sailor tales to sailor tunes,\nStorm and adventure, heat and cold,\nIf "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "link2H_4_0002",
+        "words": 2,
+        "preview": "TREASURE ISLAND"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "282653f40651e623afb1fe7b572ea4e05ffa438cc6179246a85575679a82dfbc",
+    "html_sha256": "0a4f57e172679b7eb6b9d24d8f8454681cd346ee0423832d34a146fbb2d74a6b",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-120-treasure-island/chapters/001.txt",
+      "sha256": "a934a2149431010c33f84937631c4635a5bf2c49cba71a1cd77d8146b872777f",
+      "bytes": 11686
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/002.txt",
+      "sha256": "6437651cf28b1b6926aedde6c8d180a67dfb39a21dfdebf2954da50963fde333",
+      "bytes": 11866
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/003.txt",
+      "sha256": "394bf094659bcfadb8ceceb7a377e6ac72ae730a2b645a7899bd5f3d881f3cf4",
+      "bytes": 11372
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/004.txt",
+      "sha256": "fbfca9cbd82a032bb146bd6107df01cab1dfca9ac0a0d8b2eee2b1a6ee4a17f9",
+      "bytes": 11407
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/005.txt",
+      "sha256": "e1e53fb586829e31ac326373d8a4b4ee0cc8be969e51c2a8b2b56a370a8f2f42",
+      "bytes": 10119
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/006.txt",
+      "sha256": "334253b7fb799c7153813ada5b7783a8dab800e127a73ca043f25ccf1ea8cb13",
+      "bytes": 10859
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/007.txt",
+      "sha256": "c3e77ab43bf86b8d810c58937007af7268a1304e9523199438d0b2f9d6a5e27f",
+      "bytes": 9848
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/008.txt",
+      "sha256": "b2b15d08ec316561fd508f05c4bfdc65384db131f3219587780f24f62d3f2640",
+      "bytes": 9665
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/009.txt",
+      "sha256": "901405e73cc537581ddc026fd4a88ef6683907afb3a842c9203f724e55f01f84",
+      "bytes": 9682
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/010.txt",
+      "sha256": "0cad0b3b3e93c1387dfbb1d4175a18634a8ea1d80dcd609832bd9c190a09162a",
+      "bytes": 10382
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/011.txt",
+      "sha256": "09f62fd9a3ea893989c4e6caae139f7a7e85a6adf7f1726d952c2c4c4a6d2f89",
+      "bytes": 11456
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/012.txt",
+      "sha256": "ce4f9bb283068fed74e578b07a9bef949ebab3babc4b6835a195ae1f99bb3e39",
+      "bytes": 9959
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/013.txt",
+      "sha256": "26614c6b730759e8807f0a32ab513db685ecdf8a504236c312c525a15352a516",
+      "bytes": 9605
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/014.txt",
+      "sha256": "b04e1a5494c706b9f8589d6a05c350bdb4448b7e2291f9b4d2325dfa0cd5fd1f",
+      "bytes": 10195
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/015.txt",
+      "sha256": "225486170f5c48498227b99645009bde458f9276e132e370ba90e5f99c5351b7",
+      "bytes": 12191
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/016.txt",
+      "sha256": "f2eaa686b1b46d8b85a72d28ff7292e0d78650728949dfa098315dd7705f08c2",
+      "bytes": 8836
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/017.txt",
+      "sha256": "71850db08f38b1c82d9cac4c0ee97ca368de2d6536ebff68780abeb5fc54aeab",
+      "bytes": 8029
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/018.txt",
+      "sha256": "822feda2816f333df011885e3f85b122b006f802ef7bf59fee9a05f291ccbb7c",
+      "bytes": 8219
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/019.txt",
+      "sha256": "aee5d718b5bb3a7880b3ec544f2917081ca810083564bb618649f56ca12ac458",
+      "bytes": 10814
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/020.txt",
+      "sha256": "2dacf5f98ef35dd7a74c29e5413292c70c7dc5034913536cab358a8656f64fd5",
+      "bytes": 10379
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/021.txt",
+      "sha256": "17df02e6ceee1be14800159f4856b4ad34ed577c9828223de2143a1e34cf3a4d",
+      "bytes": 11132
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/022.txt",
+      "sha256": "8df9eac0063d9c0510c67284cdb91582cf3ba219b270ba3f4d6c9a7e7d9c2fa7",
+      "bytes": 11048
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/023.txt",
+      "sha256": "fc57e5ab42192946facb96ba5cbb5446c921dcf02a87b1f5c32af1fa92880004",
+      "bytes": 8516
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/024.txt",
+      "sha256": "37026ed5e94c01888de40f1b69d1b6607e419945edef901652eec9c5a324dd0a",
+      "bytes": 10540
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/025.txt",
+      "sha256": "39b63f06338c6e3eb06fa68ada873f2eba3d19a387132438c7169dbb8c6ae31a",
+      "bytes": 9215
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/026.txt",
+      "sha256": "e9d702764293cd0b870847f2d26702596f7c29288fedcdb0acd902f1a8a761aa",
+      "bytes": 15618
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/027.txt",
+      "sha256": "29126e30f790cd41f35f20998a71966f115fa1d23a1add4b656a8cbf8007a891",
+      "bytes": 11411
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/028.txt",
+      "sha256": "22c353b7d4904ea97f14053fecc24066cac717390a626d41cceac1e9a8e57a51",
+      "bytes": 14952
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/029.txt",
+      "sha256": "95915654432f762bb45f2200823ca2da9346d9c144b8ae3fef30b065c432350c",
+      "bytes": 11912
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/030.txt",
+      "sha256": "1c9538475131afc080c76440b17d174c01807f733b90f9b9ef84c8c25e3bed18",
+      "bytes": 12810
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/031.txt",
+      "sha256": "5d1eefb862be6b7511bae5202bbbcc5aa7a727fa3ecec366304b46ad57abf245",
+      "bytes": 12458
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/032.txt",
+      "sha256": "6bf1eed6c56284d1186545822f98f6a1962ee5f09abe4e50a1e12653958dde85",
+      "bytes": 11017
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/033.txt",
+      "sha256": "fdf6cd07f7745b2da1cb7614006b64ca48c0bb70186eddd5babe132a64d04c0d",
+      "bytes": 10983
+    },
+    {
+      "path": "books/pg-120-treasure-island/chapters/034.txt",
+      "sha256": "f1ab9dac73c919e67c6a19a28a7ac987e83e32e9a36e6233dda0e33167261a38",
+      "bytes": 10225
+    }
+  ]
+}

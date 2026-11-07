@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 1937,
+  "slug": "pg-1937-the-second-jungle-book",
+  "title": "The Second Jungle Book",
+  "title_i18n": {
+    "en": "The Second Jungle Book",
+    "zh-CN": "第二部丛林之书",
+    "ja": "続ジャングル・ブック"
+  },
+  "author": "Rudyard Kipling",
+  "authors_catalog": "Kipling, Rudyard, 1865-1936",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/1937/pg1937-images.html",
+  "text_sha256": "8a1e727f8d65dc339e4cfd52f1effb1873134aca30a52811fc1128c0c63d070d",
+  "page_sha256": "f52ca43a91127bb4cb25dae7d8c8a4b44c7ff41089a5556ff7416d90b6bb063d",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1936,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 16,
+    "word_count": 63671,
+    "selected_text_sha256": "df0d37d8850ffd495e7cdb6d2dc6d42ccc4a29b69f188a2434db21266d0a77d4",
+    "section_titles": [
+      "HOW FEAR CAME",
+      "THE LAW OF THE JUNGLE",
+      "THE MIRACLE OF PURUN BHAGAT",
+      "A SONG OF KABIR",
+      "LETTING IN THE JUNGLE",
+      "MOWGLI’S SONG AGAINST PEOPLE",
+      "THE UNDERTAKERS",
+      "A RIPPLE SONG",
+      "THE KING’S ANKUS",
+      "THE SONG OF THE LITTLE HUNTER",
+      "QUIQUERN",
+      "‘ANGUTIVAUN TAINA’",
+      "RED DOG",
+      "CHIL’S SONG",
+      "THE SPRING RUNNING",
+      "THE OUTSONG"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 16,
+    "word_count": 63671,
+    "kept_blocks": 1073,
+    "omitted_blocks": 6,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 137,
+        "preview": "The Project Gutenberg eBook of The Second Jungle Book This eBook is for the use of anyone anywhere i"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE SECOND JUNGLE BOOK *** Updated editions will replace the "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE SECOND JUNGLE BOOK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Rudyard Kipling"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 51,
+        "preview": "HOW FEAR CAME THE LAW OF THE JUNGLE THE MIRACLE OF PURUN BHAGAT A SONG OF KABIR LETTING IN THE JUNGL"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "df0d37d8850ffd495e7cdb6d2dc6d42ccc4a29b69f188a2434db21266d0a77d4",
+    "html_sha256": "8a1e727f8d65dc339e4cfd52f1effb1873134aca30a52811fc1128c0c63d070d",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/001.txt",
+      "sha256": "e78f1690948d7e111f010036dca739c5450114815578a42d7bfa9b320435fa44",
+      "bytes": 33243
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/002.txt",
+      "sha256": "eb63c454a32f6ad8b15cb0c81efe7ed026d52baeb0deda1c6a18ec5ef670bff6",
+      "bytes": 3097
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/003.txt",
+      "sha256": "cf83d546df3a98d038d8f825cebfd720fc69a90fd2ee31f966616b2a59255269",
+      "bytes": 29960
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/004.txt",
+      "sha256": "838927d8b8cdaec10f97d6fd8c1ae6383b1ced2cb1fa04b2ad95f9042f178f42",
+      "bytes": 800
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/005.txt",
+      "sha256": "99570e7554001d349fbc42fe1644ee1b6d92f41350d8061670e7d00e9e5f6da9",
+      "bytes": 54476
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/006.txt",
+      "sha256": "b6eabc8f9a1f87174dbe517579c43f038c0cdf4d59948224d599b4ac57d98b0e",
+      "bytes": 1194
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/007.txt",
+      "sha256": "0fe1f974a956fd21ac31fe48765b25d165fc6e71756376fa4949abf3236ae510",
+      "bytes": 45195
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/008.txt",
+      "sha256": "d9cf9286abf5bfb287f0a00b9c0ca77ec5841772a3458ee60d9d5bb6f020e4cb",
+      "bytes": 777
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/009.txt",
+      "sha256": "1027f10e8298dfb34d2a5bed9a7e18ba935dca957197df07a3d36cf98267775a",
+      "bytes": 36052
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/010.txt",
+      "sha256": "d5926ca86611908194775fa6024925ec65000e42b0ede43a5ba6d33c7fe2806d",
+      "bytes": 1385
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/011.txt",
+      "sha256": "794337ffac37df0dd7b2d103d83b14e709b3ce99143dc1bca3a83036ea766934",
+      "bytes": 48083
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/012.txt",
+      "sha256": "5521d68c4be4976e07b71b1ea41cb74d7c67a8a06fb1e8534b88ba2957fc6ab8",
+      "bytes": 1040
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/013.txt",
+      "sha256": "7905bf4a92fab7d3c9ee1fde3eff92b80c65ffe0844bbbd3023bad86256ec924",
+      "bytes": 49576
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/014.txt",
+      "sha256": "fc6b7762689ba58d61fb48bc9529df1130b84480c11d0f0682ab53c78915ee71",
+      "bytes": 1339
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/015.txt",
+      "sha256": "ef6b0e67a067ef0448dc917d58300ae6fe11c9338cf3ecaf01227c20b2c58088",
+      "bytes": 41588
+    },
+    {
+      "path": "books/pg-1937-the-second-jungle-book/chapters/016.txt",
+      "sha256": "f8b3aa8c8d7ce6a3d921877cdd3b7b2ab630aa156c0fba0eb0868a4624cdb35d",
+      "bytes": 2468
+    }
+  ]
+}

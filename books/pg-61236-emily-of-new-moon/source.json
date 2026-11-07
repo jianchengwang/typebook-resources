@@ -1,0 +1,614 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 61236,
+  "slug": "pg-61236-emily-of-new-moon",
+  "title": "Emily of New Moon",
+  "title_i18n": {
+    "en": "Emily of New Moon",
+    "zh-CN": "新月庄的艾米莉",
+    "ja": "可愛いエミリー"
+  },
+  "author": "L. M. Montgomery",
+  "authors_catalog": "Montgomery, L. M. (Lucy Maud), 1874-1942; Kirk, Maria Louise, 1860-1938 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/61236/pg61236-images.html",
+  "text_sha256": "d1aec7d26729b619c112cff4d4d3b4f03837134c29f6ed3e9ad46415fe046a5f",
+  "page_sha256": "b64ae27841281121905b5a0f4566c430b9813a2ee64d978203bd0a0e57ffcec2",
+  "extraction": {
+    "end_text": "Transcriber’s Note:"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1942,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 31,
+    "word_count": 113002,
+    "selected_text_sha256": "5cd83947a5b1b9fb249cd379e14f0fb0b99a3fd267594e96aad498cc1e6ecf47",
+    "section_titles": [
+      "CHAPTER I The House in the Hollow",
+      "CHAPTER II A Watch in the Night",
+      "CHAPTER III A Hop out of Kin",
+      "CHAPTER IV A Family Conclave",
+      "CHAPTER V Diamond Cut Diamond",
+      "CHAPTER VI New Moon",
+      "CHAPTER VII The Book of Yesterday",
+      "CHAPTER VIII Trial by Fire",
+      "CHAPTER IX A Special Providence",
+      "CHAPTER X Growing Pains",
+      "CHAPTER XI Ilse",
+      "CHAPTER XII The Tansy Patch",
+      "CHAPTER XIII A Daughter of Eve",
+      "CHAPTER XIV Fancy Fed",
+      "CHAPTER XV Various Tragedies",
+      "CHAPTER XVI Check for Miss Brownell",
+      "CHAPTER XVII Living Epistles",
+      "CHAPTER XVIII Father Cassidy",
+      "CHAPTER XIX Friends Again",
+      "CHAPTER XX By Aerial Post",
+      "CHAPTER XXI “Romantic but not Comfortable”",
+      "CHAPTER XXII Wyther Grange",
+      "CHAPTER XXIII Deals with Ghosts",
+      "CHAPTER XXIV A Different Kind of Happiness",
+      "CHAPTER XXV “She Couldn’t Have Done It”",
+      "CHAPTER XXVI On the Bay Shore",
+      "CHAPTER XXVII The Vow of Emily",
+      "CHAPTER XXVIII A Weaver of Dreams",
+      "CHAPTER XXIX Sacrilege",
+      "CHAPTER XXX When the Curtain Lifted",
+      "CHAPTER XXXI Emily’s Great Moment"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 31,
+    "word_count": 113002,
+    "kept_blocks": 2399,
+    "omitted_blocks": 59,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 165,
+        "preview": "The Project Gutenberg eBook of Emily of New Moon This eBook is for the use of anyone anywhere in the"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "“AND THEN IN ONE GLORIOUS, SUPREME MOMENT CAME THE ‘FLASH’”"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK EMILY OF NEW MOON *** Updated editions will replace the previ"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Transcribers_Note",
+        "words": 2,
+        "preview": "Transcriber’s Note:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "Attempts have been made to standardise punctuation according to the style used in the original book."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "Page 58 going to open the window, Aunt Elizaeth changed to going to open the window, Aunt Elizabeth"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "Page 68 is one of the places were dreams grow changed to is one of the places where dreams grow"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "Page 94 with this unseenly display of changed to with this unseemly display of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "Page 117 ike a huge grey cat basking changed to like a huge grey cat basking"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "Page 145 as Cousin Jimmie said changed to as Cousin Jimmy said"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "Page 147 She helped Cousin Jimmie fill it changed to She helped Cousin Jimmy fill it"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "Page 154 Cousin Jimmie added that Tom changed to Cousin Jimmy added that Tom"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "Page 249 have run away with him myseif changed to have run away with him myself"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "Page 249 bad-tempered at the Priests changed to bad-tempered as the Priests"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "Page 270 to the contrary nothwithstanding changed to to the contrary notwithstanding"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "EMILY OF NEW MOON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "EMILY OF NEW MOON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "BY L. M. MONTGOMERY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 19,
+        "preview": "Author of “Anne of Green Gables,” “The Story Girl,” “Rainbow Valley,” “Rilla of Ingleside,” “Anne’s "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "WITH FRONTISPIECE IN COLOR BY M. L KIRK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "NEW YORK FREDERICK A. STOKES COMPANY MCMXXIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Copyright, 1923, by Frederick A. Stokes Company"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "All Rights Reserved"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Printed in the United States of America"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "To MR. GEORGE BOYD MACMILLAN ALLOA, SCOTLAND IN RECOGNITION OF A LONG AND STIMULATING FRIENDSHIP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "contents",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER PAGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "I The House in the Hollow 1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "II A Watch in the Night 8"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "III A Hop out of Kin 19"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "IV A Family Conclave 33"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "V Diamond Cut Diamond 44"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "VI New Moon 52"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "VII The Book of Yesterday 63"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "VIII Trial by Fire 79"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "IX A Special Providence 91"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "X Growing Pains 105"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XI Ilse 113"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XII The Tansy Patch 122"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XIII A Daughter of Eve 137"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XIV Fancy Fed 146"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XV Various Tragedies 153"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XVI Check for Miss Brownell 165"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVII Living Epistles 179"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVIII Father Cassidy 193"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XIX Friends Again 211"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XX By Aërial Post 216"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXI “Romantic but not Comfortable” 227"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXII Wyther Grange 238"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXIII Deals with Ghosts 247"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XXIV A Different Kind of Happiness 257"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XXV “She Couldn’t Have Done It” 264"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXVI On the Bay Shore 270"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXVII The Vow of Emily 282"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXVIII A Weaver of Dreams 302"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXIX Sacrilege 315"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXX When the Curtain Lifted 326"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXXI Emily’s Great Moment 340"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "EMILY OF NEW MOON"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "5cd83947a5b1b9fb249cd379e14f0fb0b99a3fd267594e96aad498cc1e6ecf47",
+    "html_sha256": "d1aec7d26729b619c112cff4d4d3b4f03837134c29f6ed3e9ad46415fe046a5f",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/001.txt",
+      "sha256": "a3c49f38da8d5845c0b2ab6cc21197cbea44c973c4e719c25a93bb3b7ca00357",
+      "bytes": 13929
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/002.txt",
+      "sha256": "7f60ef8a0aeedea08803ae6b367750d9b71f72bd5c6aa601dc30f5483b19e96a",
+      "bytes": 20657
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/003.txt",
+      "sha256": "414f105daa4742083fb8a7a7e660c39bc14b6e524ffdedfb7a0ad2f2dab5d971",
+      "bytes": 24597
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/004.txt",
+      "sha256": "7097e78d07b6c6ec8a01df96b16ce0c596222c38e3f4c484e500043e1e3e04a6",
+      "bytes": 18817
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/005.txt",
+      "sha256": "82cec68085b09b2cd1fb4871f740eaeb1bac507750a95848528e7b54b8968d7f",
+      "bytes": 14375
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/006.txt",
+      "sha256": "411f029f35a840d1569f1a3d8019a635c54a7497fb5bcf5707e98e5589b4bc32",
+      "bytes": 19942
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/007.txt",
+      "sha256": "adf49673a560e77461bc74259d7a520405c6c4e358fcdb91dc483c6a6e88b68a",
+      "bytes": 28884
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/008.txt",
+      "sha256": "2f4ac6e1aa961a4e20dc795d2cad5072d1240b6cf828faa224e89c1679a3d157",
+      "bytes": 21737
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/009.txt",
+      "sha256": "f0368fee4efbfce2c3dfb259647deb9cc6c8801d97577da5893e45f7ff7520b6",
+      "bytes": 26110
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/010.txt",
+      "sha256": "7ba88789ea15bd48948b8520a71d94fc3843d12e11569b2c90de3b2225383f1d",
+      "bytes": 14743
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/011.txt",
+      "sha256": "201390fbcb339467b546d6bbd79a6e976b7436cef141e9ae5996e222f1324ff0",
+      "bytes": 15810
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/012.txt",
+      "sha256": "593d941337e5cff693e373174391faadb63d0b14e7ccc3de3e4c6999cbda226b",
+      "bytes": 27743
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/013.txt",
+      "sha256": "bb040db5e62dacc90158941d40b433adc9790b4ee8f62683c3578026fe4d0a4f",
+      "bytes": 17868
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/014.txt",
+      "sha256": "3f6d090e4edccc69c27d4ffa8acf602de3a05d0face25f471dfd08270c674562",
+      "bytes": 12607
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/015.txt",
+      "sha256": "8a1aaf000d8a2fad6c32d103693a8e266f721f58fa1276636dbd5a6f338d5976",
+      "bytes": 22832
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/016.txt",
+      "sha256": "abd2dabe6768f45bd560248e28371e12b36847be6a5a14945a9a26bb75cbd2b2",
+      "bytes": 25088
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/017.txt",
+      "sha256": "359b2122bf30c664d2eb2a3b3d8575c65c637496e5194c70e57b124d27d3deda",
+      "bytes": 24680
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/018.txt",
+      "sha256": "6eff8f59be27ea4aad402107d3443bcb91516e052d46b92fa318e81f1d4c752a",
+      "bytes": 33033
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/019.txt",
+      "sha256": "907110e93f13b1ca4a364e7a3cbd792b28da118a63ee34ce96133b70c67f0957",
+      "bytes": 7502
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/020.txt",
+      "sha256": "6404d5a2853e77e3f9d6d65b3e58919f7b5a1ad154fa718023df11e1c6f0fb9f",
+      "bytes": 20456
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/021.txt",
+      "sha256": "1503320a32d70364ba17a3451a6a5a8a77c0161a6575d35680b5eae96bdaa72d",
+      "bytes": 20549
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/022.txt",
+      "sha256": "9d22fa69d7e30af167826885d333cc6b7a6ef9802f38ae5e11ce7de3418e5962",
+      "bytes": 14753
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/023.txt",
+      "sha256": "885f5b835b44899033b29f0b645aa2e883a8bd1732ab440dd436de6fa74b41d1",
+      "bytes": 18942
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/024.txt",
+      "sha256": "9732a0a3282fa87dd1b2766c9d1b83495580c48e740e28065957739beac5c3eb",
+      "bytes": 13332
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/025.txt",
+      "sha256": "8150498cda2761f34a5a56a53bf48620bdd1aba874bb461ac6e4da811baf6d6f",
+      "bytes": 11366
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/026.txt",
+      "sha256": "e4ef00ed636ddea4e36cac93c2789a2f32615c80f9b7b96aed50d1e5689f416f",
+      "bytes": 21527
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/027.txt",
+      "sha256": "9da60a60d2a79af4a4bca66fd4a3800ed7de1609efcb064a1fd0b3ad0dcb7c48",
+      "bytes": 36117
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/028.txt",
+      "sha256": "ca84db177713f9e7ddb2fe48cb1ed2c90d0d0babdd851cb3bdeb60c431d3d62c",
+      "bytes": 24221
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/029.txt",
+      "sha256": "12d3b0d3cc776d840de90086f6dee04a4116b0358b0bd010a0d3e362715a4996",
+      "bytes": 20317
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/030.txt",
+      "sha256": "62ece7d7adf649748658dcf1cc6758acf17264d335013865c74a6da55e285d1f",
+      "bytes": 25111
+    },
+    {
+      "path": "books/pg-61236-emily-of-new-moon/chapters/031.txt",
+      "sha256": "2d0ee874ffcd1cff464e450dc067f3db4797a4144a005a0cbc6e168538f1c72f",
+      "bytes": 19439
+    }
+  ]
+}

@@ -102,7 +102,7 @@ class BookTitleTests(unittest.TestCase):
         books += json.loads((ROOT / 'catalogs/standalone-readers.json').read_text())
         titles = json.loads((ROOT / 'tools/book_titles.json').read_text())
         localized = reader.apply_title_translations(books, titles, books)
-        self.assertEqual(len(books), 104)
+        self.assertEqual(len(books), len(json.loads((ROOT / 'catalogs/books.json').read_text())) + 100)
         self.assertEqual(localized, books)
         for book in books:
             self.assertEqual(book['title'], book['title_i18n']['en'])

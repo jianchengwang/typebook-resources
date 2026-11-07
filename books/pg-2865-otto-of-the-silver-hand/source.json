@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2865,
+  "slug": "pg-2865-otto-of-the-silver-hand",
+  "title": "Otto of the Silver Hand",
+  "title_i18n": {
+    "en": "Otto of the Silver Hand",
+    "zh-CN": "银手奥托",
+    "ja": "銀の手のオットー"
+  },
+  "author": "Howard Pyle",
+  "authors_catalog": "Pyle, Howard, 1853-1911",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/2865/pg2865-images.html",
+  "text_sha256": "795c5063f18e6b1b62dade43887ca0d92e3953b682b4409466110e36cfb264bc",
+  "page_sha256": "c1c46d211f0b8419750d529a8001d2fecbc77a779a7ce2346bc4d6b8b33217e2",
+  "extraction": {
+    "extra_heading_texts": [
+      "FOREWORD.",
+      "Afterword"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1911,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 16,
+    "word_count": 27607,
+    "selected_text_sha256": "da0d4f96830d6c7a290aa0d8c96352c3a019aba0816cda7a5524e13d2b7a33c3",
+    "section_titles": [
+      "FOREWORD.",
+      "I. The Dragon’s House.",
+      "II. How the Baron went Forth to Shear.",
+      "III. How the Baron came Home Shorn.",
+      "IV. The White Cross on the Hill.",
+      "V. How Otto Dwelt at St. Michaelsburg.",
+      "VI. How Otto Lived in the Dragon’s House.",
+      "VII. The Red Cock Crows on Drachenhausen.",
+      "VIII. In the House of the Dragon Scorner.",
+      "IX. How One-eyed Hans came to Trutz-Drachen.",
+      "X. How Hans Brought Terror to the Kitchen.",
+      "XI. How Otto was Saved.",
+      "XII. A Ride For Life.",
+      "XIII. How Baron Conrad Held the Bridge.",
+      "XIV. How Otto Saw the Great Emperor.",
+      "Afterword"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Fourteen chapters, narrative Foreword and Afterword.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 16,
+    "word_count": 27607,
+    "kept_blocks": 571,
+    "omitted_blocks": 7,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 140,
+        "preview": "The Project Gutenberg eBook of Otto of the Silver Hand This eBook is for the use of anyone anywhere "
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK OTTO OF THE SILVER HAND *** Updated editions will replace the"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "OTTO OF THE SILVER HAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Howard Pyle"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 96,
+        "preview": "FOREWORD. I. The Dragon’s House. II. How the Baron went Forth to Shear. III. How the Baron came Home"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Afterword"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "da0d4f96830d6c7a290aa0d8c96352c3a019aba0816cda7a5524e13d2b7a33c3",
+    "html_sha256": "795c5063f18e6b1b62dade43887ca0d92e3953b682b4409466110e36cfb264bc",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/001.txt",
+      "sha256": "34286f1c1fd2df85f358129064f3a32a1ef01097e57257e443fa316db402a7a8",
+      "bytes": 1840
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/002.txt",
+      "sha256": "bd77da6459c6b2a5961bae3070bf0a0f7a33346e3ec7a574e578b692284e061c",
+      "bytes": 6826
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/003.txt",
+      "sha256": "62da85fe3b009143008046dec6dfe0c77e3ce677a3cf0772f0d0709f6b43f242",
+      "bytes": 7545
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/004.txt",
+      "sha256": "a38520f5ab01950cec5e624fff3a6298879a13314692c9da3d5a4a486eeb4cfb",
+      "bytes": 5146
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/005.txt",
+      "sha256": "2c6ed8218753a27f7a8fee80d31b69e83ef10346224ee7f89aa893912359c16f",
+      "bytes": 11299
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/006.txt",
+      "sha256": "d47e943800387328e24a134ac99a271e0263cc36037fb833f225ff2dee344049",
+      "bytes": 13801
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/007.txt",
+      "sha256": "06a3fe330cd05798bdb1e150ebc1b0ac44952ce1a88a4d80ee318e4fbee40600",
+      "bytes": 12517
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/008.txt",
+      "sha256": "9cc72b0b2e324deaccfff5ad48c77fd198f5134c4d50a9bd7d7556f385d47456",
+      "bytes": 19015
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/009.txt",
+      "sha256": "da7a329d32bdb6565f0fb3a4f2dc58ca606cd2208063a5404c15c5be72aefb98",
+      "bytes": 11817
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/010.txt",
+      "sha256": "cceee575298faf9c3dfcb92dd24518821a86f89d508f07dfa68e611c5d88a871",
+      "bytes": 11235
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/011.txt",
+      "sha256": "55a6398f775b6277ae065d3b7439ea89855f89d15343e0f4e626a2aa5c6a3517",
+      "bytes": 13014
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/012.txt",
+      "sha256": "f814dcc85fa8802858bcc7ffad3a51c39e989cb11219e6e385c554a49a2646f6",
+      "bytes": 7144
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/013.txt",
+      "sha256": "107784cfc164a467576369c53ce488cfa0fa4aeb904a5d45e8f5f77b8c767875",
+      "bytes": 10609
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/014.txt",
+      "sha256": "cb324e2d4ff1bca02f4dcf1798e450b88b9f453f874eef338a9678e02bcdcd33",
+      "bytes": 9491
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/015.txt",
+      "sha256": "f58fac1c4ffc470ecbbe8efa58a971328bbb31097ab10658d37a4d07804fba13",
+      "bytes": 10067
+    },
+    {
+      "path": "books/pg-2865-otto-of-the-silver-hand/chapters/016.txt",
+      "sha256": "a0a9ab75a75e63815d1118ce3a7e1911b9463c91cca45e1ab8151a4dc50a79ee",
+      "bytes": 362
+    }
+  ]
+}

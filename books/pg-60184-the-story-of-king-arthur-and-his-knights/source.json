@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 60184,
+  "slug": "pg-60184-the-story-of-king-arthur-and-his-knights",
+  "title": "The Story of King Arthur and his Knights",
+  "title_i18n": {
+    "en": "The Story of King Arthur and his Knights",
+    "zh-CN": "亚瑟王与圆桌骑士",
+    "ja": "アーサー王と騎士たち"
+  },
+  "author": "Howard Pyle",
+  "authors_catalog": "Pyle, Howard, 1853-1911",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "legend-retelling",
+  "text_url": "https://www.gutenberg.org/cache/epub/60184/pg60184-images.html",
+  "text_sha256": "1de4b44a3419502cfe268d5002dfbb7ac1022e7e30b570237487af1bae4bbb07",
+  "page_sha256": "06010f5c5dad534f09be6123de12caa18029d55a6fc0c7d0f4437c9853c21a95",
+  "extraction": {
+    "extra_heading_texts": [
+      "Prologue.",
+      "PART I The Winning of Kinghood",
+      "PART II The Winning of a Sword",
+      "PART III The Winning of a Queen",
+      "PART I The Story of Merlin",
+      "PART II The Story of Sir Pellias",
+      "PART III The Story of Sir Gawaine",
+      "CONCLUSION"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1911,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 37,
+    "word_count": 113519,
+    "selected_text_sha256": "85735441b249a0861caa8ec0eb9888bf0b04c19a45ccd8aaf0989f94296195e4",
+    "section_titles": [
+      "Prologue.",
+      "PART I The Winning of Kinghood",
+      "Chapter First.",
+      "Chapter Second.",
+      "Chapter Third.",
+      "CONCLUSION",
+      "PART II The Winning of a Sword",
+      "Chapter First.",
+      "Chapter Second.",
+      "Chapter Third.",
+      "PART III The Winning of a Queen",
+      "Chapter First.",
+      "Chapter Second.",
+      "Chapter Third.",
+      "Chapter Fourth.",
+      "Chapter Fifth.",
+      "Chapter Sixth.",
+      "CONCLUSION",
+      "Prologue.",
+      "PART I The Story of Merlin",
+      "Chapter First.",
+      "Chapter Second.",
+      "Chapter Third.",
+      "Chapter Fourth.",
+      "CONCLUSION",
+      "PART II The Story of Sir Pellias",
+      "Chapter First.",
+      "Chapter Second.",
+      "Chapter Third.",
+      "Chapter Fourth.",
+      "Chapter Fifth.",
+      "Chapter Sixth.",
+      "PART III The Story of Sir Gawaine",
+      "Chapter First.",
+      "Chapter Second.",
+      "Chapter Third.",
+      "CONCLUSION"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Twenty-five chapters, four conclusions, six part introductions and two narrative prologues.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 37,
+    "word_count": 113519,
+    "kept_blocks": 1722,
+    "omitted_blocks": 118,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 154,
+        "preview": "The Project Gutenberg eBook of The Story of King Arthur and his Knights This eBook is for the use of"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2911,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE STORY OF KING ARTHUR AND HIS KNIGHTS *** Updated editions"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Contents. List of Illustrations"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "img_images_title.jpg",
+        "words": 8,
+        "preview": "The Story of KING ARTHVR and his Knights"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_iv",
+        "words": 22,
+        "preview": "Written and Illustrated by HOWARD PYLE. NEW YORK: CHARLES SCRIBNER’S SONS 1903. Copyright, 1903, By "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "Foreword",
+        "words": 1,
+        "preview": "Foreword."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 66,
+        "preview": "After several years of contemplation and of thought upon the matter herein contained, it has at last"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 63,
+        "preview": "For when, in pursuing this history, I have come to consider the high nobility of spirit that moved t"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_vi",
+        "words": 86,
+        "preview": "For I believe that King Arthur was the most honorable, gentle Knight who ever lived in all the world"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 68,
+        "preview": "So in the year of grace one thousand nine hundred and two I began to write this history of King Arth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "CONTENTS",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Book of King Arthur"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "PART I THE WINNING OF KINGHOOD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter First"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 28,
+        "preview": "How Sir Kay did Combat in a Great Tournament at London Town and of How He Brake His Sword. Likewise,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Second"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_viii",
+        "words": 21,
+        "preview": "How Arthur Twice Performed the Miracle of the Sword Before Sir Ector and of How His Birthright Was D"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Third"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 28,
+        "preview": "How Several Kings and High Dukes Assayed to Draw the Sword Out of the Anvil and How They Failed. Lik"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "PART II THE WINNING OF A SWORD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter First"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 37,
+        "preview": "How There Came a Certain Wounded Knight Unto the Court of King Arthur, How a Young Knight of the Kin"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Second"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 26,
+        "preview": "How King Arthur Fought With the Sable Knight and How He Was Sorely Wounded. Likewise How Merlin Brou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Third"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_ix",
+        "words": 24,
+        "preview": "How King Arthur Found a Noble Sword In a Very Wonderful Manner. And How He Again Fought With It and "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "PART III THE WINNING OF A QUEEN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter First"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 20,
+        "preview": "How King Arthur Went to Tintagalon with Four of His Court, and How He Disguised Himself for a Certai"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Second"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 17,
+        "preview": "How King Ryence Came to Cameliard and How King Arthur Fought With the Duke of North Umber91"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Third"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "How King Arthur Encountered Four Knights and of What Befell Thereby101"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Fourth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "How the Four Knights Served the Lady Guinevere113"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Fifth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "How King Arthur Overcame the Enemies of King Leodegrance, and How His Royalty Was Proclaimed125"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Sixth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_x",
+        "words": 15,
+        "preview": "How King Arthur Was Wedded in Royal State and How the Round Table Was Established139"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Book of Three Worthies"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "PART I THE STORY OF MERLIN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter First"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 21,
+        "preview": "How Queen Morgana le Fay Meditated Evil Against King Arthur and How She Sent a Damsel to Beguile the"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Second"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 38,
+        "preview": "How Merlin Journeyed With Vivien Unto the Valley of Joyousness and How He Builded for Her a Castle a"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Third"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 33,
+        "preview": "How Queen Morgana le Fay Returned to Camelot and to the Court With Intent to Do Ill to King Arthur. "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Fourth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_xi",
+        "words": 23,
+        "preview": "What Befell Sir Accalon, and How King Arthur Fought an Affair-at-Arms With Swords, and How He Came N"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "PART II THE STORY OF SIR PELLIAS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter First"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 18,
+        "preview": "How Queen Guinevere Went a-Maying and of How Sir Pellias Took Upon Him a Quest in Her Behalf205"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Second"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 21,
+        "preview": "How Sir Pellias Overcame a Red Knight, Hight Sir Adresack, and of How He Liberated XXII Captives Fro"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Third"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 22,
+        "preview": "How Sir Pellias Did Battle With Sir Engamore, Otherwise the Knight of the Green Sleeves, and of What"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Fourth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 20,
+        "preview": "How Queen Guinevere Quarrelled With Sir Gawaine, and How Sir Gawaine Left the Court of King Arthur F"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Fifth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 17,
+        "preview": "How Sir Gawaine Met Sir Pellias and How He Promised to Aid Him With the Lady Ettard255"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Sixth"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_xii",
+        "words": 13,
+        "preview": "How the Lady of the Lake Took Back Her Necklace From Sir Pellias267"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "PART III THE STORY OF SIR GAWAINE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter First"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 28,
+        "preview": "How a White Hart Appeared Before King Arthur, and How Sir Gawaine and Gaheris, His Brother, Went in "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Second"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 24,
+        "preview": "How King Arthur Became Lost in the Forest, and How He Fell Into a Very Singular Adventure in a Castl"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter Third"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 17,
+        "preview": "How King Arthur Overcame the Knight-Enchanter, and How Sir Gawaine Manifested the High Nobility of H"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "LIST_OF_ILLUSTRATIONS",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Uther-PendragonFrontispiece"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Head Piece—Table of Contentsvii"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Tail Piece—Table of Contentsxii"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Head Piece—List of Illustrationsxiii"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Tail Piece—List of Illustrationsxvi"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_xiv",
+        "words": 2,
+        "preview": "Head Piece—Prologue3"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Tail Piece—Prologue7"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Sir Kay breaketh his sword at ye Tournament8"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Head Piece—Part I9"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Sir Kay showeth the mystic Sword unto Sir Ector20"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "How Arthur drew forth ye Sword28"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "In the Valley of Delight40"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Head Piece—Part II41"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Battle with the Sable Knight52"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Excalibur the Sword64"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Tail Piece—Part II76"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Lady Guinevere78"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Head Piece—Part III79"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Two Knights do battle before Cameliard90"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "The White Champion meets two Knights at the Mill100"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Four Knights serve the Gardener Lad112"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The Gardener Lad takes off his Cap124"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_xv",
+        "words": 6,
+        "preview": "King Arthur meets the Lady Guinevere138"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Tail Piece—Part III146"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Ornamented Title—The Book of Three Worthies149"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Lady of ye Lake150"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Head Piece—Foreword151"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Enchanter Merlin154"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Head Piece—Prologue155"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Tail Piece—Prologue160"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Enchantress Vivien162"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Head Piece—The Story of Merlin163"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Vivien bewitches Merlin172"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Queen Morgana le Fay180"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Queen Morgana loses Excalibur his sheath190"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Tail Piece—The Story of Merlin202"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Sir Pellias, the Gentle Knight204"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Head Piece—The Story of Sir Pellias205"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Sir Pellias encounters the Sorrowful Lady in Arroy214"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "page_xvi",
+        "words": 7,
+        "preview": "Parcenet covers Sir Pellias with a cloak226"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "The Lady of the Lake sits by the Fountain in Arroy240"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Sir Gawaine sups with ye Lady Ettard254"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "The Lady of the Lake finds Sir Pellias wounded266"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Sir Gawaine the Son of Lot, King of Orkney280"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Head Piece—The Story of Sir Gawaine281"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "King Arthur findeth ye old woman in ye hut294"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Sir Gawaine finds the beautiful Lady304"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Tail Piece—The Story of Sir Gawaine312"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "85735441b249a0861caa8ec0eb9888bf0b04c19a45ccd8aaf0989f94296195e4",
+    "html_sha256": "1de4b44a3419502cfe268d5002dfbb7ac1022e7e30b570237487af1bae4bbb07",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/001.txt",
+      "sha256": "48aa44b28e784774ab44b7e76299176fb47ccaf0eb462555eac9a5931867edd7",
+      "bytes": 10273
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/002.txt",
+      "sha256": "d7780c2c694f9225111497372d78cc3ad2581a768e8f0d7ddbc42e02636f78b2",
+      "bytes": 277
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/003.txt",
+      "sha256": "690ad0d9ab8bec2d90a3f6531f3ed4170fbf48fa69d6c28869a02a6b37546f2f",
+      "bytes": 23364
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/004.txt",
+      "sha256": "c73038dec75b449c0d06e160fb2970883e85a2790fe0e1729c150453bfb8b2c9",
+      "bytes": 14955
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/005.txt",
+      "sha256": "fbb2fcdc44b37e06114d670a3b6f8ba26be1ac54c356403e05e56c58c18d0ade",
+      "bytes": 16046
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/006.txt",
+      "sha256": "40dab9f88f8edfef3253ddaccb3a4b4e23512d1bf5751bf1fe59a3f299814e60",
+      "bytes": 6164
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/007.txt",
+      "sha256": "c7d9c76f3fba6ec72dee4d044f5cf83fbaf5d48ec13ec7a4e6115fa6f8a5b0ab",
+      "bytes": 1442
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/008.txt",
+      "sha256": "0deb56cdcfb252bbd6609cc43eca723a7307eac55e1a563a9bb9fa42c7bf6c02",
+      "bytes": 23778
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/009.txt",
+      "sha256": "ad8b5daf2cca4b559ccacba5c54756b54344e616beb2bf731c7173c2ca734fbd",
+      "bytes": 23510
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/010.txt",
+      "sha256": "3009f2ce87fdd1eaeb11b647b778d132bf342a0f9e44e8cc9ab0b5bc54d68e54",
+      "bytes": 29869
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/011.txt",
+      "sha256": "582d41665bae727eb621d4bb252384b207cede08f829c82a525a49bc00e61251",
+      "bytes": 917
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/012.txt",
+      "sha256": "ba7542fc0db838ad7ca5250452c1af2ab33a525bd26c98fca8608e6d31b028d0",
+      "bytes": 23955
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/013.txt",
+      "sha256": "ae41d448a7c023bca60ce5ee0fdf919782e680b5878ad448751547fa6223ef65",
+      "bytes": 18673
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/014.txt",
+      "sha256": "04e48f85e96fe478047871e05e0e2e639e2331a268d0e45a0e1ce076d3a2be95",
+      "bytes": 23586
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/015.txt",
+      "sha256": "281ec23bc2c6747b99db75555390a53d7f988d92b382c7aa03f47ff68120fd8b",
+      "bytes": 24178
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/016.txt",
+      "sha256": "d54e56c2ce615315dd5f9c69ca61415d61beb61d52e4583a19eaac61090ff23c",
+      "bytes": 30529
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/017.txt",
+      "sha256": "226768c23040b82e2385e29e636694e0b8055d0f89704db09d7201d87d6ca664",
+      "bytes": 18392
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/018.txt",
+      "sha256": "2cf50b9f4c4bb90783de5e1959e5eac63f099577fe52052ddf93c30b1399180b",
+      "bytes": 2715
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/019.txt",
+      "sha256": "b0542f6b062c9d5ccb8aad571dd8b1b91527e4cecc59828fd7869009d9aa0bfe",
+      "bytes": 13886
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/020.txt",
+      "sha256": "e1ecf60abef5e6a443ae2ad177692b4f7da48563987c0ae630c75a8028202168",
+      "bytes": 471
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/021.txt",
+      "sha256": "6dd4f6df3c25769752a8c7bd99cacac40b3d2b776fa963ebc05ba3799b31e75f",
+      "bytes": 18228
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/022.txt",
+      "sha256": "3dbb93e81ef8e15a6221ebd0f6f007364547e005ae7a21cc2a628b77bfe5868d",
+      "bytes": 14977
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/023.txt",
+      "sha256": "c715fbb5c1cbd9f0da0d33a6e542a30623bce19ba63c5c799003bcaf1e55384b",
+      "bytes": 20024
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/024.txt",
+      "sha256": "6a0e9c8d532643908e8d679883f38c12db48497a231e685532e0002c14a553e9",
+      "bytes": 19239
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/025.txt",
+      "sha256": "9822bacb87a94357bb311d67e349e8a3bb1083d334a1294b837a07bb2ebccb39",
+      "bytes": 7309
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/026.txt",
+      "sha256": "fe237302842c0cb434fb7dc296fc2c50d82e8faa490accfdc3f16ae8f798b15a",
+      "bytes": 884
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/027.txt",
+      "sha256": "3503106be90a63b44884e011f8fceaf4ec7c86fa141c9960f8a5a02229629150",
+      "bytes": 18612
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/028.txt",
+      "sha256": "e695a12dbf59cf3bf703c73f2d733990fe97eeead6e57226d8192f8a4da52f29",
+      "bytes": 23671
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/029.txt",
+      "sha256": "c5f1c43f025108a72069115506ebe7d58bbbf57a8356b0fa45e43b8b6710c3b4",
+      "bytes": 29565
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/030.txt",
+      "sha256": "57b0bdc26e35ae6e9250681728c71d246e48a95ed40dd52f4a2430977ebebef4",
+      "bytes": 31265
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/031.txt",
+      "sha256": "89409dc3e400848d71427077ee9fe198863e7482aad886fd5627d734e08ded6d",
+      "bytes": 25439
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/032.txt",
+      "sha256": "2a801de6d99b4270c7b2e700e5968b376523832942d156c8829a6583c8f34d1e",
+      "bytes": 30615
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/033.txt",
+      "sha256": "7dbab35a94e1bdfe06316112b33707c94e2e25aabc66af595c9e93827f3dabcf",
+      "bytes": 762
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/034.txt",
+      "sha256": "ce913463e38d43932da37933c430151eb92a654d4e71998cc785b1ed37fdf8d0",
+      "bytes": 28461
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/035.txt",
+      "sha256": "039c57c12f88b00305c424c91d0cd26d18481c2076f96c68432c421b342cb97c",
+      "bytes": 20375
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/036.txt",
+      "sha256": "2e2a71f3480bcf50a5347c2304f7bf0deb7a8fd65851ac8e8ce3b20948c42a1c",
+      "bytes": 18783
+    },
+    {
+      "path": "books/pg-60184-the-story-of-king-arthur-and-his-knights/chapters/037.txt",
+      "sha256": "5322b8f67c40f3edff6970682717b60b6a25bfbe61f009087792970da463e9bd",
+      "bytes": 1000
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 897,
+  "slug": "pg-897-the-rose-and-the-ring",
+  "title": "The Rose and the Ring",
+  "title_i18n": {
+    "en": "The Rose and the Ring",
+    "zh-CN": "玫瑰与戒指",
+    "ja": "バラと指輪"
+  },
+  "author": "William Makepeace Thackeray",
+  "authors_catalog": "Thackeray, William Makepeace, 1811-1863",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/897/pg897-images.html",
+  "text_sha256": "26f259b05fbe235561e74be6d2e8dfc3083df54d9b6895d7d428af889e17c760",
+  "page_sha256": "502caa061f0bf518191c46d8068d574fa3e186a79b083a2c70242479dae665d8",
+  "extraction": {
+    "extra_heading_texts": [
+      "PRELUDE"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1863,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 20,
+    "word_count": 29434,
+    "selected_text_sha256": "a3ae528d374226f31f29b12c5a89cd9b8fdc0fa3d31cddb127b54b35535025ad",
+    "section_titles": [
+      "PRELUDE",
+      "I. SHOWS HOW THE ROYAL FAMILY SATE DOWN TO BREAKFAST",
+      "II. HOW KING VALOROSO GOT THE CROWN, AND PRINCE GIGLIO WENT WITHOUT",
+      "III. TELLS WHO THE FAIRY BLACKSTICK WAS, AND WHO WERE EVER SO MANY GRAND PERSONAGES BESIDES",
+      "IV. HOW BLACKSTICK WAS NOT ASKED TO THE PRINCESS ANGELICA’S CHRISTENING",
+      "V. HOW PRINCESS ANGELICA TOOK A LITTLE MAID",
+      "VI. HOW PRINCE GIGLIO BEHAVED HIMSELF",
+      "VII. HOW GIGLIO AND ANGELICA HAD A QUARREL",
+      "VIII. HOW GRUFFANUFF PICKED THE FAIRY RING UP, AND PRINCE BULBO CAME TO COURT",
+      "IX. HOW BETSINDA GOT THE WARMING PAN",
+      "X. HOW KING VALOROSO WAS IN A DREADFUL PASSION",
+      "XI. WHAT GRUFFANUFF DID TO GIGLIO AND BETSINDA",
+      "XII. HOW BETSINDA FLED, AND WHAT BECAME OF HER",
+      "XIII. HOW QUEEN ROSALBA CAME TO THE CASTLE OF THE BOLD COUNT HOGGINARMO",
+      "XIV. WHAT BECAME OF GIGLIO",
+      "XV. WE RETURN TO ROSALBA",
+      "XVI. HOW HEDZOFF RODE BACK AGAIN TO KING GIGLIO",
+      "XVII. HOW A TREMENDOUS BATTLE TOOK PLACE, AND WHO WON IT",
+      "XVIII. HOW THEY ALL JOURNEYED BACK TO THE CAPITAL",
+      "XIX. AND NOW WE COME TO THE LAST SCENE IN THE PANTOMIME"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Nineteen chapters and literary Prelude.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 20,
+    "word_count": 29434,
+    "kept_blocks": 575,
+    "omitted_blocks": 5,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 143,
+        "preview": "The Project Gutenberg eBook of The Rose and the Ring This eBook is for the use of anyone anywhere in"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE ROSE AND THE RING *** Updated editions will replace the p"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE ROSE AND THE RING"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by William Makepeace Thackeray"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "a3ae528d374226f31f29b12c5a89cd9b8fdc0fa3d31cddb127b54b35535025ad",
+    "html_sha256": "26f259b05fbe235561e74be6d2e8dfc3083df54d9b6895d7d428af889e17c760",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/001.txt",
+      "sha256": "f98af2147f63572833d2550e3a95fd33e05b65cc0ae006b46af9d60848f33db0",
+      "bytes": 2891
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/002.txt",
+      "sha256": "3409b4578f75baf84f239ce00d0ea7e0663d9e945db2f8d850684dcda2fec069",
+      "bytes": 5816
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/003.txt",
+      "sha256": "0beb2e315a4fdf53eb2fddd90572b0df9fbdbf0172c033ab9a20f4366f155940",
+      "bytes": 5596
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/004.txt",
+      "sha256": "77ed8022f93bb633704e848aca637a5a150e20edea25ec46128be303764e22a1",
+      "bytes": 7598
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/005.txt",
+      "sha256": "f35e78a8fe974b154c095752c7f9cfe7ddb18794bf39a8a56f8fb3f92c013a60",
+      "bytes": 3878
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/006.txt",
+      "sha256": "fa20337e32974a4c5b871f386b386bbd076731bd0f870675521b072213929044",
+      "bytes": 7003
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/007.txt",
+      "sha256": "af283cedbb258806590e1f7ba433d066a39bb4604ea1fdb0f3be7438d609fd8f",
+      "bytes": 10290
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/008.txt",
+      "sha256": "726295c830ad1e33dee3c98b6ce3191742762c2e29f5fa5e00d4e9dfb20dec9e",
+      "bytes": 8109
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/009.txt",
+      "sha256": "e5d2d4b8af0b9cd268b2595a406eacb997f27049b8e2354107ea0a3125c52bae",
+      "bytes": 11377
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/010.txt",
+      "sha256": "a91f00a622ea7d169b4cea6ab019ff72286a246b12edafde75fd448cd3c92f60",
+      "bytes": 8087
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/011.txt",
+      "sha256": "b9982776c984e3333e80fcc0e81fb8590fd0bc49eb4ef9fa20035b8d96e001d4",
+      "bytes": 4051
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/012.txt",
+      "sha256": "2a9233ddac1f81cb8e45cdee2b92fea00d2488c390fd5398dbc36305374cebd8",
+      "bytes": 13973
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/013.txt",
+      "sha256": "d98805c77b6dc73ada8db10a1397e45414b743cf9ebed52f9b36942f3cb647a7",
+      "bytes": 7981
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/014.txt",
+      "sha256": "5b2f2e00da08c188ba64b7d3ab95904352f1dea9104aea35476dd10834c42179",
+      "bytes": 6416
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/015.txt",
+      "sha256": "5be7afbcddbfcf49dc2b5be08390b1d0ba0319e757e7d919461e5a1389b3b50a",
+      "bytes": 19848
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/016.txt",
+      "sha256": "2efb8d0768980c0e02e4bf64b2a94ffb1011cb809b6ce52e629e14a03c1d81d3",
+      "bytes": 9971
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/017.txt",
+      "sha256": "b70bb821f0495cc9d59b351791e49801b439f1cb8718e2c6f078be554b782f72",
+      "bytes": 7057
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/018.txt",
+      "sha256": "eea761a7911c967dc6b075bccc490672ef95069536260747c2b8d2c871763f6b",
+      "bytes": 13844
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/019.txt",
+      "sha256": "8ae6acfcd378d0933738cf8d87305dfb9eacd68459e4daaebd802c257e57fd86",
+      "bytes": 9740
+    },
+    {
+      "path": "books/pg-897-the-rose-and-the-ring/chapters/020.txt",
+      "sha256": "0b92623c2bbffde30197dd43fbd4a93ce40f387b48100d367474cc4f33b184f7",
+      "bytes": 5972
+    }
+  ]
+}

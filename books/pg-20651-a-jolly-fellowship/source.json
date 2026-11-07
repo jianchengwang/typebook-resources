@@ -1,0 +1,963 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 20651,
+  "slug": "pg-20651-a-jolly-fellowship",
+  "title": "A Jolly Fellowship",
+  "title_i18n": {
+    "en": "A Jolly Fellowship",
+    "zh-CN": "快乐的伙伴",
+    "ja": "陽気な仲間たち"
+  },
+  "author": "Frank R. Stockton",
+  "authors_catalog": "Stockton, Frank R., 1834-1902",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/20651/pg20651-images.html",
+  "text_sha256": "b74960f36fff3b26aac83da3c5b8741c309036e730ac7e80873ecccf3772636f",
+  "page_sha256": "e0954e68cce0b5b56edec54239776cb5c87a1d28336832639f2cc7e519795776",
+  "extraction": {
+    "end_text": "Scribner's New Books for Young People",
+    "prefatory_sections": [
+      {
+        "title": "Opening Frame",
+        "text": "This story is told by Will Gordon, a young fellow about sixteen years old, who saw for himself everything worth seeing in the course of the events he relates, and so knows much more about them than any one who would have to depend upon hearsay. Will is a good-looking boy, with brown hair and gray eyes, rather large for his age, and very fond of being a leader among his young companions. Whether or not he is good at that sort of thing, you can judge from the story he tells."
+      }
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1902,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 25,
+    "word_count": 75042,
+    "selected_text_sha256": "183ebab6f0ee1198ee5783e2ccc502c5885ac829933e9843940dd131d470c71d",
+    "section_titles": [
+      "Opening Frame",
+      "CHAPTER I. — WE MAKE A START.",
+      "CHAPTER II. — GOING BACK WITH THE PILOT.",
+      "CHAPTER III. — RECTUS OPENS HIS EYES.",
+      "CHAPTER IV. — TO THE RESCUE.",
+      "CHAPTER V. — STORMING SAN MARCO.",
+      "CHAPTER VI. — THE GIRL ON THE BEACH.",
+      "CHAPTER VII. — MR. CHIPPERTON.",
+      "CHAPTER VIII. — THE STEAM-BOAT IN THE FOREST.",
+      "CHAPTER IX. — THE THREE GRAY BEANS.",
+      "CHAPTER X. — THE QUEEN ON THE DOOR-STEP.",
+      "CHAPTER XI. — REGAL PROJECTS.",
+      "CHAPTER XII. — RECTUS LOSES RANK.",
+      "CHAPTER XIII. — THE CORONATION.",
+      "CHAPTER XIV. — A HOT CHASE.",
+      "CHAPTER XV. — A STRANGE THING HAPPENS TO ME.",
+      "CHAPTER XVI. — MR. CHIPPERTON KEEPS PERFECTLY COOL.",
+      "CHAPTER XVII. — WHAT BOY HAS DONE, BOY MAY DO.",
+      "CHAPTER XVIII. — I WAKE UP MR. CHIPPERTON.",
+      "CHAPTER XIX. — THE LIFE-RAFT.",
+      "CHAPTER XX. — THE RUSSIAN BARK.",
+      "CHAPTER XXI. — THE TRIP OF THE TUG.",
+      "CHAPTER XXII. — LOOKING AHEAD.",
+      "CHAPTER XXIII. — UNCLE CHIPPERTON'S DINNER.",
+      "CHAPTER XXIV. — THE STORY ENDS."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Twenty-four chapters and narrator introduction.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 25,
+    "word_count": 75042,
+    "kept_blocks": 1716,
+    "omitted_blocks": 122,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 143,
+        "preview": "The Project Gutenberg eBook of A Jolly Fellowship This eBook is for the use of anyone anywhere in th"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"BANG! BANG! BANG!—SEVEN TIMES.\" [Page 105]"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"SHE SEIZED ME BY BOTH HANDS.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE VESSEL IS OFF."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "SCOTT AND THE CAPTAIN."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "RECTUS AND THE LEMONS."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"'HOLD YOUR TONGUE!' ROARED MR. RANDALL.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"RECTUS SHOWED ME THE MAP.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "\"HOW?\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"ANOTHER BEAN.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"THE GENTLEMAN WAVED HIS HAT TO US.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"WHY, HOW DO YOU DO?\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"VOY-EZZ VOWS CETT HOMMY ETT SES DUCKS FEMMYS SEELAH?\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"WE SAW HER SLOWLY RISING BENEATH US.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"'ALL RIGHT,' SAID GOLIAH, WITH A SMILE.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "A SMALL DIVE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"I WOULDN'T LIKE IT MYSELF.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"WE STRUCK OUT TOGETHER FOR THE BOAT.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"'KEEP PERFECTLY COOL,' SAID MR. CHIPPERTON.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"RECTUS HELPED ME TO FASTEN THE LIFE-PRESERVER.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"YOU'RE A REGULAR YOUNG TRUMP.\""
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK A JOLLY FELLOWSHIP *** Updated editions will replace the prev"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Scribner's New Books for Young People"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "1901 and 1902"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "By the author of \"Wild Animals I Have Known\""
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "LIVES OF THE HUNTED"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "By Ernest Seton-Thompson. Profusely illustrated by the author. Square 12mo, $1.75 net."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "THE most important work of Mr. Seton-Thompson since his \"Wild Animals I Have Known,\" fully equalling"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 66,
+        "preview": "It includes all the animal stories Mr. Seton-Thompson has written since his last book together with "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE IMP AND THE ANGEL"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "By Josephine Dodge Daskam, author of \"Sister's Vocation,\" \"Smith College Stories,\" etc. Profusely il"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "IN her portrayal of the \"Imp,\" the seven-year-old hero of this series of seven stories, Miss Daskam "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "A SON OF SATSUMA"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Or, with Perry in Japan. By Kirk Munroe. 12mo, $1.00 net"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "A VIGOROUS story for boys dealing with one of the most romantic episodes in the history of our count"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "HANS BRINKER"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "Or, The Silver Skates. By Mary Mapes Dodge. With 100 illustrations by Allen B. Doggett. 12mo, $1.50"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 71,
+        "preview": "IN order to give a still wider circulation to Mrs. Dodge's celebrated American classic for young rea"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE STORY OF MANHATTAN"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "By Charles Hemstreet, author of \"Nooks and Corners of Old New York.\" Illustrated. 12mo, $1.00 net"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 55,
+        "preview": "MR. Hemstreet becomes in this charming young people's work the annalist as well as the antiquary of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "FIRST ACROSS THE CONTINENT"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "By Noah Brooks. Fully illustrated. $1.50 net."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 59,
+        "preview": "THE absorbing story of the famous Lewis and Clark exploration of the vast northwestern territory acq"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "LEM—A NEW ENGLAND BOY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "His Adventures and Mishaps. By Noah Brooks. Illustrated by H. C. Edwards. $1.00 net."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 51,
+        "preview": "BOY life in a New England village forty or fifty years ago has never been portrayed more faithfully "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE OUTCASTS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "By W. A. Fraser, author of \"Mooswa.\" Illustrated by Arthur Heming. $1.25 net."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 44,
+        "preview": "ANOTHER inimitable animal book by the author and artist of \"Mooswa.\" It is the story of the strange "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE OUTLAWS OF HORSE-SHOE HOLE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "A Story of the Montana Vigilants. By Francis Hill. Illustrated by R. F. Zogbaum. $1.00 net."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "A STIRRING book for boys and men by a new writer of the fascinating life of the western frontier a d"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 47,
+        "preview": "Three New Books by G. A. Henty Each Illustrated, 12mo, $1.25 net AT THE POINT OF THE BAYONET A Story"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "\"Wherever English is spoken one imagines that Mr. Henty's name is known. Mr. Henty is no doubt the m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 59,
+        "preview": "Three Famous Books for Boys by James Baldwin New Editions of these Standard Books, each, 12mo, $1.50"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 58,
+        "preview": "In these books Mr. Baldwin presents respectively the legends relating to the Trojan War, the great S"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHARLES SCRIBNER'S SONS, NEW YORK CITY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's Notes"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Obvious punctuation errors repaired."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "The word \"won't\" is spelled \"wont\" consistently in the original. This was retained."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The remaining corrections made are indicated by dotted lines under the corrections. Scroll the mouse"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "A JOLLY FELLOWSHIP."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "FRANK R. STOCKTON'S WRITINGS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "New Uniform Edition"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "RUDDER GRANGE$1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE LATE MRS. NULL1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "ARDIS CLAVERDEN1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE WATCHMAKER'S WIFE1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE RUDDER GRANGERS ABROAD 1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE BEE-MAN OF ORN1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE LADY, OR THE TIGER?1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE CHRISTMAS WRECK1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "AMOS KILBRIGHT1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE HOUSE OF MARTHA1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "AFIELD AND AFLOAT. Illustrated. 12mo$1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE GIRL AT COBHURST. 12mo1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "A STORY-TELLER'S PACK. Illustrated. 12mo1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "MRS. CLIFF'S YACHT. Illustrated. 12mo1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE ADVENTURES OF CAPTAIN HORN. 12mo1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "A CHOSEN FEW. SHORT STORIES. Cameo Edition 1.25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "RUDDER GRANGE. With over 100 Illustrations by A. B. Frost. 12mo 1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "POMONA'S TRAVELS. Illustrated by A. B. Frost. 12mo 1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "BOOKS FOR YOUNG PEOPLE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "A JOLLY FELLOWSHIP. Illustrated. 12mo$1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE STORY OF VITEAU. Illustrated. 12mo1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE TING-A-LING TALES. Illustrated. 12mo1.00"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "THE FLOATING PRINCE, and Other Fairy Tales. Illustrated. 4to1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "ROUNDABOUT RAMBLES IN LANDS OF FACT AND FANCY. Illustrated. 4to 1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "TALES OUT OF SCHOOL. Illustrated. 4to1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "PERSONALLY CONDUCTED. Illustrated, square 8vo2.00"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "THE CLOCKS OF RONDAINE, and Other Stories, Illustrated, square 8vo1.50"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "A JOLLY FELLOWSHIP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "FRANK R. STOCKTON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "AUTHOR OF \"RUDDER GRANGE,\" ETC. ILLUSTRATED NEW-YORK CHARLES SCRIBNER'S SONS 1901"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "Copyright, 1880, by Charles Scribner's Sons. TROW'S PRINTING AND BOOKBINDING COMPANY, NEW YORK."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "img_images_spine01.jpg",
+        "words": 94,
+        "preview": "Chapter. Page. I.We Make a Start1 II.Going Back with the Pilot16 III.Rectus Opens His Eyes29 IV.To t"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Page."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "\"Bang! Bang! Bang!—Seven Times.\"(Frontispiece.)"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"She Seized Me by Both Hands\"10"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Vessel is Off17"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Scott and the Captain19"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Rectus and the Lemons27"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"'Hold Your Tongue!' Roared Mr. Randall\"32"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"Rectus Showed Me the Map\"35"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "\"How?\"46"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"Another Bean\"64"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"The Gentleman Waved His Hat to Us\"80"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"Why, How Do You Do?\"88"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"Voy-ezz Vows cett Hommy ett ses Ducks Femmys seelah?\" 110"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"We Saw Her Slowly Rising Beneath Us\"119"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"'All Right,' said Goliah, with a Smile\"157"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "A Small Dive170"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"I Wouldn't Like it Myself\"197"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"We Struck Out together for the Boat\"224"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"'Keep Perfectly Cool,' said Mr. Chipperton\"239"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"Rectus Helped Me to Fasten the Life-Preserver\"243"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"You're a Regular Young Trump\"277"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "A JOLLY FELLOWSHIP."
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "183ebab6f0ee1198ee5783e2ccc502c5885ac829933e9843940dd131d470c71d",
+    "html_sha256": "b74960f36fff3b26aac83da3c5b8741c309036e730ac7e80873ecccf3772636f",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/001.txt",
+      "sha256": "27bdd531935641132d51ea1854f6d46b1579cf82c9212806d14dd4ec0fcfe8e2",
+      "bytes": 478
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/002.txt",
+      "sha256": "91dfbfda2d726701ebf5dbc80d870001a436b51cdea17fffd1a860c381f8cecb",
+      "bytes": 20292
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/003.txt",
+      "sha256": "6c6a7366d9837320b08629d54ca1bb29be4ae219b90f300c0646eb2861dc2875",
+      "bytes": 14352
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/004.txt",
+      "sha256": "dd00befae73f5a587dfb653693cbade51a08f6f45587d314c9fceee931b07017",
+      "bytes": 17682
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/005.txt",
+      "sha256": "d93702ae48b54ca8f87e0a263b3dfe9336d60a508d6748ae6dc762ff704421db",
+      "bytes": 16798
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/006.txt",
+      "sha256": "9a03efb1b5d48171bf3abed855375650da3624e3c537f5844d84df95ec6797f7",
+      "bytes": 15760
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/007.txt",
+      "sha256": "f08ac7864a9be1a5e8f67473a12243d254245cda60faa889f777336dfc8d9c46",
+      "bytes": 25060
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/008.txt",
+      "sha256": "f332ac0e42b5aff67105ef80b6e7e7dc06f52636a57e961c202fa5fcd84bb0f5",
+      "bytes": 15854
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/009.txt",
+      "sha256": "773b426463cf1e92b3d2809170091b5799c416ae7c14e3c0ac61837fcc78efb4",
+      "bytes": 20706
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/010.txt",
+      "sha256": "ca4de34f17abd435a60c5232b16619e01dc407360974735ad7cca918bad13a35",
+      "bytes": 15329
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/011.txt",
+      "sha256": "58fd1d9a7dc9281fd391a65fc77d318d5ae2da362a1aaf737ff55a0fecff68ce",
+      "bytes": 16408
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/012.txt",
+      "sha256": "e29080205381018207bf2b4bc06f582c09e50b1163b66ba1bea18c7a3a97fcdb",
+      "bytes": 18468
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/013.txt",
+      "sha256": "374e9cd31bfddda1a59e01c33bce769b0179206a30ff7a24bbfba4933f6e4e26",
+      "bytes": 15188
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/014.txt",
+      "sha256": "c024c2d22457248fcfb81dcb608476270126d114f652ea3a55b91017bbf43532",
+      "bytes": 15165
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/015.txt",
+      "sha256": "99cf5c3bd78b063616af58d61a7023c4de1624e7787ef1526b0feb568f51b41c",
+      "bytes": 18595
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/016.txt",
+      "sha256": "2b58b8488e8b35ca86771cd83884094dc8bff4460bc7a907edfa08d510fa64e7",
+      "bytes": 16309
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/017.txt",
+      "sha256": "861c4bc4827317feae1782da9a3a29222dadf03f6bb68577410eccd659a70e1e",
+      "bytes": 18279
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/018.txt",
+      "sha256": "bf795cb2fb2f79a7bf7fb86cd26ca8afae1e0f50cdaca44022090d9756e10988",
+      "bytes": 15670
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/019.txt",
+      "sha256": "291fdac8a27c6bb31509dee76a9b11e042cab7afc937bfbf3e8e633d45aef565",
+      "bytes": 16031
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/020.txt",
+      "sha256": "6377c5edd816f174ce7ba52f2788d43b607652150b22882c2d3c4ffb91ab8cf5",
+      "bytes": 14310
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/021.txt",
+      "sha256": "10e582d22abd2a8d44afaba9d6a5c85010562db3c909f29bb51d7f17ab1d3a76",
+      "bytes": 15189
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/022.txt",
+      "sha256": "a58601d388eef582597c92859cf1ed3b3f0c7b9639c894f44e9165b50386e52a",
+      "bytes": 15316
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/023.txt",
+      "sha256": "2d2a7fd8ccea74cbb52f90265342253ad58f606ba60eacf114110c43548281e5",
+      "bytes": 14078
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/024.txt",
+      "sha256": "2ef0f45332cfec9dd8be487d19f1872917ef56fa64829bd477d81fd0da078ad8",
+      "bytes": 14606
+    },
+    {
+      "path": "books/pg-20651-a-jolly-fellowship/chapters/025.txt",
+      "sha256": "80a815a68f94b5569db5d95528fc00fbaa450940edacae7d981f541f618b03e5",
+      "bytes": 4464
+    }
+  ]
+}

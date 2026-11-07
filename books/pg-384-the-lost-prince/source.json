@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 384,
+  "slug": "pg-384-the-lost-prince",
+  "title": "The Lost Prince",
+  "title_i18n": {
+    "en": "The Lost Prince",
+    "zh-CN": "失踪的王子",
+    "ja": "消えた王子"
+  },
+  "author": "Frances Hodgson Burnett",
+  "authors_catalog": "Burnett, Frances Hodgson, 1849-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/384/pg384-images.html",
+  "text_sha256": "7731204b110c9d0b424578885248821e030037ee0ee27171374c946950054a57",
+  "page_sha256": "e1290d7d44502b8e6b22f40a860c29870db47fe0eb5b1a1019ec809e2b58309d",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 31,
+    "word_count": 99094,
+    "selected_text_sha256": "64dc6c7d049efbe1bc97ed1231e8c314ce986bb8db4e622844544d0c36a0e679",
+    "section_titles": [
+      "I — THE NEW LODGERS AT NO. 7 PHILIBERT PLACE",
+      "II — A YOUNG CITIZEN OF THE WORLD",
+      "III — THE LEGEND OF THE LOST PRINCE",
+      "IV — THE RAT",
+      "V — \"SILENCE IS STILL THE ORDER\"",
+      "VI — THE DRILL AND THE SECRET PARTY",
+      "VII — \"THE LAMP IS LIGHTED!\"",
+      "VIII — AN EXCITING GAME",
+      "IX — \"IT IS NOT A GAME\"",
+      "X — THE RAT—AND SAMAVIA",
+      "XI — \"COME WITH ME\"",
+      "XII — \"ONLY TWO BOYS\"",
+      "XIII — LORISTAN ATTENDS A DRILL OF THE SQUAD, AND MARCO MEETS A SAMAVIAN",
+      "XIV — MARCO DOES NOT ANSWER",
+      "XV — A SOUND IN A DREAM",
+      "XVI — THE RAT TO THE RESCUE",
+      "XVII — \"IT IS A VERY BAD SIGN\"",
+      "XVIII — \"CITIES AND FACES\"",
+      "XIX — \"THAT IS ONE!\"",
+      "XX — MARCO GOES TO THE OPERA",
+      "XXI — \"HELP!\"",
+      "XXII — A NIGHT VIGIL",
+      "XXIII — THE SILVER HORN",
+      "XXIV — \"HOW SHALL WE FIND HIM?\"",
+      "XXV — A VOICE IN THE NIGHT",
+      "XXVI — ACROSS THE FRONTIER",
+      "XXVII — \"IT IS THE LOST PRINCE! IT IS IVOR!\"",
+      "XXVIII — \"EXTRA! EXTRA! EXTRA!\"",
+      "XXIX — 'TWIXT NIGHT AND MORNING",
+      "XXX — THE GAME IS AT AN END",
+      "XXXI — \"THE SON OF STEFAN LORISTAN\""
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 31,
+    "word_count": 99094,
+    "kept_blocks": 2154,
+    "omitted_blocks": 37,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 139,
+        "preview": "The Project Gutenberg eBook of The Lost Prince This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE LOST PRINCE *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE LOST PRINCE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Francis Hodgson Burnett"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "I The New Lodgers at No. 7 Philibert Place"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "II A Young Citizen of the World"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "III The Legend of the Lost Prince"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "IV The Rat"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "V \"Silence Is Still the Order\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "VI The Drill and the Secret Party"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "VII \"The Lamp Is Lighted!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "VIII An Exciting Game"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "IX \"It Is Not a Game\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "X The Rat—and Samavia"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XI Come with Me"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XII Only Two Boys"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "XIII Loristan Attends a Drill of the Squad"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XIV Marco Does Not Answer"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XV A Sound in a Dream"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XVI The Rat to the Rescue"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XVII \"It Is a Very Bad Sign\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVIII \"Cities and Faces\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XIX \"That Is One!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XX Marco Goes to the Opera"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "XXI \"Help!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXII A Night Vigil"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIII The Silver Horn"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXIV \"How Shall We Find Him?\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXV A Voice in the Night"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVI Across the Frontier"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "XXVII \"It is the Lost Prince! It Is Ivor!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVIII \"Extra! Extra! Extra!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXIX 'Twixt Night and Morning"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XXX The Game Is at an End"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXXI \"The Son of Stefan Loristan\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE LOST PRINCE"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 3,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "64dc6c7d049efbe1bc97ed1231e8c314ce986bb8db4e622844544d0c36a0e679",
+    "html_sha256": "7731204b110c9d0b424578885248821e030037ee0ee27171374c946950054a57",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/001.txt",
+      "sha256": "2a31fa03639489aa080eaa0e5605e0e4b5f4ad6627b26156305d7a59ada59955",
+      "bytes": 10712
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/002.txt",
+      "sha256": "44a38c8fd5cae0337e1a66537e4175533e60f20c6fca18f7b9460100b6d2cc7c",
+      "bytes": 13205
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/003.txt",
+      "sha256": "088aa0da5cba7fd8c6a05fd7ad25a42b3b684dc3edbe9454492841a19eb59130",
+      "bytes": 17649
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/004.txt",
+      "sha256": "3afe43604e65e6dafc97fbb76306400a0d943e635685cd56ccd283f481f73f4b",
+      "bytes": 25572
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/005.txt",
+      "sha256": "db5886ab7655b7af3ddc8a796a5807418512aa51c2ec187fd5911b37598c9ad6",
+      "bytes": 14185
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/006.txt",
+      "sha256": "cb554663342c592d621d93c23443e02ecf5cea4537265a3e4995fb3a501215d4",
+      "bytes": 26144
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/007.txt",
+      "sha256": "f0a5daed44db6e73385a4efb8d6532598720b1987206e7fe0259a6ad48d01108",
+      "bytes": 16592
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/008.txt",
+      "sha256": "9477ec983a8fc180a400099f605c857a0d14a3152f4312f4c3151f55dd26de6d",
+      "bytes": 14518
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/009.txt",
+      "sha256": "2d38ccf5688669b4a0f7b947e5ea92801623fbd7ec63f630c42b33363da22559",
+      "bytes": 13540
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/010.txt",
+      "sha256": "d3cbda0d56765052dbd4983ddeef7a049e0d1416e3e3d91aac4cd20b6b8ee76f",
+      "bytes": 15015
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/011.txt",
+      "sha256": "2e789d4d000f4db4e2bcbf462b7673e1045baf59903138e2bb42710bde9a9169",
+      "bytes": 6620
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/012.txt",
+      "sha256": "60c0704a593501ad5aeacf025a8d6870f1e63eb41c0b2806ea6f57fb3aa717b5",
+      "bytes": 17348
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/013.txt",
+      "sha256": "ca70b1aa8ad9c18fb2343ffbf2077209961cecf5b90e888c6c943ce99ea0d4cb",
+      "bytes": 23566
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/014.txt",
+      "sha256": "1f54149531edc9e005f1b1410de495ceb3a6b521414af13cbe1ac59ec5f7fc17",
+      "bytes": 23402
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/015.txt",
+      "sha256": "3a0922033426dcb95b5d8813d8d10e5e572a7f837d42c92602f269da50f48534",
+      "bytes": 8623
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/016.txt",
+      "sha256": "72a5c4fd94f63764e0afc673d6185fe3d75c4b77763406fc444efe190c630baa",
+      "bytes": 7234
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/017.txt",
+      "sha256": "8e436888c8f3abe4c893ff5b46a46de6e26f6572275967be76ca61365db2735c",
+      "bytes": 7072
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/018.txt",
+      "sha256": "61172696e1604f6f9f4fd34ee121fdd8d526046f979d1e4a03f7acc42e54558c",
+      "bytes": 15316
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/019.txt",
+      "sha256": "57068c33817351d0933e53172a2edbc2280ec3ad25ef3d6537ca5b35942218d4",
+      "bytes": 18024
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/020.txt",
+      "sha256": "9ef9324706c5aa0d96d89b6a6b3d3673df94ecf5512fbfd203b32b201adc34f2",
+      "bytes": 15895
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/021.txt",
+      "sha256": "bc95e0971fa2ea9227347c14ba143daf216ae267bafbfa5d10cf748c6401e0b3",
+      "bytes": 28125
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/022.txt",
+      "sha256": "8012d6e8f6536588495a534806414ee1b279518d8ef2060acfe1ce93f5f5f07d",
+      "bytes": 24942
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/023.txt",
+      "sha256": "e756abe4815908f3f235f10ffc8b4572fca60e1f883cebcc310c19b7e41e2444",
+      "bytes": 22979
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/024.txt",
+      "sha256": "30a37bf470d0891796a8bb63b43cb52c0085f4505acd31ab4c29173c2f6bb2f6",
+      "bytes": 14847
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/025.txt",
+      "sha256": "91ecf434fd68b7ab332990b92821d6fca29cda6f8c79564f0d37497f4a9bdea2",
+      "bytes": 23566
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/026.txt",
+      "sha256": "153d919c037c0719e2e2bf87f9938e9c2c862e061011dd9181d7f2c4beaa12fe",
+      "bytes": 21960
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/027.txt",
+      "sha256": "0f2cf24637ac79a0367029c5d73f955a0566d6e51ebfa87257440433fabdc4c3",
+      "bytes": 13633
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/028.txt",
+      "sha256": "d65b40313da3fa16946f3d54082e54c8f48a73220a84a585a631071a0acf7411",
+      "bytes": 16131
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/029.txt",
+      "sha256": "da12a1d86efc07a7b4cd837a06795f41ac3ea7a9861cb986ab4139079c0fecac",
+      "bytes": 18154
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/030.txt",
+      "sha256": "6dee4b60d779f8277908ec3e4694bdd9146441373a7853e64309f693f20fa7f2",
+      "bytes": 14039
+    },
+    {
+      "path": "books/pg-384-the-lost-prince/chapters/031.txt",
+      "sha256": "665e253cce027e12c99f9e089502fe1b1ec2400b0d8121f9158c30ee83b355a8",
+      "bytes": 22851
+    }
+  ]
+}

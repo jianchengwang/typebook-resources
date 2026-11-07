@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2186,
+  "slug": "pg-2186-captains-courageous-a-story-of-the-grand-banks",
+  "title": "\"Captains Courageous\": A Story of the Grand Banks",
+  "title_i18n": {
+    "en": "\"Captains Courageous\": A Story of the Grand Banks",
+    "zh-CN": "勇敢的船长",
+    "ja": "勇敢な船長"
+  },
+  "author": "Rudyard Kipling",
+  "authors_catalog": "Kipling, Rudyard, 1865-1936",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/2186/pg2186-images.html",
+  "text_sha256": "bbddf062fe0f518efd21d57c6e66dab72805df5760524e93caa4a91f2b189e53",
+  "page_sha256": "e9bf0954ac48574fa3508e6d2d6b987b6a3a1683f9773137266b4ad2bd2339a1",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1936,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 10,
+    "word_count": 52489,
+    "selected_text_sha256": "9ae7e9dbc3abe9b3bc22a5cfc5361f2bb07b914edfa0f2b9328c8c8c800a2350",
+    "section_titles": [
+      "CHAPTER I",
+      "CHAPTER II",
+      "CHAPTER III",
+      "CHAPTER IV",
+      "CHAPTER V",
+      "CHAPTER VI",
+      "CHAPTER VII",
+      "CHAPTER VIII",
+      "CHAPTER IX",
+      "CHAPTER X"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 10,
+    "word_count": 52489,
+    "kept_blocks": 1318,
+    "omitted_blocks": 9,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 156,
+        "preview": "The Project Gutenberg eBook of \"Captains Courageous\": A Story of the Grand Banks This eBook is for t"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2911,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK \"CAPTAINS COURAGEOUS\": A STORY OF THE GRAND BANKS *** Updated"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"CAPTAINS COURAGEOUS\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "A STORY OF THE GRAND BANKS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Rudyard Kipling"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 37,
+        "preview": "TO JAMES CONLAND, M.D., Brattleboro, Vermont I ploughed the land with horses, But my heart was ill a"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "CHAPTER I CHAPTER II CHAPTER III CHAPTER IV CHAPTER V"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "CHAPTER VI CHAPTER VII CHAPTER VIII CHAPTER IX CHAPTER X"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "9ae7e9dbc3abe9b3bc22a5cfc5361f2bb07b914edfa0f2b9328c8c8c800a2350",
+    "html_sha256": "bbddf062fe0f518efd21d57c6e66dab72805df5760524e93caa4a91f2b189e53",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/001.txt",
+      "sha256": "fb6d5743efac5781497085f5c26ae970ecb88f69b81195cd2ea32a13c5b9cae6",
+      "bytes": 22854
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/002.txt",
+      "sha256": "4b8b1295f2cc92a57acbf970a4c4728a821caed0b8999a11b95a6e872a198a26",
+      "bytes": 31268
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/003.txt",
+      "sha256": "0782dac5ab18b0dda5df793ec0de11ad895c0ad8e673134087a1be6e0fa96ccc",
+      "bytes": 36752
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/004.txt",
+      "sha256": "e01619b48ce9d93ee411dad7d95541b478b4f49a1ab4c376562379b96b915d2b",
+      "bytes": 28981
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/005.txt",
+      "sha256": "1add273d434ef428a5f03732f9e0373c5e3e5543213d66aef2e8e5f1778fd904",
+      "bytes": 26886
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/006.txt",
+      "sha256": "bc0b117f146f65254367353393636fc339f33ddac0a47af529663e8264cfcce8",
+      "bytes": 16895
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/007.txt",
+      "sha256": "80ccb5a63fbe8058d9a2a2f8303603d4371cdfe978b777764604667d6b8aa2c6",
+      "bytes": 13118
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/008.txt",
+      "sha256": "1289ff3fcbdb961f60848b36bd1688e9fc955affe0bf4513ba6f50c254215a8e",
+      "bytes": 38124
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/009.txt",
+      "sha256": "773428b0e5e275ee9627f381a779926314b4fcb4e7034b0a97662f5a41eff9f5",
+      "bytes": 40915
+    },
+    {
+      "path": "books/pg-2186-captains-courageous-a-story-of-the-grand-banks/chapters/010.txt",
+      "sha256": "472eb0f3e429f75395c1907f388377763046a25f53440e2f380dc6f6ba6793e3",
+      "bytes": 38420
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 6100,
+  "slug": "pg-6100-pollyanna-grows-up",
+  "title": "Pollyanna Grows Up",
+  "title_i18n": {
+    "en": "Pollyanna Grows Up",
+    "zh-CN": "波莉安娜长大了",
+    "ja": "パレアナの青春"
+  },
+  "author": "Eleanor H. Porter",
+  "authors_catalog": "Porter, Eleanor H. (Eleanor Hodgman), 1868-1920",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/6100/pg6100-images.html",
+  "text_sha256": "a0ca85c27f829f743b63b5a7aa0abd825dc311072cb8f118f64f978f7b66b968",
+  "page_sha256": "8aa76c843951dcb032363327500590cd2861f12e545690fd01407e917cb2d90d",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1920,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 32,
+    "word_count": 73156,
+    "selected_text_sha256": "46a0ceae47b72a6e8b22e643c37ac57d089a06db8ed2f7c00ae6aee1ead98a12",
+    "section_titles": [
+      "CHAPTER I — DELLA SPEAKS HER MIND",
+      "CHAPTER II — SOME OLD FRIENDS",
+      "CHAPTER III — A DOSE OF POLLYANNA",
+      "CHAPTER IV — THE GAME AND MRS. CAREW",
+      "CHAPTER V — POLLYANNA TAKES A WALK",
+      "CHAPTER VI — JERRY TO THE RESCUE",
+      "CHAPTER VII — A NEW ACQUAINTANCE",
+      "CHAPTER VIII — JAMIE",
+      "CHAPTER IX — PLANS AND PLOTTINGS",
+      "CHAPTER X — IN MURPHY'S ALLEY",
+      "CHAPTER XI — A SURPRISE FOR MRS. CAREW",
+      "CHAPTER XII — FROM BEHIND A COUNTER",
+      "CHAPTER XIII — A WAITING AND A WINNING",
+      "CHAPTER XIV — JIMMY AND THE GREEN-EYED MONSTER",
+      "CHAPTER XV — AUNT POLLY TAKES ALARM",
+      "CHAPTER XVI — WHEN POLLYANNA WAS EXPECTED",
+      "CHAPTER XVII — WHEN POLLYANNA CAME",
+      "CHAPTER XVIII — A MATTER OF ADJUSTMENT",
+      "CHAPTER XIX — TWO LETTERS",
+      "CHAPTER XX — THE PAYING GUESTS",
+      "CHAPTER XXI — SUMMER DAYS",
+      "CHAPTER XXII — COMRADES",
+      "CHAPTER XXIII — \"TIED TO TWO STICKS\"",
+      "CHAPTER XXIV — JIMMY WAKES UP",
+      "CHAPTER XXV — THE GAME AND POLLYANNA",
+      "CHAPTER XXVI — JOHN PENDLETON",
+      "CHAPTER XXVII — THE DAY POLLYANNA DID NOT PLAY",
+      "CHAPTER XXVIII — JIMMY AND JAMIE",
+      "CHAPTER XXIX — JIMMY AND JOHN",
+      "CHAPTER XXX — JOHN PENDLETON TURNS THE KEY",
+      "CHAPTER XXXI — AFTER LONG YEARS",
+      "CHAPTER XXXII — A NEW ALADDIN"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 32,
+    "word_count": 73156,
+    "kept_blocks": 2126,
+    "omitted_blocks": 21,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 144,
+        "preview": "The Project Gutenberg eBook of Pollyanna Grows Up This eBook is for the use of anyone anywhere in th"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id00212",
+        "words": 8,
+        "preview": "[Illustration: \"'Oh, my! What a perfectly lovely automobile!'\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id00455",
+        "words": 11,
+        "preview": "[Illustration: \"Twice again, after short intervals, she trod the fascinating way\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id00582",
+        "words": 6,
+        "preview": "[Illustration: \"It was a wonderful hour\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id00945",
+        "words": 15,
+        "preview": "[Illustration: \"'I don't know her name yet, but I know HER, so it's all right'\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id01278",
+        "words": 11,
+        "preview": "[Illustration: See Frontispiece: \"Jimmy looked down at the wistful, eager face\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id01562",
+        "words": 16,
+        "preview": "[Illustration: \"'The instrument that you play on, Pollyanna, will be the great heart of the world'\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id01947",
+        "words": 8,
+        "preview": "[Illustration: \"Involuntarily she turned as if to flee\"]"
+      },
+      {
+        "reason": "illustration-placeholder",
+        "source_id": "id02140",
+        "words": 7,
+        "preview": "[Illustration: \"'I'm glad, GLAD, GLAD for—everything now!'\"]"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK POLLYANNA GROWS UP *** Updated editions will replace the prev"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00000",
+        "words": 3,
+        "preview": "POLLYANNA GROWS UP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00001",
+        "words": 5,
+        "preview": "The Second Glad Book Trade——Mark"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00002",
+        "words": 4,
+        "preview": "By Eleanor H. Porter"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00003",
+        "words": 22,
+        "preview": "Author of \"Pollyanna: The Glad Book.\" \"Miss Billy,\" Trade——Mark \"Miss Billy's Decision,\" \"Miss Billy"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00004",
+        "words": 2,
+        "preview": "Illustrated by"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00005",
+        "words": 3,
+        "preview": "H. Weston Taylor"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00006",
+        "words": 4,
+        "preview": "To My Cousin Walter"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00007",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00008",
+        "words": 144,
+        "preview": "I. Della Speaks Her Mind II. Some Old Friends III. A Dose Of Pollyanna IV. The Game And Mrs. Carew V"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00009",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00010",
+        "words": 72,
+        "preview": "\"Jimmy looked down at the wistful, eager face\" \"'Oh, my! What a perfectly lovely automobile!'\" \"Twic"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "46a0ceae47b72a6e8b22e643c37ac57d089a06db8ed2f7c00ae6aee1ead98a12",
+    "html_sha256": "a0ca85c27f829f743b63b5a7aa0abd825dc311072cb8f118f64f978f7b66b968",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/001.txt",
+      "sha256": "3ccff2683ae27f4fca9b123edcddcc2ef5b46969508a7ab2da9c316315364787",
+      "bytes": 15069
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/002.txt",
+      "sha256": "718d8f95f9a31cda91861a95438bed45fc3ef23c916313d30310fc04c121913e",
+      "bytes": 20618
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/003.txt",
+      "sha256": "180bf58cabe197c7aaa8473c3d5d2d58e0ca7b37e60c88ad58fe4a16c5c59901",
+      "bytes": 16013
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/004.txt",
+      "sha256": "a7ac9cebbaac61d51ba4b8dd8a0e8818db722a692c0422a5688a5d6f36bbdd27",
+      "bytes": 12340
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/005.txt",
+      "sha256": "bb9cb1024aca762d04ec539329b72ddaedc839376afd9f7574bf60f8addd76b1",
+      "bytes": 26049
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/006.txt",
+      "sha256": "2e6d575a4a46cee0f78f569dd69d2626a8870b306140173bd7f83dce87d420a2",
+      "bytes": 13281
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/007.txt",
+      "sha256": "ee7ee887ff8290f6866d24e67b6f5290b52740649c011da83aedd430eb284d20",
+      "bytes": 12649
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/008.txt",
+      "sha256": "b135efe46921f07e953c104830f41b933de986e3d186c0a6245256bc5517558a",
+      "bytes": 14526
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/009.txt",
+      "sha256": "1ee1ab5172beaefac73ff87abfe4e28c956642271221a06042b330d60c9e7690",
+      "bytes": 11018
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/010.txt",
+      "sha256": "0bfc6c90c717ba0478ff90bcdc513ea51b7e8f38ce879707049218a432595059",
+      "bytes": 15697
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/011.txt",
+      "sha256": "b7a3a25a1a27a1f74aa3b8f2b2699b2499ce2b3ba8fcd7ff13c8b0f5283652ad",
+      "bytes": 12143
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/012.txt",
+      "sha256": "6d382d120c25d764b44ca6ba0564b935e714837c4ee37c943e673d96acfa85f6",
+      "bytes": 11496
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/013.txt",
+      "sha256": "ac2de2e452624ecdc372083ce8edf2409ede8cd79e6a9334a8d29dca566fb10a",
+      "bytes": 18602
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/014.txt",
+      "sha256": "a966b59464941f8ba2c60b19f285ac7b321d7cc72eea9770dc8934332fdbe9e1",
+      "bytes": 9005
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/015.txt",
+      "sha256": "08b39b8d998a3ddafd21f089c4e498df24b42c4154e6483fc5d8fe5934ccfaba",
+      "bytes": 7516
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/016.txt",
+      "sha256": "f384bc532eb37cbbabd13869ef70068844266b87ba1867204e0b640aa406e881",
+      "bytes": 14178
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/017.txt",
+      "sha256": "a39479492b6e7c1529681947a76048d34b3ddff9f8d543d27cde495e368bd35d",
+      "bytes": 14644
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/018.txt",
+      "sha256": "de962a04473a8e516394fac97060ff2fab6f1daf7a9fe6ad5406ff7cda57ffc9",
+      "bytes": 10955
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/019.txt",
+      "sha256": "c08e75aaf5b49c21672f36fd4d4301027178a9c6567b76ffdff7c93c37e5f8fe",
+      "bytes": 12676
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/020.txt",
+      "sha256": "a4ad4e9865d0870ebb6775326ad40e6fe4deb04e302fa0217cc8f59067663a77",
+      "bytes": 12387
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/021.txt",
+      "sha256": "323c94e956428ef21005a5c7a3ba8c3200aefa732ab074dd44510b7f986ea07a",
+      "bytes": 11696
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/022.txt",
+      "sha256": "8e9cfa71d1c2fd18802e9cf66630c12bf25038116c7d97182be71ba1ce26eca6",
+      "bytes": 13638
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/023.txt",
+      "sha256": "ddc36598702b76d24c39dfaa9621114421193048757aae4c6899a24d05aa0d71",
+      "bytes": 6245
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/024.txt",
+      "sha256": "62c57363a71887ed778b2c60bb5202644b80a3d3018ef5568f53b68fd0619967",
+      "bytes": 13910
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/025.txt",
+      "sha256": "26a42b1f84504a94c9ccf2c65833cc9539e22233f13e426d8323f64f06f97f24",
+      "bytes": 13501
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/026.txt",
+      "sha256": "7867e4b32150abe18d0b9b9eb47e04168ec51182c935e73652c063dbb7dd1f31",
+      "bytes": 9026
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/027.txt",
+      "sha256": "dcba0e1ccb1d2cd15de2a7b7d56406165e4a9615fd1b34cbb60527b87c7a26aa",
+      "bytes": 11089
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/028.txt",
+      "sha256": "719aeec34ce5750c995ff13b8c9808f6991fbae99cc543b98447a1089e92899e",
+      "bytes": 11181
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/029.txt",
+      "sha256": "9352cbccb337b8d5c4dbf1387f7f03c2be373086ff8e912bdc98bb47c131e12e",
+      "bytes": 9096
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/030.txt",
+      "sha256": "02ba406aa3540b6f03f3e7303b22aafc5596fa9907816377c806aeaf81e8c69e",
+      "bytes": 8571
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/031.txt",
+      "sha256": "600f210a1f6ce60b5ee122b2e8695cc1be23ee0804f933ad3ad94e889040e4fc",
+      "bytes": 15533
+    },
+    {
+      "path": "books/pg-6100-pollyanna-grows-up/chapters/032.txt",
+      "sha256": "baeabebd222655910c6f1e2455b952cf2deb92df0cd1389874757ad27d8ee3c4",
+      "bytes": 6781
+    }
+  ]
+}

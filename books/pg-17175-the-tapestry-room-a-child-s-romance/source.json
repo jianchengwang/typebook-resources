@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 17175,
+  "slug": "pg-17175-the-tapestry-room-a-child-s-romance",
+  "title": "The Tapestry Room: A Child's Romance",
+  "title_i18n": {
+    "en": "The Tapestry Room: A Child's Romance",
+    "zh-CN": "挂毯房间",
+    "ja": "タペストリーの部屋"
+  },
+  "author": "Mrs. Molesworth",
+  "authors_catalog": "Molesworth, Mrs., 1839-1921; Crane, Walter, 1845-1915 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/17175/pg17175-images.html",
+  "text_sha256": "eaba41e3083143f1f16b3286fa39e143ed9e05d35de2c227c9573e33945e4ba5",
+  "page_sha256": "51a2d30fc50e37a36a540f7ecb4784c55f19cc97fb0b4a1c08378be672d73ea6",
+  "extraction": {
+    "end_text": "Printed by R. & R. Clark, Limited, Edinburgh."
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1921,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 49177,
+    "selected_text_sha256": "731e227e0f24e7915d2cf9d9933d80f00753ab84d21f7a135ea333469a2e8682",
+    "section_titles": [
+      "CHAPTER I. — MADEMOISELLE JEANNE.",
+      "CHAPTER II. — PRINCE CHÉRI.",
+      "CHAPTER III. — ON A MOONLIGHT NIGHT.",
+      "CHAPTER IV. — THE FOREST OF THE RAINBOWS.",
+      "CHAPTER V. — FROG-LAND.",
+      "CHAPTER VI. — THE SONG OF THE SWAN.",
+      "CHAPTER VII — WINGS AND CATS.",
+      "CHAPTER VIII. — \"THE BROWN BULL OF NORROWA.\"",
+      "CHAPTER IX. — THE BROWN BULL—(Continued).",
+      "CHAPTER X. — THE END OF THE BROWN BULL.",
+      "CHAPTER XI. — DUDU'S OLD STORY.",
+      "CHAPTER XII. — AU REVOIR."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 49177,
+    "kept_blocks": 1080,
+    "omitted_blocks": 62,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 154,
+        "preview": "The Project Gutenberg eBook of The Tapestry Room: A Child's Romance This eBook is for the use of any"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "'DUDU'"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "'ISN'T IT A FUNNY ROOM, CHÉRI?'—p. 25"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "—\"IT WAS DUDU!\"—p. 51"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "ONWARDS QUIETLY STEPPED THE LITTLE PROCESSION.—p. 75"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "TWO CHRISTMAS ANGELS.—p. 122"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "STORY SPINNING.—p. 141"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE BROWN BULL OF NORROWA.—p. 162"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "'IS THIS A NEW PART OF THE HOUSE?'—p. 201"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2909,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE TAPESTRY ROOM: A CHILD'S ROMANCE *** Updated editions wil"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Printed by R. & R. Clark, Limited, Edinburgh."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's notes:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Page 170, extraneous ' removed from \"She looked ...\""
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Page 189, Double quotes changed to single quotes 'The crowd is so great...prettier than you,'"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The remaining corrections made are indicated by dotted lines under the corrections. Scroll the mouse"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE TAPESTRY ROOM"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "A Child's Romance"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Mrs. MOLESWORTH"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "AUTHOR OF 'CARROTS,' 'CUCKOO CLOCK,' 'GRANDMOTHER DEAR,' 'TELL ME A STORY,' ETC."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "'What tale did Iseult to the children say,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Under the hollies, that bright winter's day?'"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Matthew Arnold"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "ILLUSTRATED BY WALTER CRANE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "London MACMILLAN AND CO., Limited NEW YORK: THE MACMILLAN COMPANY 1899"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "(By Permission.)"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 19,
+        "preview": "TO H.R.H. VITTORIO EMANUELE PRINCE OF NAPLES CROWN PRINCE OF ITALY ONE OF THE KINDLIEST OF MY YOUNG "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Maison du Chanoine, October 1879."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER I."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "page"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Mademoiselle Jean1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER II."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Prince Chéri20"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER III."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "On a Moonlight Night37"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Forest of the Rainbows56"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER V."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Frog-land75"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Song of the Swan94"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Wings and Cats114"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"The Brown Bull of Norrowa\"135"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Brown Bull—(Continued)158"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER X."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The End of the Brown Bull177"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Dudu's Old Story197"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Au Revoir218"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "\"Dudu\"Vignette on Title-Page."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"Isn't it a Funny Room, Chéri?\"To face Page25"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "It was Dudu\"51"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Onwards quietly stepped the Little Procession\"75"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Two Christmas Angels\"122"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Story Spinning\"141"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Brown Bull of Norrowa\"162"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"Is this a new part of the House?\"\"201"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "731e227e0f24e7915d2cf9d9933d80f00753ab84d21f7a135ea333469a2e8682",
+    "html_sha256": "eaba41e3083143f1f16b3286fa39e143ed9e05d35de2c227c9573e33945e4ba5",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/001.txt",
+      "sha256": "bbbf79fa698cacca7e4ea35c41b7ed4da10cf3c88f2dd91ccdc7018bb25611e7",
+      "bytes": 21399
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/002.txt",
+      "sha256": "1e4600e36a9d1b2d69702205faf211b12f027f134858fd2c93af8417937e219c",
+      "bytes": 18578
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/003.txt",
+      "sha256": "5d10fac99f92873b53cf971b09ed697453d8763fa083473ed4e92c86eb646282",
+      "bytes": 21445
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/004.txt",
+      "sha256": "b8cf2572152d594906d46ee447aeb278b0fc34b0a5c6429a5722df5630572468",
+      "bytes": 22134
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/005.txt",
+      "sha256": "3ff98ced1a06521ba1e19a145dbe3ddc7ca2212604b79bad86b8299a4d7c11cb",
+      "bytes": 21856
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/006.txt",
+      "sha256": "53c8fb03e9d75a5a104ce899bca87e00fd04c0dbda9747d98fec739613da997c",
+      "bytes": 22159
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/007.txt",
+      "sha256": "10e180736be57a61e4a476c41ba61a565e10c86a4464160c66b6a1b0e7f8b900",
+      "bytes": 22527
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/008.txt",
+      "sha256": "802a122db818f5cd28be168ad023338418c1adff280c7fcec195343198611189",
+      "bytes": 25794
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/009.txt",
+      "sha256": "e6f4ca4fdbf658e5548192e1e0b0716dad1801e0f93319d5cfffbd2a387c9cce",
+      "bytes": 22338
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/010.txt",
+      "sha256": "89357fce7326128e21069a3d74c0b6cbde30f7bc5d393012543581ae92efeec8",
+      "bytes": 23865
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/011.txt",
+      "sha256": "43ebd1d1dc3144069ab63d3bbfb13871a6e2794c1171d4b52e943e211b8384ca",
+      "bytes": 23165
+    },
+    {
+      "path": "books/pg-17175-the-tapestry-room-a-child-s-romance/chapters/012.txt",
+      "sha256": "39652883b865529c689483754e6a83bff21ec6e827e64eed5757a8e3313e3578",
+      "bytes": 22499
+    }
+  ]
+}

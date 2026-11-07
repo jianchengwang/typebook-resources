@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 3536,
+  "slug": "pg-3536-the-enchanted-castle",
+  "title": "The Enchanted Castle",
+  "title_i18n": {
+    "en": "The Enchanted Castle",
+    "zh-CN": "魔法城堡",
+    "ja": "魔法の城"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/3536/pg3536-images.html",
+  "text_sha256": "8d7a588fa845f1052880b4c6a977b90da5e40fd07720d7cdeb39829b9eaefabd",
+  "page_sha256": "80033d9891ac298768e43124e332ca736ed1c131dfaf6a07c8e05e37442c6372",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 68293,
+    "selected_text_sha256": "f57082177c2a2175751c0225b88bba7fdabdb18fc3b4e91f8f8ca8c8706325a9",
+    "section_titles": [
+      "CHAPTER I",
+      "CHAPTER II",
+      "CHAPTER III",
+      "CHAPTER IV",
+      "CHAPTER V",
+      "CHAPTER VI",
+      "CHAPTER VII",
+      "CHAPTER VIII",
+      "CHAPTER IX",
+      "CHAPTER X",
+      "CHAPTER XI",
+      "CHAPTER XII"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 68293,
+    "kept_blocks": 2279,
+    "omitted_blocks": 8,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 128,
+        "preview": "The Project Gutenberg eBook of The Enchanted Castle This eBook is for the use of anyone anywhere in "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE ENCHANTED CASTLE *** Updated editions will replace the pr"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00000",
+        "words": 3,
+        "preview": "The Enchanted Castle"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00001",
+        "words": 3,
+        "preview": "by E. Nesbit"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00002",
+        "words": 8,
+        "preview": "To Margaret Ostler with love from E. Nesbit"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00003",
+        "words": 31,
+        "preview": "Peggy, you came from the heath and moor, And you brought their airs through my open door; You brough"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00004",
+        "words": 37,
+        "preview": "For the sake of that magic I send you here A tale of enchantments, Peggy dear, A bit of my work, and"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00005",
+        "words": 7,
+        "preview": "Royalty Chambers, Soho, W. 25 September 1907"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "f57082177c2a2175751c0225b88bba7fdabdb18fc3b4e91f8f8ca8c8706325a9",
+    "html_sha256": "8d7a588fa845f1052880b4c6a977b90da5e40fd07720d7cdeb39829b9eaefabd",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/001.txt",
+      "sha256": "19fcc3b58f943c1e1d31d7a40bf8f27036da136920969867decc626e25c74ceb",
+      "bytes": 31397
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/002.txt",
+      "sha256": "8d4b1ed7b7e35886d2b36d7e830a91710946f9ffe7ef380233d54a72621e224f",
+      "bytes": 25555
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/003.txt",
+      "sha256": "64911b2bb64b56f1729358541e17f9b7b035feb699c349bcedd18b99ce15aaf3",
+      "bytes": 33378
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/004.txt",
+      "sha256": "610432ac62b6a4d778e33394610e5861608c3da662f5825db1b3dba781fd4d53",
+      "bytes": 25491
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/005.txt",
+      "sha256": "8746738af801458f51db4c355f5384d8f41a5f7b720e9890a05af051105d69e3",
+      "bytes": 32435
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/006.txt",
+      "sha256": "8413a32e4abbd3e3ced041d49e3f2c2d769baece915186a6c6af608e2f9530b9",
+      "bytes": 33827
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/007.txt",
+      "sha256": "2c79437387797b75251cf447ca1828d561887be22dcb4dcc87fc9f54870f6d61",
+      "bytes": 36197
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/008.txt",
+      "sha256": "a7caf334889d227535790e320a26ed450f30a872bb38da4b48121311fd6c39a7",
+      "bytes": 37948
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/009.txt",
+      "sha256": "664750c98daa720a3652cf4e8b749a298e228a3f5c57b2f6d0eb72e83eb4e1fc",
+      "bytes": 29696
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/010.txt",
+      "sha256": "1c8c4f1009f24887e252738de2ff34c33d90d0f7d185ac261728c4822c84d684",
+      "bytes": 33945
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/011.txt",
+      "sha256": "afe7a7b1ef876efab33765425295cc95163580c8c9171ce8c8cc6281635fcc6e",
+      "bytes": 33728
+    },
+    {
+      "path": "books/pg-3536-the-enchanted-castle/chapters/012.txt",
+      "sha256": "b0f5800d8e0b254526074ced66283e446cffa155957bfc6392e75eee341000e5",
+      "bytes": 24067
+    }
+  ]
+}

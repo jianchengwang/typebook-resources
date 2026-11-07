@@ -1,0 +1,918 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 5601,
+  "slug": "pg-5601-jan-of-the-windmill-a-story-of-the-plains",
+  "title": "Jan of the Windmill: A Story of the Plains",
+  "title_i18n": {
+    "en": "Jan of the Windmill: A Story of the Plains",
+    "zh-CN": "风车旁的扬",
+    "ja": "風車小屋のヤン"
+  },
+  "author": "Juliana Horatia Ewing",
+  "authors_catalog": "Ewing, Juliana Horatia, 1841-1885",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/5601/pg5601-images.html",
+  "text_sha256": "899c465402b7a595103556447bad279f772aec32f602bd3cdcee7259fb49356e",
+  "page_sha256": "0c04210d6572c47d865c7407667258b8421d8063bf1cda61fdfd875cf498025c",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1885,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 42,
+    "word_count": 82219,
+    "selected_text_sha256": "ddf82bd2db682eca26cf6ece2e9c4a21280b75a04208b50a92e38786ddf4d2cf",
+    "section_titles": [
+      "CHAPTER I.",
+      "CHAPTER II.",
+      "CHAPTER III.",
+      "CHAPTER IV.",
+      "CHAPTER V.",
+      "CHAPTER VI.",
+      "CHAPTER VII.",
+      "CHAPTER VIII.",
+      "CHAPTER IX.",
+      "CHAPTER X.",
+      "CHAPTER XI.",
+      "CHAPTER XII.",
+      "CHAPTER XIII.",
+      "CHAPTER XIV.",
+      "CHAPTER XV.",
+      "CHAPTER XVI.",
+      "CHAPTER XVII.",
+      "CHAPTER XVIII.",
+      "CHAPTER XIX.",
+      "CHAPTER XX.",
+      "CHAPTER XXI.",
+      "CHAPTER XXII.",
+      "CHAPTER XXIII.",
+      "CHAPTER XXIV.",
+      "CHAPTER XXV.",
+      "CHAPTER XXVI.",
+      "CHAPTER XXVII.",
+      "CHAPTER XXVIII.",
+      "CHAPTER XXIX.",
+      "CHAPTER XXX.",
+      "CHAPTER XXXI.",
+      "CHAPTER XXXII.",
+      "CHAPTER XXXIII.",
+      "CHAPTER XXXIV.",
+      "CHAPTER XXXV.",
+      "CHAPTER XXXVI.",
+      "CHAPTER XXXVII.",
+      "CHAPTER XXXVIII.",
+      "CHAPTER XXXIX.",
+      "CHAPTER XL.",
+      "CHAPTER XLI.",
+      "CHAPTER XLII."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 42,
+    "word_count": 82219,
+    "kept_blocks": 1582,
+    "omitted_blocks": 99,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 155,
+        "preview": "The Project Gutenberg eBook of Jan of the Windmill: A Story of the Plains This eBook is for the use "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2912,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK JAN OF THE WINDMILL: A STORY OF THE PLAINS *** Updated editio"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "This eBook was produced by Les Bowler."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "JAN OF THE WINDMILL."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "A Story of the Plains."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "BY THE LATE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "JULIANA HORATIA EWING."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "AUTHOR OF “SIX TO SIXTEEN;” “FLAT IRON FOR A FARTHING;” “MRS. OVERTHEWAY’S REMEMBRANCES,” ETC."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "WITH ELEVEN ILLUSTRATIONS BY MRS. W. ALLINGHAM (HELEN PATERSON)."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "FIFTH EDITION"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "LONDON: GEORGE BELL & SONS, YORK STREET, COVENT GARDEN. 1890."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Dedicated TO MY DEAR SISTER MARGARET."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "J. H. E."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "PAGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER I."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "THE WINDMILLER’S WIFE.—STRANGERS.—TEN SHILLINGS A WEEK.—THE LITTLE JAN. 1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER II."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "THE MILLER’S CALCULATIONS.—HIS HOPES AND FEARS.—THE NURSE-BOY.—CALM. 14"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER III."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "THE WINDMILLER’S WORDS COME TRUE.—THE RED SHAWL.—IN THE CLOUDS.—NURSING V. PIG-MINDING.—THE ROUND-HO"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "BLACK AS SLANS.—VAIR AND VOOLISH.—THE MILLER AND HIS MAN. 27"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER V."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "THE POCKET-BOOK AND THE FAMILY BIBLE.—FIVE POUNDS’ REWARD. 33"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "GEORGE GOES COURTING.—GEORGE AS AN ENEMY.—GEORGE AS A FRIEND.—ABEL PLAYS SCHOOLMASTER.—THE LOVE-LETT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 19,
+        "preview": "ABEL GOES TO SCHOOL AGAIN.—DAME DATCHETT.—A COLUMN OF SPELLING.—ABEL PLAYS MOOCHER.—THE MILLER’S MAN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "VISITORS AT THE MILL.—A WINDMILLER OF THE THIRD GENERATION.—CURE FOR WHOOPING-COUGH.—MISS AMABEL ADE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "GENTRY BORN.—LEARNING LOST.—JAN’S BEDFELLOW.—AMABEL. 63"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER X."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "ABEL AT HOME.—JAN OBJECTS TO THE MILLER’S MAN.—THE ALPHABET.—THE CHEAP JACK.—“PITCHERS”. 66"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "SCARECROWS AND MEN.—JAN REFUSES TO “MAKE GEARGE.”—UNCANNY.—“JAN’S OFF.”—THE MOON AND THE CLOUDS. 77"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "THE WHITE HORSE.—COMROGUES.—MOERDYK.—GEORGE CONFIDES IN THE CHEAP JACK—WITH RESERVATION. 84"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "GEORGE AS A MONEYED MAN.—SAL.—THE “WHITE HORSE.”—THE WEDDING.—THE WINDMILLER’S WIFE FORGETS, AND REM"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XIV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "SUBLUNARY ART.—JAN GOES TO SCHOOL.—DAME DATCHETT AT HOME.—JAN’S FIRST SCHOOL SCRAPE.—JAN DEFENDS HIM"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 21,
+        "preview": "WILLUM GIVES JAN SOME ADVICE.—THE CLOCK FACE.—THE HORNET AND THE DAME.—JAN DRAWS PIGS.—JAN AND HIS P"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XVI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "THE MOP.—THE SHOP.—WHAT THE CHEAP JACK’S WIFE HAD TO TELL.—WHAT GEORGE WITHHELD. 118"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XVII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 32,
+        "preview": "THE MILLER’S MAN AT THE MOP.—A LIVELY COMPANION.—SAL LOSES HER PURSE.—THE RECRUITING SERGEANT.—THE P"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XVIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "MIDSUMMER HOLIDAYS.—CHILD FANCIES.—JAN AND THE PIG-MINDER.—MASTER SALTER AT HOME.—JAN HIRES HIMSELF "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XIX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "THE BLUE COAT.—PIG-MINDING AND TREE-STUDYING.—LEAF-PAINTINGS.—A STRANGER.—MASTER SWIFT IS DISAPPOINT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "SQUIRE AMMABY AND HIS DAUGHTER.—THE CHEAP JACK DOES BUSINESS ONCE MORE.—THE WHITE HORSE CHANGES MAST"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "MASTER SWIFT AT HOME.—RUFUS.—THE EX-PIG-MINDER.—JAN AND THE SCHOOLMASTER. 161"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "THE PARISH CHURCH.—REMBRANDT.—THE SNOW SCENE.—MASTER SWIFT’S AUTOBIOGRAPHY. 168"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "THE WHITE HORSE IN CLOVER.—AMABEL AND HER GUARDIANS.—AMABEL IN THE WOOD.—BOGY. 179"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXIV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "THE PAINT-BOX.—MASTER LINSEED’S SHOP.—THE NEW SIGN-BOARD.—MASTER SWIFT AS WILL SCARLET. 188"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "SANITARY INSPECTORS.—THE PESTILENCE.—THE PARSON.—THE DOCTOR.—THE SQUIRE AND THE SCHOOLMASTER.—DESOLA"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXVI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 21,
+        "preview": "THE BEASTS OF THE VILLAGE.—ABEL SICKENS.—THE GOOD SHEPHERD.—RUFUS PLAYS THE PHILANTHROPIST.—MASTER S"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXVII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "JAN HAS THE FEVER.—CONVALESCENCE IN MASTER SWIFT’S COTTAGE.—THE SQUIRE ON DEMORALIZATION. 211"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXVIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "MR. FORD’S CLIENT.—THE HISTORY OF JAN’S FATHER.—AMABEL AND BOGY THE SECOND. 217"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXIX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "JAN FULFILS ABEL’S CHARGE.—SON OF THE MILL.—THE LARGE-MOUTHED WOMAN. 230"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "JAN’S PROSPECTS, AND MASTER SWIFT’S PLANS.—TEA AND MILTON.—NEW PARENTS.—PARTING WITH RUFUS.—JAN IS K"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "SCREEVING.—AN OLD SONG.—MR. FORD’S CLIENT.—THE PENNY GAFF.—JAN RUNS AWAY. 246"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "THE BAKER.—ON AND ON.—THE CHURCH BELL.—A DIGRESSION.—A FAMILIAR HYMN.—THE BOYS’ HOME. 253"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "THE BUSINESS MAN AND THE PAINTER.—PICTURES AND POT BOILERS.—CIMABUE AND GIOTTO.—THE SALMON-COLORED O"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXIV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "A CHOICE OF VOCATIONS.—RECREATION HOUR.—THE BOW-LEGGED BOY.—DRAWING BY HEART.—GIOTTO. 265"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXV."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "“WITHOUT CHARACTER?”—THE WIDOW.—THE BOW-LEGGED BOY TAKES SERVICE.—STUDIOS AND PAINTERS. 270"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXVI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "THE MILLER’S LETTER.—A NEW POT BOILER SOLD. 277"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXVII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "SUNSHINE AFTER STORM. 282"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXVIII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "A PAINTER’S EDUCATION.—MASTER CHUTER’S PORT.—A FAREWELL FEAST.—THE SLEEP OF THE JUST. 286"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXXIX."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "GEORGE AGAIN.—THE PAINTER’S ADVICE.—“HOME-BREWED” AT THE HEART OF OAK.—JAN CHANGES THE PAINTER’S MIN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XL."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "D’ARCY SEES BOGY.—THE ACADEMY.—THE PAINTER’S PICTURE. 300"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XLI."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "THE DETECTIVE.—THE “JOOK”.—JAN STANDS BY HIS MOTHER’S GRAVE.—HIS AFTER HISTORY. 303"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XLII."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CONCLUSION. 308"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "ddf82bd2db682eca26cf6ece2e9c4a21280b75a04208b50a92e38786ddf4d2cf",
+    "html_sha256": "899c465402b7a595103556447bad279f772aec32f602bd3cdcee7259fb49356e",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/001.txt",
+      "sha256": "3b794c4ab3c4638ec7af60d2412f1dd51df743918e02320c314959e052406a00",
+      "bytes": 20121
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/002.txt",
+      "sha256": "7259b0ace378b114049b95cd8a2fdb39255ebbff74d2a1fe6377801262583075",
+      "bytes": 7976
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/003.txt",
+      "sha256": "b59ad905cdf6831944eb4527c07013324fadc3ef69cef95b2b50d4219d343b7d",
+      "bytes": 11014
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/004.txt",
+      "sha256": "61b7106fcfc36702dc5e7475d0bb3f78340be7356f1eef6f5b6df3beafab0f2a",
+      "bytes": 8619
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/005.txt",
+      "sha256": "294b19d1a233342a6d62ac7a10954dc0713cd531bb5144f7dfe2aaa5944c6276",
+      "bytes": 6491
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/006.txt",
+      "sha256": "89ddf1799ad09af909f54b7589f8a6b2231101b6f69501c311ac74e1de15e9a5",
+      "bytes": 17911
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/007.txt",
+      "sha256": "9731b062e8b8989193d5993bf4d3653326445dd47d0a10cc05286cb68edf8388",
+      "bytes": 7248
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/008.txt",
+      "sha256": "9d9d9c4b9ec65d1f3ccdbb8978d90a6547ab23ef7398f837c066ffbf74decb58",
+      "bytes": 13237
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/009.txt",
+      "sha256": "54182378c4ec1191255102a2f085d66eae6742d54a76e683d58b62cc7a439308",
+      "bytes": 4613
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/010.txt",
+      "sha256": "3808c1b4b79a12d7a295bfeb9abf1fcddfc1b473209edd6ac61cdc4d47fca446",
+      "bytes": 17384
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/011.txt",
+      "sha256": "379468436b2b12f7f16209ab59eb5bcf040eb0616a888c16b72e88435123a987",
+      "bytes": 10783
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/012.txt",
+      "sha256": "a0551b25cca40d70999986bd1a9c22e53cb9e19be078e4dc679fb1d465625107",
+      "bytes": 10479
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/013.txt",
+      "sha256": "eece16c7ac0a4c8df1d04725ab097aa84c94c55c412ac232c78d894d0e1d3802",
+      "bytes": 9955
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/014.txt",
+      "sha256": "c09bd09bf8db22422d5bc63ffb5d8545e6dfa59cda53779b3ec29f8202693249",
+      "bytes": 7693
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/015.txt",
+      "sha256": "b403d21f70be41db1f553ba7ef3369c905b1f5fdaba7818fec299e4328a1db75",
+      "bytes": 22006
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/016.txt",
+      "sha256": "8a3ea2d7b590deb144af9da094c406afe78068920608fb3cd0ab82bd22d4de5f",
+      "bytes": 13907
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/017.txt",
+      "sha256": "7a83d35c37726800fda76073aed88a4a4b4df757378fd6bdf404d6b9b549aa4c",
+      "bytes": 15757
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/018.txt",
+      "sha256": "d4f5de22abbacd913b1d8c4dcc7e26633c1ee201e0d143b51d10f298d2ae1696",
+      "bytes": 9144
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/019.txt",
+      "sha256": "e3c5c6b7ebac3c2e045956ba2aeb83abedf9d684b36ee17fa02360fa2b4dd1a4",
+      "bytes": 16636
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/020.txt",
+      "sha256": "8dd15225617d1673c3e7be6155fb462e97c20d3a157b57113fa93d9508b91f05",
+      "bytes": 10616
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/021.txt",
+      "sha256": "97ac89c2117faf963667fcf8370849c02a6a6ac0873e73c7f401c46c0814de52",
+      "bytes": 10969
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/022.txt",
+      "sha256": "f1af9f0fa457f62175cd56bda7a7d218cd8d920e375d94228a779571eb1eb852",
+      "bytes": 18105
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/023.txt",
+      "sha256": "52e296f8debd3fa0cf1244ad66e49f9e6b909681560bd2d9f1e2fe1a27d2722d",
+      "bytes": 13147
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/024.txt",
+      "sha256": "fb41e39e3b64cc6e0be225009d95b06f3564c797a559c278e15dfdda315f0c13",
+      "bytes": 10287
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/025.txt",
+      "sha256": "7450ea8b0c1805a4348ddc2520d6f2c11719a67fafffc73e762c875dd4f887e4",
+      "bytes": 13454
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/026.txt",
+      "sha256": "868aa8828a559ce41a20ec4af056652b4a6fb811cf1e9641d696ca9891866bbe",
+      "bytes": 9445
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/027.txt",
+      "sha256": "e1b1870fad883cbd60fb2cb1af3896123f88c04c748eff79e3095bfe2c6b7d81",
+      "bytes": 9944
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/028.txt",
+      "sha256": "6ac2048e725c6cdbfbfc372009f3662e4b0e1f8c6038ab0dd8f3df8a18378a3d",
+      "bytes": 20854
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/029.txt",
+      "sha256": "c8ead2e0e2df730e12efc9d0a30b91874bd9ada146e130ddf476a980f2c903e7",
+      "bytes": 11985
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/030.txt",
+      "sha256": "ebf022576d3ad344162aebe5f39e92ddd4cc986dd473b8f0ed1d002db19b8103",
+      "bytes": 11140
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/031.txt",
+      "sha256": "a8d2655801e948830108be0736c5b1919c5c1f0245c46e42d9b4e91fa8cbf21e",
+      "bytes": 9870
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/032.txt",
+      "sha256": "a4e72b052279fa5e92ffc866814940570ae4a04a820ffd40ad04236fe5dd6a0c",
+      "bytes": 11764
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/033.txt",
+      "sha256": "b973fcf87ed53aa7fd504d768e9d53a83ee6cfda3f665e7dbfde666382cfa19f",
+      "bytes": 5243
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/034.txt",
+      "sha256": "fb426afebde54b0d1afbc6e8dc3ca8d5e48de552cd7c202fa838580c031ff17e",
+      "bytes": 6498
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/035.txt",
+      "sha256": "855f6289c241026150f05c8b81364c9400db329e575c04bba046d2e087eb61e0",
+      "bytes": 10676
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/036.txt",
+      "sha256": "4ddd91791ae88abc62ec7a7c5b214c30097f6c108f316733550dc4a616e74074",
+      "bytes": 6766
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/037.txt",
+      "sha256": "5b5f59a3ec19eb169c89165b9ccc0cf783baba2392a79204a3dc94837141b5c6",
+      "bytes": 4476
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/038.txt",
+      "sha256": "8a4ca52e0d3ee1f7e6376397ae5dff9239528efc8a8fcb9d46c6b8f25110b46a",
+      "bytes": 12948
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/039.txt",
+      "sha256": "6fda5d555a98a31b1ef0098a44832065b5d562c750e87d97bf9be3059c270d5f",
+      "bytes": 8831
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/040.txt",
+      "sha256": "85abe98bb9e26b47fb301c5428101aa5ae5aa805b2f9a240e2eeefa67d09144b",
+      "bytes": 4487
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/041.txt",
+      "sha256": "05f4b2eb515f403dc4fabdde493bdc0c6f85ee903736fc7fd2ebfebc23a62a06",
+      "bytes": 6843
+    },
+    {
+      "path": "books/pg-5601-jan-of-the-windmill-a-story-of-the-plains/chapters/042.txt",
+      "sha256": "0b9405a56d2f24502135872f8b77dcece91fb5fe7e965e9e15f0adfcd2bda744",
+      "bytes": 4473
+    }
+  ]
+}

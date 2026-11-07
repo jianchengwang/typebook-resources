@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2781,
+  "slug": "pg-2781-just-so-stories",
+  "title": "Just so stories",
+  "title_i18n": {
+    "en": "Just so stories",
+    "zh-CN": "原来如此的故事",
+    "ja": "なぜなぜ物語"
+  },
+  "author": "Rudyard Kipling",
+  "authors_catalog": "Kipling, Rudyard, 1865-1936",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "story-collection",
+  "text_url": "https://www.gutenberg.org/cache/epub/2781/pg2781-images.html",
+  "text_sha256": "c7786da6c1d7afdfcd3499d0aa7895b2d0448f229ef4e476e55ab83ad2f0749d",
+  "page_sha256": "034a8700006e678fefe1a06359fdce5c0559abfed30c06de53da0473bcfad6d7",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1936,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 28710,
+    "selected_text_sha256": "9de823bf812f60082355e76efb27d4c9f2f5209393d51201d2ff72a6e83bcf63",
+    "section_titles": [
+      "HOW THE WHALE GOT HIS THROAT",
+      "HOW THE CAMEL GOT HIS HUMP — NOW this is the next tale, and it tells how the Camel got his big hump.",
+      "HOW THE RHINOCEROS GOT HIS SKIN",
+      "HOW THE LEOPARD GOT HIS SPOTS",
+      "THE ELEPHANT’S CHILD",
+      "THE SING-SONG OF OLD MAN KANGAROO",
+      "THE BEGINNING OF THE ARMADILLOS",
+      "HOW THE FIRST LETTER WAS WRITTEN",
+      "HOW THE ALPHABET WAS MADE",
+      "THE CRAB THAT PLAYED WITH THE SEA",
+      "THE CAT THAT WALKED BY HIMSELF",
+      "THE BUTTERFLY THAT STAMPED"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 28710,
+    "kept_blocks": 672,
+    "omitted_blocks": 6,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 133,
+        "preview": "The Project Gutenberg eBook of Just so stories This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK JUST SO STORIES *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "JUST SO STORIES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Rudyard Kipling"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 66,
+        "preview": "HOW THE WHALE GOT HIS THROAT HOW THE CAMEL GOT HIS HUMP HOW THE RHINOCEROS GOT HIS SKIN HOW THE LEOP"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "9de823bf812f60082355e76efb27d4c9f2f5209393d51201d2ff72a6e83bcf63",
+    "html_sha256": "c7786da6c1d7afdfcd3499d0aa7895b2d0448f229ef4e476e55ab83ad2f0749d",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/001.txt",
+      "sha256": "e15efc94cf65a583e77d5f3a4a77b858b7885df9b5ac823c39aeb58f18a125bd",
+      "bytes": 5825
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/002.txt",
+      "sha256": "d337757bc43614e7b6a02c7946f56ab5967629a8d989f8892b06aadfd8c3762a",
+      "bytes": 5798
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/003.txt",
+      "sha256": "d0a15f948318aedc14ebb25169d86d2c6804796496b56a02469ff18da9a91e2a",
+      "bytes": 4677
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/004.txt",
+      "sha256": "25b4715928ae3dd54f2a60233fffb77121647af6d530cc15b56501c9b2dbd6cc",
+      "bytes": 12300
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/005.txt",
+      "sha256": "48593b005d8be4496d5a98d765f63846151fe656d5ef2a1a702ee2bbbbcb4085",
+      "bytes": 14920
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/006.txt",
+      "sha256": "288fc9ec16355f92cb69177cd07d0a72da50d0b6d4d31099933420aaffd8cb44",
+      "bytes": 6521
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/007.txt",
+      "sha256": "ae450257cc5e09fee0853f7cc7905590460fafe43311976262c2a8722482cc27",
+      "bytes": 14979
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/008.txt",
+      "sha256": "3c7f8de768dab8eae5f105bb92d2d1d82d3a04e21fd70720bf34889fdafdd3a9",
+      "bytes": 18957
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/009.txt",
+      "sha256": "f2f35565471a2be022c7a10f7f79e3c1c48488b4e459ed5d1a678d55b6bf2f0b",
+      "bytes": 18517
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/010.txt",
+      "sha256": "f64b8efbc8195fee308f70285b415082bd6f61bb25a10672da3ea1409f170df3",
+      "bytes": 19004
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/011.txt",
+      "sha256": "a91ff01a6fa485dafde2525ad293e1dcc6116dc61a50fed35c9c732cc610b143",
+      "bytes": 20420
+    },
+    {
+      "path": "books/pg-2781-just-so-stories/chapters/012.txt",
+      "sha256": "35b5f186f9882628f6d90a081fb29781b73be74bd71eef79c8635bebfa81a8b3",
+      "bytes": 19069
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 1450,
+  "slug": "pg-1450-pollyanna",
+  "title": "Pollyanna",
+  "title_i18n": {
+    "en": "Pollyanna",
+    "zh-CN": "波莉安娜",
+    "ja": "少女パレアナ"
+  },
+  "author": "Eleanor H. Porter",
+  "authors_catalog": "Porter, Eleanor H. (Eleanor Hodgman), 1868-1920",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/1450/pg1450-images.html",
+  "text_sha256": "fcfed642a93bac62bc0fcfdadf1585ad44a7cccc43716c117285f5ee7f41a103",
+  "page_sha256": "2aa717b14f94d3e716eb3d6650a1283d7e88c4a090b672c62c846cbce6b22844",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1920,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 32,
+    "word_count": 55517,
+    "selected_text_sha256": "c92b639eaef337dfa1a64e5f9f41d1ba569489296308135be44a691631b3d2d3",
+    "section_titles": [
+      "CHAPTER I. MISS POLLY",
+      "CHAPTER II. OLD TOM AND NANCY",
+      "CHAPTER III. THE COMING OF POLLYANNA",
+      "CHAPTER IV. THE LITTLE ATTIC ROOM",
+      "CHAPTER V. THE GAME",
+      "CHAPTER VI. A QUESTION OF DUTY",
+      "CHAPTER VII. POLLYANNA AND PUNISHMENTS",
+      "CHAPTER VIII. POLLYANNA PAYS A VISIT",
+      "CHAPTER IX. WHICH TELLS OF THE MAN",
+      "CHAPTER X. A SURPRISE FOR MRS. SNOW",
+      "CHAPTER XI. INTRODUCING JIMMY",
+      "CHAPTER XII. BEFORE THE LADIES' AID",
+      "CHAPTER XIII. IN PENDLETON WOODS",
+      "CHAPTER XIV. JUST A MATTER OF JELLY",
+      "CHAPTER XV. DR. CHILTON",
+      "CHAPTER XVI. A RED ROSE AND A LACE SHAWL",
+      "CHAPTER XVII. “JUST LIKE A BOOK” — John Pendleton greeted Pollyanna to-day with a smile.",
+      "CHAPTER XVIII. PRISMS",
+      "CHAPTER XIX. WHICH IS SOMEWHAT SURPRISING",
+      "CHAPTER XX. WHICH IS MORE SURPRISING",
+      "CHAPTER XXI. A QUESTION ANSWERED",
+      "CHAPTER XXII. SERMONS AND WOODBOXES",
+      "CHAPTER XXIII. AN ACCIDENT",
+      "CHAPTER XXIV. JOHN PENDLETON",
+      "CHAPTER XXV. A WAITING GAME",
+      "CHAPTER XXVI. A DOOR AJAR",
+      "CHAPTER XXVII. TWO VISITS",
+      "CHAPTER XXVIII. THE GAME AND ITS PLAYERS",
+      "CHAPTER XXIX. THROUGH AN OPEN WINDOW",
+      "CHAPTER XXX. JIMMY TAKES THE HELM",
+      "CHAPTER XXXI. A NEW UNCLE",
+      "CHAPTER XXXII. WHICH IS A LETTER FROM POLLYANNA"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 32,
+    "word_count": 55517,
+    "kept_blocks": 1955,
+    "omitted_blocks": 9,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 133,
+        "preview": "The Project Gutenberg eBook of Pollyanna This eBook is for the use of anyone anywhere in the United "
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2904,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK POLLYANNA *** Updated editions will replace the previous one—"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "POLLYANNA"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Eleanor H. Porter"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "Author of “Miss Billy,” “Miss Billy's Decision,\" “Cross Currents,” “The Turn of the Tides,” etc."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "TO My Cousin Belle"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 178,
+        "preview": "POLLYANNA CHAPTER I. MISS POLLY CHAPTER II. OLD TOM AND NANCY CHAPTER III. THE COMING OF POLLYANNA C"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "POLLYANNA"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "c92b639eaef337dfa1a64e5f9f41d1ba569489296308135be44a691631b3d2d3",
+    "html_sha256": "fcfed642a93bac62bc0fcfdadf1585ad44a7cccc43716c117285f5ee7f41a103",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-1450-pollyanna/chapters/001.txt",
+      "sha256": "7d2e7e5aa8e78ea18aa20d9f125b3502978d3f8c89aa69fb772f7004d48f415d",
+      "bytes": 7771
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/002.txt",
+      "sha256": "5b49712a947d9805f1a249030009f8d9d1d2a07116cbb926a65b868dab5eb01d",
+      "bytes": 5550
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/003.txt",
+      "sha256": "8dc2bc59669b7de1eb7d840e6d6edc6ce11a858ab4e2db016da31d0b719ac0dc",
+      "bytes": 12944
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/004.txt",
+      "sha256": "9935188e34fe670c8ff2f27d588de1fc9c215c5e1037af5a02f0599b808f3c95",
+      "bytes": 13763
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/005.txt",
+      "sha256": "94a19472fe8806ba6cb8794e4aeb7d05919d25de071c224aa030ff4c82c8db03",
+      "bytes": 8705
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/006.txt",
+      "sha256": "89b6254854fd5cf9f88374bc854778aea314f588b086f9cf6e74839a6339c06f",
+      "bytes": 14819
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/007.txt",
+      "sha256": "f3703dfdfc010195932a503df38f762223a84bf2da161a519939dc4587c74b85",
+      "bytes": 9672
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/008.txt",
+      "sha256": "e0eb6ac719e89ba99b1406ee708e0bd32ae9fa8714c8fa13efa6d719111e5b65",
+      "bytes": 15014
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/009.txt",
+      "sha256": "f680e8dab55101db34edb1a5cc1b67e9130a296ae7322a639c94a6c52b4e4434",
+      "bytes": 7010
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/010.txt",
+      "sha256": "1e2f744b05100356906c6073f75aa6dd824259ecdc17782f2e4053da00b38952",
+      "bytes": 14695
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/011.txt",
+      "sha256": "71bcce2051a0dfbbc93d696874cb1dd92c8d4a3632c6d7f3731038d7cac1d7f4",
+      "bytes": 16042
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/012.txt",
+      "sha256": "adb227e88a77833409cec0499be71e119b5430c79f6d112a5bc497535f26340d",
+      "bytes": 6421
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/013.txt",
+      "sha256": "4f5153cfce7cf766081e189adaddb655547b1a2e027537e2b02b4dfe7cb7979d",
+      "bytes": 10848
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/014.txt",
+      "sha256": "4b45d5cb89cb96d675334b9c38a1674f384f901dcd1f9c564bee99dffefce986",
+      "bytes": 8939
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/015.txt",
+      "sha256": "9abe99c4faa689bf6e2ff4d161049f6f3c23dc91f635d9c65ff51a9d84649e48",
+      "bytes": 15589
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/016.txt",
+      "sha256": "17d1224778534331d753515af5ca06e2d3e167bb06d82b27440b24e35ee78395",
+      "bytes": 12028
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/017.txt",
+      "sha256": "18beab7eabd0117fb14e6789dca397c62fed16e8893da7e99deb76e8056b191f",
+      "bytes": 10229
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/018.txt",
+      "sha256": "9bf9dd1ab29d2b2a4add680a7ab975582bf86d463388550fa5efe3ab1fe12839",
+      "bytes": 9034
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/019.txt",
+      "sha256": "bfeedec708d061e19088ce55d5bb4989f46909fe347279564b32cf0062df6851",
+      "bytes": 5245
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/020.txt",
+      "sha256": "cd88d50804df2df1afc95489397b498c550c693466f0fe1c25987bb3051f4d6a",
+      "bytes": 9637
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/021.txt",
+      "sha256": "36b3f2303a4d06ade45d94da565e8b3520a8c16c114744c097f13492b744183e",
+      "bytes": 10268
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/022.txt",
+      "sha256": "12b41836bd9051aaa18f25c28709955b5d671951104706200c445e82a7d88d79",
+      "bytes": 13081
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/023.txt",
+      "sha256": "a18bf271c8f0ca3234ecc1249fbc572caf62dd8ab740cc644f62891bb6ebc0da",
+      "bytes": 9205
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/024.txt",
+      "sha256": "165c0bc0d07640024f70b1275865f23ede6ab467070fa15608874e4a05d7fbd3",
+      "bytes": 10924
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/025.txt",
+      "sha256": "3bbdd902fcbc5341a02dc6bee6673aacb5a8d5da6b283c89f98fc27daf0a5007",
+      "bytes": 9384
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/026.txt",
+      "sha256": "99de8c85f9ea4c78d41bc4ed487260cd2907b807c1f7124d616b790841516fd0",
+      "bytes": 5332
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/027.txt",
+      "sha256": "41c1ce625c7d50d96459822f39aea60c6f4c70d3236da1845c6ffa18bd97c065",
+      "bytes": 11591
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/028.txt",
+      "sha256": "9a6e24755e964e39ec0f1b614c1e75f455073c7cf10ede0bc46aae0a5cd6fbb1",
+      "bytes": 21204
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/029.txt",
+      "sha256": "a0791201e00e3f7a8bafb1110441ad889cdbfcd887f976a0a1ade26be5eb8ac2",
+      "bytes": 7774
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/030.txt",
+      "sha256": "6a25483782edc11ca51fc9f569e53b8b632b9bd2a8ac0e33c0fd8e20f6fc1ca0",
+      "bytes": 4508
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/031.txt",
+      "sha256": "6c287a640214f55c12397bc211c6ffeb36189fb88772477ea32a31407db61551",
+      "bytes": 2644
+    },
+    {
+      "path": "books/pg-1450-pollyanna/chapters/032.txt",
+      "sha256": "474f36ec99b515173a010c1d252bd79a8900614d340de9ffa2192f430c3fda40",
+      "bytes": 1515
+    }
+  ]
+}

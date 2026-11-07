@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 47,
+  "slug": "pg-47-anne-of-avonlea",
+  "title": "Anne of Avonlea",
+  "title_i18n": {
+    "en": "Anne of Avonlea",
+    "zh-CN": "少女安妮",
+    "ja": "アンの青春"
+  },
+  "author": "L. M. Montgomery",
+  "authors_catalog": "Montgomery, L. M. (Lucy Maud), 1874-1942",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/47/pg47-images.html",
+  "text_sha256": "eeef7f9922150a1c01690937f8b332d13cfd3ac7d564f4d98554371c6772a1e9",
+  "page_sha256": "3ff979d6b7f27bc732cc7f5c0d1f7747e4062489797136e857a27efdca06a7b3",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1942,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 30,
+    "word_count": 90847,
+    "selected_text_sha256": "d7ae03b7cbe03dbc30087153d9e88d560f9a9c5c74e1a07daf4deeb5bc37f912",
+    "section_titles": [
+      "I An Irate Neighbor",
+      "II Selling in Haste and Repenting at Leisure",
+      "III Mr. Harrison at Home",
+      "IV Different Opinions",
+      "V A Full-fledged Schoolma’am",
+      "VI All Sorts and Conditions of Men . . . and women",
+      "VII The Pointing of Duty",
+      "VIII Marilla Adopts Twins",
+      "IX A Question of Color",
+      "X Davy in Search of a Sensation",
+      "XI Facts and Fancies",
+      "XII A Jonah Day",
+      "XIII A Golden Picnic",
+      "XIV A Danger Averted",
+      "XV The Beginning of Vacation",
+      "XVI The Substance of Things Hoped For",
+      "XVII A Chapter of Accidents",
+      "XVIII An Adventure on the Tory Road",
+      "XIX Just a Happy Day",
+      "XX The Way It Often Happens",
+      "XXI Sweet Miss Lavendar",
+      "XXII Odds and Ends",
+      "XXIII Miss Lavendar’s Romance",
+      "XXIV A Prophet in His Own Country",
+      "XXV An Avonlea Scandal",
+      "XXVI Around the Bend",
+      "XXVII An Afternoon at the Stone House",
+      "XXVIII The Prince Comes Back to the Enchanted Palace",
+      "XXIX Poetry and Prose",
+      "XXX A Wedding at the Stone House"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 30,
+    "word_count": 90847,
+    "kept_blocks": 1735,
+    "omitted_blocks": 37,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 136,
+        "preview": "The Project Gutenberg eBook of Anne of Avonlea This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK ANNE OF AVONLEA *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "ANNE OF AVONLEA"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by Lucy Maud Montgomery"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "To my former teacher HATTIE GORDON SMITH in grateful remembrance of her sympathy and encouragement."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 26,
+        "preview": "Flowers spring to blossom where she walks The careful ways of duty, Our hard, stiff lines of life wi"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER I. An Irate Neighbor"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "CHAPTER II. Selling in Haste and Repenting at Leisure"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER III. Mr. Harrison at Home"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER IV. Different Opinions"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER V. A Full-fledged Schoolma’am"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "CHAPTER VI. All Sorts and Conditions of Men . . . and women"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER VII. The Pointing of Duty"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER VIII. Marilla Adopts Twins"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER IX. A Question of Color"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER X. Davy in Search of a Sensation"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XI. Facts and Fancies"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XII. A Jonah Day"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XIII. A Golden Picnic"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XIV. A Danger Averted"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER XV. The Beginning of Vacation"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER XVI. The Substance of Things Hoped For"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER XVII. A Chapter of Accidents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER XVIII. An Adventure on the Tory Road"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER XIX. Just a Happy Day"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER XX. The Way It Often Happens"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XXI. Sweet Miss Lavendar"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XXII. Odds and Ends"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XXIII. Miss Lavendar’s Romance"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER XXIV. A Prophet in His Own Country"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XXV. An Avonlea Scandal"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XXVI. Around the Bend"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER XXVII. An Afternoon at the Stone House"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "CHAPTER XXVIII. The Prince Comes Back to the Enchanted Palace"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XXIX. Poetry and Prose"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER XXX. A Wedding at the Stone House"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "d7ae03b7cbe03dbc30087153d9e88d560f9a9c5c74e1a07daf4deeb5bc37f912",
+    "html_sha256": "eeef7f9922150a1c01690937f8b332d13cfd3ac7d564f4d98554371c6772a1e9",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/001.txt",
+      "sha256": "0aa87b1aceaf35944af10aa04df3de4bf153297901acfb59c8d7d20816634dea",
+      "bytes": 19155
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/002.txt",
+      "sha256": "8e3ebd88557204560b0c400dfc0a6f1f0961ec5ef3808304d23f74e42e0d73a9",
+      "bytes": 11331
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/003.txt",
+      "sha256": "4e36f01c6da562d6b3c48a1554f542263a509b2764e5299bac48e404e5558cb9",
+      "bytes": 13632
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/004.txt",
+      "sha256": "c4ad18ef9b186339042c4643148383554211931f494545ce8f36752595982dac",
+      "bytes": 9247
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/005.txt",
+      "sha256": "a035e22b12a72816e757f75b4706009867d8f19c2de2f958289543698b578d6c",
+      "bytes": 13269
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/006.txt",
+      "sha256": "5580ddcd99e0f9f66ff55b9a3a74f8340abf885c536875cdd57e3340c4b621a0",
+      "bytes": 20485
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/007.txt",
+      "sha256": "7ad2b5177b797e649d7eadd42a5d0715d5e647e6f91012d7c6c133efca5e6795",
+      "bytes": 10798
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/008.txt",
+      "sha256": "d65839a331d7a1307f8678ccc20d87b6deb79531520e5a99c1a6b2430ce82f09",
+      "bytes": 17199
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/009.txt",
+      "sha256": "deca17969b05de525d2a0abea4c13d833e192060d7807b6c0924f248c0d51437",
+      "bytes": 11805
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/010.txt",
+      "sha256": "e0b5d1be11f9aea954b93a9768d7a07ab0badc5f8d55969c805bb6ab4edb7f29",
+      "bytes": 18848
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/011.txt",
+      "sha256": "f9db51f209736b91ce982a9caddce04330ae0a610ddee95aa4aed08cbfb38251",
+      "bytes": 17195
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/012.txt",
+      "sha256": "0a414a0c353d8f6e673a12a096a5cb0c2c74d12d4f7f8b18144d01a7b2bafb06",
+      "bytes": 13624
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/013.txt",
+      "sha256": "c7da01d474cb4c5f8280c6c05ce738b7c36f5c498ef3c5138b113fb20ab15c7e",
+      "bytes": 19120
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/014.txt",
+      "sha256": "adea86d7c106ce81c6c5270959cf9fb4fa33e860488d63d03922b1c5801cd96c",
+      "bytes": 22165
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/015.txt",
+      "sha256": "72d1f6f79429706effd865a718256783704bca57b1d1accee195d2b9cc3ef2a2",
+      "bytes": 14809
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/016.txt",
+      "sha256": "9c23ad0df05c7730945f72d018bc1f57e60743608dfe380b68ca425a1b88e9da",
+      "bytes": 12720
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/017.txt",
+      "sha256": "2842e9de6f1abda05a014e068bac6e7dca73ab26f333d258e6e2051b59c4bafa",
+      "bytes": 20278
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/018.txt",
+      "sha256": "52ab76367378012dc16871fd5347f267073dcd8dbbc57ae2a7865e7593df19d9",
+      "bytes": 18109
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/019.txt",
+      "sha256": "5e627c7e29627fd839b29f8ece9ce7b3f24fd2e0338eb2ac31eeca848319bb4e",
+      "bytes": 21523
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/020.txt",
+      "sha256": "0dfd8cb5444abc933565d029acc7ca077063f5314a8a1f9ae4fe51440f3f7348",
+      "bytes": 14489
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/021.txt",
+      "sha256": "66330a5f61f18befb84bf4357437afb59f1d0749ebd3b9f2984175af01dd4e39",
+      "bytes": 24165
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/022.txt",
+      "sha256": "cf67437c21518567c746c6de64898c21f322d66ad0be69b5a7f21f324a485f9a",
+      "bytes": 9016
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/023.txt",
+      "sha256": "7ec6de70f93b0fd15bb8dc1b6c32f1ee263d6e883cf3be2303e1adba808a6f5b",
+      "bytes": 13612
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/024.txt",
+      "sha256": "9fc81cde588daf4fc3eeccdaf11d872347efb0b15604e6179bce8bd9fbf6192d",
+      "bytes": 16286
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/025.txt",
+      "sha256": "94e806898200946916b8c9b119a6d268bd90ff0c02032fed997d09bdb21b363d",
+      "bytes": 23450
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/026.txt",
+      "sha256": "4e57b4edb2f33a13e053d5c83803ee37b09c3929b9f8d4a63400cc30fe86ae6f",
+      "bytes": 21846
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/027.txt",
+      "sha256": "ebb8c31f52d56e6814feb52a74a55f495009549e3529bb14f074c64f7bf7f987",
+      "bytes": 23221
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/028.txt",
+      "sha256": "ffc04bb9afe82025c588740219caa0eb14a0688ed87e71c14af500e7f51278c9",
+      "bytes": 20344
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/029.txt",
+      "sha256": "6c3fa1bcdacb7695805af1b422f9bcf5668ced22549a7b7c825792b0d9f9f944",
+      "bytes": 13125
+    },
+    {
+      "path": "books/pg-47-anne-of-avonlea/chapters/030.txt",
+      "sha256": "5461b77238b8ab2b8c3a77ea4c05dbc89b092c0a6dca4e8ec0d2bfa5e990e66a",
+      "bytes": 15243
+    }
+  ]
+}

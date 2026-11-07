@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 20606,
+  "slug": "pg-20606-the-magic-city",
+  "title": "The Magic City",
+  "title_i18n": {
+    "en": "The Magic City",
+    "zh-CN": "魔法城市",
+    "ja": "魔法の町"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924; Millar, H. R. (Harold Robert), 1869-1942 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/20606/pg20606-images.html",
+  "text_sha256": "9a5e1428cadd0093f852bf575c5f1c13b8f37d8a4e986f55abdf41c2e0682f78",
+  "page_sha256": "2307beff06b606fe2575a8b7b09bad86b8685aef6cb597459638987dc48ba9e6",
+  "extraction": {
+    "end_text": "Macmillan & Co.'s New Books for the Young",
+    "end_text_occurrence": 1
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 58843,
+    "selected_text_sha256": "d44cbb91eb68cc5aa28832a2571fc03aabb41fbe0725adbbecd8b333b579ece6",
+    "section_titles": [
+      "CHAPTER I — THE BEGINNING",
+      "CHAPTER II — DELIVERER OR DESTROYER",
+      "CHAPTER III — LOST",
+      "CHAPTER IV — THE DRAGON-SLAYER",
+      "CHAPTER V — ON THE CARPET",
+      "CHAPTER VI — THE LIONS IN THE DESERT",
+      "CHAPTER VII — THE DWELLERS BY THE SEA",
+      "CHAPTER VIII — UPS AND DOWNS",
+      "CHAPTER IX — ON THE 'LIGHTNING LOOSE'",
+      "CHAPTER X — THE GREAT SLOTH",
+      "CHAPTER XI — THE NIGHT ATTACK",
+      "CHAPTER XII — THE END"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 58843,
+    "kept_blocks": 1947,
+    "omitted_blocks": 106,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 145,
+        "preview": "The Project Gutenberg eBook of The Magic City This eBook is for the use of anyone anywhere in the Un"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 11,
+        "preview": "Page 328 Frontispiece Three days later Mr. Noah arrived by elephant."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "'Lor', ain't it pretty!' said the parlour-maid."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 13,
+        "preview": "Beyond it he could see dim piles that looked like churches and houses."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "'Here—I say, wake up, can't you?'"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "'Top floor, if you please,' said the gaoler politely."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "And behind him the clatter of hot pursuit."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 11,
+        "preview": "He heard quite a loud, strong, big voice say, 'That's better.'"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "The gigantic porch lowered frowningly above him."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "He walked on and on and on."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "'Silence, trespasser,' said Mr. Noah, with cold dignity."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "Then something hard and heavy knocked him over."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Mr. Noah whispered ardently, 'Don't!'"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "So, all down the wide clear floor, Lucy danced."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "On the top of a very large and wobbly camel."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "It was heavy work turning the lions over."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "Slowly they came to the great gate of the castle."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 11,
+        "preview": "'If your camel's not quite fresh I can mount you both.'"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "They loved looking on."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 11,
+        "preview": "A long procession toiled slowly up it of animals in pairs."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "Walked straight into the arms of Helen."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 11,
+        "preview": "He induced them to build him a temple of solid gold."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Plunged headlong over the edge."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "The bucket began to go up."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "Lucy threw herself across the well parapet."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 12,
+        "preview": "And all the while it had to go on turning that handle."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 16,
+        "preview": "Philip felt that it was best to stop the car among the suburban groves of southernwood."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "They leapt in and disappeared."
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE MAGIC CITY *** Updated editions will replace the previous"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Macmillan & Co.'s New Books for the Young"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 47,
+        "preview": "Rewards and Fairies. By Rudyard Kipling. With Illustrations by Frank Craig. Uniform Edition. Red clo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "Green Willow and other Japanese Fairy Tales. By Grace James. With 40 Illustrations in Colour by Warw"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "The Water Babies. By Charles Kingsley. With 16 Illustrations in Colour by Warwick Goble. 8vo. 5s. ne"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 48,
+        "preview": "A smaller edition, issued at a popular price, of Charles Kingsley's famous work, so charmingly illus"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "MACMILLAN AND CO., Ltd., LONDON."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Macmillan & Co.'s New Books for the Young"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "Three Tales of Hans Andersen. The Dauntless Tin Soldier, Thumbelisa, The Little Mermaid. With 22 Ill"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "I Wonder: Essays for the Young People. By Stephen Paget, Author of Confessio Medici, etc. Crown 8vo."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Hearts and Coronets. By Alice Wilson Fox. Extra Crown 8vo. 6s."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "The Story of a Year. By Mrs. Molesworth. With Illustrations by Gertrude Demain Hammond. Crown 8vo. 3"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The Hunting of the Snark. An Agony, in Eight Fits. By Lewis Carroll. With Illustrations by H. Holida"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "MACMILLAN AND CO., Ltd., LONDON."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's Notes"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Obvious punctuation errors repaired."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The remaining corrections made are indicated by dotted lines under the corrections. Scroll the mouse"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE MAGIC CITY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "E. NESBIT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 23,
+        "preview": "AUTHOR OF 'THE WOULD-BE-GOODS,' 'THE AMULET,' ETC. ETC. WITH ILLUSTRATIONS BY H. R. MILLAR MACMILLAN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "to BARBARA, MAURICE, and STEPHEN CHANT this book is dedicated by E. NESBIT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Well Hall, Eltham, Kent, 1910."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER I"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "page"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Beginning1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER II"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Deliverer or Destroyer30"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER III"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Lost65"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Dragon-Slayer94"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER V"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "On the Carpet131"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "Page_xii",
+        "words": 5,
+        "preview": "The Lions in the Desert160"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Dwellers by the Sea 187"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Ups and Downs218"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IX"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "On the 'Lightning Loose'245"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER X"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Great Sloth272"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Night Attack302"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "The End318"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "page"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Three days later Mr. Noah arrived by elephantFrontispiece"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "'Lor', ain't it pretty!' said the parlour-maid17"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "Beyond it he could see dim piles that looked like churches and houses27"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "'Here—I say, wake up, can't you?'33"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "'Top floor, if you please,' said the gaoler politely49"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "And behind him the clatter of hot pursuit61"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "He heard quite a loud, strong, big voice say, 'That's better'85"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The gigantic porch lowered frowningly above him91"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "He walked on and on and on97"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "'Silence, trespasser,' said Mr. Noah, with cold dignity115"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Then something hard and heavy knocked him over127"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Mr. Noah whispered ardently, 'Don't!'139"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "So, all down the wide clear floor, Lucy danced157"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "On the top of a very large and wobbly camel169"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "It was heavy work turning the lions over179"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "Slowly they came to the great gate of the castle193"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "Page_xiv",
+        "words": 11,
+        "preview": "'If your camel's not quite fresh I can mount you both'199"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "They loved looking on211"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "A long procession toiled slowly up it of animals in pairs223"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Walked straight into the arms of Helen243"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "He induced them to build him a temple of solid gold261"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Plunged headlong over the edge269"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The bucket began to go up281"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Lucy threw herself across the well parapet287"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "And all the while it had to go on turning that handle299"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "Philip felt that it was best to stop the car among the suburban groves of southernwood307"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "They leapt in and disappeared321"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "d44cbb91eb68cc5aa28832a2571fc03aabb41fbe0725adbbecd8b333b579ece6",
+    "html_sha256": "9a5e1428cadd0093f852bf575c5f1c13b8f37d8a4e986f55abdf41c2e0682f78",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/001.txt",
+      "sha256": "699c1c7b7ad6be286fca8ad03ee5544f6e962193fba67d21e7a87a93c3b785e2",
+      "bytes": 29395
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/002.txt",
+      "sha256": "5a3e45da42e51339bc693cb6f15ee1a9cfdb54a74d9f41ad1524572b5739ed3f",
+      "bytes": 33070
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/003.txt",
+      "sha256": "7f837230cfb7afcc2e1db1547f6685476a98e6703cf4d4f435ef47934def9add",
+      "bytes": 28213
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/004.txt",
+      "sha256": "cf98705c7110eaebed0edfccaad120cebe781c17f1795c6bba8053e82dc444de",
+      "bytes": 34789
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/005.txt",
+      "sha256": "3e174d0b0f0805d1e1f34e1bc346287ee8ea8a45f59f5d7211817247c5920838",
+      "bytes": 28637
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/006.txt",
+      "sha256": "bf3f517348ca31debde8ea5f60e732d4aee6e5e970d6d7d96a95d8be99a8f2cb",
+      "bytes": 25608
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/007.txt",
+      "sha256": "e262129da442df398d862199091dbd780a2a8c730dbb2094afd852dbc0ce2da6",
+      "bytes": 29417
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/008.txt",
+      "sha256": "e41088f2cd4b5c2ea6996a8fef9132021b490ff397b8a7b567b75b7ad5583198",
+      "bytes": 26567
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/009.txt",
+      "sha256": "5d5e1a420c94a006a4776f37bb35b71875c553e11766d46413abcfdfd8e1f434",
+      "bytes": 25376
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/010.txt",
+      "sha256": "0352398a80807dff83245fa85275c641382728b5c658481fed47007da5fba7ef",
+      "bytes": 27198
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/011.txt",
+      "sha256": "f41036b8ca512bd42bb22bdf85f521ca87b40e42f405af3e021e4be5f0d0dbc3",
+      "bytes": 15329
+    },
+    {
+      "path": "books/pg-20606-the-magic-city/chapters/012.txt",
+      "sha256": "1ee5693b34258dd86a2839479c5de2c56849894e2f9a42c6deca5999f2740ad9",
+      "bytes": 15478
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 3031,
+  "slug": "pg-3031-wild-animals-i-have-known",
+  "title": "Wild Animals I Have Known",
+  "title_i18n": {
+    "en": "Wild Animals I Have Known",
+    "zh-CN": "我所知道的野生动物",
+    "ja": "私の知る野生動物"
+  },
+  "author": "Ernest Thompson Seton",
+  "authors_catalog": "Seton, Ernest Thompson, 1860-1946",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/3031/pg3031-images.html",
+  "text_sha256": "d45c5d40a928ae87e3d0f76f49d894edd5ef71756a6d20417048da91fcf21b16",
+  "page_sha256": "48605e8299f376df2a0692eb46abe334721f15c00ecf232ab3fbd5a096fb3ed1",
+  "extraction": {
+    "heading_level": 2,
+    "start_text": "LOBO, The King of Currumpaw"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1946,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 8,
+    "word_count": 50763,
+    "selected_text_sha256": "8c7f110f45dbb62cb38328557a41d15bf5aecca6a45670aff5281e3d8f911e0d",
+    "section_titles": [
+      "LOBO, The King of Currumpaw",
+      "SILVERSPOT, The Story of a Crow",
+      "RAGGYLUG, The Story of a Cottontail Rabbit",
+      "BINGO, The Story of My Dog — I",
+      "THE SPRINGFIELD FOX — I",
+      "THE PACING MUSTANG — I",
+      "WULLY, The Story of a Yaller Dog",
+      "REDRUFF, The Story of the Don Valley Partridge — I"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 8,
+    "word_count": 50763,
+    "kept_blocks": 702,
+    "omitted_blocks": 24,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 143,
+        "preview": "The Project Gutenberg eBook of Wild Animals I Have Known This eBook is for the use of anyone anywher"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK WILD ANIMALS I HAVE KNOWN *** Updated editions will replace t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "WILD ANIMALS I HAVE KNOWN"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Ernest Thompson Seton"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Books by Ernest Thompson Seton:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Biography of a Grizzly\nLives of the Hunted\nWild Animals at Home\nWild Animal Ways"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Stories in This Book:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "Lobo, the King of Currumpaw\nSilverspot, the Story of a Crow\nRaggylug, the Story of a Cottontail Rabb"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 57,
+        "preview": "THESE STORIES are true. Although I have left the strict line of historical truth in many places, the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 96,
+        "preview": "I believe that natural history has lost much by the vague general treatment that is so common. What "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 42,
+        "preview": "This may sound inconsistent in view of my having pieced together some of the characters, but that wa"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "Lobo lived his wild romantic life from 1889 to 1894 in the Currumpaw region, as the ranchmen know to"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "Bingo was my dog from 1882 to 1888, in spite of interruptions, caused by lengthy visits to New York,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "The Mustang lived not far from Lobo in the early nineties. The story is given strictly as it occurre"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 133,
+        "preview": "Wully is, in a sense, a compound of two dogs; both were mongrels, of some collie blood, and were rai"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "All told, I now have information of six of these Jekyll-Hyde dogs. In each case it happened to be a "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 52,
+        "preview": "Redruff really lived in the Don Valley north of Toronto, and many of my companions will remember him"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 32,
+        "preview": "Silverspot, Raggylug, and Vixen are founded on real characters. Though I have ascribed to them the a"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "The fact that these stories are true is the reason why all are tragic. The life of a wild animal alw"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 76,
+        "preview": "Such a collection of histories naturally suggests a common thought—a moral it would have been called"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 48,
+        "preview": "Since, then, the animals are creatures with wants and feelings differing in degree only from our own"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "ERNEST THOMPSON SETON"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "LOBO, The King of Currumpaw SILVERSPOT, The Story of a Crow RAGGYLUG, The Story of a Cottontail Rabb"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "8c7f110f45dbb62cb38328557a41d15bf5aecca6a45670aff5281e3d8f911e0d",
+    "html_sha256": "d45c5d40a928ae87e3d0f76f49d894edd5ef71756a6d20417048da91fcf21b16",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/001.txt",
+      "sha256": "60429d96775648ee6cc093ff78a8291133b9ba5f554feb5fec05a7b06ae31a5f",
+      "bytes": 31928
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/002.txt",
+      "sha256": "6e8237d24733327d6cd173fefac678828911126c8e0d4453afcbe3c84203c5c9",
+      "bytes": 20331
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/003.txt",
+      "sha256": "4057eddbd1c1ff731daeaef0ee2ac7ac0098ffc7d1504c29326f481e39f280ef",
+      "bytes": 44295
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/004.txt",
+      "sha256": "89db6389a8b0265b4f11bdb58f1dc47c9159c55c106966cb18b97592fc449af8",
+      "bytes": 29996
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/005.txt",
+      "sha256": "42ca800d4154d5b332f1ab8204278111bc5224bdecacb07d3d0fd6329afa6927",
+      "bytes": 32803
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/006.txt",
+      "sha256": "1087c442e1394ddb4673cadfb40884930b66599bb590e31e24a5843c443cf937",
+      "bytes": 41164
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/007.txt",
+      "sha256": "78d534e1dd61c901e96f6ee9364dd8b11f74ed2f92c9245339534bb156bb9853",
+      "bytes": 23673
+    },
+    {
+      "path": "books/pg-3031-wild-animals-i-have-known/chapters/008.txt",
+      "sha256": "3db0ada6b2d100347b7304c49ddb8612353221567a071c62ea4d31fd625040a0",
+      "bytes": 48860
+    }
+  ]
+}

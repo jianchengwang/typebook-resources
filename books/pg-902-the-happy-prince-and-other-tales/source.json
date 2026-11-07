@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 902,
+  "slug": "pg-902-the-happy-prince-and-other-tales",
+  "title": "The Happy Prince, and Other Tales",
+  "title_i18n": {
+    "en": "The Happy Prince, and Other Tales",
+    "zh-CN": "快乐王子及其他故事",
+    "ja": "幸福な王子とほかの物語"
+  },
+  "author": "Oscar Wilde",
+  "authors_catalog": "Wilde, Oscar, 1854-1900",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "story-collection",
+  "text_url": "https://www.gutenberg.org/cache/epub/902/pg902-images.html",
+  "text_sha256": "8926a499152ff25a236056bb41b9ac406cde4d1fa41b6a861da7be55180aa3f2",
+  "page_sha256": "7331f54319cd649a98d15003b2ca581a1b9d53e85219956b673aec2f0b25e51d",
+  "extraction": {
+    "end_text": "Printed by Ballantyne & Co. Limited Tavistock Street, Covent Garden, London"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1900,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 5,
+    "word_count": 16162,
+    "selected_text_sha256": "177567a1038a4e908bca6cbe411a80fe86f366e7ea59d685c26af9bfc3fd2ba6",
+    "section_titles": [
+      "The Happy Prince.",
+      "The Nightingale and the Rose.",
+      "The Selfish Giant.",
+      "The Devoted Friend.",
+      "The Remarkable Rocket."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 5,
+    "word_count": 16162,
+    "kept_blocks": 400,
+    "omitted_blocks": 22,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 143,
+        "preview": "The Project Gutenberg eBook of The Happy Prince, and Other Tales This eBook is for the use of anyone"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2909,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE HAPPY PRINCE, AND OTHER TALES *** Updated editions will r"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Printed by Ballantyne & Co. Limited Tavistock Street, Covent Garden, London"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Happy Prince And Other Tales"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "BY OSCAR WILDE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "ILLUSTRATED BY WALTER CRANE AND JACOMB HOOD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "SEVENTH IMPRESSION"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "LONDON DAVID NUTT, 57–59 LONG ACRE 1910"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "First Edition May 1888"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Second Impression January 1889"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Third Impression February 1902"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Fourth Impression September 1905"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Fifth Impression February 1907"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Sixth Impression March 1908"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Seventh Impression March 1910"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "TO CARLOS BLACKER"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Happy Prince"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Nightingale and the Rose"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Selfish Giant"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Devoted Friend"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Remarkable Rocket"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "177567a1038a4e908bca6cbe411a80fe86f366e7ea59d685c26af9bfc3fd2ba6",
+    "html_sha256": "8926a499152ff25a236056bb41b9ac406cde4d1fa41b6a861da7be55180aa3f2",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-902-the-happy-prince-and-other-tales/chapters/001.txt",
+      "sha256": "3a9919bdd71931875ccc827fab76f65c5e4f99d260596100827bcd4cfead395f",
+      "bytes": 18873
+    },
+    {
+      "path": "books/pg-902-the-happy-prince-and-other-tales/chapters/002.txt",
+      "sha256": "2b50c4c96c92aa1d6904c6d2dc4102e92960cbc976aedb90125532556d3be32b",
+      "bytes": 12431
+    },
+    {
+      "path": "books/pg-902-the-happy-prince-and-other-tales/chapters/003.txt",
+      "sha256": "7e01d0a2df06c76de077ddf2e4d8632aa574bfa50716b7cada53845577a04cff",
+      "bytes": 8761
+    },
+    {
+      "path": "books/pg-902-the-happy-prince-and-other-tales/chapters/004.txt",
+      "sha256": "6fec4144d95de395526e491df90ff7dcac9a4282305f89287951ac9fd5b0af36",
+      "bytes": 23535
+    },
+    {
+      "path": "books/pg-902-the-happy-prince-and-other-tales/chapters/005.txt",
+      "sha256": "5904bb0cd23609a4746e964a40714059f2b4e42c2600115665ecea68e3650ae8",
+      "bytes": 24361
+    }
+  ]
+}

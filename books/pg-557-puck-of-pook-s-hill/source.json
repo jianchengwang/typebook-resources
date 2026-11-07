@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 557,
+  "slug": "pg-557-puck-of-pook-s-hill",
+  "title": "Puck of Pook's Hill",
+  "title_i18n": {
+    "en": "Puck of Pook's Hill",
+    "zh-CN": "普克山的精灵",
+    "ja": "プークが丘の妖精パック"
+  },
+  "author": "Rudyard Kipling",
+  "authors_catalog": "Kipling, Rudyard, 1865-1936",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/557/pg557-images.html",
+  "text_sha256": "bcea0cca1fd4b1b546ed4d45cb2d32e80d0d9a83ea11c50d3a2388ca02cae494",
+  "page_sha256": "4d516d1f1fb72c9afd34b395ef9928d8c31d3b8f1d89110b36fe3014a2b3fce7",
+  "extraction": {
+    "heading_level": 3,
+    "start_text": "WELAND'S SWORD"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1936,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 10,
+    "word_count": 57628,
+    "selected_text_sha256": "104b9f3a8b900dd4910f14c0bb226c2358abc04e9c6e8959638bacf6e19b9508",
+    "section_titles": [
+      "WELAND'S SWORD",
+      "YOUNG MEN AT THE MANOR",
+      "THE KNIGHTS OF THE JOYOUS VENTURE",
+      "OLD MEN AT PEVENSEY",
+      "A CENTURION OF THE THIRTIETH",
+      "ON THE GREAT WALL",
+      "THE WINGED HATS",
+      "HAL O' THE DRAFT",
+      "'DYMCHURCH FLIT'",
+      "THE TREASURE AND THE LAW"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 10,
+    "word_count": 57628,
+    "kept_blocks": 1430,
+    "omitted_blocks": 16,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 141,
+        "preview": "The Project Gutenberg eBook of Puck of Pook's Hill This eBook is for the use of anyone anywhere in t"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK PUCK OF POOK'S HILL *** Updated editions will replace the pre"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "PUCK OF POOK'S HILL"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "RUDYARD KIPLING"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Weland's Sword Puck's Song A Tree Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Young Men at the Manor Sir Richard's Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "The Knights of the Joyous Venture Harp Song of the Dane Women Thorkild's Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Old Men at Pevensey The Runes on Weland's Sword"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "A Centurion of the Thirtieth 'Cities and Thrones and Powers' A British-Roman Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "On the Great Wall A Song to Mithras"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Winged Hats A Pict Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "Hal o' the Draft 'Prophets have honour all over the Earth' A Smugglers' Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "'Dymchurch Flit' The Bee Boy's Song A Three-Part Song"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "The Treasure and the Law Song of the Fifth River The Children's Song"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 3,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "104b9f3a8b900dd4910f14c0bb226c2358abc04e9c6e8959638bacf6e19b9508",
+    "html_sha256": "bcea0cca1fd4b1b546ed4d45cb2d32e80d0d9a83ea11c50d3a2388ca02cae494",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/001.txt",
+      "sha256": "59f7bb8eea1d6d58fefa0e51726c1ea5cb00d27c33a1bfddf0ba18bc5e7a60e8",
+      "bytes": 34174
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/002.txt",
+      "sha256": "90e5b45f4bebf0084f623e1e66ff36b69d497c6d3485fb8956c29b641b8a2aea",
+      "bytes": 31957
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/003.txt",
+      "sha256": "dbb782995712546f9db7895fded7c5f9a13807d29117d217ee4b0b1e2f2b7afa",
+      "bytes": 38328
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/004.txt",
+      "sha256": "2eb9822130ca7b740daba7d5d7dee5aeab24444ff8790517a79d026b24253d06",
+      "bytes": 36420
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/005.txt",
+      "sha256": "39b2dae9a01e39b2cd3df131dfbdf2c2ca226c8008d9afd654185909a8899a65",
+      "bytes": 27309
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/006.txt",
+      "sha256": "f0a6d00a08da0db8240d311b3f9da24abcce3994bcbe0755084dfdc303b2d397",
+      "bytes": 31338
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/007.txt",
+      "sha256": "e39fef0c7574b24e33c91b4882dfcc605585754094f57ae89b5ad37fb9b94c16",
+      "bytes": 31698
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/008.txt",
+      "sha256": "e4e13aeb292d2d4f165609af1de9e9cabc0c08cbd6db54b1aef3bd5040be345c",
+      "bytes": 27074
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/009.txt",
+      "sha256": "01a8df516f9b0e4d19209991b56fbb0bd4b891315478bcbc15543d61896145cf",
+      "bytes": 25527
+    },
+    {
+      "path": "books/pg-557-puck-of-pook-s-hill/chapters/010.txt",
+      "sha256": "9514e352b37272a5eeaf87d62079ca9696fe66c1ada3583d3583ef9e57696372",
+      "bytes": 28214
+    }
+  ]
+}

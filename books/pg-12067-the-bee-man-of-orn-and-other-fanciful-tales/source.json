@@ -1,0 +1,891 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 12067,
+  "slug": "pg-12067-the-bee-man-of-orn-and-other-fanciful-tales",
+  "title": "The Bee-Man of Orn and Other Fanciful Tales",
+  "title_i18n": {
+    "en": "The Bee-Man of Orn and Other Fanciful Tales",
+    "zh-CN": "奥恩的养蜂人与其他奇幻故事",
+    "ja": "オーンの蜂飼いとほかのふしぎな物語"
+  },
+  "author": "Frank R. Stockton",
+  "authors_catalog": "Stockton, Frank R., 1834-1902",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "story-collection",
+  "text_url": "https://www.gutenberg.org/cache/epub/12067/pg12067-images.html",
+  "text_sha256": "542eeb849ed55f35143e0cbe40bf1f5267b6dfbda2d50ddd729a92f498e08ea3",
+  "page_sha256": "f337a9a4b86e5b1e23c201a7f3a672998675b8cf0aec5d44a086ebe239be93e9",
+  "extraction": {
+    "start_text": "THE BEE-MAN OF ORN.",
+    "end_text": "SCRIBNER'S BOOKS FOR THE YOUNG."
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1902,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 9,
+    "word_count": 52302,
+    "selected_text_sha256": "827eb341686c18b66ec86b93c9535c8503e481e0aab469ae240be748752aa2a8",
+    "section_titles": [
+      "THE BEE-MAN OF ORN.",
+      "THE GRIFFIN AND THE MINOR CANON.",
+      "OLD PIPES AND THE DRYAD.",
+      "THE QUEEN'S MUSEUM.",
+      "CHRISTMAS BEFORE LAST;",
+      "PRINCE HASSAK'S MARCH.",
+      "THE BATTLE OF THE THIRD COUSINS.",
+      "THE BANISHED KING.",
+      "THE PHILOPENA."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 9,
+    "word_count": 52302,
+    "kept_blocks": 952,
+    "omitted_blocks": 127,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 155,
+        "preview": "The Project Gutenberg eBook of The Bee-Man of Orn and Other Fanciful Tales This eBook is for the use"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE BEE-MAN OF ORN."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE GRIFFIN AND THE MINOR CANON."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "OLD PIPES AND THE DRYAD."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE QUEEN'S MUSEUM."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "CHRISTMAS BEFORE LAST; OR, THE FRUIT OF THE FRAGILE PALM."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "PRINCE HASSAK'S MARCH."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE BATTLE OF THE THIRD COUSINS."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE BANISHED KING."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE PHILOPENA."
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2911,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE BEE-MAN OF ORN AND OTHER FANCIFUL TALES *** Updated editi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 137,
+        "preview": "FRANK R. STOCKTON'S WRITINGS. New Uniform Edition. THE BEE-MAN OF ORN, and Other Fanciful Tales. THE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE BEE-MAN OF ORN"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "AND"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "OTHER FANCIFUL TALES"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "FRANK R. STOCKTON"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "New York Copyright, 1887, By Charles Scribner's Sons."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Rand Avery Company, Electrotypers and Printers, Boston."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "contents",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "SCRIBNER'S BOOKS FOR THE YOUNG."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THIRTIETH THOUSAND."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"In 'Little Lord Fauntleroy' we gain another charming child to add to our gallery of juvenile heroes"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "LITTLE LORD FAUNTLEROY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "By FRANCES HODGSON BURNETT. Beautifully illustrated by R. B. Birch. One volume, square 8vo, handsome"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 87,
+        "preview": "In \"Little Lord Fauntleroy\" the author of \"That Lass o' Lowrie's\" has given us a book which is absol"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 75,
+        "preview": "\"Little Lord Fauntleroy,\" though a book for children, is certainly not a \"juvenile\" in the common us"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "A NEW EDITION OF AN OLD FAVORITE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "HANS BRINKER; or, The Silver Skates."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "A STORY OF LIFE IN HOLLAND"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "By MARY MAPES DODGE. One volume, 12mo, with sixty beautiful illustrations. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 124,
+        "preview": "The cordial appreciation with which \"Hans Brinker\" was first received has increased from year to yea"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "AMONG THE LAW-MAKERS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "By EDMUND ALTON. With many illustrations of the Government Buildings, Halls of Congress, etc., etc. "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 59,
+        "preview": "The author of this book was for four years connected with the legislative branch of our Government, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE MAKING OF NEW ENGLAND."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "1580—1643. By SAMUEL ADAMS DRAKE. With many illustrations and maps. One volume, 12mo. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 84,
+        "preview": "In his preface the author says: \"To enhance the interest of this story, emphasis has been given to e"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE OLD-FASHIONED FAIRY BOOK."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "By MRS. BURTON HARRISON. With many quaint illustrations by MISS ROSINA EMMET. One volume, square 16m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 94,
+        "preview": "\"The little ones, who so willingly go back with us to 'Jack the Giant-Killer,' 'Blue-beard,' and the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "BRIC-A-BRAC STORIES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "By MRS. BURTON HARRISON. Illustrated and Cover designed by WALTER CRANE. One volume, 12mo. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 47,
+        "preview": "\"Upon the whole it is to be wished that every boy and girl in America, or anywhere else, might becom"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "THE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "MERRY ADVENTURES OF ROBIN HOOD,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Of Great Renown in Nottinghamshire."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Written and Illustrated by HOWARD PYLE. One volume, quarto, $3.00. \"The Prince of Story-Tellers.\"—Lo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE WORKS OF JULES VERNE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "Uniform illustrated edition. Nine vols., 8vo, extra cloth, with over 750 full-page illustrations. Pr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 77,
+        "preview": "The most impossible stories of this imaginative writer are told in such a realistic manner and with "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 119,
+        "preview": "Michael Strogoff; or, The Courier of the Czar..................$2 00\nA Floating City and the Blockad"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "A NEW AND REVISED EDITION OF THE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "ILLUSTRATED LIBRARY OF WONDERS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE WONDERS OF MAN AND NATURE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "Intelligence of Animals—Mountain Adventures—Bodily Strength and Skill—Wonderful Escapes—Thunder and "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE WONDERS OF SCIENCE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "Wonders of Heat—Wonders of the Heavens—Wonders of Optics—The Sun—Wonders of Acoustics—Wonders of Wat"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE WONDERS OF ART AND ARCHAEOLOGY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "Egypt 3,300 Years Ago—Wonders of Sculpture—Wonders of Glass Making—Wonders of European Art—Wonders o"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "Twenty-four volumes, containing aver a thousand valuable illustrations. Each set, 8 volumes, in a bo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "Each volume, 12mo, complete in itself. Sold separately at $1.00 per volume."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHILDREN'S STORIES OF AMERICAN PROGRESS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "By HENRIETTA CHRISTIAN WRIGHT. With twelve full-page illustrations from drawings by J. STEEPLE DAVIS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 121,
+        "preview": "\"The 'Stories of American Progress' contain a series of pictures of events of the first half of the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHILDREN'S STORIES IN AMERICAN HISTORY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "By HENRIETTA CHRISTIAN WRIGHT. With twelve full-page illustrations from drawings by J. STEEPLE DAVIS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE IVORY KING."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "A Popular History of the Elephant and Its Allies."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "By CHARLES F. HOLDER. Square 8vo, with twenty-four full-page illustrations. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 142,
+        "preview": "The wonderfully interesting array of facts which Mr. Holder brought together in his \"Marvels of Anim"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 42,
+        "preview": "It would be hard to name a book which would be a more welcome and valued addition to the library of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "MARVELS OF ANIMAL LIFE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "By CHARLES F. HOLDER. Square 8vo, with thirty-two full-page illustrations. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "SCRIBNER'S STANDARD JUVENILE BOOKS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE BOY'S"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Library of Legend and Chivalry."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "EDITED BY SIDNEY LANIER,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "And richly illustrated by FREDERICKS, BENSELL, and KAPPES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE BOY'S KING ARTHUR."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE BOY'S FROISSART."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "KNIGHTLY LEGENDS OF WALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE BOY'S PERCY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Four volumes, cloth, uniform binding. Price per set $7.00. Sold separately. Price per volume $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 80,
+        "preview": "\"Amid all the strange and fanciful scenery of these stories, character and the ideals of character r"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE BOY'S"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Library of Pluck and Action."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A JOLLY FELLOWSHIP,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "By FRANK R. STOCKTON."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "HANS BRINKER; OR, THE SILVER SKATES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "A STORY OF LIFE IN HOLLAND. By MRS. MARY MAPES DODGE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE BOY EMIGRANTS,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Noah Brooks."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "PHAETON ROGERS,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "By Rossiter Johnson. Four volumes, 12mo, in a box, illustrated, $5.00. Sold separately, price per vo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 92,
+        "preview": "In the \"Boy's Library of Pluck and Action,\" the design was to bring together the representative and "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Scribner's List of Juvenile Books."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "The great legend of the Nibelungen told to boys and girls."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE STORY OF SIEGFRIED."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "By JAMES BALDWIN. With a series of superb illustrations by Howard Pyle. One volume, square 12mo. $2."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "Mr. Baldwin has at last given \"The Story of Siegfried\" in the way in which it most appeals to the bo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE STORY OF ROLAND."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "By JAMES BALDWIN. With a series of illustrations by R.B. Birch. One volume, square 12mo. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 73,
+        "preview": "This volume is intended as a companion to \"The Story of Siegfried.\" As Siegfried was an adaptation o"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 61,
+        "preview": "\"We congratulate the boys of the land upon the appearance of this book. We commend it to parents who"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE FIRST REALLY PRACTICAL BOY'S BOOK."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE AMERICAN BOY'S HANDY BOOK;"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Or, WHAT TO DO AND HOW TO DO IT."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "By DANIEL C. BEARD. With three hundred illustrations by the author. One volume, 8vo. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 54,
+        "preview": "Mr. Beard's book is the first to tell the active, inventive, and practical American boy the things h"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 36,
+        "preview": "The author divides the book among the sports of the four seasons; and he has made an almost exhausti"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "FRANK R. STOCKTON'S POPULAR STORIES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE STORY OF VITEAU."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "With sixteen full-page illustrations by R.B. Birch. One volume, 12mo, extra cloth. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 91,
+        "preview": "In \"The Story of Viteau,\" Mr. Stockton has opened a new vein, and one that he has shown all his well"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A JOLLY FELLOWSHIP."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Illustrated. One volume, 12mo, extra cloth. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 79,
+        "preview": "\"'A Jolly Fellowship,' by Mr. Frank Stockton, is a worthy successor to his 'Rudder Grange.' Although"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "THE FLOATING PRINCE, AND OTHER FAIRY TALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "With illustrations by Bensell and others. One volume, quarto, boards. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 76,
+        "preview": "\"Stockton has the knack, perhaps genius would be a better word, of writing in the easiest of colloqu"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "NEW EDITIONS OF OLD FAVORITES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "ROUNDABOUT RAMBLES IN LANDS OF FACT AND FICTION."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "One volume, quarto, boards, with very attractive lithographed cover, three hundred and seventy pages"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "TALES OUT OF SCHOOL."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "One volume, quarto, boards, with handsome lithographed cover, three hundred and fifty pages, nearly "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "Charles Scribner's Sons, Publishers, 743 and 745 Broadway, New York."
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "827eb341686c18b66ec86b93c9535c8503e481e0aab469ae240be748752aa2a8",
+    "html_sha256": "542eeb849ed55f35143e0cbe40bf1f5267b6dfbda2d50ddd729a92f498e08ea3",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/001.txt",
+      "sha256": "896fbb205446d1c98ef35533c2eb4029e0d5b8dd0d5485352df98571b565a000",
+      "bytes": 22631
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/002.txt",
+      "sha256": "60d2b05199191df411b757a9728ad0f42aadc2444c0701c190ae975e3c7618c4",
+      "bytes": 31210
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/003.txt",
+      "sha256": "06902409bff42153a277ff9ef6b3bd20d107d8defda69099fde72e0e0c7b8182",
+      "bytes": 35664
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/004.txt",
+      "sha256": "cd87aa0d48fce4bddd0603431b207b3c7572a4f7308292f5187af429bf494844",
+      "bytes": 33862
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/005.txt",
+      "sha256": "e0c4e50cc92ba750ea8de9a7bd7445db095ec64ec890989d2dcd207ac9d4077c",
+      "bytes": 39922
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/006.txt",
+      "sha256": "1295e492ac2b490f8312e44e8f98cfc65e7ff46ce3c948cb584202902446f01c",
+      "bytes": 33188
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/007.txt",
+      "sha256": "c2b35491ec51e4d4ca3ffd67266b276b80215844349b803ec52f401c49b71e44",
+      "bytes": 26092
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/008.txt",
+      "sha256": "7d6f34b5e6209fa10a3725b51b933d04a043c1cfbbdd5c24fdac407008ddd827",
+      "bytes": 17359
+    },
+    {
+      "path": "books/pg-12067-the-bee-man-of-orn-and-other-fanciful-tales/chapters/009.txt",
+      "sha256": "82b0fd3a5a8a9d18acd3dff22baa97946a99a7239ae29fbbb8cb77a3c92df3f9",
+      "bytes": 38004
+    }
+  ]
+}

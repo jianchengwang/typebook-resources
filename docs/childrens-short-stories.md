@@ -1,7 +1,7 @@
 # Children's Short Stories / 儿童短故事合集 / 子どもの短いお話集
 
-The public book catalog now offers **three independent long-form readers and one
-children's short-story anthology**. A complete short story is one chapter; it is
+The original resource set consists of **three independent long-form readers and one
+children's short-story anthology**. The separate [English-original reader expansion](english-original-readers.md) adds 96 full books to the same public catalog. A complete short story is one chapter; it is
 not presented as a separate one-chapter collection. Original continuous chapters
 in A Christmas Carol (5), A Study in Scarlet (14), and The Wind in the Willows (7)
 remain separate and unchanged. No text from The Little Prince or Sophie's World
@@ -9,7 +9,7 @@ has been added.
 
 The anthology contains **100 stories / 100 chapters, 20,229 words** in total
 (21–687 words per story). Together with the three long-form readers, the public
-catalog has 126 chapters. The final three additions are *The Big Juicy Mango*,
+original resource set has 126 stored chapters. The final three additions are *The Big Juicy Mango*,
 *My new friends*, and *The day we saw the rainbow*, checked against the same
 pinned upstream and dataset.
 

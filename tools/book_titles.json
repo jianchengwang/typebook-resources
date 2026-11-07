@@ -521,6 +521,486 @@
       "en": "The day we saw the rainbow",
       "zh-CN": "我们看见彩虹的那一天",
       "ja": "虹を見た日"
+    },
+    "book:900011": {
+      "en": "Alice's Adventures in Wonderland",
+      "zh-CN": "爱丽丝漫游奇境",
+      "ja": "不思議の国のアリス"
+    },
+    "book:900012": {
+      "en": "Through the Looking-Glass",
+      "zh-CN": "爱丽丝镜中奇遇",
+      "ja": "鏡の国のアリス"
+    },
+    "book:900055": {
+      "en": "The Wonderful Wizard of Oz",
+      "zh-CN": "绿野仙踪",
+      "ja": "オズの魔法使い"
+    },
+    "book:900054": {
+      "en": "The Marvelous Land of Oz",
+      "zh-CN": "奥兹国的奇境",
+      "ja": "オズの虹の国"
+    },
+    "book:900486": {
+      "en": "Ozma of Oz",
+      "zh-CN": "奥兹玛公主",
+      "ja": "オズのオズマ姫"
+    },
+    "book:900420": {
+      "en": "Dorothy and the Wizard in Oz",
+      "zh-CN": "多萝西与奥兹国大魔法师",
+      "ja": "オズの魔法使いとドロシー"
+    },
+    "book:900485": {
+      "en": "The Road to Oz",
+      "zh-CN": "通往奥兹国的路",
+      "ja": "オズへの道"
+    },
+    "book:900517": {
+      "en": "The Emerald City of Oz",
+      "zh-CN": "奥兹国的翡翠城",
+      "ja": "オズのエメラルドの都"
+    },
+    "book:900955": {
+      "en": "The Patchwork Girl of Oz",
+      "zh-CN": "奥兹国的补丁姑娘",
+      "ja": "オズのつぎはぎ娘"
+    },
+    "book:900113": {
+      "en": "The Secret Garden",
+      "zh-CN": "秘密花园",
+      "ja": "秘密の花園"
+    },
+    "book:900146": {
+      "en": "A Little Princess",
+      "zh-CN": "小公主",
+      "ja": "小公女"
+    },
+    "book:900479": {
+      "en": "Little Lord Fauntleroy",
+      "zh-CN": "小公子",
+      "ja": "小公子"
+    },
+    "book:900384": {
+      "en": "The Lost Prince",
+      "zh-CN": "失踪的王子",
+      "ja": "消えた王子"
+    },
+    "book:900045": {
+      "en": "Anne of Green Gables",
+      "zh-CN": "绿山墙的安妮",
+      "ja": "赤毛のアン"
+    },
+    "book:900047": {
+      "en": "Anne of Avonlea",
+      "zh-CN": "少女安妮",
+      "ja": "アンの青春"
+    },
+    "book:900051": {
+      "en": "Anne of the Island",
+      "zh-CN": "大学时代的安妮",
+      "ja": "アンの愛情"
+    },
+    "book:905342": {
+      "en": "The Story Girl",
+      "zh-CN": "故事姑娘",
+      "ja": "ストーリー・ガール"
+    },
+    "book:900316": {
+      "en": "The Golden Road",
+      "zh-CN": "金色的道路",
+      "ja": "黄金の道"
+    },
+    "book:905343": {
+      "en": "Rainbow Valley",
+      "zh-CN": "彩虹谷",
+      "ja": "虹の谷"
+    },
+    "book:961236": {
+      "en": "Emily of New Moon",
+      "zh-CN": "新月庄的艾米莉",
+      "ja": "可愛いエミリー"
+    },
+    "book:903796": {
+      "en": "Rilla of Ingleside",
+      "zh-CN": "壁炉山庄的丽拉",
+      "ja": "アンの娘リラ"
+    },
+    "book:900514": {
+      "en": "Little Women",
+      "zh-CN": "小妇人",
+      "ja": "若草物語"
+    },
+    "book:902788": {
+      "en": "Little Men: Life at Plumfield With Jo's Boys",
+      "zh-CN": "小绅士",
+      "ja": "第三若草物語"
+    },
+    "book:903499": {
+      "en": "Jo's Boys",
+      "zh-CN": "乔的男孩们",
+      "ja": "第四若草物語"
+    },
+    "book:902726": {
+      "en": "Eight Cousins",
+      "zh-CN": "八个表兄弟",
+      "ja": "八人のいとこ"
+    },
+    "book:902804": {
+      "en": "Rose in Bloom",
+      "zh-CN": "玫瑰盛开",
+      "ja": "花ざかりのローズ"
+    },
+    "book:902787": {
+      "en": "An Old-Fashioned Girl",
+      "zh-CN": "老式女孩",
+      "ja": "昔気質の少女"
+    },
+    "book:902786": {
+      "en": "Jack and Jill",
+      "zh-CN": "杰克和吉尔",
+      "ja": "ジャックとジル"
+    },
+    "book:903795": {
+      "en": "Under the Lilacs",
+      "zh-CN": "紫丁香下",
+      "ja": "ライラックの花の下"
+    },
+    "book:901874": {
+      "en": "The Railway Children",
+      "zh-CN": "铁路边的孩子们",
+      "ja": "鉄道の子どもたち"
+    },
+    "book:900778": {
+      "en": "Five Children and It",
+      "zh-CN": "五个孩子和沙精",
+      "ja": "砂の妖精"
+    },
+    "book:900836": {
+      "en": "The Phoenix and the Carpet",
+      "zh-CN": "凤凰与魔毯",
+      "ja": "火の鳥と魔法のじゅうたん"
+    },
+    "book:900837": {
+      "en": "The Story of the Amulet",
+      "zh-CN": "魔符的故事",
+      "ja": "魔よけ物語"
+    },
+    "book:900770": {
+      "en": "The Story of the Treasure Seekers",
+      "zh-CN": "寻宝的孩子们",
+      "ja": "宝さがしの子どもたち"
+    },
+    "book:900794": {
+      "en": "The Wouldbegoods: Being the Further Adventures of the Treasure Seekers",
+      "zh-CN": "好心办坏事的孩子们",
+      "ja": "よい子になろうとした子どもたち"
+    },
+    "book:903536": {
+      "en": "The Enchanted Castle",
+      "zh-CN": "魔法城堡",
+      "ja": "魔法の城"
+    },
+    "book:920606": {
+      "en": "The Magic City",
+      "zh-CN": "魔法城市",
+      "ja": "魔法の町"
+    },
+    "book:957799": {
+      "en": "The House of Arden: A Story for Children",
+      "zh-CN": "阿登府的孩子们",
+      "ja": "アーデンの館"
+    },
+    "book:928725": {
+      "en": "Harding's luck",
+      "zh-CN": "哈丁的幸运",
+      "ja": "ハーディングの幸運"
+    },
+    "book:950361": {
+      "en": "Wet Magic",
+      "zh-CN": "水中的魔法",
+      "ja": "海の魔法"
+    },
+    "book:900708": {
+      "en": "The Princess and the Goblin",
+      "zh-CN": "公主与妖魔",
+      "ja": "お姫さまとゴブリンの物語"
+    },
+    "book:900709": {
+      "en": "The Princess and Curdie",
+      "zh-CN": "公主与柯迪",
+      "ja": "カーディとお姫さまの物語"
+    },
+    "book:900225": {
+      "en": "At the Back of the North Wind",
+      "zh-CN": "北风的背后",
+      "ja": "北風のうしろの国"
+    },
+    "book:918811": {
+      "en": "The Light Princess and Other Fairy Stories",
+      "zh-CN": "轻飘飘的公主及其他童话",
+      "ja": "かるいお姫さまとほかのおとぎ話"
+    },
+    "book:900271": {
+      "en": "Black Beauty",
+      "zh-CN": "黑骏马",
+      "ja": "黒馬物語"
+    },
+    "book:900236": {
+      "en": "The Jungle Book",
+      "zh-CN": "丛林之书",
+      "ja": "ジャングル・ブック"
+    },
+    "book:901937": {
+      "en": "The Second Jungle Book",
+      "zh-CN": "第二部丛林之书",
+      "ja": "続ジャングル・ブック"
+    },
+    "book:902781": {
+      "en": "Just so stories",
+      "zh-CN": "原来如此的故事",
+      "ja": "なぜなぜ物語"
+    },
+    "book:900557": {
+      "en": "Puck of Pook's Hill",
+      "zh-CN": "普克山的精灵",
+      "ja": "プークが丘の妖精パック"
+    },
+    "book:900556": {
+      "en": "Rewards and Fairies",
+      "zh-CN": "报酬与精灵",
+      "ja": "ごほうびと妖精"
+    },
+    "book:902186": {
+      "en": "\"Captains Courageous\": A Story of the Grand Banks",
+      "zh-CN": "勇敢的船长",
+      "ja": "勇敢な船長"
+    },
+    "book:900120": {
+      "en": "Treasure Island",
+      "zh-CN": "金银岛",
+      "ja": "宝島"
+    },
+    "book:900421": {
+      "en": "Kidnapped",
+      "zh-CN": "绑架",
+      "ja": "誘拐されて"
+    },
+    "book:900848": {
+      "en": "The Black Arrow: A Tale of the Two Roses",
+      "zh-CN": "黑箭",
+      "ja": "黒い矢"
+    },
+    "book:900074": {
+      "en": "The Adventures of Tom Sawyer, Complete",
+      "zh-CN": "汤姆·索亚历险记",
+      "ja": "トム・ソーヤーの冒険"
+    },
+    "book:901837": {
+      "en": "The Prince and the Pauper",
+      "zh-CN": "王子与贫儿",
+      "ja": "王子と乞食"
+    },
+    "book:900215": {
+      "en": "The call of the wild",
+      "zh-CN": "野性的呼唤",
+      "ja": "野性の呼び声"
+    },
+    "book:900910": {
+      "en": "White Fang",
+      "zh-CN": "白牙",
+      "ja": "白い牙"
+    },
+    "book:903031": {
+      "en": "Wild Animals I Have Known",
+      "zh-CN": "我所知道的野生动物",
+      "ja": "私の知る野生動物"
+    },
+    "book:902284": {
+      "en": "Animal Heroes",
+      "zh-CN": "动物英雄",
+      "ja": "動物の英雄たち"
+    },
+    "book:942827": {
+      "en": "Bannertail: The Story of a Graysquirrel",
+      "zh-CN": "灰松鼠班纳的故事",
+      "ja": "灰色リスの旗尾"
+    },
+    "book:900157": {
+      "en": "Daddy-Long-Legs",
+      "zh-CN": "长腿叔叔",
+      "ja": "あしながおじさん"
+    },
+    "book:901450": {
+      "en": "Pollyanna",
+      "zh-CN": "波莉安娜",
+      "ja": "少女パレアナ"
+    },
+    "book:906100": {
+      "en": "Pollyanna Grows Up",
+      "zh-CN": "波莉安娜长大了",
+      "ja": "パレアナの青春"
+    },
+    "book:900440": {
+      "en": "Just David",
+      "zh-CN": "少年大卫",
+      "ja": "少年デイヴィッド"
+    },
+    "book:900498": {
+      "en": "Rebecca of Sunnybrook Farm",
+      "zh-CN": "晴溪庄的丽贝卡",
+      "ja": "少女レベッカ"
+    },
+    "book:901375": {
+      "en": "New Chronicles of Rebecca",
+      "zh-CN": "丽贝卡新传",
+      "ja": "レベッカの新しい日々"
+    },
+    "book:908994": {
+      "en": "What Katy Did",
+      "zh-CN": "凯蒂做了什么",
+      "ja": "ケティ物語"
+    },
+    "book:905141": {
+      "en": "What Katy Did at School",
+      "zh-CN": "凯蒂在学校",
+      "ja": "学校のケティ"
+    },
+    "book:908995": {
+      "en": "What Katy Did Next",
+      "zh-CN": "凯蒂接下来做了什么",
+      "ja": "その後のケティ"
+    },
+    "book:902770": {
+      "en": "Five Little Peppers and How They Grew",
+      "zh-CN": "五个小辣椒的成长",
+      "ja": "五人のペパーきょうだい"
+    },
+    "book:900764": {
+      "en": "Hans Brinker; Or, The Silver Skates",
+      "zh-CN": "汉斯·布林克：银冰鞋",
+      "ja": "ハンス・ブリンカー 銀のスケート"
+    },
+    "book:928856": {
+      "en": "Donald and Dorothy",
+      "zh-CN": "唐纳德和多萝西",
+      "ja": "ドナルドとドロシー"
+    },
+    "book:900111": {
+      "en": "Freckles",
+      "zh-CN": "雀斑男孩",
+      "ja": "そばかすの少年"
+    },
+    "book:900125": {
+      "en": "A Girl of the Limberlost",
+      "zh-CN": "林中女孩",
+      "ja": "リンバロストの乙女"
+    },
+    "book:900961": {
+      "en": "Glinda of Oz",
+      "zh-CN": "奥兹国的格琳达",
+      "ja": "オズのグリンダ"
+    },
+    "book:906471": {
+      "en": "The Children of the New Forest",
+      "zh-CN": "新森林的孩子们",
+      "ja": "ニューフォレストの子どもたち"
+    },
+    "book:900964": {
+      "en": "The Merry Adventures of Robin Hood",
+      "zh-CN": "侠盗罗宾汉",
+      "ja": "ロビン・フッドの冒険"
+    },
+    "book:901557": {
+      "en": "Men of Iron",
+      "zh-CN": "铁甲少年",
+      "ja": "鉄の男たち"
+    },
+    "book:902865": {
+      "en": "Otto of the Silver Hand",
+      "zh-CN": "银手奥托",
+      "ja": "銀の手のオットー"
+    },
+    "book:960184": {
+      "en": "The Story of King Arthur and his Knights",
+      "zh-CN": "亚瑟王与圆桌骑士",
+      "ja": "アーサー王と騎士たち"
+    },
+    "book:910745": {
+      "en": "The Story of the Champions of the Round Table",
+      "zh-CN": "圆桌勇士的故事",
+      "ja": "円卓の勇士たち"
+    },
+    "book:900902": {
+      "en": "The Happy Prince, and Other Tales",
+      "zh-CN": "快乐王子及其他故事",
+      "ja": "幸福な王子とほかの物語"
+    },
+    "book:900897": {
+      "en": "The Rose and the Ring",
+      "zh-CN": "玫瑰与戒指",
+      "ja": "バラと指輪"
+    },
+    "book:900496": {
+      "en": "The Little Lame Prince",
+      "zh-CN": "跛脚小王子",
+      "ja": "足の不自由な小さな王子"
+    },
+    "book:930494": {
+      "en": "The Adventures of A Brownie",
+      "zh-CN": "小精灵的冒险",
+      "ja": "ブラウニーの冒険"
+    },
+    "book:915569": {
+      "en": "The Cuckoo Clock",
+      "zh-CN": "布谷鸟钟",
+      "ja": "かっこう時計"
+    },
+    "book:917175": {
+      "en": "The Tapestry Room: A Child's Romance",
+      "zh-CN": "挂毯房间",
+      "ja": "タペストリーの部屋"
+    },
+    "book:939549": {
+      "en": "The Carved Lions",
+      "zh-CN": "雕刻的狮子",
+      "ja": "木彫りのライオン"
+    },
+    "book:902086": {
+      "en": "The Slowcoach",
+      "zh-CN": "慢吞吞的马车",
+      "ja": "のんびり馬車"
+    },
+    "book:912067": {
+      "en": "The Bee-Man of Orn and Other Fanciful Tales",
+      "zh-CN": "奥恩的养蜂人与其他奇幻故事",
+      "ja": "オーンの蜂飼いとほかのふしぎな物語"
+    },
+    "book:920651": {
+      "en": "A Jolly Fellowship",
+      "zh-CN": "快乐的伙伴",
+      "ja": "陽気な仲間たち"
+    },
+    "book:919360": {
+      "en": "Six to Sixteen: A Story for Girls",
+      "zh-CN": "从六岁到十六岁",
+      "ja": "六歳から十六歳まで"
+    },
+    "book:905601": {
+      "en": "Jan of the Windmill: A Story of the Plains",
+      "zh-CN": "风车旁的扬",
+      "ja": "風車小屋のヤン"
+    },
+    "book:915592": {
+      "en": "Old-Fashioned Fairy Tales",
+      "zh-CN": "老式童话",
+      "ja": "昔風のおとぎ話"
+    },
+    "book:916052": {
+      "en": "The Brownies and Other Tales",
+      "zh-CN": "小精灵与其他故事",
+      "ja": "ブラウニーとほかの物語"
     }
   }
 }

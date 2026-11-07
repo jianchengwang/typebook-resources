@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 16052,
+  "slug": "pg-16052-the-brownies-and-other-tales",
+  "title": "The Brownies and Other Tales",
+  "title_i18n": {
+    "en": "The Brownies and Other Tales",
+    "zh-CN": "小精灵与其他故事",
+    "ja": "ブラウニーとほかの物語"
+  },
+  "author": "Juliana Horatia Ewing",
+  "authors_catalog": "Ewing, Juliana Horatia, 1841-1885",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "story-collection",
+  "text_url": "https://www.gutenberg.org/cache/epub/16052/pg16052-images.html",
+  "text_sha256": "0aa60a448563f03e47eeda37787b83dfaeb6ff83a2da2def6b61261ff41b34a7",
+  "page_sha256": "c59e88595bb8cc03cbe49ba2bfaebdd800cbb1ff26987fa81e9fa2195aa24cf1",
+  "extraction": {
+    "heading_level": 2,
+    "heading_pattern": "^[^\"]",
+    "start_text": "THE BROWNIES.",
+    "end_text": "THE END."
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1885,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 6,
+    "word_count": 48134,
+    "selected_text_sha256": "36d463b6b7535285bb5b24cdc1d038d1ddfa199fe70c5e202c46727585a656ae",
+    "section_titles": [
+      "THE BROWNIES.",
+      "THE LAND OF LOST TOYS. — AN EARTHQUAKE IN THE NURSERY.",
+      "THREE CHRISTMAS TREES.",
+      "AN IDYLL OF THE WOOD.",
+      "CHRISTMAS CRACKERS. A FANTASIA.",
+      "AMELIA AND THE DWARFS."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 6,
+    "word_count": 48134,
+    "kept_blocks": 1032,
+    "omitted_blocks": 32,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 151,
+        "preview": "The Project Gutenberg eBook of The Brownies and Other Tales This eBook is for the use of anyone anyw"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE BROWNIES AND OTHER TALES *** Updated editions will replac"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "THE BROWNIES AND OTHER TALES. BY JULIANA HORATIA EWING."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "LONDON: SOCIETY FOR PROMOTING CHRISTIAN KNOWLEDGE, NORTHUMBERLAND AVENUE, W.C. NEW YORK: E. & J.B. Y"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "DEDICATED TO MY VERY DEAR AND HONOURED MOTHER. J.H.E. 1871."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "THE BROWNIES THE LAND OF LOST TOYS THREE CHRISTMAS TREES AN IDYLL OF THE WOOD CHRISTMAS CRACKERS AME"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE END."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Richard Clay & Sons, Limited, London & Bungay."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "[Transcriber's Note: The following statement was in the edition from which this copy was acquired.]"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "The present Series of Mrs. Ewing's Works is the only authorized, complete, and uniform Edition publi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 59,
+        "preview": "It will consist of 18 volumes, Small Crown 8vo, at 2s. 6d. per vol., issued, as far as possible, in "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "The following is a list of the books included in the Series—"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "MELCHIOR'S DREAM, AND OTHER TALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "MRS. OVERTHEWAY'S REMEMBRANCES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "OLD-FASHIONED FAIRY-TALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "A FLAT IRON FOR A FARTHING."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE BROWNIES, AND OTHER TALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "SIX TO SIXTEEN."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "LOB-LIE-BY-THE-FIRE, AND OTHER TALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "JAN OF THE WINDMILL."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "VERSES FOR CHILDREN, AND SONGS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "THE PEACE EGG—A CHRISTMAS MUMMING PLAY—HINTS FOR PRIVATE THEATRICALS, &c."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "A GREAT EMERGENCY, AND OTHER TALES."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "BROTHERS OF PITY, AND OTHER TALES OF BEASTS AND MEN."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "WE AND THE WORLD, Part I."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "WE AND THE WORLD, Part II."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "JACKANAPES—DADDY DARWIN'S DOVECOTE—THE STORY OF A SHORT LIFE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "MARY'S MEADOW, AND OTHER TALES OF FIELDS AND FLOWERS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "MISCELLANEA, including The Mystery of the Bloody Hand—Wonder Stories—Tales of the Khoja, and other t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "JULIANA HORATIA EWING AND HER BOOKS, with a selection from Mrs. Ewing's Letters."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "S.P.C.K., NORTHUMBERLAND AVENUE, LONDON, W.C."
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": "^[^\"]",
+    "reconstruction_verified": true,
+    "selected_text_sha256": "36d463b6b7535285bb5b24cdc1d038d1ddfa199fe70c5e202c46727585a656ae",
+    "html_sha256": "0aa60a448563f03e47eeda37787b83dfaeb6ff83a2da2def6b61261ff41b34a7",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-16052-the-brownies-and-other-tales/chapters/001.txt",
+      "sha256": "fdde7c0e7da5f90ef6982453378ca14359e4686918b5541478d0c830052806c2",
+      "bytes": 73675
+    },
+    {
+      "path": "books/pg-16052-the-brownies-and-other-tales/chapters/002.txt",
+      "sha256": "56d289d575366e3f754be6ab04af50d28fce0a558c7912784bd4dfe3cbee0a40",
+      "bytes": 52798
+    },
+    {
+      "path": "books/pg-16052-the-brownies-and-other-tales/chapters/003.txt",
+      "sha256": "2792441d60cdbf327b6c5da1bbedf06f4c3f76b995674c5206fe1fbed98df3a7",
+      "bytes": 19543
+    },
+    {
+      "path": "books/pg-16052-the-brownies-and-other-tales/chapters/004.txt",
+      "sha256": "1c98204b0589ee8d0eed2cf210e4a2cc56bc21a97dc2a04c6d9a4a5b8c8b1457",
+      "bytes": 22918
+    },
+    {
+      "path": "books/pg-16052-the-brownies-and-other-tales/chapters/005.txt",
+      "sha256": "aa069a43f84caee91353844a119a77f77d033c69d3d1c7d5b72dd57a4bd48167",
+      "bytes": 42090
+    },
+    {
+      "path": "books/pg-16052-the-brownies-and-other-tales/chapters/006.txt",
+      "sha256": "b57f9fe022f182fd1a224e7a9e742efca0cf8df575cede1068591055479cc102",
+      "bytes": 50616
+    }
+  ]
+}

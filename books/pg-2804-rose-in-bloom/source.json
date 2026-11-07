@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2804,
+  "slug": "pg-2804-rose-in-bloom",
+  "title": "Rose in Bloom",
+  "title_i18n": {
+    "en": "Rose in Bloom",
+    "zh-CN": "玫瑰盛开",
+    "ja": "花ざかりのローズ"
+  },
+  "author": "Louisa May Alcott",
+  "authors_catalog": "Alcott, Louisa May, 1832-1888",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/2804/pg2804-images.html",
+  "text_sha256": "8aa1e42625349c6a1b08240244db5574ceac1ca3e046cbb8638bf28cb0cc51bd",
+  "page_sha256": "5713270e08185e6ca20e149dcd60fad1e24c0c647a3df2e0717af1fde25b4b28",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1888,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 22,
+    "word_count": 94097,
+    "selected_text_sha256": "e7eae6798451599b0e7e9fa4db93fff27fe691f7a76c7e3cf4ca39a5ae28e42e",
+    "section_titles": [
+      "Chapter 1 COMING HOME",
+      "Chapter 2 OLD FRIENDS WITH NEW FACES",
+      "Chapter 3 MISS CAMPBELL",
+      "Chapter 4 THORNS AMONG THE ROSES",
+      "Chapter 5 PRINCE CHARMING",
+      "Chapter 6 POLISHING MAC",
+      "Chapter 7 PHEBE",
+      "Chapter 8 BREAKERS AHEAD",
+      "Chapter 9 NEW YEAR'S CALLS",
+      "Chapter 10 THE SAD AND SOBER PART",
+      "Chapter 11 SMALL TEMPTATIONS",
+      "Chapter 12 AT KITTY'S BALL",
+      "Chapter 13 BOTH SIDES",
+      "Chapter 14 AUNT CLARA'S PLAN",
+      "Chapter 15 ALAS FOR CHARLIE!",
+      "Chapter 16 GOOD WORKS",
+      "Chapter 17 AMONG THE HAYCOCKS",
+      "Chapter 18 WHICH WAS IT?",
+      "Chapter 19 BEHIND THE FOUNTAIN",
+      "Chapter 20 WHAT MAC DID",
+      "Chapter 21 HOW PHEBE EARNED HER WELCOME",
+      "Chapter 22 SHORT AND SWEET"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 22,
+    "word_count": 94097,
+    "kept_blocks": 1897,
+    "omitted_blocks": 34,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 137,
+        "preview": "The Project Gutenberg eBook of Rose in Bloom This eBook is for the use of anyone anywhere in the Uni"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Preface"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 1 COMING HOME"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter 2 OLD FRIENDS WITH NEW FACES"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 3 MISS CAMPBELL"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter 4 THORNS AMONG THE ROSES"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 5 PRINCE CHARMING"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 6 POLISHING MAC"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 7 PHEBE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 8 BREAKERS AHEAD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 9 NEW YEAR'S CALLS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter 10 THE SAD AND SOBER PART"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 11 SMALL TEMPTATIONS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 12 AT KITTY'S BALL"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 13 BOTH SIDES"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 14 AUNT CLARA'S PLAN"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 15 ALAS FOR CHARLIE!"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 16 GOOD WORKS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 17 AMONG THE HAYCOCKS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 18 WHICH WAS IT?"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 19 BEHIND THE FOUNTAIN"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 20 WHAT MAC DID"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter 21 HOW PHEBE EARNED HER WELCOME"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 22 SHORT AND SWEET"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK ROSE IN BLOOM *** Updated editions will replace the previous "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id-2649300488113360982",
+        "words": 38,
+        "preview": "THIS EBOOK WAS ONE OF PROJECT GUTENBERG'S EARLY FILES PRODUCED AT A TIME WHEN PROOFING METHODS AND T"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "ROSE IN BLOOM"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "A Sequel to “Eight Cousins”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Louisa May Alcott"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Preface"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 72,
+        "preview": "As authors may be supposed to know better than anyone else what they intended to do when writing a b"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "L. M. Alcott"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "September 1876"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "e7eae6798451599b0e7e9fa4db93fff27fe691f7a76c7e3cf4ca39a5ae28e42e",
+    "html_sha256": "8aa1e42625349c6a1b08240244db5574ceac1ca3e046cbb8638bf28cb0cc51bd",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/001.txt",
+      "sha256": "49534bae3c512b4374a01b5aaac6c7f2ac57490a94b836072fa00a6e958151a4",
+      "bytes": 39563
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/002.txt",
+      "sha256": "ca5db224104a14b23c575efb38be54049915affdf3e68d9ead3a157c3cf19196",
+      "bytes": 30318
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/003.txt",
+      "sha256": "21ab7362df580b3a8989df5b3878088185b3901394cf93ad46ee187b1805fe4d",
+      "bytes": 22764
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/004.txt",
+      "sha256": "ea8a919fda7303cbbd12dbe7bf8ca362f4b0d9d440f0a31d0f68e37176f2979e",
+      "bytes": 15119
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/005.txt",
+      "sha256": "4ad3bd89cf08806caa14b63809e6ab0042e9841ca86b440bc31cc76c99787b53",
+      "bytes": 25421
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/006.txt",
+      "sha256": "fc8a148c0c34b484e1541d55a24cbb3dbf24f5728874c01f56291a2aed0c1d5b",
+      "bytes": 32482
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/007.txt",
+      "sha256": "df4080db223ce8054e02c5f4bcca1f51f1ebb025e990ba7716d449701c64d3e6",
+      "bytes": 37328
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/008.txt",
+      "sha256": "c34317c2b9d51e88aad1c63cde9c93b7427e20a1d91720253c5e962bb13c012d",
+      "bytes": 14659
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/009.txt",
+      "sha256": "d87892cdceed88c374fa3fbdd3b70ee3a99cc2781ffbadbb370525d7a036c1cc",
+      "bytes": 26206
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/010.txt",
+      "sha256": "33bf447c1ca02ef737fea1a8983126da2fb87b6ce796cff04a8ba06d9d66a570",
+      "bytes": 16455
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/011.txt",
+      "sha256": "afbe2cc535b94e9dd67c2546d31175c2ac7f3161d59c72823b5d3d1af1cfc789",
+      "bytes": 28096
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/012.txt",
+      "sha256": "c1d756edd281c10859a1b1ed6b2a2cde9860822a62db5e2009c366e86aabdde1",
+      "bytes": 31229
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/013.txt",
+      "sha256": "1287ca5afecb793123528f439b196a4e3bd6516fe600774f33b35b9a0379dc40",
+      "bytes": 24527
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/014.txt",
+      "sha256": "eefb5a3d47b73a36154738901cc017f0a95663ed02dab62732188ddfb637c24b",
+      "bytes": 12398
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/015.txt",
+      "sha256": "6558cf40caee780e08dc9a317c0c1692a0666f5b490f5d760160f215481ef798",
+      "bytes": 19768
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/016.txt",
+      "sha256": "16c2d7da5970bdb47244e87db52864e2b29352444f1f9e68d75806e69e5ff1f2",
+      "bytes": 19954
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/017.txt",
+      "sha256": "0f157cee93162575f48050a18fde7deca07308002bea2cec1c4818a16a03dc10",
+      "bytes": 25818
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/018.txt",
+      "sha256": "5528274d397ef1b3b295963d7991fc2bbb5824245e2f5c5b1b0cd924a97fd019",
+      "bytes": 33114
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/019.txt",
+      "sha256": "42580e7295e6209d0bcbfd9789d5702dc321bb42837a6eb8afa5480fe610f921",
+      "bytes": 10732
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/020.txt",
+      "sha256": "d256067eefab112fa43bb851252537ba0c7476501401684a8d57f51e14d028f2",
+      "bytes": 18667
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/021.txt",
+      "sha256": "4c6b6699a443de6b7ffe6418df1262878cf3e67986c7857c8e926a79fe9b2efa",
+      "bytes": 16794
+    },
+    {
+      "path": "books/pg-2804-rose-in-bloom/chapters/022.txt",
+      "sha256": "28a2dce4d6bf4c5a45b24fa991cb5333bc20b63639504041ff0b6c9b24940b16",
+      "bytes": 10191
+    }
+  ]
+}

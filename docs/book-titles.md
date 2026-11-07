@@ -1,6 +1,6 @@
 # Multilingual book titles
 
-The 4 public entries in `catalogs/books.json` and 100 compatibility entries in
+The 100 public entries in `catalogs/books.json` and 100 compatibility entries in
 `catalogs/standalone-readers.json` include an additive `title_i18n` object:
 
 ```json

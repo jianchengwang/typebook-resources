@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 316,
+  "slug": "pg-316-the-golden-road",
+  "title": "The Golden Road",
+  "title_i18n": {
+    "en": "The Golden Road",
+    "zh-CN": "金色的道路",
+    "ja": "黄金の道"
+  },
+  "author": "L. M. Montgomery",
+  "authors_catalog": "Montgomery, L. M. (Lucy Maud), 1874-1942",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/316/pg316-images.html",
+  "text_sha256": "485290adde8198ef0a2bcf07ba101478b85bebdb4306fd1937640807e97aeb51",
+  "page_sha256": "40e163e7b9563e73d2b1389b5f97eab7367ac5c53228ecb3aeda08650ed52dfc",
+  "extraction": {
+    "extra_heading_texts": [
+      "FOREWORD"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1942,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 34,
+    "word_count": 75639,
+    "selected_text_sha256": "09a3a7890ca0b7603bc2192f8fd19522d214278425e821a111f4ab726b95efad",
+    "section_titles": [
+      "FOREWORD",
+      "CHAPTER I. A NEW DEPARTURE",
+      "CHAPTER II. A WILL, A WAY AND A WOMAN",
+      "CHAPTER III. THE CHRISTMAS HARP",
+      "CHAPTER IV. NEW YEAR RESOLUTIONS",
+      "CHAPTER V. THE FIRST NUMBER OF “OUR MAGAZINE”",
+      "CHAPTER VI. GREAT-AUNT ELIZA’S VISIT",
+      "CHAPTER VII. WE VISIT COUSIN MATTIE’S",
+      "CHAPTER VIII. WE VISIT PEG BOWEN",
+      "CHAPTER IX. EXTRACTS FROM THE FEBRUARY AND MARCH NUMBERS OF “OUR MAGAZINE”",
+      "CHAPTER X. DISAPPEARANCE OF PADDY",
+      "CHAPTER XI. THE WITCH’S WISHBONE",
+      "CHAPTER XII. FLOWERS O’ MAY",
+      "CHAPTER XIII. A SURPRISING ANNOUNCEMENT",
+      "CHAPTER XIV. A PRODIGAL RETURNS",
+      "CHAPTER XV. THE RAPE OF THE LOCK",
+      "CHAPTER XVI. AUNT UNA’S STORY",
+      "CHAPTER XVII. AUNT OLIVIA’S WEDDING",
+      "CHAPTER XVIII. SARA RAY HELPS OUT",
+      "CHAPTER XIX. BY WAY OF THE STARS",
+      "CHAPTER XX. EXTRACTS FROM “OUR MAGAZINE”",
+      "CHAPTER XXI. PEG BOWEN COMES TO CHURCH",
+      "CHAPTER XXII. THE YANKEE STORM",
+      "CHAPTER XXIII. A MISSIONARY HEROINE",
+      "CHAPTER XXIV. A TANTALIZING REVELATION",
+      "CHAPTER XXV. THE LOVE STORY OF THE AWKWARD MAN — (Written by the Story Girl)",
+      "CHAPTER XXVI. UNCLE BLAIR COMES HOME",
+      "CHAPTER XXVII. THE OLD ORDER CHANGETH",
+      "CHAPTER XXVIII. THE PATH TO ARCADY",
+      "CHAPTER XXIX. WE LOSE A FRIEND",
+      "CHAPTER XXX. PROPHECIES",
+      "CHAPTER XXXI. THE LAST NUMBER OF OUR MAGAZINE",
+      "CHAPTER XXXII. OUR LAST EVENING TOGETHER",
+      "CHAPTER XXXIII. THE STORY GIRL GOES"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Thirty-three chapters plus the literary Foreword.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 34,
+    "word_count": 75639,
+    "kept_blocks": 1973,
+    "omitted_blocks": 10,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 135,
+        "preview": "The Project Gutenberg eBook of The Golden Road This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "FOREWORD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE GOLDEN ROAD"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE GOLDEN ROAD *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE GOLDEN ROAD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By L. M. Montgomery"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "“Life was a rose-lipped comrade With purple flowers dripping from her fingers.” —The Author."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 19,
+        "preview": "TO THE MEMORY OF Aunt Mary Lawson WHO TOLD ME MANY OF THE TALES REPEATED BY THE STORY GIRL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 194,
+        "preview": "CHAPTER I. A NEW DEPARTURE CHAPTER II. A WILL, A WAY AND A WOMAN CHAPTER III. THE CHRISTMAS HARP CHA"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "09a3a7890ca0b7603bc2192f8fd19522d214278425e821a111f4ab726b95efad",
+    "html_sha256": "485290adde8198ef0a2bcf07ba101478b85bebdb4306fd1937640807e97aeb51",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-316-the-golden-road/chapters/001.txt",
+      "sha256": "b7ec86966af296ed3ba2918f5d46a1a98b018601e619ded4445292f80cccfc21",
+      "bytes": 862
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/002.txt",
+      "sha256": "a7d0d4ba71894540f14cad72ca3a5eff565be4365a3ef76094e11fdf95c1fa5e",
+      "bytes": 11365
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/003.txt",
+      "sha256": "f4eccfbc72839724289244fbf964848afc8751b97214ca25cab24ce1a0058f32",
+      "bytes": 13569
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/004.txt",
+      "sha256": "aa5696d71bc7eead1ef8235e8c45e33bfec509cc169a7d7d098ee1fa0a9e5f47",
+      "bytes": 16731
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/005.txt",
+      "sha256": "0c78de63d9efb8af922c3928d3356e12558347773a19981b77001d33066602f9",
+      "bytes": 19431
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/006.txt",
+      "sha256": "a44194e81b0f545a016be59062e63241fb98e93f10c067f80daf41dd2a30fe65",
+      "bytes": 14388
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/007.txt",
+      "sha256": "eba885cbbf9bb9921e039760b343598460da61a7549c8603bd20b71dae7fb6f5",
+      "bytes": 27578
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/008.txt",
+      "sha256": "557681c8a8efaa7f6c4e75af5e0101a7e3631a1d632e3b857540020ca3cc3137",
+      "bytes": 6500
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/009.txt",
+      "sha256": "c46cc340e4f1ef76d620d47dfa14af119ed9ae264a7c7b41df3bb86c100f751b",
+      "bytes": 25895
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/010.txt",
+      "sha256": "bdf78b6d1c4a40ceab6dea24ae58dc0fbfc4502e73fc01ec7a57290913684b1c",
+      "bytes": 12857
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/011.txt",
+      "sha256": "492ba26df41fb09bf911eff0faf76741b0d7e602edb750db36b7ac13d0c20fdd",
+      "bytes": 12214
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/012.txt",
+      "sha256": "5e794624d3e96403b54c2d1e7abcb59fe06625ffd4d91a51fbf544279420a117",
+      "bytes": 7825
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/013.txt",
+      "sha256": "3a8fb1fa54eacf62bcdbba33a7d6c9ac69ab7a9bedd856aadfa530a3ea5c301c",
+      "bytes": 11570
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/014.txt",
+      "sha256": "6488d94b954a4dd7e15cedb1eeaadc5238caeb122c9a9ebf77c5b7852001136f",
+      "bytes": 10231
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/015.txt",
+      "sha256": "b8f02d9046ab72ef0308ccedb8e0ac8cf5d67163ddf1b9ea3ab7e8ffb0452329",
+      "bytes": 16685
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/016.txt",
+      "sha256": "8dbbd5628373da59545cf5636a1595778a6485b6ebb27e11ebf43876e1691f22",
+      "bytes": 10887
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/017.txt",
+      "sha256": "24480199bd9c3faba864cf5b862b79dabd592aa7eb5112ae226419374a60db66",
+      "bytes": 9912
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/018.txt",
+      "sha256": "ac6bd60f11794c852b5e23706bf322c8ad49edb0dcdccd5e8e9fa5b1b440e8c8",
+      "bytes": 10184
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/019.txt",
+      "sha256": "4ca2277f9117eddd66bce736ac8831c88ae7116c44a4cbb22bc44624851cec74",
+      "bytes": 16189
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/020.txt",
+      "sha256": "31a3faa92446a618718677a8f9620b4df0157116e233ceaa186106b74e3405a9",
+      "bytes": 6301
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/021.txt",
+      "sha256": "dfe71049be19e967eb66bc7e4ef648dd588675342dfc7923e2ac3312a99296b3",
+      "bytes": 11517
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/022.txt",
+      "sha256": "2d5dfabbb839d9f27710e10322d7711eccc51b1b85a39a0d3cb7367454992459",
+      "bytes": 17840
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/023.txt",
+      "sha256": "db78f2a6488456f53694249fa5252415516ecb47c0f8618f5e6b8f2062d7f80f",
+      "bytes": 8581
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/024.txt",
+      "sha256": "e8de5378aad639121be262b0548ce1e9fcbdfb551138e7e84db3a0cb207f0718",
+      "bytes": 13172
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/025.txt",
+      "sha256": "64ee7d44fb72ed43e6ed54ff4505b4b2d35c94247b8008b0886b1d55e146130b",
+      "bytes": 12230
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/026.txt",
+      "sha256": "b1259ae4ced4640e0da2a27a2ed5e1bb58b5f757c20641319a1db760387a2394",
+      "bytes": 23538
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/027.txt",
+      "sha256": "9494b406c5c4eb1a3c08da8929d5beba876659195f04d702e6f72aa6463bc3d5",
+      "bytes": 14387
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/028.txt",
+      "sha256": "d815a55cadedbc0f4d275add70888164bb88ec46ff7a244a4baec0c279cc3736",
+      "bytes": 9261
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/029.txt",
+      "sha256": "e99b2941a3e44afb0d46fc276246bb2ed2d25fe2153fbe253f2175517c515ce6",
+      "bytes": 18129
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/030.txt",
+      "sha256": "cc6651341b4f9b13e3d3f1096721568d481c02de4f8e742a872b6bc9a9ea923e",
+      "bytes": 7980
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/031.txt",
+      "sha256": "ab4d571694a9a35e36616e373a437d2ad8b7dedb249ef137748de8c8360b3ba0",
+      "bytes": 9062
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/032.txt",
+      "sha256": "11bd6fa437370b519976affdd2da7b89e76301c74eeb222c9fa9624e0051c429",
+      "bytes": 10137
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/033.txt",
+      "sha256": "f680064dcfa345f6626db021efd4cc34e3c5eca98da5617efb94954856995eea",
+      "bytes": 4780
+    },
+    {
+      "path": "books/pg-316-the-golden-road/chapters/034.txt",
+      "sha256": "a8f38351ea6367332bb2264c052453b530fec1adbcdef2473956fdf3d05ec6c7",
+      "bytes": 4015
+    }
+  ]
+}

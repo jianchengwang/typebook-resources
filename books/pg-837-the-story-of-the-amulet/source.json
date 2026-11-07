@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 837,
+  "slug": "pg-837-the-story-of-the-amulet",
+  "title": "The Story of the Amulet",
+  "title_i18n": {
+    "en": "The Story of the Amulet",
+    "zh-CN": "魔符的故事",
+    "ja": "魔よけ物語"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/837/pg837-images.html",
+  "text_sha256": "18ac8fe6ac5d580f395bc99b8a8a4590e9e26228088ee08e64f8fd8c94d21a09",
+  "page_sha256": "22e2ffcc0a6e4d6b7a02849405a5e7f412a596a9790cd3c6c9d65ef2f4937245",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 14,
+    "word_count": 68418,
+    "selected_text_sha256": "063b7833e5218764909fb314711d10252465661b695fa3d959eb7e8b76d8262a",
+    "section_titles": [
+      "CHAPTER I. THE PSAMMEAD",
+      "CHAPTER II. THE HALF AMULET",
+      "CHAPTER III. THE PAST",
+      "CHAPTER IV. EIGHT THOUSAND YEARS AGO",
+      "CHAPTER V. THE FIGHT IN THE VILLAGE",
+      "CHAPTER VI. THE WAY TO BABYLON",
+      "CHAPTER VII. “THE DEEPEST DUNGEON BELOW THE CASTLE MOAT”",
+      "CHAPTER VIII. THE QUEEN IN LONDON",
+      "CHAPTER IX. ATLANTIS",
+      "CHAPTER X. THE LITTLE BLACK GIRL AND JULIUS CAESAR",
+      "CHAPTER XI. BEFORE PHARAOH",
+      "CHAPTER XII. THE SORRY-PRESENT AND THE EXPELLED LITTLE BOY",
+      "CHAPTER XIII. THE SHIPWRECK ON THE TIN ISLANDS",
+      "CHAPTER XIV. THE HEART’S DESIRE"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 14,
+    "word_count": 68418,
+    "kept_blocks": 2397,
+    "omitted_blocks": 20,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 140,
+        "preview": "The Project Gutenberg eBook of The Story of the Amulet This eBook is for the use of anyone anywhere "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE STORY OF THE AMULET *** Updated editions will replace the"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Story of the Amulet"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "by E. Nesbit"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER I. THE PSAMMEAD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER II. THE HALF AMULET"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER III. THE PAST"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER IV. EIGHT THOUSAND YEARS AGO"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER V. THE FIGHT IN THE VILLAGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER VI. THE WAY TO BABYLON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "CHAPTER VII. “THE DEEPEST DUNGEON BELOW THE CASTLE MOAT”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER VIII. THE QUEEN IN LONDON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER IX. ATLANTIS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "CHAPTER X. THE LITTLE BLACK GIRL AND JULIUS CAESAR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER XI. BEFORE PHARAOH"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "CHAPTER XII. THE SORRY-PRESENT AND THE EXPELLED LITTLE BOY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER XIII. THE SHIPWRECK ON THE TIN ISLANDS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XIV. THE HEART’S DESIRE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 25,
+        "preview": "TO Dr Wallis Budge of the British Museum as a small token of gratitude for his unfailing kindness an"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "063b7833e5218764909fb314711d10252465661b695fa3d959eb7e8b76d8262a",
+    "html_sha256": "18ac8fe6ac5d580f395bc99b8a8a4590e9e26228088ee08e64f8fd8c94d21a09",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/001.txt",
+      "sha256": "dd59b30b403f9acd43ec97c2e381aff7c6377b48010f685bd915d57fe87251b7",
+      "bytes": 27347
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/002.txt",
+      "sha256": "4dc00bd10064c5c1d7c83523cd38653daf9bcdf03445365a24460f39860a4e3c",
+      "bytes": 21544
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/003.txt",
+      "sha256": "0a56a6dbc5ae6205136a0c9b7c9969f7be733fcd08ea812f950bc671d7e7d637",
+      "bytes": 19453
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/004.txt",
+      "sha256": "873d35f525d97772421826590c1cde91bebfe76eee66d3bc5119f3d0ae54f67f",
+      "bytes": 25427
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/005.txt",
+      "sha256": "dbb6132b4e4a81709d12a8339179e9c6f2e40a84096b39c17e615663f356776c",
+      "bytes": 21676
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/006.txt",
+      "sha256": "93992c8f082c143bed00b39914df6da5b8b47041ac9c76d1ef2de246d73df5ff",
+      "bytes": 27116
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/007.txt",
+      "sha256": "2bc3df48af9068740fea8c19e7f2fa3b34b12ba59a3ca3e9c4981585b2027b68",
+      "bytes": 30763
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/008.txt",
+      "sha256": "6399785a374b5543ff4addbbe076569f6f2d973e48445538e5bab48388dfd2b2",
+      "bytes": 34594
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/009.txt",
+      "sha256": "3c639311fa415aea66e32262fec62d0baa375bb87784a5619ae40c16201dbd3d",
+      "bytes": 29022
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/010.txt",
+      "sha256": "9875bc28c5d234c0e5d9ec2ac7a5e253cd0ed7d3cfe9851a35f901aa6ca5af38",
+      "bytes": 26945
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/011.txt",
+      "sha256": "7527c0fda8075b14fbe2a2808c2cd71c794a5a1ff71df948b31d72362affb214",
+      "bytes": 34921
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/012.txt",
+      "sha256": "6f9702b67060d25931abfacbb47d71e877d3b7b36803c0b607c5fc88eb68630c",
+      "bytes": 32688
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/013.txt",
+      "sha256": "5185e02a03f47e511a3a4bedefde4ff87e4ef5bf21397402c8dccf1d177898bb",
+      "bytes": 27677
+    },
+    {
+      "path": "books/pg-837-the-story-of-the-amulet/chapters/014.txt",
+      "sha256": "960e4e25ad83a6ea21e46e965252d8cb175b3e7e7bab41a0340e9105c2a5f464",
+      "bytes": 34037
+    }
+  ]
+}

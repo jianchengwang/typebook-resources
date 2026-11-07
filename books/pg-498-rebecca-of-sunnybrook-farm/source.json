@@ -1,0 +1,498 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 498,
+  "slug": "pg-498-rebecca-of-sunnybrook-farm",
+  "title": "Rebecca of Sunnybrook Farm",
+  "title_i18n": {
+    "en": "Rebecca of Sunnybrook Farm",
+    "zh-CN": "晴溪庄的丽贝卡",
+    "ja": "少女レベッカ"
+  },
+  "author": "Kate Douglas Smith Wiggin",
+  "authors_catalog": "Wiggin, Kate Douglas Smith, 1856-1923",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/498/pg498-images.html",
+  "text_sha256": "1d8ef04d1e6efa583bf6eadf44c8ac86fb0ebc2971f347522eccc8c876d07500",
+  "page_sha256": "69cf2f93cf7884160892d4338eae21ecfe40f1a301d7e28b20a5c6ef774e0f0a",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1923,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 31,
+    "word_count": 73453,
+    "selected_text_sha256": "e286cc160abbb979985057374ec8961bb109d05e04038bc09dd0f20922ce15f1",
+    "section_titles": [
+      "I — \"WE ARE SEVEN\"",
+      "II — REBECCA'S RELATIONS",
+      "III — A DIFFERENCE IN HEARTS",
+      "IV — REBECCA'S POINT OF VIEW",
+      "V — WISDOM'S WAYS",
+      "VI — SUNSHINE IN A SHADY PLACE",
+      "VII — RIVERBORO SECRETS",
+      "VIII — COLOR OF ROSE",
+      "IX — ASHES OF ROSES",
+      "X — RAINBOW BRIDGES",
+      "XI — \"THE STIRRING OF THE POWERS\"",
+      "XII — \"SEE THE PALE MARTYR\"",
+      "XIII — SNOW-WHITE; ROSE-RED",
+      "XIV — MR. ALADDIN",
+      "XV — THE BANQUET LAMP",
+      "XVI — SEASONS OF GROWTH",
+      "XVII — GRAY DAYS AND GOLD",
+      "XVIII — REBECCA REPRESENTS THE FAMILY",
+      "XIX — DEACON ISRAEL'S SUCCESSOR",
+      "XX — A CHANGE OF HEART",
+      "XXI — THE SKY LINE WIDENS",
+      "XXII — CLOVER BLOSSOMS AND SUNFLOWERS",
+      "XXIII — THE HILL DIFFICULTY",
+      "XXIV — ALADDIN RUBS HIS LAMP",
+      "XXV — ROSES OF JOY",
+      "XXVI — \"OVER THE TEACUPS\"",
+      "XXVII — \"THE VISION SPLENDID\"",
+      "XXVIII — \"TH' INEVITABLE YOKE\"",
+      "XXIX — MOTHER AND DAUGHTER",
+      "XXX — GOOD-BY, SUNNYBROOK",
+      "XXXI — AUNT MIRANDA'S APOLOGY"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 31,
+    "word_count": 73453,
+    "kept_blocks": 1302,
+    "omitted_blocks": 40,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 143,
+        "preview": "The Project Gutenberg eBook of Rebecca of Sunnybrook Farm This eBook is for the use of anyone anywhe"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK REBECCA OF SUNNYBROOK FARM *** Updated editions will replace "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Rebecca Of Sunnybrook Farm"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Kate Douglas Wiggin"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "TO MY MOTHER"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 39,
+        "preview": "Her eyes as stars of Twilight fair;\nLike Twilight's, too, her dusky hair;\nBut all things else about "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "I. \"WE ARE SEVEN\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "II. REBECCA'S RELATIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "III. A DIFFERENCE IN HEARTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "IV. REBECCA'S POINT OF VIEW"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "V. WISDOM'S WAYS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "VI. SUNSHINE IN A SHADY PLACE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "VII. RIVERBORO SECRETS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "VIII. COLOR OF ROSE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "IX. ASHES OF ROSES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "X. RAINBOW BRIDGES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XI. \"THE STIRRING OF THE POWERS\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XII. \"SEE THE PALE MARTYR\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XIII. SNOW-WHITE; ROSE-RED"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XIV. MR. ALADDIN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XV. THE BANQUET LAMP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVI. SEASONS OF GROWTH"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XVII. GRAY DAYS AND GOLD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XVIII. REBECCA REPRESENTS THE FAMILY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XIX. DEACON ISRAEL'S SUCCESSOR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XX. A CHANGE OF HEART"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXI. THE SKY LINE WIDENS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXII. CLOVER BLOSSOMS AND SUNFLOWERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIII. THE HILL DIFFICULTY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXIV. ALADDIN RUBS HIS LAMP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXV. ROSES OF JOY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVI. OVER THE TEACUPS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVII. \"THE VISION SPLENDID\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVIII. \"TH' INEVITABLE YOKE\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIX. MOTHER AND DAUGHTER"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXX. \"GOOD-BY, SUNNYBROOK!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXXI. AUNT MIRANDA'S APOLOGY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "REBECCA OF SUNNYBROOK FARM"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 3,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "e286cc160abbb979985057374ec8961bb109d05e04038bc09dd0f20922ce15f1",
+    "html_sha256": "1d8ef04d1e6efa583bf6eadf44c8ac86fb0ebc2971f347522eccc8c876d07500",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/001.txt",
+      "sha256": "e6f6dc039443d3372b9eed57ad8cd9c2d284257e25d9aa12817731fe20688458",
+      "bytes": 25911
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/002.txt",
+      "sha256": "d2059f2d1ac461d9c8f33905b6a86fb4e86e3efec4e1f87340170b707bbd510b",
+      "bytes": 10193
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/003.txt",
+      "sha256": "8ad1e54e44f510fda49be2763e78cb6adae2ba092f0853eba6dde88460794ae2",
+      "bytes": 14913
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/004.txt",
+      "sha256": "78b7d3bbf54408205f5b771a528639f62f4083652dd48cfb18ff01e78c6a4a0f",
+      "bytes": 6313
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/005.txt",
+      "sha256": "2a349a22b0ce65cd9fd61f732886922836de092827fd754ae57318b7244138ae",
+      "bytes": 17225
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/006.txt",
+      "sha256": "25b4fceeed19ebb7ea5a0fcdf49a9025867e82a34c113e053515c61640340f4d",
+      "bytes": 12796
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/007.txt",
+      "sha256": "a8b72e8f6b0253a56f7222af581f43ee6628e5412a27cc052729b9bf72d6f988",
+      "bytes": 12202
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/008.txt",
+      "sha256": "f92f6e36f48a27b934b6c32007ab88ae476d0f845e0267a3712118d9c3c80cb0",
+      "bytes": 9177
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/009.txt",
+      "sha256": "47c03d050af47e792212847c381fd3ff75ae99ac543ed5ea479f707ce8a13e43",
+      "bytes": 12640
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/010.txt",
+      "sha256": "b4d106e08c78b522cdee0907108c26d5d9f264d2e2a188beb15849ec20367065",
+      "bytes": 11746
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/011.txt",
+      "sha256": "4b7baad7ef9fa743202b7906f2cdf11c68b61f5d21f8a0b23a75d9d1a5dc3417",
+      "bytes": 10694
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/012.txt",
+      "sha256": "239e900374b2c5498210ecc35623ef669aee93810291c922ffcc1d1acfede482",
+      "bytes": 16227
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/013.txt",
+      "sha256": "6bb4687fa5828cd2070e0549e6c00929cc1cddab64cf6db6b870d348d1ccbd2e",
+      "bytes": 10646
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/014.txt",
+      "sha256": "cf90ce668ecd6a54ce8b7766204b63f92256e355c9253f138321941b54d00862",
+      "bytes": 11668
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/015.txt",
+      "sha256": "2ded33a089d65c949eaa900688077038eb167b1a9931635f5667b302edceb2a7",
+      "bytes": 12042
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/016.txt",
+      "sha256": "a60679cc39442701e19e5959343c75db6052705d6985ce8ce841f7d541fb7d87",
+      "bytes": 15814
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/017.txt",
+      "sha256": "386b45cb6222905d546f3128d888b4c48f7c24d3ea6f9bbe75fe486d6496c15d",
+      "bytes": 11391
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/018.txt",
+      "sha256": "650fd7fefe35a7a3280fb5fdbd30729ace826d50b1085113da028288013939f8",
+      "bytes": 13878
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/019.txt",
+      "sha256": "87d724416a3e5a13d11ee4bb8680f5a59ba7eef9420e91a46abdaab588119944",
+      "bytes": 12787
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/020.txt",
+      "sha256": "7637c58c101f57e5e1eee3c74585fe45d34908acd1881cb1947a1bbe8c04e38a",
+      "bytes": 12916
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/021.txt",
+      "sha256": "26baa29998c1571affcdd784551a44a0d422f8e97a1681afed1c85c4d60730c8",
+      "bytes": 17025
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/022.txt",
+      "sha256": "e6eec895ade15676e3d5a469662f0290e8b1f5ecc7e49c441547b351ec029a3f",
+      "bytes": 19317
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/023.txt",
+      "sha256": "75b20a86e410e6bc9cf514a7442d40bf2ed99767a7e59a8df14cc5fc42b2f1fd",
+      "bytes": 10952
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/024.txt",
+      "sha256": "d131508a670504858128f8e666656eaff3138c36d4c2c782e63063ba2bf965e0",
+      "bytes": 13146
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/025.txt",
+      "sha256": "2ae7c0fe7bf32865e03f706d723b56dda23d1886afad3362605c1c59828b5b04",
+      "bytes": 17431
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/026.txt",
+      "sha256": "6699ff8bd661d03bc087be2a1035ae7e46ae105c3510cc0b5e7304cf19c3e8c4",
+      "bytes": 12808
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/027.txt",
+      "sha256": "1a48fb617c9fcb6e2876f7fc35560acc8fada47ee3aa7e2e06ef32db2fc97bfb",
+      "bytes": 13724
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/028.txt",
+      "sha256": "f70dec17b31d6ef88ecf368c02c4b81a996ed79c217a517a47e660af0ef6acef",
+      "bytes": 16063
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/029.txt",
+      "sha256": "874b41d6780a0abe7dfe074a1bd21d8ec2789a88642ca360df5dd2dde9fe8232",
+      "bytes": 11124
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/030.txt",
+      "sha256": "4e4934dfe05e6b5aa0421492549b97d12c101d5738cd4098f76cf6a50292a857",
+      "bytes": 9308
+    },
+    {
+      "path": "books/pg-498-rebecca-of-sunnybrook-farm/chapters/031.txt",
+      "sha256": "e1f5926ffdb2ff04e047933aef99f597df0bcdc9be7fcfb1542f103201cc998c",
+      "bytes": 6320
+    }
+  ]
+}

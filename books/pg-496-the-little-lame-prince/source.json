@@ -1,0 +1,1857 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 496,
+  "slug": "pg-496-the-little-lame-prince",
+  "title": "The Little Lame Prince",
+  "title_i18n": {
+    "en": "The Little Lame Prince",
+    "zh-CN": "跛脚小王子",
+    "ja": "足の不自由な小さな王子"
+  },
+  "author": "Dinah Maria Mulock Craik",
+  "authors_catalog": "Craik, Dinah Maria Mulock, 1826-1887",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/496/pg496-images.html",
+  "text_sha256": "9c39e0c28ff9fe1d939b3ac4cd7e62bea60b939d4690f41aeb7847de21ffbbb9",
+  "page_sha256": "7871979cf9ba7460ba7d8f6825539fab0c2b90bd2c0cb9693cadd68bafe9be87",
+  "extraction": {
+    "end_text": "THE INVISIBLE PRINCE"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1887,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 10,
+    "word_count": 27260,
+    "selected_text_sha256": "133e8575ae5a91f75330deff2e1fd2197823f85ec9c0fb524537bff4b8b8732a",
+    "section_titles": [
+      "CHAPTER I — Yes, he was the most beautiful Prince that ever was born.",
+      "CHAPTER II",
+      "CHAPTER III",
+      "CHAPTER IV",
+      "CHAPTER V",
+      "CHAPTER VI",
+      "CHAPTER VII",
+      "CHAPTER VIII",
+      "CHAPTER IX",
+      "CHAPTER X"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Complete ten-chapter title work only. Other appended fairy tales in the source volume are not included in this English-original reader.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical disability representation"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 10,
+    "word_count": 27260,
+    "kept_blocks": 558,
+    "omitted_blocks": 287,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 141,
+        "preview": "The Project Gutenberg eBook of The Little Lame Prince This eBook is for the use of anyone anywhere i"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE LITTLE LAME PRINCE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER I"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER II"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER III"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IV"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER V"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VI"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VII"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IX"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER X"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE INVISIBLE PRINCE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "PRINCE CHERRY"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE PRINCE WITH THE NOSE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE FROG-PRINCE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CLEVER ALICE"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE LITTLE LAME PRINCE *** Updated editions will replace the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE INVISIBLE PRINCE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 133,
+        "preview": "THERE were a king and queen who were dotingly fond of their only son, notwithstanding that he was eq"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 86,
+        "preview": "One day, certain ambassadors having arrived from a far country, the prince stood in a gallery to see"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 166,
+        "preview": "There, however, he was quite happy, for he was a great lover of hunting, fishing, and walking: he un"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "Leander, casting his eyes a second time upon the snake, which was speckled with a thousand extraordi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 143,
+        "preview": "“Though thou hast such a mind to kill it,” said he to the gardener, “yet, as it came to me for refug"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 158,
+        "preview": "In the meantime all the court ladies were extremely troubled at his absence, and he was the subject "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "“Then,” said she, “you may find some way to punish him for pleasing everybody.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 260,
+        "preview": "Furibon understood her, and accordingly went a-hunting; and Leander, when he heard the horns and the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "“You are an insolent villain!” replied Furibon, “and if ever you come into my presence again, you sh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 149,
+        "preview": "Leander made no answer, but retired sad and pensive to his own home, where he spent the night in pon"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 132,
+        "preview": "“Young prince,” said she, “you find no longer your pet snake, but me, the fairy Gentilla, ready to r"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 55,
+        "preview": "The young prince, who had never conversed with a fairy till now, was so surprised that it was a long"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 66,
+        "preview": "“I should be sorry,” replied she, “not to be of service to you in something; consider, it is in my p"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "Here Leander interrupted her. “Permit me, madam,” said he, “to ask you what benefit it would be to m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 76,
+        "preview": "“Much,” replied the fairy, “you would be invisible when you pleased, and might in an instant travers"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "“Oh, madam!” cried Leander, “then let me be a spirit; I am going to travel, and should prefer it abo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 49,
+        "preview": "Gentilla thereupon stroking his face three times, “Be a spirit,” said she; and then, embracing him, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 172,
+        "preview": "Leander, overjoyed, put his little red cap upon his head and wished himself in the forest, that he m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 431,
+        "preview": "Leander, infinitely pleased, settled his affairs, mounted the finest horse in the stable, called Gri"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "“What insolence!” said the queen: then turning to Furibon, “my pretty child, forget the pain of thy "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 97,
+        "preview": "Furibon, encouraged by his mother, and attended by a great number of armed soldiers, entered the gar"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 186,
+        "preview": "Satisfied with this revenge, he returned to his servants, who waited for him, and giving them money,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "“Oh, sir,” answered the young man, “nothing can cure my grief; this day my dear mistress is to be sa"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "“Does she love you, then?” asked Leander."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "“I flatter myself so,” answered the young man."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "“Where is she?” continued Leander."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "“In the castle at the end of this forest,” replied the lover."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "“Very well,” said Leander; “stay you here till I come again, and in a little while I will bring you "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 90,
+        "preview": "He then put on his little red cap and wished himself in the castle. He had hardly got thither before"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 236,
+        "preview": "Leander now became invisible, and placed himself in a corner of the room. He soon perceived the fath"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 268,
+        "preview": "From hence he traveled on, and came to a great city, where, upon his arrival, he understood there wa"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 64,
+        "preview": "But his last adventure was the most agreeable. Entering into a wide forest, he heard lamentable crie"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "“Ha! ha! my little master,” cried he who seemed to be the ringleader of the rest, “who bade you inqu"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "“Let her alone,” said Leander, “and go about your business.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "“Oh, yes, to be sure,” cried they, laughing; whereupon the prince, alighting, put on his red cap, no"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "Meantime the young lady continued her cries and complaints. “Oh, my dear princess,” said she, “how h"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 260,
+        "preview": "Leander, having listened to what she said, without delay seized the ruffian that held her, and bound"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "With that she opened her eyes, and knowing him again, “Oh, sir,” said she, “I am infinitely obliged "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "“Surely,” replied Leander, “the danger you have been in has disturbed you and cast a mist before you"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 46,
+        "preview": "Abricotina would not seem to doubt him, though she was otherwise extremely sensible. And after they "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 89,
+        "preview": "“Know then, sir,” said she, “there was a certain very great fairy married to a prince who wearied of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 59,
+        "preview": "Leander said how happy he was to have served her, and asked if he could not obtain admission into th"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "“Farewell, sir,” said she to the prince, making a profound reverence; “I wish you every happiness.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "“And I,” said Leander, “wish that I may now and then have a small share in your remembrance.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 44,
+        "preview": "So saying, he galloped away and soon entered into the thickest part of the wood, near a river, where"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 128,
+        "preview": "The palace was of pure gold, and stood upon pillars of crystal and precious stones, which represente"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 163,
+        "preview": "“Abricotina did not deceive me,” said Leander to himself; “they have banished from hence the very id"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 36,
+        "preview": "Not seeing Abricotina, she asked where she was. Upon that, Leander, being very desirous to speak, as"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "“Most charming princess,” said he, “Abricotina will return immediately. She was in great danger of b"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "The princess was surprised at the parrot, his answer was so extremely pertinent."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "“You are very rude, little parrot,” said the princess; “and Abricotina, when she comes, shall chasti"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 48,
+        "preview": "“I shall not be chastised,” answered Leander, still counterfeiting the parrot's voice; “moreover, sh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "“In truth, pretty parrot,” cried the princess, “it is a pity you are not every day so diverting; I s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "“Ah! if prattling will please you, princess,” replied Leander, “I will prate from morning till night"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "“But,” continued the princess, “how shall I be sure my parrot is not a sorcerer?”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "“He is more in love than any sorcerer can be,” replied the prince."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "At this moment Abricotina entered the room, and falling at her lovely mistress' feet, gave her a ful"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "“I should have hated all men,” added she, “had I not seen him! Oh, madam, how charming he is! His ai"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 44,
+        "preview": "To this the princess said nothing, but she asked Abricotina a hundred other questions concerning the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Leander observed everything, and continued to chatter as he had begun."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "“Abricotina is ungrateful, madam,” said he; “that poor stranger will die for grief if he sees you no"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "“Well, parrot, let him die,” answered the princess with a sigh; “and since thou undertakest to reaso"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 98,
+        "preview": "Leander was overjoyed to find that Abricotina's and the parrot's discourse had made such an impressi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 68,
+        "preview": "It was late, and the princess retired into a large room of marble and porphyry, where several bubbli"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 116,
+        "preview": "Leander had traveled a journey long enough to give him a good appetite, which made him draw near the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 55,
+        "preview": "“Ho! ho!” cried Leander to himself; “an idle tabby malkin, that perhaps never caught a mouse in his "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 125,
+        "preview": "Saying this, he placed himself in the chair with the cat upon his knee, for nobody saw him, because "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 61,
+        "preview": "Leander laughed to himself at the pleasantness of this adventure; but he was very thirsty, not being"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "The princess now retired into her boudoir, ordering Abricotina to follow her and make fast the door;"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "“Abricotina,” said she, “tell me truly, did you exaggerate in your description of the unknown prince"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "“Madam,” replied the damsel, “if I have failed in anything, it was in coming short of what was due t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "The princess sighed and was silent for a time; then resuming her speech: “I am glad,” said she, “tho"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 65,
+        "preview": "“But, madam,” answered Abricotina, who was a cunning girl, and already penetrated her mistress' thou"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "“Hold thy peace, prattler,” replied the princess, “and do not disturb that happy repose which I have"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 83,
+        "preview": "Abricotina durst make no reply; and the princess, having waited her answer for some time, asked her "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "“Yet, for all that,” said the princess, “I could wish my picture were in the hands of this same stra"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "“Oh, madam,” answered Abricotina, “is not his desire to see you violent enough already? Would you au"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "“Yes,” cried the princess; “a certain impulse of vanity, which I was never sensible of till now, has"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "Leander heard all this discourse, and lost not a tittle of what she said; some of her expressions ga"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 36,
+        "preview": "“Madam,” said she, “I passed through one forest where I saw certain creatures that resembled little "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "“I wish I had one of them,” said the princess; “but if they are so nimble as you say they are, it is"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 148,
+        "preview": "Leander, who passed through the same forest, knew what Abricotina meant, and presently wished himsel"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 171,
+        "preview": "The princess not being gone to bed, heard a rumbling of a little coach in the long gallery; at the s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 355,
+        "preview": "Leander, satisfied with having seen the delight the princess had taken in beholding the monkeys, tho"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "After she had viewed it, “I protest!” said she, “'tis the picture of that generous stranger to whom "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "“Thou pretendest surprise,” said the princess, “but I know it was thou thyself who put it there.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 62,
+        "preview": "“Who! I, madam?” replied Abricotina. “I protest I never saw the picture before in my life. Should I "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "“Some spirit, then, must have brought it hither,” cried the princess."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "“How I tremble for fear, madam!” said Abricotina. “Was it not rather some lover? And therefore, if y"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 55,
+        "preview": "“'Twere a pity to burn it,” cried the princess, sighing; “a finer piece, methinks, cannot adorn my c"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "“And these words—'She is better in my heart,'” said the princess; “must we burn them too?”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "“No favor must be shown to anything,” said Abricotina, “not even to your own portrait.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 99,
+        "preview": "Abricotina ran away immediately for some fire, while the princess went to look out at the window. Le"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 66,
+        "preview": "Leander took great delight in hearing and seeing his incomparable mistress; even though he had to ea"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 338,
+        "preview": "The princess had a universal taste for amusement. One day, she was saying to her attend-ants that it"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 457,
+        "preview": "Leander was overjoyed to hear and see her so much interested about his picture, and calling to mind "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "The princess, then, believing herself alone, called Abricotina and told her all the wonders of the a"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "“What pity 'tis,” said she, “that this person should be so frightful, for nothing can be more amiabl"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "“Who told you, madam,” answered Abricotina, “that he is frightful? If he is the youth who saved me, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 71,
+        "preview": "“If Cupid and the unknown are the same,” replied the princess, blushing, “I could be content to love"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "“Oh! madam,” said Abricotina, interrupting her, “have you not troubles enough already? Why should yo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "It is easy to imagine what pleasure Leander took in this conversation."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 180,
+        "preview": "In the meantime the little Furibon, still enamored of the princess whom he had never seen, expected "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 84,
+        "preview": "“Nothing that my daughter does,” said she, “escapes my knowledge. The Prince Leander is now in her p"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 196,
+        "preview": "Abricotina returned with these ill tidings, whereat the princess was almost distracted; and this was"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 325,
+        "preview": "Leander harangued him, and told him that the princess, preferring a quiet and peaceable life to the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "Leander having got his enemy's head, wished himself in the Palace of Calm Delights, where he found t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "Suddenly she beheld a head hanging in the air, with nobody to hold it. This prodigy astonished her s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "“Charming Princess, cease your fear\nOf Furibon; whose head see here.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Abricotina, knowing Leander's voice, cried:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "“I protest, madam, the invisible person who speaks is the very stranger that rescued me.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "The princess seemed astonished, but yet pleased."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 28,
+        "preview": "“Oh,” said she, “if it be true that the invisible and the stranger are the same person, I confess I "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 115,
+        "preview": "Leander, still invisible, replied, “I will yet do more to deserve them;” and so saying he returned t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 302,
+        "preview": "The princess was gone to bed. Leander, therefore, retired into his own apartment, for he was very sl"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "“Happy!” cried the fairy; “you know not the miseries of love nor the treacheries of which lovers are"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "“Is there no exception, madam?” replied Leander, and his countenance showed him to be one."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "But neither tears nor entreaties could move the implacable fairy; and it is very probable that she w"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 97,
+        "preview": "“Dear sister,” said she, “I am persuaded you cannot have forgotten the good office I did you when, a"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "“Charming Gentilla,” cried the fairy, “I consent to whatever you desire. Come, my dear children, and"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "Abricotina, just then entering, cast her eyes upon Leander; she knew him again, and saw he was perfe"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "“Prince,” condescendingly said the fairy-mother, “I will remove the Island of Calm Delights into you"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 85,
+        "preview": "Whether or not Prince Leander appreciated this offer, he bowed low, and assured his mother-in-law th"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "PRINCE CHERRY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 97,
+        "preview": "LONG ago there lived a monarch, who was such a very, honest man that his subjects entitled him the G"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 77,
+        "preview": "The same night, when he was alone in his chamber, there appeared to him a beautiful lady. She was dr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 121,
+        "preview": "“I am the fairy Candide,” said she, with a smiling and gracious air. “Passing through the wood where"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "“Madam,” replied the king, “if you are a fairy, you must know, without my telling you, the wish of m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "“Willingly,” said Candide. “I will make him the handsomest, richest, or most powerful prince in the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 37,
+        "preview": "“None of the three,” returned the father. “I only wish him to be good—the best prince in the whole w"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 64,
+        "preview": "“You are right,” said the fairy; “but I can not make him good: he must do that himself. I can only c"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "“Ah, yes!” said the king, sighing. Still, he felt that the kindness of a fairy was something gained "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 55,
+        "preview": "Prince Cherry mourned deeply, for he dearly loved his father, and would have gladly given all his ki"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 73,
+        "preview": "“I promised your father,” said she, “to be your best friend, and in pledge of this take what I now g"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "So saying, she disappeared, leaving Cherry in such amazement that he would have believed it all a dr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 144,
+        "preview": "He was for a long time so good that the ring never pricked him at all; and this made him so cheerful"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 34,
+        "preview": "“What nonsense!” said he to himself. “The fairy must be making game of me. Why, what great evil have"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 70,
+        "preview": "A voice replied, or else Prince Cherry imagined it, “No, sire; the master of a great empire has a ri"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 181,
+        "preview": "The prince promised, and kept his word a while; but he had been brought up by a foolish nurse, who i"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "One day he saw a young girl, so beautiful that, being always accustomed to have his own way, he imme"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "“Do I displease you?” asked the prince, into whose mind it had never entered that he could displease"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "“Not at all, my prince,” said the honest peasant maiden. “You are very handsome, very charming; but "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 49,
+        "preview": "At these words the prince's love seemed all to turn to hatred: he gave orders to his guards to conve"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 73,
+        "preview": "“Sir,” said this man, “if I were in your majesty's place, I would never vex myself about a poor sill"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "“But,” said Prince Cherry, “shall I not be disgraced if I harm a creature so perfectly innocent?”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 34,
+        "preview": "“No one is innocent who disputes your majesty's authority,” said the courtier, bowing; “and it is be"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 163,
+        "preview": "This touched Cherry on his weak point—his good impulses faded; he resolved once more to ask Zelia if"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 79,
+        "preview": "“Prince,” said she, in a severe voice, “I promised your father to give you good counsels and to puni"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 82,
+        "preview": "Scarcely had Prince Cherry heard these words than to his horror he found himself transformed into wh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "“Look at thyself, and know thy soul has become a thousand times uglier even than thy body.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "Cherry recognized the voice of Candide, and in his rage would have sprung upon her and devoured her;"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "“Cease thy feeble fury, and learn to conquer thy pride by being in submission to thine own subjects."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 74,
+        "preview": "Hearing no more, he soon quitted the stream, hoping at least to get rid of the sight of himself; but"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 78,
+        "preview": "There great rejoicings were taking place, and the bear-hunters, asking what it was all about, were t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 57,
+        "preview": "All this the poor monster heard. He even saw Suliman sitting upon his own throne and trying to calm "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 42,
+        "preview": "“I know his heart,” said the honest and faithful old man; “it is tainted, but not corrupt. If alive,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 74,
+        "preview": "These words touched the poor beast so deeply that he ceased to beat himself against the iron bars of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 189,
+        "preview": "However, he owned he had deserved it all, and began to make amends by showing himself very obedient "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 136,
+        "preview": "Cherry, delighted to find himself thus metamorphosed, caressed the keeper in every possible way, til"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 155,
+        "preview": "One day, when they gave him his crust for breakfast, a fancy seized him to go and eat it in the pala"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 58,
+        "preview": "Cherry perceived one woman, who was trying feebly to gather and eat some green herbs. “Poor thing!” "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 145,
+        "preview": "So the little dog ran up to her and dropped his bread at her feet; she picked it up and ate it with "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 66,
+        "preview": "Conscience pricked him now. “What!” thought he, “I am furious against these wicked men, who are carr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 53,
+        "preview": "While he lay thinking and repenting, he heard a window open and saw Zelia throw out of it a bit of d"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "“Poor little beast!” cried she, patting him, “every bit of food in that palace is poisoned: you shal"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 53,
+        "preview": "And at the same time the voice in the air repeated again, “Good actions never go unrewarded;” and Ch"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "So he stretched his wings, delighted that he might now have a chance of approaching his fair Zelia. "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 70,
+        "preview": "He took flight at once and traversed many countries, swiftly as a bird can, but found no trace of hi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "She, charmed with the pretty little pigeon, caressed it in her turn, and promised it that if it woul"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 74,
+        "preview": "“What have you done, Zelia?” said the hermit, smiling; and while he spoke the white pigeon vanished,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "Cherry and Zelia threw themselves at the feet of the hermit, whose form also began to change. His so"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 28,
+        "preview": "“Rise up, my children,” said she; “I must now transport you to your palace and restore to Prince Che"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 36,
+        "preview": "She had scarcely ceased speaking when they found themselves in the chamber of Suliman, who, delighte"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "King Cherry and Queen Zelia reigned together for many years, and it is said that the former was so b"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE PRINCE WITH THE NOSE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 92,
+        "preview": "THERE was once a king who was passionately in love with a beautiful princess, but she could not be m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 167,
+        "preview": "“That will not be very difficult,” thought the king to himself, and departed, resolving to trample t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "Minon woke up, mewed horribly, and immediately changed from a cat into a large, fierce-looking man, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 93,
+        "preview": "“You must marry the princess,” cried he, “because you have broken the enchantment in which I held he"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 52,
+        "preview": "The king, who was at first much terrified, soon began to laugh at this adventure. “My son might have"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "He did so, but he only lived a few months after, and died before his little son was born, so that no"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 175,
+        "preview": "The little prince was so much wished for that when he came into the world they agreed to call him Pr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 196,
+        "preview": "Great care was observed in the education of the prince; and as soon as he could speak they told him "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 127,
+        "preview": "When he was twenty years old his mother and his people wished him to marry. They procured for him th"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 110,
+        "preview": "After this, the courtiers became alarmed, and tried to correct their habit of speech; but they would"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 66,
+        "preview": "She accepted his offer at once, and returned with the ambassadors. He made all haste to meet and wel"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 61,
+        "preview": "Prince Wish, almost beside himself with grief, declared that nothing should induce him to return to "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 66,
+        "preview": "The horse entered a wide-extended plain, and trotted on steadily the whole day without finding a sin"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "She put on her spectacles the better to look at the stranger, and he noticed that her nose was so sm"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "“What a funny nose!” cried the one."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "“Not so funny as yours, madam,” returned the other. “But pray let us leave our noses alone, and be g"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "“With all my heart,” answered the fairy. “Although your nose is ridiculously long, you are no less t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "“What is wanting to my nose?” asked Wish rather savagely."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 65,
+        "preview": "“Oh! nothing at all. On the contrary, there is a great deal too much of it; but never mind, one may "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "“I will hear the rest, madam, with pleasure, when I have supped; but will you condescend to remember"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 86,
+        "preview": "“Poor boy,” said the fairy, “I will give you some supper directly; and while you eat it I will tell "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "“Ate when he was hungry, I hope,” interrupted the prince, whose patience was fast departing."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 28,
+        "preview": "“You are right,” said the imperturbable old fairy; “and I will bring you your supper directly, only "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "“Hang the king your father!” Prince Wish was about to exclaim, but he stopped himself, and only obse"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "The fairy, pleased at his civility, called her servants and bade them supply him at once with all he"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 78,
+        "preview": "“What has the old woman to do with my nose?” thought the prince. “If I were not so very hungry, I wo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 85,
+        "preview": "While the prince thus meditated, the servants were laying the table, the fairy asking them a hundred"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "So he went on eating contentedly, nor stopped till the old fairy began to address him."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 71,
+        "preview": "“Prince,” said she, “will you be kind enough to turn a little? Your nose casts such a shadow that I "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 28,
+        "preview": "“I wish you would cease to speak of my nose,” said the prince, becoming annoyed. “It is what it is, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 62,
+        "preview": "“Oh! I see that I have vexed you,” returned the fairy. “Nevertheless, I am one of your best friends,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 227,
+        "preview": "He traveled for a long time, half over the world, but he heard no news of Princess Darling. However,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 127,
+        "preview": "He was riding along, very melancholy, when he saw the palace; and at its entrance was a room, made o"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "“It must be confessed,” exclaimed he, “that my nose is too long.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "That moment the glass walls all split asunder, and the old fairy appeared, leading Princess Darling."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 84,
+        "preview": "“Avow, prince,” said she, “that you are very much obliged to me, for now the enchantment is ended. Y"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "“Perfectly,” said Prince Wish, who found his nose had shrunk to an ordinary length. And taking the P"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE FROG-PRINCE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 197,
+        "preview": "IN times of yore, when wishes were both heard and granted, lived a king whose daughters were all bea"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "While she was thus lamenting some one called to her: “What is the matter with you, king's daughter? "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "She looked around to see whence the voice came, and saw a frog stretching his thick ugly head out of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "“Ah! it is you, old water-paddler!” said she. “I am crying for my golden ball, which has fallen into"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "“Be content,” answered the frog; “I dare say I can give you some good advice; but what will you give"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "“Whatever you like, dear frog,” said she, “my clothes, my pearls and jewels, even the golden crown I"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 76,
+        "preview": "The frog answered, “Your clothes, your pearls and jewels, even your golden crown, I do not care for;"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "“Oh, yes!” said she; “I promise you every-thing, if you will only bring me back my golden ball.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "She thought to herself, meanwhile: “What nonsense the silly frog talks! He sits in the water with th"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 60,
+        "preview": "But the frog, as soon as he had received the promise dipped his head under the water and sank down. "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "“Wait! wait!” cried the frog; “take me with you. I cannot run as fast as you.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "Alas! of what use was it that he croaked after her as loud as he could. She would not listen to him,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 54,
+        "preview": "The next day, when she was sitting at dinner with the king and all the courtiers, eating from her li"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 63,
+        "preview": "She ran, wishing to see who was outside; but when she opened the door and there sat the frog, she fl"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 64,
+        "preview": "“Oh, no!” answered she, “it is no giant, but a nasty frog, who yesterday, when I was playing in the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "Again, the second time there was a knock, and a voice cried:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "“Youngest king's daughter,\nOpen to me;\nKnow you what yesterday\nYou promised me,\nBy the cool water?\nY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Then said the king, “What you promised you must perform. Go and open the door.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 36,
+        "preview": "She went and opened the door; the frog hopped in, always following and following her till he came up"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 73,
+        "preview": "She refused, till the king, her father, commanded her to do it. When the frog was on the table, he s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "Then said the frog, “I have eaten enough, and am tired; carry me to your little room, and make your "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "At this the daughter of the king began to weep; for she was afraid of the cold frog, who wanted to s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "But the king looked angrily at her, and said again: “What you have promised you must perform. The fr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 78,
+        "preview": "It was no use to complain; whether she liked it or not, she was obliged to take the frog with her up"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 73,
+        "preview": "But what fell down from the wall was not a dead frog, but a living young prince, with beautiful and "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 129,
+        "preview": "The next day a carriage drove up to the palace gates with eight white horses, having white feathers "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 46,
+        "preview": "But Henry replied: “No, sir, it is not the carriage but one of the bands from my heart, with which I"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 41,
+        "preview": "Twice again this happened, and the prince always thought the carriage was breaking; but it was only "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "CLEVER ALICE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 32,
+        "preview": "ONCE upon a time there was a man who had a daughter who was called “Clever Alice,” and when she was "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "“Yes,” replied her mother, “whenever a young man shall appear who is worthy of her.”"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "At last a certain youth, by name Hans, came from a distance to make a proposal of marriage; but he r"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "“Oh,” said her father, “no fear of that! she has got a head full of brains;” and the mother added, “"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "“Very well,” replied Hans; “but remember, if she is not very prudent, I will not take her.” Soon aft"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 195,
+        "preview": "So Clever Alice took the jug down from the wall, and went into the cellar, jerking the lid up and do"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 56,
+        "preview": "Meanwhile the good folks upstairs were waiting for the beer, but as Clever Alice did not come, her m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "“Ah,” she replied, “have I not cause? If I marry Hans, and we have a child, and he grows up, and we "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "“Oh,” said the maid, “what a clever Alice we have!” And sitting down, she began to weep, too, for th"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 107,
+        "preview": "After a while, when the servant did not return, the good folks above began to feel very thirsty; so "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 86,
+        "preview": "Upstairs they were still waiting, and the husband said, when the boy did not return, “Do you go down"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 78,
+        "preview": "Meanwhile the husband waited for his wife's return; but at last he felt so very thirsty that he said"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "All this time the bridegroom above sat waiting, but when nobody returned, he thought they must be wa"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "“What misfortune has happened?” he asked."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 63,
+        "preview": "“Ah, dear Hans!” cried Alice, “if you and I should marry one another, and have a child, and he grew "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "“Now,” said Hans, “more prudence than this is not necessary for my housekeeping; because you are suc"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 37,
+        "preview": "After they had been married a little while, Hans, said one morning, “Wife, I will go out to work and"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 99,
+        "preview": "“Yes,” she answered, “I will do so, dear Hans.” And when he was gone, she cooked herself a nice mess"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 124,
+        "preview": "Meanwhile Hans returned home, but Alice did not come, and so he said, “Oh, what a prudent Alice I ha"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 100,
+        "preview": "At last, when it was nearly dark, the clever Alice awoke, and as soon as she stood up, the net fell "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 99,
+        "preview": "When she came up to the house door it was shut; so she tapped at the window, and asked, “Hans, is Al"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE LITTLE LAME PRINCE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Miss Mulock"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "[Pseudonym of Maria Dinah Craik]"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE LITTLE LAME PRINCE"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "133e8575ae5a91f75330deff2e1fd2197823f85ec9c0fb524537bff4b8b8732a",
+    "html_sha256": "9c39e0c28ff9fe1d939b3ac4cd7e62bea60b939d4690f41aeb7847de21ffbbb9",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/001.txt",
+      "sha256": "41ec379a8434ed9319b6c8f432f5123cca3f359285d605ee63731b890c095fea",
+      "bytes": 13238
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/002.txt",
+      "sha256": "31036c33a75a00d6e01337f2927755eaeeaf34e0b083e52219ff9897cef2e4a2",
+      "bytes": 14886
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/003.txt",
+      "sha256": "28ea625cdf02c51e0b33fdd8b6c4f77bc3be4a42c0d91b4276973f6e87137689",
+      "bytes": 16747
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/004.txt",
+      "sha256": "4cc32dcc58bd3e4243886757246922a8499feefd2a6ab9693483a56aee25c75b",
+      "bytes": 14748
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/005.txt",
+      "sha256": "9351715af353ea27f1c087707fda2d0123ec31380dadd74028d06143e352b1c6",
+      "bytes": 15158
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/006.txt",
+      "sha256": "daa0894e67f58aef2a60bbe32e75e702ce4ee2c88445a2d06bfc528e0453e1b7",
+      "bytes": 21830
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/007.txt",
+      "sha256": "d6e5afdb1bb73baa08a9346101a470290b696105eca57861fa40aa53b7a188d3",
+      "bytes": 14752
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/008.txt",
+      "sha256": "bca711d68855f5da765b21fd6e5e5e35a52fef54fa8f1f93df273059f049fa55",
+      "bytes": 8951
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/009.txt",
+      "sha256": "3ecb4007e2da1cc7695dfaa2f91db4d09e485d3bb949c78268c7f351f37f5b6b",
+      "bytes": 18329
+    },
+    {
+      "path": "books/pg-496-the-little-lame-prince/chapters/010.txt",
+      "sha256": "f8d9f530cd48016f6b49cde1e128ebd8bd07a63bab943acff6a2bf712e782b7a",
+      "bytes": 13106
+    }
+  ]
+}

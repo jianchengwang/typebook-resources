@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2770,
+  "slug": "pg-2770-five-little-peppers-and-how-they-grew",
+  "title": "Five Little Peppers and How They Grew",
+  "title_i18n": {
+    "en": "Five Little Peppers and How They Grew",
+    "zh-CN": "五个小辣椒的成长",
+    "ja": "五人のペパーきょうだい"
+  },
+  "author": "Margaret Sidney",
+  "authors_catalog": "Sidney, Margaret, 1844-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/2770/pg2770-images.html",
+  "text_sha256": "ef0f4763b289ab56fb993a7017ad8170357ede984c0f8cbbf5090700b1f20fa1",
+  "page_sha256": "54d8f609d509be8023bd4feceb083198cba07ff0b9ccef3ec990ce68908231b4",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 25,
+    "word_count": 68945,
+    "selected_text_sha256": "03f04c02ef99f0ebaca1eb02c26888683e2fe6a12201d71c1fb75d05f4c588ad",
+    "section_titles": [
+      "A HOME VIEW",
+      "MAKING HAPPINESS FOR MAMSIE",
+      "MAMSIE'S BIRTHDAY",
+      "TROUBLE FOR THE LITTLE BROWN HOUSE",
+      "MORE TROUBLE",
+      "HARD DAYS FOR POLLY",
+      "THE CLOUD OVER THE LITTLE BROWN HOUSE",
+      "JOEL'S TURN",
+      "SUNSHINE AGAIN",
+      "A THREATENED BLOW",
+      "SAFE",
+      "NEW FRIENDS",
+      "PHRONSIE PAYS A DEBT OF GRATITUDE",
+      "A LETTER TO JASPER",
+      "JOLLY DAYS",
+      "GETTING A CHRISTMAS FOR THE LITTLE ONES",
+      "CHRISTMAS BELLS!",
+      "EDUCATION AHEAD",
+      "BRAVE WORK AND THE REWARD",
+      "POLLY IS COMFORTED",
+      "PHRONSIE",
+      "GETTING READY FOR MAMSIE AND THE BOYS",
+      "WHICH TREATS OF A GOOD MANY MATTERS",
+      "POLLY'S DISMAL MORNING",
+      "POLLY'S BIG BUNDLE"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 25,
+    "word_count": 68945,
+    "kept_blocks": 2451,
+    "omitted_blocks": 33,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 148,
+        "preview": "The Project Gutenberg eBook of Five Little Peppers and How They Grew This eBook is for the use of an"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "FIVE LITTLE PEPPERS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "A HOME VIEW"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "MAKING HAPPINESS FOR MAMSIE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "MAMSIE'S BIRTHDAY"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "TROUBLE FOR THE LITTLE BROWN HOUSE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "MORE TROUBLE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "HARD DAYS FOR POLLY"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "THE CLOUD OVER THE LITTLE BROWN HOUSE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "JOEL'S TURN"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "SUNSHINE AGAIN"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "A THREATENED BLOW"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "SAFE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "NEW FRIENDS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "PHRONSIE PAYS A DEBT OF GRATITUDE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "A LETTER TO JASPER"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "JOLLY DAYS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "GETTING A CHRISTMAS FOR THE LITTLE ONES"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHRISTMAS BELLS!"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "EDUCATION AHEAD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "BRAVE WORK AND THE REWARD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "POLLY IS COMFORTED"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "PHRONSIE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "GETTING READY FOR MAMSIE AND THE BOYS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "WHICH TREATS OF A GOOD MANY MATTERS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "POLLY'S DISMAL MORNING"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "POLLY'S BIG BUNDLE"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2910,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK FIVE LITTLE PEPPERS AND HOW THEY GREW *** Updated editions wi"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "FIVE LITTLE PEPPERS AND HOW THEY GREW"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Margaret Sidney"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 28,
+        "preview": "To the Memory of MY MOTHER;\nwise in counsel—tender in judgment, and in all charity\n—strengthful in C"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "FIVE LITTLE PEPPERS"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "03f04c02ef99f0ebaca1eb02c26888683e2fe6a12201d71c1fb75d05f4c588ad",
+    "html_sha256": "ef0f4763b289ab56fb993a7017ad8170357ede984c0f8cbbf5090700b1f20fa1",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/001.txt",
+      "sha256": "9ae90217834be9f5f8b009e0c0b1a36e5ca3dcca4007bb1973ffeaf08e3ba9e7",
+      "bytes": 12597
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/002.txt",
+      "sha256": "354568dfdb0313c5f05dd14fdcbd41630e8c1d7e50b94188dcc3832d86d798f4",
+      "bytes": 20079
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/003.txt",
+      "sha256": "029df681fd525330039d73c7f7b89fd37cfe22d4b4736b05ae494491e38016b6",
+      "bytes": 10805
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/004.txt",
+      "sha256": "73bfb91035abcffcb26b491a917afe0c4433c022bc2b16f7a92a135123e51102",
+      "bytes": 21336
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/005.txt",
+      "sha256": "b9e48658f411ab50f0f87da9a30f359331eabc36d29e24f5cf30173896cce714",
+      "bytes": 15072
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/006.txt",
+      "sha256": "ce50d123c6e44a1890a896c88363ea6187c0e6c7eddaf93b32a6b0894ac1456c",
+      "bytes": 19514
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/007.txt",
+      "sha256": "6bd518858ca5d42a80635735f37251563281ae1e5dc1bb675df459e67a215b98",
+      "bytes": 8034
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/008.txt",
+      "sha256": "fb494a1bd6586e348bbe88f8bc44fb08325872774f976e70b7985b2f005a9161",
+      "bytes": 6923
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/009.txt",
+      "sha256": "9badf7bb3d97c057d544af284cdb2c1f304aa782cfdf0c85c3fb516910cc1eac",
+      "bytes": 16517
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/010.txt",
+      "sha256": "5166464e06ca06d36fc26eb1d4061eeeaa568fbe0da702bf40f67b7ec0b092de",
+      "bytes": 6692
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/011.txt",
+      "sha256": "7844b021379eaa04c0bdbd9859f592c7c01d04f347eb27339226bd30a9b8447b",
+      "bytes": 4276
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/012.txt",
+      "sha256": "d04608f39f4c7789389b1d516d22a56f53e84c7458a9a9ef9118159156158d4f",
+      "bytes": 24955
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/013.txt",
+      "sha256": "b0055e87882e4354f03ede7b6b6f0b4860b0ced8291f26848dd57164c81b0e8b",
+      "bytes": 6415
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/014.txt",
+      "sha256": "c377cbad7cd6cf52f752d035393499ca60c16359ef140197941d7ed8d77833b9",
+      "bytes": 19249
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/015.txt",
+      "sha256": "6ecc2effc99de8ff2bec580421af010991ceecc7eb98d1710f46c2c58405f968",
+      "bytes": 18773
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/016.txt",
+      "sha256": "74dcb39606c3998526bd974b621515a23450f85637e08126a4fb06e7b601e245",
+      "bytes": 18104
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/017.txt",
+      "sha256": "d2da23d44d3bc004f9ea1e6ad5cf26842fdf6e4bc6201bc34e99b27926a3ce38",
+      "bytes": 17669
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/018.txt",
+      "sha256": "3e9a946f7f9578a9ca34670f13e05da598ba304198aa64df59d218078fa59818",
+      "bytes": 22998
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/019.txt",
+      "sha256": "d2d6c63f18e1b1e7190f87afe06407b58c843c26bcb2f4f0c26beb8bd1570877",
+      "bytes": 6057
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/020.txt",
+      "sha256": "885e13adc5058860264bc1fc783a1583413757ffca1fdf8fd1d0387f6936c5b7",
+      "bytes": 11095
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/021.txt",
+      "sha256": "3a6404dd77be35e7045b5ba95694a458971d9db1e549f9de8eb3e1552a2fc5a8",
+      "bytes": 20123
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/022.txt",
+      "sha256": "298f2479b07c9c9c314004b40d562f7cb40e8e3c0f6ac6e0fcd0428174a86589",
+      "bytes": 28489
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/023.txt",
+      "sha256": "6af332910fe6232cb18c419da175f1fc743dff13b905237aaf5f0baf35461091",
+      "bytes": 26831
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/024.txt",
+      "sha256": "066edf7a47d4e99e637de8f642922f9c67c45a538326a4e5f0117915448e3c9c",
+      "bytes": 10566
+    },
+    {
+      "path": "books/pg-2770-five-little-peppers-and-how-they-grew/chapters/025.txt",
+      "sha256": "e0439c8f71f0beb4ed4a3cfd2ec396cb5752ec4529f5702e6bbf77e5fe794d9f",
+      "bytes": 30626
+    }
+  ]
+}

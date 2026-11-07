@@ -1,0 +1,728 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 28856,
+  "slug": "pg-28856-donald-and-dorothy",
+  "title": "Donald and Dorothy",
+  "title_i18n": {
+    "en": "Donald and Dorothy",
+    "zh-CN": "唐纳德和多萝西",
+    "ja": "ドナルドとドロシー"
+  },
+  "author": "Mary Mapes Dodge",
+  "authors_catalog": "Dodge, Mary Mapes, 1830-1905",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/28856/pg28856-images.html",
+  "text_sha256": "920a35d8008d1a75450cf734242db21971e489c130e63d8ca06975872459d525",
+  "page_sha256": "cbda0137b2f5c3d1e03a9b7c625da4dc400a96127d6be2eeaaf3b1c74596916a",
+  "extraction": {
+    "end_text": "Transcriber's Notes:"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1905,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 35,
+    "word_count": 81243,
+    "selected_text_sha256": "75b334350278663bf760c7bd0e1bc400abe0f9c69945920e1244ed91d41f4d24",
+    "section_titles": [
+      "CHAPTER I. — IN WHICH NONE OF THE CHARACTERS APPEAR.",
+      "CHAPTER II. — FOURTEEN YEARS AFTERWARD.",
+      "CHAPTER III. — WHICH PARTLY EXPLAINS ITSELF.",
+      "CHAPTER IV. — THE DRIVE.",
+      "CHAPTER V. — SUPPER-TIME.",
+      "CHAPTER VI. — A FAMILY CONFERENCE.",
+      "CHAPTER VII. — THE DANBYS.",
+      "CHAPTER VIII. — TOO MUCH OF A GOOD THING.",
+      "CHAPTER IX. — IN WHICH SOME WELL-MEANING GROWN FOLK APPEAR.",
+      "CHAPTER X. — Which presents a Faithful Report of the Interview between Mr. Reed and his Mysterious Visitor",
+      "CHAPTER XI. — JACK.",
+      "CHAPTER XII. — A DAY IN NEW YORK.",
+      "CHAPTER XIII. — DONALD AND DOROTHY ENTERTAIN FANDY.",
+      "CHAPTER XIV. — UNCLE GEORGE'S HAPPY THOUGHT.",
+      "CHAPTER XV. — THE HOUSE-PICNIC.",
+      "CHAPTER XVI. — A DISCOVERY IN THE GARRET.",
+      "CHAPTER XVII. — DORRY ASKS A QUESTION.",
+      "CHAPTER XVIII. — THE GYMNASIUM.",
+      "CHAPTER XIX. — THE \"G. B. C.\"",
+      "CHAPTER XX. — THE SHOOTING-MATCH.",
+      "CHAPTER XXI. — DANGER.",
+      "CHAPTER XXII. — A FROLIC ON THE WATER.",
+      "CHAPTER XXIII. — YANKEE AND DOODLE.",
+      "CHAPTER XXIV. — DONALD.",
+      "CHAPTER XXV. — THE SUNSET.",
+      "CHAPTER XXVI. — UNCLE GEORGE TELLS DONALD.",
+      "CHAPTER XXVII. — DELIA, OR DOROTHY?",
+      "CHAPTER XXVIII. — DON RESOLVES TO SETTLE MATTERS.",
+      "CHAPTER XXIX. — AN UNEXPECTED LETTER.",
+      "CHAPTER XXX. — A TIME OF SUSPENSE.",
+      "CHAPTER XXXI. — ONLY A BIT OF RAG.",
+      "CHAPTER XXXII. — DONALD MAKES A DISCOVERY.",
+      "CHAPTER XXXIII. — AN IMPORTANT INTERVIEW.",
+      "CHAPTER XXXIV. — MADAME RENÉ TELLS HER STORY.",
+      "CHAPTER XXXV. — A DAY OF JOY."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 35,
+    "word_count": 81243,
+    "kept_blocks": 1865,
+    "omitted_blocks": 74,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 142,
+        "preview": "The Project Gutenberg eBook of Donald and Dorothy This eBook is for the use of anyone anywhere in th"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "DOROTHY AT SIXTEEN."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE SPARKLING LAKE BEYOND."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"YOU'VE HER SHINING DARK HAIR, MASTER DONALD,\" SAID LIDDY"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE END OF THE DRIVE."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "DONALD'S THOUGHTS."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "MRS. DANBY'S DREAM: THE FOUR ENGLISH BRANCHES."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "FANDY \"PREACHES A SERMON\" TO HIS BROTHERS AND SISTERS."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "DONALD TO THE RESCUE."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "McSWIVER."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"I USED TO STAND AND WONDER AT THEM, WHEN I SHOULD HAVE BEEN WORKIN'.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "TRINITY CHURCH AND THE HEAD OF WALL STREET."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE GARRET BEFORE FANDY'S ARRIVAL."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Fandy's first fencing-match."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE FENCING-MASTER."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE MAID OF ORLEANS!"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE CANDY-PULLING."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE LAST VIEW OF THE PICTURE-GALLERY."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "GORY'S PRIVATE TABLE."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "JOSIE MANNING WAITS FOR DORRY. (See page 156.)"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "DONALD AND ED TYLER TRY THE GYMNASIUM."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"SO PICTURESKY!\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"HE'S COMPLAININ'.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"DON LEVELLED HIS RIFLE AND FIRED.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "THE CONSPIRATORS' PLOT IS CARRIED INTO EFFECT."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "BEN'S CIDER EXPERIENCE."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "OFF FOR EUROPE."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "KASSY EVIDENTLY HAD SOMETHING ON HER MIND."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "MONSIEUR BAJEAU BECOMES INTERESTED IN DONALD'S CHAIN."
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK DONALD AND DOROTHY *** Updated editions will replace the prev"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's Notes:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Obvious punctuation errors repaired."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "Page 286, a parenthetical statement begins but no ending was printed. This was retained."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The remaining corrections made are indicated by dotted lines under the corrections. Scroll the mouse"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "DONALD AND DOROTHY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "DONALD AND DOROTHY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "MARY MAPES DODGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "AUTHOR OF \"HANS BRINKER; OR, THE SILVER SKATES\" WITH ORIGINAL ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "NEW YORK THE CENTURY CO. 1906"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "Copyright, 1883, By Mary Mapes Dodge. All rights reserved. The De Vinne Press."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "img_images_spine01.jpg",
+        "words": 209,
+        "preview": "CHAPTER I.Page In Which None Of The Characters Appear1 CHAPTER II. Fourteen Years afterwards3 CHAPTE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Page"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Dorothy at SixteenFrontispiece"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Sparkling Lake beyond4"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"You've her shining dark hair, Master Donald,\" said Liddy15"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The End of the Drive27"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Donald's Thoughts34"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Mrs. Danby's Dream: the Four English Branches52"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Fandy \"Preaches a Sermon\" to his Brothers and Sisters55"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Donald to the Rescue67"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "McSwiver72"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"I used to stand and wonder at them when I should have been workin'\"78"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Trinity Church and the Head of Wall Street101"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Garret before Fandy's Arrival108"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Fandy's First Fencing-Match111"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Fencing-Master115"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Maid of Orleans127"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Candy-Pulling129"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The Last View of the Picture Gallery143"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Gory's Private Table146"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Josie Manning waits for Dorry163"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Donald and Ed Tyler try the Gymnasium178"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"So picturesky!\"185"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "\"He's complainin'\"187"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"Don levelled his Rifle, and fired\"208"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The Conspirators' Plot is carried into Effect217"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Ben's Cider Experience222"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Off for Europe269"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Kassy evidently had Something on her Mind275"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Monsieur Bajeau becomes interested in Donald's Chain307"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "DONALD AND DOROTHY."
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "75b334350278663bf760c7bd0e1bc400abe0f9c69945920e1244ed91d41f4d24",
+    "html_sha256": "920a35d8008d1a75450cf734242db21971e489c130e63d8ca06975872459d525",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/001.txt",
+      "sha256": "abd4ad34a7579e6f866ec1f6b4dd24f1976e3e61f18819ae24ccc831bdacd2d0",
+      "bytes": 1768
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/002.txt",
+      "sha256": "037dc00bc140a5fc8512415526e7e04e97e7eaf4a2f1b190eccbeca1a4363308",
+      "bytes": 4230
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/003.txt",
+      "sha256": "fd413ad7b384161f0d9c512ebad0ffe28706f6834a2a50e61a3d4359a1eae1ef",
+      "bytes": 19470
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/004.txt",
+      "sha256": "64207aea4efede6ce7294d0149541e4a7aaaa5b51087c8a0ded7cc1d84a3e1e7",
+      "bytes": 7328
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/005.txt",
+      "sha256": "8f2a2c991f6b02f3598713116c8b239b72f51f33ccf5b552f5e09341b8e0004e",
+      "bytes": 1459
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/006.txt",
+      "sha256": "edd81b1276dc45c823921ceb391c3c6823404efeb6f1e623caeecf80cf8dedfc",
+      "bytes": 21834
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/007.txt",
+      "sha256": "a6dee5f88eae6d479949c4dfb3e31dccf9ca6625e0ea2e4954526862f347c259",
+      "bytes": 20152
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/008.txt",
+      "sha256": "7655be07286d9fa6f864047edbb597771f0c45bce80037421ea6a805412d8a2b",
+      "bytes": 9308
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/009.txt",
+      "sha256": "6e020e514f80fa663daf8e206c0ebd5d38dafa9c003d178b40d5f1fc6d0fabac",
+      "bytes": 11745
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/010.txt",
+      "sha256": "f74aafb62b333588a7dffebd8309c1c17afcd4789cd79e78635f6e2a9a001623",
+      "bytes": 18914
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/011.txt",
+      "sha256": "45523ef51ae6ec5cd6c5a3d6c8745d17b66c6855a06f9e77b3fe6ba1734b720e",
+      "bytes": 6761
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/012.txt",
+      "sha256": "7c0734883afd125a2b8d9b07ef3ce048a7a3ddecf5139de1427061b331ecc1b3",
+      "bytes": 8903
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/013.txt",
+      "sha256": "4378c92f8e610592f7bfc1d6b86c819bb2b3019b546270258b63e12b01daa683",
+      "bytes": 10667
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/014.txt",
+      "sha256": "c88cabbf0d1ea0b9236572a3368920ae8bafb7a2965ae7e549076606648f883d",
+      "bytes": 5541
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/015.txt",
+      "sha256": "b749f98654aebf258465a7c4afcd697a61b8627eafc6e1fdda9e97797cc23a74",
+      "bytes": 40777
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/016.txt",
+      "sha256": "72a32ed20a72fb0693d82dd5d825b7fa37f5dcc9a5cfce6a8ab605e93429edc2",
+      "bytes": 13851
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/017.txt",
+      "sha256": "5c47ec4eaa00372d4b77a86994ce10381e72c62fd90fe0f334b7dd659c7bff89",
+      "bytes": 14138
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/018.txt",
+      "sha256": "b5e1a8e20cd04e7ea103420f1378b45bda1f762d11d65386c45e1365b5eb21aa",
+      "bytes": 3624
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/019.txt",
+      "sha256": "768b6f1b4783eb2ec980367e0fe4f363e31bfa1b673c3439d1ca08ceda36b321",
+      "bytes": 17946
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/020.txt",
+      "sha256": "e530074b335449bef2972e336f81ab72253be048a7daaf704750a18026dc7c55",
+      "bytes": 15076
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/021.txt",
+      "sha256": "d10411faaa77922c6e54c4b51f833f456757a07d2f551a9162c48e6680b4a4d8",
+      "bytes": 6047
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/022.txt",
+      "sha256": "e65e967ab50528fe2f92a81efc3dc1a9b6fe129d5cbd6d56953a6fb3ba5da5fc",
+      "bytes": 17209
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/023.txt",
+      "sha256": "2d0dcfaf5a49c418a442338fc2774de1c665813656bb9c1aa1d16ab1db6a2799",
+      "bytes": 17012
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/024.txt",
+      "sha256": "6364d4195bd3ab3a21c42ee8bb8d4fda8c5b5be891728bba2311aa92262c7447",
+      "bytes": 8701
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/025.txt",
+      "sha256": "cb672de273b57b61301d08f1e4cf663276ff942e986a2f0a7c96b8412a7e2d5d",
+      "bytes": 5737
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/026.txt",
+      "sha256": "845e813c1bd16353461ca2c5dd9e70bc0a8172d6648510da08bd201dcff7a06f",
+      "bytes": 12237
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/027.txt",
+      "sha256": "499d4e793e4d325e53445c4c26a68b1be9e400282ae3cf0dd277d025adeba590",
+      "bytes": 10903
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/028.txt",
+      "sha256": "e03a228896e0985ae59582d74cb2f3c417f807bb485ef6d5fb3b3e805a2eece9",
+      "bytes": 5943
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/029.txt",
+      "sha256": "716eb62b9b0ae30e3c7f2becf1c840ce793c735d99cf4a55d9473cff64b4441b",
+      "bytes": 14078
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/030.txt",
+      "sha256": "c01d04fa1e84b6234e11a027f203519dacb6af8bfb2e32ec24edb12f78344082",
+      "bytes": 10422
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/031.txt",
+      "sha256": "3c4da258f6317cefec9fe08af64f46b1d59ef7ef1e7b8c6d78da1f833fafb0a8",
+      "bytes": 17799
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/032.txt",
+      "sha256": "5bee46b69008036f22fa22b6c815cbfeacd9b5eb76daf7e08a09009e72123da1",
+      "bytes": 15065
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/033.txt",
+      "sha256": "932f883ea11e30cff04aac2d058f550e5fee0a7803ae14f569a5c64bdeccc947",
+      "bytes": 16484
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/034.txt",
+      "sha256": "0b21498e8b44ea0b6133c9b740e2bdadb7862b618c5ef0e58abee26af5513050",
+      "bytes": 35551
+    },
+    {
+      "path": "books/pg-28856-donald-and-dorothy/chapters/035.txt",
+      "sha256": "bd4e95469675af465dd75820e128d12c9312c4f17645eb64729547d41fbb79ac",
+      "bytes": 7468
+    }
+  ]
+}

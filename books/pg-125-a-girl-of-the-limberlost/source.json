@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 125,
+  "slug": "pg-125-a-girl-of-the-limberlost",
+  "title": "A Girl of the Limberlost",
+  "title_i18n": {
+    "en": "A Girl of the Limberlost",
+    "zh-CN": "林中女孩",
+    "ja": "リンバロストの乙女"
+  },
+  "author": "Gene Stratton-Porter",
+  "authors_catalog": "Stratton-Porter, Gene, 1863-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/125/pg125-images.html",
+  "text_sha256": "a23d80e8a71f0e1c323b36609f3c9163b44630d39524b3113f7e2d6c69ba301b",
+  "page_sha256": "6002749df3a42b9b15a34446ff061100c39340d9dd5890f07902c3b7f834905a",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 25,
+    "word_count": 119774,
+    "selected_text_sha256": "3859e2ab24822a332a219b2a23c618d597bf5ac0cda4bbfcdbfa6f542b99f7e4",
+    "section_titles": [
+      "CHAPTER I — WHEREIN ELNORA GOES TO HIGH SCHOOL AND LEARNS MANY LESSONS NOT FOUND IN HER BOOKS",
+      "CHAPTER II — WHEREIN WESLEY AND MARGARET GO SHOPPING, AND ELNORA’S WARDROBE IS REPLENISHED",
+      "CHAPTER III — WHEREIN ELNORA VISITS THE BIRD WOMAN, AND OPENS A BANK ACCOUNT",
+      "CHAPTER IV — WHEREIN THE SINTONS ARE DISAPPOINTED, AND MRS. COMSTOCK LEARNS THAT SHE CAN LAUGH",
+      "CHAPTER V — WHEREIN ELNORA RECEIVES A WARNING, AND BILLY APPEARS ON THE SCENE",
+      "CHAPTER VI — WHEREIN MRS. COMSTOCK INDULGES IN “FRILLS,” AND BILLY REAPPEARS",
+      "CHAPTER VII — WHEREIN MRS. COMSTOCK MANIPULATES MARGARET AND BILLY ACQUIRES A RESIDENCE",
+      "CHAPTER VIII — WHEREIN THE LIMBERLOST TEMPTS ELNORA, AND BILLY BURIES HIS FATHER",
+      "CHAPTER IX — WHEREIN ELNORA DISCOVERS A VIOLIN, AND BILLY DISCIPLINES MARGARET",
+      "CHAPTER X — WHEREIN ELNORA HAS MORE FINANCIAL TROUBLES, AND MRS. COMSTOCK AGAIN HEARS THE SONG OF THE LIMBERLOST",
+      "CHAPTER XI — WHEREIN ELNORA GRADUATES, AND FRECKLES AND THE ANGEL SEND GIFTS",
+      "CHAPTER XII — WHEREIN MARGARET SINTON REVEALS A SECRET, AND MRS. COMSTOCK POSSESSES THE LIMBERLOST",
+      "CHAPTER XIII — WHEREIN MOTHER LOVE IS BESTOWED ON ELNORA, AND SHE FINDS AN ASSISTANT IN MOTH HUNTING",
+      "CHAPTER XIV — WHEREIN A NEW POSITION IS TENDERED ELNORA, AND PHILIP AMMON IS SHOWN LIMBERLOST VIOLETS",
+      "CHAPTER XV — WHEREIN MRS. COMSTOCK FACES THE ALMIGHTY, AND PHILIP AMMON WRITES A LETTER",
+      "CHAPTER XVI — WHEREIN THE LIMBERLOST SINGS FOR PHILIP, AND THE TALKING TREES TELL GREAT SECRETS",
+      "CHAPTER XVII — WHEREIN MRS. COMSTOCK DANCES IN THE MOONLIGHT, AND ELNORA MAKES A CONFESSION",
+      "CHAPTER XVIII — WHEREIN MRS. COMSTOCK EXPERIMENTS WITH REJUVENATION, AND ELNORA TEACHES NATURAL HISTORY",
+      "CHAPTER XIX — WHEREIN PHILIP AMMON GIVES A BALL IN HONOUR OF EDITH CARR, AND HART HENDERSON APPEARS ON THE SCENE",
+      "CHAPTER XX — WHEREIN THE ELDER AMMON OFFERS ADVICE, AND EDITH CARR EXPERIENCES REGRETS",
+      "CHAPTER XXI — WHEREIN PHILIP AMMON RETURNS TO THE LIMBERLOST, AND ELNORA STUDIES THE SITUATION",
+      "CHAPTER XXII — WHEREIN PHILIP AMMON KNEELS TO ELNORA, AND STRANGERS COME TO THE LIMBERLOST",
+      "CHAPTER XXIII — WHEREIN ELNORA REACHES A DECISION, AND FRECKLES AND THE ANGEL APPEAR",
+      "CHAPTER XXIV — WHEREIN EDITH CARR WAGES A BATTLE, AND HART HENDERSON STANDS GUARD",
+      "CHAPTER XXV — WHEREIN PHILIP FINDS ELNORA, AND EDITH CARR OFFERS A YELLOW EMPEROR"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 25,
+    "word_count": 119774,
+    "kept_blocks": 3091,
+    "omitted_blocks": 35,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 137,
+        "preview": "The Project Gutenberg eBook of A Girl of the Limberlost This eBook is for the use of anyone anywhere"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK A GIRL OF THE LIMBERLOST *** Updated editions will replace th"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "A GIRL OF THE LIMBERLOST"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Gene Stratton-Porter"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 15,
+        "preview": "To All Girls Of The Limberlost In General And One Jeanette Helen Porter In Particular"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CHARACTERS:"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 100,
+        "preview": "ELNORA, who collects moths to pay for her education, and lives the Golden Rule. PHILIP AMMON, who as"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "A GIRL OF THE LIMBERLOST"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER I"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER II"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER III"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER V"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IX"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER X"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XIV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XVI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XVII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XVIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XIX"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XX"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXIV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XXV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "link2H_4_0001",
+        "words": 5,
+        "preview": "A GIRL OF THE LIMBERLOST"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "3859e2ab24822a332a219b2a23c618d597bf5ac0cda4bbfcdbfa6f542b99f7e4",
+    "html_sha256": "a23d80e8a71f0e1c323b36609f3c9163b44630d39524b3113f7e2d6c69ba301b",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/001.txt",
+      "sha256": "fe2c64dcdf692e38abc43515ba158262a0a653b5a0d2f939a6bdeb7a0887c6db",
+      "bytes": 34402
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/002.txt",
+      "sha256": "4e95c3feab0cecdf1d53ad769fd21f7f78ee1992bdaba71156a1afa51126c7a6",
+      "bytes": 16984
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/003.txt",
+      "sha256": "33bc75e14bd483c1fa655f3f4bfbc122e915c9b7966f143df6a16beb6f2fb6f6",
+      "bytes": 19160
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/004.txt",
+      "sha256": "9e3565d88dbbbffc7e9c96c2798f1a34f013c7403a8bd689256105784ec01e33",
+      "bytes": 41810
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/005.txt",
+      "sha256": "8a36aabe1f01135c3bcdcc515ae013a874eebb7d8259d100837f980ecdce27fd",
+      "bytes": 23023
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/006.txt",
+      "sha256": "19eb04ba39ef67c97c10b8f11eaf5d8fdd2f9f4bffbfb78c02a77ad15a8a5f4b",
+      "bytes": 31475
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/007.txt",
+      "sha256": "814564e41a749c217d84c342681a49ac86aa0871cbf6e50de91d8b132e775077",
+      "bytes": 45278
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/008.txt",
+      "sha256": "451d63ded2c23c23807d386998693bec66304330dfbb7e9f7b7fc26d24f3d1f5",
+      "bytes": 12046
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/009.txt",
+      "sha256": "4e1e7bda8c6a892ffcb12c456d09fcf5eaab64b2d95eaca59a8e0dd8a9352580",
+      "bytes": 23735
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/010.txt",
+      "sha256": "83ad9eae46d4858da4646c4a36338f510dccd068598b133d6ecb6db9bd41961c",
+      "bytes": 34067
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/011.txt",
+      "sha256": "f6f796f1f68144d60587d66fdff110d6d64f676bdb0ee18b25eaa31c48bbda8f",
+      "bytes": 27757
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/012.txt",
+      "sha256": "9c9ec9a216a72f105a30e33aeaccb4a72b18f1dc0f2ad14bb473786dd963a81c",
+      "bytes": 44837
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/013.txt",
+      "sha256": "7008c7afa118d9a94814b7c414ca520ff3a59a3c1159fa81af175f452aa8e5ed",
+      "bytes": 27591
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/014.txt",
+      "sha256": "bc61be61aea778ec700a6a902080d0e42d93c2950c525c7352f60bbb2a211b96",
+      "bytes": 20803
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/015.txt",
+      "sha256": "e9675d6b0c62d04998b0ef31717b66bc6ec72ac26f541748319086b4e4c02bc1",
+      "bytes": 24222
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/016.txt",
+      "sha256": "962b517ef428bafcbb17c3c2dbd77bf8856f390b2f92066a4ab705143b0b2479",
+      "bytes": 19507
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/017.txt",
+      "sha256": "f45c5a6f13fd21f9cd619573a104396ac38db33f9cc78e03fa61b3fedf1ea5e4",
+      "bytes": 25460
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/018.txt",
+      "sha256": "434763092c39aa74030bd2f7fa8d940b5eaad2bc74e2b61d7037813ec74c72af",
+      "bytes": 18383
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/019.txt",
+      "sha256": "525a8aaeb39c5f9ec0bb0947eddd711fbcb5b81634b5621022becee3f5544b1b",
+      "bytes": 23249
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/020.txt",
+      "sha256": "49e76e56c24d3a0c47887f22b3fd54ad6f5e69c902f1e57a2225505bbb37fb0b",
+      "bytes": 14592
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/021.txt",
+      "sha256": "a7d1d5e10cc563c48c96ea72e74fe87759f5fbd65c7943b45f3d9861af37b06d",
+      "bytes": 27008
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/022.txt",
+      "sha256": "019db282ea8f149791caec2e585b8ec4ca9e28320920990fad18031fbe10833e",
+      "bytes": 31034
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/023.txt",
+      "sha256": "05f78e1c2b54c4d1e8d293acbb6dbcfea9ac10b285b993297f78a951a0915e4b",
+      "bytes": 21238
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/024.txt",
+      "sha256": "279aa060b0c8061700670bfa22b358c183901b3a4daf0e320f21e8d52ff75732",
+      "bytes": 19773
+    },
+    {
+      "path": "books/pg-125-a-girl-of-the-limberlost/chapters/025.txt",
+      "sha256": "d8753a4e149aa2a1dfed9f8f6cd42c10626edd8d7a137fe12106b4eb515779e7",
+      "bytes": 35625
+    }
+  ]
+}

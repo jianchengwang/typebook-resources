@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 910,
+  "slug": "pg-910-white-fang",
+  "title": "White Fang",
+  "title_i18n": {
+    "en": "White Fang",
+    "zh-CN": "白牙",
+    "ja": "白い牙"
+  },
+  "author": "Jack London",
+  "authors_catalog": "London, Jack, 1876-1916",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+  "text_sha256": "61fe806d6ea3aa6e4b2bef4e2712b30f1381f03d62ca8c04cdbae83d66807208",
+  "page_sha256": "ffd0041b7c2d915542421cfa2efe6e3a565abccea981d943bc641404eccf8921",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1916,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 25,
+    "word_count": 72030,
+    "selected_text_sha256": "52d1712cdeb4bbd9b4fb7cb38b67734f86d2618366917a4f994e6ba0559f34b9",
+    "section_titles": [
+      "CHAPTER I THE TRAIL OF THE MEAT",
+      "CHAPTER II THE SHE-WOLF",
+      "CHAPTER III THE HUNGER CRY",
+      "CHAPTER I THE BATTLE OF THE FANGS",
+      "CHAPTER II THE LAIR",
+      "CHAPTER III THE GREY CUB",
+      "CHAPTER IV THE WALL OF THE WORLD",
+      "CHAPTER V THE LAW OF MEAT",
+      "CHAPTER I THE MAKERS OF FIRE",
+      "CHAPTER II THE BONDAGE",
+      "CHAPTER III THE OUTCAST",
+      "CHAPTER IV THE TRAIL OF THE GODS",
+      "CHAPTER V THE COVENANT",
+      "CHAPTER VI THE FAMINE",
+      "CHAPTER I THE ENEMY OF HIS KIND",
+      "CHAPTER II THE MAD GOD",
+      "CHAPTER III THE REIGN OF HATE",
+      "CHAPTER IV THE CLINGING DEATH",
+      "CHAPTER V THE INDOMITABLE",
+      "CHAPTER VI THE LOVE-MASTER",
+      "CHAPTER I THE LONG TRAIL",
+      "CHAPTER II THE SOUTHLAND",
+      "CHAPTER III THE GOD’S DOMAIN",
+      "CHAPTER IV THE CALL OF KIND",
+      "CHAPTER V THE SLEEPING WOLF"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 25,
+    "word_count": 72030,
+    "kept_blocks": 1090,
+    "omitted_blocks": 36,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 129,
+        "preview": "The Project Gutenberg eBook of White Fang This eBook is for the use of anyone anywhere in the United"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK WHITE FANG *** Updated editions will replace the previous one"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "WHITE FANG"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "by Jack London"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART I"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER I THE TRAIL OF THE MEAT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER II THE SHE-WOLF"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER III THE HUNGER CRY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART II"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER I THE BATTLE OF THE FANGS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER II THE LAIR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER III THE GREY CUB"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER IV THE WALL OF THE WORLD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER V THE LAW OF MEAT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART III"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER I THE MAKERS OF FIRE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER II THE BONDAGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER III THE OUTCAST"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER IV THE TRAIL OF THE GODS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER V THE COVENANT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER VI THE FAMINE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART IV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER I THE ENEMY OF HIS KIND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER II THE MAD GOD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER III THE REIGN OF HATE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER IV THE CLINGING DEATH"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER V THE INDOMITABLE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER VI THE LOVE-MASTER"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART V"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER I THE LONG TRAIL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER II THE SOUTHLAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER III THE GOD’S DOMAIN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER IV THE CALL OF KIND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER V THE SLEEPING WOLF"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "part01",
+        "words": 2,
+        "preview": "PART I"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "52d1712cdeb4bbd9b4fb7cb38b67734f86d2618366917a4f994e6ba0559f34b9",
+    "html_sha256": "61fe806d6ea3aa6e4b2bef4e2712b30f1381f03d62ca8c04cdbae83d66807208",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-910-white-fang/chapters/001.txt",
+      "sha256": "d574cc8a7bacbd40a7994b13e08b836b03028ccf1342bed248e63913e7a9faf7",
+      "bytes": 14260
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/002.txt",
+      "sha256": "8f682e291bfe9dc59e56c7347e0d91641dae3080c145ecef340acbe8d55e4e17",
+      "bytes": 19227
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/003.txt",
+      "sha256": "2d6b0cbe1e3b8908404570cc965dfc24b2e3c5ad900bf45eded2a422e79b8a58",
+      "bytes": 20987
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/004.txt",
+      "sha256": "b34f5bc66375da95c8c482f5b61b9b80b90415375f619fe111f97d6564a2c861",
+      "bytes": 19522
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/005.txt",
+      "sha256": "5596ce286b46da60498bf8e6d5e8d2f27ab6eee63f371bd70984715c8c46a44f",
+      "bytes": 16196
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/006.txt",
+      "sha256": "7290c8a1031583b46bcef2ed514dc8115f8988b620cc7f4a578ddb1e2caacc13",
+      "bytes": 10641
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/007.txt",
+      "sha256": "ca409517f7859aaef94e5ec9a4847f1732b268a713ae652ea21476e59e845db8",
+      "bytes": 21741
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/008.txt",
+      "sha256": "7dfd9ee6ffd735180d4b5bc30f43f6fd865262704aba41d7a53b28500149a8d8",
+      "bytes": 10989
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/009.txt",
+      "sha256": "e9fd5bf3649a4c43fbc25b2da246dae1fc3300b1ed63c3911bf7f055de894c54",
+      "bytes": 21667
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/010.txt",
+      "sha256": "577bfc03ce0ce06d71c46b454dc7746a13fd9b8b94d4be86782f9dbbcca727c0",
+      "bytes": 16630
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/011.txt",
+      "sha256": "f38c78af17da1cec4a1069079b3d0e91e75b248e9055cec79ba0b39d109f7fdd",
+      "bytes": 9171
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/012.txt",
+      "sha256": "a994057904d6bb5c1a6ec1d7c5c8f5bc06c006b01bfcb7a81df72910b98520d9",
+      "bytes": 10084
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/013.txt",
+      "sha256": "658b7f29bed32c89a8f39e73ae1fb1bd5df44fd07379dfe751f5f5d13fa18c59",
+      "bytes": 17010
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/014.txt",
+      "sha256": "3c649ede36b63167e82ffe825f1be06a188911fcf7cfbb63289ff645174208a9",
+      "bytes": 17103
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/015.txt",
+      "sha256": "8a201efa98c607d2e8bc52bf119f5cd591104767cd3b0b114b08ca44d21b5468",
+      "bytes": 19212
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/016.txt",
+      "sha256": "7b17625f8414592e7d436ed19b075a2cad4b86333583e672e4c04738747f8f9f",
+      "bytes": 16705
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/017.txt",
+      "sha256": "8360b4d6d3727abcc47f0a9d986e34b099a5f361e43a37e5b17037c3f1e9d4ce",
+      "bytes": 10202
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/018.txt",
+      "sha256": "30b8467a7335b00d9a1e393286a69c0e9912b6dc72eff11bdd089aa836239b29",
+      "bytes": 21670
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/019.txt",
+      "sha256": "6aac65b6fd1dec016faac802a5e96e1e2b82ea940ded380900f8a9ccfbedffd8",
+      "bytes": 10020
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/020.txt",
+      "sha256": "ea9f981914e7e5bf7920e8a8059a3e0e93a9476dc299934003681f27c5a5be80",
+      "bytes": 26578
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/021.txt",
+      "sha256": "7a9f455a3fa85b6e496375805cebb65e94c046521213e3738c2efbf790a325a4",
+      "bytes": 9354
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/022.txt",
+      "sha256": "60da46828c71ac028d68a66a1e97ceffc6d6b82cdd24d1f4e4d46ee0dc73ed82",
+      "bytes": 12521
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/023.txt",
+      "sha256": "3838183ceced8b2e4f611c4a693f2e6718f8a7c5c059715de4fa4f6dae0a888c",
+      "bytes": 20678
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/024.txt",
+      "sha256": "9fbd1549a36716bcdbc78783be43e96f4045d2e03b96e0a14e78d832fadaf017",
+      "bytes": 12124
+    },
+    {
+      "path": "books/pg-910-white-fang/chapters/025.txt",
+      "sha256": "509ca66be66d34840d82934cbbc6211dd581d6fd48b617bd21987dbf769864ec",
+      "bytes": 16395
+    }
+  ]
+}

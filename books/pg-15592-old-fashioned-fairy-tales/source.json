@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 15592,
+  "slug": "pg-15592-old-fashioned-fairy-tales",
+  "title": "Old-Fashioned Fairy Tales",
+  "title_i18n": {
+    "en": "Old-Fashioned Fairy Tales",
+    "zh-CN": "老式童话",
+    "ja": "昔風のおとぎ話"
+  },
+  "author": "Juliana Horatia Ewing",
+  "authors_catalog": "Ewing, Juliana Horatia, 1841-1885",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "story-collection",
+  "text_url": "https://www.gutenberg.org/cache/epub/15592/pg15592-images.html",
+  "text_sha256": "b5ed2cb91694ef7074c1a36baecd294826f4716454de43754162384ab4786e9f",
+  "page_sha256": "44191d995550b6afe875dff70da2857e919ee0068e5eea389510d9d1a74b4aca",
+  "extraction": {
+    "start_id": "GOOD_LUCK_IS_BETTER_THAN_GOLD"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1885,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 19,
+    "word_count": 33255,
+    "selected_text_sha256": "4ab76da2df28c16ed841fc7cb384dbacc5cacdf6c8c0d5b041a7493c75968a76",
+    "section_titles": [
+      "GOOD LUCK IS BETTER THAN GOLD.",
+      "THE HILLMAN AND THE HOUSEWIFE.",
+      "THE NECK. — a legend of a lake.",
+      "THE NIX IN MISCHIEF.",
+      "THE COBBLER AND THE GHOSTS.",
+      "THE LAIRD AND THE MAN OF PEACE.",
+      "THE OGRE COURTING.",
+      "THE MAGICIANS' GIFTS.",
+      "THE WIDOWS AND THE STRANGERS.",
+      "KIND WILLIAM AND THE WATER SPRITE.",
+      "MURDOCH'S RATH.[8]",
+      "THE LITTLE DARNER.",
+      "THE FIDDLER IN THE FAIRY RING.",
+      "\"I WON'T.\"",
+      "THE MAGIC JAR.",
+      "THE FIRST WIFE'S WEDDING-RING.",
+      "THE MAGICIAN TURNED MISCHIEF-MAKER.",
+      "KNAVE AND FOOL.",
+      "UNDER THE SUN."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 19,
+    "word_count": 33255,
+    "kept_blocks": 873,
+    "omitted_blocks": 35,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 145,
+        "preview": "The Project Gutenberg eBook of Old-Fashioned Fairy Tales This eBook is for the use of anyone anywher"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK OLD-FASHIONED FAIRY TALES *** Updated editions will replace t"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 15,
+        "preview": "E-text prepared by Juliet Sutherland, Jennifer Goslee, and the Project Gutenberg Online Distributed "
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "OLD-FASHIONED FAIRY TALES."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "JULIANA HORATIA EWING."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 17,
+        "preview": "LONDON: SOCIETY FOR PROMOTING CHRISTIAN KNOWLEDGE, NORTHUMBERLAND AVENUE, W.C. NEW YORK: E. & J.B. Y"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 9,
+        "preview": "[Published under the direction of the General Literature Committee.]"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 8,
+        "preview": "DEDICATED to my dear sister, UNDINE MARCIA GATTY."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "J.H.E."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 27,
+        "preview": "\"Know'st thou not the little path\nThat winds about the Ferny brae,\nThat is the road to bonnie Elflan"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "Thomas the Rhymer."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "PREFACE",
+        "words": 1,
+        "preview": "PREFACE."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 28,
+        "preview": "As the title of this story-book may possibly suggest that the tales are old fairy tales told afresh,"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 28,
+        "preview": "Except for the use of common \"properties\" of Fairy Drama, and a scrupulous endeavour to conform to t"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 42,
+        "preview": "They have appeared at intervals during some years past in \"Aunt Judy's Magazine for Young People,\" a"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 89,
+        "preview": "First, that there are ideas and types, occurring in the myths of all countries, which are common pro"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 48,
+        "preview": "Secondly, that in these household stories (the models for which were originally oral tradition) the "
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 17,
+        "preview": "The degree in which, if at all, the following tales fulfil these conditions, nursery critics must de"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 21,
+        "preview": "There are older critics before whom fairy tales, as such, need excuse, even if they do not meet with"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 88,
+        "preview": "On this score I can only say that, for myself, I believe them to be—beyond all need of defence—most "
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 20,
+        "preview": "Moreover fairy tales have positive uses in education, which no cramming of facts, and no merely dome"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 92,
+        "preview": "Like Proverbs and Parables, they deal with first principles under the simplest forms. They convey kn"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 29,
+        "preview": "For causes obvious to the student of early myths, they foster sympathy with nature, and no class of "
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 29,
+        "preview": "They cultivate the Imagination, that great gift which time and experience lead one more and more to "
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 47,
+        "preview": "It is true that some of the old fairy tales do not teach the high and useful lessons that most of th"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 43,
+        "preview": "As to the latter question, it must be remembered that the brevity of the narrative—whether it be a l"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 39,
+        "preview": "The writer of the following tales has endeavoured to bear this principle in mind, and it is hoped th"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 13,
+        "preview": "For the rest they are committed to the indulgence of the gentle reader."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 14,
+        "preview": "Hans Anderssen, perhaps the greatest writer of modern fairy tales, was content to say:"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "\"Fairy Tale Never Dies.\""
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "J. H. E."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 77,
+        "preview": "PREFACE GOOD LUCK IS BETTER THAN GOLD. THE HILLMAN AND THE HOUSEWIFE. THE NECK. THE NIX IN MISCHIEF."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "OLD-FASHIONED_FAIRY_TALES",
+        "words": 3,
+        "preview": "OLD-FASHIONED FAIRY TALES."
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "4ab76da2df28c16ed841fc7cb384dbacc5cacdf6c8c0d5b041a7493c75968a76",
+    "html_sha256": "b5ed2cb91694ef7074c1a36baecd294826f4716454de43754162384ab4786e9f",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/001.txt",
+      "sha256": "458aca1a9f0104c1c7a59aab648d5bc8c2a5fef8379f7818f7cddc713eee3232",
+      "bytes": 9022
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/002.txt",
+      "sha256": "f00028353edcf8b6d5074c27b500ef3c9d6b0a4b371012786a6d9f1bb68d9f27",
+      "bytes": 2935
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/003.txt",
+      "sha256": "6f13b9ff2d77dcb94f034c8a8d085d122f477d76f084491ccd199ce43c540dc8",
+      "bytes": 10918
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/004.txt",
+      "sha256": "a39d77e994864e526e996734d4953a8e0240cd020b5e5f877dbba9beb7f2a627",
+      "bytes": 7334
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/005.txt",
+      "sha256": "05707e7dda32fda54038b8bec7fe464e2fc371a6f901e7395d862756ac459f77",
+      "bytes": 9372
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/006.txt",
+      "sha256": "1f770cea4e52ce30cf1b3122bf6655a5abebaa906ff7b987bf3ccb8af3f80b2a",
+      "bytes": 11270
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/007.txt",
+      "sha256": "34ad035aae5f00a20d38cd539700fc7ebe0ddc6a0fd1c31f933c19246ef6f9cd",
+      "bytes": 9078
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/008.txt",
+      "sha256": "49253eef317c4f37228d76ae457c5f8a57fca1d8cd9f4e4d5134c041d64cc50b",
+      "bytes": 13983
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/009.txt",
+      "sha256": "379d0c0d2d94752184841380833131979f0e6fbe1890888aa8d2402aaddff269",
+      "bytes": 10458
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/010.txt",
+      "sha256": "02c97acc25f414cd136b4f56b71381660f304d537810dcbf15f4cb8b78563d9d",
+      "bytes": 8755
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/011.txt",
+      "sha256": "8326d899df07657232044f7a7d8412bb5f0b5422cf6b5997d8b97ed98d98df63",
+      "bytes": 11198
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/012.txt",
+      "sha256": "ddfc37be81a222f504351b0e83ad63ab3e0fc2c6408553a5a1270341084f703a",
+      "bytes": 10003
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/013.txt",
+      "sha256": "d7da292880aa653fc4a69eee7897742696155f14cbd2b2fd9411c7b37133a98b",
+      "bytes": 10203
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/014.txt",
+      "sha256": "a58fef2f860d0131dcbdecc45dfead173cba35d476236baa92bc5cedb25f4394",
+      "bytes": 8831
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/015.txt",
+      "sha256": "b398471aa403571188a9ea8346cc8b08ffe2ce65d8e0b5c110057a855f8343be",
+      "bytes": 8578
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/016.txt",
+      "sha256": "352e8dffb3513156a0053016afa221d8e18acc3db23f92eebd25a1f76dc5bd4c",
+      "bytes": 9839
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/017.txt",
+      "sha256": "1706e6027c95006f0a3b0a00a4d0823cb62c648519de23d62675bb2fb82491b1",
+      "bytes": 4820
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/018.txt",
+      "sha256": "eb081c7f1138587473911852cb3bd74f4999643c89d0e7657a976aa71de0d31d",
+      "bytes": 11897
+    },
+    {
+      "path": "books/pg-15592-old-fashioned-fairy-tales/chapters/019.txt",
+      "sha256": "ab76053f715056d57c65a6528a7e3606e6ee26124abfb7342ae9b30f1fb4370d",
+      "bytes": 7509
+    }
+  ]
+}

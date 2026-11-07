@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 225,
+  "slug": "pg-225-at-the-back-of-the-north-wind",
+  "title": "At the Back of the North Wind",
+  "title_i18n": {
+    "en": "At the Back of the North Wind",
+    "zh-CN": "北风的背后",
+    "ja": "北風のうしろの国"
+  },
+  "author": "George MacDonald",
+  "authors_catalog": "MacDonald, George, 1824-1905",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/225/pg225-images.html",
+  "text_sha256": "dcc2a71bcd711047a83c74b0bbfc8740970d701b33199b228ddca93b4f37c11d",
+  "page_sha256": "89af5d6a6721f3ce6049d34ffd826d0e5ae42c54683b8480b06d33c3cd72d26c",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1905,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 38,
+    "word_count": 88508,
+    "selected_text_sha256": "00f9a28499c101b27af7e151395bfd8c7fff00ae860085df89c8ca4d4c0ed914",
+    "section_titles": [
+      "CHAPTER I. THE HAY-LOFT",
+      "CHAPTER II. THE LAWN",
+      "CHAPTER III. OLD DIAMOND",
+      "CHAPTER IV. NORTH WIND",
+      "CHAPTER V. THE SUMMER-HOUSE",
+      "CHAPTER VI. OUT IN THE STORM",
+      "CHAPTER VII. THE CATHEDRAL",
+      "CHAPTER VIII. THE EAST WINDOW",
+      "CHAPTER IX. HOW DIAMOND GOT TO THE BACK OF THE NORTH WIND",
+      "CHAPTER X. AT THE BACK OF THE NORTH WIND",
+      "CHAPTER XI. HOW DIAMOND GOT HOME AGAIN",
+      "CHAPTER XII. WHO MET DIAMOND AT SANDWICH",
+      "CHAPTER XIII. THE SEASIDE",
+      "CHAPTER XIV. OLD DIAMOND",
+      "CHAPTER XV. THE MEWS",
+      "CHAPTER XVI. DIAMOND MAKES A BEGINNING",
+      "CHAPTER XVII. DIAMOND GOES ON",
+      "CHAPTER XVIII. THE DRUNKEN CABMAN",
+      "CHAPTER XIX. DIAMOND'S FRIENDS",
+      "CHAPTER XX. DIAMOND LEARNS TO READ",
+      "CHAPTER XXI. SAL'S NANNY",
+      "CHAPTER XXII. MR. RAYMOND'S RIDDLE",
+      "CHAPTER XXIII. THE EARLY BIRD",
+      "CHAPTER XXIV. ANOTHER EARLY BIRD",
+      "CHAPTER XXV. DIAMOND'S DREAM",
+      "CHAPTER XXVI. DIAMOND TAKES A FARE THE WRONG WAY RIGHT",
+      "CHAPTER XXVII. THE CHILDREN'S HOSPITAL",
+      "CHAPTER XXVIII. LITTLE DAYLIGHT",
+      "CHAPTER XXIX. RUBY",
+      "CHAPTER XXX. NANNY'S DREAM",
+      "CHAPTER XXXI. THE NORTH WIND DOTH BLOW",
+      "CHAPTER XXXII. DIAMOND AND RUBY",
+      "CHAPTER XXXIII. THE PROSPECT BRIGHTENS",
+      "CHAPTER XXXIV. IN THE COUNTRY",
+      "CHAPTER XXXV. I MAKE DIAMOND'S ACQUAINTANCE",
+      "CHAPTER XXXVI. DIAMOND QUESTIONS NORTH WIND",
+      "CHAPTER XXXVII. ONCE MORE",
+      "CHAPTER XXXVIII. AT THE BACK OF THE NORTH WIND"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 38,
+    "word_count": 88508,
+    "kept_blocks": 2322,
+    "omitted_blocks": 8,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 148,
+        "preview": "The Project Gutenberg eBook of At the Back of the North Wind This eBook is for the use of anyone any"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2910,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK AT THE BACK OF THE NORTH WIND *** Updated editions will repla"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id-5082192723097170920",
+        "words": 16,
+        "preview": "THERE IS AN ILLUSTRATED EDITION OF THIS TITLE WHICH MAY VIEWED AT EBOOK [# 18614 ]"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "AT THE BACK OF THE NORTH WIND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By George Mac Donald"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Author of “Dealings with Fairies,” “Ranald Bannerman,” etc., etc."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 204,
+        "preview": "CHAPTER I. THE HAY-LOFT CHAPTER II. THE LAWN CHAPTER III. OLD DIAMOND CHAPTER IV. NORTH WIND CHAPTER"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "00f9a28499c101b27af7e151395bfd8c7fff00ae860085df89c8ca4d4c0ed914",
+    "html_sha256": "dcc2a71bcd711047a83c74b0bbfc8740970d701b33199b228ddca93b4f37c11d",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/001.txt",
+      "sha256": "021b4624647b7a01cf70aea47ba9fd8b023e0dd8fd5821ac28b434de50820680",
+      "bytes": 17469
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/002.txt",
+      "sha256": "ba0b204b839768ef743341bdc85833609c2960d2df197f615815f2dca019e4b3",
+      "bytes": 11794
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/003.txt",
+      "sha256": "05ea7ee22f42aad288b2eb03830675e3b821de37b582c6d5a862c16037508f4c",
+      "bytes": 15499
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/004.txt",
+      "sha256": "fedf4c684573061669d7d7c145fca13d4b211ce0fc07e900710ac25a3e68caac",
+      "bytes": 16399
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/005.txt",
+      "sha256": "214efb471226a286ef08a54bbed0ea5879358acabe4c982a84569e8a4cadf98d",
+      "bytes": 16384
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/006.txt",
+      "sha256": "6406fc444a6a957ab4e49d9443391bf44cb8f0303d1be89b802445c1e5c12b5c",
+      "bytes": 10078
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/007.txt",
+      "sha256": "1a53e36683fbca3aaba0b8b8e1d8b88854bb903feaabf5433bd6159c8f489614",
+      "bytes": 13407
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/008.txt",
+      "sha256": "14639c29f84d9f29a3ff3920af68b52cd4c82cad54f31c02135bdaa376e551ca",
+      "bytes": 6250
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/009.txt",
+      "sha256": "f0834ba222b6799ed740479099203670a6399876e75d3c8c395679a56e061838",
+      "bytes": 25979
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/010.txt",
+      "sha256": "43814b49d8fb36d3a4c21c2698b89547cfeb29c0eb84eaf563ce0549ba447c52",
+      "bytes": 7278
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/011.txt",
+      "sha256": "21e71ba2e0b185704373bbea8973918f71d3ab177dde3645e800c279083f1a33",
+      "bytes": 9941
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/012.txt",
+      "sha256": "e5a2489870ae2d0f29baa5abed43f81c35a6eb12f8d7b6c5d4aaef11e782e0d7",
+      "bytes": 7333
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/013.txt",
+      "sha256": "133d3f8241c9aa88213f9d20091171463544a10c751a38f458902f896de57efd",
+      "bytes": 13836
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/014.txt",
+      "sha256": "5b14653a8c97c121963144106da10761609224167170310683ed83c070b0e841",
+      "bytes": 4381
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/015.txt",
+      "sha256": "c90de5ae210ab57d00c928b445e281da3e772bfcb7d0b08d2d2aca7243968081",
+      "bytes": 5077
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/016.txt",
+      "sha256": "ca7867b02b8b73fe3b8ca4d56d6714317ed8f5f7a8cf88a657973be2cb686f0a",
+      "bytes": 16463
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/017.txt",
+      "sha256": "bfe80203ea41e1c1d47b38e3c2da0c0edd8295f78c2831f9940a27955dfeb255",
+      "bytes": 12759
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/018.txt",
+      "sha256": "28f34486dd63ce2eb3e59b33816d2923aef0b079f0be123bfd1471a05c939a06",
+      "bytes": 10330
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/019.txt",
+      "sha256": "ec6dd03aa17a1158853a60bac78830edeedcdb42d557543a3632530af570d9ed",
+      "bytes": 9524
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/020.txt",
+      "sha256": "5f3d73b7eae84d79e94d2a22bdd1d7e889c131c5f0e8d4bae3a9467866068f5d",
+      "bytes": 8453
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/021.txt",
+      "sha256": "1ab9e1625405938518f52ee566589083c4cb1c546591eaf6843564757bc81674",
+      "bytes": 12154
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/022.txt",
+      "sha256": "73a8c0a92181ac8dce24ff485bfee8a0649f90f63792f948afd998a44365ff33",
+      "bytes": 4953
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/023.txt",
+      "sha256": "de02104e63bcfbcafaeec35b9e5e7dfb49af6e3be6e6881619f679fb526b2550",
+      "bytes": 4402
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/024.txt",
+      "sha256": "50d3637f21a5d23866de0c2ae468da9af96b2af7476b2d74d0da9ee4e6bb696d",
+      "bytes": 14621
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/025.txt",
+      "sha256": "9bf4208f2cf109b286818e4cff2e4f4662c9011684e21901d94227c3ab1751f8",
+      "bytes": 17574
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/026.txt",
+      "sha256": "f21449b542e344881bf0e0d5c84e386bd4e550057c8eccfe16dfdd4b0abacee5",
+      "bytes": 11579
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/027.txt",
+      "sha256": "2df4f44ec2501c52831aed6f5302212eefed2ce4a29933b180e3476cd2e37f4c",
+      "bytes": 7736
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/028.txt",
+      "sha256": "2f2bc65e14495add8fcf2145d592115f7e6b4109d9de1ebbc055389a38c5d23c",
+      "bytes": 35591
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/029.txt",
+      "sha256": "54353930a1d172a89684a990607a654d7360290fc1d62e2b45d211c00685915c",
+      "bytes": 10593
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/030.txt",
+      "sha256": "db92bdaee272ffe1cb8966b9e4cff05dcc0dc3daf97e4f97b1af61695ac64ec9",
+      "bytes": 26659
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/031.txt",
+      "sha256": "a290927842b0aa8f4f46bdf241a73da47d509e6938e97c129f76f967d0193d25",
+      "bytes": 5529
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/032.txt",
+      "sha256": "fbc4f7ba1efd426bd9d96e50a98c2fcdaa3a0e3fc3d18ced98ffe87699b750db",
+      "bytes": 10963
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/033.txt",
+      "sha256": "a68de51b06efcf9b0080a2002e946b20abdcddbaa14b4ed3647084eab7d5ad14",
+      "bytes": 14788
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/034.txt",
+      "sha256": "4f4b1503c6dfc37045027d5343ce7d622dbf0cc3fa596b966ce9a2fc4fcd114b",
+      "bytes": 7407
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/035.txt",
+      "sha256": "e7729d3c808569a5aeff43e49f4b912955749488bacdcb0bb0673ee7266cf0e4",
+      "bytes": 17632
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/036.txt",
+      "sha256": "e8ac821f747c0ae5e9367d86c9ea8f867adf9908d8155c220ef373fa348f6d24",
+      "bytes": 17143
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/037.txt",
+      "sha256": "55f504645188d617cdbb42544f95e797acaa52ca8d01df4659b602044a7e837a",
+      "bytes": 9659
+    },
+    {
+      "path": "books/pg-225-at-the-back-of-the-north-wind/chapters/038.txt",
+      "sha256": "67f62547f20abf0443e6b0b111d8dfe79add33dc01d4e50e9d3520f2cd165ab2",
+      "bytes": 3743
+    }
+  ]
+}

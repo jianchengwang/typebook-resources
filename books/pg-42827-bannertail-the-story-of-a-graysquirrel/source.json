@@ -1,0 +1,745 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 42827,
+  "slug": "pg-42827-bannertail-the-story-of-a-graysquirrel",
+  "title": "Bannertail: The Story of a Graysquirrel",
+  "title_i18n": {
+    "en": "Bannertail: The Story of a Graysquirrel",
+    "zh-CN": "灰松鼠班纳的故事",
+    "ja": "灰色リスの旗尾"
+  },
+  "author": "Ernest Thompson Seton",
+  "authors_catalog": "Seton, Ernest Thompson, 1860-1946",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/42827/pg42827-images.html",
+  "text_sha256": "b99ad776b6124d829f574fe49c55821e889fceaa73c7963acf5f7904aa9904b8",
+  "page_sha256": "8edecc16688bee7c76d0c158b64443d93deee050716288713e391bb0d8814c88",
+  "extraction": {
+    "heading_level": 2,
+    "heading_pattern": "^(?!CHAPTER)",
+    "end_text": "Transcriber's Notes:",
+    "start_id": "Page_1"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1946,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 37,
+    "word_count": 22000,
+    "selected_text_sha256": "78b3c841dac3bfecbec300ec3c5ddacb7837cb898fbee3f4733ffcfaf7565bcb",
+    "section_titles": [
+      "THE FOUNDLING — CHAPTER I",
+      "HIS KITTENHOOD — CHAPTER II",
+      "THE RED HORROR — CHAPTER III",
+      "THE NEW AND LONELY LIFE — CHAPTER IV",
+      "THE FLUFFING OF HIS TAIL — CHAPTER V",
+      "THE FIRST NUT CROP — CHAPTER VI",
+      "THE SUN SONG OF BANNERTAIL — CHAPTER VII",
+      "THE COLD SLEEP — CHAPTER VIII",
+      "THE BALKING OF FIRE-EYES — CHAPTER IX",
+      "REDSQUIRREL, THE SCOLD OF THE WOODS — CHAPTER X",
+      "BANNERTAIL AND THE ECHO VOICE — CHAPTER XI",
+      "THE COURTING OF SILVERGRAY — CHAPTER XII",
+      "THE HOME IN THE HIGH HICKORY — CHAPTER XIII",
+      "NEW RIVALS — CHAPTER XIV",
+      "BACHELOR LIFE AGAIN — CHAPTER XV",
+      "THE WARDEN MEETS AN INVADER — CHAPTER XVI",
+      "THE HOODOO ON THE HOME — CHAPTER XVII",
+      "THE NEW HOME — CHAPTER XVIII",
+      "THE MOVING OF THE YOUNG — CHAPTER XIX",
+      "THE COMING-OUT PARTY — CHAPTER XX",
+      "NURSERY DAYS OF THE YOUNG ONES — CHAPTER XXI",
+      "CRAY HUNTS FOR TROUBLE — CHAPTER XXII",
+      "THE LITTLE SQUIRRELS GO TO SCHOOL — CHAPTER XXIII",
+      "THE LOPPING OF THE WAYWARD BRANCH — CHAPTER XXIV",
+      "BANNERTAIL FALLS INTO A SNARE — CHAPTER XXV",
+      "THE ADDICT — CHAPTER XXVI",
+      "THE DREGS OF THE CUP — CHAPTER XXVII",
+      "THE WAY OF DESTRUCTION — CHAPTER XXVIII",
+      "MOTHER CAREY'S LASH — CHAPTER XXIX",
+      "HIS AWAKENING — CHAPTER XXX",
+      "THE UNWRITTEN LAW — CHAPTER XXXI",
+      "SQUIRREL GAMES — CHAPTER XXXII",
+      "WHEN BANNERTAIL WAS SCARRED FOR LIFE — CHAPTER XXXIII",
+      "THE FIGHT WITH THE BLACK DEMON — CHAPTER XXXIV",
+      "THE PROPERTY LAW AMONG ANIMALS — CHAPTER XXXV",
+      "GATHERING THE GREAT NUT HARVEST — CHAPTER XXXVI",
+      "AND TO-DAY — CHAPTER XXXVII"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 37,
+    "word_count": 22000,
+    "kept_blocks": 363,
+    "omitted_blocks": 74,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 164,
+        "preview": "The Project Gutenberg eBook of Bannertail: The Story of a Graysquirrel This eBook is for the use of "
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "HIS KITTENHOOD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "BAFFLING FIRE-EYES"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "THEY TWIDDLED WHISKERS GOOD NIGHT"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "WITH AN ANGRY \"QUARE!\" SILVERGRAY SCRAMBLED UP AGAIN"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE LITTLE SQUIRRELS AT SCHOOL"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "CRAY SANK—A VICTIM TO HIS FOLLY"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "A DANGEROUS GAME"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE BATTLE WITH THE BLACKSNAKE"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2909,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK BANNERTAIL: THE STORY OF A GRAYSQUIRREL *** Updated editions "
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "BANNERTAIL THE STORY OF A GRAYSQUIRREL"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "BANNERTAIL",
+        "words": 6,
+        "preview": "BANNERTAIL THE STORY OF A GRAYSQUIRREL"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 37,
+        "preview": "With 100 Drawings by Ernest Thompson Seton Author of Wild Animals I have Known Trail of the Sandhill"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 13,
+        "preview": "Copyright, 1922, by ERNEST THOMPSON SETON Printed in the United States of America"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "FOREWORD"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 14,
+        "preview": "These are the ideas that I have aimed to set forth in this tale."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 48,
+        "preview": "1st. That although an animal is much helped by its mother's teaching, it owes still more to the raci"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 33,
+        "preview": "2d. Animals often are tempted into immorality—by which I mean, any habit or practice that would in i"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "Page_vi",
+        "words": 12,
+        "preview": "3d. Animals, like ourselves, must maintain ceaseless war against insect parasites—or perish."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 22,
+        "preview": "4th. In the nut forests of America, practically every tree was planted by the Graysquirrel, or its k"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 29,
+        "preview": "These are the motive thoughts behind my woodland novel. I hope I have presented them convincingly; i"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "ChapterPage"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "I.The Foundling1"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "II.His Kittenhood9"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "III.The Red Horror15"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "IV.The New and Lonely Life19"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "V.The Fluffing of His Tail25"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "VI.The First Nut Crop31"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "VII.The Sun Song of Bannertail39"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "VIII.The Cold Sleep49"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "IX.The Balking of Fire-eyes57"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "X.Redsquirrel, the Scold of the Woods65"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XI.Bannertail and the Echo Voice71"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XII.The Courting of Silvergray77"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XIII.The Home in the High Hickory85"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "Page_viii",
+        "words": 2,
+        "preview": "XIV.New Rivals91"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XV.Bachelor Life Again97"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XVI.The Warden Meets an Invader103"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XVII.The Hoodoo on the Home109"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XVIII.The New Home117"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XIX.The Moving of the Young125"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XX.The Coming-out Party135"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXI.Nursery Days of the Young Ones141"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXII.Cray Hunts for Trouble147"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXIII.The Little Squirrels Go to School151"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXIV.The Lopping of the Wayward Branch157"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXV.Bannertail Falls into a Snare163"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "XXVI.The Addict173"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXVII.The Dregs of the Cup181"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVIII.The Way of Destruction185"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXIX.Mother Carey's Lash191"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "XXX.His Awakening199"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "Page_ix",
+        "words": 3,
+        "preview": "XXXI.The Unwritten Law205"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "XXXII.Squirrel Games213"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXXIII.When Bannertail Was Scarred for Life221"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXXIV.The Fight with the Black Demon229"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXXV.The Property Law among Animals243"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXXVI.Gathering the Great Nut Harvest251"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "XXXVII.And To-day261"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "Facing Page"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "His kittenhood12"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "Baffling Fire-eyes60"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "They twiddled whiskers good night82"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 8,
+        "preview": "With an angry \"Quare!\" Silvergray scrambled up again130"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "The little squirrels at school154"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "Cray sank—a victim to his folly160"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "A dangerous game226"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "The battle with the Blacksnake238"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's Notes:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Obvious punctuation errors repaired."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "Page 27, \"growthth at\" changed to \"growth that\" (growth that are marked)"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Page 46, \"off\" changed to \"of\" (of basswood buds)"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": "^(?!CHAPTER)",
+    "reconstruction_verified": true,
+    "selected_text_sha256": "78b3c841dac3bfecbec300ec3c5ddacb7837cb898fbee3f4733ffcfaf7565bcb",
+    "html_sha256": "b99ad776b6124d829f574fe49c55821e889fceaa73c7963acf5f7904aa9904b8",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/001.txt",
+      "sha256": "e46fb44ac6e2e57a3f5b1ef3a961cb1ca48eb4e8877f9fac763c0500ad483bab",
+      "bytes": 3288
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/002.txt",
+      "sha256": "e3aa0bce24e69c1422e65501a5a5df9d5f4e787e7d8cb7066e287eb7eee0e3dd",
+      "bytes": 1774
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/003.txt",
+      "sha256": "34365fd0e842009f081501eff2c1fac3e70b0142f8bf4e1d601c0b8b6d72c547",
+      "bytes": 1058
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/004.txt",
+      "sha256": "6d66e98d9f8823f566c7e0e9cdb076ad7f17f872d5e69049babdab12075a6220",
+      "bytes": 2652
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/005.txt",
+      "sha256": "ae8ce2fdf6775a87da4ea969eae8764ec292f4bf80306214c2727c6226da5b52",
+      "bytes": 1753
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/006.txt",
+      "sha256": "3812bb3d5ffc12cf9a58bc6ee046ade58e72f57e33e995372301cc2cfa63973b",
+      "bytes": 3903
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/007.txt",
+      "sha256": "9c1a97a7f7e1221a6add3303b920c7afa602119a41600e409da58d08ca161bb5",
+      "bytes": 6043
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/008.txt",
+      "sha256": "8c8c6af622c697f2153fae0dd3d7695168ec3dc15aea297b514718444e8f04c5",
+      "bytes": 3685
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/009.txt",
+      "sha256": "6d653f3dde2ca4f31bf66c95c9a982b272d8bd841ccdaf7321efcb972470e0fc",
+      "bytes": 3369
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/010.txt",
+      "sha256": "8b2b91773c8e44ce38f4d29d40014a8b58b0730e4e7a6b7fa345db0bba155cc6",
+      "bytes": 1661
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/011.txt",
+      "sha256": "cb5fcab5d11290598ab919275fbe573a2ef3fcc259aababaff57ec55b2758bf0",
+      "bytes": 2256
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/012.txt",
+      "sha256": "d1c6ccc7ca4c8e7239fb0e2b4d62a362765a778d4a160e597694245ba21b837a",
+      "bytes": 3327
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/013.txt",
+      "sha256": "7ba5a46df3584b8cd40127e483e05be11518457ae89136110635491a2b8fa145",
+      "bytes": 2101
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/014.txt",
+      "sha256": "0ec703d72288cc53e88eb4049af9fbda1ed871a786c6efb365d64763b079374a",
+      "bytes": 2771
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/015.txt",
+      "sha256": "f2a603d8211fb6e5895eba2282da31e5038a844c6fc58aeaba9de25c962064c3",
+      "bytes": 2702
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/016.txt",
+      "sha256": "30faf41e3d7addad438ed3a5b47ba35e8c44c7a2f6b92c5b5e5975d03d05e126",
+      "bytes": 2452
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/017.txt",
+      "sha256": "6f953e1dc5c77beeb3b81ce3ab77e7815b194bb9bfe967ea09765ee31aa9206a",
+      "bytes": 3846
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/018.txt",
+      "sha256": "c18d7e500dc2ab1e573525bb9977778132f3139b3f8be705c846532938b4e8c3",
+      "bytes": 4141
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/019.txt",
+      "sha256": "fb1cb61eb6618dbd7231d9b9282296e813e39f6daba0894740769fb93ba98ba4",
+      "bytes": 5776
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/020.txt",
+      "sha256": "67665f6fc6851b6dd7312a1c81ecf45d5a12f8d03e4c0c3847e02681ebcea3bf",
+      "bytes": 1534
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/021.txt",
+      "sha256": "3b01fcb9766b31af57d105ef1c529793e8e56c93b99ab0e6efa189ccbd8a1e3d",
+      "bytes": 3018
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/022.txt",
+      "sha256": "fb1a183c6562122caf3132da1a5d75fabd6990b04fb667fd656680f8f762f0bb",
+      "bytes": 1463
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/023.txt",
+      "sha256": "a1b9bce9f7b39d17a0087c10152b1561ab7051a4793f8d1fd163d6f7730fb00b",
+      "bytes": 2969
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/024.txt",
+      "sha256": "d548e36924400d84d99908cbadff165a9045419fc2fa2fd145c4b13cad42cae3",
+      "bytes": 2612
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/025.txt",
+      "sha256": "d81e0e11f42d7bd120cdd3ede1059414e5e15ff4617ff366051b5eb58f05d73b",
+      "bytes": 5082
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/026.txt",
+      "sha256": "162bcbd24d118dc8a78febcaf2ca3a10b34a8f1d98f4271ac42f1f176f89b4aa",
+      "bytes": 4570
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/027.txt",
+      "sha256": "860381027750d8dbeaed599eff9968e5e3ac14435549f73e1cc32136f298236d",
+      "bytes": 808
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/028.txt",
+      "sha256": "bdbf6c3a805aacef8c3108939be4c62eeb71a6b97ef17f4d86bc9164e1c5a01a",
+      "bytes": 1616
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/029.txt",
+      "sha256": "95461ef11628ff3a13f25098e655406d06745d6a4e7610ce78e49e5991027d21",
+      "bytes": 4558
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/030.txt",
+      "sha256": "98a85c5fe5c8a65dd5ea0f4c430dad765c26af3d6a4416975216dc934d862b4f",
+      "bytes": 2438
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/031.txt",
+      "sha256": "ace5d5d3a2afb159a2dbdd467bc86d6654ba32cd8545c4baa0bce3c4eb83bfbf",
+      "bytes": 3509
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/032.txt",
+      "sha256": "af8ca658e426420d7129c46d16bcbb0c14db37aedf611424e2a000bc7838d7bf",
+      "bytes": 4096
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/033.txt",
+      "sha256": "f005418fac5629b226973a88680ac3e47057d3ba95cffd519fd1eafb09a0fba9",
+      "bytes": 4398
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/034.txt",
+      "sha256": "6b84f4853fc1a3aae890e71cccf822d1ad75ef6cf5a7413de9a2f36689014279",
+      "bytes": 9255
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/035.txt",
+      "sha256": "33888826227e66e9b3e733ee5ef2e46407a513419eb91374cd1d92c1668a358d",
+      "bytes": 4547
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/036.txt",
+      "sha256": "c104341fc8d0c1d76de16cd17660dd8924bc6e0bfc81d50ab1e8f71b10b01749",
+      "bytes": 5230
+    },
+    {
+      "path": "books/pg-42827-bannertail-the-story-of-a-graysquirrel/chapters/037.txt",
+      "sha256": "8fb1a38f0cc8b5057a0ef7f2408b51800f949e3c3a409b4f80a30d4e73749066",
+      "bytes": 1703
+    }
+  ]
+}

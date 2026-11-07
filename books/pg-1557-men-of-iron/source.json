@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 1557,
+  "slug": "pg-1557-men-of-iron",
+  "title": "Men of Iron",
+  "title_i18n": {
+    "en": "Men of Iron",
+    "zh-CN": "铁甲少年",
+    "ja": "鉄の男たち"
+  },
+  "author": "Howard Pyle",
+  "authors_catalog": "Pyle, Howard, 1853-1911",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/1557/pg1557-images.html",
+  "text_sha256": "d5e73a54d713c02d7f9d59290e4425979c9cebe742be46a1876648a5e986b5ba",
+  "page_sha256": "6d600cbc821189e8696bb667cb19c50a2ff00a73d99c647dc522a68cbb2f8929",
+  "extraction": {
+    "extra_heading_texts": [
+      "INTRODUCTION",
+      "CONCLUSION"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1911,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 35,
+    "word_count": 68070,
+    "selected_text_sha256": "26a077e3f3d2c619b3a3e0ce33e10d02427266c8c2802b21f5756ed9b0f63f39",
+    "section_titles": [
+      "INTRODUCTION",
+      "CHAPTER 1",
+      "CHAPTER 2",
+      "CHAPTER 3",
+      "CHAPTER 4",
+      "CHAPTER 5",
+      "CHAPTER 6",
+      "CHAPTER 7 — So little does it take to make a body's reputation.",
+      "CHAPTER 8",
+      "CHAPTER 9",
+      "CHAPTER 10",
+      "CHAPTER 11",
+      "CHAPTER 12",
+      "CHAPTER 13",
+      "CHAPTER 14",
+      "CHAPTER 15",
+      "CHAPTER 16",
+      "CHAPTER 17",
+      "CHAPTER 18",
+      "CHAPTER 19",
+      "CHAPTER 20",
+      "CHAPTER 21",
+      "CHAPTER 22",
+      "CHAPTER 23",
+      "CHAPTER 24",
+      "CHAPTER 25",
+      "CHAPTER 26",
+      "CHAPTER 27",
+      "CHAPTER 28",
+      "CHAPTER 29",
+      "CHAPTER 30",
+      "CHAPTER 31",
+      "CHAPTER 32",
+      "CHAPTER 33",
+      "CONCLUSION"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Thirty-three numbered chapters, historical/narrative Introduction and Conclusion.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 35,
+    "word_count": 68070,
+    "kept_blocks": 1246,
+    "omitted_blocks": 40,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 136,
+        "preview": "The Project Gutenberg eBook of Men of Iron This eBook is for the use of anyone anywhere in the Unite"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "INTRODUCTION"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 1"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 2"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 3"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 4"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 5"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 6"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 7"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 8"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 9"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 10"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 11"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 12"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 13"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 14"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 15"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 16"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 17"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 18"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 19"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 20"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 21"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 22"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 23"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 24"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 25"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 26"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 27"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 28"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 29"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 30"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 31"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 32"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER 33"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONCLUSION"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK MEN OF IRON *** Updated editions will replace the previous on"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "MEN OF IRON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "by Howard Pyle"
+      }
+    ],
+    "warnings": [
+      "review-front-or-back-matter"
+    ],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "26a077e3f3d2c619b3a3e0ce33e10d02427266c8c2802b21f5756ed9b0f63f39",
+    "html_sha256": "d5e73a54d713c02d7f9d59290e4425979c9cebe742be46a1876648a5e986b5ba",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/001.txt",
+      "sha256": "7590319891f048a5eb1eb6b767c23e5f4023f5a4d2990408fa685e69627c95e2",
+      "bytes": 2759
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/002.txt",
+      "sha256": "4b6635c9d5c25ce054f0ccbafad540db58a6a876245b87c1b840afc708658cff",
+      "bytes": 6859
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/003.txt",
+      "sha256": "c001031328a002b3d703bb99ab7279e7ce8f072c18b8e51898e56b003e86fb65",
+      "bytes": 10928
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/004.txt",
+      "sha256": "ebd02b5da0f3e04a813cea69043288ab6fa68dd24380b1abb6470a38478ac6fc",
+      "bytes": 7099
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/005.txt",
+      "sha256": "984d180e421d7305e37be2c5507a07ae29b8d61b891ba482ca671da637aaf0ae",
+      "bytes": 6159
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/006.txt",
+      "sha256": "b0f1020e1455c8927250b5e68eca12071476a892583dbe55b118a7308615ecdb",
+      "bytes": 12370
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/007.txt",
+      "sha256": "a5f3760960d8fbadb7660d60741fde35bbc18a82a3f38e21e6fa866f02816f5d",
+      "bytes": 8560
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/008.txt",
+      "sha256": "218239f2018115e8a727a2c3b08f158e6914b0020cade0c3229b9ca51bb61764",
+      "bytes": 8811
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/009.txt",
+      "sha256": "e30c651773efa89fd4c11123cf9f95a9473a081a5381cce24fb736ae7421e3eb",
+      "bytes": 14079
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/010.txt",
+      "sha256": "81317daab005b0730bb93e8a142c44d3217a0e720841852956f04df0818f47f1",
+      "bytes": 7842
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/011.txt",
+      "sha256": "07a26cf6e7605e37bbf636b5dc1d43f1fa98f4fe48641615a0395dde0df65968",
+      "bytes": 11624
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/012.txt",
+      "sha256": "ec0dbc0b36d42c066c07167e1a638ac1a11123f1444d3d30cdec629d37c693f3",
+      "bytes": 14319
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/013.txt",
+      "sha256": "af82d3174901748e0790667b2ec5c51ab5189ef877dedd9ac509f42b80a4cee8",
+      "bytes": 6183
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/014.txt",
+      "sha256": "b156066c3da1556cdc5161b2eb95818bd16f5ba6b169b24d78f1f680f8d3504d",
+      "bytes": 10939
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/015.txt",
+      "sha256": "45c660f88d789503386b04b32734af949c4e33c702c7c7ae4d295d4774f86dc4",
+      "bytes": 12046
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/016.txt",
+      "sha256": "a7c9272f39fa300bf9c2d910db4b25295fb371edc098533630b0b38b2d6a7c43",
+      "bytes": 7958
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/017.txt",
+      "sha256": "a81e5bcb330fc067d5db45d9dc13bbf83aa66336bae98ad458c60bc04485e035",
+      "bytes": 7576
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/018.txt",
+      "sha256": "26db6e6224845b59724db88a2f188a16f171cffcda49f09bdbe3fbb9f66c771d",
+      "bytes": 12180
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/019.txt",
+      "sha256": "fae60d95d8edee980ce6ca884d4c58215ad5a95929ebdfcb68ff1df3fbb9fb05",
+      "bytes": 13802
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/020.txt",
+      "sha256": "91241f4252e8700e7febf241135734076c73e1eae2e13377efa4429df881f515",
+      "bytes": 9430
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/021.txt",
+      "sha256": "77b2b51749bbc07b51133266999d7f19f8b79f410d95d13fe894dedcb483ab20",
+      "bytes": 12057
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/022.txt",
+      "sha256": "fd3b18d7d7b876552103eaa531eeaaae103346c43c6e0b0f4edf0d85cbb262cc",
+      "bytes": 7775
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/023.txt",
+      "sha256": "86f4e072b50f25e7eed78fefa2777cd1acf909e60eef7e3779ce750c3d91ca3e",
+      "bytes": 20564
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/024.txt",
+      "sha256": "ba0abf2e57d8ad7959428a8451d2be4b20874fe4d927f86921f3a8616c10c183",
+      "bytes": 16189
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/025.txt",
+      "sha256": "676e3c1339f9cd8ff58da819e335ba34d92c4c9a66397f761890744ddb26557d",
+      "bytes": 14303
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/026.txt",
+      "sha256": "20bb1e3b7c697a5eddd59958344bbbe406f7e979596a22486791110d257a8c29",
+      "bytes": 16955
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/027.txt",
+      "sha256": "c765b040c9a2f5bf833f98fe8e6219bfdb0c65064e33965f18b1076b1e8a27e4",
+      "bytes": 9572
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/028.txt",
+      "sha256": "d39013138b4de12d4d23a5c3e232782a67165bf66b12702b7027d0d04946665a",
+      "bytes": 14951
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/029.txt",
+      "sha256": "addb19f9001abf57f0d0ab04c105a2ed2863907b9e24450f90d2a4cf519aac28",
+      "bytes": 13738
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/030.txt",
+      "sha256": "27b48430db2abe627799a12766c5aac302e72a7e7c829563074052802eb92a2a",
+      "bytes": 12342
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/031.txt",
+      "sha256": "24fb56d890076d697ba60c3e8ed424e641bf5f687f687ef8d30d3c7df8f725d1",
+      "bytes": 11135
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/032.txt",
+      "sha256": "ed62258a9138adb83d49461317004a3a06c6549194209930daeb3f81b0690313",
+      "bytes": 10638
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/033.txt",
+      "sha256": "80dee43039df16852e31cec636dfab3bb917257ec5326775878f2eaf284396e4",
+      "bytes": 8321
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/034.txt",
+      "sha256": "4caa239019b58b3f32bad86cfdf3acfacbd2b6eb5cfd04831ee3b8ac94b2391a",
+      "bytes": 11402
+    },
+    {
+      "path": "books/pg-1557-men-of-iron/chapters/035.txt",
+      "sha256": "3e3f65f2a1a4df8ebda77e100309b896af5d2a4176d8a3c7728a2ef442a4d1df",
+      "bytes": 7175
+    }
+  ]
+}

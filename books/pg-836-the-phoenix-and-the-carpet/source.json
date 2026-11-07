@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 836,
+  "slug": "pg-836-the-phoenix-and-the-carpet",
+  "title": "The Phoenix and the Carpet",
+  "title_i18n": {
+    "en": "The Phoenix and the Carpet",
+    "zh-CN": "凤凰与魔毯",
+    "ja": "火の鳥と魔法のじゅうたん"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/836/pg836-images.html",
+  "text_sha256": "7eea3f5181e3a1ad40951ff083d3062c41d623d5e519bb4d3b6dae861ecab473",
+  "page_sha256": "88b4109aac9869ca4270488c6cf9980094b17a777dc936eb4886ed4bf0c10171",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 61332,
+    "selected_text_sha256": "7bfe34771a7d7792899c98c9945bf3c26f7d214488ddd4c81b25fd9ee73cb676",
+    "section_titles": [
+      "CHAPTER 1. THE EGG",
+      "CHAPTER 2. THE TOPLESS TOWER",
+      "CHAPTER 3. THE QUEEN COOK",
+      "CHAPTER 4. TWO BAZAARS",
+      "CHAPTER 5. THE TEMPLE",
+      "CHAPTER 6. DOING GOOD",
+      "CHAPTER 7. MEWS FROM PERSIA",
+      "CHAPTER 8. THE CATS, THE COW, AND THE BURGLAR",
+      "CHAPTER 9. THE BURGLAR’S BRIDE",
+      "CHAPTER 10. THE HOLE IN THE CARPET",
+      "CHAPTER 11. THE BEGINNING OF THE END",
+      "CHAPTER 12. THE END OF THE END"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 61332,
+    "kept_blocks": 1943,
+    "omitted_blocks": 8,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 142,
+        "preview": "The Project Gutenberg eBook of The Phoenix and the Carpet This eBook is for the use of anyone anywhe"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE PHOENIX AND THE CARPET *** Updated editions will replace "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE PHOENIX AND THE CARPET"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By E. Nesbit"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "TO My Dear Godson HUBERT GRIFFITH and his sister MARGARET"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 110,
+        "preview": "TO HUBERT\nDear Hubert, if I ever found\nA wishing-carpet lying round,\nI’d stand upon it, and I’d say:"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 66,
+        "preview": "CHAPTER 1. THE EGG CHAPTER 2. THE TOPLESS TOWER CHAPTER 3. THE QUEEN COOK CHAPTER 4. TWO BAZAARS CHA"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "7bfe34771a7d7792899c98c9945bf3c26f7d214488ddd4c81b25fd9ee73cb676",
+    "html_sha256": "7eea3f5181e3a1ad40951ff083d3062c41d623d5e519bb4d3b6dae861ecab473",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/001.txt",
+      "sha256": "b985731ae064545952123d58f5d13ca69a6866f37f7b7243b2e514afddcb5438",
+      "bytes": 31927
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/002.txt",
+      "sha256": "a4c172dc9e519972f65d75a9f3b8a3de8d1064d0485310591b4247e5207d2ca3",
+      "bytes": 31618
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/003.txt",
+      "sha256": "0290683b8788df9ff2b420c309b278f6c681d9ffce3a041b0d2bb088db12ea6b",
+      "bytes": 36105
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/004.txt",
+      "sha256": "223cddd8d581d0c63b58146921e22b639408cc695b3a65a6baffb0b1761e40d8",
+      "bytes": 31881
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/005.txt",
+      "sha256": "48d7ea50dd1e87bf1b8b11d1921e6146bd51f2d0b0bd8a61d3c66a99c0801fb9",
+      "bytes": 31254
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/006.txt",
+      "sha256": "76c0782913d9fdcb322d8799b561d03ce3acbfa6b0232dc7e9ff5e0e110cb852",
+      "bytes": 26543
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/007.txt",
+      "sha256": "4d9348427df501ac4d64097025f959c6e1ad452be48c7dfb3957ff41f72abe3b",
+      "bytes": 27434
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/008.txt",
+      "sha256": "ba308f1b49e18e46947f57264c72d6afaecdeaa3dbecc08da8005f272de1ea57",
+      "bytes": 27005
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/009.txt",
+      "sha256": "50c68be44e8c834097d0d22c88f7c9aa8cc0949e8035d0247dd2335360946976",
+      "bytes": 28441
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/010.txt",
+      "sha256": "0804ccdfa90a78e42e3de07598ac982b9ae7f28185dbe4187ed1fafac6d604cd",
+      "bytes": 25885
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/011.txt",
+      "sha256": "3877db9ddec0eb9ff9e01ddc68fd255b32187dcf4b5b09a5a22c9be6be81043a",
+      "bytes": 25036
+    },
+    {
+      "path": "books/pg-836-the-phoenix-and-the-carpet/chapters/012.txt",
+      "sha256": "4c7449ccb4cda5a5a0034a77dc66cc771b96d2404fee80d7bcc6b7a84d55d224",
+      "bytes": 27339
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 778,
+  "slug": "pg-778-five-children-and-it",
+  "title": "Five Children and It",
+  "title_i18n": {
+    "en": "Five Children and It",
+    "zh-CN": "五个孩子和沙精",
+    "ja": "砂の妖精"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/778/pg778-images.html",
+  "text_sha256": "75463fe446d0d62d8932d3e6455b5b871f1cd3d76f330697c274870329981fd3",
+  "page_sha256": "d27e072cb91b32e286898596da8f11a024475e604c07e7232abe47e8777b051c",
+  "extraction": {
+    "end_text": "*Project Gutenberg Etext of Five Children and It, by E. Nesbit*"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 11,
+    "word_count": 53523,
+    "selected_text_sha256": "ae74e7821ba2ced929e3fe261b05da8b59f09ec91c4728465867fe75af89fc7c",
+    "section_titles": [
+      "CHAPTER 1 BEAUTIFUL AS THE DAY",
+      "CHAPTER 2 GOLDEN GUINEAS",
+      "CHAPTER 3 BEING WANTED",
+      "CHAPTER 4 WINGS",
+      "CHAPTER 5 NO WINGS",
+      "CHAPTER 6 A CASTLE AND NO DINNER",
+      "CHAPTER 7 A SIEGE AND BED",
+      "CHAPTER 8 BIGGER THAN THE BAKER'S BOY",
+      "CHAPTER 9 GROWN UP",
+      "CHAPTER 10 SCALPS",
+      "CHAPTER 11 THE LAST WISH"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 11,
+    "word_count": 53523,
+    "kept_blocks": 1406,
+    "omitted_blocks": 9,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 131,
+        "preview": "The Project Gutenberg eBook of Five Children and It This eBook is for the use of anyone anywhere in "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK FIVE CHILDREN AND IT *** Updated editions will replace the pr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "id01412",
+        "words": 11,
+        "preview": "*Project Gutenberg Etext of Five Children and It, by E. Nesbit*"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00000",
+        "words": 4,
+        "preview": "FIVE CHILDREN AND IT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00001",
+        "words": 2,
+        "preview": "E. NESBIT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00002",
+        "words": 3,
+        "preview": "TO JOHN BLAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00003",
+        "words": 56,
+        "preview": "My Lamb, you are so very small, You have not learned to read at all. Yet never a printed book withst"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00004",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00005",
+        "words": 42,
+        "preview": "1. Beautiful As the Day 2. Golden Guineas 3. Being Wanted 4. Wings 5. No Wings 6. A Castle and No Di"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "ae74e7821ba2ced929e3fe261b05da8b59f09ec91c4728465867fe75af89fc7c",
+    "html_sha256": "75463fe446d0d62d8932d3e6455b5b871f1cd3d76f330697c274870329981fd3",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/001.txt",
+      "sha256": "c94592c59dd36c5dbb751f98acc6beec971ad571eb5000865e804800019e2001",
+      "bytes": 33047
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/002.txt",
+      "sha256": "2021822d9398b8514b3375d6e3dd69b2a17e77e5fb7175772874f9059cdcc3aa",
+      "bytes": 31522
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/003.txt",
+      "sha256": "e7a6888e18958ccca9b47b0e43f6814e25b16e9b861ee81bb6a7b36825c280c3",
+      "bytes": 35017
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/004.txt",
+      "sha256": "67495832d0ddc1b876731c1b9ab34a0b92c74ecbd7e7cb5e78297549ba0e43ee",
+      "bytes": 31241
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/005.txt",
+      "sha256": "7a8c1c2991f11428b64a3756191992af1be7e43f6eb392f42945c4bbec7c7982",
+      "bytes": 15950
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/006.txt",
+      "sha256": "3cf485e1267733d9d5f885288c45b3b49f484653177a215880e056de83caccce",
+      "bytes": 22325
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/007.txt",
+      "sha256": "cef5e013b22aff085005954e27ab38df5096fb2c1fdc0fee2fb8855e6c209e36",
+      "bytes": 18010
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/008.txt",
+      "sha256": "ad40706cc75ce625923813667a41cc8add906719110b5ea5098e041a3d4de869",
+      "bytes": 31071
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/009.txt",
+      "sha256": "58f045c5f8a2fa7f0569dc7aac5f268e6853569ec4a573f842815a54f43b134b",
+      "bytes": 22551
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/010.txt",
+      "sha256": "6709cd4cec1e5925903bb3c0bc0c2468d56da22653997da93d11636f339aa0af",
+      "bytes": 24221
+    },
+    {
+      "path": "books/pg-778-five-children-and-it/chapters/011.txt",
+      "sha256": "311c0ffacfb5b90798ce0b768bb520a00f9c72b6ffc219fc87ab122b13c7db21",
+      "bytes": 22257
+    }
+  ]
+}

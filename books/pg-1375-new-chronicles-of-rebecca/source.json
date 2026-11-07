@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 1375,
+  "slug": "pg-1375-new-chronicles-of-rebecca",
+  "title": "New Chronicles of Rebecca",
+  "title_i18n": {
+    "en": "New Chronicles of Rebecca",
+    "zh-CN": "丽贝卡新传",
+    "ja": "レベッカの新しい日々"
+  },
+  "author": "Kate Douglas Smith Wiggin",
+  "authors_catalog": "Wiggin, Kate Douglas Smith, 1856-1923",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/1375/pg1375-images.html",
+  "text_sha256": "d080406094e00dac928639d5f4157f86dbf0ae748bc7934dc19b6b53ae49fbbb",
+  "page_sha256": "16664dd47322ccaecad667959cc128937761951498f82a775b7ca0a78f00cc22",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1923,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 11,
+    "word_count": 61281,
+    "selected_text_sha256": "c9dbcf87349bcbb1ec86b6f84bd734b15f7d1d4d81f157b6ee069f8d706bd290",
+    "section_titles": [
+      "First Chronicle. JACK O'LANTERN",
+      "Second Chronicle. DAUGHTERS OF ZION",
+      "Third Chronicle. REBECCA'S THOUGHT BOOK",
+      "Fourth Chronicle. A TRAGEDY IN MILLINERY",
+      "Fifth Chronicle. THE SAVING OF THE COLORS",
+      "Sixth Chronicle. THE STATE O' MAINE GIRL",
+      "Seventh Chronicle. THE LITTLE PROPHET",
+      "Eighth Chronicle. ABNER SIMPSON'S NEW LEAF",
+      "Ninth Chronicle. THE GREEN ISLE",
+      "Tenth Chronicle. REBECCA'S REMINISCENCES",
+      "Eleventh Chronicle. ABIJAH THE BRAVE AND THE FAIR EMMAJANE"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 11,
+    "word_count": 61281,
+    "kept_blocks": 1192,
+    "omitted_blocks": 17,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 141,
+        "preview": "The Project Gutenberg eBook of New Chronicles of Rebecca This eBook is for the use of anyone anywher"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK NEW CHRONICLES OF REBECCA *** Updated editions will replace t"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "NEW CHRONICLES OF REBECCA"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Kate Douglas Wiggin"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "First Chronicle. JACK O'LANTERN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Second Chronicle. DAUGHTERS OF ZION"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Third Chronicle. REBECCA'S THOUGHT BOOK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Fourth Chronicle. A TRAGEDY IN MILLINERY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Fifth Chronicle. THE SAVING OF THE COLORS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Sixth Chronicle. THE STATE O' MAINE GIRL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Seventh Chronicle. THE LITTLE PROPHET"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Eighth Chronicle. ABNER SIMPSON'S NEW LEAF"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Ninth Chronicle. THE GREEN ISLE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Tenth Chronicle. REBECCA'S REMINISCENCES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Eleventh Chronicle. ABIJAH THE BRAVE AND THE FAIR EMMAJANE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 25,
+        "preview": "If thou couldst know thine own sweetness,\nO little one, perfect and sweet,\nThou wouldst be a child f"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "c9dbcf87349bcbb1ec86b6f84bd734b15f7d1d4d81f157b6ee069f8d706bd290",
+    "html_sha256": "d080406094e00dac928639d5f4157f86dbf0ae748bc7934dc19b6b53ae49fbbb",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/001.txt",
+      "sha256": "d116ffcd5eb7b61efefda28fa509061a9248a2db264d698bf55cb9ec3a56753f",
+      "bytes": 42246
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/002.txt",
+      "sha256": "2016a85ccbb9db85ef8e381ee29f6fdcda3a3fa98f4639a160a0ae3b15fd53bc",
+      "bytes": 27637
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/003.txt",
+      "sha256": "1b2d9c6cd03596d4f6b2bca933e21af10a9c97656c6a4a52e3aafa87930a4bf1",
+      "bytes": 51195
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/004.txt",
+      "sha256": "6d767cd4f90e45db08217a827cd85758fab7e635c300f5e404833e5c778be33c",
+      "bytes": 22988
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/005.txt",
+      "sha256": "7e085ee891aa3de72117fa45d902780d140b6540abb4cd36a3506a755d35f30d",
+      "bytes": 40922
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/006.txt",
+      "sha256": "c585fe84bda48285e32cbd2a890e8bfedeb7850f8847f6188ced7802c81e93b8",
+      "bytes": 19292
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/007.txt",
+      "sha256": "77e35a5b0b307dab4c481dd985510409274a2f4c7f1140ce6e23b699a7e3206d",
+      "bytes": 34116
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/008.txt",
+      "sha256": "ef817b8f4be0e9d85a9e859111019016eef96ba1bc1f27d915248f7d28201391",
+      "bytes": 25459
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/009.txt",
+      "sha256": "2c8830189c9f80d9287bca937eb42b8f01a75e49a3aaff5107cd74acc471ae2e",
+      "bytes": 19627
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/010.txt",
+      "sha256": "7acf3ef9165c8903be81c5ff34b0ab4184f44fed1589854397dc09e595e4d94f",
+      "bytes": 24914
+    },
+    {
+      "path": "books/pg-1375-new-chronicles-of-rebecca/chapters/011.txt",
+      "sha256": "6366573c1096b88c51186bfb4ef6c21ce2eea3d2c3c20d61659c5fe8d105c223",
+      "bytes": 34674
+    }
+  ]
+}

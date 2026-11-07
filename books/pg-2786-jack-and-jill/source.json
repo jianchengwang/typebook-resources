@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2786,
+  "slug": "pg-2786-jack-and-jill",
+  "title": "Jack and Jill",
+  "title_i18n": {
+    "en": "Jack and Jill",
+    "zh-CN": "杰克和吉尔",
+    "ja": "ジャックとジル"
+  },
+  "author": "Louisa May Alcott",
+  "authors_catalog": "Alcott, Louisa May, 1832-1888",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/2786/pg2786-images.html",
+  "text_sha256": "0ee88a7df5b87c67f52efb30d3685661a2d2eaccff3916acdbecadc622a1e96a",
+  "page_sha256": "1f73240f00cc7c1cf8c4508def3a58df7bbb00a17ec6c5f2e5e791138161648b",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1888,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 24,
+    "word_count": 92756,
+    "selected_text_sha256": "52ec0bd8bd29f1b3366b6ae624fac3b1cd9a19e9363602faad4c83ef4403e152",
+    "section_titles": [
+      "Chapter I. The Catastrophe",
+      "Chapter II. Two Penitents",
+      "Chapter III. Ward No. 1",
+      "Chapter IV. Ward No. 2.",
+      "Chapter V. Secrets",
+      "Chapter VI. Surprises",
+      "Chapter VII. Jill's Mission",
+      "Chapter VIII. Merry and Molly",
+      "Chapter IX. The Debating Club",
+      "Chapter X. The Dramatic Club",
+      "Chapter XI. “Down Brakes”",
+      "Chapter XII. The Twenty-Second of February",
+      "Chapter XIII. Jack Has a Mystery",
+      "Chapter XIV. And Jill Finds It Out",
+      "Chapter XV. Saint Lucy",
+      "Chapter XVI. Up at Merry's",
+      "Chapter XVII. Down at Molly's",
+      "Chapter XVIII. May Baskets",
+      "Chapter XIX. Good Templars",
+      "Chapter XX. A Sweet Memory",
+      "Chapter XXI. Pebbly Beach",
+      "Chapter XXII. A Happy Day",
+      "Chapter XXIII. Cattle Show",
+      "Chapter XXIV. Down the River"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 24,
+    "word_count": 92756,
+    "kept_blocks": 1748,
+    "omitted_blocks": 9,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 138,
+        "preview": "The Project Gutenberg eBook of Jack and Jill This eBook is for the use of anyone anywhere in the Uni"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK JACK AND JILL *** Updated editions will replace the previous "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "JACK AND JILL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Louisa May Alcott"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 25,
+        "preview": "To the schoolmates of ELLSWORTH DEVENS,\nWhose lovely character will not soon be forgotten,\nThis Vill"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 114,
+        "preview": "JACK AND JILL Chapter I. The Catastrophe Chapter II. Two Penitents Chapter III. Ward No. 1 Chapter I"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "JACK AND JILL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 25,
+        "preview": "Jack and Jill went up the hill\nTo coast with fun and laughter;\nJack fell down and broke his crown,\nA"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "52ec0bd8bd29f1b3366b6ae624fac3b1cd9a19e9363602faad4c83ef4403e152",
+    "html_sha256": "0ee88a7df5b87c67f52efb30d3685661a2d2eaccff3916acdbecadc622a1e96a",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/001.txt",
+      "sha256": "bd53b7846b3fc02a7473ded83e81cae6f22eaf71dec021617b540512fda017c3",
+      "bytes": 15772
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/002.txt",
+      "sha256": "502ad4c5caae22cbdfaf5b3a6b0c8359ddd6ce7ea87b9fa97112a36a326c01c1",
+      "bytes": 11085
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/003.txt",
+      "sha256": "a5d4e4bf75f6cf114b1592dbf7d2d59dd00347ec78a674c529f8cb35cedc28b3",
+      "bytes": 21507
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/004.txt",
+      "sha256": "d22d1a6f5736e7f2c485e78bc5b6dce12bc8ef60e94a3071c86ad48d5375f54e",
+      "bytes": 16984
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/005.txt",
+      "sha256": "d45a13b05cedaec754e540a1cb75a40ab80abed4924fd157f2b049dd24ff921c",
+      "bytes": 9435
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/006.txt",
+      "sha256": "260b31779836e87932f3a4fdd1384b7dff483a41a000fb15e658d16c1ae22f02",
+      "bytes": 26873
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/007.txt",
+      "sha256": "3ce714c77b9ba40d7935d9d1095805be58e9f518b078825172fb104885d510cf",
+      "bytes": 23808
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/008.txt",
+      "sha256": "e2f595c4db7c67b66aefed90074624a47bc404d557f1e6e2ff5f5e1b1b09fbac",
+      "bytes": 24133
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/009.txt",
+      "sha256": "15c0a0a8879955571f722f1226099b420ae6e2fd2b66cd7fb57fe08c6b32a4d3",
+      "bytes": 24280
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/010.txt",
+      "sha256": "2465dcc24b7b74c84d9be7731b21d1d4341fe6e6c0325977d77f03dcb5aa803c",
+      "bytes": 20237
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/011.txt",
+      "sha256": "1a6b4fc73fcd8f1192f8c1d2cad613311f656fd06416b7c6963d38ff795b1ad2",
+      "bytes": 16519
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/012.txt",
+      "sha256": "68a2d4d682f899d0290d383122d0a23071b3d4880aa8a3da079644d36d7a38af",
+      "bytes": 25150
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/013.txt",
+      "sha256": "4094d264e1c6f1ac8271f50cedd167b33831cc8e75be5465996fc984b76043f5",
+      "bytes": 22809
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/014.txt",
+      "sha256": "0c105e43027aa068e92c0dbcdf188368fc377a30db73898b022721fa06b63f26",
+      "bytes": 18567
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/015.txt",
+      "sha256": "624efa2a1e368885c5f81859d8946dd1808f7710f90c708a236da20712e7fbd8",
+      "bytes": 21711
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/016.txt",
+      "sha256": "9635c5ae6d2feaa2988c767e02449cfbc79fb7e6ada3bf713e5401759262ad54",
+      "bytes": 21743
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/017.txt",
+      "sha256": "e5b3b128a3285f2cb6e20747cf20435f80272ba8c1bdc8e01f832f23d0b5b38b",
+      "bytes": 23400
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/018.txt",
+      "sha256": "01a1a8294d1acda0c9207dea712783eb78a008b69eb66ba886ebe87250813558",
+      "bytes": 20945
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/019.txt",
+      "sha256": "cc52742a0e73694b7b19cffc6de1caeec9a8a9db3d85adaef39b0daafb5ae49c",
+      "bytes": 21285
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/020.txt",
+      "sha256": "71153849ec93ba8d4b7c1df1337ab11615351d31977281ac2fcbbe9ff7838129",
+      "bytes": 19921
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/021.txt",
+      "sha256": "238fc9a9107326546330fa03d869fb909f8dc8aeccc1d9fd6d26089c7a8f9fe7",
+      "bytes": 30472
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/022.txt",
+      "sha256": "932366a36afd55a1d93f2ac9aa6da2c36af748b565086d05695dc1824866ceec",
+      "bytes": 16620
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/023.txt",
+      "sha256": "d5b4346b69e61f7386880500b82e4aeca68f11ccde9a2a62a28c0f0b0969c113",
+      "bytes": 25067
+    },
+    {
+      "path": "books/pg-2786-jack-and-jill/chapters/024.txt",
+      "sha256": "565efd4f467a45108d070795f975137a00391d1216c8dcb6cf39a3303f750e45",
+      "bytes": 23762
+    }
+  ]
+}

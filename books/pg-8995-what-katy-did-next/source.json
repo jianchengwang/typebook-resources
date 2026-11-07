@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 8995,
+  "slug": "pg-8995-what-katy-did-next",
+  "title": "What Katy Did Next",
+  "title_i18n": {
+    "en": "What Katy Did Next",
+    "zh-CN": "凯蒂接下来做了什么",
+    "ja": "その後のケティ"
+  },
+  "author": "Susan Coolidge",
+  "authors_catalog": "Coolidge, Susan, 1835-1905",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/8995/pg8995-images.html",
+  "text_sha256": "cb4ecad48091a13dfe56a9a70aa9cd9836e5f727360be40ca27ae44e8cc896b9",
+  "page_sha256": "1f5583fe22eda47168a8600e633c60e5e99fce267d714eb953048c2ba5cf1e41",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1905,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 11,
+    "word_count": 56349,
+    "selected_text_sha256": "4dd79f5cde903f488c54922a9bed1d7b6520d71f0ebe822489f52cbff20f5649",
+    "section_titles": [
+      "CHAPTER I.",
+      "CHAPTER II.",
+      "CHAPTER III.",
+      "CHAPTER IV.",
+      "CHAPTER V.",
+      "CHAPTER VI.",
+      "CHAPTER VII.",
+      "CHAPTER VIII.",
+      "CHAPTER IX.",
+      "CHAPTER X.",
+      "CHAPTER XI."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 11,
+    "word_count": 56349,
+    "kept_blocks": 816,
+    "omitted_blocks": 24,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 147,
+        "preview": "The Project Gutenberg eBook of What Katy Did Next This eBook is for the use of anyone anywhere in th"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK WHAT KATY DID NEXT *** Updated editions will replace the prev"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "WHAT KATY DID NEXT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "BY SUSAN COOLIDGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "[She paid a visit to the little garden. FRONTISPIECE.]"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 43,
+        "preview": "This Story is Dedicated TO THE MANY LITTLE GIRLS (SOME OF THEM GROWN TO BE GREAT GIRLS NOW), Who, du"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CHAPTER"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "I.AN UNEXPECTED GUEST"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "II.AN INVITATION"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "III.ROSE AND ROSEBUD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "IV.ON THE \"SPARTACUS\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "V.STORY-BOOK ENGLAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "VI.ACROSS THE CHANNEL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "VII.THE PENSION SUISSE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "VIII. ON THE TRACK OF ULYSSES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "IX.A ROMAN HOLIDAY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "X.CLEAR SHINING AFTER RAIN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "XI.NEXT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "SHE PAID A VISIT TO THE LITTLE GARDEN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"SHE WAS HAVING THE MEASLES ON THE BACK SHELF OF THE CLOSET, YOU KNOW\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "KATY WAS FEEDING GRETCHEN OUT OF A BIG BOWL FULL OF BREAD AND MILK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "AMY WAS LEFT IN PEACE WITH HER FAWN"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "4dd79f5cde903f488c54922a9bed1d7b6520d71f0ebe822489f52cbff20f5649",
+    "html_sha256": "cb4ecad48091a13dfe56a9a70aa9cd9836e5f727360be40ca27ae44e8cc896b9",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/001.txt",
+      "sha256": "8fd10dc21d6e339ea538eebaadaf404bd07611096ecaaf533f084c72c0a2fe55",
+      "bytes": 18369
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/002.txt",
+      "sha256": "c49f2231ba6134ff2b1d31286765b9e29abcbe7d2457491f854aec11b6e8bb0c",
+      "bytes": 23974
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/003.txt",
+      "sha256": "64fd6e70e2f54dba7a7d608868323360e84d4db65398ec42c2ba5aaca09697ec",
+      "bytes": 29026
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/004.txt",
+      "sha256": "613dae5b0d12b558f45a63522675eca4b8cbeca2c2bfcfe03ac99bf2bcc974c0",
+      "bytes": 26214
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/005.txt",
+      "sha256": "1998a4ae79e9bfc11a7f4f1389f974a72bc90d599081f6b70604e7488392a5ca",
+      "bytes": 22540
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/006.txt",
+      "sha256": "33a7afa1bf6089bc902b522e25a880f91fcb3794f46c593cb9d34a9105317db6",
+      "bytes": 24702
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/007.txt",
+      "sha256": "4555a88f7bdf75a4815a1eadd838fbf9b5ffd573f1a31461fc1087a5c926c642",
+      "bytes": 38246
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/008.txt",
+      "sha256": "3a5f1f2199b6fb68f6c5936856cbd23d7367deea7bc7a8528de3798dff22271c",
+      "bytes": 26306
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/009.txt",
+      "sha256": "d7803f5d1558dd09e4124524bd74ce309f9bea1477c56c81f03fe0a06d2318bc",
+      "bytes": 27871
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/010.txt",
+      "sha256": "2ec716231195876e4b60e3709f72b28286b5138db1e9e97fd0c46baae8b492a5",
+      "bytes": 26103
+    },
+    {
+      "path": "books/pg-8995-what-katy-did-next/chapters/011.txt",
+      "sha256": "d803b0248828c9991886605c3254c4f511f29b72b50b78951e2460bd572aec07",
+      "bytes": 45254
+    }
+  ]
+}

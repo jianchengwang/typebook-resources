@@ -11,8 +11,8 @@ dictionaries, Live2D models, Cubism components, images or browser runtimes.
 
 - Demo anthology attribution and copy policy are preserved in the article
   catalog.
-- Book titles and authors are preserved. The source database did not supply
-  edition-specific license metadata for these records.
+- The original three book titles and authors are preserved. The source database did not supply
+  edition-specific license metadata for those original records.
 - Existing dictionary names and descriptions are preserved. Missing license
   metadata is recorded as `not-recorded-in-source`.
 - Live2D model names, internal notices and original files are preserved.
@@ -79,3 +79,14 @@ The children's anthology references the existing story bodies without rewriting
 or copying them. Each story keeps its own license and notices. Combined credits
 are in `books/childrens-short-stories/LICENSE.md`; standalone records remain in
 `catalogs/standalone-readers.json` for compatibility.
+
+## English-original children and youth readers
+
+The 96 new Project Gutenberg editions carry per-book source pages, SHA-256 pins,
+original HTML and full source license text. Each official page explicitly declares
+public domain in the USA. This is a jurisdiction-specific designation, not a
+worldwide license or a conclusion based solely on noncommercial use. See
+[selection and rights review](english-original-readers.md). No source illustrations
+or publisher covers are used as practice assets. The new SVG covers and localized
+display labels do not license unrelated translated editions. Existing resource
+rights are unchanged.

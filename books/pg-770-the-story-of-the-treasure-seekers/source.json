@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 770,
+  "slug": "pg-770-the-story-of-the-treasure-seekers",
+  "title": "The Story of the Treasure Seekers",
+  "title_i18n": {
+    "en": "The Story of the Treasure Seekers",
+    "zh-CN": "寻宝的孩子们",
+    "ja": "宝さがしの子どもたち"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/770/pg770-images.html",
+  "text_sha256": "8b03af6f7f3d3116843b13a43e863690d33ed40eda532d49bb969d4f97e72b02",
+  "page_sha256": "8116dbfa68f5882d055f025dc7bbc767cf73f185b3b39381702a94c8d724a15a",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 16,
+    "word_count": 52449,
+    "selected_text_sha256": "2ddc4bf58b735a567f64377924f9279680c99854a266e5b48459bb9f7446b9a2",
+    "section_titles": [
+      "CHAPTER 1. THE COUNCIL OF WAYS AND MEANS",
+      "CHAPTER 2. DIGGING FOR TREASURE",
+      "CHAPTER 3. BEING DETECTIVES",
+      "CHAPTER 4. GOOD HUNTING",
+      "CHAPTER 5. THE POET AND THE EDITOR",
+      "CHAPTER 6. NOEL’S PRINCESS",
+      "CHAPTER 7. BEING BANDITS",
+      "CHAPTER 8. BEING EDITORS",
+      "CHAPTER 9. THE G. B.",
+      "CHAPTER 10. LORD TOTTENHAM",
+      "CHAPTER 11. CASTILIAN AMOROSO",
+      "CHAPTER 12. THE NOBLENESS OF OSWALD",
+      "CHAPTER 13. THE ROBBER AND THE BURGLAR",
+      "CHAPTER 14. THE DIVINING-ROD",
+      "CHAPTER 15. ‘LO, THE POOR INDIAN!’",
+      "CHAPTER 16. THE END OF THE TREASURE-SEEKING"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 16,
+    "word_count": 52449,
+    "kept_blocks": 1220,
+    "omitted_blocks": 23,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 145,
+        "preview": "The Project Gutenberg eBook of The Story of the Treasure Seekers This eBook is for the use of anyone"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER 1. THE COUNCIL OF WAYS AND MEANS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER 2. DIGGING FOR TREASURE"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 3. BEING DETECTIVES"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 4. GOOD HUNTING"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER 5. THE POET AND THE EDITOR"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 6. NOEL’S PRINCESS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 7. BEING BANDITS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 8. BEING EDITORS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER 9. THE G. B."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 10. LORD TOTTENHAM"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 11. CASTILIAN AMOROSO"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER 12. THE NOBLENESS OF OSWALD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER 13. THE ROBBER AND THE BURGLAR"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER 14. THE DIVINING-ROD"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER 15. ‘LO, THE POOR INDIAN!’"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER 16. THE END OF THE TREASURE-SEEKING"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2909,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE STORY OF THE TREASURE SEEKERS *** Updated editions will r"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "THE STORY OF THE TREASURE SEEKERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "by E. Nesbit"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "Being the adventures of the Bastable children in search of a fortune"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 30,
+        "preview": "TO OSWALD BARRON Without whom this book could never have been written The Treasure Seekers is dedica"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "2ddc4bf58b735a567f64377924f9279680c99854a266e5b48459bb9f7446b9a2",
+    "html_sha256": "8b03af6f7f3d3116843b13a43e863690d33ed40eda532d49bb969d4f97e72b02",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/001.txt",
+      "sha256": "a8ad5f389f84a212b0f6ff8744479d161ea8354b98b3af43118abee47df05511",
+      "bytes": 12724
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/002.txt",
+      "sha256": "7ae0fd6a100bc40136f3e17ba0fc83589a802e1d099599d958d6a69768f36f60",
+      "bytes": 12642
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/003.txt",
+      "sha256": "f892825ded3fb6e7a8f49e2cd7daede0a7e826346bcc27c15d3c988b08c61cc8",
+      "bytes": 19892
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/004.txt",
+      "sha256": "a578f1cab0b8a4f60df75a0a42efcd9145406ff8e727598931606a45508ca5c2",
+      "bytes": 11693
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/005.txt",
+      "sha256": "892cd453332f966760a5ec01dab3c90395264ad2c9eec5149c93bc43b9d6e510",
+      "bytes": 11352
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/006.txt",
+      "sha256": "56b2eff1f99c53b41476b616f9ea6d8c34327c0e8205335971248e9c7c875f28",
+      "bytes": 14462
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/007.txt",
+      "sha256": "9e15cc140f85a4e29f862917dfc160b960d5097e975206288e6de2d35c306969",
+      "bytes": 15762
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/008.txt",
+      "sha256": "318c1cbff2560e97fb890984ce5c01c0f1658b2ee626588e2473307461b9eef8",
+      "bytes": 18640
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/009.txt",
+      "sha256": "129a0374330169f97954239f1671a5834b33b2a29334c0c271ae76f115728742",
+      "bytes": 19038
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/010.txt",
+      "sha256": "536ecd97ccb6df18ef68e8094a3fa9e85b434a381ac2f915ca23f9415e3492b4",
+      "bytes": 14177
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/011.txt",
+      "sha256": "7898bbe6bb07342f438a6f04ea39f961e59d6fbba9286f28e79a82b3107f15eb",
+      "bytes": 25964
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/012.txt",
+      "sha256": "0d7e16ee6f596fb75d43389fff9f3a19966484e8c2d81ebe86a1c0bd1007b6ea",
+      "bytes": 23631
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/013.txt",
+      "sha256": "1c743a65651af820492aad6870480253e8cef304d5897e5075248b52bac07861",
+      "bytes": 30077
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/014.txt",
+      "sha256": "3bf4fded2a319451a6815715d09e9fe2643e188f315c45d173f2770f406fef96",
+      "bytes": 15390
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/015.txt",
+      "sha256": "72734d7a1594f3172ce69c3728916d8d9873aa706d723d7a2f12950657c2ebdc",
+      "bytes": 16325
+    },
+    {
+      "path": "books/pg-770-the-story-of-the-treasure-seekers/chapters/016.txt",
+      "sha256": "8540c252a1cf19a1d267c014a78649868aba9a35d06e38eb7cb869484145453d",
+      "bytes": 18665
+    }
+  ]
+}

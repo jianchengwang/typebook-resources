@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 54,
+  "slug": "pg-54-the-marvelous-land-of-oz",
+  "title": "The Marvelous Land of Oz",
+  "title_i18n": {
+    "en": "The Marvelous Land of Oz",
+    "zh-CN": "奥兹国的奇境",
+    "ja": "オズの虹の国"
+  },
+  "author": "L. Frank Baum",
+  "authors_catalog": "Baum, L. Frank (Lyman Frank), 1856-1919; Neill, John R. (John Rea), 1877-1943 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/54/pg54-images.html",
+  "text_sha256": "69419cb9907c836b0f812c9913be2068df6abf3fefc3f6b13ea5bd5c63525911",
+  "page_sha256": "b9022c56fffed738d10f40f46d304dd23b9673dec0bb102721f883be4da19698",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1919,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 24,
+    "word_count": 41262,
+    "selected_text_sha256": "9ffd6903432a077a819e3a3b71f93b564deddedb50bcb51de25da4f644b002db",
+    "section_titles": [
+      "Tip Manufactures a Pumpkinhead",
+      "The Marvelous Powder of Life",
+      "The Flight of the Fugitives",
+      "Tip Makes an Experiment in Magic",
+      "The Awakening of the Saw-horse",
+      "Jack Pumpkinhead’s Ride to the Emerald City",
+      "His Majesty the Scarecrow",
+      "Gen. Jinjur’s Army of Revolt",
+      "The Scarecrow Plans an escape",
+      "The Journey to the Tin Woodman",
+      "A Nickel-Plated Emperor",
+      "Mr. H. M. Woggle-Bug, T. E.",
+      "A Highly Magnified History",
+      "Old Mombi indulges in Witchcraft",
+      "The Prisoners of the Queen",
+      "The Scarecrow Takes Time to Think",
+      "The Astonishing Flight of the Gump",
+      "In the Jackdaw’s Nest",
+      "Dr. Nikidik’s Famous Wishing Pills",
+      "The Scarecrow Appeals to Glinda the Good",
+      "The Tin-Woodman Plucks a Rose",
+      "The Transformation of Old Mombi",
+      "Princess Ozma of Oz",
+      "The Riches of Content"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 24,
+    "word_count": 41262,
+    "kept_blocks": 1432,
+    "omitted_blocks": 36,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 139,
+        "preview": "The Project Gutenberg eBook of The Marvelous Land of Oz This eBook is for the use of anyone anywhere"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE MARVELOUS LAND OF OZ *** Updated editions will replace th"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Marvelous Land of Oz"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by L. Frank Baum"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Author’s Note"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 70,
+        "preview": "After the publication of “The Wonderful Wizard of OZ” I began to receive letters from children, tell"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 94,
+        "preview": "Finally I promised one little girl, who made a long journey to see me and prefer her request,—and sh"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "And now, although pleading guilty to long delay, I have kept my promise in this book."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "L. FRANK BAUM."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chicago, June, 1904"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 40,
+        "preview": "To those excellent good fellows and comedians David C. Montgomery and Frank A. Stone whose clever pe"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "LIST OF CHAPTERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Tip Manufactures Pumpkinhead"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Marvelous Powder of Life"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Flight of the Fugitives"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Tip Makes an Experiment in Magic"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Awakening of the Saw-horse"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Jack Pumpkinhead’s Ride to the Emerald City"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "His Majesty the Scarecrow"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Gen. Jinjur’s Army of Revolt"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Scarecrow Plans an escape"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Journey to the Tin Woodman"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "A Nickel-Plated Emperor"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Mr. H. M. Woggle-Bug, T. E."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "A Highly Magnified History"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Old Mombi indulges in Witchcraft"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Prisoners of the Queen"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Scarecrow Takes Time to Think"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Astonishing Flight of the Gump"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "In the Jackdaw’s Nest"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Dr. Nikidik’s Famous Wishing Pills"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The Scarecrow Appeals to Glinda the Good"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Tin-Woodman Plucks a Rose"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Transformation of Old Mombi"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Princess Ozma of Oz"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Riches of Content"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "9ffd6903432a077a819e3a3b71f93b564deddedb50bcb51de25da4f644b002db",
+    "html_sha256": "69419cb9907c836b0f812c9913be2068df6abf3fefc3f6b13ea5bd5c63525911",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/001.txt",
+      "sha256": "c3217990c33a515ab4ceac7d1c320a716d3ab22b5f89e2ff544de94e7d58dd76",
+      "bytes": 6639
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/002.txt",
+      "sha256": "b4687b4fd22abd02ef5499395701e883f937dec998671727aa9473bb10e22d8b",
+      "bytes": 11352
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/003.txt",
+      "sha256": "40b014d5110a6046a048c5ccb6752496b6e9482ba4daa34519a7b0983a2b5de3",
+      "bytes": 7920
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/004.txt",
+      "sha256": "6f5bd2de4a35df5bd35968826776e80bab8130aaea36c1d963f1de00271cc6c5",
+      "bytes": 5507
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/005.txt",
+      "sha256": "d61208d43b5e3708201d0388f09050f12c34ddadafb0566f66b12369dd6a524f",
+      "bytes": 9352
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/006.txt",
+      "sha256": "c3069f721e1a86088649349bef584e983b0602b46178fa6ee9acdb607bcf0448",
+      "bytes": 11648
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/007.txt",
+      "sha256": "00fb1f22e39e25e1d047dde199a0f7788024b51310a328f6c98523559a79f380",
+      "bytes": 9337
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/008.txt",
+      "sha256": "536d9c3359718d88b3f341f22dfe8a76dd60e3a41366e4c25b8886f5527e6ff8",
+      "bytes": 9952
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/009.txt",
+      "sha256": "5a736fb07efb06f629e76899973e4570af07ddc5a2d96b72a5c3f93bbe8e25b0",
+      "bytes": 9700
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/010.txt",
+      "sha256": "d3a1d4aa6fe7247df9aae4f71eea907aecc15e7f88e492d1812d6f347e97e29d",
+      "bytes": 9176
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/011.txt",
+      "sha256": "b7dd495c1c524c260c89318fadd2dd30562b27aff8d11fcb5c583b24fffa956e",
+      "bytes": 11473
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/012.txt",
+      "sha256": "8b994cc894686e39591e15ba44bcba73ce12640ac80cd4d0447822f1cb42f40c",
+      "bytes": 11020
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/013.txt",
+      "sha256": "fede4449ba58da3d89f6428e3fcaa63b07ea9439e067137d8c3588c2a949c42f",
+      "bytes": 10339
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/014.txt",
+      "sha256": "e9c8da779bbbfa64443f38af756148c1111caa42ece75dedb4a10d94666bb28d",
+      "bytes": 9412
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/015.txt",
+      "sha256": "5f2996fb6519a34c4711b6f2221d24f2633666bc2d4c72afad01baf72443333c",
+      "bytes": 9635
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/016.txt",
+      "sha256": "47980d001bd3572412f4bc1c7c55c252788ba7ca7627ca0e098da6bd9fead334",
+      "bytes": 8623
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/017.txt",
+      "sha256": "cc80f525f542e8f1ed33a7dbd0ab1eb3843e84d242c7f4c9f9572d03c4e2223f",
+      "bytes": 8485
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/018.txt",
+      "sha256": "f941097fd85c8d28ecb7da78a575be0f99f35e1634dd3f3b299214de1242f4ce",
+      "bytes": 17138
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/019.txt",
+      "sha256": "12956192172c6dab1292f3fd595ab3df63f07a90fa57130f0be8cc7f9c82c444",
+      "bytes": 11051
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/020.txt",
+      "sha256": "ab227c9ff10092e94a0e6593b6f65f5a423b73e0c58af5b4051e5428313885b2",
+      "bytes": 15056
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/021.txt",
+      "sha256": "af2cb11f838405549a8857a83710d790400f6d36df2e29398c24d124723de3cc",
+      "bytes": 9202
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/022.txt",
+      "sha256": "9aaf3312b9b6636ec196b5e510701c62406e5e50001cea094170ef835923e5af",
+      "bytes": 6530
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/023.txt",
+      "sha256": "c04e182c5f337016e10f97f7c6c18e68e33a47542c0a769fa48c92e1913ae36b",
+      "bytes": 11441
+    },
+    {
+      "path": "books/pg-54-the-marvelous-land-of-oz/chapters/024.txt",
+      "sha256": "769ea08aac5d67f7e2584898c709a9661a8af2a527ae6a05843c98a0ec6d05c2",
+      "bytes": 8419
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 50361,
+  "slug": "pg-50361-wet-magic",
+  "title": "Wet Magic",
+  "title_i18n": {
+    "en": "Wet Magic",
+    "zh-CN": "水中的魔法",
+    "ja": "海の魔法"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924; Millar, H. R. (Harold Robert), 1869-1942 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/50361/pg50361-images.html",
+  "text_sha256": "82b13851b0ade16842597ca8cbf5dec76f2cddc3df09488cfa3599c2011d42e6",
+  "page_sha256": "6109f407bf36d62760db713f8a7d3ca03d82a9f548e1e21be9104de1920499f9",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 48892,
+    "selected_text_sha256": "f9cd12b5b19f56969e40b7ce7dda3fba485855e994c66299196bc5218e71a681",
+    "section_titles": [
+      "CHAPTER ONE Sabrina Fair",
+      "CHAPTER TWO The Captive",
+      "CHAPTER THREE The Rescue",
+      "CHAPTER FOUR Gratitude",
+      "CHAPTER FIVE Consequences",
+      "CHAPTER SIX The Mermaid’s Home",
+      "CHAPTER SEVEN The Skies Are Falling",
+      "CHAPTER EIGHT The Water-War",
+      "CHAPTER NINE The Book People",
+      "CHAPTER TEN The Under Folk",
+      "CHAPTER ELEVEN The Peacemaker",
+      "CHAPTER TWELVE The End"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 48892,
+    "kept_blocks": 1513,
+    "omitted_blocks": 62,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 144,
+        "preview": "The Project Gutenberg eBook of Wet Magic This eBook is for the use of anyone anywhere in the United "
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "The sea came pouring in."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "“We die in captivity.”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "“‘Translucent wave,’ indeed!”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "“The police.”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "And disappeared entirely."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "She caught Kathleen in her arms."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The golden door."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Swordfish Brigade."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The First Dipsys."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Book Hatefuls."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Book Heroines."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "In the net."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Hall of Public Archives."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "The chargers of the Horse Marines."
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK WET MAGIC *** Updated editions will replace the previous one—"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Wet Magic"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Wet Magic"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Wet Magic"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "E. Nesbit With Illustrations by H. R. Millar"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "Copyright 1913 by E Nesbit Illustrations copyright 1913 by H. R. Millar"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "To Dr. E. N. da C. Andrade, FROM E. Nesbit * Well Hall, Kent"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER I"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Sabrina Fair 1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER II"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Captive 13"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER III"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Rescue 30"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IV"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Gratitude 51"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER V"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Consequences 61"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Mermaid’s Home 69"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Skies Are Falling 84"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Water-War 101"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER IX"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Book People 116"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER X"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Under Folk 135"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Peacemaker 154"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER XII"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The End 167"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Illustrations"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The sea came pouring in. Frontispiece"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "“We die in captivity.” 26"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "“‘Translucent wave,’ indeed!” 42"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "“The police.” 54"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "And disappeared entirely. 59"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "She caught Kathleen in her arms. 79"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The golden door. 82"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Swordfish Brigade. 103"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "The First Dipsys. 110"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Book Hatefuls. 122"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Book Heroines. 130"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "In the net. 137"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Hall of Public Archives. 149"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The chargers of the Horse Marines. 152"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "f9cd12b5b19f56969e40b7ce7dda3fba485855e994c66299196bc5218e71a681",
+    "html_sha256": "82b13851b0ade16842597ca8cbf5dec76f2cddc3df09488cfa3599c2011d42e6",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-50361-wet-magic/chapters/001.txt",
+      "sha256": "f18f1f49923a7d98418b9683f6b38236656896f3ad49b59903a83a829a3a23e3",
+      "bytes": 20128
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/002.txt",
+      "sha256": "ded34a172c225d49b8ba3a2610576c335bb7e6cfd91ab5b7f0ce26b6f71bc298",
+      "bytes": 27553
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/003.txt",
+      "sha256": "7f6d81992f292d24aa98604a7532625935e12dae45a0be9571585ec1f48af9a7",
+      "bytes": 35633
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/004.txt",
+      "sha256": "51d9c8a75a87cddc06996942c50a7385c1706d8e3e94c505c50302cd62c9a2bd",
+      "bytes": 12102
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/005.txt",
+      "sha256": "4e95fdb44218b05cb9e968af130427c470959be5694cb14d6dc95b5d00f92dca",
+      "bytes": 11911
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/006.txt",
+      "sha256": "d690710605c72a502fad2bc02dacd870f83317a953f0214662e6287dae4c321e",
+      "bytes": 22907
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/007.txt",
+      "sha256": "e7c7922e0a49e72b76ba4296e2ef80b3fdb3f90325003cc6e23cbb1a7df621b7",
+      "bytes": 29707
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/008.txt",
+      "sha256": "8e63b056ad575e35bedbf6aa9c1c326dbc510e23064c2507e27f14b03e53c615",
+      "bytes": 22233
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/009.txt",
+      "sha256": "4de395bf033257305ba63aa385ff71c5f25a849e89548701904e131985061c09",
+      "bytes": 28844
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/010.txt",
+      "sha256": "38e536937acc4495ed904051881d6ad979718e6f34e766b08973844c54a30288",
+      "bytes": 27007
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/011.txt",
+      "sha256": "2ec6c56167d119a88f04f9a177e9dd2c6641efb99fd47ae3013978292d60073c",
+      "bytes": 22975
+    },
+    {
+      "path": "books/pg-50361-wet-magic/chapters/012.txt",
+      "sha256": "0ad7398b51d568b7e34033e887ee29401e4924fe30bd960d850324c786792e6d",
+      "bytes": 20473
+    }
+  ]
+}

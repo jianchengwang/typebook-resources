@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 157,
+  "slug": "pg-157-daddy-long-legs",
+  "title": "Daddy-Long-Legs",
+  "title_i18n": {
+    "en": "Daddy-Long-Legs",
+    "zh-CN": "长腿叔叔",
+    "ja": "あしながおじさん"
+  },
+  "author": "Jean Webster",
+  "authors_catalog": "Webster, Jean, 1876-1916",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/157/pg157-images.html",
+  "text_sha256": "11a6e12c8fd49061fd312df529d14b1aef631c37c1041a8a1667a787e5a4600c",
+  "page_sha256": "4887ded826e72593de8752126f916a8c6a44fc16f8c7298dc706d6ea9f90dfa5",
+  "extraction": {
+    "chapter_ids": [
+      "id00005",
+      "id00048",
+      "id00063",
+      "id00078",
+      "id00095",
+      "id00102",
+      "id00110",
+      "id00112",
+      "id00116",
+      "id00123",
+      "id00140",
+      "id00169",
+      "id00196",
+      "id00204",
+      "id00215",
+      "id00223",
+      "id00228",
+      "id00234",
+      "id00242",
+      "id00250",
+      "id00275",
+      "id00281",
+      "id00287",
+      "id00318",
+      "id00329",
+      "id00338",
+      "id00358",
+      "id00376",
+      "id00380",
+      "id00396",
+      "id00407",
+      "id00413",
+      "id00416",
+      "id00430",
+      "id00442",
+      "id00452",
+      "id00462",
+      "id00474",
+      "id00488",
+      "id00510",
+      "id00515",
+      "id00525",
+      "id00548",
+      "id00559",
+      "id00566",
+      "id00574",
+      "id00578",
+      "id00593",
+      "id00599",
+      "id00611",
+      "id00619",
+      "id00627",
+      "id00639",
+      "id00656",
+      "id00663",
+      "id00678",
+      "id00691",
+      "id00705",
+      "id00713",
+      "id00733",
+      "id00741",
+      "id00751",
+      "id00757",
+      "id00760",
+      "id00774",
+      "id00782",
+      "id00795",
+      "id00805",
+      "id00809",
+      "id00819",
+      "id00828",
+      "id00835",
+      "id00844",
+      "id00853",
+      "id00865",
+      "id00873",
+      "id00883",
+      "id00886",
+      "id00896",
+      "id00910",
+      "id00918",
+      "id00933",
+      "id00938",
+      "id00945",
+      "id00957",
+      "id00969",
+      "id00973",
+      "id00990",
+      "id00996"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1916,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 89,
+    "word_count": 36957,
+    "selected_text_sha256": "baad8d2d1311a7ddbb9c77bf81c1856ddefd4ce17308b046dad19354d4bf441e",
+    "section_titles": [
+      "Blue Wednesday",
+      "215 FERGUSSEN HALL 24th September",
+      "To Mr. Daddy-Long-Legs Smith",
+      "10th October",
+      "Wednesday",
+      "Friday",
+      "Saturday morning",
+      "Sunday",
+      "25th October",
+      "15th November",
+      "19th December",
+      "Towards the end of the Christmas vacation. Exact date unknown",
+      "On the Eve",
+      "Sunday",
+      "Dear Daddy-Long-Legs,",
+      "The Ides of March",
+      "26th March",
+      "2nd April",
+      "THE INFIRMARY 4th April",
+      "8th hour, Monday",
+      "27th May",
+      "Cher Daddy-Jambes-Longes,",
+      "30th May",
+      "9th June",
+      "LOCK WILLOW FARM, Saturday night",
+      "LOCK WILLOW, 12th July",
+      "Sunday",
+      "15th September",
+      "Dear Daddy-Long-Legs,",
+      "17th October",
+      "12th November",
+      "Saturday",
+      "'STONE GATE', WORCESTER, MASS., 31st December",
+      "6.30, Saturday",
+      "20th Jan.",
+      "4th February",
+      "5th March",
+      "24th March, maybe the 25th",
+      "7th April",
+      "10th April",
+      "11th April",
+      "4th May",
+      "Mr. Daddy-Long-Legs Smith,",
+      "2nd June",
+      "5th June",
+      "9th June",
+      "LOCK WILLOW FARM, 3rd August",
+      "10th August",
+      "Thursday evening at twilight, sitting on the doorstep.",
+      "Friday",
+      "Saturday",
+      "25th August",
+      "Saturday",
+      "Ship Ahoy, Cap'n Long-Legs!",
+      "10th September",
+      "26th September",
+      "30th September",
+      "9th November",
+      "7th December",
+      "20th December",
+      "11th January",
+      "Dear Comrade,",
+      "11th February Dear D.-L.-L.,",
+      "5th March",
+      "24th April",
+      "15th May",
+      "4th June",
+      "10th June",
+      "MAGNOLIA, Four days later",
+      "19th August",
+      "CAMP MCBRIDE, 6th September",
+      "3rd October Dear Daddy-Long-Legs,",
+      "17th November",
+      "14th December",
+      "26th December",
+      "9th January",
+      "Next morning",
+      "12th Jan.",
+      "15th Feb.",
+      "March Fifth",
+      "LOCK WILLOW, 4th April",
+      "17th May",
+      "LOCK WILLOW, 19th June",
+      "24th July",
+      "27th August",
+      "LOCK WILLOW, 19th September",
+      "LOCK WILLOW, 3rd October",
+      "6th October",
+      "Thursday Morning"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Epistolary novel: opening narrative and original letter separators form 89 reading sections, not 89 numbered chapters.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical guardian romance power imbalance"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 89,
+    "word_count": 36957,
+    "kept_blocks": 1009,
+    "omitted_blocks": 7,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 122,
+        "preview": "The Project Gutenberg eBook of Daddy-Long-Legs This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2904,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK DADDY-LONG-LEGS *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "id00000",
+        "words": 1,
+        "preview": "DADDY-LONG-LEGS"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "id00001",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "id00002",
+        "words": 2,
+        "preview": "JEAN WEBSTER"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "id00003",
+        "words": 6,
+        "preview": "Copyright 1912 by The Century Company"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "id00004",
+        "words": 2,
+        "preview": "TO YOU"
+      }
+    ],
+    "warnings": [],
+    "heading_level": null,
+    "explicit_chapter_anchors": true,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "baad8d2d1311a7ddbb9c77bf81c1856ddefd4ce17308b046dad19354d4bf441e",
+    "html_sha256": "11a6e12c8fd49061fd312df529d14b1aef631c37c1041a8a1667a787e5a4600c",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/001.txt",
+      "sha256": "54f98184ca42c39406e7eade080bffe059de91aaa55fad78fda940bb580073ea",
+      "bytes": 12161
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/002.txt",
+      "sha256": "ae3f1fd49e09b69dbad4cdabf1b6c247bcccc643f5c47df4beb4ba37c58ff0e5",
+      "bytes": 2577
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/003.txt",
+      "sha256": "3263802f17f69cbe496e2e16af2486042b92d8ad96eae8ec3622416d0be18763",
+      "bytes": 2672
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/004.txt",
+      "sha256": "fd263b193b54964ff6b6adc3f9bededc109036ef014606a3cfe84dad37911599",
+      "bytes": 2972
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/005.txt",
+      "sha256": "29216c4c2aabdc88e101423666709d963c4568dbadf1eb4aa63d83f67195e388",
+      "bytes": 1321
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/006.txt",
+      "sha256": "252f9139c46811945d217a4198bcc80abced702a26f014a077a388563047ff8f",
+      "bytes": 2172
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/007.txt",
+      "sha256": "06afc925df0ec8b73d8d978a280e52c602bb8f1cc8000037cd0af862b434220d",
+      "bytes": 208
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/008.txt",
+      "sha256": "b617ab2f1e591fde390d3d9387c48197d9a3de9f9eaf832d66dcb2af78925c67",
+      "bytes": 465
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/009.txt",
+      "sha256": "61c23d5157b4eb9c80c8c50ba863632dbbc2454b8b3037b57acf6f08f2a29f4c",
+      "bytes": 921
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/010.txt",
+      "sha256": "06add585eab6dc829100a48741841fc1918bf748556b9a6adce80ed8667b875b",
+      "bytes": 2880
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/011.txt",
+      "sha256": "d7c7eab977e59306baba2580d63e7ca40a0b440ead2c4bc4511374503845522e",
+      "bytes": 3840
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/012.txt",
+      "sha256": "e4ce2e7af518685a54e097bb32bb623c11d3b2932869092dd33485d8b6eb0eb3",
+      "bytes": 5828
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/013.txt",
+      "sha256": "8d69e33dfd15d527435647b888d2ba2b0e69a19e72bfe163a1727c7fbb640eb5",
+      "bytes": 1628
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/014.txt",
+      "sha256": "ca44d80f3811ad9d23354ba0df33eab381ec4bf2e908235c8b260cdfc4819f87",
+      "bytes": 2204
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/015.txt",
+      "sha256": "b0c3dbfc3601c0e825c413fec90bd6858f36a2980e858ebec0b74b480b576ee9",
+      "bytes": 1278
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/016.txt",
+      "sha256": "4ceb2dccbd46fd07f0411b157e771ab995a3022a347f003324b10ab1e85bf107",
+      "bytes": 496
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/017.txt",
+      "sha256": "8d22256aea84731f577ed125484e850d7123f41277f897f294f64bdad2391298",
+      "bytes": 678
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/018.txt",
+      "sha256": "47d9cb65e2a3ad6fc5d29c7db82891b08800b4a2806c8c2bdaec3aa25ce2e134",
+      "bytes": 1008
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/019.txt",
+      "sha256": "4e909781c20803a6320254b62e94a5c4be8e94eb8af47a19c30309912ef132fe",
+      "bytes": 1291
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/020.txt",
+      "sha256": "4cc59ce1b572105139fd22f356e3dcb4a46bcbd62e0777f8062e3b906dd0ad61",
+      "bytes": 6071
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/021.txt",
+      "sha256": "8964166d0dfa37dc75df394a0a5765805a21657b0d09918187fe17a770a001ea",
+      "bytes": 379
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/022.txt",
+      "sha256": "0e26b99c96908c8445d0fb8de3c39ac559bc5004826cd1cdeb2507c4a5593f6d",
+      "bytes": 639
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/023.txt",
+      "sha256": "403b767f363435f306ddaa184a84fac083f6f6be8eb1b63028c868d8e9eec75e",
+      "bytes": 5515
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/024.txt",
+      "sha256": "de9db0e770f602720a363615cf90e5546c9c1d4dae9f8c677729a7993fce30cb",
+      "bytes": 1154
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/025.txt",
+      "sha256": "b53d5b189a248d18de099c11a616696b14532409ea66ed784d1dc2016a96ec2b",
+      "bytes": 2283
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/026.txt",
+      "sha256": "3085fc086be90ac68907e183acc44807efbfa81785e0fab51575ec4493b0e075",
+      "bytes": 2855
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/027.txt",
+      "sha256": "0f09bf5699bb4fd340fc7a1bacf546ead0989ae42304cc3a86bf86ab0a3f2fd6",
+      "bytes": 4192
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/028.txt",
+      "sha256": "299b6d8e816a3535f19161952a2b328a821e0ea593ba4ffa149e01f18c238250",
+      "bytes": 201
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/029.txt",
+      "sha256": "cce12f0230b7294e5adb8329a6434ba73539c524b433c1ad15cb3070e8da87f0",
+      "bytes": 2967
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/030.txt",
+      "sha256": "4ee55a63e1786cd4820eb6820f96c51664da5efd46d16e2cfee3af28688d1b3f",
+      "bytes": 1608
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/031.txt",
+      "sha256": "d52589c262674dfbfb43bbb12b294927d18191c4f3a6281753f07a24623ba89a",
+      "bytes": 964
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/032.txt",
+      "sha256": "5dcb45f4db4660bb9b091ea56938dbbc17bf161e4e053939493dff3f21456c11",
+      "bytes": 337
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/033.txt",
+      "sha256": "f01e25bf00e4f1a0e4872d786e79771c7dbf21f4830cf5f2527b8d55fe94e44a",
+      "bytes": 3164
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/034.txt",
+      "sha256": "9dec13c9cfad4ab8551bccda32cc86ef8b47c84be127f601f27768fa593215a7",
+      "bytes": 2507
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/035.txt",
+      "sha256": "c290deddbbc0db95b56b1892c27d9730a67fdb79e6d59c1530e28a3e96711202",
+      "bytes": 1794
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/036.txt",
+      "sha256": "8da17ca2a78b980e56fc77a063bcf767b56906dd78ed7dc13d9d53186aa96a5b",
+      "bytes": 1764
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/037.txt",
+      "sha256": "4080e3c044305fc235fc6f4e29a7f389539f5f57f8c2c7de2f62df64404678b1",
+      "bytes": 4046
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/038.txt",
+      "sha256": "53117159cbe64fc06740409a4b934088c7c404709e52119657e021a2f6e5c32b",
+      "bytes": 1731
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/039.txt",
+      "sha256": "973cee67b13ddb57af8dab463655b4a9d170f051ea14d79033ff8906a6c729c4",
+      "bytes": 3951
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/040.txt",
+      "sha256": "d54e47074dd2beec97115f5f6cb1f7ac5e0aa8ed3a3ca7a3560c7d4ec47d9cab",
+      "bytes": 447
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/041.txt",
+      "sha256": "0f4f21fa3f11285024b821a70aa9e9813f7dc4fa56ae94e0401b5b66db416a9e",
+      "bytes": 2312
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/042.txt",
+      "sha256": "b4dac2b9252b051eb5efc4f69f2b5af6dbcd41de6f705c9a790aa8bd604a318a",
+      "bytes": 6281
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/043.txt",
+      "sha256": "0e5fbab55b003305d7e0e5bdd2e8bca5749935a4868e28a10de65a4691eecb86",
+      "bytes": 957
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/044.txt",
+      "sha256": "d0c2c0848f54ff9a8b837a075a2c0c850bb31b773ed1b403af3378c97ae925d3",
+      "bytes": 871
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/045.txt",
+      "sha256": "469723d0bc4bdf27ab3fa882ed1dd3e0f66abd3e42008d1a7306a372d603e732",
+      "bytes": 1970
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/046.txt",
+      "sha256": "b9c80bb9f5e874c714a3052892c32f205a39c986de67c37df45b142c827e31ff",
+      "bytes": 245
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/047.txt",
+      "sha256": "fbdf3c3520b7efdbedf3db91fee61570f87fcf767e5bd440bb8032a45c793347",
+      "bytes": 2959
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/048.txt",
+      "sha256": "48ab0f25115e4e8595225b1c2fa18068f4ec4cdaf041bfb9f8945c0dbab34e37",
+      "bytes": 2620
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/049.txt",
+      "sha256": "29d7ac955390e8037c1399b3c0a80b1defaf9130c32c8fdaac3bfd46c79388f2",
+      "bytes": 1553
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/050.txt",
+      "sha256": "c7fafd71b2068f62f9bb94d1125e5177dcf923b28cc2f220bf80654b3c9dbd18",
+      "bytes": 1542
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/051.txt",
+      "sha256": "dce957fb357ac98669fbb70587dce5d0f35724462edee7ee2f097cca5305401c",
+      "bytes": 2334
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/052.txt",
+      "sha256": "e405d02e5529396555fafa8cdb9a987e52fcfe03a879f260d77444de090460c6",
+      "bytes": 3725
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/053.txt",
+      "sha256": "85f56919f625af9aacf1aa59c33096a3de1bfcef831b72d79ede97174f9053ae",
+      "bytes": 2523
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/054.txt",
+      "sha256": "44f995800a4fb6a6dc09c893ac5bd41e3b6a9dfb37dd508a13f60d13e59b1f3c",
+      "bytes": 1299
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/055.txt",
+      "sha256": "2803dd0c8a6101acca1388e15301370a0b8a542d9a03ad3fc5ac3ddfcf07ee1f",
+      "bytes": 2660
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/056.txt",
+      "sha256": "cc37fddf9ef6e98023a837391b2d6080c1bef1d9159a3e67c382dee3b7595548",
+      "bytes": 2681
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/057.txt",
+      "sha256": "19f46318ed2f99ce5153a8fbf380298aafa13f3eb00564a75d85dbd38364b439",
+      "bytes": 2335
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/058.txt",
+      "sha256": "4f958ed6e459436d6156407d9d2122f21b944ed5d13dc31763c1e5f1cbc8bc4d",
+      "bytes": 1999
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/059.txt",
+      "sha256": "c8802e8b28b9fea03a89b9390bb946066f437bdfc29fcad794faa9e89334ddcb",
+      "bytes": 3877
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/060.txt",
+      "sha256": "199a6ffc3ab55a185057b921c2e9ad50bb2b74c4910dcd5449ce5c7a1c3607b6",
+      "bytes": 974
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/061.txt",
+      "sha256": "74280c921456bb088263afd7eee47bb233aee1a2f245320a58a2645271a0ab72",
+      "bytes": 4588
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/062.txt",
+      "sha256": "df41bf8a88872cc8bf05da82012e7e0243427e42b9cde44e58f3324498db90d0",
+      "bytes": 449
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/063.txt",
+      "sha256": "65aab54e6109df7546f13920d14136d50464fcac9559825d46708f6a12375abf",
+      "bytes": 308
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/064.txt",
+      "sha256": "34d0348e954eff79ae4abc411508c6c41e6c007a46f3dce4cf2af16e752d2234",
+      "bytes": 2570
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/065.txt",
+      "sha256": "b21a37fd096d05a6228f84d35a1da6da67d1fa8d918082cf4a7a3f5a1402bca0",
+      "bytes": 1783
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/066.txt",
+      "sha256": "47080bc2d112c5f8714cb0cb90c71a6fe577317c32361c10777f13af00cf1bee",
+      "bytes": 2673
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/067.txt",
+      "sha256": "5468640aa2864a6d3fc3b18fcc63495491d8ddf620b1430a538f728db7f24c24",
+      "bytes": 2213
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/068.txt",
+      "sha256": "3111b3731667402065d514be5a1f90d6b4e2455d4035c9c1361f622546a13743",
+      "bytes": 1387
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/069.txt",
+      "sha256": "7c282e1b9f6b4ca8482b696958c8ff01f4f78e447ccddab8a80be4a840c75395",
+      "bytes": 3307
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/070.txt",
+      "sha256": "0743b257554fa43a32e2fb2eb00b6d972882b4c3bf424c9e25654e3e58666f3e",
+      "bytes": 1955
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/071.txt",
+      "sha256": "b9366714a31070c135a0b2ff440b9b4973e24a083c025da617eaaf57f7a56b4d",
+      "bytes": 711
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/072.txt",
+      "sha256": "8dcfacbc4a2f90165efe7f6d07c247aa2367d90135be592e2469941966b884bd",
+      "bytes": 1863
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/073.txt",
+      "sha256": "4b7d1b9c52f1ebebbe8f73945ed10c71f4660c58d35848fa42dd754c068e3035",
+      "bytes": 2361
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/074.txt",
+      "sha256": "67f1e1e209482f8cd26baebca061e83d2fee65dad6aeb119a22d3fc60a758594",
+      "bytes": 3020
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/075.txt",
+      "sha256": "a1ca45cb615bdb6b65b96d8484cd3b1631f7dd1b04fe84eaa669b4a079394e24",
+      "bytes": 742
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/076.txt",
+      "sha256": "581ab5c801142c4fb76e962ddfdae1d7d8c3341bf3a8319e0ec945b4976fadf3",
+      "bytes": 2892
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/077.txt",
+      "sha256": "1de51b330ca3af6158845c95247d1b5805134743ab5c18e590f6c04be655efba",
+      "bytes": 363
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/078.txt",
+      "sha256": "e0018f834c8ef56b90aa7dbf52f89f961a5ea679d9cfd821a12421325fa01c1c",
+      "bytes": 988
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/079.txt",
+      "sha256": "8806ed058b47d036df9b9848fd2338ec86440311b256167bef1ff61ab5dc8ff9",
+      "bytes": 3040
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/080.txt",
+      "sha256": "66654382fd3f763e251fa0c5fde8196273fb5e3801a7a7eebee47de21d18bfca",
+      "bytes": 1814
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/081.txt",
+      "sha256": "c1ef696194d8128e4fc5853f7326cb1b1b2e91b96a39eb7653dd557877d89272",
+      "bytes": 2755
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/082.txt",
+      "sha256": "84951627e95121eff3b19b61dcf237091dd4a49d58e5d6bee9455df82c022aae",
+      "bytes": 564
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/083.txt",
+      "sha256": "a17ae85919a85a29422bf53600fcecbf9c1c92f5a110ce4f28e72888a61240e1",
+      "bytes": 1293
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/084.txt",
+      "sha256": "97f54e026c2f6314c00b1d306729da52fd8c63691c26be5494ae99599afa91e6",
+      "bytes": 3711
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/085.txt",
+      "sha256": "8f608ff8327a8eae81a8a90eaf2d874ef127e53cb762a5e6ad464c6ad43f4dce",
+      "bytes": 1604
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/086.txt",
+      "sha256": "bc2296a1c2431126ad599e0179a79827013828bba0dd7da55e04065ca24cc7f2",
+      "bytes": 306
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/087.txt",
+      "sha256": "d0d8f59b86ed73cd01b12443032ad890bd084b041ebced200ec4b8238a480bed",
+      "bytes": 5166
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/088.txt",
+      "sha256": "61cb6f12a9bd1c0f7290c69ebe031827f7033696e3457611bbbca0e773519f72",
+      "bytes": 743
+    },
+    {
+      "path": "books/pg-157-daddy-long-legs/chapters/089.txt",
+      "sha256": "b1369740625c0bb59c0aed7617840b69b0086e94cff50a8fef5b9998a1a0f526",
+      "bytes": 6517
+    }
+  ]
+}

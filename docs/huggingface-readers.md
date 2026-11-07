@@ -2,7 +2,7 @@
 
 This curated selection contains **100 real children's stories** for English reading
 and typing, alongside the three previously exported classic books. The public repository
-now presents **4 books: the three long-form readers and one 100-chapter anthology**.
+contributes **one 100-chapter anthology**, alongside the three retained long-form readers and the separate [96-book English-original expansion](english-original-readers.md).
 The original standalone records and IDs remain in a separate compatibility catalog;
 no source payload is deleted. See [the anthology contract](childrens-short-stories.md).
 
@@ -245,7 +245,7 @@ dataset label. Do not replace pinned revisions without reviewing the changes.
 ## Application integration
 
 This is a resource repository, not a running application. Its catalog now has
-4 public books and 126 chapters (plus 100 preserved standalone records). Each chapter supplies the current loader's flat
+100 public books (including the separate 96-book English-original expansion), plus 100 preserved standalone records. Each chapter supplies the current loader's flat
 `license_url`, `license_label`, `source_url`, `attribution` and `adaptation_note`
 fields as well as book-level provenance. The collection loader currently drops
 `adaptation_note`, so the visible attribution also includes the change notice.

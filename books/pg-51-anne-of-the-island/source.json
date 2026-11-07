@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 51,
+  "slug": "pg-51-anne-of-the-island",
+  "title": "Anne of the Island",
+  "title_i18n": {
+    "en": "Anne of the Island",
+    "zh-CN": "大学时代的安妮",
+    "ja": "アンの愛情"
+  },
+  "author": "L. M. Montgomery",
+  "authors_catalog": "Montgomery, L. M. (Lucy Maud), 1874-1942",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/51/pg51-images.html",
+  "text_sha256": "78438fe31cb6b14434d328d33a612d331f1c119f283511455cdda5e72eb2be7d",
+  "page_sha256": "5499bc2bbdb2259b29c7949dea6cc4fca24e466413c799164be1aa4182de72cd",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1942,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 41,
+    "word_count": 76283,
+    "selected_text_sha256": "fdf7600eeb0681180f010a8c39164b5a044d163301507f495aa27d695da67293",
+    "section_titles": [
+      "Chapter I The Shadow of Change",
+      "Chapter II Garlands of Autumn",
+      "Chapter III Greeting and Farewell",
+      "Chapter IV April’s Lady",
+      "Chapter V Letters from Home",
+      "Chapter VI In the Park",
+      "Chapter VII Home Again",
+      "Chapter VIII Anne’s First Proposal",
+      "Chapter IX An Unwelcome Lover and a Welcome Friend",
+      "Chapter X Patty’s Place",
+      "Chapter XI The Round of Life",
+      "Chapter XII “Averil’s Atonement”",
+      "Chapter XIII The Way of Transgressors",
+      "Chapter XIV The Summons",
+      "Chapter XV A Dream Turned Upside Down",
+      "Chapter XVI Adjusted Relationships",
+      "Chapter XVII A Letter from Davy",
+      "Chapter XVIII Miss Josephine Remembers the Anne-girl",
+      "Chapter XIX An Interlude",
+      "Chapter XX Gilbert Speaks",
+      "Chapter XXI Roses of Yesterday",
+      "Chapter XXII Spring and Anne Return to Green Gables",
+      "Chapter XXIII Paul Cannot Find the Rock People",
+      "Chapter XXIV Enter Jonas",
+      "Chapter XXV Enter Prince Charming",
+      "Chapter XXVI Enter Christine",
+      "Chapter XXVII Mutual Confidences",
+      "Chapter XXVIII A June Evening",
+      "Chapter XXIX Diana’s Wedding",
+      "Chapter XXX Mrs. Skinner’s Romance",
+      "Chapter XXXI Anne to Philippa",
+      "Chapter XXXII Tea with Mrs. Douglas",
+      "Chapter XXXIII “He Just Kept Coming and Coming”",
+      "Chapter XXXIV John Douglas Speaks at Last",
+      "Chapter XXXV The Last Redmond Year Opens",
+      "Chapter XXXVI The Gardners’Call",
+      "Chapter XXXVII Full-fledged B.A.’s",
+      "Chapter XXXVIII False Dawn",
+      "Chapter XXXIX Deals with Weddings",
+      "Chapter XL A Book of Revelation",
+      "Chapter XLI Love Takes Up the Glass of Time"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 41,
+    "word_count": 76283,
+    "kept_blocks": 1800,
+    "omitted_blocks": 49,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 138,
+        "preview": "The Project Gutenberg eBook of Anne of the Island This eBook is for the use of anyone anywhere in th"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK ANNE OF THE ISLAND *** Updated editions will replace the prev"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Anne of the Island"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by Lucy Maud Montgomery"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 27,
+        "preview": "All precious things discovered late To those that seek them issue forth, For Love in sequel works wi"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "to all the girls all over the world who have “wanted more” about ANNE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter I. The Shadow of Change"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter II. Garlands of Autumn"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter III. Greeting and Farewell"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter IV. April’s Lady"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter V. Letters from Home"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter VI. In the Park"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter VII. Home Again"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter VIII. Anne’s First Proposal"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Chapter IX. An Unwelcome Lover and a Welcome Friend"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter X. Patty’s Place"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter XI. The Round of Life"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XII. “Averil’s Atonement”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter XIII. The Way of Transgressors"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XIV. The Summons"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter XV. A Dream Turned Upside Down"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XVI. Adjusted Relationships"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter XVII. A Letter from Davy"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter XVIII. Miss Josephine Remembers the Anne-girl"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XIX. An Interlude"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XX. Gilbert Speaks"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter XXI. Roses of Yesterday"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Chapter XXII. Spring and Anne Return to Green Gables"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Chapter XXIII. Paul Cannot Find the Rock People"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXIV. Enter Jonas"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter XXV. Enter Prince Charming"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXVI. Enter Christine"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXVII. Mutual Confidences"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter XXVIII. A June Evening"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXIX. Diana’s Wedding"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter XXX. Mrs. Skinner’s Romance"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter XXXI. Anne to Philippa"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter XXXII. Tea with Mrs. Douglas"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Chapter XXXIII. “He Just Kept Coming and Coming”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter XXXIV. John Douglas Speaks at Last"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter XXXV. The Last Redmond Year Opens"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXXVI. The Gardners’Call"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXXVII. Full-fledged B.A.’s"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter XXXVIII. False Dawn"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter XXXIX. Deals with Weddings"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter XL. A Book of Revelation"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "Chapter XLI. Love Takes Up the Glass of Time"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Anne of the Island"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "fdf7600eeb0681180f010a8c39164b5a044d163301507f495aa27d695da67293",
+    "html_sha256": "78438fe31cb6b14434d328d33a612d331f1c119f283511455cdda5e72eb2be7d",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/001.txt",
+      "sha256": "69221988f607395c003a8b7dab06979e4905b933580c61e68e5900eac452b764",
+      "bytes": 15187
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/002.txt",
+      "sha256": "4266992b1df553e431c7c7db8c73903f758994df300474e7e4e4264e7afe86dd",
+      "bytes": 13925
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/003.txt",
+      "sha256": "b269210f64e711cdd74e3edb909a7401e4c4888a7424aa99f7b1340281d13298",
+      "bytes": 11665
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/004.txt",
+      "sha256": "c4167dce22f701ea3c9f397e6e3c604165981427fa6d91a44c539968b0e8bfb9",
+      "bytes": 23853
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/005.txt",
+      "sha256": "901160f10cd7604f8730951de7b40139c48b4e0a09bb87379096ec9667b72768",
+      "bytes": 15075
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/006.txt",
+      "sha256": "76748806e7a03ba6fde97b2909c3a7d75a00717a74e4396e395f206ff7b1b12c",
+      "bytes": 11948
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/007.txt",
+      "sha256": "e91e5eb2d6dd20161ea005534fe4cae6d2fae9749f2f4fc6bde6c0ca7703aa31",
+      "bytes": 15019
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/008.txt",
+      "sha256": "0493734e76ace9798c544bcb55bfab40c922af82556ba4f11b2e37a10f52bf60",
+      "bytes": 8223
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/009.txt",
+      "sha256": "74c7a199c5f61bb238cbfe1e6ac073c77f46b93393d46351b8384e0feed3b308",
+      "bytes": 14463
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/010.txt",
+      "sha256": "ebaf2c201d84b480faecb61272a2a13be3555c0f38b67b88fdbe15855bd1afb7",
+      "bytes": 14166
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/011.txt",
+      "sha256": "f7c1f98ebc3aa4e7ae32d9c117014240b1367d75bd8c7239e44651ac78336406",
+      "bytes": 16104
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/012.txt",
+      "sha256": "384259ce440d2a06f2ed511b2f7448752810a841cead702cb69565bf623ce1db",
+      "bytes": 12863
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/013.txt",
+      "sha256": "4facfb6914ed06839725a0b95c386ff7696127c4e0449e532a005f89608a806e",
+      "bytes": 16979
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/014.txt",
+      "sha256": "43a870c2efa94851fbe8aa1a3fb3ef2a29b50c817de2a962b296a6d50ac3f0d0",
+      "bytes": 14078
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/015.txt",
+      "sha256": "93889355c3459ec57c39721825503f5ea4f5b30645690baa036ff2f5b7f5d416",
+      "bytes": 8092
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/016.txt",
+      "sha256": "9c90f8bdf31f8861acfc027fc7327ebe106e3b81a87e8a4f90487120f28c4c47",
+      "bytes": 19610
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/017.txt",
+      "sha256": "424ff76862963ce2fdc933e4e3932dbe0783abf52beda6b549faebbc852920c5",
+      "bytes": 5356
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/018.txt",
+      "sha256": "46f728ed7e8af064c1e7e3112841b6e170693d0b5e379937c9306754ee9831c7",
+      "bytes": 10095
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/019.txt",
+      "sha256": "dc6acb52b3f5a3f35e81137555f4281361283a8330ace790ed98052380f28866",
+      "bytes": 6142
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/020.txt",
+      "sha256": "6c1875e8f150825ebf1c6b425581b94d367128b45658d5567b34d9feada24ac5",
+      "bytes": 8769
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/021.txt",
+      "sha256": "c6b10ff05dab53b2cdc2a68ee92a1dcdd59677226590c68f4feca3d7ced25f6c",
+      "bytes": 6907
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/022.txt",
+      "sha256": "7241b4546510e4ce23c78f8e94e7b0d0e2d333dd31472ee3d84874d0cb486a68",
+      "bytes": 7483
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/023.txt",
+      "sha256": "1fd6a2e42069f79e95c55eb0d014fe0ea9e3a5d62cdd90ff5a5569cb7b7739a6",
+      "bytes": 6498
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/024.txt",
+      "sha256": "9060f65ec083611622dff36c6e1b9595ec067f513600bae8e4197dc8d9e940b3",
+      "bytes": 9027
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/025.txt",
+      "sha256": "20eaf8358110ab12110a0a87dccb7e6d36cb5c5673f2f57ab2fb2c8c70c4ca54",
+      "bytes": 10537
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/026.txt",
+      "sha256": "324608fd09d612e490e5af6a7be4dfdeaf2da053b99e3005fc9381f786d73a23",
+      "bytes": 6067
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/027.txt",
+      "sha256": "5c3250255b1b277cf1505eb255533f65daab4087b5aca2ee71cf780548707a3f",
+      "bytes": 9515
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/028.txt",
+      "sha256": "09a7fb39c69cf326b4a8ff4e27423d270d8861dcaf18b83fead12301e7108a72",
+      "bytes": 8003
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/029.txt",
+      "sha256": "2be9306e15f934ffb272ea76b121f66a2f90182bdb9ee2d1c3957bfd60353f3e",
+      "bytes": 6482
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/030.txt",
+      "sha256": "3674fb31d2b778f3b84b15071a1ade3e606e77c755f8e4575f98ae16b1e26296",
+      "bytes": 6566
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/031.txt",
+      "sha256": "643447ad6fec690ebc53d9e138969f20fe3b999c029209942d38ee3e84c1fd55",
+      "bytes": 4767
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/032.txt",
+      "sha256": "56ff8efa53aaf583c493bf1c56e5afe6c3503e5b7f0f62dc12843055fa1ff799",
+      "bytes": 8250
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/033.txt",
+      "sha256": "2a4fa6cc7b6ec20f9773672382395122c80edaef8bc77ceb631dddf0e4d6d4d8",
+      "bytes": 5560
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/034.txt",
+      "sha256": "7760c1f88e40b7fa2dcefdb9b6f8f4f5b2ac8a438b352c329132a12b2a178ccf",
+      "bytes": 8374
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/035.txt",
+      "sha256": "58843ab83d1bf9b6bc9e0f3e0fa1aa5d627186a768b942eb9f99154ba0e30057",
+      "bytes": 11677
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/036.txt",
+      "sha256": "0db185a4447fb508353f1e6281da4c5176442011cb54b52bb50660b630b2bf72",
+      "bytes": 9647
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/037.txt",
+      "sha256": "99a0d540015c4b5d1cc914bf7ab454eb682c5727fa9788fab9243c5e1c28e90b",
+      "bytes": 9812
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/038.txt",
+      "sha256": "8c164f47f647a64ca9354eed0bb84c31e5e2c5e7ba72bd4bb4c1f37476b8c9df",
+      "bytes": 9865
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/039.txt",
+      "sha256": "81e23a0f9f17e6b3e80e8b1a8262bd6309059f9678c788de7a3f19b97e907eee",
+      "bytes": 13264
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/040.txt",
+      "sha256": "5b38056587a734a05283574fee25aa220ba713b2569c3f6185582f11765e92ea",
+      "bytes": 7748
+    },
+    {
+      "path": "books/pg-51-anne-of-the-island/chapters/041.txt",
+      "sha256": "48cdc5f28f3874c68681fe8adfbccd10c890c677fa83daf04a7e77a25b7b7135",
+      "bytes": 9752
+    }
+  ]
+}

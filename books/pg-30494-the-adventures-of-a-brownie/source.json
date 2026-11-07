@@ -1,0 +1,1312 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 30494,
+  "slug": "pg-30494-the-adventures-of-a-brownie",
+  "title": "The Adventures of A Brownie",
+  "title_i18n": {
+    "en": "The Adventures of A Brownie",
+    "zh-CN": "小精灵的冒险",
+    "ja": "ブラウニーの冒険"
+  },
+  "author": "Dinah Maria Mulock Craik",
+  "authors_catalog": "Craik, Dinah Maria Mulock, 1826-1887",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/30494/pg30494-images.html",
+  "text_sha256": "b45cf22ccace840024a5cf5cfb09ae913973302cdf731238d643c6f74bfea260",
+  "page_sha256": "757e81293a8ff9d3f1f74132e03757f3aab1feb1a007ae2dcc560d8ab1694773",
+  "extraction": {
+    "chapter_texts": [
+      "THE ADVENTURES OF A BROWNIE ADVENTURE THE FIRST BROWNIE AND THE COOK",
+      "ADVENTURE THE SECOND BROWNIE AND THE CHERRY-TREE",
+      "ADVENTURE THE THIRD BROWNIE IN THE FARMYARD",
+      "ADVENTURE THE FOURTH BROWNIE'S RIDE",
+      "ADVENTURE THE FIFTH BROWNIE ON THE ICE",
+      "ADVENTURE THE SIXTH AND LAST BROWNIE AND THE CLOTHES"
+    ],
+    "end_text": "THE BLACKBIRD AND THE ROOKS."
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1887,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 6,
+    "word_count": 19676,
+    "selected_text_sha256": "25c3931b4d24a78045485421c07c4e90c09a6111fe1d50135b9e64b93c9eb8bf",
+    "section_titles": [
+      "THE ADVENTURES OF A BROWNIE ADVENTURE THE FIRST BROWNIE AND THE COOK",
+      "ADVENTURE THE SECOND BROWNIE AND THE CHERRY-TREE",
+      "ADVENTURE THE THIRD BROWNIE IN THE FARMYARD",
+      "ADVENTURE THE FOURTH BROWNIE'S RIDE",
+      "ADVENTURE THE FIFTH BROWNIE ON THE ICE",
+      "ADVENTURE THE SIXTH AND LAST BROWNIE AND THE CLOTHES"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Complete six-Adventure Brownie story. The source volume’s separate appended poems are retained in original.html but are not part of this reader.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 6,
+    "word_count": 19676,
+    "kept_blocks": 382,
+    "omitted_blocks": 199,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 163,
+        "preview": "The Project Gutenberg eBook of The Adventures of A Brownie This eBook is for the use of anyone anywh"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 13,
+        "preview": "He wanted his supper, and oh! what a supper he did eat!—Page 11"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "Cook beat poor Pussy till the creature ran mewing away"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 13,
+        "preview": "When the Gardener was steadying his ladder against the trunk of the cherry-tree"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 12,
+        "preview": "A little brown old man's face peeped from behind the cherry-tree.—Page 20"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "A noisy tribe, holding out their six mugs entreatingly."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 13,
+        "preview": "Each child got a drink, and then the cups were filled again.—Page 32"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 11,
+        "preview": "Jess quickly ducked her head down and Bill tumbled over it."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "Up the bank she scrambled, her long hair dripping.—Page 55"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 12,
+        "preview": "The two little children felt themselves floating along—with Brownie between them—Page 64"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "The ice suddenly broke, and in he popped."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "Suddenly the barrow had tilted over."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "The new baby was everybody's pet.—Page 87"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE ADVENTURES OF A BROWNIE *** Updated editions will replace"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Adventures of A Brownie"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "AS TOLD TO MY CHILD"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "BY MISS MULOCK"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "·ILLUSTRATED·"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "NEW YORK McLOUGHLIN BROTHERS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "COPYRIGHTED—1908—BY McLOUGHLIN BROS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Adventure the First"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Brownie and the Cook5"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Adventure the Second"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Brownie and the Cherry-tree17"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Adventure the Third"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Brownie in the Farmyard26"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Adventure the Fourth"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Brownie's Ride41"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Adventure the Fifth"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Brownie on the Ice58"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Adventure the Sixth and Last"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Brownie and the Clothes73"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "Poems"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Blackbird and the Rooks88"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Shaking of the Pear-tree91"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Wonderful Apple-tree95"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Jealous Boy98"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Story of the Birkenhead99"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Birds in the Snow105"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Little Comforter107"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Don't Be Afraid108"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Girl and Boy109"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Agnes at Prayer110"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Going to Work111"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Three Companions112"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Motherless Child113"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Wren's Nest115"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A Child's Smile116"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Over the Hills and Far Away118"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Two Raindrops119"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Year's End120"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Running After the Rainbow121"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Dick and I123"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "Grandpapa124"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Monsieur et Mademoiselle125"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Young Dandelion127"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A September Robin128"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE ADVENTURES OF A BROWNIE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE BLACKBIRD AND THE ROOKS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_89",
+        "words": 187,
+        "preview": "A slender young Blackbird built in a thorn-tree A spruce little fellow as ever could be; His bill wa"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_89",
+        "words": 208,
+        "preview": "Though peaceful, he was not a cowardly bird; And with arguments angry enough to o'erwhelm A whole Ro"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_89",
+        "words": 209,
+        "preview": "In his voice and his character found many flaws, And jeered him and mocked him; but when they'd all "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_89",
+        "words": 93,
+        "preview": "For pity could scarcely a single note sing, And in the May sunset he hardly could bear To hear the r"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE SHAKING OF THE PEAR-TREE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_92",
+        "words": 50,
+        "preview": "Of all days I remember, In summers passed away, Was \"the shaking of the pear-tree,\" In grandma's orc"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_92",
+        "words": 130,
+        "preview": "Was full of fruit all year; We pick'd it up in baskets, Or pluck'd it from the wall; But the shaking"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_92",
+        "words": 122,
+        "preview": "At grandma's very door. And there stood Grandma's Betty, With cheeks like apples red; And Dash, the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_92",
+        "words": 120,
+        "preview": "Dropped down and deftly hid; Long, slender-shaped, red-russet, Or yellow just like gold; Ah! never p"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_92",
+        "words": 43,
+        "preview": "The gray of evening-fall; The children's homeward silence, The furnace fires that glowed, Each mile "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "FNanchor_A_1",
+        "words": 3,
+        "preview": "THE WONDERFUL APPLE-TREE.[A]"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_96",
+        "words": 97,
+        "preview": "Come here, my dear boys, and I'll tell you a fable, Which you may believe as much as you're able; It"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_96",
+        "words": 199,
+        "preview": "\"I'll plant an apple,\" said Tucker the Dean. The apple was planted, the apple grew, A stout young tr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_96",
+        "words": 84,
+        "preview": "I think 'tis but fair we should give him our fruit.\" \"No, I'll not be gathered,\" the apple resumed, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_98",
+        "words": 79,
+        "preview": "The Dean to his apple-tree, came, full of hope, But tough was the fruit-stalk as double-twist rope, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_98",
+        "words": 101,
+        "preview": "Were punished, as well might all young thieves appal, For, clutching the booty for which they did si"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "FOOTNOTE:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Footnote_A_1",
+        "words": 35,
+        "preview": "[A] This tree, known among gardeners by the name of \"Winter-hanger\" or \"Forbidden Fruit,\" was plante"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE JEALOUS BOY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_99",
+        "words": 48,
+        "preview": "What, my little foolish Ned, Think you mother's eyes are blind, That her heart has grown unkind, And"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_99",
+        "words": 89,
+        "preview": "With her eyes as soft as dove's— Why should yours with tears be wet? Why such angry tears let fall? "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE STORY OF THE BIRKENHEAD"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "TOLD TO TWO CHILDREN"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_100",
+        "words": 16,
+        "preview": "And so you want a fairy tale, My little maidens twain? Well, sit beside the waterfall,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_100",
+        "words": 137,
+        "preview": "Noisy with last night's rain; On couch of moss, with elfin spears Bristling, all fierce to see, When"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_100",
+        "words": 76,
+        "preview": "Dawning through childish eyes. And long, long distant may God keep The day when each shall know The "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_102",
+        "words": 62,
+        "preview": "'Twas six o'clock in the morning, The sea like crystal lay, When the good troop-ship Birkenhead Set "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_102",
+        "words": 75,
+        "preview": "Its starry arch out-spanned. The soldiers on the bulwarks leaned, Smoked, chatted; and below The sol"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_103",
+        "words": 61,
+        "preview": "On, onward, still the vessel went Till, with a sudden shock, Like one that's clutched by unseen Deat"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_103",
+        "words": 140,
+        "preview": "Obedience unto death. The soldiers mustered upon deck, As mute as on parade; \"Women and children to "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 142,
+        "preview": "My little girlies—What! your tears Are dropping on the grass, Over my more than \"fairy\" tale, A tale"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "BIRDS IN THE SNOW"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "CHILD"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "I wish I were a little bird"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "When the sun shines"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "And the wind whispers low,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Through the tall pines,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "I'd rock in the elm tops,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Rifle the pear-tree,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Hide in the cherry boughs,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "O such a rare tree!"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "I wish I were a little bird;"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "All summer long"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "I'd fly so merrily"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Sing such a song!"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Song that should never cease"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "While daylight lasted,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Wings that should never tire"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Howe'er they hasted."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "MOTHER"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "But if you were a little bird—"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "My baby-blossom."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Nestling so cosily"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "In mother's bosom,—"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "A bird, as we see them now,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "When the snows harden,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "And the wind's blighting breath"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_106",
+        "words": 4,
+        "preview": "Howls round the garden:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "What would you do, poor bird,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "In winter drear?"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "No nest to creep into,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "No mother near:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Hungry and desolate,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Weary and woeful,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "All the earth bound with frost,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "All the sky snow-full?"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHILD (thoughtfully)."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "That would be sad, and yet"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Hear what I'd do—"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Mother, in winter time"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "I'd come to you!"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "If you can like the birds"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Spite of their thieving,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Give them your trees to build,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Garden to live in,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "I think if I were a bird"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "When winter comes"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "I'd trust you, mother dear,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "For a few crumbs,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Whether I sang or not,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Were lark, thrush, or starling.—"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "MOTHER (aside)."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Then—Father—I trust Thee"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "With this my darling."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE LITTLE COMFORTER"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_108",
+        "words": 118,
+        "preview": "\"What is wrong with my big brother?\" Says the child; For they two had got no mother And she loved hi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_108",
+        "words": 25,
+        "preview": "Wound her, and forget to heal: Idle words are sharp as steel: But above, I know what the angels say "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "DON'T BE AFRAID."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_109",
+        "words": 117,
+        "preview": "Don't be afraid of the dark, My daughter, dear as my soul! You see but a part of the gloomy world, B"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_109",
+        "words": 54,
+        "preview": "And beautiful day come back once more. O child, be afraid of sin, But have no other fear, For God's "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "GIRL AND BOY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_110",
+        "words": 75,
+        "preview": "Alfred is gentle as a girl, But Judith longs to be a boy! Would cut off every pretty curl With eager"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_110",
+        "words": 66,
+        "preview": "On all these innocent vagaries. He'd hate a goose! but yet a dove Ah, much more rare is! She's anyth"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "AGNES AT PRAYER"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_111",
+        "words": 57,
+        "preview": "\"Our Father which art in heaven,\" Little Agnes prays, Though her kneeling is but show, Though she is"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_111",
+        "words": 58,
+        "preview": "Tones that ne'er in anger rise— \"Yes, dear,\" or \"No, dear.\" They will haunt her whole life long Like"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "GOING TO WORK"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_112",
+        "words": 59,
+        "preview": "Come along for the work is ready— Rough it may be, rough, tough and hard— But—fourteen years old—sto"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_112",
+        "words": 72,
+        "preview": "Come along. Young as she is, her hair is whitening, She has ploughed thro' years of sorrow deep, She"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THREE COMPANIONS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_113",
+        "words": 58,
+        "preview": "We go on our way together, Baby, and dog, and I; Three merry companions, 'Neath any sort of sky; Blu"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_113",
+        "words": 78,
+        "preview": "The only word she can speak. Sometimes two rivers of water Run down the muddy lane; Then dog leaps b"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE MOTHERLESS CHILD"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_114",
+        "words": 64,
+        "preview": "She was going home down the lonely street, A widow-woman with weary feet And weary eyes that seldom "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_114",
+        "words": 185,
+        "preview": "What should she haste for? On she paced Through the snowy night so bleak and wild, When she thought "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_114",
+        "words": 55,
+        "preview": "But her empty heart is happy and full If her crust be hard and her cottage poor There's a young foot"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE WREN'S NEST"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_116",
+        "words": 81,
+        "preview": "I took the wren's nest;— Heaven forgive me! Its merry architects so small Had scarcely finished thei"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_116",
+        "words": 107,
+        "preview": "O'er springing grass and greening corn, Before the pretty house was made! One little minute, only on"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A CHILD'S SMILE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_117",
+        "words": 16,
+        "preview": "A child's smile—nothing more; Quiet and soft and grave, and seldom seen, Like summer lightning o'er,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_117",
+        "words": 135,
+        "preview": "Leaving the little face again serene. I think, boy well-beloved, Thine angel, who did grieve to see "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "OVER THE HILLS AND FAR AWAY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 174,
+        "preview": "A little bird flew my window by, 'Twixt the level street and the level sky, The level rows of houses"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE TWO RAINDROPS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_120",
+        "words": 167,
+        "preview": "Said a drop to a drop, \"Just look at me! I'm the finest rain-drop you ever did see: I have lived ten"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_120",
+        "words": 41,
+        "preview": "I am the largest drop in the whole pane.\" Off ran the big drop, at first rather slow: Then faster an"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE YEAR'S END"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_121",
+        "words": 132,
+        "preview": "So grows the rising year, and so declines By months, weeks, days, unto its peaceful end Even as by s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_121",
+        "words": 76,
+        "preview": "All earthly goodness quickly droops and dies, Like rootless flowers you plant in gardens—sure That t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "RUNNING AFTER THE RAINBOW"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_122",
+        "words": 71,
+        "preview": "\"Why thus aside your playthings throw, Over the wet lawn hurrying so? Where are you going, I want to"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_122",
+        "words": 177,
+        "preview": "At either end of the rainbow. \"Nurse says, wherever it meets the ground. Such beautiful things may o"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "DICK AND I"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_124",
+        "words": 156,
+        "preview": "We're going to a party, my brother Dick and I: The best, grandest party we ever did try: And I'm ver"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_124",
+        "words": 101,
+        "preview": "Yet at play with the children he's best of us all. And his going to the party is just to please me, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "GRANDPAPA"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_125",
+        "words": 74,
+        "preview": "Grandpapa lives at the end of the lane, His cottage is small and its furniture plain; No pony to rid"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_125",
+        "words": 83,
+        "preview": "And not half so well as papa and mamma. The girls think his clothes are a little rough, But the boys"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "MONSIEUR ET MADEMOISELLE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_126",
+        "words": 58,
+        "preview": "Deux petits enfants Francais, Monsieur et Mademoiselle. Of what can they be talking, child? Indeed I"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "Page_126",
+        "words": 107,
+        "preview": "No rudeness here—no strife: Though could you listen only, They're chattering like two pies— French m"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "YOUNG DANDELION"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 182,
+        "preview": "Young Dandelion On a hedge-side, Said young Dandelion, \"Who'll be my bride? \"I'm a bold fellow As ev"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A SEPTEMBER ROBIN"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 113,
+        "preview": "My eyes are full, my silent heart is stirred, Amid these days so bright Of ceaseless warmth and ligh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's Notes:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Obvious punctuation errors repaired."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Text uses both tablecloth and table-cloth."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The remaining corrections made are indicated by dotted lines under the corrections. Scroll the mouse"
+      }
+    ],
+    "warnings": [],
+    "heading_level": null,
+    "explicit_chapter_anchors": true,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "25c3931b4d24a78045485421c07c4e90c09a6111fe1d50135b9e64b93c9eb8bf",
+    "html_sha256": "b45cf22ccace840024a5cf5cfb09ae913973302cdf731238d643c6f74bfea260",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-30494-the-adventures-of-a-brownie/chapters/001.txt",
+      "sha256": "0d0b42f1856bc6a961604d04dc94a704abdd9d68b7709cfab36acae121135bc4",
+      "bytes": 15405
+    },
+    {
+      "path": "books/pg-30494-the-adventures-of-a-brownie/chapters/002.txt",
+      "sha256": "34eba4e8e33a8af276b2c13efd9b5e0dd374f89f11665573cc2a29fc48afc5a1",
+      "bytes": 9667
+    },
+    {
+      "path": "books/pg-30494-the-adventures-of-a-brownie/chapters/003.txt",
+      "sha256": "864043c595457047df624e5f57862664741e901f20cdc39bd9d8febb386cdd05",
+      "bytes": 19899
+    },
+    {
+      "path": "books/pg-30494-the-adventures-of-a-brownie/chapters/004.txt",
+      "sha256": "a8948a78bff950e513a2ac7dd62aea963cbaf0c0cd001c751ff0e7ccb188dc9d",
+      "bytes": 23887
+    },
+    {
+      "path": "books/pg-30494-the-adventures-of-a-brownie/chapters/005.txt",
+      "sha256": "b939817e9814840e60bb5de9e4ad80ee0ee62f90cd9d0365ccb8330bfd46667c",
+      "bytes": 18836
+    },
+    {
+      "path": "books/pg-30494-the-adventures-of-a-brownie/chapters/006.txt",
+      "sha256": "b8f4ae6cc28c292ed8c2deb69adbd3774614a262f8b51c68de306435d3cf500b",
+      "bytes": 20112
+    }
+  ]
+}

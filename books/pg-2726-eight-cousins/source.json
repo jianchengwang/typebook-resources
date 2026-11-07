@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2726,
+  "slug": "pg-2726-eight-cousins",
+  "title": "Eight Cousins",
+  "title_i18n": {
+    "en": "Eight Cousins",
+    "zh-CN": "八个表兄弟",
+    "ja": "八人のいとこ"
+  },
+  "author": "Louisa May Alcott",
+  "authors_catalog": "Alcott, Louisa May, 1832-1888",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/2726/pg2726-images.html",
+  "text_sha256": "6a15cb2921109c15021905ac19778403a0c8eb30a7505da21e3badd9dc385d7d",
+  "page_sha256": "2cf047da090f68e08c0bcaedab70e6122102bb503962397de116df3d26aedbb1",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1888,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 24,
+    "word_count": 72798,
+    "selected_text_sha256": "6ed881ed35286d34a7b42dcca8870f811ce0d23e8f2fead74fcbee0ed07367db",
+    "section_titles": [
+      "Chapter 1—Two Girls",
+      "Chapter 2—The Clan",
+      "Chapter 3—Uncles",
+      "Chapter 4—Aunts",
+      "Chapter 5—A Belt and a Box",
+      "Chapter 6—Uncle Alec's Room",
+      "Chapter 7—A Trip to China",
+      "Chapter 8—And what came of it",
+      "Chapter 9—Phebe's Secret",
+      "Chapter 10—Rose's Sacrifice",
+      "Chapter 11—Poor Mac",
+      "Chapter 12—“The Other Fellows”",
+      "Chapter 13—Cosey Corner",
+      "Chapter 14—A Happy Birthday",
+      "Chapter 15—Ear-Rings",
+      "Chapter 16—Bread and Button-Holes",
+      "Chapter 17—Good Bargains",
+      "Chapter 18—Fashion and Physiology",
+      "Chapter 19—Brother Bones",
+      "Chapter 20—Under The Mistletoe",
+      "Chapter 21—A Scare",
+      "Chapter 22—Something to do",
+      "Chapter 23—Peace-Making",
+      "Chapter 24—Which?"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 24,
+    "word_count": 72798,
+    "kept_blocks": 1827,
+    "omitted_blocks": 34,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 134,
+        "preview": "The Project Gutenberg eBook of Eight Cousins This eBook is for the use of anyone anywhere in the Uni"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Preface"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 1—Two Girls"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 2—The Clan"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter 3—Uncles"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter 4—Aunts"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter 5—A Belt and a Box"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 6—Uncle Alec's Room"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter 7—A Trip to China"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter 8—And what came of it"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 9—Phebe's Secret"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 10—Rose's Sacrifice"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 11—Poor Mac"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 12—“The Other Fellows”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 13—Cosey Corner"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 14—A Happy Birthday"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter 15—Ear-Rings"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 16—Bread and Button-Holes"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 17—Good Bargains"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 18—Fashion and Physiology"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 19—Brother Bones"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 20—Under The Mistletoe"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Chapter 21—A Scare"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Chapter 22—Something to do"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter 23—Peace-Making"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Chapter 24—Which?"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK EIGHT COUSINS *** Updated editions will replace the previous "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id-5975704204695217770",
+        "words": 38,
+        "preview": "THIS EBOOK WAS ONE OF PROJECT GUTENBERG'S EARLY FILES PRODUCED AT A TIME WHEN PROOFING METHODS AND T"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "EIGHT COUSINS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Louisa M. Alcott"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Preface"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 80,
+        "preview": "The Author is quite aware of the defects of this little story, many of which were unavoidable, as it"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "L.M.A."
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "6ed881ed35286d34a7b42dcca8870f811ce0d23e8f2fead74fcbee0ed07367db",
+    "html_sha256": "6a15cb2921109c15021905ac19778403a0c8eb30a7505da21e3badd9dc385d7d",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/001.txt",
+      "sha256": "93a0a60625de6939a53beee4cd369d4676ef451b345871391884876a3cecd4f4",
+      "bytes": 13109
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/002.txt",
+      "sha256": "b56073f29bcdc0622c46ba258b76f967cc555f7704fa4226dfa832e1b502f5e8",
+      "bytes": 16040
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/003.txt",
+      "sha256": "073717fd1a5453f31b8f75afbb6bec0d2dc844fad80fad602a4e08e619959277",
+      "bytes": 19537
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/004.txt",
+      "sha256": "afea9d54d2cd1c698378ebb20960c5bf02d5cd55c3865ccf38ef7045e289bc83",
+      "bytes": 13973
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/005.txt",
+      "sha256": "dcd683e57aed9b18ac42c77288360826f95a4a2a0400887d0905b33d449d4521",
+      "bytes": 16489
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/006.txt",
+      "sha256": "d81e95fc824b25a07156f73ca4d1db73ed634818756976a0e1925ecc30f7530a",
+      "bytes": 15736
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/007.txt",
+      "sha256": "9b42f9e19a1d58c5cd74db7a4d4b77623de227a04a3babb681bb0fbed9517090",
+      "bytes": 15680
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/008.txt",
+      "sha256": "095d851660f98d804024542eba296da24b0f5d4383205a0f40189bee5e028bba",
+      "bytes": 12890
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/009.txt",
+      "sha256": "bb10ef4498b42b558a30fb05b032919402b027a6ffc3bba83a62f753c0e04f9f",
+      "bytes": 20327
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/010.txt",
+      "sha256": "b814a5b8b0bad1b3f82e420491584b735a2e5d76bb4bc4489a67d30b0051d624",
+      "bytes": 12827
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/011.txt",
+      "sha256": "177ffec8ebc64b406037b7b2fe83e21dc77709359fa64e124c54f14eeb3e3f45",
+      "bytes": 14185
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/012.txt",
+      "sha256": "6c612c1daa5810941de6e59c9d8ff97b90b5394e6c29f055a9c9438a7e1abe84",
+      "bytes": 15298
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/013.txt",
+      "sha256": "b743fb032551575ad9595de082627ba672b048aebd184e4af40480d64cd346e8",
+      "bytes": 11700
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/014.txt",
+      "sha256": "ff41c384fb6631398c9de9909a90718978912584666c58c3bd0bb633b49e2a65",
+      "bytes": 22990
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/015.txt",
+      "sha256": "2be7190aa274c60df145020bce16f4d9f4ad14f7797c9cf69aec58384854c3af",
+      "bytes": 18736
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/016.txt",
+      "sha256": "10788d2cee49b4b472fe1e3965311960fa752db417cb4e66549946e0163c74d4",
+      "bytes": 16415
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/017.txt",
+      "sha256": "8d3290b95e0353925e8c99f2ab8d3d6d8361ede0ddc7ff6c45c1b227faac0c18",
+      "bytes": 17971
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/018.txt",
+      "sha256": "22af2c0f170bde14ac4c87ebaad9abad2f1624b3e99d52b0577b95d0f67a44f1",
+      "bytes": 17782
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/019.txt",
+      "sha256": "03a02a291859d1da1418362b56c7ba7238b17259b9fb4fbfeb3ed5a7986a6e14",
+      "bytes": 14771
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/020.txt",
+      "sha256": "8b30124efb52391f3c505944264f54196369010f90b565af37811e1ac8a4fda2",
+      "bytes": 19915
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/021.txt",
+      "sha256": "1c7c1e3e33d81e425b2ddcd99f8bacbc04ad6ae9471c8ed5df21c9830e6a0ce9",
+      "bytes": 15636
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/022.txt",
+      "sha256": "0b94e13fc8ccb068e177435ade64ef360c26d4b9f3489eeb3dd0fba140aae877",
+      "bytes": 17784
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/023.txt",
+      "sha256": "ccdbe4ec17a0adeb0c1cf4dcfe39f62539db8bd6a6293ea2c8ea6a9257c97343",
+      "bytes": 18849
+    },
+    {
+      "path": "books/pg-2726-eight-cousins/chapters/024.txt",
+      "sha256": "17126154f73c4c770fa939f1ce01e04e567a20876e151c936bc1e304a571ee53",
+      "bytes": 17344
+    }
+  ]
+}

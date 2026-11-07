@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 111,
+  "slug": "pg-111-freckles",
+  "title": "Freckles",
+  "title_i18n": {
+    "en": "Freckles",
+    "zh-CN": "雀斑男孩",
+    "ja": "そばかすの少年"
+  },
+  "author": "Gene Stratton-Porter",
+  "authors_catalog": "Stratton-Porter, Gene, 1863-1924",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/111/pg111-images.html",
+  "text_sha256": "81a8d5fb20bb06456aaef301885b40c12399ff353e72af0fd1bb4bc8fd6052f7",
+  "page_sha256": "ddf030e772c9edfe7d201c869a04ef529381546fc2f588798825743beb383af6",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 20,
+    "word_count": 81555,
+    "selected_text_sha256": "52a809f13da05fb967838533066d452691160155cc289c765b2ff543caca6a10",
+    "section_titles": [
+      "CHAPTER I — Wherein Great Risks Are Taken and the Limberlost Guard Is Hired",
+      "CHAPTER II — Wherein Freckles Proves His Mettle and Finds Friends",
+      "CHAPTER III — Wherein a Feather Falls and a Soul Is Born",
+      "CHAPTER IV — Wherein Freckles Faces Trouble Bravely and Opens the Way for New Experiences",
+      "CHAPTER V — Wherein an Angel Materializes and a Man Worships",
+      "CHAPTER VI — Wherein a Fight Occurs and Women Shoot Straight",
+      "CHAPTER VII — Wherein Freckles Wins Honor and Finds a Footprint on the Trail",
+      "CHAPTER VIII — Wherein Freckles Meets a Man of Affairs and Loses Nothing by the Encounter",
+      "CHAPTER IX — Wherein the Limberlost Falls upon Mrs. Duncan and Freckles Comes to the Rescue",
+      "CHAPTER X — Wherein Freckles Strives Mightily and the Swamp Angel Rewards Him",
+      "CHAPTER XI — Wherein the Butterflies Go on a Spree and Freckles Informs the Bird Woman",
+      "CHAPTER XII — Wherein Black Jack Captures Freckles and the Angel Captures Jack",
+      "CHAPTER XIII — Wherein the Angel Releases Freckles, and the Curse of Black Jack Falls upon Her",
+      "CHAPTER XIV — Wherein Freckles Nurses a Heartache and Black Jack Drops Out",
+      "CHAPTER XV — Wherein Freckles and the Angel Try Taking a Picture, and Little Chicken Furnishes the Subject",
+      "CHAPTER XVI — Wherein the Angel Locates a Rare Tree and Dines with the Gang",
+      "CHAPTER XVII — Wherein Freckles Offers His Life for His Love and Gets a Broken Body",
+      "CHAPTER XVIII — Wherein Freckles refuses Love Without Knowledge of Honorable Birth, and the Angel Goes in Quest of it",
+      "CHAPTER XIX — Wherein Freckles Finds His Birthright and the Angel Loses Her Heart",
+      "CHAPTER XX — Wherein Freckles returns to the Limberlost, and Lord O'More Sails for Ireland Without Him"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 20,
+    "word_count": 81555,
+    "kept_blocks": 1726,
+    "omitted_blocks": 9,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 129,
+        "preview": "The Project Gutenberg eBook of Freckles This eBook is for the use of anyone anywhere in the United S"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2904,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK FRECKLES *** Updated editions will replace the previous one—t"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "FRECKLES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Gene Stratton-Porter"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "To all good Irishmen in general and one CHARLES DARWIN PORTER in particular"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Characters:"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 114,
+        "preview": "FRECKLES, a plucky waif who guards the Limberlost timber leases and dreams of Angels. THE SWAMP ANGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 40,
+        "preview": "CHAPTER I CHAPTER II CHAPTER III CHAPTER IV CHAPTER V CHAPTER VI CHAPTER VII CHAPTER VIII CHAPTER IX"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "52a809f13da05fb967838533066d452691160155cc289c765b2ff543caca6a10",
+    "html_sha256": "81a8d5fb20bb06456aaef301885b40c12399ff353e72af0fd1bb4bc8fd6052f7",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-111-freckles/chapters/001.txt",
+      "sha256": "01b3dc1023ec8e14e09ff69a655e101137920a1263166602090717fb1492aeb8",
+      "bytes": 18265
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/002.txt",
+      "sha256": "e54d77337829ae0f4f16486dec71f5cd181e13ca6a68903bf8b388c4dda4e711",
+      "bytes": 19873
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/003.txt",
+      "sha256": "96d2c2bd38e5bf5e78eea0748ca9cd827112c6373a737c93a7f69ba830da600c",
+      "bytes": 33871
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/004.txt",
+      "sha256": "ba5e26625ae76326e5aaec69bb02fc4040132a6ae5dab5e0a0c089d1491243fd",
+      "bytes": 50570
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/005.txt",
+      "sha256": "17c9b33de7d9dbfacaa814b8110f5c7e3af51ae83cef8bd1b22cac48bd4d8e0b",
+      "bytes": 23860
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/006.txt",
+      "sha256": "162a34ee7d7dc1d7610c9ac94fe6523f694c3397539f1d501d23c101010cc210",
+      "bytes": 21558
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/007.txt",
+      "sha256": "95ce304018bce6e7a25818fbf790d36c8c4e962e8eb618dca03a9e55f4051e8e",
+      "bytes": 11582
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/008.txt",
+      "sha256": "6ec4ec4d01f588951c2e5042c3c4fd857a40f103ae406994b8910cb5f260ae20",
+      "bytes": 24246
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/009.txt",
+      "sha256": "17093da2217872fbcb63f086f11575a620be9964b3c192ad7c840c1c41a4a242",
+      "bytes": 12049
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/010.txt",
+      "sha256": "0e3390a615599213de69af55a4ac25426c763f93017136c9c171478793c241c7",
+      "bytes": 12579
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/011.txt",
+      "sha256": "3768786b79728f29c887061bf6a19131e073f338d60cd80ed52ed110410375cf",
+      "bytes": 16368
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/012.txt",
+      "sha256": "270ba8578fe72370609ba7065ebf14367f831116002a7644d6ee74af5665f101",
+      "bytes": 28881
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/013.txt",
+      "sha256": "be71addbc0ce3b8d3c34f87f0a56c4350875e302873da8f9e677fa2bb01cc80e",
+      "bytes": 22938
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/014.txt",
+      "sha256": "d65e3a2b9b5f37b62ff743422a0935556c711933d8224c40f1474e7d1141c11e",
+      "bytes": 23023
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/015.txt",
+      "sha256": "1dd7deec93b3c132f2d727df7f96cd32e0cc8da08c23607c99f0cf44bd418281",
+      "bytes": 14345
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/016.txt",
+      "sha256": "4b2c0b1cdd4d1584a35c59ba781d90a038bb7d3a7fbdaf54da51d3ea1dfc36fb",
+      "bytes": 17927
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/017.txt",
+      "sha256": "e4cccfa5716d91bb88856b1d229214a0d76c74c13f148bb68d3ae1a1688f0522",
+      "bytes": 24372
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/018.txt",
+      "sha256": "e461fc82018054525b4daddff8481c40e81aa3d7f6c301aa336f1751c4d1c06a",
+      "bytes": 29811
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/019.txt",
+      "sha256": "3aae6e0fc599cc6b07154d0086e72eb0c33f6c6ddac31a02b2f84c75b17f1230",
+      "bytes": 20718
+    },
+    {
+      "path": "books/pg-111-freckles/chapters/020.txt",
+      "sha256": "66ff6d9bedc42fc678d97edc1023768bf78a3f8957acd05377594f6061943816",
+      "bytes": 20306
+    }
+  ]
+}

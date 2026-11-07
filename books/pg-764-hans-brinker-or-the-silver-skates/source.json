@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 764,
+  "slug": "pg-764-hans-brinker-or-the-silver-skates",
+  "title": "Hans Brinker; Or, The Silver Skates",
+  "title_i18n": {
+    "en": "Hans Brinker; Or, The Silver Skates",
+    "zh-CN": "汉斯·布林克：银冰鞋",
+    "ja": "ハンス・ブリンカー 銀のスケート"
+  },
+  "author": "Mary Mapes Dodge",
+  "authors_catalog": "Dodge, Mary Mapes, 1830-1905",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/764/pg764-images.html",
+  "text_sha256": "3a0d5a203c8bb8fcf823706d363d7729a82ab59928bb24bf06ddab7f2f2150a0",
+  "page_sha256": "447a0286d6620d054ce07bdfaa8b3147d24b5cbc4300a5cc390486b15a62b5ab",
+  "extraction": {
+    "start_text": "Hans and Gretel"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1905,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 47,
+    "word_count": 82446,
+    "selected_text_sha256": "dc0aaab28b4b84129c690d510dc5efd596cdbb023cbb5e91869d98f6a64acb87",
+    "section_titles": [
+      "Hans and Gretel",
+      "Holland",
+      "The Silver Skates",
+      "Hans and Gretel Find a Friend",
+      "Shadows in the Home",
+      "Sunbeams",
+      "Hans Has His Way",
+      "Introducing Jacob Poot and His Cousin",
+      "The Festival of Saint Nicholas",
+      "What the Boys Saw and Did in Amsterdam",
+      "Big Manias and Little Oddities",
+      "On the Way to Haarlem",
+      "A Catastrophe",
+      "Hans",
+      "Homes",
+      "Haarlem—The Boys Hear Voices",
+      "The Man With Four Heads",
+      "Friends in Need",
+      "On the Canal",
+      "Jacob Poot Changes the Plan",
+      "Mynheer Kleef and His Bill of Fare",
+      "The Red Lion Becomes Dangerous",
+      "Before the Court",
+      "The Beleaguered Cities",
+      "Leyden",
+      "The Palace in the Wood",
+      "The Merchant Prince and the Sister-Princess",
+      "Through the Hague",
+      "A Day of Rest",
+      "Homeward Bound",
+      "Boys and Girls",
+      "The Crisis",
+      "Gretel and Hilda",
+      "The Awakening",
+      "Bones and Tongues",
+      "A New Alarm",
+      "The Father’s Return",
+      "The Thousand Guilders",
+      "Glimpses",
+      "Looking For Work",
+      "The Mysterious Watch",
+      "A Discovery",
+      "The Race",
+      "Joy in the Cottage",
+      "Mysterious Disappearance of Thomas Higgs",
+      "Broad Sunshine",
+      "Conclusion"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 47,
+    "word_count": 82446,
+    "kept_blocks": 2114,
+    "omitted_blocks": 72,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 146,
+        "preview": "The Project Gutenberg eBook of Hans Brinker; Or, The Silver Skates This eBook is for the use of anyo"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Preface"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "A Leter From Holland"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Hans and Gretel"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Holland"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Silver Skates"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "Hans and Gretel Find a Friend"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Shadows in the Home"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Sunbeams"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Hans Has His Way"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "Introducing Jacob Poot and His Cousin"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Festival of Saint Nicholas"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "What the Boys Saw and Did in Amsterdam"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Big Manias and Little Oddities"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "On the Way to Haarlem"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "A Catastrophe"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Hans"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Homes"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Haarlem—The Boys Hear Voices"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Man With Four Heads"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Friends in Need"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "On the Canal"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Jacob Poot Changes the Plan"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "Mynheer Kleef and His Bill of Fare"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Red Lion Becomes Dangerous"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Before the Court"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Beleaguered Cities"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Leyden"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Palace in the Wood"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Merchant Prince and the Sister-Princess"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Through the Hague"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "A Day of Rest"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Homeward Bound"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Boys and Girls"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Crisis"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Gretel and Hilda"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Awakening"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Bones and Tongues"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "A New Alarm"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Father’s Return"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Thousand Guilders"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Glimpses"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Looking For Work"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Mysterious Watch"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "A Discovery"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "The Race"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 4,
+        "preview": "Joy in the Cottage"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 5,
+        "preview": "Mysterious Disappearance of Thomas Higgs"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 2,
+        "preview": "Broad Sunshine"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "Conclusion"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2909,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK HANS BRINKER; OR, THE SILVER SKATES *** Updated editions will"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "HANS BRINKER"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "OR THE SILVER SKATES"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "By Mary Mapes Dodge"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "To my father James J. Mapes this book is dedicated in gratitude and love"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "Preface"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 58,
+        "preview": "This little work aims to combine the instructive features of a book of travels with the interest of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 58,
+        "preview": "While acknowledging my obligations to many well-known writers on Dutch history, literature, and art,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 52,
+        "preview": "Should this simple narrative serve to give my young readers a just idea of Holland and its resources"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "Should it cause even one heart to feel a deeper trust in God’s goodness and love, or aid any in weav"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "—M.M.D."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "A LETTER FROM HOLLAND"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Amsterdam, July 30, 1873"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "DEAR BOYS AND GIRLS AT HOME:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 237,
+        "preview": "If you all could be here with me today, what fine times we might have walking through this beautiful"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 129,
+        "preview": "Holland is as wonderful today as it was when, more than twenty years ago, Hans and Gretel skated on "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 143,
+        "preview": "Today an American boy and I, seeing some children enter an old house in the business part of Amsterd"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 136,
+        "preview": "After leaving the old fire woman, who nodded a pleasant good-bye to us, and willingly put our stiver"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 59,
+        "preview": "And now goodbye. Oh! I must tell you one more thing. We found today in an Amsterdam bookstore this s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 41,
+        "preview": "Good-bye again, in the touching words of our Dutch translator with whom I’m sure you’ll heartily agr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Yours affectionately, The Author."
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "dc0aaab28b4b84129c690d510dc5efd596cdbb023cbb5e91869d98f6a64acb87",
+    "html_sha256": "3a0d5a203c8bb8fcf823706d363d7729a82ab59928bb24bf06ddab7f2f2150a0",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/001.txt",
+      "sha256": "f1c42b121a5730e874fc89231e8a4eba7c11eedf36ea385cdd3ca22482808932",
+      "bytes": 7125
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/002.txt",
+      "sha256": "4bd072281c9ccffd6470fe4ed9a58daa3ea17d3042884c2c088caf8443cd455b",
+      "bytes": 15811
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/003.txt",
+      "sha256": "8ebf428d8e6605bf613444361c2c3cd68dd2471b999511569100312dfcb55046",
+      "bytes": 8702
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/004.txt",
+      "sha256": "ab4897eb20699e149c3abff7d5b68e2654959f236915a302210a5ea6207decc1",
+      "bytes": 11174
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/005.txt",
+      "sha256": "8dd1acecc042f89418dc46174afec7729e779bd7fd647fe9f00a1018c8d95144",
+      "bytes": 11586
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/006.txt",
+      "sha256": "f4f2e52bc0d36e707db8286479588eae94147f085d41807b582dc0ac3346eb7d",
+      "bytes": 7368
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/007.txt",
+      "sha256": "e360d188c04d8ece616e628678970e9cef0c99d0c314baa9231d7dc23bfa0da4",
+      "bytes": 6011
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/008.txt",
+      "sha256": "61a871c9db98fb3601ff5eba1809a621ffa3e0363dd61e73bacc2e37787ea849",
+      "bytes": 9888
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/009.txt",
+      "sha256": "1ec43f0759c6e0fabb1382e6d082c0f180222ed2df54b164cbb6b7cd1e0bf1a9",
+      "bytes": 14835
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/010.txt",
+      "sha256": "896b36f06a1ab929fda8f42c6df6550689f938bacb9446eec5b924c94ffd9bab",
+      "bytes": 15478
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/011.txt",
+      "sha256": "09479fd8a39ac753fe552b8272bbb923d544d49ea7a095d24f141c630ba88872",
+      "bytes": 13138
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/012.txt",
+      "sha256": "defb56d9c57e96badd21f0f65db6ab6fa3fc4815e88c0d9f0326a85cefcd27e3",
+      "bytes": 5780
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/013.txt",
+      "sha256": "9babee336446d82eee21578b7ce3d631b2f88558d0355e0ec25b23b711f4d942",
+      "bytes": 5569
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/014.txt",
+      "sha256": "22b640ecb571b27fa862db2b12f66c14fd2c392deac20c4030f732b03cf407d7",
+      "bytes": 8845
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/015.txt",
+      "sha256": "dcfbb1de683dc79afab76f490d521566ff9df63feb019543e55678966dfd3245",
+      "bytes": 11653
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/016.txt",
+      "sha256": "89078cae381d7d30453136aac873c401d6f736df008d104de315a5a078915477",
+      "bytes": 9736
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/017.txt",
+      "sha256": "d182a40f583ce408d29a6f4463837c8d47f3cfb6b00d4117bd9937ca9c20828a",
+      "bytes": 8297
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/018.txt",
+      "sha256": "b175203d0bd2b5c0b1a3643d98dc0fe27fbfaadc5dbffaed19dddc8b25b92de3",
+      "bytes": 11847
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/019.txt",
+      "sha256": "403dc271556da25293152bc129a20286119a408833537ece25c285fb40f89357",
+      "bytes": 10603
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/020.txt",
+      "sha256": "75c95c9c956c3f51fa3c95efc6a6c209850f41a4de7d5734ddcd05ed8078fe61",
+      "bytes": 11418
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/021.txt",
+      "sha256": "ba8a336ebefc48e7ea309f8b7557bd7e9a675d388cfbe51e70b51044edb3266a",
+      "bytes": 4438
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/022.txt",
+      "sha256": "764c8f9660fec7dfbc72134fe0e0a3f1f74064a07b0591804a364436f0d636e3",
+      "bytes": 19102
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/023.txt",
+      "sha256": "fe902d897aa06f2bcdcddedbb31a706c57acafd1a3e78ed2d4b7491df049d19d",
+      "bytes": 5386
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/024.txt",
+      "sha256": "04763919536b76dc3dac2e96e567e5496474caad8321de634b3199e029acb56e",
+      "bytes": 9666
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/025.txt",
+      "sha256": "42112fd97062fbe3cc7957c0ac28ed2999c7166b6fac34dcb03f3796f261d9ae",
+      "bytes": 9848
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/026.txt",
+      "sha256": "f56937176c4359f2f0d6e8093b23b97e2b6a88129fb48f65d2761a02527e4572",
+      "bytes": 4644
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/027.txt",
+      "sha256": "f4cb03c678b59d3950dcf3eb1497883af83083f785925c0e3d69c5e5f80aea08",
+      "bytes": 22517
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/028.txt",
+      "sha256": "00fd6a7c1abf9d4d22191da0cf01ae2c6dca0b6d2fa8bd4ba4f80fab51a7e37d",
+      "bytes": 12382
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/029.txt",
+      "sha256": "ad298b5a24fc5be61041c2ca8c762d0ae204914f8e082e71c1ec97a4b79ae323",
+      "bytes": 5113
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/030.txt",
+      "sha256": "ef3958241e5141b8af680bf8a98af719d58aca32ca6cf5bf2909836878e74f92",
+      "bytes": 5837
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/031.txt",
+      "sha256": "4a565eabf6b42e431ac4a7d4c0bcb606ede5ea9122fa8af7086e1cc978aed570",
+      "bytes": 9418
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/032.txt",
+      "sha256": "7b47840d612b54607148856798025722e9307dbc1c5f147a65efb6622ea6dc60",
+      "bytes": 10020
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/033.txt",
+      "sha256": "a2549d9afc22e629c7a6c948d12abc8dd3d97a9830b367cae4a4fa7716d03827",
+      "bytes": 10300
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/034.txt",
+      "sha256": "a7f42d052616353bda9722bd7ae90954a9b1d8faf163e143bd2fdc54a711beed",
+      "bytes": 4673
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/035.txt",
+      "sha256": "4417693d0a88e370c82f7b9ca0271fd314d5fd5e361faf88842de849a3776d4b",
+      "bytes": 5441
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/036.txt",
+      "sha256": "724b65f1d3b87f6745cb69e8d80454b23ff5eca2790b2f28ce17fbca80b7bb30",
+      "bytes": 7298
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/037.txt",
+      "sha256": "8b4e926e70f539802a4087d277a6c07cf5866d257d43b019cb7bf78ad175f584",
+      "bytes": 7212
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/038.txt",
+      "sha256": "03501e59771025365baba37c2784eb7cf0f3e083e521543794df6a603af698c8",
+      "bytes": 7823
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/039.txt",
+      "sha256": "4674b21958cb0a344e86cfa7e54cfa0011c8793b210cb27ced2fc0aaf5dfd1b5",
+      "bytes": 5817
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/040.txt",
+      "sha256": "7c82031c826c43ac538f93baec20aaae2f0b38980e608c63df9d95fb13fa7b65",
+      "bytes": 16892
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/041.txt",
+      "sha256": "8e94787f8579e5bee9d8b215e4075c6688d2b74f709d81a475fe60b34d226f9d",
+      "bytes": 12776
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/042.txt",
+      "sha256": "9229d7aeb092cac50f662ed8539c0c4bc231c03cb417798bdbaa0d2b635fef44",
+      "bytes": 13164
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/043.txt",
+      "sha256": "65d173f8f7217100881f05a47939833bb33bdb1674c3bd1dfb2699497bfa7ded",
+      "bytes": 27719
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/044.txt",
+      "sha256": "8f4864ff516096cf47ffa0ab9bbcf74f1cc0fbc31a6a7884cbf6328f2db690f9",
+      "bytes": 12918
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/045.txt",
+      "sha256": "85d2963155b5aa237b74e2c20ecbfb31cdfbd7aac971823a8bf77cdf354e1186",
+      "bytes": 4522
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/046.txt",
+      "sha256": "3f168dc7afc249408920fa7fe3f4f69fb311014b5bd10e32eb8f8cf431b6ecc4",
+      "bytes": 8319
+    },
+    {
+      "path": "books/pg-764-hans-brinker-or-the-silver-skates/chapters/047.txt",
+      "sha256": "d79f5a661f3c2ba281bca9d272a3572efbe80cd62085fd9aba5e4184564d96da",
+      "bytes": 5088
+    }
+  ]
+}

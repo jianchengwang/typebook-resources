@@ -1,0 +1,684 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 514,
+  "slug": "pg-514-little-women",
+  "title": "Little Women",
+  "title_i18n": {
+    "en": "Little Women",
+    "zh-CN": "小妇人",
+    "ja": "若草物語"
+  },
+  "author": "Louisa May Alcott",
+  "authors_catalog": "Alcott, Louisa May, 1832-1888",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/514/pg514-images.html",
+  "text_sha256": "8bcca0238f4cefaa3879a1fc9deda28ca6f0d2c80d298672dfc7a88b97d5b2c9",
+  "page_sha256": "1e6fb47e0aaa5c0fd682a7ccc7649c6de10bd95689d07ca89d43f9db90789b3f",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1888,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 47,
+    "word_count": 185888,
+    "selected_text_sha256": "f5c49fa83d981b29e88276e04c09785c3b7ce49bf5ff9a45b0759bc448557a1e",
+    "section_titles": [
+      "CHAPTER ONE PLAYING PILGRIMS",
+      "CHAPTER TWO A MERRY CHRISTMAS",
+      "CHAPTER THREE THE LAURENCE BOY",
+      "CHAPTER FOUR BURDENS",
+      "CHAPTER FIVE BEING NEIGHBORLY",
+      "CHAPTER SIX BETH FINDS THE PALACE BEAUTIFUL",
+      "CHAPTER SEVEN AMY’S VALLEY OF HUMILIATION",
+      "CHAPTER EIGHT JO MEETS APOLLYON",
+      "CHAPTER NINE MEG GOES TO VANITY FAIR",
+      "CHAPTER TEN THE P.C. AND P.O.",
+      "CHAPTER ELEVEN EXPERIMENTS",
+      "CHAPTER TWELVE CAMP LAURENCE",
+      "CHAPTER THIRTEEN CASTLES IN THE AIR",
+      "CHAPTER FOURTEEN SECRETS",
+      "CHAPTER FIFTEEN A TELEGRAM",
+      "CHAPTER SIXTEEN LETTERS",
+      "CHAPTER SEVENTEEN LITTLE FAITHFUL",
+      "CHAPTER EIGHTEEN DARK DAYS",
+      "CHAPTER NINETEEN AMY’S WILL",
+      "CHAPTER TWENTY CONFIDENTIAL",
+      "CHAPTER TWENTY-ONE LAURIE MAKES MISCHIEF, AND JO MAKES PEACE",
+      "CHAPTER TWENTY-TWO PLEASANT MEADOWS",
+      "CHAPTER TWENTY-THREE AUNT MARCH SETTLES THE QUESTION",
+      "CHAPTER TWENTY-FOUR GOSSIP",
+      "CHAPTER TWENTY-FIVE THE FIRST WEDDING",
+      "CHAPTER TWENTY-SIX ARTISTIC ATTEMPTS",
+      "CHAPTER TWENTY-SEVEN LITERARY LESSONS",
+      "CHAPTER TWENTY-EIGHT DOMESTIC EXPERIENCES",
+      "CHAPTER TWENTY-NINE CALLS",
+      "CHAPTER THIRTY CONSEQUENCES",
+      "CHAPTER THIRTY-ONE OUR FOREIGN CORRESPONDENT",
+      "CHAPTER THIRTY-TWO TENDER TROUBLES",
+      "CHAPTER THIRTY-THREE JO’S JOURNAL",
+      "CHAPTER THIRTY-FOUR FRIEND",
+      "CHAPTER THIRTY-FIVE HEARTACHE",
+      "CHAPTER THIRTY-SIX BETH’S SECRET",
+      "CHAPTER THIRTY-SEVEN NEW IMPRESSIONS",
+      "CHAPTER THIRTY-EIGHT ON THE SHELF",
+      "CHAPTER THIRTY-NINE LAZY LAURENCE",
+      "CHAPTER FORTY THE VALLEY OF THE SHADOW",
+      "CHAPTER FORTY-ONE LEARNING TO FORGET",
+      "CHAPTER FORTY-TWO ALL ALONE",
+      "CHAPTER FORTY-THREE SURPRISES",
+      "CHAPTER FORTY-FOUR MY LORD AND LADY",
+      "CHAPTER FORTY-FIVE DAISY AND DEMI",
+      "CHAPTER FORTY-SIX UNDER THE UMBRELLA",
+      "CHAPTER FORTY-SEVEN HARVEST TIME"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 47,
+    "word_count": 185888,
+    "kept_blocks": 3847,
+    "omitted_blocks": 55,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 126,
+        "preview": "The Project Gutenberg eBook of Little Women This eBook is for the use of anyone anywhere in the Unit"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK LITTLE WOMEN *** Updated editions will replace the previous o"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Little Women"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by Louisa May Alcott"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART 1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER ONE PLAYING PILGRIMS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER TWO A MERRY CHRISTMAS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER THREE THE LAURENCE BOY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER FOUR BURDENS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER FIVE BEING NEIGHBORLY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER SIX BETH FINDS THE PALACE BEAUTIFUL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER SEVEN AMY’S VALLEY OF HUMILIATION"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER EIGHT JO MEETS APOLLYON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER NINE MEG GOES TO VANITY FAIR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER TEN THE P.C. AND P.O."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER ELEVEN EXPERIMENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER TWELVE CAMP LAURENCE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER THIRTEEN CASTLES IN THE AIR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER FOURTEEN SECRETS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER FIFTEEN A TELEGRAM"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER SIXTEEN LETTERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER SEVENTEEN LITTLE FAITHFUL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER EIGHTEEN DARK DAYS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER NINETEEN AMY’S WILL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER TWENTY CONFIDENTIAL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "CHAPTER TWENTY-ONE LAURIE MAKES MISCHIEF, AND JO MAKES PEACE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER TWENTY-TWO PLEASANT MEADOWS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER TWENTY-THREE AUNT MARCH SETTLES THE QUESTION"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "PART 2"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER TWENTY-FOUR GOSSIP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER TWENTY-FIVE THE FIRST WEDDING"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER TWENTY-SIX ARTISTIC ATTEMPTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER TWENTY-SEVEN LITERARY LESSONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER TWENTY-EIGHT DOMESTIC EXPERIENCES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER TWENTY-NINE CALLS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER THIRTY CONSEQUENCES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER THIRTY-ONE OUR FOREIGN CORRESPONDENT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER THIRTY-TWO TENDER TROUBLES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER THIRTY-THREE JO’S JOURNAL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER THIRTY-FOUR FRIEND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER THIRTY-FIVE HEARTACHE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER THIRTY-SIX BETH’S SECRET"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER THIRTY-SEVEN NEW IMPRESSIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER THIRTY-EIGHT ON THE SHELF"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER THIRTY-NINE LAZY LAURENCE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER FORTY THE VALLEY OF THE SHADOW"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER FORTY-ONE LEARNING TO FORGET"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER FORTY-TWO ALL ALONE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER FORTY-THREE SURPRISES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "CHAPTER FORTY-FOUR MY LORD AND LADY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER FORTY-FIVE DAISY AND DEMI"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER FORTY-SIX UNDER THE UMBRELLA"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER FORTY-SEVEN HARVEST TIME"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "part01",
+        "words": 2,
+        "preview": "PART 1"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "f5c49fa83d981b29e88276e04c09785c3b7ce49bf5ff9a45b0759bc448557a1e",
+    "html_sha256": "8bcca0238f4cefaa3879a1fc9deda28ca6f0d2c80d298672dfc7a88b97d5b2c9",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-514-little-women/chapters/001.txt",
+      "sha256": "8615afabab578d2eed4f97cf48ac4dda7a7104226b16316b67a761f31ccc5f51",
+      "bytes": 22487
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/002.txt",
+      "sha256": "caf9090bcbad6e1b3c9441f591d64de765a64b04db8f9728a5ac4827b41a97de",
+      "bytes": 22592
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/003.txt",
+      "sha256": "f9cd84072e8cfb8eaea4acba517a64395c0c156c42d8ec454367bd798230d992",
+      "bytes": 21474
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/004.txt",
+      "sha256": "1f5b0a6b6296e244b6c1dec5ee6b254aa9fcc04d4e30d265572427f3a72280ed",
+      "bytes": 26138
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/005.txt",
+      "sha256": "0a3e184d5ee43531ad3351f97d2a1cde15aea5e5a49193607db377714abc93ec",
+      "bytes": 24335
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/006.txt",
+      "sha256": "885d0c83bdfe4bfdacb68809e4fbf0b4a405a2129207c1121ac525e07c0af6d1",
+      "bytes": 14953
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/007.txt",
+      "sha256": "07b7f259c6057d2146063afe8cd44636529279c21ff6143d8ab5e4fcc299a803",
+      "bytes": 14845
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/008.txt",
+      "sha256": "b60e8a1ea354d0b4424eb63fa5b12c0308cb885a05827e9e1473c1a6126f5014",
+      "bytes": 23075
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/009.txt",
+      "sha256": "35e39622c32acf624b96d53fc43435b69e2e23ddc30d13801d552cc60bf20f97",
+      "bytes": 34848
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/010.txt",
+      "sha256": "33f814e6a765008212931fc5cdd6e0e25d6f6f9ab3b9d432daa870b279dd0443",
+      "bytes": 18682
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/011.txt",
+      "sha256": "9731eb8c1bbb8f49e8c5841eff5253a8ebc235def05836e65f0979bab678d974",
+      "bytes": 23648
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/012.txt",
+      "sha256": "8c5c55f455096dc9d1e08937971bb67b975e6be2403ffff486a53f308e05fd03",
+      "bytes": 40680
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/013.txt",
+      "sha256": "58210e74f4391921b07509224a9c5dcdba4555bdc088886558694bc7c22ceeb1",
+      "bytes": 19394
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/014.txt",
+      "sha256": "1e81a0cba133714261dd364f67112aef8db6263482e06b555301d769240011ca",
+      "bytes": 18811
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/015.txt",
+      "sha256": "de71edb16b6c926de9467f89d17cceff8ecd30bdee050d0bb0b7a80781d3aafa",
+      "bytes": 17946
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/016.txt",
+      "sha256": "747874a42c3de4ef8ccdd779a042adb2956b771f922cbe33d204cf20de089b24",
+      "bytes": 15641
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/017.txt",
+      "sha256": "20cd38af7fbbd958a15fd7b55147f17693f7df4b4266f6397791762410b4f64a",
+      "bytes": 14510
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/018.txt",
+      "sha256": "e4a6e559db7c2d3bec668042470f292b8ac14b19c7735cf53b8c92ad68787a6f",
+      "bytes": 17844
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/019.txt",
+      "sha256": "377efd6cee2559764f9d7e98a90665c56b9fd553061aafdf0a6ff4cd6117e9ab",
+      "bytes": 17649
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/020.txt",
+      "sha256": "3729421c2dc8d172fc14bf861c94638e86f9b070a97e0aab909a2be8653d971a",
+      "bytes": 14692
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/021.txt",
+      "sha256": "af51fb4b506aee6b6db1875b90fbe37cddf4dc3d61515c7ec41f2b60a5d3f4b9",
+      "bytes": 24472
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/022.txt",
+      "sha256": "fe58ece9b6ba29c9427ad7b0157f297fb3d3cce399286153677df0e5b8e4c6c4",
+      "bytes": 13986
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/023.txt",
+      "sha256": "3d401c95a726644d33172c61fd83631e231a1b62743d81ef13f2e383337ec042",
+      "bytes": 23816
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/024.txt",
+      "sha256": "6237493d836153c76c08613afc7ab8b4897236a0d9bf4a9539418f22cdf7e2bf",
+      "bytes": 24854
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/025.txt",
+      "sha256": "6cb1bd471423a4b7ec6a33b4c8773d46d9bed606b3d1344cdde5e01f8bc494d1",
+      "bytes": 13822
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/026.txt",
+      "sha256": "20f31ac2d03b20c04c74757b78c87313bcdeafc5f54d597524155310398d8686",
+      "bytes": 22259
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/027.txt",
+      "sha256": "7f7416a413b2a2a7c8b072aa276e3cbc52389be537f10fa303e829c33c844801",
+      "bytes": 16051
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/028.txt",
+      "sha256": "59a7aeff99f5464dde8a5fd0af6f62126f58e706e40781c5799d182ffea3b57f",
+      "bytes": 31662
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/029.txt",
+      "sha256": "93211924c85c1ab5bf77595ec08bccdffdc225bef0380300d9108e0760c00755",
+      "bytes": 27080
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/030.txt",
+      "sha256": "7f6e70eb403ab01242648619db2baebbe1be303f848a8f5149385b44122eb8fa",
+      "bytes": 24793
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/031.txt",
+      "sha256": "215a1efed47fe4b6ec3db13156f0349710548a73a422444780e0688b72bda618",
+      "bytes": 21111
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/032.txt",
+      "sha256": "37598124a3ee1e4c731c0c26a4bc9b3945e07b7e63eb111712d1dabccc4a6b40",
+      "bytes": 24052
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/033.txt",
+      "sha256": "9d5acb377f923f85933be904a6f05c1deb26d307b2e65a60d1b148df998983a5",
+      "bytes": 26269
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/034.txt",
+      "sha256": "5d6082a0781c43eaee7ec093e6080ee5415f41f929694d11aff66e8b54dd0151",
+      "bytes": 32984
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/035.txt",
+      "sha256": "92668f5b31aef073779310ac5b8a20351cb023f50792fe7b620af32fd7d269d6",
+      "bytes": 22109
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/036.txt",
+      "sha256": "6e606fa60e35eaa8eae61bdc7882b09d87a91888ff5a68fcc69c851f280b4339",
+      "bytes": 11697
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/037.txt",
+      "sha256": "78a0c5902b51d96559f62a7bca2c2d957f248d7908b722fd5b1c7e631cdb9d0f",
+      "bytes": 24046
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/038.txt",
+      "sha256": "1fcdf34a85cc4548125b4d1b7fb423aee935a309114235aa4b3524d097fcf035",
+      "bytes": 26802
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/039.txt",
+      "sha256": "af1715f9d60079f002de3a8ca056e64cf15af6ca32fc7fb2ea5c79158a72321f",
+      "bytes": 28426
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/040.txt",
+      "sha256": "5e97b559c9e114125110587f88ad3db046ccc639e042c191cde71dec129b0af2",
+      "bytes": 11537
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/041.txt",
+      "sha256": "c9631614d39fbd948a9fec3764b694d1d48088d7e42481d921941d7f9573bc47",
+      "bytes": 26860
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/042.txt",
+      "sha256": "cbb12a6b4fbc0f794900e33da8583628057b46ff7f970711bd6fd4426d9d2295",
+      "bytes": 17088
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/043.txt",
+      "sha256": "7ee8a9185b3f758b55f9ece1d67692fe21853cdffdf63cd9f99b54ebe97265f4",
+      "bytes": 34055
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/044.txt",
+      "sha256": "e8caae376929ec5f75ac0cbf836840c8a52baa99c9cc418183502aa3ffadf5af",
+      "bytes": 10647
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/045.txt",
+      "sha256": "ef34c7c4c3088bb0165719ee30caa3b7a375746b6a8fe02d4631045626905181",
+      "bytes": 12884
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/046.txt",
+      "sha256": "c651c3ac9d3353c6df2fa4ba4235e60631d96240e8ccd8870411033046c338ca",
+      "bytes": 27805
+    },
+    {
+      "path": "books/pg-514-little-women/chapters/047.txt",
+      "sha256": "df90c72dd18b78f188edaf4ea634df05f866a44d6542ed8a4f7fbd6f4bb361e9",
+      "bytes": 22967
+    }
+  ]
+}

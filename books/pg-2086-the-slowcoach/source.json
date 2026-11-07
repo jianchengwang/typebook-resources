@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2086,
+  "slug": "pg-2086-the-slowcoach",
+  "title": "The Slowcoach",
+  "title_i18n": {
+    "en": "The Slowcoach",
+    "zh-CN": "慢吞吞的马车",
+    "ja": "のんびり馬車"
+  },
+  "author": "E. V. Lucas",
+  "authors_catalog": "Lucas, E. V. (Edward Verrall), 1868-1938",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/2086/pg2086-images.html",
+  "text_sha256": "26c0a6bb77bdd406f7eadfeabca944af510d04297197b5e40b5ee50bcf305f0b",
+  "page_sha256": "d24292418f34f9e2ddaa1f21772dca8abae1050e0f942d662dc898714cf4506b",
+  "extraction": {
+    "start_text": "CHAPTER 1"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1938,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 24,
+    "word_count": 52210,
+    "selected_text_sha256": "54a2adf7f83efcaca9f2c4d92de9ab7adfd5cea406d122db17438b6949917aa4",
+    "section_titles": [
+      "CHAPTER 1 — THE AVORIES",
+      "CHAPTER 2 — THE SOUND OF MYSTERIOUS WHEELS",
+      "CHAPTER 3 — THE THOROUGH EXAMINATION",
+      "CHAPTER 4 — THE ITEMS",
+      "CHAPTER 5 — DIOGENES AND MOSES",
+      "CHAPTER 6 — THE PLANS",
+      "CHAPTER 7 — MR. LENOX'S YOUNG BROTHER",
+      "CHAPTER 8 — THE FIRST DAY",
+      "CHAPTER 9 — THE FIRST NIGHT",
+      "CHAPTER 10 — THE ADVENTURE OF THE SECOND CARAVAN",
+      "CHAPTER 11 — THE WAYSIDE FRIEND",
+      "CHAPTER 12 — STRATFORD-ON-AVON",
+      "CHAPTER 13 — THE ADVENTURE OF THE YOUNG POLICEMAN",
+      "CHAPTER 14 — THE ADVENTURE OF THE LITTLE OLD LADY",
+      "CHAPTER 15 — THE ADVENTURE OF THE RUNAWAY PONIES",
+      "CHAPTER 16 — THE BLACK SPANIELS",
+      "CHAPTER 17 — THE ADVENTURE OF THE LOST BABY",
+      "CHAPTER 18 — THE ADVENTURE OF THE OLD IRISHWOMAN",
+      "CHAPTER 19 — THE LETTERS TO X.",
+      "CHAPTER 20 — THE ADVENTURE OF THE LINE OF POETRY",
+      "CHAPTER 21 — COLLINS'S PEOPLE",
+      "CHAPTER 22 — THE ADVENTURE OF THE GIANT",
+      "CHAPTER 23 — THE MOST SURPRISING ADVENTURE OF ALL",
+      "CHAPTER 24 — THE END"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 24,
+    "word_count": 52210,
+    "kept_blocks": 1705,
+    "omitted_blocks": 7,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 126,
+        "preview": "The Project Gutenberg eBook of The Slowcoach This eBook is for the use of anyone anywhere in the Uni"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE SLOWCOACH *** Updated editions will replace the previous "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE SLOWCOACH"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "E. V. LUCAS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 145,
+        "preview": "CHAPTER 1: THE AVORIES CHAPTER 2: THE SOUND OF MYSTERIOUS WHEELS CHAPTER 3: THE THOROUGH EXAMINATION"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "54a2adf7f83efcaca9f2c4d92de9ab7adfd5cea406d122db17438b6949917aa4",
+    "html_sha256": "26c0a6bb77bdd406f7eadfeabca944af510d04297197b5e40b5ee50bcf305f0b",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/001.txt",
+      "sha256": "052f15007049a89c0cd7b98571830fe34bbabaab2b9ceff3e90eaafae7412c82",
+      "bytes": 11115
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/002.txt",
+      "sha256": "6774c4f8a2c8483e8febec03da68db478d4d25bf9c4f449066223ccdc37c17ed",
+      "bytes": 6072
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/003.txt",
+      "sha256": "0aba924312a520ac6187d261c2b3792d5bdf7cf92934dd3fdb6363080483837c",
+      "bytes": 7884
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/004.txt",
+      "sha256": "2a9de77c3b3d063b0ad222830ba1376da3776e88cb90c0305c23b5f9be8bd398",
+      "bytes": 7770
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/005.txt",
+      "sha256": "95a8fd2376cf5c51c068b4ec14d0d19f22f91943d20083afc848329ba0e79cfb",
+      "bytes": 8762
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/006.txt",
+      "sha256": "2ab1907cf2de8ee2e136a1be6a5ca4425e1731bf5886b88fc4101982eb8f1c18",
+      "bytes": 9669
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/007.txt",
+      "sha256": "4de3f02cfa98afe8a317c79eead87967f5f8b0d2767ee46a463d8754307f9449",
+      "bytes": 13562
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/008.txt",
+      "sha256": "4f20e7651685ef597c9472f3759dd18a9ef098986c48a02f1a3bb80ff2f4c443",
+      "bytes": 9548
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/009.txt",
+      "sha256": "dcdd660d54ef9feae73129f8ddac3fdab608bb153e8deea82892053c9ba85835",
+      "bytes": 8763
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/010.txt",
+      "sha256": "8eced1c02e343f3e11e5abc08cdc12400b3f12565658f7cfa718e095bb42ad63",
+      "bytes": 7351
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/011.txt",
+      "sha256": "0c3e629b7b51181f1702724efa68a2b0e60b45d58b9aac8787485a03226c8e4b",
+      "bytes": 7523
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/012.txt",
+      "sha256": "4b06526400dbd100d63bacdcd7402c196263fe3184b6c0df931775b989e7ce02",
+      "bytes": 15780
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/013.txt",
+      "sha256": "a79221e0b89424652613df0e7b711a9dedce1b8489c9080ab365ce08a2b89895",
+      "bytes": 13384
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/014.txt",
+      "sha256": "875a4d0b19f601a77c6142fef59c294bb8e53666e492c78631e3268668549ee4",
+      "bytes": 59145
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/015.txt",
+      "sha256": "7b141a538ee5633a74fd01932bfe0708031ec8a48bde484b4e72639de5e6a023",
+      "bytes": 11649
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/016.txt",
+      "sha256": "a1cae34a19513c464745f4ab4f28779e80e6ddff0239a8718f2f8380d83894ca",
+      "bytes": 14593
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/017.txt",
+      "sha256": "fa153b981ebaed1ff4290e855d465d315e2e4386f0d9627c0fed092d4f3a8c94",
+      "bytes": 11837
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/018.txt",
+      "sha256": "a368fd7de168d08b22dab47de21ebbfccf405f7986df9e4e369790c499c66e4f",
+      "bytes": 11008
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/019.txt",
+      "sha256": "7b7c7022fc57b552775609ecd050af079d25a236c4a25b10694ef1b14f966eb9",
+      "bytes": 10528
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/020.txt",
+      "sha256": "46b6fdadf7c702fbbf858efedcb72b1741c072f4f28e000739e218556cd056f9",
+      "bytes": 14206
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/021.txt",
+      "sha256": "2f411265a583e1ce4b49f61066c4df489b2753ec7b1f40a7d296475f48654206",
+      "bytes": 8070
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/022.txt",
+      "sha256": "f295912745553af40853f2952d6337d545f5b4b9954c428dab12945d320aec5c",
+      "bytes": 8391
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/023.txt",
+      "sha256": "98cfc54c0bb7dc08ad755beb7cb284294cf3444de9502deb770513f5829937bd",
+      "bytes": 7212
+    },
+    {
+      "path": "books/pg-2086-the-slowcoach/chapters/024.txt",
+      "sha256": "9aded843df6886de3e702bae4f6e31a520012da2ed1d0f20ebe483ba83ee9386",
+      "bytes": 4579
+    }
+  ]
+}

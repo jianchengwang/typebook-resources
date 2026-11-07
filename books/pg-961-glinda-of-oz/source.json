@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 961,
+  "slug": "pg-961-glinda-of-oz",
+  "title": "Glinda of Oz",
+  "title_i18n": {
+    "en": "Glinda of Oz",
+    "zh-CN": "奥兹国的格琳达",
+    "ja": "オズのグリンダ"
+  },
+  "author": "L. Frank Baum",
+  "authors_catalog": "Baum, L. Frank (Lyman Frank), 1856-1919",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/961/pg961-images.html",
+  "text_sha256": "4d725a045ac10e9bbb555e0cd043d9aea98b6f0eaa3e9c1f93791a55dfc592d4",
+  "page_sha256": "531374b2db5a39dbe6f877cf6ec15e649988c0bec17c7ad181cecf2a11f4917a",
+  "extraction": {
+    "end_text": "The Wonderful Oz Books by L. Frank Baum:"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1919,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 24,
+    "word_count": 39379,
+    "selected_text_sha256": "b277b0144f796b70d8382744f7d6093d49e781de63fbb20e8e0e30ece16c8a15",
+    "section_titles": [
+      "Chapter One — The Call to Duty",
+      "Chapter Two — Ozma and Dorothy",
+      "Chapter Three — The Mist Maidens",
+      "Chapter Four — The Magic Tent",
+      "Chapter Five — The Magic Stairway",
+      "Chapter Six — Flathead Mountain",
+      "Chapter Seven — The Magic Isle",
+      "Chapter Eight — Queen Coo-ee-oh",
+      "Chapter Nine — Lady Aurex",
+      "Chapter Ten — Under Water",
+      "Chapter Eleven — The Conquest of the Skeezers",
+      "Chapter Twelve — The Diamond Swan",
+      "Chapter Thirteen — The Alarm Bell",
+      "Chapter Fourteen — Ozma's Counsellors",
+      "Chapter Fifteen — The Great Sorceress",
+      "Chapter Sixteen — The Enchanted Fishes",
+      "Chapter Seventeen — Under the Great Dome",
+      "Chapter Eighteen — The Cleverness of Ervic",
+      "Chapter Nineteen — Red Reera, the Yookoohoo",
+      "Chapter Twenty — A Puzzling Problem",
+      "Chapter Twenty-One — The Three Adepts",
+      "Chapter Twenty-Two — The Sunken Island",
+      "Chapter Twenty-Three — The Magic Words",
+      "Chapter Twenty-Four — Glinda's Triumph"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 24,
+    "word_count": 39379,
+    "kept_blocks": 1040,
+    "omitted_blocks": 35,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 134,
+        "preview": "The Project Gutenberg eBook of Glinda of Oz This eBook is for the use of anyone anywhere in the Unit"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK GLINDA OF OZ *** Updated editions will replace the previous o"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "The Wonderful Oz Books by L. Frank Baum:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 58,
+        "preview": "The Wizard of Oz The Land of Oz Ozma of Oz Dorothy and the Wizard in Oz The Road to Oz The Emerald c"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id-1485889592542816458",
+        "words": 39,
+        "preview": "THIS EBOOK WAS ONE OF PROJECT GUTENBERG'S EARLY FILES PRODUCED AT A TIME WHEN PROOFING METHODS AND T"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "GLINDA OF OZ"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "L. Frank Baum"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 55,
+        "preview": "In which are related the Exciting Experiences of Princess Ozma of Oz, and Dorothy, in their hazardou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "This Book is Dedicated to My Son Robert Stanton Baum"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "LIST OF CHAPTERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "1 The Call to Duty"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "2 Ozma and Dorothy"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "3 The Mist Maidens"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "4 The Magic Tent"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "5 The Magic Stairway"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "6 Flathead Mountain"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "7 The Magic Isle"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "8 Queen Coo-ee-oh"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "9 Lady Aurex"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "10 Under Water"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "11 The Conquest of the Skeezers"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "12 The Diamond Swan"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "13 The Alarm Bell"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "14 Ozma's Counsellors"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "15 The Great Sorceress"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "16 The Enchanted Fishes"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "17 Under the Great Dome"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "18 The Cleverness of Ervic"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "19 Red Reera, the Yookoohoo"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "20 A Puzzling Problem"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "21 The Three Adepts"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "22 The Sunken Island"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "23 The Magic Words"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "24 Glinda's Triumph"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "b277b0144f796b70d8382744f7d6093d49e781de63fbb20e8e0e30ece16c8a15",
+    "html_sha256": "4d725a045ac10e9bbb555e0cd043d9aea98b6f0eaa3e9c1f93791a55dfc592d4",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/001.txt",
+      "sha256": "e12ba80da93e5b5a9b04916dc776078b56010a6c8e67425e335697670d777b76",
+      "bytes": 17122
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/002.txt",
+      "sha256": "0631570c438a6cd239a8d377a839502933e109792aaedb18abcdea92e2789898",
+      "bytes": 11894
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/003.txt",
+      "sha256": "0946779362de613ef4d185c3ad70f02d64bd8c5d4363adfdb48ccc693d6a6d13",
+      "bytes": 3416
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/004.txt",
+      "sha256": "f5112af03256895c9d202b7094e1eaa467028cfb0c02bd797e7a5181a51c2d84",
+      "bytes": 6164
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/005.txt",
+      "sha256": "dfdf2c450a482e970d74df9f7df77bbf7a34f443ad220f8ef7caa2b787429e80",
+      "bytes": 8929
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/006.txt",
+      "sha256": "36b069e8e3546f6e27e6022154a77675210f13ab028badc6187893c4a74e8223",
+      "bytes": 12466
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/007.txt",
+      "sha256": "d8479e3c48558cf8193e95a3d38e61f4719b8043a606d0412d69853304f6b5e2",
+      "bytes": 5156
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/008.txt",
+      "sha256": "18e33d9587aa5f8dcb124b3f4f28ba3740ec284493754ba5679e501f22dae508",
+      "bytes": 10401
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/009.txt",
+      "sha256": "03c2926830308e9e031a974834d55dc0a139f3988b667d92bf383cb6dd1a89d1",
+      "bytes": 10483
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/010.txt",
+      "sha256": "39e60722e86f7860901dcf84b012ccf180a4c259d9707634412db6319afeb934",
+      "bytes": 7047
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/011.txt",
+      "sha256": "2237fa47348af6437a9455c994f66d159eec331f7bec06a6ca36b3a69aaa8a0b",
+      "bytes": 4322
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/012.txt",
+      "sha256": "440152b8cda30d1b2b83048d3c38fac51c82b7d3b75c588803dfdf46af0b351e",
+      "bytes": 12704
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/013.txt",
+      "sha256": "3d74d98b61b5c102fcc055a932d91ef61a001064cca68a5ac81beae0add3943f",
+      "bytes": 5742
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/014.txt",
+      "sha256": "624ced559bdf26eafa47073b96451c24788386331bea6ffc76ff94c8d4c354cc",
+      "bytes": 9066
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/015.txt",
+      "sha256": "da236d3bf19104924c4a58966f054de986dc9537e778835e7546e775663703b9",
+      "bytes": 11097
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/016.txt",
+      "sha256": "2ec6c37c4175abaaaf09fd37fbb7d2c48fbcaa32536747f59012a2b54646d8a6",
+      "bytes": 7763
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/017.txt",
+      "sha256": "ab6558dae778549b93e1da2a760e8f6cbd16efdec361b15f7a028d87e5f1e03f",
+      "bytes": 11517
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/018.txt",
+      "sha256": "701ffb8e9391499cf32e22c44df1771a8ed73c5de95171bdb3463650461b0756",
+      "bytes": 13161
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/019.txt",
+      "sha256": "2a9732906d73085e3367c88ca34257e92920ecf3119592755cfbadcfc3346e4e",
+      "bytes": 9553
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/020.txt",
+      "sha256": "2df4836f8e99c3f5f81dd52311ed8ec058ae9a52c8a39d542fd0a50aa055f4b4",
+      "bytes": 10406
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/021.txt",
+      "sha256": "2cb8c79aab5d72369d0a88af8a69296877ba88907ae939544b2036ffcb7571b1",
+      "bytes": 7421
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/022.txt",
+      "sha256": "c92debb329b14f3f3dfd93e07b9770527412415d62a5c6714283f940aae0946d",
+      "bytes": 7128
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/023.txt",
+      "sha256": "8e8ee20cf084fc21345cdee61776bd6b07b8dc5f71fd0a0eec42b270d3f46070",
+      "bytes": 7392
+    },
+    {
+      "path": "books/pg-961-glinda-of-oz/chapters/024.txt",
+      "sha256": "d9091e684301a9ceaa051e24094b88868db2d02a3bfc7aebb12937147e3f3e06",
+      "bytes": 6241
+    }
+  ]
+}

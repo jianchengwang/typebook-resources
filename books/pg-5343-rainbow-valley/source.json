@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 5343,
+  "slug": "pg-5343-rainbow-valley",
+  "title": "Rainbow Valley",
+  "title_i18n": {
+    "en": "Rainbow Valley",
+    "zh-CN": "彩虹谷",
+    "ja": "虹の谷"
+  },
+  "author": "L. M. Montgomery",
+  "authors_catalog": "Montgomery, L. M. (Lucy Maud), 1874-1942",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/5343/pg5343-images.html",
+  "text_sha256": "132d8fdb6c05d7f4cfe4c061ad3ceef5b4178d88c81174070c99e039501502a2",
+  "page_sha256": "925b05284d3c2b7530bc2f42d1f56f248d13978fbd6db2ac4a4faaad401f462d",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1942,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 35,
+    "word_count": 80680,
+    "selected_text_sha256": "2c73fc2fe4afb6bcee119a536fbdb48b55c837273f4da8ed7071837cbcbcf8dc",
+    "section_titles": [
+      "CHAPTER I. HOME AGAIN",
+      "CHAPTER II. SHEER GOSSIP",
+      "CHAPTER III. THE INGLESIDE CHILDREN",
+      "CHAPTER IV. THE MANSE CHILDREN",
+      "CHAPTER V. THE ADVENT OF MARY VANCE",
+      "CHAPTER VI. MARY STAYS AT THE MANSE",
+      "CHAPTER VII. A FISHY EPISODE",
+      "CHAPTER VIII. MISS CORNELIA INTERVENES",
+      "CHAPTER IX. UNA INTERVENES",
+      "CHAPTER X. THE MANSE GIRLS CLEAN HOUSE",
+      "CHAPTER XI. A DREADFUL DISCOVERY",
+      "CHAPTER XII. AN EXPLANATION AND A DARE",
+      "CHAPTER XIII. THE HOUSE ON THE HILL",
+      "CHAPTER XIV. MRS. ALEC DAVIS MAKES A CALL",
+      "CHAPTER XV. MORE GOSSIP",
+      "CHAPTER XVI. TIT FOR TAT",
+      "CHAPTER XVII. A DOUBLE VICTORY",
+      "CHAPTER XVIII. MARY BRINGS EVIL TIDINGS",
+      "CHAPTER XIX. POOR ADAM!",
+      "CHAPTER XX. FAITH MAKES A FRIEND",
+      "CHAPTER XXI. THE IMPOSSIBLE WORD",
+      "CHAPTER XXII. ST. GEORGE KNOWS ALL ABOUT IT",
+      "CHAPTER XXIII. THE GOOD-CONDUCT CLUB",
+      "CHAPTER XXIV. A CHARITABLE IMPULSE",
+      "CHAPTER XXV. ANOTHER SCANDAL AND ANOTHER “EXPLANATION”",
+      "CHAPTER XXVI. MISS CORNELIA GETS A NEW POINT OF VIEW",
+      "CHAPTER XXVII. A SACRED CONCERT",
+      "CHAPTER XXVIII. A FAST DAY",
+      "CHAPTER XXIX. A WEIRD TALE",
+      "CHAPTER XXX. THE GHOST ON THE DYKE",
+      "CHAPTER XXXI. CARL DOES PENANCE",
+      "CHAPTER XXXII. TWO STUBBORN PEOPLE",
+      "CHAPTER XXXIII. CARL IS—NOT—WHIPPED",
+      "CHAPTER XXXIV. UNA VISITS THE HILL",
+      "CHAPTER XXXV. “LET THE PIPER COME”"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 35,
+    "word_count": 80680,
+    "kept_blocks": 1667,
+    "omitted_blocks": 44,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 162,
+        "preview": "The Project Gutenberg eBook of Rainbow Valley This eBook is for the use of anyone anywhere in the Un"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK RAINBOW VALLEY *** Updated editions will replace the previous"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Rainbow Valley"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "by Lucy Maud Montgomery"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 20,
+        "preview": "Author of “Anne of Green Gables,” “Anne of the Island,” “Anne’s House of Dreams,” “The Story Girl,” "
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "“The thoughts of youth are long, long thoughts.” —LONGFELLOW"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 34,
+        "preview": "TO THE MEMORY OF GOLDWIN LAPP, ROBERT BROOKES AND MORLEY SHIER WHO MADE THE SUPREME SACRIFICE THAT T"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "I. HOME AGAIN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "II. SHEER GOSSIP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "III. THE INGLESIDE CHILDREN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "IV. THE MANSE CHILDREN"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "V. THE ADVENT OF MARY VANCE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "VI. MARY STAYS AT THE MANSE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "VII. A FISHY EPISODE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "VIII. MISS CORNELIA INTERVENES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "IX. UNA INTERVENES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "X. THE MANSE GIRLS CLEAN HOUSE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XI. A DREADFUL DISCOVERY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XII. AN EXPLANATION AND A DARE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XIII. THE HOUSE ON THE HILL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XIV. MRS. ALEC DAVIS MAKES A CALL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XV. MORE GOSSIP"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVI. TIT FOR TAT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVII. A DOUBLE VICTORY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XVIII. MARY BRINGS EVIL TIDINGS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XIX. POOR ADAM!"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XX. FAITH MAKES A FRIEND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXI. THE IMPOSSIBLE WORD"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "XXII. ST. GEORGE KNOWS ALL ABOUT IT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIII. THE GOOD-CONDUCT CLUB"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIV. A CHARITABLE IMPULSE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXV. ANOTHER SCANDAL AND ANOTHER “EXPLANATION”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "XXVI. MISS CORNELIA GETS A NEW POINT OF VIEW"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVII. A SACRED CONCERT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXVIII. A FAST DAY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXIX. A WEIRD TALE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "XXX. THE GHOST ON THE DYKE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXXI. CARL DOES PENANCE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXXII. TWO STUBBORN PEOPLE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXXIII. CARL IS—NOT—WHIPPED"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXXIV. UNA VISITS THE HILL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXXV. “LET THE PIPER COME”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "RAINBOW VALLEY"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "2c73fc2fe4afb6bcee119a536fbdb48b55c837273f4da8ed7071837cbcbcf8dc",
+    "html_sha256": "132d8fdb6c05d7f4cfe4c061ad3ceef5b4178d88c81174070c99e039501502a2",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/001.txt",
+      "sha256": "84a24c9b92075e8476b6f9fed4ef684e36a1e06d74c76e7aeb8361c0821d0af6",
+      "bytes": 7656
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/002.txt",
+      "sha256": "073443b4b466d92eb3f067810cbb7f63e185ee3907095fe5cce4641f1817e07b",
+      "bytes": 19244
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/003.txt",
+      "sha256": "76bab67c1732ae5118479ba352107e67ca0e875ce50bb23aee865b79ccc52011",
+      "bytes": 12234
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/004.txt",
+      "sha256": "f757fe46452aaf6ab0008787937cf4b62cd0512ea93e01dac3faa08c6e413697",
+      "bytes": 17404
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/005.txt",
+      "sha256": "6347882118dfd2bdf592b8b6556800592862ce9ca46d06b3e724bb89793615ec",
+      "bytes": 23659
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/006.txt",
+      "sha256": "02fcce80e20e1bcbd90948479fdef9d3df960816cbc58b22f0892b460bb26294",
+      "bytes": 9240
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/007.txt",
+      "sha256": "fa99f383440d54f7d312ca52d41f9a9ea80c93bb88f5b52ecf9d007ed431c7ea",
+      "bytes": 13739
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/008.txt",
+      "sha256": "48659bdcb26f366eb02f6ce9a995a3db945685ae741944d5aafb17cb95fd3ded",
+      "bytes": 13745
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/009.txt",
+      "sha256": "b3969d5cd891b7d1b13dd33b3364041575982065015dcae9fa5b210139a4f0e0",
+      "bytes": 18784
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/010.txt",
+      "sha256": "071ff6de75a095079704537a1c85faadc46be3ff5e4b48e7f41f9a219ad555a9",
+      "bytes": 12839
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/011.txt",
+      "sha256": "dd70d0292f069e677d8e60779fd53fe54517ba61832aa16ddc2de590f85e5714",
+      "bytes": 7717
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/012.txt",
+      "sha256": "b7c37b7d69593959f39bb1135a0bc16f04516ae4bfe1d93972b7413ddc327a9a",
+      "bytes": 14821
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/013.txt",
+      "sha256": "a6f558eef8d8bc08d18a6148a2b8b134fca33a825c90744a800ff2e8f6eb93f3",
+      "bytes": 17626
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/014.txt",
+      "sha256": "a59a06fac6d6e9db4f61b0b7688c06abc89829772c891dc45faf770c9c52f7a6",
+      "bytes": 17168
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/015.txt",
+      "sha256": "1285c593d786ff44c6600b1120d1f006310ff5333a3b628ae9a3796fb1038ae8",
+      "bytes": 14406
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/016.txt",
+      "sha256": "17c33ac1284eee6c25af5c00e20fdcb39ebc1b053ab8ea4b4cecb33042334afa",
+      "bytes": 22512
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/017.txt",
+      "sha256": "53fc95e80b9700b78260027d859240f87eae08556caefbd468afe5307eaab7ee",
+      "bytes": 17910
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/018.txt",
+      "sha256": "665d0d6d4214edfc4166d1bd6a49bd90eda0c687fa240b71cb90354025bb8c0a",
+      "bytes": 9291
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/019.txt",
+      "sha256": "e6ab8f273a7923736e57cd427fd5ac19e4c18f6bae1e645b3a286ff7a05885dd",
+      "bytes": 7240
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/020.txt",
+      "sha256": "a1f45dd529636b5bcd5ec002db43c7fa258f9d49ab76300d2f4dc8557788cf19",
+      "bytes": 9792
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/021.txt",
+      "sha256": "a49b68f9063de0bbb2f3781699bd18950c22d14e810c23c6acce843411c900bd",
+      "bytes": 18110
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/022.txt",
+      "sha256": "0aa7bbb111c9f80ab90c4d37b2fa41041ff80e4e6b81612507af284a87424154",
+      "bytes": 10703
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/023.txt",
+      "sha256": "963e6e88ed648b33966c96b4b30a6041b7fa37a531e6d16df03b966b88c56210",
+      "bytes": 20464
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/024.txt",
+      "sha256": "00aabd0dbb0e2d5f28665e92f1825577c654dc82363b3776643f72b33d4ad0be",
+      "bytes": 13587
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/025.txt",
+      "sha256": "5d07c426e9689f5a4d95d0e83fb2040acbe9455a62adce4eac5a860dde85e667",
+      "bytes": 14021
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/026.txt",
+      "sha256": "d4883d31bb58b148a8fc54e7861bac0032d810a2463f960e3378447ef9fd3344",
+      "bytes": 13164
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/027.txt",
+      "sha256": "6420476278257d582cfb7f2f3fe73e88112e2f7e41f31fc6718fbd41b11ad4b8",
+      "bytes": 7616
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/028.txt",
+      "sha256": "d3e7fd5ce68bcb0892d91b0bd85dfb7f856bfe6288301008fa516b690c195b20",
+      "bytes": 8270
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/029.txt",
+      "sha256": "6d7288fd2b8b8af77fcd0070106e57c8bd36b472cc9bf4520d12b2c44b95ddd8",
+      "bytes": 6968
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/030.txt",
+      "sha256": "df7a084264bbcbb6985878a55dbf828b34c95b9f475ded05fb6da9f5e09995e6",
+      "bytes": 8688
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/031.txt",
+      "sha256": "c9e144a3b74eef383999b2f8f31e6edc8d541aea09c789f23c770cbf1eb01ca9",
+      "bytes": 8872
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/032.txt",
+      "sha256": "3c7848aa76908598a6333f8a9f1da89bb6b045b3694049bb668c352254f06d41",
+      "bytes": 11200
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/033.txt",
+      "sha256": "7dd28d32e93a937045c859766de667ea464ac4a0ca1ceb2f88bfd968921778af",
+      "bytes": 9894
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/034.txt",
+      "sha256": "fffbe91c802440ab31cb5163ff26bc92551aafd71ddfe091b9581ba1e0e27eed",
+      "bytes": 10354
+    },
+    {
+      "path": "books/pg-5343-rainbow-valley/chapters/035.txt",
+      "sha256": "7c946080a843484f64f45463a466869f678015ce164649f83d93681ce507a18a",
+      "bytes": 5879
+    }
+  ]
+}

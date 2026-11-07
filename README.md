@@ -10,7 +10,7 @@ the application source remains in its existing repository.
 | --- | --- |
 | Demo anthology | 3 original articles |
 | Additional starter articles | 3 original articles retained in the official catalog |
-| Books | 4 public books: 3 long-form readers + one 100-story anthology; 126 stored chapters; 100 standalone records retained for compatibility |
+| Books | 100 public entries: 96 new English-original readers + 3 retained books + one 100-story anthology; 2,387 reading sections; 100 standalone records retained for compatibility |
 | Dictionaries | 28 dictionaries, 81,119 entries |
 | Learning prompts | 3 preserved built-ins + 13 distinct English learning, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
 | Live2D models | 8 models, 158 files |
@@ -36,9 +36,30 @@ does not assert that every edition's original chapter structure is represented.
 Dictionary JSON, chapter text, images and model binaries retain their original
 bytes. Git attributes disable newline conversion for payload files.
 
+## English-original children and youth readers
+
+The new collection adds **96 complete narrative works** from pinned Project Gutenberg
+editions: fantasy, growing-up stories, adventures, animals and genuine story collections.
+Examples include *Alice’s Adventures in Wonderland*, *The Wonderful Wizard of Oz*,
+*The Secret Garden*, *A Little Princess*, *Anne of Green Gables*, *Little Women*,
+*The Railway Children*, *Black Beauty* and *Treasure Island*.
+Together the new books provide **2,261 reading sections and 6,304,068 words**.
+Sections follow chapters, stories, letters and literary framing as appropriate;
+they are not 2,261 independently numbered original chapters. *Little Women* has
+both parts and 47 chapters. The prior books and short-story anthology remain intact.
+
+All new entries have English, Chinese and Japanese display titles, editorial age
+and content notes, exact source hashes and per-book license notices. The official
+sources declare public domain in the USA; this is not a worldwide copyright claim.
+Original prose can be challenging for English learners and is not CEFR-certified.
+Practice text preserves narrative and framing while omitting navigation, illustrations,
+publishing apparatus and some non-narrative prefatory matter. Full downloaded source
+HTML remains available for reference. See [the complete reading list, rights and import
+workflow](docs/english-original-readers.md).
+
 ## Multilingual book titles
 
-All 4 public books and 100 archived standalone records include `title_i18n` with `en`, `zh-CN` and `ja` display titles.
+All 100 public books and 100 archived standalone records include `title_i18n` with `en`, `zh-CN` and `ja` display titles.
 The existing English `title`, chapter text and original credits are unchanged.
 See [the field contract and reproducible editing workflow](docs/book-titles.md).
 Application integration is separate; this resource update does not deploy the site.
@@ -89,7 +110,9 @@ prompts/                     Prompt source JSON and localized display metadata
 live2d/models/               All eight model directories and their dependencies
 paradee/, onnx-runtime/      Existing browser speech assets
 tools/verify.py              Offline integrity and dependency checks
-tools/import_hf_readers.py   Pinned, license-checked English reader importer
+tools/import_hf_readers.py   Pinned, license-checked short-reader importer
+tools/import_gutenberg_readers.py  Offline full-book importer with pinned sources
+tools/gutenberg_readers.json  96 reviewed editions, titles and chapter inventories
 tools/hf_readers.json        Curated reading list and upstream checksums
 tools/book_titles.json       English, Chinese and Japanese book display titles
 tools/story_anthology.py     Shared-body anthology and reversible old/new ID mapping
@@ -109,6 +132,7 @@ It contains no API keys, credentials, private user content or user progress.
 Python 3 is sufficient; no npm installation or backend is needed.
 
 ```sh
+python3 tools/import_gutenberg_readers.py --check
 python3 tools/rebuild_prompts.py --check
 python3 tools/verify.py
 python3 -m unittest discover -s tests -v
@@ -120,10 +144,11 @@ profile. This validates a resource repository, not a running TypeBook applicatio
 
 ## Recommended distribution
 
-The full resource set is approximately 259 MiB. Live2D files account for about
-211 MiB. The suggested default profile is about 61 MiB including the existing
+The full resource set is approximately 343 MiB. Live2D files account for about
+211 MiB. The suggested default profile is about 102 MiB including the existing
 browser runtimes: all books, dictionaries, prompts and demo/starter texts, plus
-the Yuki model. The other seven models can be loaded on demand.
+the Yuki model. Original Gutenberg HTML audit sources are retained in the full
+repository but excluded from the default practice bundle. The other seven models can be loaded on demand.
 
 TypeBook's selected default source is this public repository. The application
 pins a specific commit and verifies downloaded catalogs and text payloads.

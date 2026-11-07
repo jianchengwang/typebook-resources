@@ -1,0 +1,554 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 236,
+  "slug": "pg-236-the-jungle-book",
+  "title": "The Jungle Book",
+  "title_i18n": {
+    "en": "The Jungle Book",
+    "zh-CN": "丛林之书",
+    "ja": "ジャングル・ブック"
+  },
+  "author": "Rudyard Kipling",
+  "authors_catalog": "Kipling, Rudyard, 1865-1936",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/236/pg236-images.html",
+  "text_sha256": "0ec006f6cad95b49df5790a45d15a503a07e8fe5b9db9c8cecc922bd77b15844",
+  "page_sha256": "60103dfbd5fff75e5ee651df4db1295ee84e9c4580afbe0f4068be108d8ff90e",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1936,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 14,
+    "word_count": 50787,
+    "selected_text_sha256": "168018b20c704b5f133256c9428aa812df97c64cee05884be76b10d848017c6f",
+    "section_titles": [
+      "Mowgli’s Brothers",
+      "Hunting-Song of the Seeonee Pack",
+      "Kaa’s Hunting",
+      "Road-Song of the Bandar-Log",
+      "“Tiger! Tiger!”",
+      "Mowgli’s Song",
+      "The White Seal",
+      "Lukannon",
+      "“Rikki-Tikki-Tavi”",
+      "Darzee’s Chant",
+      "Toomai of the Elephants",
+      "Shiv and the Grasshopper",
+      "Her Majesty’s Servants",
+      "Parade Song of the Camp Animals"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 14,
+    "word_count": 50787,
+    "kept_blocks": 926,
+    "omitted_blocks": 66,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 128,
+        "preview": "The Project Gutenberg eBook of The Jungle Book This eBook is for the use of anyone anywhere in the U"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption0",
+        "words": 20,
+        "preview": "“Little Toomai laid himself down close to the great neck lest a swinging bough should sweep him to t"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption1",
+        "words": 5,
+        "preview": "Mowgli and the lone wolf"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption2",
+        "words": 10,
+        "preview": "“Good luck go with you, O chief of the wolves.”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption3",
+        "words": 8,
+        "preview": "The tiger’s roar filled the cave with thunder."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption4",
+        "words": 3,
+        "preview": "The ‘Council Rock’"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption5",
+        "words": 6,
+        "preview": "The meeting at the Council Rock"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption6",
+        "words": 4,
+        "preview": "‘Akela’ the lone wolf"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption7",
+        "words": 13,
+        "preview": "Bagheera would lie out on a branch and call, “Come along, Little Brother.”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption8",
+        "words": 3,
+        "preview": "Mowgli and Bagheera"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption9",
+        "words": 4,
+        "preview": "Mowgli leaving the jungle"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption10",
+        "words": 4,
+        "preview": "Baloo in the forest"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption11",
+        "words": 3,
+        "preview": "The “Cold Lairs”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption12",
+        "words": 3,
+        "preview": "The monkey fight"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption13",
+        "words": 3,
+        "preview": "‘Kaa’ the python"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption14",
+        "words": 6,
+        "preview": "“Wake, Little Brother; I bring news.”"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption15",
+        "words": 3,
+        "preview": "The village club"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption16",
+        "words": 10,
+        "preview": "“Are all these tales such cobwebs and moontalk?” said Mowgli."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption17",
+        "words": 5,
+        "preview": "Shere Khan in the jungle"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption18",
+        "words": 15,
+        "preview": "Buldeo lay as still, expecting every minute to see Mowgli turn into a tiger too."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption19",
+        "words": 6,
+        "preview": "The return of the buffalo herd"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption20",
+        "words": 19,
+        "preview": "When the moon rose over the plain the villagers saw Mowgli trotting across, with two wolves at his h"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption21",
+        "words": 17,
+        "preview": "They clambered up the Council Rock together, and Mowgli spread the skin out on the flat stone"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 3,
+        "preview": "Ten fathoms deep"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption23",
+        "words": 13,
+        "preview": "They were all awake and staring in every direction but the right one."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "Rikki-tikki looked down between the boy’s collar and neck"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption25",
+        "words": 7,
+        "preview": "He put his nose into the ink"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption26",
+        "words": 6,
+        "preview": "Rikki-tikki was awake on the pillow."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "He came to breakfast riding on Teddy’s shoulder."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption28",
+        "words": 6,
+        "preview": "“We are very miserable,” said Darzee."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption29",
+        "words": 21,
+        "preview": "“I am Nag,” said the cobra: “Look, and be afraid!” But at the bottom of his cold heart, he was afrai"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption30",
+        "words": 3,
+        "preview": "Rikki-Tikki-Tavi and Nag"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption31",
+        "words": 16,
+        "preview": "He jumped up in the air, and just under him whizzed by the head of Nagaina."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption32",
+        "words": 10,
+        "preview": "In the dark he ran up against Chuchundra, the muskrat."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption33",
+        "words": 15,
+        "preview": "Then Rikki-tikki was battered to and fro as a rat is shaken by a dog."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption34",
+        "words": 8,
+        "preview": "Darzee’s wife pretends to have a broken wing"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption35",
+        "words": 9,
+        "preview": "Nagaina flew down the path, with Rikki-tikki behind her."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption36",
+        "words": 4,
+        "preview": "It is all over."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption37",
+        "words": 9,
+        "preview": "Kala Nag was the best-loved elephant in the service."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption38",
+        "words": 2,
+        "preview": "Kala Nag"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption39",
+        "words": 10,
+        "preview": "“Not green corn, Protector of the Poor,—melons,” said Little Toomai."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption40",
+        "words": 1,
+        "preview": "Elephant-dance"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption41",
+        "words": 11,
+        "preview": "Little Toomai looked down upon scores and scores of broad backs."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption42",
+        "words": 4,
+        "preview": "Toomai of the elephants"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption43",
+        "words": 6,
+        "preview": "To Toomai of the elephants. Barrao!"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption44",
+        "words": 7,
+        "preview": "A camel had blundered into my tent."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption45",
+        "words": 13,
+        "preview": "“Anybody can be forgiven for being scared in the night,” said the troop-horse"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "ebm_caption46",
+        "words": 22,
+        "preview": "The man was lying on the ground, and I stretched myself not to tread on him, and he slashed up at me"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE JUNGLE BOOK *** Updated editions will replace the previou"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE JUNGLE BOOK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "By Rudyard Kipling"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Mowgli’s Brothers"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Hunting-Song of the Seeonee Pack"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Kaa’s Hunting"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Road-Song of the Bandar-Log"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "“Tiger! Tiger!”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Mowgli’s Song"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "The White Seal"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Lukannon"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "“Rikki-Tikki-Tavi”"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Darzee’s Chant"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Toomai of the Elephants"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Shiv and the Grasshopper"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Her Majesty’s Servants"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Parade Song of the Camp Animals"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "168018b20c704b5f133256c9428aa812df97c64cee05884be76b10d848017c6f",
+    "html_sha256": "0ec006f6cad95b49df5790a45d15a503a07e8fe5b9db9c8cecc922bd77b15844",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/001.txt",
+      "sha256": "1fedc3bbf5e72ff01d6d9de849ed36e51d65d13b2edf0371abe7bc5698696526",
+      "bytes": 39478
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/002.txt",
+      "sha256": "9898c42a652fe4aa75aa6670151269cd8810c0b635441380f41edb5a7e6bae15",
+      "bytes": 690
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/003.txt",
+      "sha256": "bca37ede5dde6fab1f5d4990d33bae928e96eaaa153e60d28dc4e9e5db8899d8",
+      "bytes": 49661
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/004.txt",
+      "sha256": "74c75be84038e79a37fe5a336cad6d98a7c228d294e63b7babe5a25ac602107c",
+      "bytes": 1172
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/005.txt",
+      "sha256": "5147c9e7f5b0de68352d1e952e4699e4c80f0cdc1de3773a21f654d34e240408",
+      "bytes": 34181
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/006.txt",
+      "sha256": "3c757cbe981ce372ec555fc26cc1e2fc9127c61165fa012b820bf009f0f62c7d",
+      "bytes": 3001
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/007.txt",
+      "sha256": "88c3d09ad4d664a4296ce36cdea72fe0f2c9791aa4734c86e069917533cc012e",
+      "bytes": 38734
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/008.txt",
+      "sha256": "72f388c1f8978e2b8c74fbbfda138c201a6e1fa13ca3ffa42b146f53e91cc112",
+      "bytes": 1567
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/009.txt",
+      "sha256": "e25a64fa9187d09a9bd62b0e28390792663b582f66c6397c0fa901819af1bc0c",
+      "bytes": 31566
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/010.txt",
+      "sha256": "1f867221eb2eef0f29a16d18e83e09e750bfff3a33a1456d58176bb0d74107ef",
+      "bytes": 921
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/011.txt",
+      "sha256": "0e854ca8882afc8c5b3787238ca555af45483412dc4d5fd2312914dbdc47bf8e",
+      "bytes": 39563
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/012.txt",
+      "sha256": "cef15e20caa94f7069da781dee04ef94e953facc059eff25b713433307d48e93",
+      "bytes": 1643
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/013.txt",
+      "sha256": "dd2c96d82aa390e9fc58d4b72b66e0b71250d38b9f4b6334d0fb62f239b5be2e",
+      "bytes": 32122
+    },
+    {
+      "path": "books/pg-236-the-jungle-book/chapters/014.txt",
+      "sha256": "04cb315a4b5c95893c2b89faae5e8052207d8057bdaed50af7d097d96c94ebce",
+      "bytes": 2417
+    }
+  ]
+}

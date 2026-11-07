@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 11,
+  "slug": "pg-11-alice-s-adventures-in-wonderland",
+  "title": "Alice's Adventures in Wonderland",
+  "title_i18n": {
+    "en": "Alice's Adventures in Wonderland",
+    "zh-CN": "爱丽丝漫游奇境",
+    "ja": "不思議の国のアリス"
+  },
+  "author": "Lewis Carroll",
+  "authors_catalog": "Carroll, Lewis, 1832-1898",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/11/pg11-images.html",
+  "text_sha256": "7df9c19e9fccac5b3ae9b1f837b247db1c1da93845dfb9e1903dce85013c43d3",
+  "page_sha256": "0cdc2332d353c36e342a615792b33182123ff1631371d601b3d5081e886106a4",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1898,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 26441,
+    "selected_text_sha256": "538ba5dad742683a27c3cfdad26a5c28d72d81f187e4a40626ae4eb14093bc1b",
+    "section_titles": [
+      "CHAPTER I. Down the Rabbit-Hole",
+      "CHAPTER II. The Pool of Tears",
+      "CHAPTER III. A Caucus-Race and a Long Tale",
+      "CHAPTER IV. The Rabbit Sends in a Little Bill",
+      "CHAPTER V. Advice from a Caterpillar",
+      "CHAPTER VI. Pig and Pepper",
+      "CHAPTER VII. A Mad Tea-Party",
+      "CHAPTER VIII. The Queen’s Croquet-Ground",
+      "CHAPTER IX. The Mock Turtle’s Story",
+      "CHAPTER X. The Lobster Quadrille",
+      "CHAPTER XI. Who Stole the Tarts?",
+      "CHAPTER XII. Alice’s Evidence"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 26441,
+    "kept_blocks": 787,
+    "omitted_blocks": 18,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 137,
+        "preview": "The Project Gutenberg eBook of Alice's Adventures in Wonderland This eBook is for the use of anyone "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2907,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK ALICE'S ADVENTURES IN WONDERLAND *** Updated editions will re"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "Alice’s Adventures in Wonderland"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "by Lewis Carroll"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE MILLENNIUM FULCRUM EDITION 3.0"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER I.Down the Rabbit-Hole"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER II.The Pool of Tears"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "CHAPTER III.A Caucus-Race and a Long Tale"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHAPTER IV.The Rabbit Sends in a Little Bill"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER V.Advice from a Caterpillar"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER VI.Pig and Pepper"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER VII.A Mad Tea-Party"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER VIII.The Queen’s Croquet-Ground"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER IX.The Mock Turtle’s Story"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER X.The Lobster Quadrille"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER XI.Who Stole the Tarts?"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER XII.Alice’s Evidence"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "538ba5dad742683a27c3cfdad26a5c28d72d81f187e4a40626ae4eb14093bc1b",
+    "html_sha256": "7df9c19e9fccac5b3ae9b1f837b247db1c1da93845dfb9e1903dce85013c43d3",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/001.txt",
+      "sha256": "6bc7861852852778ee4f89ad75b92785d1934a855eabfc33952a00845f8faf63",
+      "bytes": 11566
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/002.txt",
+      "sha256": "d052f85d8e7be090b8a9e694156dcb3b5d28838254f1c202a424374bd0ab1dab",
+      "bytes": 11276
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/003.txt",
+      "sha256": "7e02a55c2cde3d3da554013373c29f5c7921ff663a663c45039658073d56f1f7",
+      "bytes": 9572
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/004.txt",
+      "sha256": "6d9d2de43c763f8fda44b0114cb6991d5000e7128f2ac5e81f45bb542e3a905e",
+      "bytes": 14330
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/005.txt",
+      "sha256": "25b0ef9cbe1117f5fbdd1dd45fe1b4105344d869710adf651c6c67c2bd1c533c",
+      "bytes": 12363
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/006.txt",
+      "sha256": "8a665ebc0427b1a336183611c73fc7b10502f53c17150e830771a91af2362d74",
+      "bytes": 14362
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/007.txt",
+      "sha256": "a99eb2a47c6d141e9100903a3746bdf7ee299d76f5253e84076a53e05d039e6d",
+      "bytes": 13451
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/008.txt",
+      "sha256": "e2e6a1d86f5e62497fcbd22213c1a4e5825d1e6b560c6654da7852bdb919ff13",
+      "bytes": 14160
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/009.txt",
+      "sha256": "607cc5cfb3e8f0b746537c5bddf21af2caea3c424f85d4b7fd339607c2b02a04",
+      "bytes": 13365
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/010.txt",
+      "sha256": "bf60fb7cbb26e52eee4d26494a46accb254071bb2dc9de307cd6fbd35b63e7dc",
+      "bytes": 12042
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/011.txt",
+      "sha256": "a2bf487ece2001cff9f60f5583309d7725db09b47ed7e49808b426d498ac77a3",
+      "bytes": 10865
+    },
+    {
+      "path": "books/pg-11-alice-s-adventures-in-wonderland/chapters/012.txt",
+      "sha256": "f48390133336eae695d5d3a1c9a108b33ddac5c7417f2f570db7e2682fe5e777",
+      "bytes": 12071
+    }
+  ]
+}

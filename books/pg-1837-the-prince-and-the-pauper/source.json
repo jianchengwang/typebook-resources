@@ -1,0 +1,916 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 1837,
+  "slug": "pg-1837-the-prince-and-the-pauper",
+  "title": "The Prince and the Pauper",
+  "title_i18n": {
+    "en": "The Prince and the Pauper",
+    "zh-CN": "王子与贫儿",
+    "ja": "王子と乞食"
+  },
+  "author": "Mark Twain",
+  "authors_catalog": "Twain, Mark, 1835-1910",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "adventure",
+  "text_url": "https://www.gutenberg.org/cache/epub/1837/pg1837-images.html",
+  "text_sha256": "36f589b9a1c6210893d106d5cefebf389de642600ca2c516d870cda042b2c058",
+  "page_sha256": "8808b6844236b75791a68a0007557b68ebe527e41ee4ac7bf4bdb107934f1daa",
+  "extraction": {
+    "chapter_ids": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "c9",
+      "c10",
+      "c11",
+      "c12",
+      "c13",
+      "c14",
+      "c15",
+      "c16",
+      "c17",
+      "c18",
+      "c19",
+      "c20",
+      "c21",
+      "c22",
+      "c23",
+      "c24",
+      "c25",
+      "c26",
+      "c27",
+      "c28",
+      "c29",
+      "c30",
+      "c31",
+      "c32",
+      "c33",
+      "c34"
+    ],
+    "end_id": "c35",
+    "prefatory_sections": [
+      {
+        "title": "Opening Frame",
+        "text": "I will set down a tale as it was told to me by one who had it of his father, which latter had it of HIS father, this last having in like manner had it of HIS father—and so on, back and still back, three hundred years and more, the fathers transmitting it to the sons and so preserving it. It may be history, it may be only a legend, a tradition. It may have happened, it may not have happened: but it COULD have happened. It may be that the wise and the learned believed it in the old days; it may be that only the unlearned and the simple loved it and credited it."
+      }
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1910,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 35,
+    "word_count": 66648,
+    "selected_text_sha256": "6d274d40b7a107198ccaa24a87ed447b4d8c5501f1a12e3e44fc3aa6318fded8",
+    "section_titles": [
+      "Opening Frame",
+      "Chapter I. The birth of the Prince and the Pauper.",
+      "Chapter II. Tom’s early life.",
+      "Chapter III. Tom’s meeting with the Prince.",
+      "Chapter IV. The Prince’s troubles begin.",
+      "Chapter V. Tom as a Patrician.",
+      "Chapter VI. Tom receives instructions.",
+      "Chapter VII. Tom’s first royal dinner.",
+      "Chapter VIII. The Question of the Seal.",
+      "Chapter IX. The river pageant.",
+      "Chapter X. The Prince in the toils.",
+      "Chapter XI. At Guildhall.",
+      "Chapter XII. The Prince and his Deliverer.",
+      "Chapter XIII. The disappearance of the Prince.",
+      "Chapter XIV. ‘Le Roi est mort—vive le Roi.’",
+      "Chapter XV. Tom as King.",
+      "Chapter XVI. The State Dinner.",
+      "Chapter XVII. Foo-foo the First.",
+      "Chapter XVIII. The Prince with the Tramps.",
+      "Chapter XIX. The Prince with the peasants.",
+      "Chapter XX. The Prince and the hermit.",
+      "Chapter XXI. Hendon to the rescue.",
+      "Chapter XXII. A Victim of Treachery.",
+      "Chapter XXIII. The Prince a prisoner.",
+      "Chapter XXIV. The Escape.",
+      "Chapter XXV. Hendon Hall.",
+      "Chapter XXVI. Disowned.",
+      "Chapter XXVII. In Prison.",
+      "Chapter XXVIII. The sacrifice.",
+      "Chapter XXIX. To London.",
+      "Chapter XXX. Tom’s progress.",
+      "Chapter XXXI. The Recognition procession.",
+      "Chapter XXXII. Coronation Day.",
+      "Chapter XXXIII. Edward as King.",
+      "Conclusion. Justice and retribution."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Thirty-three chapters, narrative Conclusion and original opening frame.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "violence or peril review",
+      "historical racial or cultural stereotypes review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 35,
+    "word_count": 66648,
+    "kept_blocks": 1383,
+    "omitted_blocks": 98,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 148,
+        "preview": "The Project Gutenberg eBook of The Prince and the Pauper This eBook is for the use of anyone anywher"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE PRINCE AND THE PAUPER *** Updated editions will replace t"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE PRINCE AND THE PAUPER"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "by Mark Twain"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Great Seal"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 9,
+        "preview": "I. The birth of the Prince and the Pauper."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "II. Tom’s early life."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "III. Tom’s meeting with the Prince."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "IV. The Prince’s troubles begin."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "V. Tom as a patrician."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "VI. Tom receives instructions."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "VII. Tom’s first royal dinner."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "VIII. The question of the Seal."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "IX. The river pageant."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "X. The Prince in the toils."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XI. At Guildhall."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XII. The Prince and his deliverer."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XIII. The disappearance of the Prince."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 7,
+        "preview": "XIV. ‘Le Roi est mort’—vive le Roi.‘"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XV. Tom as King."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVI. The state dinner."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XVII. Foo-foo the First."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XVIII. The Prince with the tramps."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XIX. The Prince with the peasants."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 6,
+        "preview": "XX. The Prince and the hermit."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXI. Hendon to the rescue."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXII. A victim of treachery."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 5,
+        "preview": "XXIII. The Prince a prisoner."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXIV. The escape."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXV. Hendon Hall."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 2,
+        "preview": "XXVI. Disowned."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXVII. In prison."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXVIII. The sacrifice."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXIX. To London."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXX. Tom’s progress."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXXI. The Recognition procession."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 3,
+        "preview": "XXXII. Coronation Day."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "XXXIII. Edward as King."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 4,
+        "preview": "CONCLUSION. Justice and Retribution."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "Notes."
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "",
+        "words": 1,
+        "preview": "ILLUSTRATIONS"
+      },
+      {
+        "reason": "before-explicit-start",
+        "source_id": "c1",
+        "words": 913,
+        "preview": "THE GREAT SEAL (frontispiece) THE BIRTH OF THE PRINCE AND THE PAUPER \"SPLENDID PAGEANTS AND GREAT BO"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "FOOTNOTES AND TWAIN’S NOTES"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 12,
+        "preview": "{1} For Mark Twain’s note see below under the relevant chapter heading."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 30,
+        "preview": "{2} He refers to the order of baronets, or baronettes; the barones minores, as distinct from the par"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 14,
+        "preview": "{3} The lords of Kingsale, descendants of De Courcy, still enjoy this curious privilege."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 2,
+        "preview": "{4} Hume."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 2,
+        "preview": "{5} Ib."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 11,
+        "preview": "{6} Leigh Hunt’s ‘The Town,’ p.408, quotation from an early tourist."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 15,
+        "preview": "{7} Canting terms for various kinds of thieves, beggars and vagabonds, and their female companions."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 7,
+        "preview": "{8} From ‘The English Rogue.’ London, 1665."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 3,
+        "preview": "{9} Hume’s England."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 13,
+        "preview": "{10} See Dr. J. Hammond Trumbull’s Blue Laws, True and False, p. 11."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 7,
+        "preview": "NOTE 1, Chapter IV. Christ’s Hospital Costume."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 90,
+        "preview": "It is most reasonable to regard the dress as copied from the costume of the citizens of London of th"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "NOTE 2, Chapter IV."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 29,
+        "preview": "It appears that Christ’s Hospital was not originally founded as a school; its object was to rescue c"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 10,
+        "preview": "NOTE 3, Chapter V. The Duke of Norfolk’s Condemnation commanded."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 70,
+        "preview": "The King was now approaching fast towards his end; and fearing lest Norfolk should escape him, he se"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "NOTE 4, Chapter VII."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 62,
+        "preview": "It was not till the end of this reign (Henry VIII.) that any salads, carrots, turnips, or other edib"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 7,
+        "preview": "NOTE 5, Chapter VIII. Attainder of Norfolk."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 73,
+        "preview": "The House of Peers, without examining the prisoner, without trial or evidence, passed a Bill of Atta"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 6,
+        "preview": "NOTE 6, Chapter X. The Loving-cup."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 88,
+        "preview": "The loving-cup, and the peculiar ceremonies observed in drinking from it, are older than English his"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 10,
+        "preview": "NOTE 7, Chapter XI. The Duke of Norfolk’s narrow Escape."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 83,
+        "preview": "Had Henry VIII. survived a few hours longer, his order for the duke’s execution would have been carr"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 6,
+        "preview": "NOTE 8, Chapter XIV. The Whipping-boy."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 40,
+        "preview": "James I. and Charles II. had whipping-boys, when they were little fellows, to take their punishment "
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "NOTES to Chapter XV."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 3,
+        "preview": "Character of Hertford."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 27,
+        "preview": "The young King discovered an extreme attachment to his uncle, who was, in the main, a man of moderat"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 167,
+        "preview": "But if he (the Protector) gave offence by assuming too much state, he deserves great praise on accou"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 3,
+        "preview": "Boiling to Death."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 26,
+        "preview": "In the reign of Henry VIII. poisoners were, by Act of Parliament, condemned to be boiled to death. T"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 103,
+        "preview": "In Germany, even in the seventeenth century, this horrible punishment was inflicted on coiners and c"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "The Famous Stocking Case."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 38,
+        "preview": "A woman and her daughter, nine years old, were hanged in Huntingdon for selling their souls to the d"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 5,
+        "preview": "NOTE 10, Chapter XVII. Enslaving."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 77,
+        "preview": "So young a King and so ignorant a peasant were likely to make mistakes; and this is an instance in p"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 8,
+        "preview": "NOTES to Chapter XXIII. Death for Trifling Larcenies."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 42,
+        "preview": "When Connecticut and New Haven were framing their first codes, larceny above the value of twelve pen"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 31,
+        "preview": "The curious old book called The English Rogue makes the limit thirteen pence ha’penny: death being t"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "NOTES to Chapter XXVII."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 58,
+        "preview": "From many descriptions of larceny the law expressly took away the benefit of clergy: to steal a hors"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 109,
+        "preview": "William Prynne, a learned barrister, was sentenced (long after Edward VI.’s time) to lose both his e"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 4,
+        "preview": "NOTES to Chapter XXXIII."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 11,
+        "preview": "Christ’s Hospital, or Bluecoat School, ’the noblest institution in the world.’"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 228,
+        "preview": "The ground on which the Priory of the Grey Friars stood was conferred by Henry VIII. on the Corporat"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 144,
+        "preview": "In the Great Hall hangs a large picture of King Edward VI. seated on his throne, in a scarlet and er"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 33,
+        "preview": "Christ’s Hospital, by ancient custom, possesses the privilege of addressing the Sovereign on the occ"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 214,
+        "preview": "The Dining Hall, with its lobby and organ-gallery, occupies the entire storey, which is 187 feet lon"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 53,
+        "preview": "Among the more eminent Bluecoat boys are Joshua Barnes, editor of Anacreon and Euripides; Jeremiah M"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 61,
+        "preview": "No boy is admitted before he is seven years old, or after he is nine; and no boy can remain in the s"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 2,
+        "preview": "GENERAL NOTE."
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 102,
+        "preview": "One hears much about the ‘hideous Blue Laws of Connecticut,’ and is accustomed to shudder piously wh"
+      },
+      {
+        "reason": "after-explicit-end",
+        "source_id": "",
+        "words": 56,
+        "preview": "There has never been a time—under the Blue Laws or any other—when above fourteen crimes were punisha"
+      }
+    ],
+    "warnings": [],
+    "heading_level": null,
+    "explicit_chapter_anchors": true,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "6d274d40b7a107198ccaa24a87ed447b4d8c5501f1a12e3e44fc3aa6318fded8",
+    "html_sha256": "36f589b9a1c6210893d106d5cefebf389de642600ca2c516d870cda042b2c058",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/001.txt",
+      "sha256": "f7ea10b0865750044a6ed431165f09ed2f6d487523846363bc24f75c848f0eab",
+      "bytes": 568
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/002.txt",
+      "sha256": "2ab7010c48575ac48e6b1cab779c175052f1df0d8b13a8941d715b299546e6c6",
+      "bytes": 1419
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/003.txt",
+      "sha256": "dffb4c62e8bff1a49e361da346333ad947dbb25961ec6c82830a41676525d625",
+      "bytes": 9061
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/004.txt",
+      "sha256": "18f4aacd7dec1c9f66e3c59adee9a09aecd47aa20c40002a9b1c5755861cfd1c",
+      "bytes": 12483
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/005.txt",
+      "sha256": "d62f220df1f1c465617508759ce48bf4442615f72c077a21dcfa89a4e366c0ad",
+      "bytes": 6927
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/006.txt",
+      "sha256": "55e05171e0415dbe34eea15a75e9cb73d7d6103ceb3fb40ee7ead2c5c45b0325",
+      "bytes": 13295
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/007.txt",
+      "sha256": "1bca7fe6ec18b3747a67aac0d266a4a99a0555e33d53c924aeadbdd71379aacf",
+      "bytes": 14553
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/008.txt",
+      "sha256": "f0a6379b31412fec0e80349af9785747dba1a98c2b18c6dd080a7a0045d72a6e",
+      "bytes": 6839
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/009.txt",
+      "sha256": "e3aa42b7999ee16b1fea97c7ace0d734e4d5149a114a5fdaf2aa108ccd6b63ab",
+      "bytes": 4787
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/010.txt",
+      "sha256": "39e2dab3899b7901c2d7babb5748c96a49d571556788322429f46dbec0983d38",
+      "bytes": 5368
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/011.txt",
+      "sha256": "180093d2a3c09d6c6cb5b9b8eb379fd2a63679f295f532f976fb037e504b3375",
+      "bytes": 16451
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/012.txt",
+      "sha256": "aa601280cd6e62d62dce99d80fbf4a761a1b2cee5860e18c534274f618800f8f",
+      "bytes": 9145
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/013.txt",
+      "sha256": "117e0619ab16dc85edd2a3c11cfe0372d4396903c3dc95a4a94e15079d9ba1a0",
+      "bytes": 21766
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/014.txt",
+      "sha256": "0d09d6e4e7a8c11d141340c9c98ed31a684c35f24d99af52b4cb2aac92d28feb",
+      "bytes": 8208
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/015.txt",
+      "sha256": "6791fa0022da6a6e93f352b8103c4aeeffd61dc024dc9bb44009cf9436be61b1",
+      "bytes": 21900
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/016.txt",
+      "sha256": "969fe3ad7caaddd5d345da3390abb5c50064a87815203fe82c86925e168cb790",
+      "bytes": 20740
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/017.txt",
+      "sha256": "94db701f8a152d33600c72436ab77a37857abdc652221819008534a914d313cd",
+      "bytes": 5551
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/018.txt",
+      "sha256": "6b3dbd63799bdd1af06286bbf0d3844649b6a3200b76db21408a807d89f80732",
+      "bytes": 19812
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/019.txt",
+      "sha256": "a13ec98180759520212189ff21d69bbdb818ebafe2795326596d961da5c44148",
+      "bytes": 15649
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/020.txt",
+      "sha256": "3e8e39b9f40cdea4c3a25e8424ac35732a866ac187d7e8c1bc222f6951af6318",
+      "bytes": 10939
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/021.txt",
+      "sha256": "1b91e1eb2453e79fc1260ae359a91eeceba6a74363da739d4cd5d98175c2660e",
+      "bytes": 12468
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/022.txt",
+      "sha256": "edd1d3eb3b76d68d67728f1bd850ded265a15d40eff2e7fcf6a1cd22adbf2288",
+      "bytes": 8318
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/023.txt",
+      "sha256": "a14b5d1dc44ef52c4247d1d47d08e8009187c3eca9d65f0c8d9bc35de4937db7",
+      "bytes": 11165
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/024.txt",
+      "sha256": "0b17684661a77bf89020650d6f9d6d2d9b91f5e0489b75dcd29e9fd5e2771f52",
+      "bytes": 6410
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/025.txt",
+      "sha256": "479d8ee2c8f9c7267dd069ea96c89c223bcb6c7d651265b1a26054df084507d2",
+      "bytes": 5309
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/026.txt",
+      "sha256": "9bbfec66196d04e21d9418cc049436b1da653da887f9fbe98898886884c88085",
+      "bytes": 13372
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/027.txt",
+      "sha256": "4351a399c3ada44e9ecf79fd3ae028ce9ffdb2230c5fa6490ad972c361972663",
+      "bytes": 7542
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/028.txt",
+      "sha256": "c4ae737ec8ecaf52e63135caa9c70f26f9f107282f1d9f4c64e3d25788e9ca06",
+      "bytes": 18828
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/029.txt",
+      "sha256": "a6abf09ca0865bf615c9ca4cd2beb29249222574166ebbc567b6afaa57733755",
+      "bytes": 7077
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/030.txt",
+      "sha256": "2a5b9865142c37537f688856f2f2c73692bec9eee551af05b0bfa74b38cf1c7c",
+      "bytes": 4104
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/031.txt",
+      "sha256": "a7ff0495a3549192b1aa4293299a6e497ff0c2ad8772fd4969e078296c84459f",
+      "bytes": 4969
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/032.txt",
+      "sha256": "6ecf2234acd9e4183950d614cbc33eaa5134be9fcc9b06aca9fee78923dc79b2",
+      "bytes": 12011
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/033.txt",
+      "sha256": "e71c8009557458b2de70504defa50f41e01eb3c9d80e7b75138126a8c05aab59",
+      "bytes": 23193
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/034.txt",
+      "sha256": "fd7696aae4c0b7b526c254b1287ffec2d27612a829abd908c8b98e81bc06f688",
+      "bytes": 14284
+    },
+    {
+      "path": "books/pg-1837-the-prince-and-the-pauper/chapters/035.txt",
+      "sha256": "2aaa857d458f92cab9e5969abe6ebebf1facd966af39f9b53dce31d802bf42b0",
+      "bytes": 5023
+    }
+  ]
+}

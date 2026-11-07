@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 5141,
+  "slug": "pg-5141-what-katy-did-at-school",
+  "title": "What Katy Did at School",
+  "title_i18n": {
+    "en": "What Katy Did at School",
+    "zh-CN": "凯蒂在学校",
+    "ja": "学校のケティ"
+  },
+  "author": "Susan Coolidge",
+  "authors_catalog": "Coolidge, Susan, 1835-1905",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "growing-up",
+  "text_url": "https://www.gutenberg.org/cache/epub/5141/pg5141-images.html",
+  "text_sha256": "4a1fb0c7a7aef65825faac8dd8f395db04a30dc42aacc2b9bbb1856712d21ecb",
+  "page_sha256": "143ec1ba9f7479275598e2fae3c9a8a5ad4b6abfd796ac9d7aa5989ec2dd4d41",
+  "extraction": {
+    "end_text": "End of Project Gutenberg's What Katy Did At School, by Susan Coolidge"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1905,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 13,
+    "word_count": 51698,
+    "selected_text_sha256": "8cbedafbc30c702274140eec51d9cbb0851facce1359dc1a3122aa5a3dd16bc4",
+    "section_titles": [
+      "CHAPTER I. CONIC SECTION.",
+      "CHAPTER II. — A NEW YEAR AND A NEW PLAN.",
+      "CHAPTER III. ON THE WAY.",
+      "CHAPTER IV. THE NUNNERY.",
+      "CHAPTER V. ROSES AND THORNS.",
+      "CHAPTER VI. THE S. S. U. C.",
+      "CHAPTER VII. INJUSTICE.",
+      "CHAPTER VIII. CHANGES.",
+      "CHAPTER IX. THE AUTUMN VACATION.",
+      "CHAPTER X. A BUDGET OF LETTERS.",
+      "CHAPTER XI. CHRISTMAS BOXES.",
+      "CHAPTER XII. WAITING FOR SPRING.",
+      "CHAPTER XIII. PARADISE REGAINED."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-15",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 13,
+    "word_count": 51698,
+    "kept_blocks": 1124,
+    "omitted_blocks": 21,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 145,
+        "preview": "The Project Gutenberg eBook of What Katy Did at School This eBook is for the use of anyone anywhere "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK WHAT KATY DID AT SCHOOL *** Updated editions will replace the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "id01142",
+        "words": 12,
+        "preview": "End of Project Gutenberg's What Katy Did At School, by Susan Coolidge"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00000",
+        "words": 10,
+        "preview": "This E-text was created by Doug Levy, littera scripta manet"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00001",
+        "words": 5,
+        "preview": "WHAT KATY DID AT SCHOOL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00002",
+        "words": 3,
+        "preview": "by SUSAN COOLIDGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00003",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00004",
+        "words": 3,
+        "preview": "I. CONIC SECTION."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00005",
+        "words": 8,
+        "preview": "II. A NEW YEAR AND A NEW PLAN."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00006",
+        "words": 4,
+        "preview": "III. ON THE WAY."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00007",
+        "words": 3,
+        "preview": "IV. THE NUNNERY."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00008",
+        "words": 4,
+        "preview": "V. ROSES AND THORNS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00009",
+        "words": 6,
+        "preview": "VI. THE S. S. U. C."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00010",
+        "words": 2,
+        "preview": "VII. INJUSTICE."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00011",
+        "words": 2,
+        "preview": "VIII. CHANGES."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00012",
+        "words": 4,
+        "preview": "IX. THE AUTUMN VACATION."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00013",
+        "words": 5,
+        "preview": "X. A BUDGET OF LETTERS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00014",
+        "words": 3,
+        "preview": "XI. CHRISTMAS BOXES."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00015",
+        "words": 4,
+        "preview": "XII. WAITING FOR SPRING."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00016",
+        "words": 3,
+        "preview": "XIII. PARADISE REGAINED."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id00017",
+        "words": 5,
+        "preview": "WHAT KATY DID AT SCHOOL."
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "8cbedafbc30c702274140eec51d9cbb0851facce1359dc1a3122aa5a3dd16bc4",
+    "html_sha256": "4a1fb0c7a7aef65825faac8dd8f395db04a30dc42aacc2b9bbb1856712d21ecb",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/001.txt",
+      "sha256": "29df3da2791f8cc3b8f67b454dbc81adb5e9976d3869388aa88a960e0a51e371",
+      "bytes": 27385
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/002.txt",
+      "sha256": "dca359917158431be518133d59f085835c993c666022e0f96521a9271776168c",
+      "bytes": 21063
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/003.txt",
+      "sha256": "a4a2fd28797956ad369806a458c31f09998904c8ce206ce141a2a344f76746e8",
+      "bytes": 17402
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/004.txt",
+      "sha256": "2d9b7234776566a3513616cb8eb0f27f3dbc8bbd0cba70204e1392ac5a2be0da",
+      "bytes": 19532
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/005.txt",
+      "sha256": "63b98c9ac1a93c24aa9a391762b3c1857842dba42cf268bbdf82b29f4ab686ef",
+      "bytes": 19866
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/006.txt",
+      "sha256": "04a99d0f2cf3da4740f858c3f1a167459437f502f090a9c53a4a9265da1b176f",
+      "bytes": 24214
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/007.txt",
+      "sha256": "b73015d28863588c78b7123196657b30b776f78a2232e0d75e14105c5441c2c3",
+      "bytes": 19652
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/008.txt",
+      "sha256": "3abbe7e859b147d3587cc0d232e24767ff65edfdfffb56ca191c29308bd74b13",
+      "bytes": 18822
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/009.txt",
+      "sha256": "688b8d37b71931fabc241f4c1b343498a4612b4264610e5144679b8dba1bcd9a",
+      "bytes": 32679
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/010.txt",
+      "sha256": "bec567894270a603eccddfcd413b05c814085317421c2f9dac4f05ec80c4395f",
+      "bytes": 24780
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/011.txt",
+      "sha256": "031b8884f0d61f87bf5b8de95a703f18268b3ffb83bba25fd6d9895858290876",
+      "bytes": 23501
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/012.txt",
+      "sha256": "9b8af29bd800c777572bce94f54ec3660d88514d29f45681c731c6dd2cf485eb",
+      "bytes": 15307
+    },
+    {
+      "path": "books/pg-5141-what-katy-did-at-school/chapters/013.txt",
+      "sha256": "471e2e1a9d4e5d5a60a32a2c00e33896e508833f75019bf23a212063b80b5640",
+      "bytes": 18732
+    }
+  ]
+}

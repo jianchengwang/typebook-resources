@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 28725,
+  "slug": "pg-28725-harding-s-luck",
+  "title": "Harding's luck",
+  "title_i18n": {
+    "en": "Harding's luck",
+    "zh-CN": "哈丁的幸运",
+    "ja": "ハーディングの幸運"
+  },
+  "author": "E. Nesbit",
+  "authors_catalog": "Nesbit, E. (Edith), 1858-1924; Millar, H. R. (Harold Robert), 1869-1942 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/28725/pg28725-images.html",
+  "text_sha256": "e6c6689d42070e0968387996c2027315039276ada5c44cddf7e4b2baf33da81e",
+  "page_sha256": "362e854442c8394e09f83187bae46343e69fcfe490c960d5b1ef3a3deb987f34",
+  "extraction": {
+    "end_text": "Transcriber's Notes:"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1924,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 68423,
+    "selected_text_sha256": "2158a0c718b2ea5c54d78d85fb063d8991f0a698e3cb166b69c251de99a7eaa3",
+    "section_titles": [
+      "CHAPTER I — TINKLER AND THE MOONFLOWER",
+      "CHAPTER II — BURGLARS",
+      "CHAPTER III — THE ESCAPE",
+      "CHAPTER IV — WHICH WAS THE DREAM?",
+      "CHAPTER V — \"TO GET YOUR OWN LIVING\"",
+      "CHAPTER VI — BURIED TREASURE",
+      "CHAPTER VII — DICKIE LEARNS MANY THINGS",
+      "CHAPTER VIII — GOING HOME",
+      "CHAPTER IX — KIDNAPPED",
+      "CHAPTER X — THE NOBLE DEED",
+      "CHAPTER XI — LORD ARDEN",
+      "CHAPTER XII — THE END"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "10-14",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 68423,
+    "kept_blocks": 1891,
+    "omitted_blocks": 64,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 137,
+        "preview": "The Project Gutenberg eBook of Harding's luck This eBook is for the use of anyone anywhere in the Un"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 16,
+        "preview": "\"EDRED OBEYED, AND THE MOULDIESTWARP LEANED TOWARDS HIM AND SPOKE IN HIS EAR\" Frontispiece.] [Page 2"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"'GIMME,' SAID DICKIE—'GIMME A PENN'ORTH O' THAT THERE.'\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"'IT IS A MOONFLOWER, OF COURSE,' HE SAID\" [Page 13"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 15,
+        "preview": "\"'HERE, HUMPHREYS, PUT THESE IN A JUG OF WATER TILL I GO HOME'\" [Page 16"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"HE LAY FACE DOWNWARD ON THE ROAD AND TURNED UP HIS BOOT\" [Page 25"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"'IT ONLY PAWNS FOR A SHILLIN',' SAID DICKIE\" [Page 37"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"THREE OR FOUR FACES LOOKED DOWN AT DICKIE\" [Page 70"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 13,
+        "preview": "\"HE MADE, WITH TRIPLE LINES OF SILVERY SEEDS, A SIX-POINTED STAR\" [Page 81"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 15,
+        "preview": "\"'TIS THE PICTURE,' SAID HE PROUDLY, 'OF MY OLD SHIP, \"THE GOLDEN VENTURE\"'\" [Page 97"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"THE GALLEY WAS DECKED WITH FRESH FLOWERS\" [Page 102"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 24,
+        "preview": "\"'AN' I OFF'S WITH ME COAT, AND FLOPS IT DOWN IN THE MIDDLE OF THE PUDDLE, RIGHT IN FRONT OF THE GAL"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"'OH, WHAT A LONG TIME SINCE I HAVE SEEN THEE!' DICKIE CRIED\" [Page 147"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"IT HURT, BUT DICKIE LIKED IT\" [Page 157"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"'ELFRIDA!' SAID BOTH BOYS AT ONCE\" [Page 272"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"'I HAVE KILLED A MAN,' HE SAID\" [Page 290"
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 12,
+        "preview": ">\"'I'VE THOUGHT OF NOTHING ELSE FOR A MONTH,' SAID DICKIE\" [Page 304"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK HARDING'S LUCK *** Updated editions will replace the previous"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Transcriber's Notes:"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Obvious punctuation errors repaired."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "The remaining corrections made are indicated by dotted lines under the corrections. Scroll the mouse"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "HARDING'S LUCK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "By"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "E. NESBIT"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Author of \"The Wouldbegoods,\" \"The Treasure Seekers,\" Etc."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "WITH SIXTEEN FULL-PAGE ILLUSTRATIONS BY H. R. MILLAR"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "NEW YORK FREDERICK A. STOKES COMPANY PUBLISHERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "Copyright, 1910, by Frederick A. Stokes Company Copyright, 1909, by E. Nesbit Bland All rights reser"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "September, 1910"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "TO ROSAMUND PHILIPPA PHILIPS WITH E. NESBIT'S LOVE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CHAPTERPAGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "I. Tinkler and the Moonflower1"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "II. Burglars31"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "III. The Escape58"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "IV. Which Was the Dream?82"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "V.\"To Get Your Own Living\"115"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "VI. Buried Treasure144"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "VII. Dickie Learns Many Things178"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "VIII. Going Home208"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "IX. Kidnapped228"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "X. The Noble Deed250"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XI. Lord Arden275"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "XII. The End300"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Illustrations"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "\"Edred Obeyed, and the Mouldiestwarp Leaned Towards Him and Spoke in His Ear\"Frontispiece"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "FACING PAGE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"'Gimme,' Said Dickie—'Gimme a Penn'orth o' That There'\" 6"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"'It is a Moonflower, of Course,' He Said\" 12"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"'Here, Humphreys, Put These in a Jug of Water Till I Go Home'\" 16"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "\"He Lay Face Downward on the Road and Turned Up His Boot\" 24"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"'It Only Pawns for a Shillin',' Said Dickie\" 38"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"Three or Four Faces Looked Down at Dickie\" 70"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "\"He Made, With Triple Lines of Silvery Seeds, a Six-pointed Star\" 80"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"''Tis the Picture,' He Said Proudly, 'Of My Old Ship, \"The Golden Venture\"'\" 98"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"The Galley Was Decked with Fresh Flowers\" 102"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 23,
+        "preview": "\"'An' I Off's With Me Coat, and Flops it Down in the Middle of the Puddle, Right in Front of the Gal"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 13,
+        "preview": "\"'Oh, What a Long Time Since I Have Seen Thee!' Dickie Cried\" 148"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"It Hurt, But Dickie Liked It\" 158"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"'Elfrida!' Said Both Boys at Once\" 272"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"'I Have Killed a Man,' He Said\" 290"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 11,
+        "preview": "\"'I've Thought of Nothing Else for a Month,' Said Dickie\" 304"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "HARDING'S LUCK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Harding's Luck"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "2158a0c718b2ea5c54d78d85fb063d8991f0a698e3cb166b69c251de99a7eaa3",
+    "html_sha256": "e6c6689d42070e0968387996c2027315039276ada5c44cddf7e4b2baf33da81e",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/001.txt",
+      "sha256": "5272386da302d1f083b76c0737f167314909fcba92e83b278b5c5c6f932b00a1",
+      "bytes": 35735
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/002.txt",
+      "sha256": "2c70d594d2d2d8ee77f326200975fb5247a4789c87cff8d86a386d89f8848b49",
+      "bytes": 32006
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/003.txt",
+      "sha256": "cad40af290abbf691bbb6f68919e6ba4bef1d90b372b3e637b4a877293f8e2d1",
+      "bytes": 28141
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/004.txt",
+      "sha256": "3bac9d2c50201c35cb01b9ffa43145c7eeec12ab56a4b5c60f01059f6b16f59c",
+      "bytes": 39439
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/005.txt",
+      "sha256": "d6f0b22943c9517bb82945496e194789b92167bd8c8f75f3955d237c0fbd0584",
+      "bytes": 33980
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/006.txt",
+      "sha256": "af5e8c4d44b152eefa71c499e6079dfad787150ed1e17dab360f0d48e472847d",
+      "bytes": 40811
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/007.txt",
+      "sha256": "cecdaac414f7a4ec1cd1e2bb74a9a4188b1a60f6b6016f2dfe4898cf859e08e3",
+      "bytes": 36153
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/008.txt",
+      "sha256": "5c1c6e2035961a2a63384a5548ede890938ce4b2fd9bf36c01796339504dc8e9",
+      "bytes": 23337
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/009.txt",
+      "sha256": "d39fcb60a4f19b6dcea993732bff3640e1942f72f555e556ee36dff45e70afa0",
+      "bytes": 26301
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/010.txt",
+      "sha256": "b76e6d813e7d0f14173df9f38c04e1c7a3c1d79f11a4493861587f9ebb1d6986",
+      "bytes": 30037
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/011.txt",
+      "sha256": "aedfbb54fa31ce731c7049ca5fbd03922888fd88a6fc23a8caf85cb492b3a5a8",
+      "bytes": 30838
+    },
+    {
+      "path": "books/pg-28725-harding-s-luck/chapters/012.txt",
+      "sha256": "10d5e878fb66026877912e28169dada461b64d36919b0f5dd0bf32d3035b6d57",
+      "bytes": 10510
+    }
+  ]
+}

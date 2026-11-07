@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 2284,
+  "slug": "pg-2284-animal-heroes",
+  "title": "Animal Heroes",
+  "title_i18n": {
+    "en": "Animal Heroes",
+    "zh-CN": "动物英雄",
+    "ja": "動物の英雄たち"
+  },
+  "author": "Ernest Thompson Seton",
+  "authors_catalog": "Seton, Ernest Thompson, 1860-1946",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/2284/pg2284-images.html",
+  "text_sha256": "79d441edd201669c48878130c715490a728a6c1b55489c0d92f9bcb9916a746f",
+  "page_sha256": "ce850277a57d2f170c95093007d30b73af35c7aded278e89c686ad66326a0909",
+  "extraction": {
+    "heading_level": 2,
+    "start_text": "THE SLUM CAT",
+    "extra_heading_texts": [
+      "THE SLUM CAT"
+    ]
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1946,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 8,
+    "word_count": 55936,
+    "selected_text_sha256": "d6b37fea59394bb2f49a165e3d2cce183e2ec7c5493bc87f6115e085196ea044",
+    "section_titles": [
+      "THE SLUM CAT — LIFE I — I",
+      "ARNAUX — THE CHRONICLE OF A HOMING PIGEON",
+      "BADLANDS BILLY — The Wolf that Won — I — THE HOWL BY NIGHT",
+      "THE BOY AND THE LYNX — I — THE BOY",
+      "LITTLE WARHORSE — The History of a Jack-rabbit",
+      "SNAP — THE STORY OF A BULL-TERRIER — I",
+      "THE WINNIPEG WOLF — I",
+      "THE LEGEND OF THE WHITE REINDEER"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "11-16",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 8,
+    "word_count": 55936,
+    "kept_blocks": 733,
+    "omitted_blocks": 14,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 136,
+        "preview": "The Project Gutenberg eBook of Animal Heroes This eBook is for the use of anyone anywhere in the Uni"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2905,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK ANIMAL HEROES *** Updated editions will replace the previous "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Animal Heroes"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Ernest Thompson Seton"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Note to Reader"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "A hero is an individual of unusual gifts and achievements. Whether it be man or animal, this definit"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 55,
+        "preview": "In this volume every one of the stories, though more or less composite, is founded on the actual lif"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "The Lynx is founded on some of my own early experiences in the backwoods."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "It is less than ten years since the 'Jack Warhorse' won his hero-crown. Thousands of \"Kaskadoans\" wi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "The least composite is Arnaux. It is so nearly historical that several who knew the bird have suppli"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 80,
+        "preview": "The nest of the destroying Peregrines, with its owners and their young, is now to be seen in the Ame"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "THE SLUM CAT ARNAUX—The Chronicle of a Homing Pigeon BADLANDS BILLY—The Wolf that Won THE BOY AND TH"
+      }
+    ],
+    "warnings": [],
+    "heading_level": 2,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "d6b37fea59394bb2f49a165e3d2cce183e2ec7c5493bc87f6115e085196ea044",
+    "html_sha256": "79d441edd201669c48878130c715490a728a6c1b55489c0d92f9bcb9916a746f",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/001.txt",
+      "sha256": "445a032101552ff1b96374d004fe57af67979ea5d735dd9f161a4d6cbdeedc2e",
+      "bytes": 55753
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/002.txt",
+      "sha256": "0e11c4faa1855684c1074f7673791774c9ec22a2f573d3c2d1795bb99fbc652f",
+      "bytes": 31586
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/003.txt",
+      "sha256": "0eb4d70e47c5703e99015c26f1eabe1da9c0f3ed85fd36d55c9318a2127771d7",
+      "bytes": 47606
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/004.txt",
+      "sha256": "d644137f2d03628ac59c671adfcfcf37d5bcdbffed0a15cc84fa467a38eb8400",
+      "bytes": 30814
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/005.txt",
+      "sha256": "ca91b3d10e026719b8765efae89536bd0d449ee685658e025da6c601df77b5d8",
+      "bytes": 47547
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/006.txt",
+      "sha256": "7452cfc56eea427f8e3dcb6738e8fd2ddffd74ce38bec742ce43f388f9be30e0",
+      "bytes": 24615
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/007.txt",
+      "sha256": "15c9f2dd34b0703693f614bcb15db559d04f4dd0a9254f5b627032cc2784cdf6",
+      "bytes": 29198
+    },
+    {
+      "path": "books/pg-2284-animal-heroes/chapters/008.txt",
+      "sha256": "38124c27a024c2cd27b36749c3f53bda01a6856cb6c4bb802b2aa4b43f483d9e",
+      "bytes": 38284
+    }
+  ]
+}

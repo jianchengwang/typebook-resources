@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 215,
+  "slug": "pg-215-the-call-of-the-wild",
+  "title": "The call of the wild",
+  "title_i18n": {
+    "en": "The call of the wild",
+    "zh-CN": "野性的呼唤",
+    "ja": "野性の呼び声"
+  },
+  "author": "Jack London",
+  "authors_catalog": "London, Jack, 1876-1916",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "animals",
+  "text_url": "https://www.gutenberg.org/cache/epub/215/pg215-images.html",
+  "text_sha256": "0f2316eac2b2279e718fff546cf1e3ce9f6f2f943c72fce0f97ce91813832474",
+  "page_sha256": "a573523c112ac2240c969b0347cab5a81913cae94a52aeb6278492e1ecaa063f",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1916,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 7,
+    "word_count": 31765,
+    "selected_text_sha256": "dd5aec9a92806292466ae3a18b347eeaefa36c16a3adf5b455ff047cac323fb4",
+    "section_titles": [
+      "Chapter I. Into the Primitive",
+      "Chapter II. The Law of Club and Fang",
+      "Chapter III. The Dominant Primordial Beast",
+      "Chapter IV. Who Has Won to Mastership",
+      "Chapter V. The Toil of Trace and Trail",
+      "Chapter VI. For the Love of a Man",
+      "Chapter VII. The Sounding of the Call"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "12-17",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating",
+      "historical racial or cultural stereotypes review",
+      "animal suffering or hunting review"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 7,
+    "word_count": 31765,
+    "kept_blocks": 338,
+    "omitted_blocks": 12,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 144,
+        "preview": "The Project Gutenberg eBook of The call of the wild This eBook is for the use of anyone anywhere in "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2908,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE CALL OF THE WILD *** Updated editions will replace the pr"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Call of the Wild"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "by Jack London"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "Chapter I. Into the Primitive"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Chapter II. The Law of Club and Fang"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Chapter III. The Dominant Primordial Beast"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter IV. Who Has Won to Mastership"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Chapter V. The Toil of Trace and Trail"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "Chapter VI. For the Love of a Man"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "Chapter VII. The Sounding of the Call"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "dd5aec9a92806292466ae3a18b347eeaefa36c16a3adf5b455ff047cac323fb4",
+    "html_sha256": "0f2316eac2b2279e718fff546cf1e3ce9f6f2f943c72fce0f97ce91813832474",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/001.txt",
+      "sha256": "4d4b5594824fe3fdbc1510545376d062d72dfd3957059391c6a1364b632ef9ae",
+      "bytes": 20860
+    },
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/002.txt",
+      "sha256": "eff0f6153190b6adb567be30c3c06c41f8d5980290f594e6f336ee07a0e8a3ff",
+      "bytes": 18423
+    },
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/003.txt",
+      "sha256": "a19e32459b7b313f16687e1e0792d9ee5f5626880d7482872b0c58e6e269f5bb",
+      "bytes": 28497
+    },
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/004.txt",
+      "sha256": "4e17b9676e1244ab00a4388bf407e50c5edf60a97bae943838f9167647160dd5",
+      "bytes": 17646
+    },
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/005.txt",
+      "sha256": "426680731964658e513bae98f9491f855af988fb3c827d2d5af5a2699b878faa",
+      "bytes": 29968
+    },
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/006.txt",
+      "sha256": "f2ea4a45124cde6d20e8bf11e0b657fcbeca83232dbae9b49631c1a15698702c",
+      "bytes": 26724
+    },
+    {
+      "path": "books/pg-215-the-call-of-the-wild/chapters/007.txt",
+      "sha256": "0e612545bc148fecf2a10fea6d135d8c6975c3899adb52775193c20c5c16e732",
+      "bytes": 34384
+    }
+  ]
+}

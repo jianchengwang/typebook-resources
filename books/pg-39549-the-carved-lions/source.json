@@ -1,0 +1,2384 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 39549,
+  "slug": "pg-39549-the-carved-lions",
+  "title": "The Carved Lions",
+  "title_i18n": {
+    "en": "The Carved Lions",
+    "zh-CN": "雕刻的狮子",
+    "ja": "木彫りのライオン"
+  },
+  "author": "Mrs. Molesworth",
+  "authors_catalog": "Molesworth, Mrs., 1839-1921; Brooke, L. Leslie (Leonard Leslie), 1862-1940 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/39549/pg39549-images.html",
+  "text_sha256": "97606408d5155dbecb0f8f2618907590ba6ee1e4c8fd2f807c60aa274a92b765",
+  "page_sha256": "9aa2627b090fd7678f3ac53c5f470119357d105daed869ad779e21e8e364a5a1",
+  "extraction": {
+    "end_text": "A NEW UNIFORM EDITION"
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1921,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 12,
+    "word_count": 39959,
+    "selected_text_sha256": "945fce24eccbe3799c26cf64dd85270fa5c6b563d2da9eda63d64c100e8b0c7f",
+    "section_titles": [
+      "CHAPTER I. — OLD DAYS.",
+      "CHAPTER II. — A HAPPY EVENING.",
+      "CHAPTER III. — COMING EVENTS.",
+      "CHAPTER IV. — ALL SETTLED.",
+      "CHAPTER V. — AN UNPROMISING BEGINNING.",
+      "CHAPTER VI. — A NEW WORLD.",
+      "CHAPTER VII. — GATHERING CLOUDS.",
+      "CHAPTER VIII. — \"NOBODY—NOBODY.\"",
+      "CHAPTER IX. — OUT IN THE RAIN.",
+      "CHAPTER X. — TAKING REFUGE.",
+      "CHAPTER XI. — KIND FRIENDS.",
+      "CHAPTER XII. — GOOD NEWS."
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "9-13",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 12,
+    "word_count": 39959,
+    "kept_blocks": 905,
+    "omitted_blocks": 373,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 147,
+        "preview": "The Project Gutenberg eBook of The Carved Lions This eBook is for the use of anyone anywhere in the "
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "OUR CONSULTATION TOOK A GOOD WHILE.—p. 44.—Frontispiece."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 1,
+        "preview": "\"GOOD-BYE!\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"LITTLE GIRLS MUST NOT CONTRADICT, AND MUST NOT BE RUDE.\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"MY POOR LITTLE GIRL, WHAT IS THE MATTER?\""
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "I CREPT DOWNSTAIRS, PAST ONE SCHOOLROOM WITH ITS CLOSED DOOR."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 7,
+        "preview": "THE BROTHER LIONS ROSE INTO THE AIR."
+      },
+      {
+        "reason": "navigation-or-illustration",
+        "source_id": "",
+        "words": 10,
+        "preview": "MYRA CAME FORWARD GENTLY, HER SWEET FACE LOOKING RATHER GRAVE."
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE CARVED LIONS *** Updated editions will replace the previo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "A NEW UNIFORM EDITION"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "OF"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "MRS. MOLESWORTH'S"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "STORIES FOR CHILDREN"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "WITH"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "ILLUSTRATIONS BY WALTER CRANE AND LESLIE BROOKE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "In Ten Volumes. 12mo. Cloth. One Dollar a Volume."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 63,
+        "preview": "Tell Me a Story, and Herr Baby. \"Carrots,\" and A Christmas Child. Grandmother Dear, and Two Little W"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "THE SET, TWELVE VOLUMES, IN BOX, $12.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 168,
+        "preview": "\"It seems to me not at all easier to draw a lifelike child than to draw a lifelike man or woman: Sha"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "MRS. MOLESWORTH'S"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "STORIES FOR CHILDREN."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 93,
+        "preview": "\"There is hardly a better author to put into the hands of children than Mrs. Molesworth. I cannot ea"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "\"Mrs. Molesworth has a rare gift for composing stories for children. With a light, yet forcible touc"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 37,
+        "preview": "\"Mrs. Molesworth always has in her books those charming touches of nature that are sure to charm sma"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 56,
+        "preview": "\"No English writer of childish stories has a better reputation than Mrs. Molesworth, and none with w"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 48,
+        "preview": "\"Christmas would hardly be Christmas without one of Mrs. Molesworth's stories. No one has quite the "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "\"Mrs. Molesworth is justly a great favorite with children; her stories for them are always charmingl"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "\"Mrs. Molesworth's books are cheery, wholesome, and particularly well adapted to refined life. It is"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 44,
+        "preview": "\"No holiday season would be complete for a host of young readers without a volume from the hand of M"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "\"Mrs. Molesworth ranks with George Macdonald and Mrs. Ewing as a writer of children's stories that p"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "THE SET, ELEVEN VOLUMES, IN BOX, $11.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "TELL ME A STORY, and HERR BABY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "\"So delightful that we are inclined to join in the petition, and we hope she may soon tell us more s"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"CARROTS\"; Just a Little Boy."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "\"One of the cleverest and most pleasing stories it has been our good fortune to meet with for some t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "A CHRISTMAS CHILD; A Sketch of a Boy's Life."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "\"A very sweet and tenderly drawn sketch, with life and reality manifest throughout.\"—Pall Mall Gazet"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 54,
+        "preview": "\"This is a capital story, well illustrated. Mrs. Molesworth is one of those sunny, genial writers wh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "\"Mrs. Molesworth's A Christmas Child is a story of a boy-life. The book is a small one, but none the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 89,
+        "preview": "\"Mrs. Molesworth is one of the few writers of tales for children whose sentiment though of the sweet"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE CUCKOO CLOCK."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "\"A beautiful little story.... It will be read with delight by every child into whose hands it is pla"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "GRANDMOTHER DEAR."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "\"The author's concern is with the development of character, and seldom does one meet with the wisdom"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "TWO LITTLE WAIFS."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"Mrs. Molesworth's delightful story of Two Little Waifs will charm all the small people who find it "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 43,
+        "preview": "\"It is, in its way, indeed, a little classic, of which the real beauty and pathos can hardly be appr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 41,
+        "preview": "\"Mrs. Molesworth is such a bright, cheery writer, that her stories are always acceptable to all who "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 76,
+        "preview": "\"Two Little Waifs by Mrs. Molesworth is a pretty little fancy, relating the adventures of a pair of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 42,
+        "preview": "\"This is a charming little juvenile story from the pen of Mrs. Molesworth, detailing the various adv"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 63,
+        "preview": "\"Mrs. Molesworth is a popular name, not only with a host of English, but with a considerable army of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE TAPESTRY ROOM."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "\"Mrs. Molesworth is the queen of children's fairyland. She knows how to make use of the vague, fresh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "\"The story told is a charming one of what may be called the neo-fairy sort.... There has been nothin"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "\"Among the books for young people we have seen nothing more unique than The Tapestry Room. Like all "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 96,
+        "preview": "\"Mrs. Molesworth will be remembered as a writer of very pleasing stories for children. A new book fr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHRISTMAS-TREE LAND."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 81,
+        "preview": "\"It is conceived after a happy fancy, as it relates the supposititious journey of a party of little "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 72,
+        "preview": "\"Christmas-Tree Land, by Mrs. Molesworth, is a book to make younger readers open their eyes wide wit"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A CHRISTMAS POSY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 56,
+        "preview": "\"This is a collection of eight of those inimitable stories for children which none could write bette"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "\"A Christmas Posy is one of those charming stories for girls which Mrs Molesworth excels in writing."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 32,
+        "preview": "\"Here is a group of bright, wholesome stories, such as are dear to children, and nicely tuned to the"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 56,
+        "preview": "\"A Christmas Posy, by Mrs. Molesworth, is lovely and fragrant. Mrs. Molesworth succeeds by right to "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "THE CHILDREN OF THE CASTLE."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "\"The Children of the Castle, by Mrs. Molesworth, is another of those delightful juvenile stories of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "\"Mrs. Molesworth has given a charming story for children.... It is a wholesome book, one which the l"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 77,
+        "preview": "\"The Children of the Castle are delightful creations, actual little girls, living in an actual castl"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 51,
+        "preview": "\"Mrs. Molesworth's stories for children are always ingenious, entertaining, and thoroughly wholesome"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "FOUR WINDS FARM."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 71,
+        "preview": "\"Mrs. Molesworth's books are always delightful, but of all none is more charming than the volume wit"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "\"Like all the books she has written this one is very charming, and is worth more in the hands of a c"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 125,
+        "preview": "\"Still more delicately fanciful is Mrs. Molesworth's lovely little tale of the Four Winds Farm. It i"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 98,
+        "preview": "\"This book is for the children. We grudge it to them. There are few children in this generation good"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "NURSE HEATHERDALE'S STORY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 110,
+        "preview": "\"Nurse Heatherdale's Story is all about a small boy, who was good enough, yet was always getting int"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "\"US.\""
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"Mrs. Molesworth's Us, an Old-Fashioned Story, is very charming. A dear little six-year-old 'bruvver"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "\"A pretty and wholesome story.\"—Literary World."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "\"Us, an Old-Fashioned Story, is a sweet and quaint story of two little children who lived long ago, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "\"Us is one of Mrs. Molesworth's charming little stories for young children. The narrative ... is ful"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 47,
+        "preview": "\"Mrs. Molesworth's last story, Us, will please the readers of that lady's works by its pleasant dome"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "\"Mrs. Molesworth's story ... is very simple, refined, bright, and full of the real flavor of childho"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE RECTORY CHILDREN."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "\"It is a book written for children in just the way that is best adapted to please them.\"—Morning Pos"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "\"In The Rectory Children Mrs. Molesworth has written one of those delightful volumes which we always"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "\"A delightful Christmas book for children; a racy, charming home story, full of good impulses and br"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"Quiet, sunny, interesting, and thoroughly winning and wholesome.\"—Boston Journal."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 79,
+        "preview": "\"There is no writer of children's books more worthy of their admiration and love than Mrs. Moleswort"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 48,
+        "preview": "\"The Rectory Children, by Mrs. Molesworth, is a very pretty story of English life. Mrs. Molesworth i"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "ROSY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 28,
+        "preview": "\"Rosy, like all the rest of her stories, is bright and pure and utterly free from cant,—a book that "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "\"There is no one who has a genius better adapted for entertaining children than Mrs. Molesworth, and"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "\"An English story for children of the every-day life of a bright little girl, which will please thos"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "\"Mrs. Molesworth's clever Rosy, a story showing in a charming way how one little girl's jealousy and"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"Rosy is an exceedingly graceful and interesting story by Mrs. Molesworth, one of the best and most "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "THE GIRLS AND I."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 90,
+        "preview": "\"Perhaps the most striking feature of this pleasant story is the natural manner in which it is writt"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 120,
+        "preview": "\"Jack himself tells the story of The Girls and I, assisted of course by Mrs. Molesworth, whose name "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "\"A delightful and purposeful story which no one can read without being benefited.\"—New York Observer"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "MARY."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "\"Mrs. Molesworth's reputation as a writer of story-books is so well established that any new book of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "MACMILLAN & CO.,"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "66 FIFTH AVENUE, NEW YORK."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "MACMILLAN & CO.'S"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "CATALOGUE"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "OF"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "BOOKS FOR THE YOUNG."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 48,
+        "preview": "Messrs. MACMILLAN & CO. are the agents in the United States for the publications of the Oxford and C"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "ADVENTURE SERIES, THE. Large 12mo. Fully Illustrated. $1.50 each volume."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Adventures of a Younger Son. By John Edward Trelawny. With an Introduction by Edward Garnett."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "Madagascar; or, Robert Drury's Journal During Fifteen Years' Captivity on that Island, and a Further"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "Memoirs of the Extraordinary Military Career of John Shipp, Late Lieutenant in His Majesty's 87th Re"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "The Adventures of Thomas Pellow, of Penryn, Mariner, Twenty-three Years in Captivity among the Moors"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "The Buccaneers and Marooners of America. Being an Account of the Famous Adventures and Daring Deeds "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "The Log of a Jack Tar; or, The Life of James Choyce, Master Mariner. Now first published, with O'Bri"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "The Story of the Filibusters. By James Jeffrey Roche. To which is added \"The Life of Colonel David C"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 74,
+        "preview": "\"Mr. Roche has faithfully compared and sifted the statements of those who took part in the various e"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "The Voyages and Adventures of Ferdinand Mendez Pinto, the Portuguese. Done into English by Henry Cog"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"It is decidedly reading of the most attractive kind, brimful of adventure piquantly related, and of"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "A Master Mariner. Being the Life and Adventures of Captain Robert William Eastwick. Edited by Herber"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 28,
+        "preview": "Hard Life in the Colonies, and Other Adventures by Sea and Land. Now first printed. Compiled from Pr"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "ÆSOP'S FABLES. Illustrated. 50 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "ANDERSEN (Hans Christian). Fairy Tales and Sketches. Translated by C. C. Peachy, H. Ward, A. Plesner"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"The translation most happily hits the delicate quaintness of Andersen—most happily transposes into "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "Tales for Children. With 48 Full-page Illustrations by Wehnert, and 57 small Engravings on wood by W"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "This volume contains several tales that are in no other edition published in this country, and with "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "ARIOSTO. Paladin and Saracen. Stories from Ariosto. By W. C. Hollway-Calthrop. With Illustrations. $"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "ATKINSON. The Last of the Giant Killers. By the Rev. J. C. Atkinson, author of \"A Moorland Parish.\" "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "AWDRY (F.). The Story of a Fellow Soldier. A Life of Bishop Patteson for the Young. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "BAKER. Wild Beasts and Their Ways. Reminiscences in Asia, Africa, and America. By Sir Samuel W. Bake"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 42,
+        "preview": "\"A book which is destined not only to serve as a chart and compass for every hunter of big game, but"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "BEESLY (Mrs.). Stories from the History of Rome. 16mo. 60 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "\"Of all the stories we remember from history none have struck us as so genuinely good—with the right"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "BERTZ (E.). The French Prisoners: A Story for Boys. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "\"Written throughout in a wise and gentle spirit, and omits no opportunity to deprecate war as a barb"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "\"The story is an extremely interesting one, full of incident, told in a quiet, healthful way, and wi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "BUNCE (J. T.). Fairy Tales: Their Origin and Meaning. 16mo. 75 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "CARPENTER. Truth in Tale. Addresses Chiefly to Children. By W. Boyd Carpenter, D.D., Bishop of Ripon"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 30,
+        "preview": "\"These ingenious and interesting tales by Bishop Carpenter are full of poetic beauty and of religiou"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "CARROLL. Works by Lewis Carroll."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Alice's Adventures in Wonderland. With 42 Illustrations by Tenniel. 12mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "A German Translation. 12mo. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "A French Translation. 12mo. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "An Italian Translation. 12mo. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"An excellent piece of nonsense.\"—Times."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"That most delightful of children's stories.\"—Saturday Review."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "\"Elegant and delicious nonsense.\"—Guardian."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "Through the Looking-glass and What Alice Found There. 50 Illustrations by Tenniel. 12mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "\"Will fairly rank with the tale of her previous experience.\"—Daily Telegraph."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"Many of Mr. Tenniel's designs are masterpieces of wise absurdity.\"—Athenæum."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "\"Whether as regarding author or illustrator, this book is a jewel rarely to be found nowadays.\"—Echo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "Alice's Adventures in Wonderland and Through the Looking Glass. In 1 vol. With Tenniel's Illustratio"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "Rhyme? and Reason? With 65 Illustrations by Arthur B. Frost, and nine by Henry Holiday. 12mo. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "This book is a reprint, with additions, of the comic portions of \"Phantasmagoria, and other Poems,\" "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "A Tangled Tale. Reprinted from the \"Monthly Packet.\" With Illustrations. 12mo. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "Alice's Adventures under Ground. Being a Fac-simile of the original MS. Book afterward developed int"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "The Hunting of the Snark: An Agony in Eight Fits. By Lewis Carroll. With nine Illustrations by Henry"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Sylvie and Bruno. With 46 Illustrations by Harry Furniss. 12mo. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 41,
+        "preview": "\"Alice was a delightful little girl, but hardly more pleasing than are the hero and heroine of this "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 40,
+        "preview": "\"Mr. Furniss's illustrations, which are numerous, are at once graceful and full of humor. We pay him"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "The Nursery \"Alice.\" Containing 20 coloured enlargements from Tenniel's Illustrations to \"Alice's Ad"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"Let the little people rejoice! the most charming book in the world has appeared for them. 'The Nurs"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "CHURCH. Works by the Rev. A. J. Church."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "The Story of the Iliad. With Coloured Illustrations. 12mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "The Story of the Odyssey. With Coloured Illustrations. 12mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Stories from the Bible. With Illustrations after Julius Schnorr. 12mo. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "\"Of all the books of this kind, this is the best we have seen.\"—Examiner."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 27,
+        "preview": "\"The book will be of infinite value to the student or teacher of the Scriptures, and the stories are"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Stories from Bible. Illustrated. Second Series. Shortly."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "The Greek Gulliver. Stories from Lucian. With Illustrations by C. O. Murray. New edition. 16mo. Pape"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "\"A curious example of ancient humor.\"—Chicago Standard."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "The Burning of Rome. A Story of the Times of Nero. With Illustrations. 12mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "CLIFFORD (Mrs. W. K.). Anyhow Stories, Moral and Otherwise. With Illustrations. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "CRAIK. Works by Mrs. Craik, author of \"John Halifax, Gentleman.\""
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Sermons out of Church. New Edition. 12mo. $1.75."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Children's Poetry. Globe 8vo. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "The Little Lame Prince and His Travelling Cloak. A Parable for Young and Old. With Illustrations. 12"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Little Sunshine's Holiday. Globe 8vo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Adventures of a Brownie. With Illustrations. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Alice Learmont. A Fairy Tale. With Illustrations. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Our Year: a Child's Book. Illustrated. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "The Fairy Book. The Best Popular Fairy Stories. Selected and rendered anew. Golden Treasury Series. "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "DEFOE. The Adventures of Robinson Crusoe. Edited from the Original Edition by Henry Kingsley. Globe "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Golden Treasury Series. 18mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "DE MORGAN. The Necklace of Princess Florimonde, and other Stories. By Mary de Morgan. Illustrated by"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "\"The stories display considerable originality, and Mr. Walter Crane's characteristic illustrations c"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "\"A real gem.\"—Punch."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "ENGLISH MEN OF ACTION SERIES. 12mo. Cloth, limp, 60 cents; cloth, uncut edges, 75 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "\"An admirable set of brief biographies.... The volumes are small, attractive, and inexpensive.\"—Dial"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "\"The 'English Men of Action' promises to be a notable series of short biographies. The subjects are "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Gordon. By Col. Sir W. Butler."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Henry the Fifth. By the Rev. A. J. Church."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Livingstone. By Thomas Hughes."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Lord Lawrence. By Sir R. Temple."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Wellington. By George Hooper."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Dampier. By W. Clark Russell."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Monk. By Julian Corbett."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Strafford. By H. D. Traill."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Warren Hastings. By Sir Alfred Lyall, K.C.B."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Peterborough. By William Stebbing."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Captain Cook. By Walter Besant."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Havelock. By Archibald Forbes."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Clive. By Col. Sir Charles Wilson."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Drake. By Julian Corbett."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Warwick, the King Maker. By C. W. Oman."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Napier. By Col. Sir William Butler."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Rodney. By D. G. Hannay."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Montrose. By Mowbray Morris. Shortly."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "EWING (J. H.). We and the World. A Story for Boys. By the late Juliana Horatio Ewing. With seven Ill"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper boards, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 45,
+        "preview": "\"A very good book it is, full of adventure graphically told. The style is just what it should be; si"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 32,
+        "preview": "A Flat Iron for a Farthing; or, Some Passages in the Life of an Only Son. With 12 Illustrations by H"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper boards, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 76,
+        "preview": "\"Let every parent and guardian who wishes to be amused, and at the same time to please a child, purc"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 25,
+        "preview": "Mrs. Overtheway's Remembrances. Illustrated with nine fine full-page Engravings by Pasquier, and Fro"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper boards, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 72,
+        "preview": "\"It is not often nowadays the privilege of a critic to grow enthusiastic over a new work; and the ra"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "Six to Sixteen. A Story for Girls. With 10 Illustrations by Mrs. Allingham. 7th Edition. 12mo. $1.00"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper boards, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "\"It is scarcely necessary to say that Mrs. Ewing's book is one of the best of the year.\"—Saturday Re"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "A Great Emergency. (A very Ill-Tempered Family; Our Field; Madame Liberality.) With four Illustratio"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper boards, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 58,
+        "preview": "\"Never has Mrs. Ewing published a more charming volume of stories, and that is saying a very great d"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 24,
+        "preview": "Jan of the Windmill. A Story of the Plains. With 11 Illustrations by Mrs. Allingham and design on th"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper boards, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "\"The life and its surroundings, the incidents of Jan's childhood, are described with Mrs. Ewing's ac"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 35,
+        "preview": "Melchior's Dream. (The Blackbird's Nest; Friedrich's Ballad; A Bit of Green; Monsieur the Viscount's"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "Cheap Illustrated Edition. 4to. In paper wrapper, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "\"'Melchior's Dream' is an exquisite little story, charming by original humor, buoyant spirits, and t"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "Lob-lie-by-the-fire; or, the Luck of Lingborough, and Other Tales. With three Illustrations by Georg"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "\"Mrs. Ewing has written as good a story as her 'Brownies,' and that is saying a great deal. 'Lob-lie"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 34,
+        "preview": "The Brownies. (The Land of Lost Toys; Three Christmas Trees; An Idyl of the Wood; Christmas Crackers"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "Cheap Illustrated Edition. Fcap. 4to. In paper wrapper, 35 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 44,
+        "preview": "\"If a child once begins 'The Brownies,' it will get so deeply interested in it that when bedtime com"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 41,
+        "preview": "FREILIGRATH-KROEKER. Alice, and other Fairy Plays for Children, including a Dramatised Version (unde"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"They have stood a practical ordeal, and stood it triumphantly.\"—Times."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "GASKOIN (Mrs. H.). Children's Treasury of Bible Stories. Edited by the Rev. G. F. Maclear, D.D. 18mo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "Part I. Old Testament. II. New Testament. III. Three Apostles: St. James, St. Paul, St. John."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "GATTY (Mrs.). Parables from Nature. With Illustrations by Burne-Jones, Holman Hunt, Tenniel, Wolf, a"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 32,
+        "preview": "GOLDEN TREASURY SERIES. Uniformly printed in 18mo, with Vignette Titles by J. E. Millais, Sir Noel P"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Also bound in half morocco, $2.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Half calf, $2.50. Padded calf, $3.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "Or beautifully bound in full morocco, padded, solid gilt edges, in boxes, $2.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "The Children's Garland from the Best Poets. Selected and arranged by Coventry Patmore, with a Vignet"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 33,
+        "preview": "\"Mr. Patmore deserves our gratitude for having searched through the wide field of English Poetry for"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "The Pilgrim's Progress, from this World to that which is to come. By John Bunyan, with a Vignette by"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"A beautiful and scholarly reprint.\"—Spectator."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 26,
+        "preview": "The Fairy Book. The best popular Fairy Tales. Selected and rendered anew by the Author of \"John Hali"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "\"Miss Mulock has the true instinct into the secret of a perfect Fairy Tale ... delightful selection "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "The Adventures of Robinson Crusoe. Edited by J. W. Clark, M.A., with a Vignette by Sir J. E. Millais"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "\"This cheap and pretty copy, rigidly exact to the original, will be a prize to many book buyers.\"—Ex"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "The Sunday Book of Poetry for the Young. Selected and arranged by C. F. Alexander."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 23,
+        "preview": "A Book of Golden Deeds of All Times and All Countries. Gathered and Narrated Anew. By the Author of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "Children's Treasury of English Song. Edited by F. T. Palgrave."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Tom Brown's School Days. By an Old Boy."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "Lamb's Tales from Shakespeare. Edited by the Rev. A. Ainger."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 38,
+        "preview": "GOLDSMITH. The Vicar of Wakefield. By Oliver Goldsmith. With 182 Illustrations by Hugh Thomson, and "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 72,
+        "preview": "\"Mr. Thomson hits the exact line of humor which lies in Goldsmith's creations. His work is refined, "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "\"A more bewitching bit of book work has not reached us for many a day.\"—New York Tribune."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "GREENWOOD. The Moon Maiden, and Other Stories. By Jessy E. Greenwood. 12mo. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "\"A collection of brightly written and distinctly original stories in which fairy lore and moral alle"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "GRIMM'S Fairy Tales. The Household Stories. Translated by Lucy Crane, and done into pictures by Walt"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "HALLWARD (R. F.). Flowers of Paradise. Music—Verse—Design—Illustration. Printed in colors by Edmund "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 63,
+        "preview": "\"To our mind one of the prettiest—if not the prettiest—of this year's picture books. The pages are v"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "HUGHES. Works by Thomas Hughes."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "Tom Brown's School Days. New Illustrated Edition. 12mo. Cloth. Gilt. $1.00 Pocket Edition, 50 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "\"The most famous boy's book in the language.\"—Daily News."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Golden Treasury Edition. 18mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "Cheap Edition. With 58 Illustrations by Arthur Hughes and S. P. Hall. 8vo. Paper. 25 cents."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "Tom Brown at Oxford. New Illustrated Edition. 12mo. Cloth. Gilt. $1.50. English Edition. 12mo. $1.25"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 22,
+        "preview": "\"In no other work that we can call to mind are the finer qualities of the English gentleman more hap"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"A book of great power and truth.\"—National Review."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "HULLAH (M. A.). Hannah Tarne. A Story for Girls. With Illustrations. 16mo. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "KEARY. Works by A. and E. Keary."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "The Heroes of Asgard. Tales from Scandinavian Mythology. Illustrated. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "The Magic Valley; or, Patient Antoine. With Illustrations. 16mo. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "KINGSLEY. Works by Charles Kingsley."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "Madam How and Lady Why: First Lessons in Earth Lore for Children. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "English Edition, $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "The Heroes; or, Greek Fairy Tales for My Children. With Illustrations. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "English Edition. 12mo. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "\"This lovely version of three of the most famous folk stories of the old Greeks.\"—Mail and Express."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "\"Ought to be in the hands of every child in the country.\"—Christian Union."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "The Water-Babies: A Fairy Tale for a Land Baby. Illustrated. 12mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "English Edition. 12mo. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 78,
+        "preview": "\"They have included the admirable series of 100 illustrations by Mr. Linley Sambourne, which have hi"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 50,
+        "preview": "\"They are simply inimitable, and will delight boys and girls of mature age, as well as their juniors"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "Glaucus; or, The Wonders of the Seashore. With Coloured Illustrations. $2.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "LAMB. Tales from Shakespeare. Edited, with Preface, by the Rev. A. Ainger, M.A. Golden Treasury Seri"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 21,
+        "preview": "MACMILLAN. The Gate Beautiful. Bible Teachings for the Young. By the Rev. Hugh Macmillan, author of "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "MADAME TABBY'S ESTABLISHMENT. By Kari. Illustrated. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 16,
+        "preview": "MARRYAT'S (Captain) BOOKS FOR BOYS. Uniformly bound in blue cloth. 8 vols. Large. 16mo. $1.00 each."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 14,
+        "preview": "Masterman Ready; or, The Wreck of the Pacific. With 93 Engravings on Wood. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "Poor Jack. With 16 Illustrations. 22d Edition. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "The Mission; or, Scenes in Africa. With Illustrations by John Gilbert. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "The Settlers in Canada. With Illustrations by Gilbert and Dalziel. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 20,
+        "preview": "The Privateersman. Adventures by Sea and Land in Civil and Savage Life, One Hundred Years Ago. With "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 17,
+        "preview": "The Pirate, and the Three Cutters. Illustrated with eight Engravings. With a Memoir of the Author. $"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Peter Simple. With eight Full-page Illustrations. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "Midshipman Easy. With eight Illustrations. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "MARSHALL. Winifrede's Journal. By Mrs. Emma Marshall, author of \"Life's Aftermath,\" \"Mrs. Willoughby"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 18,
+        "preview": "MOLESWORTH. Works by Mrs. Molesworth (Ennis Graham). With Illustrations by Walter Crane. 16mo. Unifo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Herr Baby."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Grandmother Dear."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "Tell Me a Story."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Cuckoo Clock."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "The Tapestry Room. A Child's Romance."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "A Christmas Child: A Sketch of a Boy-Life."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 1,
+        "preview": "Rosy."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Two Little Waifs."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 2,
+        "preview": "Christmas-Tree Land."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "\"Carrots,\" Just a Little Boy."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 4,
+        "preview": "\"Us:\" An Old-fashioned Story."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "Four Winds Farm."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Little Miss Peggy. Only a Nursery Story."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "A Christmas Posy."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 3,
+        "preview": "The Rectory Children."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "The Children of the Castle."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "Nurse Heatherdale's Story. With Illustrations by L. Leslie Brooke. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "\"There is no more acceptable writer for children than Mrs. Molesworth.\"—Literary World."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 29,
+        "preview": "\"No English writer of stories for children has a better reputation than Mrs. Molesworth, and none wh"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"Mistress of the art of writing for children.\"—Spectator."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "NOEL. Wandering Willie. By Lady Augusta Noel. Globe 8vo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "OLIPHANT. Agnes Hopetown's School and Holidays. By Mrs. Oliphant. With Illustrations. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "PATMORE (C.). The Children's Garland from the Best Poets. Selected. Golden Treasury Series. 18mo. $1"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 39,
+        "preview": "PROCTER (A. A.). Legends and Lyrics. By Adelaide Anne Procter. Original Edition. First Series. With "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 31,
+        "preview": "Legends and Lyrics. New edition in one vol. With new Portrait etched by C. O. Murray, from a paintin"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 10,
+        "preview": "RUNAWAY (THE). By the author of \"Mrs. Jerningham's Journal.\" $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 11,
+        "preview": "RUTH and Her Friends. A Story for Girls. With Illustrations. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "St. JOHNSON. Charlie Asgarde. A Tale of Adventure. By Alfred St. Johnson. With Illustrations. $1.50."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 44,
+        "preview": "\"Will not prevent boys from reading it with keen interest. The incidents of savage life are describe"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 19,
+        "preview": "\"Whoever likes Robinson Crusoe—and who does not like it?—is pretty sure to like 'Charlie Asgarde.'\"—"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 15,
+        "preview": "\"The story is spirited and interesting, full of exciting incidents and situations.\"—Boston Saturday "
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "SPENSER. Tales chosen from the Fairie Queene. By Sophia H. Maclehose. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 6,
+        "preview": "STEPHENSON. Works by Mrs. J. Stephenson."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 7,
+        "preview": "Nine Years Old. With Illustrations. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 5,
+        "preview": "Pansie's Flour Bin. Illustrated. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 9,
+        "preview": "When I was a Little Girl. Illustrated. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 12,
+        "preview": "When Papa comes Home. The Story of Tip, Tap, Toe. Illustrated. $1.25."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "STEWART. The Tale of Troy. Done into English by Aubrey Stewart. 16mo. $1.00."
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 75,
+        "preview": "\"We are much pleased with 'The Tale of Troy,' by Aubrey Stewart.... The Homeric legend is given in s"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE CARVED LIONS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "THE CARVED"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "LIONS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "BY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "MRS. MOLESWORTH"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "ILLUSTRATED BY L. LESLIE BROOKE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "1895"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "LONDON MACMILLAN & CO"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Copyright, 1895,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "By MACMILLAN AND CO."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER I.Old Days"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER II.A Happy Evening"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER III.Coming Events"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER IV.All Settled"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER V.An Unpromising Beginning"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "CHAPTER VI.A New World"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER VII.Gathering Clouds"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "CHAPTER VIII.\"Nobody—Nobody\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "CHAPTER IX.Out in the Rain"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER X.Taking Refuge"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER XI.Kind Friends"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "CHAPTER XII.Good News"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "ILLUSTRATIONS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "Our consultation took a good while"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "\"Good-bye!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "\"Little girls must not contradict, and must not be rude\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "\"My poor little girl, what is the matter?\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "I crept downstairs, past one schoolroom with its closed door"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "The brother lions rose into the air"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 10,
+        "preview": "Myra came forward gently, her sweet face looking rather grave"
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "945fce24eccbe3799c26cf64dd85270fa5c6b563d2da9eda63d64c100e8b0c7f",
+    "html_sha256": "97606408d5155dbecb0f8f2618907590ba6ee1e4c8fd2f807c60aa274a92b765",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/001.txt",
+      "sha256": "958395e0e1408d85200a99570b235171958ec32593300d5f671e21ee420de38b",
+      "bytes": 18058
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/002.txt",
+      "sha256": "10b5bc0ca206a46c5a3fa0b2a710a4ba141288b4714471bca6838c397a9654d5",
+      "bytes": 16907
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/003.txt",
+      "sha256": "cfc28bdc9f359252fc3df316a99e75a3e1e48335cf3b83eec12299c96e77501b",
+      "bytes": 16217
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/004.txt",
+      "sha256": "4643280b4d4f27e6040bbfeae9392128b08a4c790cc853b51500aa79de966941",
+      "bytes": 16511
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/005.txt",
+      "sha256": "db846c36c3c861ffe0f198b1d339c9a8710aabb1bde295a62c63a7eb797ada7d",
+      "bytes": 19582
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/006.txt",
+      "sha256": "a9a0328fa0c1b7a45b47e5e95fce2279b0079d8943073056315caf46d9b494a9",
+      "bytes": 17620
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/007.txt",
+      "sha256": "94b07376005e4f75161309c96913145d711e15f143aa3b05c08607c63128fe25",
+      "bytes": 16263
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/008.txt",
+      "sha256": "eed7a05fa39579b7e0aff42a93f340422ec0d24eab487965e941e68f6145056a",
+      "bytes": 19673
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/009.txt",
+      "sha256": "e626332219654f30f0524621cf3b914dbd2b5cf0aa821fc0ebf27365f06c4a6d",
+      "bytes": 18614
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/010.txt",
+      "sha256": "1a74b2d04ceb8ff038cb16c2cd6404775815f3cd952ebf0bd731fdd5b7b31f2a",
+      "bytes": 15908
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/011.txt",
+      "sha256": "60899594b5a561f117ce5d3cdc1a642e8ae168477ec376cccb67f1d942dcf45a",
+      "bytes": 20622
+    },
+    {
+      "path": "books/pg-39549-the-carved-lions/chapters/012.txt",
+      "sha256": "01c130117f6434318a9239bcb9ed865ccd1701578012afee4d948b94329360a6",
+      "bytes": 15577
+    }
+  ]
+}

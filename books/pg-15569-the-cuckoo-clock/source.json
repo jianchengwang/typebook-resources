@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 15569,
+  "slug": "pg-15569-the-cuckoo-clock",
+  "title": "The Cuckoo Clock",
+  "title_i18n": {
+    "en": "The Cuckoo Clock",
+    "zh-CN": "布谷鸟钟",
+    "ja": "かっこう時計"
+  },
+  "author": "Mrs. Molesworth",
+  "authors_catalog": "Molesworth, Mrs., 1839-1921; Crane, Walter, 1845-1915 [Illustrator]",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/15569/pg15569-images.html",
+  "text_sha256": "5faeceb1a0172ffd6b6075fa2d3ea2578ea7dab1a65edc7b633160dff4854791",
+  "page_sha256": "278af0555c1c63898750a6b6ef39d0144bfe14b8d4f78c55283cd15e2c748f14",
+  "extraction": {
+    "end_text": "London: Printed by William Clowes and Sons, Limited, Stamford Street and Charing Cross."
+  },
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1921,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 11,
+    "word_count": 36899,
+    "selected_text_sha256": "1d52da0f646b820159e5175da7b018cf677abd1d0dbc787c0a0923bdfd040ee8",
+    "section_titles": [
+      "CHAPTER I. — THE OLD HOUSE.",
+      "CHAPTER II. — IMPATIENT GRISELDA.",
+      "CHAPTER III. — OBEYING ORDERS.",
+      "CHAPTER IV. — THE COUNTRY OF THE NODDING MANDARINS.",
+      "CHAPTER V. — PICTURES.",
+      "CHAPTER VI. — RUBBED THE WRONG WAY.",
+      "CHAPTER VII. — BUTTERFLY-LAND.",
+      "CHAPTER VIII. — MASTER PHIL.",
+      "CHAPTER IX. — UP AND DOWN THE CHIMNEY.",
+      "CHAPTER X. — THE OTHER SIDE OF THE MOON.",
+      "CHAPTER XI. — \"CUCKOO, CUCKOO, GOOD-BYE!\""
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "core",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 11,
+    "word_count": 36899,
+    "kept_blocks": 1065,
+    "omitted_blocks": 33,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 148,
+        "preview": "The Project Gutenberg eBook of The Cuckoo Clock This eBook is for the use of anyone anywhere in the "
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK THE CUCKOO CLOCK *** Updated editions will replace the previo"
+      },
+      {
+        "reason": "explicit-text-bound",
+        "source_id": "",
+        "words": 13,
+        "preview": "London: Printed by William Clowes and Sons, Limited, Stamford Street and Charing Cross."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 16,
+        "preview": "E-text prepared by Ted Garvin, Chuck Greif, and the Project Gutenberg Online Distributed Proofreadin"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "IT WAS A LITTLE BOAT."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "THE CUCKOO CLOCK"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "BY MRS. MOLESWORTH,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "AUTHOR OF \"HERR BABY,\" \"CARROTS,\" \"GRANDMOTHER DEAR,\" ETC."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "ILLUSTRATED BY WALTER CRANE."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "London: MACMILLAN AND CO. AND NEW YORK."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "1895"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "TO"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "MARY JOSEPHINE,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 8,
+        "preview": "AND TO THE DEAR MEMORY OF HER BROTHER,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "THOMAS GRINDAL,"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "BOTH FRIENDLY LITTLE CRITICS OF"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "MY CHILDREN'S STORIES."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Edinburgh, 1877."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "CONTENTS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "I. THE OLD HOUSE"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "II. IMPATIENT GRISELDA"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "III. OBEYING ORDERS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "IV. THE COUNTRY OF THE NODDING MANDARINS"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "V. PICTURES"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "VI. RUBBED THE WRONG WAY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "VII. BUTTERFLY-LAND"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "VIII. MASTER PHIL"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 6,
+        "preview": "IX. UP AND DOWN THE CHIMNEY"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 7,
+        "preview": "X. THE OTHER SIDE OF THE MOON"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 4,
+        "preview": "XI. \"CUCKOO, CUCKOO, GOOD-BYE!\""
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "LIST_OF_ILLUSTRATIONS",
+        "words": 3,
+        "preview": "LIST OF ILLUSTRATIONS:"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 36,
+        "preview": "IT WAS A LITTLE BOAT \"WHY WON'T YOU SPEAK TO ME?\" MANDARINS NODDING \"MY AUNTS MUST HAVE COME BACK!\" "
+      }
+    ],
+    "warnings": [],
+    "heading_level": "mixed-chapter-headings",
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "1d52da0f646b820159e5175da7b018cf677abd1d0dbc787c0a0923bdfd040ee8",
+    "html_sha256": "5faeceb1a0172ffd6b6075fa2d3ea2578ea7dab1a65edc7b633160dff4854791",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/001.txt",
+      "sha256": "4f7dc6a37056d131211d1ec92ba49cbe3086bfd205cadd220c784c18ca6d311b",
+      "bytes": 16536
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/002.txt",
+      "sha256": "6275a8fac1222d74a51f84a869e789a1e8a67136ddc3064de57b81c17b82f96b",
+      "bytes": 15757
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/003.txt",
+      "sha256": "182f3b2e6e3d58c83c7502c5bba92e13d2c02f95683fefb0267f1d31013d91e6",
+      "bytes": 19200
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/004.txt",
+      "sha256": "5815c65205b2dbdd850d28909d2a266c9ad0cb0b054e8ec801b1e91d1202fc1b",
+      "bytes": 21883
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/005.txt",
+      "sha256": "2e69cbd727566b5a7328477c918cfa1b1ace8ee739d36d816f89bd17c78fe213",
+      "bytes": 21572
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/006.txt",
+      "sha256": "b3c3562569e765a7540504cc403b3d8fb89f0e07de07177e273a2388fe8cebe0",
+      "bytes": 17755
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/007.txt",
+      "sha256": "48fe324f1f39d58e06f4323b7205c57449223987d9bbf5c81c66b6c43a5032c6",
+      "bytes": 20183
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/008.txt",
+      "sha256": "c1384723a6800f0060cf1a2e437a25d91dbe064ff7ef9efa2fd7868f0a1a3c65",
+      "bytes": 18243
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/009.txt",
+      "sha256": "8c7f6f33dac0d3b774280bddcb87988be417d3f52a5038d0563e936dd118fcba",
+      "bytes": 21545
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/010.txt",
+      "sha256": "a2e8a2a6162acb5165fe5c2d3a1b6f5f78aa5a7340b209f2f0fd7d4cde70152e",
+      "bytes": 15623
+    },
+    {
+      "path": "books/pg-15569-the-cuckoo-clock/chapters/011.txt",
+      "sha256": "60a27b5959c5b2d437b46ebeef8ca21a3bbd7599e61793e9ea4e215c4c5de1ae",
+      "bytes": 15103
+    }
+  ]
+}

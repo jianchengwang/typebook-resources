@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "import_id": "gutenberg-english-youth-v1",
+  "gutenberg_id": 486,
+  "slug": "pg-486-ozma-of-oz",
+  "title": "Ozma of Oz",
+  "title_i18n": {
+    "en": "Ozma of Oz",
+    "zh-CN": "奥兹玛公主",
+    "ja": "オズのオズマ姫"
+  },
+  "author": "L. Frank Baum",
+  "authors_catalog": "Baum, L. Frank (Lyman Frank), 1856-1919",
+  "original_language": "en",
+  "original_language_basis": "Known English-original work or original English literary retelling; catalog language is English and no translator is listed. Confirm edition during import.",
+  "genre": "fantasy",
+  "text_url": "https://www.gutenberg.org/cache/epub/486/pg486-images.html",
+  "text_sha256": "7dee1dc200914bcbb42d0f92c6273c955dd27173cd005a0326c271f231ef03ad",
+  "page_sha256": "7bd18d606635ca9dab5502463d939229a93d294f905747e8e40bcf87a4170035",
+  "extraction": {},
+  "rights": {
+    "reviewed": true,
+    "source_status": "Public domain in the USA.",
+    "evidence": "Retained official catalog.html and original.html source license. English-original selection; no source illustrations reused.",
+    "author_death_year": 1919,
+    "jurisdiction_note": "US public-domain designation only. Verify local law; author death date is not a worldwide clearance."
+  },
+  "completeness": {
+    "reviewed": true,
+    "section_count": 21,
+    "word_count": 38274,
+    "selected_text_sha256": "37d629cd88e557fee0bb653153f474a2bec52c959e9819b91bc321867c0d2aad",
+    "section_titles": [
+      "1. The Girl in the Chicken Coop",
+      "2. The Yellow Hen",
+      "3. Letters in the Sand",
+      "4. Tiktok the Machine Man",
+      "5. Dorothy Opens the Dinner Pail",
+      "6. The Heads of Langwidere",
+      "7. Ozma of Oz to the Rescue",
+      "8. The Hungry Tiger",
+      "9. The Royal Family of Ev",
+      "10. The Giant with the Hammer",
+      "11. The Nome King",
+      "12. The Eleven Guesses",
+      "13. The Nome King Laughs",
+      "14. Dorothy Tries to be Brave",
+      "15. Billina Frightens the Nome King",
+      "16. Purple, Green, and Gold",
+      "17. The Scarecrow Wins the Fight",
+      "18. The Fate of the Tin Woodman",
+      "19. The King of Ev",
+      "20. The Emerald City",
+      "21. Dorothy's Magic Belt"
+    ],
+    "review_note": "Source heading/contents inventory, narrative openings and endings, and atypical prologue/introductory boundaries reviewed. Checksums and selected-block reconstruction verified. Not a word-for-word proofread against a print edition.",
+    "section_count_note": "Source narrative chapter/story divisions retained.",
+    "non_narrative_matter": "Navigation, illustration captions, source boilerplate, publisher advertising and selected non-narrative prefatory/dedication matter are omitted from practice text; original.html retains the full downloaded edition."
+  },
+  "practice": {
+    "suggested_native_reader_age": "8-12",
+    "age_basis": "Editorial estimate for native-language readers; review child suitability.",
+    "not_cefr_tested": true,
+    "language_note": "Unabridged historic English, not a simplified/graded reader. Usually intermediate to advanced learning material.",
+    "curation_priority": "extended",
+    "content_notes": [
+      "Historical vocabulary and sentence structures",
+      "Age is an editorial native-reader estimate, not a CEFR rating"
+    ]
+  },
+  "retrieved_on": "2026-11-07",
+  "extraction_diagnostics": {
+    "chapter_count": 21,
+    "word_count": 38274,
+    "kept_blocks": 1243,
+    "omitted_blocks": 15,
+    "omitted": [
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-header",
+        "words": 138,
+        "preview": "The Project Gutenberg eBook of Ozma of Oz This eBook is for the use of anyone anywhere in the United"
+      },
+      {
+        "reason": "gutenberg-apparatus",
+        "source_id": "pg-footer",
+        "words": 2906,
+        "preview": "*** END OF THE PROJECT GUTENBERG EBOOK OZMA OF OZ *** Updated editions will replace the previous one"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "id-5625337848035377257",
+        "words": 39,
+        "preview": "THIS EBOOK WAS ONE OF PROJECT GUTENBERG'S EARLY FILES PRODUCED AT A TIME WHEN PROOFING METHODS AND T"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "Ozma of Oz"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 37,
+        "preview": "A Record of Her Adventures with Dorothy Gale of Kansas, the Yellow Hen, the Scarecrow, the Tin Woodm"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "by"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 3,
+        "preview": "L. Frank Baum"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 12,
+        "preview": "The Author of The Wizard of Oz, The Land of Oz, etc."
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 1,
+        "preview": "Contents"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 113,
+        "preview": "--Author's Note-- 1. The Girl in the Chicken Coop 2. The Yellow Hen 3. Letters in the Sand 4. Tiktok"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 2,
+        "preview": "Author's Note"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 138,
+        "preview": "My friends the children are responsible for this new \"Oz Book,\" as they were for the last one, which"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 74,
+        "preview": "Well, here is \"more about Dorothy,\" and about our old friends the Scarecrow and the Tin Woodman, and"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 55,
+        "preview": "If this judgment is unbiased and correct, and the little folks find this new story \"real Ozzy,\" I sh"
+      },
+      {
+        "reason": "before-first-heading",
+        "source_id": "",
+        "words": 5,
+        "preview": "L. FRANK BAUM. MACATAWA, 1907."
+      }
+    ],
+    "warnings": [],
+    "heading_level": 3,
+    "explicit_chapter_anchors": false,
+    "heading_pattern": null,
+    "reconstruction_verified": true,
+    "selected_text_sha256": "37d629cd88e557fee0bb653153f474a2bec52c959e9819b91bc321867c0d2aad",
+    "html_sha256": "7dee1dc200914bcbb42d0f92c6273c955dd27173cd005a0326c271f231ef03ad",
+    "parser_recoveries": [],
+    "completeness_note": "Reconstruction checks selected source blocks only; source edition and chapter inventory require review."
+  },
+  "adaptation": "Plain text extraction only. No abridgement, simplification or generated replacement narrative.",
+  "cover": "New typographic cover; no source artwork used.",
+  "chapter_bodies": [
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/001.txt",
+      "sha256": "3984092ecc74c8a7ff5ce936b7e9fe2e521334e5e9afe0957c16e785a66c12b6",
+      "bytes": 9372
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/002.txt",
+      "sha256": "02ab5a897030b7c57c845aa85aa84c33195bd0ccfae011cdcec7e6b2422c0efd",
+      "bytes": 11632
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/003.txt",
+      "sha256": "d1860bbb261fc95989b6fd09f13737afa233193c377498a19922468b8a1a8257",
+      "bytes": 9831
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/004.txt",
+      "sha256": "b37a9a0ca5043541f58be29e08b99f2f3e5cbb28ede088b503c4ca9f59d24942",
+      "bytes": 11241
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/005.txt",
+      "sha256": "2c08122f7f78d1b7a19f024dd0f50847c6af6a582304c496842db7eec5592deb",
+      "bytes": 9891
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/006.txt",
+      "sha256": "3c91065a0939fbd6b13c966d8692b16c9d3ce6d211c70f941ecbba8c0c1db1dd",
+      "bytes": 21059
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/007.txt",
+      "sha256": "ed8a005d635070367c581ac31c52fcd3c04ec32c2f391c929fb5bc1615ee0570",
+      "bytes": 12248
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/008.txt",
+      "sha256": "f8e8a5954f6447797808d9686072c42679b3c4ccb833fc1c04a7daf1fffdfd31",
+      "bytes": 8524
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/009.txt",
+      "sha256": "9c8a57c439b006e01d087c6424566fb521173c37b4722daec31e5af9348c182c",
+      "bytes": 11296
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/010.txt",
+      "sha256": "d4995af467865333bb9a12cb40b0ea3956c973e8178f126301f24fac8aab0f9d",
+      "bytes": 11756
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/011.txt",
+      "sha256": "1bb6c744718f8f81f543408c0153fe1145a8d821c0b9bf7a81a57474161b800d",
+      "bytes": 15748
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/012.txt",
+      "sha256": "1d1944ad84d71d784cb84a3993925aab03d3128ad045ef19259fe4180cef9792",
+      "bytes": 5618
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/013.txt",
+      "sha256": "04423521b90ab71a6d7a25a536c1daea06c961dc4da23afd89e57bf3bf2a6819",
+      "bytes": 7799
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/014.txt",
+      "sha256": "6545bee1fa8449eefcc05e08ab3e7a0aebb498de59e670443a938d1e22150050",
+      "bytes": 11002
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/015.txt",
+      "sha256": "686299750d271645d01d41bae1eadd05080508dc44bdb15e5dd744f7934b5d16",
+      "bytes": 7694
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/016.txt",
+      "sha256": "5a92a803b9fbd7f164849f294e72e7915da435b1145aaea44e874effec79caa9",
+      "bytes": 8940
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/017.txt",
+      "sha256": "7d8c46e4bc2a3d130c89fa7242d127ffc86dac6489c60641cb3dd946852d2d25",
+      "bytes": 8717
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/018.txt",
+      "sha256": "5704663ebae82fe9ebf786d63fd107a0528b547cddb6402070e8fedc429da619",
+      "bytes": 8899
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/019.txt",
+      "sha256": "af8ab9eef1596c9cddb47ed96f2053c574d632627b1e67e0d14a59c8e1cb0861",
+      "bytes": 6410
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/020.txt",
+      "sha256": "6a72210ac96a5c599686d36794f388052d026eb7ff2d52d94b6a8b5808bd4ced",
+      "bytes": 7498
+    },
+    {
+      "path": "books/pg-486-ozma-of-oz/chapters/021.txt",
+      "sha256": "d9d3cc336a063ecfc5fb584c8ec9068eceb824b472aadeaed2f98afe762fbc1a",
+      "bytes": 5810
+    }
+  ]
+}
