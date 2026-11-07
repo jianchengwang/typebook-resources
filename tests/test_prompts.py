@@ -173,7 +173,7 @@ class PromptTests(unittest.TestCase):
                          {'builtin-typing-article'})
         profile = json.loads((ROOT / 'profiles/default.json').read_text())
         catalog = json.loads((ROOT / 'catalogs/prompts.json').read_text())
-        manifest = json.loads((ROOT / 'manifest.json').read_text())
+        manifest = prompts.load_manifest(ROOT)
         active_paths = set(profile['files']) | {p['path'] for p in manifest['files']} | {p['path'] for p in catalog}
         for pid in retired:
             self.assertNotIn(pid, profile['prompts'])
@@ -454,7 +454,7 @@ class PromptTests(unittest.TestCase):
             self.assertEqual(first, second)
             self.assertEqual(json.loads(first['manifest.json'])['revision'], 'before')
             for item in prompts.load_manifest(root)['files']:
-                if item['path'] != 'catalogs/file-sources.json':
+                if item['path'] not in ('catalogs/file-sources.json', 'catalogs/files.json'):
                     self.assertEqual(item['source'], {'kind': 'preserved-source'})
 
     def test_append_new_prompt_preserves_order_and_includes_profile(self):
@@ -501,7 +501,7 @@ class PromptTests(unittest.TestCase):
             self.assertEqual([p['id'] for p in catalog], [self.prompt['id']])
             self.assertNotIn('retiring-card', profile['prompts'])
             self.assertNotIn('prompts/retiring-card.json', profile['files'])
-            self.assertNotIn('prompts/retiring-card.json', {p['path'] for p in manifest['files']})
+            self.assertNotIn('prompts/retiring-card.json', {p['path'] for p in json.loads(plan['catalogs/files.json'])['files']})
             self.assertEqual(json.loads(plan['catalogs/summary.json'])['prompts'], 1)
             self.assertEqual(profile['books'], ['untouched-book'])
             for name, data in plan.items():
@@ -542,7 +542,11 @@ class PromptTests(unittest.TestCase):
                 (root / name).write_bytes(data)
             path.unlink()
             manifest = json.loads((root / 'manifest.json').read_text())
-            manifest['files'].append({'path': 'missing-book.txt'})
+            inventory = json.loads((root / 'catalogs/files.json').read_text())
+            inventory['files'].append({'path': 'missing-book.txt'})
+            data = prompts.json_bytes(inventory)
+            (root / 'catalogs/files.json').write_bytes(data)
+            manifest['file_inventory'].update(bytes=len(data), sha256=hashlib.sha256(data).hexdigest())
             (root / 'manifest.json').write_bytes(prompts.json_bytes(manifest))
             with self.assertRaisesRegex(ValueError, 'Removing recorded files'):
                 prompts.make_plan(root, ['retiring-card'])

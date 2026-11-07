@@ -1,7 +1,7 @@
-"""Compact v1 manifests with optional, deduplicated source-audit metadata.
+"""Lightweight v2 discovery manifest, lazy integrity inventory and audit index.
 
-Runtime file records retain every path, byte length, SHA-256, MIME type and
-category. Only the optional `source` field moves to an integrity-checked sidecar.
+All payload paths and hashes are preserved in the separately fetched inventory.
+Catalog/profile references are directly verifiable without loading that inventory.
 """
 import copy
 import hashlib
@@ -9,6 +9,7 @@ import json
 import pathlib
 
 SOURCE_PATH = 'catalogs/file-sources.json'
+INVENTORY_PATH = 'catalogs/files.json'
 
 
 def compact_bytes(value):
@@ -29,10 +30,43 @@ def manifest_bytes(value):
 
 def load_manifest(root):
     manifest = json.loads((root / 'manifest.json').read_text())
+    version = manifest.get('schema_version')
+    if version == 2:
+        if 'files' in manifest:
+            raise ValueError('V2 manifest must not contain inline files')
+        ref = manifest.get('file_inventory', {})
+        if ref.get('path') != INVENTORY_PATH:
+            raise ValueError('Unsupported file inventory path')
+        path = root / INVENTORY_PATH
+        if path.is_symlink() or not path.resolve().is_relative_to(root.resolve()):
+            raise ValueError('Unsafe file inventory path')
+        data = path.read_bytes()
+        if len(data) != ref.get('bytes') or hashlib.sha256(data).hexdigest() != ref.get('sha256'):
+            raise ValueError('File inventory integrity mismatch')
+        inventory = json.loads(data)
+        if inventory.get('schema_version') != 1 or not isinstance(inventory.get('files'), list):
+            raise ValueError('Unsupported file inventory schema')
+        records = inventory['files']
+        if any(v.get('path') in ('manifest.json', INVENTORY_PATH) for v in records):
+            raise ValueError('Circular file inventory entry')
+        if len({v['path'] for v in records}) != len(records):
+            raise ValueError('Duplicate file inventory entry')
+        lookup = {v['path']: v for v in records}
+        references = [item for section in ('catalogs', 'profiles', 'compatibility')
+                      for item in manifest.get(section, {}).values()]
+        if manifest.get('file_sources'):
+            references.append(manifest['file_sources'])
+        for item in references:
+            record = lookup.get(item.get('path'))
+            if record is None or any(item.get(k) != record.get(k) for k in ('bytes', 'sha256')):
+                raise ValueError('Discovery reference differs from inventory: ' + str(item.get('path')))
+        manifest['files'] = records + [{**ref, 'content_type':'application/json', 'category':'catalog'}]
+    elif version != 1:
+        raise ValueError('Unsupported manifest version')
     reference = manifest.get('file_sources')
     if reference is None:
         return manifest
-    if reference != {'path': SOURCE_PATH}:
+    if reference.get('path') != SOURCE_PATH:
         raise ValueError('Unsupported file source index path')
     path = root / SOURCE_PATH
     if path.is_symlink() or not path.resolve().is_relative_to(root.resolve()):
@@ -59,7 +93,7 @@ def finish_manifest(manifest, outputs):
     """Serialize full records to compact manifest + sidecar, without data loss."""
     result = copy.deepcopy(manifest)
     sources, ids, files = [], {}, {}
-    records = [v for v in result['files'] if v['path'] != SOURCE_PATH]
+    records = [v for v in result['files'] if v['path'] not in (SOURCE_PATH, INVENTORY_PATH)]
     # Stable source IDs depend only on sorted file paths, not caller order.
     for record in sorted(records, key=lambda v: v['path']):
         if 'source' not in record:
@@ -74,7 +108,20 @@ def finish_manifest(manifest, outputs):
     outputs[SOURCE_PATH] = index
     records.append({'path': SOURCE_PATH, 'bytes': len(index), 'sha256': hashlib.sha256(index).hexdigest(),
                     'content_type': 'application/json', 'category': 'catalog'})
-    result['files'] = sorted(records, key=lambda v: v['path'])
+    records = sorted(records, key=lambda v: v['path'])
+    inventory = manifest_bytes({'schema_version': 1, 'files': records})
+    outputs[INVENTORY_PATH] = inventory
+    result.pop('files', None)
+    result['schema_version'] = 2
     result['file_sources'] = {'path': SOURCE_PATH}
-    result['total_bytes'] = sum(v['bytes'] for v in result['files'])
-    outputs['manifest.json'] = manifest_bytes(result)
+    lookup = {v['path']: v for v in records}
+    # Catalog discovery stays small and is verifiable without the full inventory.
+    for section in ('catalogs', 'profiles', 'compatibility'):
+        for name, ref in result.get(section, {}).items():
+            record = lookup[ref['path']]
+            result[section][name] = {k: record[k] for k in ('path','bytes','sha256')}
+    result['file_sources'] = {k: lookup[SOURCE_PATH][k] for k in ('path','bytes','sha256')}
+    result['file_inventory'] = {'path': INVENTORY_PATH, 'bytes': len(inventory),
+                                'sha256': hashlib.sha256(inventory).hexdigest()}
+    result['total_bytes'] = sum(v['bytes'] for v in records) + len(inventory)
+    outputs['manifest.json'] = (json.dumps(result, ensure_ascii=False, indent=2) + '\n').encode('utf-8')

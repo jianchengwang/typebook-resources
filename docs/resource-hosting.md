@@ -2,11 +2,11 @@
 
 ## Repository is data, not an application
 
-The root `manifest.json` has `schema_version: 1`, a source revision, catalog
-locations and a file inventory. Each file entry includes a relative `path`,
-`bytes`, `sha256`, a content type and category. Optional source provenance is
-stored in the integrity-checked `file_sources` sidecar; see
-[compact manifest](compact-manifest.md) for its lossless lookup contract.
+The root `manifest.json` has `schema_version: 2`, revision/count metadata and
+integrity-checked references to catalogs, profiles and a lazy file inventory.
+`catalogs/files.json` contains the full array of file paths, sizes, hashes,
+content types and categories. Optional source provenance is stored in the
+`file_sources` sidecar. See [manifest v2 migration](compact-manifest.md).
 
 Catalog entries preserve stable namespaced IDs such as `book:1`, `dict:22`,
 `article:900001` and `live2d:1`. Legacy IDs are retained as metadata, not as a

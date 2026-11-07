@@ -71,7 +71,7 @@ def model_dependencies(entrypoint):
 
 def main():
     manifest = load_manifest(ROOT)
-    require(manifest["schema_version"] == 1, "Unsupported manifest version")
+    require(manifest["schema_version"] == 2, "Unsupported manifest version")
     recorded = {}
     total_bytes = 0
     for item in manifest["files"]:
@@ -116,7 +116,7 @@ def main():
                 "Anthology source, credits or migration map differ")
         for book in all_books:
             verify_body(book["cover"])
-        require(manifest.get("compatibility") == {"archived_books": {"path": anthology["archive_path"]},
+        require({key: {"path": value["path"]} for key, value in manifest.get("compatibility", {}).items()} == {"archived_books": {"path": anthology["archive_path"]},
                     "book_migrations": {"path": anthology["mapping_path"]}}, "Missing compatibility catalog references")
     for book in catalogs["books"]:
         require(book["chapter_count"] == len(book["chapters"]), "Chapter count mismatch: " + book["id"])

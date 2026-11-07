@@ -54,8 +54,8 @@ def make_plan(root):
         record.setdefault('category', 'documentation' if name.startswith('docs/') else 'tooling')
         files.append(record)
     manifest['files'] = files
-    if 'file_sources' not in manifest or outputs['catalogs/dictionaries.json'] != (root/'catalogs/dictionaries.json').read_bytes():
-        manifest['revision'] = '2026-11-07-compact-manifest-dictionary-titles'
+    if manifest.get('schema_version') != 2 or outputs['catalogs/dictionaries.json'] != (root/'catalogs/dictionaries.json').read_bytes():
+        manifest['revision'] = '2026-11-07-lightweight-manifest-v2'
     finish_manifest(manifest, outputs)
     return outputs
 

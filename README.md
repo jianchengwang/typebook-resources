@@ -98,7 +98,8 @@ or deploy the site. See the documented importer compatibility audit before use.
 ## Layout
 
 ```text
-manifest.json                Versioned catalog, relative paths, sizes and SHA-256
+manifest.json                Lightweight v2 discovery index with hashed references
+catalogs/files.json          On-demand complete file inventory and SHA-256
 provenance.json              Source commit, export scope and exclusions
 catalogs/                    Book, dictionary, article, prompt and model metadata
 profiles/default.json        Suggested smaller frontend bundle
@@ -125,8 +126,8 @@ docs/                       Hosting, frontend integration and rights notes
 All catalog paths are relative to this repository root. Resolve them against
 the manifest directory, rather than against the website's origin.
 `manifest.json` covers the payloads and supporting files; it excludes itself.
-Its file inventory is compact; optional per-file source audit data lives in a
-deduplicated sidecar. Dictionary titles include English, Chinese and Japanese.
+Its v2 file inventory loads separately; optional per-file source audit data lives
+in a deduplicated sidecar. The old inline `manifest.files` field is removed. Dictionary titles include English, Chinese and Japanese.
 See [compact manifest and dictionary titles](docs/compact-manifest.md).
 It contains no API keys, credentials, private user content or user progress.
 

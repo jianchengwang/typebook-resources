@@ -1,31 +1,57 @@
-# Compact manifest and dictionary titles
+# Lightweight manifest v2 and dictionary titles
 
-The root URL and `schema_version: 1` are unchanged. Every file still has its
-original `path`, `bytes`, `sha256`, `content_type` and `category`. All payloads,
-IDs, catalogs, compatibility links, counts and SHA-256 verification remain.
-JSON is formatted with one compact file record per line instead of deeply
-indented records.
+The root `manifest.json` is a small discovery index with `schema_version: 2`.
+It no longer embeds every chapter, source file and asset record. This is an
+intentional breaking change; the website importer is not changed here.
 
-Only the optional per-file `source` audit metadata moves out of the hot path:
+## Structure and loading
 
-- `manifest.file_sources.path` points to `catalogs/file-sources.json`.
-- That file is itself covered by the root manifest's byte length and SHA-256.
-- Its `sources` array stores each unique source object once.
-- Its `files` object maps each relative file path to a zero-based source index.
-- Join `sources[files[path]]` to recover the original `file.source` exactly.
-- Verify the sidecar's checksum before reading it. The sidecar cannot include its
-  own hash; that hash belongs in the root manifest.
+- `catalogs`, `profiles` and `compatibility` map names to `{path, bytes, sha256}`.
+- `file_inventory` points to `catalogs/files.json`, with its byte length and hash.
+  That file has `schema_version: 1` and the complete `files` array, preserving
+  every `path`, `bytes`, `sha256`, `content_type` and `category`.
+- `file_sources` points to `catalogs/file-sources.json`, with its length and hash.
+  This optional audit index deduplicates source provenance: `files[path]` is an
+  index into its `sources` array. `sources[files[path]]` recovers `file.source`.
+- `counts`, `revision`, the repository ID and other identifying metadata remain.
+- `total_bytes` counts every inventoried repository file plus the inventory
+  itself, excluding only `manifest.json`. The inventory excludes itself and the
+  root manifest to avoid circular checksums; its own hash is in the root.
 
-Existing importers using file paths, hashes, sizes and MIME types do not need
-changes. Tools that read `manifest.files[*].source` must use the optional sidecar
-(or `tools/manifest_io.py:load_manifest`). Do not interpret a missing inline
-source as missing attribution or permission. Per-book source files and license
-notices remain unchanged. `tools/verify.py` validates the sidecar too.
+Recommended frontend flow:
 
-This reduces the initial manifest response, not the complete repository download.
-It does not change catalog loading or split `catalogs/books.json`. HTTP gzip or
-Brotli is a separate hosting concern; the reduction in raw JSON bytes must not
-be interpreted as the same reduction in compressed network traffic.
+1. Accept manifest schema version 2. Resolve safe relative paths against the
+   manifest URL, ideally pinned to one immutable Git commit.
+2. Load only the catalog for the active tab from `manifest.catalogs[name]`.
+   Verify its exact byte length and SHA-256 using that reference directly.
+3. Show the catalog's resource metadata. When importing selected text resources,
+   fetch their `body`/`cover` references and verify their existing size and hash.
+4. Fetch and verify `file_inventory` only when a full file map is needed, such as
+   resolving all Live2D textures, model dependencies, runtime files or a profile.
+   Read `inventory.files` instead of the removed `manifest.files`.
+5. Fetch `file_sources` only for source auditing. Ordinary browsing/import does
+   not need it. Preserve per-book license files and attribution requirements.
+
+Never disable hash/path verification simply because inventory loading is lazy.
+Reject unsupported versions, unsafe paths and duplicate file paths. Check each
+index against its reference before trusting it. `tools/manifest_io.py` is the
+full offline loader used by rebuilders and `tools/verify.py`; it verifies the
+index chain and expands records for tooling. It still accepts v1 as migration
+input, but all new output is v2.
+
+## What this does not change
+
+All original resource files, IDs and metadata remain. No chapter files are
+combined or removed. `catalogs/books.json` remains the existing full book catalog
+(about 2.8 MB raw), including all chapter metadata. A truly minimal book-list
+view would additionally need a book-summary catalog and per-book chapter indexes;
+that separate restructuring is not implemented here. Thus the tiny root manifest
+alone does not promise an equivalent reduction in complete book-tab loading time.
+
+HTTP gzip/Brotli and CDN caching remain separate hosting concerns. The compact
+file inventory and source audit index remain available on demand rather than
+being deleted. Existing v1-only importers will reject v2 until updated; using a
+previous Git commit remains an option during migration.
 
 ## Dictionary display titles
 
