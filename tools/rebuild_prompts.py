@@ -116,22 +116,32 @@ def catalog_entry(prompt):
             "path": "prompts/" + prompt["id"] + ".json"}
 
 
-def make_plan(root):
+def make_plan(root, remove_ids=()):
     prompts = {p["id"]: p for p in load_prompts(root)}
     old_catalog = json.loads((root / "catalogs/prompts.json").read_text())
     old_ids = [item["id"] for item in old_catalog]
     require(len(old_ids) == len(set(old_ids)), "Duplicate old catalog ID")
-    require(set(old_ids) <= set(prompts), "Removing existing prompts is not supported")
-    ordered = old_ids + sorted(set(prompts) - set(old_ids))
+    require(isinstance(remove_ids, (tuple, list, set, frozenset)), "Removal IDs must be a collection")
+    require(all(isinstance(pid, str) and ID.fullmatch(pid) for pid in remove_ids), "Invalid removal ID")
+    retired = set(remove_ids)
+    require(len(retired) == len(remove_ids), "Duplicate removal ID")
+    require(retired <= set(old_ids), "Unknown removal ID")
+    require(not any(item["id"] in retired and ("legacy_id" in item or item["id"].startswith("builtin-"))
+                    for item in old_catalog), "Removing preserved built-ins is not supported")
+    require(not retired & set(prompts), "Remove the authorized source files before rebuilding")
+    require(set(old_ids) - set(prompts) == retired,
+            "Removing existing prompts requires explicit --remove-prompt IDs")
+    retired_paths = {"prompts/" + pid + ".json" for pid in retired}
+    ordered = [pid for pid in old_ids if pid not in retired] + sorted(set(prompts) - set(old_ids))
     catalog = [catalog_entry(prompts[pid]) for pid in ordered]
     outputs = {"catalogs/prompts.json": json_bytes(catalog)}
     summary = json.loads((root / "catalogs/summary.json").read_text())
     summary["prompts"] = len(catalog)
     outputs["catalogs/summary.json"] = json_bytes(summary)
     profile = json.loads((root / "profiles/default.json").read_text())
-    profile["prompts"] = list(dict.fromkeys(profile["prompts"] + ordered))
+    profile["prompts"] = list(dict.fromkeys([pid for pid in profile["prompts"] if pid not in retired] + ordered))
     require(set(profile["prompts"]) == set(prompts), "Unknown default-profile prompt")
-    profile["files"] = sorted(set(profile["files"]) | {item["path"] for item in catalog})
+    profile["files"] = sorted((set(profile["files"]) - retired_paths) | {item["path"] for item in catalog})
     profile["payload_bytes"] = sum(len(outputs[p]) if p in outputs else safe_path(root, p).stat().st_size
                                    for p in profile["files"])
     outputs["profiles/default.json"] = json_bytes(profile)
@@ -140,7 +150,8 @@ def make_plan(root):
     actual = {p.relative_to(root).as_posix() for p in resource_files(root)}
     allowed = set(recorded) | set(outputs) | SUPPORT_FILES | {item["path"] for item in catalog}
     require(not actual - allowed, "Unexpected local files; not adding to manifest: " + ", ".join(sorted(actual - allowed)))
-    require(not set(recorded) - actual, "Removing recorded files is not supported")
+    require(retired_paths <= set(recorded), "Removal source path is not recorded in the manifest")
+    require(not set(recorded) - actual - retired_paths, "Removing recorded files is not supported")
     require(not any(p.endswith(".tmp") for p in actual), "Temporary file found; refusing manifest update")
     files = []
     for relative in sorted(actual | set(outputs)):
@@ -161,7 +172,7 @@ def make_plan(root):
     # This descriptive revision is supplied only on an intentional catalog update.
     # Later book-only imports preserve it when their generated book data is unchanged.
     if outputs["catalogs/prompts.json"] != (root / "catalogs/prompts.json").read_bytes():
-        manifest["revision"] = "2026-11-07-multilingual-storybook-prompts"
+        manifest["revision"] = "2026-11-07-focused-learning-prompts"
     outputs["manifest.json"] = json_bytes(manifest)
     return outputs
 
@@ -173,11 +184,14 @@ def main():
     modes.add_argument("--check", action="store_true")
     modes.add_argument("--recover", action="store_true")
     modes.add_argument("--render", metavar="PROMPT_ID")
+    parser.add_argument("--remove-prompt", action="append", default=[], metavar="PROMPT_ID",
+                        help="Explicitly retire an authorized non-builtin ID after its tracked source is removed; repeatable")
     parser.add_argument("--locale", help="Instruction locale for --render: en, zh-CN, ja; other locales fall back to English")
     parser.add_argument("--values", help='JSON object, e.g. {"word":"pear"}; --render only')
     args = parser.parse_args()
     require(args.values is None or args.render, "--values requires --render")
     require(args.locale is None or args.render, "--locale requires --render")
+    require(not args.remove_prompt or not (args.render or args.recover), "--remove-prompt cannot be used with --render or --recover")
     if args.recover:
         recover_transaction(ROOT)
         print(json.dumps({"status": "ok", "mode": "recover"}))
@@ -188,7 +202,7 @@ def main():
         require(args.render in prompts, "Unknown prompt ID")
         print(render_prompt(prompts[args.render], json.loads(args.values) if args.values else None, args.locale or "en"))
         return
-    plan = make_plan(ROOT)
+    plan = make_plan(ROOT, args.remove_prompt)
     changed = [p for p, data in plan.items() if not (ROOT / p).is_file() or (ROOT / p).read_bytes() != data]
     if args.check:
         require(not changed, "Generated outputs differ: " + ", ".join(changed))

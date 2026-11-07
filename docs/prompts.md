@@ -1,21 +1,31 @@
 # Learning and typing prompts
 
-This catalog contains **20 prompts: 3 preserved built-ins and 17 task-specific
+This catalog contains **16 prompts: 3 preserved built-ins and 13 task-specific
 prompts**. Every entry has English, Simplified Chinese, and Japanese display
 titles **and full prompt instructions**. Original English `name` and `prompt`
-fields are retained, and all 18 earlier English bodies remain unchanged.
+fields remain the English fallbacks. The three built-ins are unchanged; the
+vocabulary-card body intentionally incorporates the former spelling-tile layout.
 Instruction language and practice language are separate: choosing Chinese or
 Japanese instructions still produces the English exercise, story, labels, or
 conversation specified by that task. Variable defaults and descriptive metadata
 remain in English.
 
 The three existing modes already cover ordinary English conversation,
-English-only conversation, and general level-targeted typing passages. The new
-items are selected for distinct practice workflows, not multiple versions of
-those modes. In particular, beginner chat, generic sentence ladders, word-family
-typing, and several similar picture-card variants were excluded. Punctuation
-and number copying are combined into one precision exercise. Spelling retrieval
-is covered by the vocabulary coach rather than a duplicate spelling-chat mode.
+English-only conversation, and general level-targeted typing passages. The other
+items are selected for distinct practical workflows, not multiple versions of
+those modes. Across the catalog, categories total **11 English learning, 1 typing
+practice, and 4 image generation** entries. The English learning total includes
+the two conversation built-ins and nine task templates.
+
+There is no new generic article template: `builtin-typing-article` already accepts
+a topic, target CEFR level, approximate word count, and genre in the user's
+request. These are existing request settings, not new `{{placeholders}}`; the
+built-in's `variables` list remains empty. It returns clean English prose without
+questions or commentary. Reading comprehension, summary practice, storybook
+production, and interactive storytelling remain separate because their outputs
+and learner actions differ. Vocabulary retrieval already covers spelling recall;
+one image vocabulary-card template supports either a whole-word label or letter
+tiles instead of offering near-duplicate picture-card tasks.
 
 ## Choose by task
 
@@ -44,23 +54,34 @@ Their original `id`, `name`, `source_type`, `display_type`, `prompt`, and
 | `learn-childrens-storybook` | Audience age range, English level, theme, 4-12 pages, target words, and a general illustration style. | A complete paginated story manuscript, character sheet, self-contained text-free illustration briefs, and a separate clean reading/typing copy. Text output, not generated images. |
 | `learn-choose-your-story` | Audience age range, English level, theme, and 3-6 scenes. | One story scene at a time; typed A/B choices, copied choice sentences, or original actions change the next scene. A clean copy of the actual chosen path is available afterward on request. |
 
-### New typing tasks (3)
-
-| ID | Input and situation | Distinct output / interaction |
-| --- | --- | --- |
-| `typing-restricted-keys` | An allowed set of lowercase letters, such as `asdfjkl`. | A character-constrained drill rather than general prose; real words where possible, otherwise key sequences. No assumptions about keyboard layout or finger placement. |
-| `typing-precision-copy` | A topic and target level. | A copy-ready scene exercising quotes, contractions, times, decimals, percentages, and elementary arithmetic. |
-| `typing-error-review` | A short source and typed attempt, pasted in the conversation when asked. | Specific visible differences, cautious feedback where alignment is ambiguous, and a clean targeted retry. No invented timing or accuracy score. |
-
-### New image generation tasks (5)
+### Image generation tasks (4)
 
 | ID | Input and situation | Distinct visual output |
 | --- | --- | --- |
-| `image-vocabulary-card` | One word, its concrete sense, and a general style. | One isolated illustration with one large exact English label. |
+| `image-vocabulary-card` | One word, its concrete sense, a general style, and optional `label_layout`. | One isolated illustration with an exact English label: a whole word by default, or one ordered letter per tile. |
 | `image-scene-vocabulary` | An everyday setting and two to four object labels. | An integrated scene with unambiguous object-to-label relationships, for description and contextual vocabulary. |
 | `image-preposition-cards` | A small object and a box-like container with a lid. | Six consistent spatial relationships, for learning `in`, `on`, `under`, `next to`, `behind`, and `in front of`. |
-| `image-spelling-tiles` | A short word and its visual meaning. | One picture plus one ordered letter per tile, for letter-sequence practice rather than whole-word recognition. |
 | `image-story-sequence` | A fictional four-step story. | Four text-free panels, for learner-authored narration and typed sentences. |
+
+For `image-vocabulary-card`, `label_layout` defaults to `word`. Use `letter-tiles`
+for a picture with one letter per tile, ideally with a word of 3–6 lowercase
+letters. An invalid layout falls back to `word` in the prompt instructions. This
+is a layout option for the same vocabulary-card task, not another catalog entry.
+
+### Retired IDs and migration
+
+- `image-spelling-tiles`: use `image-vocabulary-card` with
+  `label_layout=letter-tiles` for the former letter-tile layout.
+- `typing-restricted-keys`, `typing-precision-copy`, and `typing-error-review`:
+  retired without replacements. Restricted-key, punctuation/number, and
+  typing-error-review drills are outside the requested practical learning scope.
+
+Active catalogs, the default profile, and the manifest do not reference these
+four retired IDs or their source files. Consumers should remove stale choices
+when adopting this revision; the builder does not redirect old IDs automatically.
+Git history retains the earlier versions so they can be restored deliberately if
+needed. The preserved typing-article built-in is the existing passage-generation
+workflow, not a replacement for the retired drills.
 
 ## Additive metadata contract
 
@@ -95,7 +116,7 @@ For example (abridged):
 - **`name`** remains the English fallback. **`title_i18n.en`** is exactly equal
   to it. Use `entry.title_i18n?.[locale] || entry.name` for `en`, `zh-CN`, or `ja`;
   fall back to `name` for an unsupported locale or an older entry.
-- **`prompt`** is the unchanged English instruction fallback.
+- **`prompt`** is the English instruction fallback.
   **`prompt_i18n`** exists on each source file with exactly `en`, `zh-CN`, and `ja`.
   `prompt_i18n.en` is byte-for-byte equal as a string to `prompt`. The other two
   entries translate the whole instruction, preserving constraints, English
@@ -116,7 +137,7 @@ For example (abridged):
   route. An older consumer ignoring this field will **not** automatically gain
   image generation; it should avoid offering image tasks until that route exists.
 - **`prompt_role`** is `system` for the three original built-in mode definitions
-  and `user` for the 17 standalone task templates. Use the existing conversation
+  and `user` for the 13 standalone task templates. Use the existing conversation
   setup for built-ins. Do not install every new task as a system prompt.
 - **`variables`** lists each `{{variable_name}}` used by the body, with a usable
   `default` and English `description`. Repeated occurrences use the same value.
@@ -164,6 +185,7 @@ Replace the placeholders yourself, or use the standard-library renderer:
 ```sh
 python3 tools/rebuild_prompts.py --render image-vocabulary-card
 python3 tools/rebuild_prompts.py --render image-vocabulary-card --values '{"word":"pear","meaning":"a whole green pear"}'
+python3 tools/rebuild_prompts.py --render image-vocabulary-card --values '{"word":"cat","meaning":"a small friendly cat","label_layout":"letter-tiles"}'
 python3 tools/rebuild_prompts.py --render learn-childrens-storybook --locale zh-CN
 python3 tools/rebuild_prompts.py --render learn-choose-your-story --locale ja --values '{"scene_count":"3"}'
 python3 tools/rebuild_prompts.py --render learn-everyday-roleplay --values '{"scenario":"asking for directions in a museum","level":"B1","feedback_language":"简体中文"}'
@@ -255,18 +277,43 @@ does not reset the manifest revision belonging to a later prompt update.
 
 The builder preserves existing catalog order, appends new IDs deterministically,
 updates the prompt count and default profile, and recalculates manifest checksums
-and byte totals. It refuses removal of existing prompt records or recorded
-files, symlinked sources, and unexpected local files that could accidentally
-publish private material. The default mode reports changes without writing.
+and byte totals. It refuses undeclared removals, symlinked sources, and unexpected
+local files that could accidentally publish private material. The default mode
+reports changes without writing. Ordinary edits and no-op rebuilds need no
+retirement flags; repeated `--write` and `--check` runs remain the normal workflow.
 Generated files use the existing staged write/backup/recovery mechanism; do not
 serve or commit a partially updated working tree. After an interrupted write,
 inspect the error and use `python3 tools/rebuild_prompts.py --recover` as directed.
 
-Tests cover all 18 prior records' unchanged fields, localized titles and bodies,
+### Explicit retirement workflow
+
+Retirement is an opt-in editorial action, not a side effect of rebuilding. First
+remove **only the authorized tracked source files** from `prompts/`. The builder
+never deletes source files itself. Then declare each retired ID with a repeatable
+`--remove-prompt` flag, preview the changes, and write with the same flags:
+
+```sh
+# After removing the four authorized source files, preview without writing:
+python3 tools/rebuild_prompts.py --remove-prompt typing-restricted-keys --remove-prompt typing-precision-copy --remove-prompt typing-error-review --remove-prompt image-spelling-tiles
+# Apply the same declared retirement:
+python3 tools/rebuild_prompts.py --remove-prompt typing-restricted-keys --remove-prompt typing-precision-copy --remove-prompt typing-error-review --remove-prompt image-spelling-tiles --write
+# Return to the normal check (no retirement flags):
+python3 tools/rebuild_prompts.py --check
+```
+
+These commands describe this revision's migration from the earlier catalog; do
+not repeat the retirement flags after the IDs have already been removed. The
+builder refuses undeclared removals, declarations whose source files are still
+present, unknown or duplicate IDs, built-in removals, and unrelated removed files.
+A successful retirement updates the catalog, profile, manifest, and counts
+without erasing history or touching unrelated resources.
+
+Tests cover preserved built-in fields, localized titles and bodies,
 source/catalog consistency, image/text routing metadata, placeholder parity across
-languages, localized rendering and fallback, story task contracts, variable rendering and
-rejection cases, accidental file inclusion, stable ordering, preservation, and
-repeatable generation. `verify.py` checks all manifest payload hashes and profile
-references. These are offline structural/content-contract tests, not live model
-quality, image-rendering, browser, or deployment tests. Review content changes
-for practical usefulness and duplication separately from automated validation.
+languages, localized rendering and fallback, story task contracts, vocabulary-card
+layouts, explicit retirement safeguards, variable rendering and rejection cases,
+accidental file inclusion, stable ordering, preservation, and repeatable generation.
+`verify.py` checks all manifest payload hashes and profile references. These are
+offline structural/content-contract tests, not live model quality, image-rendering,
+browser, or deployment tests. Review content changes for practical usefulness and
+duplication separately from automated validation.

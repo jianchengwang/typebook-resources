@@ -12,7 +12,7 @@ the application source remains in its existing repository.
 | Additional starter articles | 3 original articles retained in the official catalog |
 | Books | 100 books, 123 stored chapters and 100 covers |
 | Dictionaries | 28 dictionaries, 81,119 entries |
-| Learning prompts | 3 preserved built-ins + 17 distinct learning, typing, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
+| Learning prompts | 3 preserved built-ins + 13 distinct English learning, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
 | Live2D models | 8 models, 158 files |
 | Browser support assets | Existing speech model, WASM/runtime files, Live2D core and other public assets |
 
@@ -43,17 +43,20 @@ Application integration is separate; this resource update does not deploy the si
 
 ## Learning and typing prompts
 
-The 20-prompt catalog preserves the original 3 built-ins and adds 17 focused
-workflows: 9 English learning tasks, 3 typing tasks and 5 image generation tasks.
-These include role-play, active vocabulary recall, grammar repair, precise
-punctuation/number copying, typed-error review, word cards, spelling tiles and
-wordless story sequences. Two children's story workflows add a complete paginated
-storybook manuscript with consistent-character illustration briefs, and a typed-choice
-interactive story whose selected path can become a clean reading copy. Similar
-variants were deliberately consolidated.
+The 16-prompt catalog preserves the original 3 built-ins and includes 13 focused
+task templates. Across all entries, there are 11 English learning prompts,
+1 English passage typing prompt and 4 image generation prompts. Practical
+role-play, vocabulary recall, grammar repair, reading, writing and two children's
+story workflows each serve a different learning activity. Image tasks cover a
+single vocabulary card, a labeled scene, spatial relationships and wordless story
+sequences. Spelling tiles are an optional vocabulary-card layout, not a separate
+task. Restricted-key, punctuation/number and typing-error-review drills have been
+retired; the existing typing-article built-in already generates English passages
+from a requested topic, level, approximate word count and genre.
 All prompts include additive `title_i18n` and `prompt_i18n` maps for `en`, `zh-CN`
 and `ja`, plus task, output and placeholder metadata. Existing `name` and `prompt`
-fields remain the English fallbacks; all 18 earlier English bodies are unchanged.
+fields remain the English fallbacks. The three original built-ins remain unchanged;
+the vocabulary card intentionally merges the former spelling-tile option.
 Instruction translation does not change the target English practice language.
 See [task selection, field contracts and local rendering](docs/prompts.md). Image entries are templates,
 not generated images; a compatible consumer route is required. Application

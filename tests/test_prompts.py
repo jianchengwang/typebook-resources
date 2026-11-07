@@ -18,7 +18,8 @@ LEGACY_FIELDS = {'id', 'name', 'source_type', 'display_type', 'prompt', 'legacy_
 LEGACY_DIGESTS = {'builtin-english-companion': 'fecc3ec6ef6b5c6b7a0cd0c5cf5449c756a09dfd596c77b341caf636720455a8', 'builtin-english-only': '090cd14e2441f79b632257f6df664994c508a8a9d3f995a6b8be4df9b304b0f6', 'builtin-typing-article': 'fd0865b94cc14fb29ac659174d2133f4cd4ef21c8b9eaf8a79a2c675bf48098d'}
 
 
-# Baseline fields from the 18-record catalog before body localization.
+# Baseline fields for unchanged records from the earlier 18-record catalog.
+# Intentional retirements and the merged word card have separate contract tests.
 PRIOR_FIELDS = {'category',
  'cefr_levels',
  'description',
@@ -38,19 +39,14 @@ PRIOR_DIGESTS = {'builtin-english-companion': '7461e5659ee1aee95dfb8daefe33354d5
  'builtin-typing-article': '5f5d918c70ffb5dc6f5923391f4c6d2fb6dcee4f8c0fceb4c34d13f107e56397',
  'image-preposition-cards': 'fef0a9835641fe892b87467ca69327d42d1b3700d65304549dda11269b74facd',
  'image-scene-vocabulary': '288ca1a4af29a06e28925e8a450e1321df431488ae6e6edf425392e270b2508a',
- 'image-spelling-tiles': 'be83bc84db3bc61db0919b130095245cc119edcd0feccd983b05f44c000c8ebb',
  'image-story-sequence': '4f6f5efaf086cdf12f76da2a1c7504e60be58ecaf2e6da0321cca49592a1848f',
- 'image-vocabulary-card': 'e5f5aecb2e9461ec351a3c96fed635048decf4acaefff79af72edaa32e8edb64',
  'learn-collocation-lab': '8d081e620e998019ca0cc088a0f82f65cc60b51d85c038ac838f65e509ae6793',
  'learn-email-practice': 'c887061ff4f08264c35c7a360153044edebc1dc3a1a5c086ddb712833f71e027',
  'learn-everyday-roleplay': 'e7ca57a2f03729ba0e019c14bfb8af31f5506a4cdcbd28e698d839b5a003de3e',
  'learn-grammar-repair': '6a65a871de5ff0f1bb8b11b6a0c28ca42d0f617f4938eddc51c70bb1d505fe8f',
  'learn-reading-check': '4cb3fef30f935aa67b2baf38455618b6fc82cb897e7d6a8169a70434abc57cad',
  'learn-summary-paraphrase': '157527b0d6b4f2a49a1a08ca49ac39ac0f20f8fd1d619fb7b4ef06c69e40dab2',
- 'learn-vocabulary-recall': '99c386c735e82f3f489aec94301a5c3c661a940a0e23d6345e25e0e999400e77',
- 'typing-error-review': '31127e22b8755763d80d31f63caf370cc532c103925ba03680e70a922d100c19',
- 'typing-precision-copy': 'f2001a2ceb6a1e55a33206cb72204d52caf69058a5332a7abb99cc6b400c4e61',
- 'typing-restricted-keys': '9d95ccb7473a02a0524654adcb495522edc88c42cb71f745704cab77c69611ed'}
+ 'learn-vocabulary-recall': '99c386c735e82f3f489aec94301a5c3c661a940a0e23d6345e25e0e999400e77'}
 
 
 class PromptTests(unittest.TestCase):
@@ -77,9 +73,9 @@ class PromptTests(unittest.TestCase):
             'files': [{'path': name, 'source': {'kind': 'preserved-source'}} for name in files]}))
 
     def test_sources_and_counts(self):
-        self.assertEqual(len(self.sources), 20)
+        self.assertEqual(len(self.sources), 16)
         counts = {c: sum(p['category'] == c for p in self.sources) for c in prompts.CATEGORIES}
-        self.assertEqual(counts, {'english-learning': 11, 'typing-practice': 4, 'image-generation': 5})
+        self.assertEqual(counts, {'english-learning': 11, 'typing-practice': 1, 'image-generation': 4})
         for p in self.sources:
             prompts.validate_prompt(p)
             self.assertEqual(set(p['title_i18n']), {'en', 'zh-CN', 'ja'})
@@ -88,6 +84,36 @@ class PromptTests(unittest.TestCase):
             self.assertEqual(p['name'], p['title_i18n']['en'])
             self.assertNotEqual(p['name'], p['title_i18n']['zh-CN'])
             self.assertNotEqual(p['name'], p['title_i18n']['ja'])
+
+    def test_catalog_focus_and_retired_references(self):
+        retired = {'typing-restricted-keys', 'typing-precision-copy', 'typing-error-review', 'image-spelling-tiles'}
+        ids = {p['id'] for p in self.sources}
+        self.assertTrue(ids.isdisjoint(retired))
+        self.assertEqual({p['id'] for p in self.sources if p['category'] == 'typing-practice'},
+                         {'builtin-typing-article'})
+        profile = json.loads((ROOT / 'profiles/default.json').read_text())
+        catalog = json.loads((ROOT / 'catalogs/prompts.json').read_text())
+        manifest = json.loads((ROOT / 'manifest.json').read_text())
+        active_paths = set(profile['files']) | {p['path'] for p in manifest['files']} | {p['path'] for p in catalog}
+        for pid in retired:
+            self.assertNotIn(pid, profile['prompts'])
+            self.assertNotIn(pid, {p['id'] for p in catalog})
+            self.assertNotIn('prompts/' + pid + '.json', active_paths)
+            self.assertFalse((ROOT / 'prompts' / (pid + '.json')).exists())
+
+    def test_word_card_combines_label_layouts_in_all_locales(self):
+        defaults = {v['name']: v['default'] for v in self.prompt['variables']}
+        self.assertEqual(defaults['label_layout'], 'word')
+        for locale in ('en', 'zh-CN', 'ja'):
+            rendered = prompts.render_prompt(self.prompt, {'label_layout': 'letter-tiles',
+                                                         'word': 'cat', 'meaning': 'a sitting cat'}, locale)
+            self.assertIn('letter-tiles', rendered)
+            self.assertIn('cat', rendered)
+            self.assertNotIn('{{', rendered)
+            self.assertIn("'word'", self.prompt['prompt_i18n'][locale])
+        self.assertIn('exactly one supplied letter per tile', self.prompt['prompt'])
+        self.assertIn("If the layout is unrecognized, use 'word'", self.prompt['prompt'])
+        self.assertEqual(self.prompt['output_type'], 'image')
 
     def test_storybook_metadata_routes_to_text_chat(self):
         by_id = {p['id']: p for p in self.sources}
@@ -158,9 +184,9 @@ class PromptTests(unittest.TestCase):
                 self.assertEqual(digest, LEGACY_DIGESTS[p['id']])
         self.assertEqual(len(LEGACY_DIGESTS), 3)
 
-    def test_all_pre_localization_fields_unchanged(self):
+    def test_retained_pre_localization_fields_unchanged(self):
         by_id = {p['id']: p for p in self.sources}
-        self.assertEqual(len(PRIOR_DIGESTS), 18)
+        self.assertEqual(len(PRIOR_DIGESTS), 13)
         self.assertTrue(set(PRIOR_DIGESTS) <= set(by_id))
         for pid, expected in PRIOR_DIGESTS.items():
             with self.subTest(pid=pid):
@@ -376,6 +402,70 @@ class PromptTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'Removing existing prompts'):
                 prompts.make_plan(root)
 
+    def test_explicit_retirement_updates_all_references_and_is_idempotent(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            self.fixture(root)
+            added = copy.deepcopy(self.prompt)
+            added['id'] = 'retiring-card'
+            path = root / 'prompts/retiring-card.json'
+            path.write_bytes(prompts.json_bytes(added))
+            for name, data in prompts.make_plan(root).items():
+                (root / name).write_bytes(data)
+            path.unlink()
+            plan = prompts.make_plan(root, ['retiring-card'])
+            catalog = json.loads(plan['catalogs/prompts.json'])
+            profile = json.loads(plan['profiles/default.json'])
+            manifest = json.loads(plan['manifest.json'])
+            self.assertEqual([p['id'] for p in catalog], [self.prompt['id']])
+            self.assertNotIn('retiring-card', profile['prompts'])
+            self.assertNotIn('prompts/retiring-card.json', profile['files'])
+            self.assertNotIn('prompts/retiring-card.json', {p['path'] for p in manifest['files']})
+            self.assertEqual(json.loads(plan['catalogs/summary.json'])['prompts'], 1)
+            self.assertEqual(profile['books'], ['untouched-book'])
+            for name, data in plan.items():
+                (root / name).write_bytes(data)
+            self.assertEqual(prompts.make_plan(root), plan)
+
+    def test_invalid_unknown_duplicate_and_present_retirement_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            self.fixture(root)
+            cases = [('../bad', 'Removal IDs must be a collection'),
+                     (['../bad'], 'Invalid removal ID'), ([None], 'Invalid removal ID'),
+                     (['unknown'], 'Unknown removal ID'),
+                     ([self.prompt['id']] * 2, 'Duplicate removal ID'),
+                     ([self.prompt['id']], 'Remove the authorized source files')]
+            for ids, message in cases:
+                with self.subTest(ids=ids), self.assertRaisesRegex(ValueError, message):
+                    prompts.make_plan(root, ids)
+
+    def test_builtin_retirement_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            self.fixture(root)
+            catalog = [prompts.catalog_entry(self.prompt), {'id': 'builtin-preserved', 'legacy_id': -1}]
+            (root / 'catalogs/prompts.json').write_bytes(prompts.json_bytes(catalog))
+            with self.assertRaisesRegex(ValueError, 'Removing preserved built-ins'):
+                prompts.make_plan(root, ['builtin-preserved'])
+
+    def test_explicit_prompt_retirement_cannot_hide_unrelated_file_removal(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            self.fixture(root)
+            added = copy.deepcopy(self.prompt)
+            added['id'] = 'retiring-card'
+            path = root / 'prompts/retiring-card.json'
+            path.write_bytes(prompts.json_bytes(added))
+            for name, data in prompts.make_plan(root).items():
+                (root / name).write_bytes(data)
+            path.unlink()
+            manifest = json.loads((root / 'manifest.json').read_text())
+            manifest['files'].append({'path': 'missing-book.txt'})
+            (root / 'manifest.json').write_bytes(prompts.json_bytes(manifest))
+            with self.assertRaisesRegex(ValueError, 'Removing recorded files'):
+                prompts.make_plan(root, ['retiring-card'])
+
     def test_untracked_private_file_and_missing_recorded_file_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             root = pathlib.Path(directory)
@@ -400,7 +490,7 @@ class PromptTests(unittest.TestCase):
             root = pathlib.Path(directory)
             for folder in ('catalogs', 'profiles'):
                 (root / folder).mkdir()
-            files = {'catalogs/books.json': [], 'catalogs/summary.json': {'books': 0, 'chapters': 0, 'prompts': 18},
+            files = {'catalogs/books.json': [], 'catalogs/summary.json': {'books': 0, 'chapters': 0, 'prompts': 16},
                      'profiles/default.json': {'books': [], 'files': [], 'payload_bytes': 0}}
             for name, value in files.items():
                 (root / name).write_bytes(prompts.json_bytes(value))
@@ -408,7 +498,7 @@ class PromptTests(unittest.TestCase):
                                                                     'files': [{'path': p} for p in files]}))
             plan = readers.make_plan(root, {'import_id': 'test', 'revision': 'older-book-import'}, [], {})
             self.assertEqual(json.loads(plan['manifest.json'])['revision'], 'newer-prompt-catalog')
-            self.assertEqual(json.loads(plan['catalogs/summary.json'])['prompts'], 18)
+            self.assertEqual(json.loads(plan['catalogs/summary.json'])['prompts'], 16)
 
 
 if __name__ == '__main__':
