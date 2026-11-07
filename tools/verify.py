@@ -7,6 +7,7 @@ import sys
 from urllib.parse import unquote
 from import_hf_readers import apply_title_translations
 from rebuild_prompts import catalog_entry, load_prompts
+from story_anthology import read_config, preserved_books, build as build_anthology
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -97,8 +98,24 @@ def main():
 
     chapter_count = 0
     translations = read_json("tools/book_titles.json")
-    localized = apply_title_translations(catalogs["books"], translations, catalogs["books"])
-    require(localized == catalogs["books"], "Catalog title translations differ from editorial source")
+    anthology = read_config(ROOT, read_json("tools/hf_readers.json"))
+    all_books = preserved_books(ROOT, catalogs["books"], anthology)
+    localized = apply_title_translations(all_books, translations, all_books)
+    require(localized == all_books, "Catalog title translations differ from editorial source")
+    all_chapter_ids = [c["id"] for b in all_books for c in b["chapters"]]
+    require(len(all_chapter_ids) == len(set(all_chapter_ids)), "Duplicate public/archive chapter ID")
+    if anthology:
+        source_books = [b for b in all_books if b["id"] != anthology["id"]]
+        expected_books, expected_files = build_anthology(ROOT, anthology, source_books, translations["books"], {})
+        strip_revision = lambda b: {k: v for k, v in b.items() if k != "revision"}
+        require([strip_revision(b) for b in expected_books] == [strip_revision(b) for b in catalogs["books"]],
+                "Public anthology catalog differs from source records")
+        require(all(safe_path(p).read_bytes() == data for p, data in expected_files.items()),
+                "Anthology source, credits or migration map differ")
+        for book in all_books:
+            verify_body(book["cover"])
+        require(manifest.get("compatibility") == {"archived_books": {"path": anthology["archive_path"]},
+                    "book_migrations": {"path": anthology["mapping_path"]}}, "Missing compatibility catalog references")
     for book in catalogs["books"]:
         require(book["chapter_count"] == len(book["chapters"]), "Chapter count mismatch: " + book["id"])
         verify_body(book["cover"])
@@ -109,6 +126,14 @@ def main():
             require(safe_path(chapter["body"]["path"]).read_text(encoding="utf-8-sig").strip(), "Empty chapter")
         require(numbers == list(range(1, len(numbers) + 1)), "Non-sequential chapters: " + book["id"])
         chapter_count += len(numbers)
+    require(catalogs["summary"]["books"] == len(catalogs["books"]), "Book summary count mismatch")
+    require(catalogs["summary"]["chapters"] == chapter_count, "Chapter summary count mismatch")
+    if anthology:
+        archived = len(all_books) - len(catalogs["books"])
+        require(catalogs["summary"]["archived_standalone_books"] == archived and
+                catalogs["summary"]["archived_standalone_chapters"] == archived, "Archive summary count mismatch")
+        require(catalogs["summary"]["stored_chapter_payloads"] == len({c["body"]["path"] for b in all_books for c in b["chapters"]}),
+                "Unique stored chapter count mismatch")
     dictionary_entries = 0
     for dictionary in catalogs["dictionaries"]:
         verify_body(dictionary["body"])
@@ -139,6 +164,8 @@ def main():
             require(safe_path(model["thumbnail"]).is_file(), "Missing model thumbnail")
 
     profile = read_json("profiles/default.json")
+    if anthology:
+        require(profile["books"] == [b["id"] for b in catalogs["books"]], "Default profile must use public books only")
     require(len(profile["files"]) == len(set(profile["files"])), "Duplicate default-profile file")
     require(all(path in recorded for path in profile["files"]), "Unknown default-profile file")
     require(sum(recorded[path]["bytes"] for path in profile["files"]) == profile["payload_bytes"], "Default-profile size mismatch")
@@ -156,6 +183,7 @@ def main():
     print(json.dumps({
         "status": "ok", "files_verified": len(recorded), "bytes_verified": total_bytes,
         "books": len(catalogs["books"]), "chapters": chapter_count,
+        "archived_standalone_books": len(all_books) - len(catalogs["books"]),
         "books_with_localized_titles": len(localized), "title_locales": ["en", "zh-CN", "ja"],
         "dictionaries": len(catalogs["dictionaries"]), "dictionary_entries": dictionary_entries,
         "articles": len(catalogs["articles"]), "collections": len(catalogs["collections"]),

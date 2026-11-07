@@ -2,12 +2,15 @@
   "collections": 1,
   "demo_articles": 3,
   "additional_starter_articles": 3,
-  "books": 100,
-  "chapters": 123,
+  "books": 4,
+  "chapters": 126,
   "dictionaries": 28,
   "dictionary_entries": 81119,
   "prompts": 16,
   "live2d_models": 8,
   "live2d_files": 158,
-  "cloudflare_objects_verified": 218
+  "cloudflare_objects_verified": 218,
+  "archived_standalone_books": 100,
+  "archived_standalone_chapters": 100,
+  "stored_chapter_payloads": 126
 }

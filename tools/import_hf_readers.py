@@ -255,6 +255,16 @@ def make_plan(root, config, new_books, outputs):
     old_manifest = json.loads((root / "manifest.json").read_text())
     recorded = {item["path"]: item for item in old_manifest["files"]}
     existing = json.loads((root / "catalogs/books.json").read_text())
+    # Optional public anthology: old records remain in a separate compatibility catalog.
+    from story_anthology import (SUPPORT_FILES as ANTHOLOGY_SUPPORT, build as build_anthology,
+                                 preserved_books, read_config)
+    anthology = read_config(root, config)
+    existing = preserved_books(root, existing, anthology)
+    previous_anthology = next((b for b in existing if anthology and b["id"] == anthology["id"]), None)
+    if previous_anthology:
+        require(previous_anthology.get("source", {}).get("import_id") == anthology["import_id"],
+                "Anthology book ID collision")
+        existing = [b for b in existing if b is not previous_anthology]
     selected_ids = {book["id"] for book in new_books}
     owned = [book for book in existing if book.get("source", {}).get("import_id") == config["import_id"]]
     require({book["id"] for book in owned} <= selected_ids, "Removing previously imported books is not supported")
@@ -274,18 +284,50 @@ def make_plan(root, config, new_books, outputs):
     books.extend(book for book in new_books if book["id"] not in {b["id"] for b in existing})
     if config.get("title_translations_path"):
         translations = json.loads(safe_path(root, config["title_translations_path"]).read_text(encoding="utf-8"))
-        books = apply_title_translations(books, translations, existing)
+        source_titles = translations
+        if anthology:
+            require(set(translations["books"]) == {b["id"] for b in books} | {anthology["id"]},
+                    "Title translation book IDs differ from public and archive catalogs")
+            source_titles = {**translations, "books": {k: v for k, v in translations["books"].items()
+                                                        if k != anthology["id"]}}
+        books = apply_title_translations(books, source_titles, existing)
+    if anthology:
+        require(config.get("title_translations_path"), "Anthology requires localized titles")
+        books, anthology_files = build_anthology(root, anthology, books, translations["books"], outputs)
+        generated = books[-1]
+        # Validate all titles, including the new aggregate, with the existing strict contract.
+        generated = apply_title_translations([generated], {"schema_version": 1,
+            "books": {generated["id"]: translations["books"][generated["id"]]}},
+            [previous_anthology] if previous_anthology else [])[0]
+        if previous_anthology:
+            old_content = {k: v for k, v in previous_anthology.items() if k != "revision"}
+            new_content = {k: v for k, v in generated.items() if k != "revision"}
+            generated["revision"] = previous_anthology["revision"] + (old_content != new_content)
+        books[-1] = generated
+        for relative, data in anthology_files.items():
+            path = safe_path(root, relative)
+            if path.exists() and path.read_bytes() != data:
+                require(relative in recorded and sha256(path.read_bytes()) == recorded[relative]["sha256"],
+                        "Locally edited anthology file: " + relative)
+        outputs.update(anthology_files)
     outputs["catalogs/books.json"] = json_bytes(books)
     summary = json.loads((root / "catalogs/summary.json").read_text())
     summary.update(books=len(books), chapters=sum(book["chapter_count"] for book in books))
+    if anthology:
+        summary.update(archived_standalone_books=len(new_books), archived_standalone_chapters=len(new_books),
+                       stored_chapter_payloads=len({c["body"]["path"] for b in books for c in b["chapters"]}))
     outputs["catalogs/summary.json"] = json_bytes(summary)
     profile = json.loads((root / "profiles/default.json").read_text())
-    profile["books"] = list(dict.fromkeys(profile["books"] + [book["id"] for book in new_books]))
+    profile["books"] = ([b["id"] for b in books] if anthology else
+                        list(dict.fromkeys(profile["books"] + [book["id"] for book in new_books])))
     profile["files"] = sorted(set(profile["files"]) | {p for p in outputs if p.startswith("books/")})
+    if anthology:
+        profile["files"] = sorted(set(profile["files"]) | {anthology["archive_path"], anthology["mapping_path"]})
     profile["payload_bytes"] = sum(len(outputs[p]) if p in outputs else safe_path(root, p).stat().st_size for p in profile["files"])
     outputs["profiles/default.json"] = json_bytes(profile)
     actual_paths = {p.relative_to(root).as_posix() for p in resource_files(root)}
-    allowed_paths = set(recorded) | set(outputs) | SUPPORT_FILES
+    allowed_paths = set(recorded) | set(outputs) | SUPPORT_FILES | ANTHOLOGY_SUPPORT
+    require(not set(recorded) - actual_paths - set(outputs), "Removing recorded files is not supported")
     unexpected = sorted(actual_paths - allowed_paths)
     require(not unexpected, "Unexpected local files; not adding them to manifest: " + ", ".join(unexpected))
     require(not any(p.endswith(".tmp") for p in actual_paths), "Temporary file found; refusing manifest update")
@@ -302,7 +344,10 @@ def make_plan(root, config, new_books, outputs):
         if "category" not in entry:
             entry["category"] = "book" if relative.startswith("books/") else "documentation" if relative.startswith("docs/") else "tooling"
         if relative.startswith("books/") and relative in outputs:
-            entry["source"] = {"kind": "curated-huggingface-import", "import_id": config["import_id"], "provenance": str(pathlib.PurePosixPath(relative).parents[1] if "/chapters/" in relative else pathlib.PurePosixPath(relative).parent) + "/source.json"}
+            is_anthology = anthology and relative.startswith("books/" + anthology["slug"] + "/")
+            entry["source"] = {"kind": "curated-story-anthology" if is_anthology else "curated-huggingface-import",
+                               "import_id": anthology["import_id"] if is_anthology else config["import_id"],
+                               "provenance": str(pathlib.PurePosixPath(relative).parents[1] if "/chapters/" in relative else pathlib.PurePosixPath(relative).parent) + "/source.json"}
         files.append(entry)
     manifest = dict(old_manifest)
     # Do not roll back an independent prompt/catalog revision on a no-op book import.
@@ -310,6 +355,10 @@ def make_plan(root, config, new_books, outputs):
                             for p, data in outputs.items()
                             if p.startswith("books/") or p == "catalogs/books.json")
     revision = config["revision"] if changed_book_data else old_manifest.get("revision", config["revision"])
+    if anthology:
+        revision = anthology["revision"] if changed_book_data else old_manifest["revision"]
+        manifest["compatibility"] = {"archived_books": {"path": anthology["archive_path"]},
+                                     "book_migrations": {"path": anthology["mapping_path"]}}
     manifest.update(revision=revision, counts=summary, files=files, total_bytes=sum(item["bytes"] for item in files))
     outputs["manifest.json"] = json_bytes(manifest)
     return outputs

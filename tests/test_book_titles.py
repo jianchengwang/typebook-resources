@@ -3,8 +3,11 @@ import copy
 import importlib.util
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "tools"))
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('reader_titles', ROOT / 'tools/import_hf_readers.py')
@@ -96,9 +99,10 @@ class BookTitleTests(unittest.TestCase):
 
     def test_full_catalog_has_exact_translation_coverage(self):
         books = json.loads((ROOT / 'catalogs/books.json').read_text())
+        books += json.loads((ROOT / 'catalogs/standalone-readers.json').read_text())
         titles = json.loads((ROOT / 'tools/book_titles.json').read_text())
         localized = reader.apply_title_translations(books, titles, books)
-        self.assertEqual(len(books), 100)
+        self.assertEqual(len(books), 104)
         self.assertEqual(localized, books)
         for book in books:
             self.assertEqual(book['title'], book['title_i18n']['en'])

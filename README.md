@@ -10,7 +10,7 @@ the application source remains in its existing repository.
 | --- | --- |
 | Demo anthology | 3 original articles |
 | Additional starter articles | 3 original articles retained in the official catalog |
-| Books | 100 books, 123 stored chapters and 100 covers |
+| Books | 4 public books: 3 long-form readers + one 100-story anthology; 126 stored chapters; 100 standalone records retained for compatibility |
 | Dictionaries | 28 dictionaries, 81,119 entries |
 | Learning prompts | 3 preserved built-ins + 13 distinct English learning, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
 | Live2D models | 8 models, 158 files |
@@ -22,12 +22,14 @@ Original books:
 - A Study in Scarlet, Arthur Conan Doyle: 14 stored chapters.
 - The Wind in the Willows, Kenneth Grahame: 7 stored chapters.
 
-The November 2026 reader addition contains 97 short English children’s books
+The November 2026 reader addition contains 100 short English children’s stories
 from Hugging Face’s GlotStoryBook dataset, individually verified as CC BY 3.0
-or CC BY 4.0. The second curated batch adds 81 books to the original 19-book
-catalog. Each short reader has one complete-story chapter (21–687 words), source
-attribution and an original typographic cover. See [the reading list and
-reproducible importer](docs/huggingface-readers.md).
+or CC BY 4.0. They are now presented as **Children's Short Stories / 儿童短故事合集**, one complete
+story per chapter, rather than 100 separate one-chapter books. The three original
+long-form readers remain independent. Old standalone IDs, source files and covers
+are preserved in a compatibility catalog, not repeated in the default book picker.
+See [the anthology structure and import notes](docs/childrens-short-stories.md) and
+[the reading list and reproducible importer](docs/huggingface-readers.md).
 
 For the original three books, chapter boundaries and content are preserved as currently stored. This export
 does not assert that every edition's original chapter structure is represented.
@@ -36,7 +38,7 @@ bytes. Git attributes disable newline conversion for payload files.
 
 ## Multilingual book titles
 
-All 100 books include `title_i18n` with `en`, `zh-CN` and `ja` display titles.
+All 4 public books and 100 archived standalone records include `title_i18n` with `en`, `zh-CN` and `ja` display titles.
 The existing English `title`, chapter text and original credits are unchanged.
 See [the field contract and reproducible editing workflow](docs/book-titles.md).
 Application integration is separate; this resource update does not deploy the site.
@@ -90,6 +92,8 @@ tools/verify.py              Offline integrity and dependency checks
 tools/import_hf_readers.py   Pinned, license-checked English reader importer
 tools/hf_readers.json        Curated reading list and upstream checksums
 tools/book_titles.json       English, Chinese and Japanese book display titles
+tools/story_anthology.py     Shared-body anthology and reversible old/new ID mapping
+catalogs/standalone-readers.json  Preserved short-reader records, not public listings
 tools/rebuild_prompts.py     Offline prompt validation, rendering and catalog rebuild
 tests/                      Offline importer and prompt regression tests
 docs/                       Hosting, frontend integration and rights notes
@@ -111,7 +115,7 @@ python3 -m unittest discover -s tests -v
 ```
 
 The validator checks every recorded file's size and SHA-256, dictionary entry
-counts, chapter references, prompt files, model dependencies and the default
+counts, anthology/archive mappings, per-story credits, chapter references, prompt files, model dependencies and the default
 profile. This validates a resource repository, not a running TypeBook application.
 
 ## Recommended distribution

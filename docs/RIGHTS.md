@@ -42,7 +42,7 @@ No Cloudflare object or database resource was deleted or changed during export.
 
 ## Individually licensed Hugging Face readers (November 2026)
 
-The 97 `books/asp-*/` additions are English African Storybook texts obtained
+The 100 `books/asp-*/` additions are English African Storybook texts obtained
 through `cis-lmu/GlotStoryBook` on Hugging Face. Each story was checked against
 its original English Markdown and its own license entry in the upstream index.
 The first 16 also had publication credits checked on Storybooks Canada;
@@ -74,3 +74,8 @@ remain unchanged. This addition does not relicense any existing resource or
 assert blanket rights over model-generated output. The image entries contain
 text templates only, not third-party illustrations or generated image assets.
 See [prompt usage and verification notes](prompts.md).
+
+The children's anthology references the existing story bodies without rewriting
+or copying them. Each story keeps its own license and notices. Combined credits
+are in `books/childrens-short-stories/LICENSE.md`; standalone records remain in
+`catalogs/standalone-readers.json` for compatibility.

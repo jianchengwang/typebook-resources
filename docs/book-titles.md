@@ -1,6 +1,7 @@
 # Multilingual book titles
 
-All 100 entries in `catalogs/books.json` include an additive `title_i18n` object:
+The 4 public entries in `catalogs/books.json` and 100 compatibility entries in
+`catalogs/standalone-readers.json` include an additive `title_i18n` object:
 
 ```json
 {
@@ -56,7 +57,7 @@ python3 -m unittest discover -s tests -v
 
 Omit `--offline` on a new checkout so the importer can retrieve its pinned,
 checksum-verified original inputs. This is the existing book importer: the title
-map is applied after combining the three classic books with the 97 readers, so
+map is applied after combining the three classic books with the 100 standalone records and the anthology, so
 future imports cannot silently erase localized titles. A newly selected book
 must also receive an entry in the title map; missing/unknown IDs, missing or
 unsupported locales, blank/control-character titles, and changed English titles

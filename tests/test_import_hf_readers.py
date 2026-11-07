@@ -3,8 +3,11 @@ import copy
 import importlib.util
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "tools"))
 
 MODULE = pathlib.Path(__file__).resolve().parents[1] / "tools/import_hf_readers.py"
 spec = importlib.util.spec_from_file_location("import_hf_readers", MODULE)

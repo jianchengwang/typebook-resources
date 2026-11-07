@@ -2327,6 +2327,61 @@
           "evidence_url": "https://africanstorybook.org/newviewer/index.php?id=8978&bt=1&dual=false"
         }
       ]
+    },
+    {
+      "slug": "asp-the-big-juicy-mango",
+      "legacy_id": 800033,
+      "chapter_legacy_id": 800033,
+      "parallel_id": "asp_0033",
+      "filename": "0033_the-big-juicy-mango.md",
+      "title": "The Big Juicy Mango",
+      "author": "Katelyn Mostert",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/big-juicy-mango-1",
+      "source_sha256": "591bea69369164950fd2d9f3cb3d58fcc2a8c34e4396b1bf7a90799d5ef5cb6d",
+      "paragraph_count": 9,
+      "word_count": 143,
+      "practice_band": "easy",
+      "practice_note": "Rhyming lines follow a mango tree from shoot to ripe fruit.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0033_the-big-juicy-mango.md"
+    },
+    {
+      "slug": "asp-my-new-friends",
+      "legacy_id": 800069,
+      "chapter_legacy_id": 800069,
+      "parallel_id": "asp_0069",
+      "filename": "0069_my-new-friends.md",
+      "title": "My new friends",
+      "author": "Zimbili Dlamini, Hlengiwe Zondi",
+      "license_id": "CC-BY-3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "original_url": "http://africanstorybook.org/stories/my-new-friends",
+      "source_sha256": "f127512c26d0aa5ce8352bd13294ffd8ddb71fd2da3514c4cb5a7ac4d9a181af",
+      "paragraph_count": 16,
+      "word_count": 78,
+      "practice_band": "easy",
+      "practice_note": "Simple repeated phrases about friends and shared activities.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0069_my-new-friends.md"
+    },
+    {
+      "slug": "asp-the-day-we-saw-the-rainbow",
+      "legacy_id": 800051,
+      "chapter_legacy_id": 800051,
+      "parallel_id": "asp_0051",
+      "filename": "0051_the_day-we-saw-rainbow.md",
+      "title": "The day we saw the rainbow",
+      "author": "Ursula Nafula",
+      "license_id": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "http://africanstorybook.org/stories/day-we-saw-rainbow",
+      "source_sha256": "33e458d57ff73308dadb0e5678e05b1bf7f826cbf37500e3d6cffce695c802ef",
+      "paragraph_count": 12,
+      "word_count": 152,
+      "practice_band": "easy",
+      "practice_note": "Children share their surprise and questions about seeing a rainbow for the first time.",
+      "reader_url": "https://github.com/global-asp/asp-source/blob/b5c3d5b2266ad936e5f20fa878e839b32b02b4ba/en/0051_the_day-we-saw-rainbow.md"
     }
-  ]
+  ],
+  "anthology_path": "tools/story_anthology.json"
 }

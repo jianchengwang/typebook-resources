@@ -1,26 +1,30 @@
 # Short English readers from Hugging Face
 
-This curated selection contains **97 real children's stories** for English reading
-and typing, alongside the three previously exported classic books. The repository
-now has **100 books, 123 stored chapters and 100 covers**. The second November
-2026 selection adds 81 readers while preserving the first 16 and all existing
-book IDs and chapter payloads.
+This curated selection contains **100 real children's stories** for English reading
+and typing, alongside the three previously exported classic books. The public repository
+now presents **4 books: the three long-form readers and one 100-chapter anthology**.
+The original standalone records and IDs remain in a separate compatibility catalog;
+no source payload is deleted. See [the anthology contract](childrens-short-stories.md).
 
-The 97 short readers contain **19,856 words** in total, from 21 to 687 words
-per story. Each original story is one book and one complete chapter; its page
-breaks become paragraph breaks. There are 1,048 original page paragraphs.
+The 100 short readers contain **20,229 words** in total, from 21 to 687 words
+per story. Each story is one complete chapter in the anthology; its page
+breaks become paragraph breaks. There are 1,085 original page paragraphs.
 
 The four practice bands below are editorial suggestions, not certified CEFR
 levels. Start with **starter**, then move to **easy**, **developing** and **longer**.
-The bands contain 26 starter, 36 easy, 25 developing and 10 longer readers.
+The bands contain 26 starter, 39 easy, 25 developing and 10 longer readers.
 They consider length and the text itself, not a standardized language test.
 The three classic books are not included in these band counts.
 
 Texts retain their original cultural context, proper names and British-English
 spelling. They are not rewritten or AI-generated stories.
 
-All 100 books also have English, Simplified Chinese and Japanese display titles;
+All public and archived records have English, Simplified Chinese and Japanese display titles;
 see [the title field contract](book-titles.md). Chapter text remains English.
+
+The final three additions are *The Big Juicy Mango*, *My new friends*, and
+*The day we saw the rainbow*. Their full originals and the same pinned CSV were
+compared paragraph by paragraph. All 100 normalized story bodies are unique.
 
 ## Reading list
 
@@ -52,6 +56,7 @@ see [the title field contract](book-titles.md). Chapter text remains English.
 | starter | [Counting animals](../books/asp-counting-animals/chapters/001.txt) | 74 | Zanele Buthelezi, Thembani Dladla, Clare Verbeek | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | starter | [What is wrong child?](../books/asp-what-is-wrong-child/chapters/001.txt) | 74 | Ursula Nafula | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | starter | [Serious accident](../books/asp-serious-accident/chapters/001.txt) | 75 | Zanele Buthelezi, Thembani Dladla, Clare Verbeek | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
+| easy | [My new friends](../books/asp-my-new-friends/chapters/001.txt) | 78 | Zimbili Dlamini, Hlengiwe Zondi | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | easy | [A very tall man](../books/asp-a-very-tall-man/chapters/001.txt) | 79 | Cornelius Gulere | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | easy | [The Chase](../books/asp-the-chase/chapters/001.txt) | 102 | Masika Grace, Sara Saunders | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | easy | [Cow with one horn](../books/asp-cow-with-one-horn/chapters/001.txt) | 104 | Sebongile Daniel, Mpho Ntlhanngoe, Khothatso Ranoosi | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
@@ -71,10 +76,12 @@ see [the title field contract](book-titles.md). Chapter text remains English.
 | easy | [Clever cat](../books/asp-clever-cat/chapters/001.txt) | 138 | Ursula Nafula | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | easy | [Ms Phone](../books/asp-ms-phone/chapters/001.txt) | 140 | Ursula Nafula | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | easy | [Tom the banana seller](../books/asp-tom-the-banana-seller/chapters/001.txt) | 140 | Humphreys Odunga | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| easy | [The Big Juicy Mango](../books/asp-the-big-juicy-mango/chapters/001.txt) | 143 | Katelyn Mostert | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | easy | [The Moon and the Cap](../books/asp-the-moon-and-the-cap/chapters/001.txt) | 143 | Noni | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | easy | [Rabbit Goes to a Party](../books/asp-rabbit-goes-to-a-party/chapters/001.txt) | 146 | Mozambican folktale | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | easy | [Goat, Dog, and Cow](../books/asp-goat-dog-and-cow/chapters/001.txt) | 148 | Fabian Wakholi | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
 | easy | [Rainbow visits the village](../books/asp-rainbow-visits-the-village/chapters/001.txt) | 151 | Ursula Nafula | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| easy | [The day we saw the rainbow](../books/asp-the-day-we-saw-the-rainbow/chapters/001.txt) | 152 | Ursula Nafula | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | easy | [Rats!](../books/asp-rats/chapters/001.txt) | 158 | Lourenço Magaia Sabão | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | easy | [Khalai talks to plants](../books/asp-khalai-talks-to-plants/chapters/001.txt) | 163 | Ursula Nafula | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
 | easy | [Hungry jackal and the sour grapes](../books/asp-hungry-jackal-and-the-sour-grapes/chapters/001.txt) | 164 | Kholeka Mabeta | [CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/) |
@@ -238,7 +245,7 @@ dataset label. Do not replace pinned revisions without reviewing the changes.
 ## Application integration
 
 This is a resource repository, not a running application. Its catalog now has
-100 books and 123 chapters. Each chapter supplies the current loader's flat
+4 public books and 126 chapters (plus 100 preserved standalone records). Each chapter supplies the current loader's flat
 `license_url`, `license_label`, `source_url`, `attribution` and `adaptation_note`
 fields as well as book-level provenance. The collection loader currently drops
 `adaptation_note`, so the visible attribution also includes the change notice.

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "book:810000",
+  "legacy_id": 810000,
+  "slug": "childrens-short-stories",
+  "import_id": "children-short-stories-anthology-v1",
+  "reader_import_id": "hf-glotstorybook-english-v1",
+  "archive_path": "catalogs/standalone-readers.json",
+  "mapping_path": "catalogs/reader-migrations.json",
+  "chapter_id_offset": 100000,
+  "order": "word_count_then_legacy_id",
+  "revision": "2026-11-07-childrens-story-anthology"
+}

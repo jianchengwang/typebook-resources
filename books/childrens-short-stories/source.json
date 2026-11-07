@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "import_id": "children-short-stories-anthology-v1",
+  "title_i18n": {
+    "en": "Children's Short Stories",
+    "zh-CN": "儿童短故事合集",
+    "ja": "子どもの短いお話集"
+  },
+  "reader_import_id": "hf-glotstorybook-english-v1",
+  "archive_path": "catalogs/standalone-readers.json",
+  "mapping_path": "catalogs/reader-migrations.json",
+  "ordering": "word_count_then_legacy_id",
+  "story_count": 100,
+  "word_count": 20229,
+  "license_counts": {
+    "CC-BY-3.0": 64,
+    "CC-BY-4.0": 36
+  },
+  "reused_body_bytes": 107950,
+  "new_body_bytes": 0,
+  "changes": "Arrangement only. Existing normalized English chapter bytes are reused without alteration. Original source and normalization notices remain per story."
+}
