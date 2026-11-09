@@ -5,347 +5,11 @@
   "policy": "opt-in; preserve old IDs, progress and local copies",
   "items": [
     {
-      "source_book_id": "book:800049",
-      "source_chapter_id": "chapter:800049",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900049",
-      "chapter_number": 1,
-      "body": {
-        "path": "books/asp-the-rainbow/chapters/001.txt",
-        "sha256": "305778a455bce77955bf81c81159d446a68e16e9cd47f2aa0606919d466dc8b8",
-        "bytes": 121
-      }
-    },
-    {
-      "source_book_id": "book:800302",
-      "source_chapter_id": "chapter:800302",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900302",
-      "chapter_number": 2,
-      "body": {
-        "path": "books/asp-fire/chapters/001.txt",
-        "sha256": "25f5d1e891aa5b521a698dbd47d9e7663194636e64913cf647b40b1ee5e64d1f",
-        "bytes": 131
-      }
-    },
-    {
-      "source_book_id": "book:800008",
-      "source_chapter_id": "chapter:800008",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900008",
-      "chapter_number": 3,
-      "body": {
-        "path": "books/asp-what-are-you-doing/chapters/001.txt",
-        "sha256": "40cf9303a969975c0626f13b1212a3d96b5bc9afd3b6607f716264d87d4ff321",
-        "bytes": 139
-      }
-    },
-    {
-      "source_book_id": "book:800126",
-      "source_chapter_id": "chapter:800126",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900126",
-      "chapter_number": 4,
-      "body": {
-        "path": "books/asp-clouds/chapters/001.txt",
-        "sha256": "f45eca55d1bf3aab0be2c582a33e660a8f66a7326f5daef1cc590eba6f86aba0",
-        "bytes": 161
-      }
-    },
-    {
-      "source_book_id": "book:800212",
-      "source_chapter_id": "chapter:800212",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900212",
-      "chapter_number": 5,
-      "body": {
-        "path": "books/asp-my-little-goat/chapters/001.txt",
-        "sha256": "32286079cb8671c3b2a8e2182013a96d41e4998a7f360d1e7d916523347b03da",
-        "bytes": 164
-      }
-    },
-    {
-      "source_book_id": "book:800087",
-      "source_chapter_id": "chapter:800087",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900087",
-      "chapter_number": 6,
-      "body": {
-        "path": "books/asp-i-like-to-read/chapters/001.txt",
-        "sha256": "c0cc696105ffb240695fc1ff4e4676f07c9cf69e66b98ed155fb0ba2f753bbb0",
-        "bytes": 214
-      }
-    },
-    {
-      "source_book_id": "book:800331",
-      "source_chapter_id": "chapter:800331",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900331",
-      "chapter_number": 7,
-      "body": {
-        "path": "books/asp-rain/chapters/001.txt",
-        "sha256": "5651aee1c1a9be1d23465059faf1c0a35078672d688e77cc2afec2c2304eb7c5",
-        "bytes": 232
-      }
-    },
-    {
-      "source_book_id": "book:800172",
-      "source_chapter_id": "chapter:800172",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900172",
-      "chapter_number": 8,
-      "body": {
-        "path": "books/asp-fruits/chapters/001.txt",
-        "sha256": "144e117d9163f24a4476423c570bec9322fe98461f2b9863afcbf28c2ecf498b",
-        "bytes": 283
-      }
-    },
-    {
-      "source_book_id": "book:800316",
-      "source_chapter_id": "chapter:800316",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900316",
-      "chapter_number": 9,
-      "body": {
-        "path": "books/asp-i-enjoy-doing/chapters/001.txt",
-        "sha256": "dee2d3fbf3e86b498de1c9a0a5667cb20a86c9e21a337c9de542fedec05c6418",
-        "bytes": 298
-      }
-    },
-    {
-      "source_book_id": "book:800240",
-      "source_chapter_id": "chapter:800240",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900240",
-      "chapter_number": 10,
-      "body": {
-        "path": "books/asp-pendo-our-cow/chapters/001.txt",
-        "sha256": "f3c7e8df8712fb2416ab31c5b42e0712859d7969fd8e6f3334bf167beea685fa",
-        "bytes": 332
-      }
-    },
-    {
-      "source_book_id": "book:800113",
-      "source_chapter_id": "chapter:800113",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900113",
-      "chapter_number": 11,
-      "body": {
-        "path": "books/asp-new-pussy-cat/chapters/001.txt",
-        "sha256": "e77aab877df17fefbc119dc4e909a591fd98ff317c2382a278e3d1f3e9e599a7",
-        "bytes": 317
-      }
-    },
-    {
-      "source_book_id": "book:800157",
-      "source_chapter_id": "chapter:800157",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900157",
-      "chapter_number": 12,
-      "body": {
-        "path": "books/asp-children-like-to-play/chapters/001.txt",
-        "sha256": "9b9dac55e66af533f04d9e11a7a923c5af7db4d7c50889a5bc66588a79d2e06a",
-        "bytes": 349
-      }
-    },
-    {
-      "source_book_id": "book:800043",
-      "source_chapter_id": "chapter:800043",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900043",
-      "chapter_number": 13,
-      "body": {
-        "path": "books/asp-fires-story/chapters/001.txt",
-        "sha256": "79c7dc23a28bd74ddab3486f3a0790c8edb36e941d5f1256e80315e7111054a6",
-        "bytes": 291
-      }
-    },
-    {
-      "source_book_id": "book:800265",
-      "source_chapter_id": "chapter:800265",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900265",
-      "chapter_number": 14,
-      "body": {
-        "path": "books/asp-tell-me-now-happy-and-sad/chapters/001.txt",
-        "sha256": "8b6ee0618967643b167a2fa88b41a0c4bdcd25e41742d1adda7cd7ecea4b7292",
-        "bytes": 320
-      }
-    },
-    {
-      "source_book_id": "book:800050",
-      "source_chapter_id": "chapter:800050",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900050",
-      "chapter_number": 15,
-      "body": {
-        "path": "books/asp-what-type-of-teeth/chapters/001.txt",
-        "sha256": "986f134ef1ac0ade3e6f70d20d48a2210bc76de660f550577359367aa40b92be",
-        "bytes": 330
-      }
-    },
-    {
-      "source_book_id": "book:800355",
-      "source_chapter_id": "chapter:800355",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900355",
-      "chapter_number": 16,
-      "body": {
-        "path": "books/asp-tell-me-now-colours/chapters/001.txt",
-        "sha256": "67ff9bbb76c834abba3daadafdaebba5db12694cbdb0cd32d3a9a4db5d875c75",
-        "bytes": 348
-      }
-    },
-    {
-      "source_book_id": "book:800058",
-      "source_chapter_id": "chapter:800058",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900058",
-      "chapter_number": 17,
-      "body": {
-        "path": "books/asp-soccer-game/chapters/001.txt",
-        "sha256": "a5a1b91dee51853972ba71d86731fadfa415344d785805458ef4bf3e926dd077",
-        "bytes": 350
-      }
-    },
-    {
-      "source_book_id": "book:800109",
-      "source_chapter_id": "chapter:800109",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900109",
-      "chapter_number": 18,
-      "body": {
-        "path": "books/asp-lekishon-and-the-cows/chapters/001.txt",
-        "sha256": "f24dcccfa5f8aca8f3dd4cdfbbf53d4443e0398c76ca4e4b2624c29bba8b4031",
-        "bytes": 355
-      }
-    },
-    {
-      "source_book_id": "book:800160",
-      "source_chapter_id": "chapter:800160",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900160",
-      "chapter_number": 19,
-      "body": {
-        "path": "books/asp-disability-is-not-inability/chapters/001.txt",
-        "sha256": "9f14af1e10fd48424264a47922af8a4e8e4c23bf1ed326d0e3946ddccf7d2ecf",
-        "bytes": 366
-      }
-    },
-    {
-      "source_book_id": "book:800245",
-      "source_chapter_id": "chapter:800245",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900245",
-      "chapter_number": 20,
-      "body": {
-        "path": "books/asp-our-day-zoo/chapters/001.txt",
-        "sha256": "06b76a52b44c5ed593c664c291c4cb4321fcff307d311d8394f1078ceb643101",
-        "bytes": 360
-      }
-    },
-    {
-      "source_book_id": "book:800143",
-      "source_chapter_id": "chapter:800143",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900143",
-      "chapter_number": 21,
-      "body": {
-        "path": "books/asp-my-red-ball/chapters/001.txt",
-        "sha256": "eda08b3bf62c3fd761351aeef6c2e72c9e28534b1b7dbab0147ddba39c7f84a7",
-        "bytes": 312
-      }
-    },
-    {
-      "source_book_id": "book:800117",
-      "source_chapter_id": "chapter:800117",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900117",
-      "chapter_number": 22,
-      "body": {
-        "path": "books/asp-friendship-between-hyena-and-hare/chapters/001.txt",
-        "sha256": "e3812403cc0904af155de0152d86bba47efb7fabe406a5c7f9e2535e4d42d134",
-        "bytes": 396
-      }
-    },
-    {
-      "source_book_id": "book:800217",
-      "source_chapter_id": "chapter:800217",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900217",
-      "chapter_number": 23,
-      "body": {
-        "path": "books/asp-my-teacher/chapters/001.txt",
-        "sha256": "fb5935678474c8adebe2a8c45cbee8109c25941de21ab1caa60406a38814f40e",
-        "bytes": 378
-      }
-    },
-    {
-      "source_book_id": "book:800152",
-      "source_chapter_id": "chapter:800152",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900152",
-      "chapter_number": 24,
-      "body": {
-        "path": "books/asp-what-is-wrong-child/chapters/001.txt",
-        "sha256": "8be85106b66f9a001b875d8004529acfbe0b90c992c524bb5d3c606ae1750ab6",
-        "bytes": 419
-      }
-    },
-    {
-      "source_book_id": "book:800327",
-      "source_chapter_id": "chapter:800327",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900327",
-      "chapter_number": 25,
-      "body": {
-        "path": "books/asp-counting-animals/chapters/001.txt",
-        "sha256": "e14262b9345485bf07f885a97bf333cecf145a75fded84ac4036bdabd0a8dab3",
-        "bytes": 407
-      }
-    },
-    {
-      "source_book_id": "book:800285",
-      "source_chapter_id": "chapter:800285",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900285",
-      "chapter_number": 26,
-      "body": {
-        "path": "books/asp-serious-accident/chapters/001.txt",
-        "sha256": "3f040a1d3aabb3116f0fdca7f64b00065dcb0e50640407c9b5ffe6c2a10603ce",
-        "bytes": 387
-      }
-    },
-    {
-      "source_book_id": "book:800069",
-      "source_chapter_id": "chapter:800069",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900069",
-      "chapter_number": 27,
-      "body": {
-        "path": "books/asp-my-new-friends/chapters/001.txt",
-        "sha256": "94658bc1c8e7c5d1dfe5662e3c9c5681c700d6fc5400034ee6a00bcb7b507baf",
-        "bytes": 429
-      }
-    },
-    {
-      "source_book_id": "book:800001",
-      "source_chapter_id": "chapter:800001",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900001",
-      "chapter_number": 28,
-      "body": {
-        "path": "books/asp-a-very-tall-man/chapters/001.txt",
-        "sha256": "c0df905de359f03593206437cfac2dfbbf936065c600715744b0cc07b09b1955",
-        "bytes": 379
-      }
-    },
-    {
       "source_book_id": "book:800175",
       "source_chapter_id": "chapter:800175",
       "book_id": "book:810000",
       "chapter_id": "chapter:900175",
-      "chapter_number": 29,
+      "chapter_number": 1,
       "body": {
         "path": "books/asp-the-chase/chapters/001.txt",
         "sha256": "b101cd432b8ae72ec8d59d667fbf0b50234be9d3cf332e958cfd73e790cfd603",
@@ -357,7 +21,7 @@
       "source_chapter_id": "chapter:800159",
       "book_id": "book:810000",
       "chapter_id": "chapter:900159",
-      "chapter_number": 30,
+      "chapter_number": 2,
       "body": {
         "path": "books/asp-cow-with-one-horn/chapters/001.txt",
         "sha256": "54282c83129f510efe56281279c0ad41a46cfd4b59d24b93882d60d32a105128",
@@ -369,7 +33,7 @@
       "source_chapter_id": "chapter:800174",
       "book_id": "book:810000",
       "chapter_id": "chapter:900174",
-      "chapter_number": 31,
+      "chapter_number": 3,
       "body": {
         "path": "books/asp-who-is-big/chapters/001.txt",
         "sha256": "ea85f63d681354723163ebe7c4c61d9c3ad886388b8fbaf1da4b53f4d31f2b86",
@@ -381,7 +45,7 @@
       "source_chapter_id": "chapter:800021",
       "book_id": "book:810000",
       "chapter_id": "chapter:900021",
-      "chapter_number": 32,
+      "chapter_number": 4,
       "body": {
         "path": "books/asp-dembe-the-shopkeeper/chapters/001.txt",
         "sha256": "a8a2846f631f8580e5005ba79b8c9b05b8f20e67ede9eb61d8b554e6eded5194",
@@ -389,23 +53,11 @@
       }
     },
     {
-      "source_book_id": "book:800188",
-      "source_chapter_id": "chapter:800188",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900188",
-      "chapter_number": 33,
-      "body": {
-        "path": "books/asp-my-mother-planted/chapters/001.txt",
-        "sha256": "778be7ec562b935dca0732efc60e03010be58678ffd7b68c2e27acb43371e8b0",
-        "bytes": 618
-      }
-    },
-    {
       "source_book_id": "book:800136",
       "source_chapter_id": "chapter:800136",
       "book_id": "book:810000",
       "chapter_id": "chapter:900136",
-      "chapter_number": 34,
+      "chapter_number": 5,
       "body": {
         "path": "books/asp-hamisis-lucky-day/chapters/001.txt",
         "sha256": "dca0cb330f493512dd472ebd97ad7cf886b3029cfc05a54a8178d3135e87699d",
@@ -417,7 +69,7 @@
       "source_chapter_id": "chapter:800011",
       "book_id": "book:810000",
       "chapter_id": "chapter:900011",
-      "chapter_number": 35,
+      "chapter_number": 6,
       "body": {
         "path": "books/asp-father-and-son/chapters/001.txt",
         "sha256": "19c03555b3cd86f4d3b748e8b811a010f83979019660981b1fbbafd47e666b6a",
@@ -425,23 +77,11 @@
       }
     },
     {
-      "source_book_id": "book:800257",
-      "source_chapter_id": "chapter:800257",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900257",
-      "chapter_number": 36,
-      "body": {
-        "path": "books/asp-colours-of-a-rainbow/chapters/001.txt",
-        "sha256": "c5f9dad0acca24e2becd364a41ed12b9bad1e829575aa5201b62885154e568be",
-        "bytes": 625
-      }
-    },
-    {
       "source_book_id": "book:800266",
       "source_chapter_id": "chapter:800266",
       "book_id": "book:810000",
       "chapter_id": "chapter:900266",
-      "chapter_number": 37,
+      "chapter_number": 7,
       "body": {
         "path": "books/asp-bunty-and-bubbly/chapters/001.txt",
         "sha256": "be42e7659844f0aedf4c0817352196316dfdc868bd8dd2956c9ffd6c6c6f2e2f",
@@ -449,23 +89,11 @@
       }
     },
     {
-      "source_book_id": "book:800269",
-      "source_chapter_id": "chapter:800269",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900269",
-      "chapter_number": 38,
-      "body": {
-        "path": "books/asp-soccer-skills/chapters/001.txt",
-        "sha256": "d4f19abd7a1b4c5c9c2c38f6cb7e4d5cccdf94154411f7ccf5d6c37daa65a035",
-        "bytes": 632
-      }
-    },
-    {
       "source_book_id": "book:800014",
       "source_chapter_id": "chapter:800014",
       "book_id": "book:810000",
       "chapter_id": "chapter:900014",
-      "chapter_number": 39,
+      "chapter_number": 8,
       "body": {
         "path": "books/asp-girl-called-norah/chapters/001.txt",
         "sha256": "6adcce9973320176e649b664d10f92b964540abf2441c7b54800d4df3f76208f",
@@ -473,23 +101,11 @@
       }
     },
     {
-      "source_book_id": "book:800095",
-      "source_chapter_id": "chapter:800095",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900095",
-      "chapter_number": 40,
-      "body": {
-        "path": "books/asp-zama-is-great/chapters/001.txt",
-        "sha256": "546923a17038b028d78bd524a14ab4b9f27678754dd19c11b9ebddd399b263b5",
-        "bytes": 636
-      }
-    },
-    {
       "source_book_id": "book:800035",
       "source_chapter_id": "chapter:800035",
       "book_id": "book:810000",
       "chapter_id": "chapter:900035",
-      "chapter_number": 41,
+      "chapter_number": 9,
       "body": {
         "path": "books/asp-wind/chapters/001.txt",
         "sha256": "c51c170a1a049ebf57421369db1e30335a1be2be50407c415f2d6ed7797d55ce",
@@ -501,7 +117,7 @@
       "source_chapter_id": "chapter:800071",
       "book_id": "book:810000",
       "chapter_id": "chapter:900071",
-      "chapter_number": 42,
+      "chapter_number": 10,
       "body": {
         "path": "books/asp-our-river-our-life/chapters/001.txt",
         "sha256": "de88dd080efb3d48504f1eac02b8386b2a04f71e4662191e088c16a5456c97e0",
@@ -513,7 +129,7 @@
       "source_chapter_id": "chapter:800342",
       "book_id": "book:810000",
       "chapter_id": "chapter:900342",
-      "chapter_number": 43,
+      "chapter_number": 11,
       "body": {
         "path": "books/asp-punishment/chapters/001.txt",
         "sha256": "3b6c5d8ddbd16d0ee3133244e0e46e2825e2abe2c673ba16eedc838d5ab63341",
@@ -525,7 +141,7 @@
       "source_chapter_id": "chapter:800056",
       "book_id": "book:810000",
       "chapter_id": "chapter:900056",
-      "chapter_number": 44,
+      "chapter_number": 12,
       "body": {
         "path": "books/asp-clever-cat/chapters/001.txt",
         "sha256": "236233f63c94ca3604a4200b1f292ab798e9a93866ba0c618771320e5a73a746",
@@ -537,7 +153,7 @@
       "source_chapter_id": "chapter:800105",
       "book_id": "book:810000",
       "chapter_id": "chapter:900105",
-      "chapter_number": 45,
+      "chapter_number": 13,
       "body": {
         "path": "books/asp-ms-phone/chapters/001.txt",
         "sha256": "98e2c23440439a7dabea04d689e7bce0f088d29616634f5e4c12c4c201a822ba",
@@ -549,7 +165,7 @@
       "source_chapter_id": "chapter:800296",
       "book_id": "book:810000",
       "chapter_id": "chapter:900296",
-      "chapter_number": 46,
+      "chapter_number": 14,
       "body": {
         "path": "books/asp-tom-the-banana-seller/chapters/001.txt",
         "sha256": "b956681fd2e9803564ee7b46a5eecfae1647c8166763c33791116fe915b42ff8",
@@ -557,23 +173,11 @@
       }
     },
     {
-      "source_book_id": "book:800033",
-      "source_chapter_id": "chapter:800033",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900033",
-      "chapter_number": 47,
-      "body": {
-        "path": "books/asp-the-big-juicy-mango/chapters/001.txt",
-        "sha256": "200be153c3874188f59acbf716c8084d9923035d9b16ea0153c83bc3f52fac62",
-        "bytes": 764
-      }
-    },
-    {
       "source_book_id": "book:800149",
       "source_chapter_id": "chapter:800149",
       "book_id": "book:810000",
       "chapter_id": "chapter:900149",
-      "chapter_number": 48,
+      "chapter_number": 15,
       "body": {
         "path": "books/asp-the-moon-and-the-cap/chapters/001.txt",
         "sha256": "cad9e94739641ebaf6a5180dd421fbc0c77a24259422597e2c319209166e2c6b",
@@ -585,7 +189,7 @@
       "source_chapter_id": "chapter:800233",
       "book_id": "book:810000",
       "chapter_id": "chapter:900233",
-      "chapter_number": 49,
+      "chapter_number": 16,
       "body": {
         "path": "books/asp-rabbit-goes-to-a-party/chapters/001.txt",
         "sha256": "855334d85ed5ad18a0b59ce07ac32877ed3eebbbfde239a0783841849227a9d0",
@@ -597,7 +201,7 @@
       "source_chapter_id": "chapter:800004",
       "book_id": "book:810000",
       "chapter_id": "chapter:900004",
-      "chapter_number": 50,
+      "chapter_number": 17,
       "body": {
         "path": "books/asp-goat-dog-and-cow/chapters/001.txt",
         "sha256": "bdc43dbac81b7cee08a08735d0b5088350d52f5e7bcc053a5db24b81335d976a",
@@ -609,7 +213,7 @@
       "source_chapter_id": "chapter:800096",
       "book_id": "book:810000",
       "chapter_id": "chapter:900096",
-      "chapter_number": 51,
+      "chapter_number": 18,
       "body": {
         "path": "books/asp-rainbow-visits-the-village/chapters/001.txt",
         "sha256": "50408d5bba3b4260460eef57fdfa2bb8469546f686ab3de0675f326218410aa2",
@@ -617,23 +221,11 @@
       }
     },
     {
-      "source_book_id": "book:800051",
-      "source_chapter_id": "chapter:800051",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900051",
-      "chapter_number": 52,
-      "body": {
-        "path": "books/asp-the-day-we-saw-the-rainbow/chapters/001.txt",
-        "sha256": "1fe048b6627897afe905cc2da6ac5bc024b0e12e4d9d8b543cdfcc929ea95ef6",
-        "bytes": 816
-      }
-    },
-    {
       "source_book_id": "book:800153",
       "source_chapter_id": "chapter:800153",
       "book_id": "book:810000",
       "chapter_id": "chapter:900153",
-      "chapter_number": 53,
+      "chapter_number": 19,
       "body": {
         "path": "books/asp-rats/chapters/001.txt",
         "sha256": "a700ad1ad7e0c3cb172b14ec92d7da9d80c2606473beb5506ec00b9c59bd67f9",
@@ -645,7 +237,7 @@
       "source_chapter_id": "chapter:800089",
       "book_id": "book:810000",
       "chapter_id": "chapter:900089",
-      "chapter_number": 54,
+      "chapter_number": 20,
       "body": {
         "path": "books/asp-khalai-talks-to-plants/chapters/001.txt",
         "sha256": "ab557c293dff0eda9f8fb9912bac15955e6cb51f2a8b9fe44f41600d355ae983",
@@ -657,7 +249,7 @@
       "source_chapter_id": "chapter:800042",
       "book_id": "book:810000",
       "chapter_id": "chapter:900042",
-      "chapter_number": 55,
+      "chapter_number": 21,
       "body": {
         "path": "books/asp-hungry-jackal-and-the-sour-grapes/chapters/001.txt",
         "sha256": "2983984acbe2002696fc1225cc3a46e9e4c3dbf00a651812366ba83dbfbfe4e0",
@@ -669,7 +261,7 @@
       "source_chapter_id": "chapter:800181",
       "book_id": "book:810000",
       "chapter_id": "chapter:900181",
-      "chapter_number": 56,
+      "chapter_number": 22,
       "body": {
         "path": "books/asp-sunday-at-the-park/chapters/001.txt",
         "sha256": "f832c2eaea9c4640160ff272f56118fb9064e76a629950cba08618e8b85ee237",
@@ -677,23 +269,11 @@
       }
     },
     {
-      "source_book_id": "book:800018",
-      "source_chapter_id": "chapter:800018",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900018",
-      "chapter_number": 57,
-      "body": {
-        "path": "books/asp-why-is-yayeri-great/chapters/001.txt",
-        "sha256": "c9bb9483166a027be32f3f2e3938015fd65dac344ff9540df01006f5b1e0878e",
-        "bytes": 998
-      }
-    },
-    {
       "source_book_id": "book:800283",
       "source_chapter_id": "chapter:800283",
       "book_id": "book:810000",
       "chapter_id": "chapter:900283",
-      "chapter_number": 58,
+      "chapter_number": 23,
       "body": {
         "path": "books/asp-teacher-akinyi/chapters/001.txt",
         "sha256": "e54f5f11e0bd3d2fee93430cba82f43a7b60b22c2e4aa904d2977ff7cb5bdc44",
@@ -705,7 +285,7 @@
       "source_chapter_id": "chapter:800220",
       "book_id": "book:810000",
       "chapter_id": "chapter:900220",
-      "chapter_number": 59,
+      "chapter_number": 24,
       "body": {
         "path": "books/asp-keeper-and-his-special-nursery/chapters/001.txt",
         "sha256": "1dae2307572a786e7baeae2b2e43e1ab0a8d0292a069df1aedfc6ad01e1ff6a6",
@@ -717,7 +297,7 @@
       "source_chapter_id": "chapter:800027",
       "book_id": "book:810000",
       "chapter_id": "chapter:900027",
-      "chapter_number": 60,
+      "chapter_number": 25,
       "body": {
         "path": "books/asp-decision/chapters/001.txt",
         "sha256": "77ec2c4f2b36dc74ac9caa971465317ee00a759524dfe376ca947667de8d9bf7",
@@ -729,7 +309,7 @@
       "source_chapter_id": "chapter:800137",
       "book_id": "book:810000",
       "chapter_id": "chapter:900137",
-      "chapter_number": 61,
+      "chapter_number": 26,
       "body": {
         "path": "books/asp-locusts/chapters/001.txt",
         "sha256": "9d014d9b75fa204a1d2136c6184ab855a96eba703c7829bd967b421949416017",
@@ -741,7 +321,7 @@
       "source_chapter_id": "chapter:800361",
       "book_id": "book:810000",
       "chapter_id": "chapter:900361",
-      "chapter_number": 62,
+      "chapter_number": 27,
       "body": {
         "path": "books/asp-the-man-and-the-lion/chapters/001.txt",
         "sha256": "bd8281ca223e653691333a4e23d54d07d7ef903b597572889b3b3e0ca711bb2c",
@@ -753,7 +333,7 @@
       "source_chapter_id": "chapter:800197",
       "book_id": "book:810000",
       "chapter_id": "chapter:900197",
-      "chapter_number": 63,
+      "chapter_number": 28,
       "body": {
         "path": "books/asp-dog-and-crocodile/chapters/001.txt",
         "sha256": "f922284a8a5c233f3761d94b3d264cb9c8c5bac3716136a6c2b133351fbd120a",
@@ -765,7 +345,7 @@
       "source_chapter_id": "chapter:800216",
       "book_id": "book:810000",
       "chapter_id": "chapter:900216",
-      "chapter_number": 64,
+      "chapter_number": 29,
       "body": {
         "path": "books/asp-the-day-the-sun-went-away/chapters/001.txt",
         "sha256": "315902dadb101c938e8f3738ccbab496b987e2aae80f8ea6f4e97e9139eb6f49",
@@ -777,7 +357,7 @@
       "source_chapter_id": "chapter:800177",
       "book_id": "book:810000",
       "chapter_id": "chapter:900177",
-      "chapter_number": 65,
+      "chapter_number": 30,
       "body": {
         "path": "books/asp-little-dog/chapters/001.txt",
         "sha256": "df1cc6b5fa5a480d045566141aa934bd2b66b9e506ad0c477974be6d3737ce8b",
@@ -789,7 +369,7 @@
       "source_chapter_id": "chapter:800024",
       "book_id": "book:810000",
       "chapter_id": "chapter:900024",
-      "chapter_number": 66,
+      "chapter_number": 31,
       "body": {
         "path": "books/asp-the-sick-hyena/chapters/001.txt",
         "sha256": "7861528ff8573eb969e3f151a7857a6c3040238f7f75fc6ce91b2391a6a9b9c6",
@@ -797,23 +377,11 @@
       }
     },
     {
-      "source_book_id": "book:800232",
-      "source_chapter_id": "chapter:800232",
-      "book_id": "book:810000",
-      "chapter_id": "chapter:900232",
-      "chapter_number": 67,
-      "body": {
-        "path": "books/asp-sleepy-mr-sloth/chapters/001.txt",
-        "sha256": "a56b81cdacab4968eb746225987b266487d3a587f1ff08126cc0584f82663b89",
-        "bytes": 1197
-      }
-    },
-    {
       "source_book_id": "book:800189",
       "source_chapter_id": "chapter:800189",
       "book_id": "book:810000",
       "chapter_id": "chapter:900189",
-      "chapter_number": 68,
+      "chapter_number": 32,
       "body": {
         "path": "books/asp-hare-trickster/chapters/001.txt",
         "sha256": "8e60e9abd96824fe420072055d01f64a85dee7e83af6132db3e9976c81711642",
@@ -825,7 +393,7 @@
       "source_chapter_id": "chapter:800045",
       "book_id": "book:810000",
       "chapter_id": "chapter:900045",
-      "chapter_number": 69,
+      "chapter_number": 33,
       "body": {
         "path": "books/asp-the-clever-jackal-and-the-foolish-crow/chapters/001.txt",
         "sha256": "e9c61c589abf64b527a6522d8ec48e268a19ec8d845b51a02d784a853a7da758",
@@ -837,7 +405,7 @@
       "source_chapter_id": "chapter:800314",
       "book_id": "book:810000",
       "chapter_id": "chapter:900314",
-      "chapter_number": 70,
+      "chapter_number": 34,
       "body": {
         "path": "books/asp-fox-and-rooster/chapters/001.txt",
         "sha256": "48b88b27ae698f446f19e0e5398b1146595c9624e963cbccf5b7a8d90656c3d3",
@@ -849,7 +417,7 @@
       "source_chapter_id": "chapter:800065",
       "book_id": "book:810000",
       "chapter_id": "chapter:900065",
-      "chapter_number": 71,
+      "chapter_number": 35,
       "body": {
         "path": "books/asp-ah-football/chapters/001.txt",
         "sha256": "8fbc297452e080055bc1f24809af3c44375d941afdb6b9aa985edfca5f832b5d",
@@ -861,7 +429,7 @@
       "source_chapter_id": "chapter:800351",
       "book_id": "book:810000",
       "chapter_id": "chapter:900351",
-      "chapter_number": 72,
+      "chapter_number": 36,
       "body": {
         "path": "books/asp-friends-become-enemies/chapters/001.txt",
         "sha256": "4dbb3573240ce637791fba23624b34f2ca59cfdd8fd10f6a1aa0235a4553efcf",
@@ -873,7 +441,7 @@
       "source_chapter_id": "chapter:800141",
       "book_id": "book:810000",
       "chapter_id": "chapter:900141",
-      "chapter_number": 73,
+      "chapter_number": 37,
       "body": {
         "path": "books/asp-chicken-and-millipede/chapters/001.txt",
         "sha256": "01fb8878ff66988dbe997be149855d0e85b30213a4a995179109ec3003594c0b",
@@ -885,7 +453,7 @@
       "source_chapter_id": "chapter:800304",
       "book_id": "book:810000",
       "chapter_id": "chapter:900304",
-      "chapter_number": 74,
+      "chapter_number": 38,
       "body": {
         "path": "books/asp-greedy-kiundu/chapters/001.txt",
         "sha256": "70a25acf7b5e1dc5fd8c7932550d13905077e3efd7a58362efa84c9973b097d0",
@@ -897,7 +465,7 @@
       "source_chapter_id": "chapter:800006",
       "book_id": "book:810000",
       "chapter_id": "chapter:900006",
-      "chapter_number": 75,
+      "chapter_number": 39,
       "body": {
         "path": "books/asp-anansi-and-wisdom/chapters/001.txt",
         "sha256": "b2a9911bfb31bfa2c92e13a2e7fef0419f62b672f5705001c3c779bab34debf4",
@@ -909,7 +477,7 @@
       "source_chapter_id": "chapter:800013",
       "book_id": "book:810000",
       "chapter_id": "chapter:900013",
-      "chapter_number": 76,
+      "chapter_number": 40,
       "body": {
         "path": "books/asp-letter-to-mum/chapters/001.txt",
         "sha256": "5f4b5f981023e60f954bd5c4cca95b17ba03b4634b58825afb823b3871c6f880",
@@ -921,7 +489,7 @@
       "source_chapter_id": "chapter:800161",
       "book_id": "book:810000",
       "chapter_id": "chapter:900161",
-      "chapter_number": 77,
+      "chapter_number": 41,
       "body": {
         "path": "books/asp-kekes-swing/chapters/001.txt",
         "sha256": "5c11088a9c59e0605ebb9c0542018f45fc4c8b336f1681e2b1c6c38cd4136734",
@@ -933,7 +501,7 @@
       "source_chapter_id": "chapter:800362",
       "book_id": "book:810000",
       "chapter_id": "chapter:900362",
-      "chapter_number": 78,
+      "chapter_number": 42,
       "body": {
         "path": "books/asp-nanus-taxi/chapters/001.txt",
         "sha256": "e25aefd6c0df98ae6951b9f23b61dcea11481231c96c11bfc7d9482002e2acdb",
@@ -945,7 +513,7 @@
       "source_chapter_id": "chapter:800345",
       "book_id": "book:810000",
       "chapter_id": "chapter:900345",
-      "chapter_number": 79,
+      "chapter_number": 43,
       "body": {
         "path": "books/asp-khayanga-and-her-gourd/chapters/001.txt",
         "sha256": "cc88c568372cc36d9f1d0910f4bacc7f040debf26ac64e2c99c3bcdc48058d6f",
@@ -957,7 +525,7 @@
       "source_chapter_id": "chapter:800039",
       "book_id": "book:810000",
       "chapter_id": "chapter:900039",
-      "chapter_number": 80,
+      "chapter_number": 44,
       "body": {
         "path": "books/asp-first-man-and-first-woman/chapters/001.txt",
         "sha256": "94a231c71a072e3c6c2e0d38a7540786a538ee199de24b9caac25495c0d40159",
@@ -969,7 +537,7 @@
       "source_chapter_id": "chapter:800256",
       "book_id": "book:810000",
       "chapter_id": "chapter:900256",
-      "chapter_number": 81,
+      "chapter_number": 45,
       "body": {
         "path": "books/asp-my-first-pair-of-shoes/chapters/001.txt",
         "sha256": "0957e7d490cab13540d071fda9a451c4643e9a604d9079cf579e2d9c00901c98",
@@ -981,7 +549,7 @@
       "source_chapter_id": "chapter:800276",
       "book_id": "book:810000",
       "chapter_id": "chapter:900276",
-      "chapter_number": 82,
+      "chapter_number": 46,
       "body": {
         "path": "books/asp-big-blue-bus/chapters/001.txt",
         "sha256": "d77b4ee0032494cb5961e242bad87558d28d0b932b9529729f822f619588a517",
@@ -993,7 +561,7 @@
       "source_chapter_id": "chapter:800200",
       "book_id": "book:810000",
       "chapter_id": "chapter:900200",
-      "chapter_number": 83,
+      "chapter_number": 47,
       "body": {
         "path": "books/asp-amazing-daisy/chapters/001.txt",
         "sha256": "2da63685a553bd8038499f9ec2af902796087c5d2db3a8dd90c08d6bfde1e4a6",
@@ -1005,7 +573,7 @@
       "source_chapter_id": "chapter:800016",
       "book_id": "book:810000",
       "chapter_id": "chapter:900016",
-      "chapter_number": 84,
+      "chapter_number": 48,
       "body": {
         "path": "books/asp-my-friend-coco/chapters/001.txt",
         "sha256": "401b5c77354c85205a3c9fd31fc5333fcd7fe781dc2a8d9edb6671ae30ea05e8",
@@ -1017,7 +585,7 @@
       "source_chapter_id": "chapter:800312",
       "book_id": "book:810000",
       "chapter_id": "chapter:900312",
-      "chapter_number": 85,
+      "chapter_number": 49,
       "body": {
         "path": "books/asp-curious-baby-elephant/chapters/001.txt",
         "sha256": "3a5a3db48660318e4513311d0ab6fff97e2bce1a4d871d93762bee5bf3a0bb4e",
@@ -1029,7 +597,7 @@
       "source_chapter_id": "chapter:800059",
       "book_id": "book:810000",
       "chapter_id": "chapter:900059",
-      "chapter_number": 86,
+      "chapter_number": 50,
       "body": {
         "path": "books/asp-akais-special-mat/chapters/001.txt",
         "sha256": "96029ad541bfb5d7415affd56688fcb96cafa890bce8ffea17b482a9c4e418ff",
@@ -1041,7 +609,7 @@
       "source_chapter_id": "chapter:800185",
       "book_id": "book:810000",
       "chapter_id": "chapter:900185",
-      "chapter_number": 87,
+      "chapter_number": 51,
       "body": {
         "path": "books/asp-how-night-came-to-opios-village/chapters/001.txt",
         "sha256": "95381179bba943bef1134499cfc40f8fa3c4da2b1ad7ab4482a2c56cfb44b8a9",
@@ -1053,7 +621,7 @@
       "source_chapter_id": "chapter:800110",
       "book_id": "book:810000",
       "chapter_id": "chapter:900110",
-      "chapter_number": 88,
+      "chapter_number": 52,
       "body": {
         "path": "books/asp-a-tiny-seed-the-story-of-wangari-maathai/chapters/001.txt",
         "sha256": "f9f4ff5b21ec3141c8450dc9b3520eab9a57666a30041bd3df856940f618a732",
@@ -1065,7 +633,7 @@
       "source_chapter_id": "chapter:800329",
       "book_id": "book:810000",
       "chapter_id": "chapter:900329",
-      "chapter_number": 89,
+      "chapter_number": 53,
       "body": {
         "path": "books/asp-lazy-anansi/chapters/001.txt",
         "sha256": "c8019076a50980270c829a9ef70936b5fe0f9c2b33bb1f3d40beb3566a31bc8d",
@@ -1077,7 +645,7 @@
       "source_chapter_id": "chapter:800324",
       "book_id": "book:810000",
       "chapter_id": "chapter:900324",
-      "chapter_number": 90,
+      "chapter_number": 54,
       "body": {
         "path": "books/asp-the-day-i-left-home-for-the-city/chapters/001.txt",
         "sha256": "3968b2a2519eac498454bd631e61268dbd7e5e8396b1b10ca1ae260f547a5141",
@@ -1089,7 +657,7 @@
       "source_chapter_id": "chapter:800092",
       "book_id": "book:810000",
       "chapter_id": "chapter:900092",
-      "chapter_number": 91,
+      "chapter_number": 55,
       "body": {
         "path": "books/asp-hare-and-tortoise-again/chapters/001.txt",
         "sha256": "3c958961cbc8f20bd37d6cae29819e2e9fd845c5b69a05ebe756a4b355f5bec1",
@@ -1101,7 +669,7 @@
       "source_chapter_id": "chapter:800299",
       "book_id": "book:810000",
       "chapter_id": "chapter:900299",
-      "chapter_number": 92,
+      "chapter_number": 56,
       "body": {
         "path": "books/asp-tortoise-finds-his-house/chapters/001.txt",
         "sha256": "e4dd4964c32a64e5a58673889f3cf405eefb889c42e65bc4af105ffafab6e972",
@@ -1113,7 +681,7 @@
       "source_chapter_id": "chapter:800103",
       "book_id": "book:810000",
       "chapter_id": "chapter:900103",
-      "chapter_number": 93,
+      "chapter_number": 57,
       "body": {
         "path": "books/asp-singing-the-truth-the-story-of-miriam-makeba/chapters/001.txt",
         "sha256": "c7dfdc9318da6de4a135cb11eaedcf410c6c2bd63ad6c6e11626cee07a0551e2",
@@ -1125,7 +693,7 @@
       "source_chapter_id": "chapter:800291",
       "book_id": "book:810000",
       "chapter_id": "chapter:900291",
-      "chapter_number": 94,
+      "chapter_number": 58,
       "body": {
         "path": "books/asp-what-vusis-sister-said/chapters/001.txt",
         "sha256": "8d60a95b987a87d1f292f879bbfe38aa7c2a5f33e00bcd6d173982a61ac49a26",
@@ -1137,7 +705,7 @@
       "source_chapter_id": "chapter:800294",
       "book_id": "book:810000",
       "chapter_id": "chapter:900294",
-      "chapter_number": 95,
+      "chapter_number": 59,
       "body": {
         "path": "books/asp-grandmas-bananas/chapters/001.txt",
         "sha256": "016ceb7a7b9f99e8b0f6a7d0808558ab36604eed10bd963037fe74dc125205a7",
@@ -1149,7 +717,7 @@
       "source_chapter_id": "chapter:800243",
       "book_id": "book:810000",
       "chapter_id": "chapter:900243",
-      "chapter_number": 96,
+      "chapter_number": 60,
       "body": {
         "path": "books/asp-holidays-with-grandmother/chapters/001.txt",
         "sha256": "500cc0162906d1ff1cd5510268e378fac35c561579a9e04894069d778d643d99",
@@ -1161,7 +729,7 @@
       "source_chapter_id": "chapter:800005",
       "book_id": "book:810000",
       "chapter_id": "chapter:900005",
-      "chapter_number": 97,
+      "chapter_number": 61,
       "body": {
         "path": "books/asp-anansi-and-turtle/chapters/001.txt",
         "sha256": "9ae78c090e94c5a3edfe28fb37a2d43d38142965c0f830f8fb9cfefec0a2debb",
@@ -1173,7 +741,7 @@
       "source_chapter_id": "chapter:800019",
       "book_id": "book:810000",
       "chapter_id": "chapter:900019",
-      "chapter_number": 98,
+      "chapter_number": 62,
       "body": {
         "path": "books/asp-my-first-day-at-the-market/chapters/001.txt",
         "sha256": "c7ab307dbea26cabd497afbd06e33ad254fe96f977ca74918fc98c0e5f3800b0",
@@ -1185,7 +753,7 @@
       "source_chapter_id": "chapter:800124",
       "book_id": "book:810000",
       "chapter_id": "chapter:900124",
-      "chapter_number": 99,
+      "chapter_number": 63,
       "body": {
         "path": "books/asp-a-fish-and-a-gift/chapters/001.txt",
         "sha256": "5f540f2d4fc670e317ba1647dfd64befa80aded844158dcd230b06b5dbb8e41f",
@@ -1197,7 +765,7 @@
       "source_chapter_id": "chapter:800273",
       "book_id": "book:810000",
       "chapter_id": "chapter:900273",
-      "chapter_number": 100,
+      "chapter_number": 64,
       "body": {
         "path": "books/asp-sizwes-smile/chapters/001.txt",
         "sha256": "5fc3f27d97cf51c3c6241afdbcba89b8a8ed745b4f885eb4d2c4947b5c86a4cb",

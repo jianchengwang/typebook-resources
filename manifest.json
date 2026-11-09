@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "id": "typebook-official-resources",
-  "revision": "2026-11-07-lightweight-manifest-v2",
+  "revision": "2026-11-09-curated-narratives",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -12,8 +12,8 @@
     },
     "books": {
       "path": "catalogs/books.json",
-      "bytes": 2805547,
-      "sha256": "bfb22858e696d3b5960f57357335a3008c6107b08cfb797d2d8a021ca6429434"
+      "bytes": 2685567,
+      "sha256": "a50b2972e2f0fc3c1370be4cc71ef299e07bbee84749de08740e6684c2f77bd4"
     },
     "collections": {
       "path": "catalogs/collections.json",
@@ -38,14 +38,14 @@
     "summary": {
       "path": "catalogs/summary.json",
       "bytes": 380,
-      "sha256": "ff8cea859a07e7d1186d5418f843db887c1e39369d834ebd3e77c42f252a183d"
+      "sha256": "2a41dccba2d04360f189d4daa63f2a73a60dab47e20092fd99a5a4e4912df4be"
     }
   },
   "profiles": {
     "default": {
       "path": "profiles/default.json",
       "bytes": 185031,
-      "sha256": "0ab03b56dab7ebcba0dc3df13ede43b304b27bab8ea1bfe1d01a5b4a645edd3c"
+      "sha256": "112f6cbfe9df9531d5092a3898de62604eadc5e1907bfaba24efde81165d83f8"
     }
   },
   "counts": {
@@ -53,7 +53,7 @@
     "demo_articles": 3,
     "additional_starter_articles": 3,
     "books": 100,
-    "chapters": 2387,
+    "chapters": 2351,
     "dictionaries": 28,
     "dictionary_entries": 81119,
     "prompts": 16,
@@ -64,7 +64,7 @@
     "archived_standalone_chapters": 100,
     "stored_chapter_payloads": 2387
   },
-  "total_bytes": 360671247,
+  "total_bytes": 360489478,
   "compatibility": {
     "archived_books": {
       "path": "catalogs/standalone-readers.json",
@@ -73,8 +73,8 @@
     },
     "book_migrations": {
       "path": "catalogs/reader-migrations.json",
-      "bytes": 39254,
-      "sha256": "3e046729af3d8dcad0bf16fd76227b3a339ddd6f3a69e9f2e22d9f84f8110cf7"
+      "bytes": 25268,
+      "sha256": "30a4141966c8e83a9ad5e51f6dd1c9b38c866ef42fdc0859e3f8f663d3e7fe44"
     }
   },
   "file_sources": {
@@ -84,7 +84,7 @@
   },
   "file_inventory": {
     "path": "catalogs/files.json",
-    "bytes": 717636,
-    "sha256": "dc678a733f53ac4ab5e193b6342bab6024256a984788613c19154c516b61878f"
+    "bytes": 717635,
+    "sha256": "bcc7133ca00c2f39498097899d04ffbafc7c8983632e36041efec7525f1703d0"
   }
 }

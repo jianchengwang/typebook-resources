@@ -57,7 +57,7 @@ class GutenbergReaderTests(unittest.TestCase):
 
     def test_stable_original_books_and_compatibility_preserved(self):
         byid={b['id']:b for b in self.public}
-        self.assertEqual([byid[x]['chapter_count'] for x in ['book:1','book:7','book:157','book:810000']],[5,14,7,100])
+        self.assertEqual([byid[x]['chapter_count'] for x in ['book:1','book:7','book:157','book:810000']],[5,14,7,64])
         archive=json.loads((ROOT/'catalogs/standalone-readers.json').read_text())
         self.assertEqual(len(archive),100)
         self.assertFalse({b['id'] for b in archive}&set(byid))
@@ -65,7 +65,7 @@ class GutenbergReaderTests(unittest.TestCase):
         expected={'book:1':'df260fc9fd977724b425ead5c81df914224409e56c132b5707d476896a260e3e',
                   'book:7':'519d303f2df1a4b99997d5a3ecd5e471e36a2c5b29e46bcbd6ee1b94f0d69b9c',
                   'book:157':'561345370dc7af9c1427a0bef5e97590e74ef42ae1720df54fa151cb0796798c',
-                  'book:810000':'a6dcb4fb86d5985a3813572471d031123e9d3f946bacc1537133aafb87c58a53'}
+                  'book:810000':'186b489d6211113825f0ed93af4b1d9bd9af05b980382f5d3a63e59036b1e957'}
         for id,digest in expected.items():
             self.assertEqual(hashlib.sha256(json.dumps(byid[id],sort_keys=True,ensure_ascii=False).encode()).hexdigest(),digest)
 

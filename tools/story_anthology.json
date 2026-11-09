@@ -9,5 +9,16 @@
   "mapping_path": "catalogs/reader-migrations.json",
   "chapter_id_offset": 100000,
   "order": "word_count_then_legacy_id",
-  "revision": "2026-11-07-childrens-story-anthology"
+  "min_words": 100,
+  "exclude_slugs": [
+    "asp-the-big-juicy-mango",
+    "asp-sleepy-mr-sloth",
+    "asp-colours-of-a-rainbow",
+    "asp-my-mother-planted",
+    "asp-why-is-yayeri-great",
+    "asp-zama-is-great",
+    "asp-soccer-skills",
+    "asp-the-day-we-saw-the-rainbow"
+  ],
+  "revision": "2026-11-09-curated-narratives"
 }

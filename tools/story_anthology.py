@@ -27,6 +27,11 @@ def read_config(root, config):
     for key in ("archive_path", "mapping_path"):
         safe_path(root, value[key])
     safe_path(root, "books/" + value["slug"] + "/source.json")
+    if "min_words" in value:
+        require(isinstance(value["min_words"], int) and value["min_words"] >= 0, "Invalid min_words")
+    if "exclude_slugs" in value:
+        require(isinstance(value["exclude_slugs"], list) and all(isinstance(s, str) for s in value["exclude_slugs"]),
+                "Invalid exclude_slugs")
     return value
 
 
@@ -55,12 +60,18 @@ def build(root, config, books, titles, outputs):
     require(all(b["license_status"] == "verified-cc-by" for b in sources), "Unverified story license")
     title = titles[config["id"]]
     folder = "books/" + config["slug"]
+    min_words = config.get("min_words", 0)
+    exclude_slugs = set(config.get("exclude_slugs", []))
+    selected = [b for b in sources
+                if b["word_count"] >= min_words
+                and pathlib.PurePosixPath(b["source"]["path"]).parts[1] not in exclude_slugs]
+    require(selected, "No short stories selected for anthology")
     chapters, mappings, credit_sections, compact_credits, seen_bodies = [], [], [], [], set()
     existing_chapter_ids = {c["id"] for b in books for c in b["chapters"]}
     total_bytes = 0
     def data_at(path):
         return outputs[path] if path in outputs else safe_path(root, path).read_bytes()
-    for number, book in enumerate(sorted(sources, key=lambda b: (b["word_count"], b["legacy_id"])), 1):
+    for number, book in enumerate(sorted(selected, key=lambda b: (b["word_count"], b["legacy_id"])), 1):
         original = book["chapters"][0]
         body = original["body"]
         data = data_at(body["path"])
@@ -116,7 +127,7 @@ def build(root, config, books, titles, outputs):
                "The new typographic cover and arrangement are TypeBook editorial work.\n\n"
                + "\n".join(credit_sections)).encode()
     description = (f'{len(chapters)} complete English children\'s stories, one story per chapter, '
-                   f'ordered from shorter to longer ({min(b["word_count"] for b in sources)}–{max(b["word_count"] for b in sources)} words each). Original texts and credits '
+                   f'ordered from shorter to longer ({min(b["word_count"] for b in selected)}–{max(b["word_count"] for b in selected)} words each). Original texts and credits '
                    'are preserved. Individual stories are CC BY 3.0 or CC BY 4.0; no blanket license. '
                    'Read each author, source, license and modification notice at: ' + CREDITS_URL
                    + '\n\nPer-story credits (retained by legacy local importers):\n' + '\n\n'.join(compact_credits))
@@ -127,7 +138,7 @@ def build(root, config, books, titles, outputs):
                 "zh-CN": f'{len(chapters)}篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。各篇作者、来源、CC BY 3.0/4.0许可及改编说明：' + CREDITS_URL,
                 "ja": f'{len(chapters)}編の英語の子ども向け短編を、1編1章で短い順に収録。各作品の著者、出典、CC BY 3.0/4.0ライセンスと変更内容：' + CREDITS_URL},
             "tags": json.dumps(["english-learning", "childrens-stories", "anthology", "typing-practice"]),
-            "word_count": sum(b["word_count"] for b in sources), "chapter_count": len(chapters),
+            "word_count": sum(b["word_count"] for b in selected), "chapter_count": len(chapters),
             "revision": 1, "license_status": "verified-cc-by-per-chapter",
             "licenses": [{"id": "CC-BY-3.0", "url": "https://creativecommons.org/licenses/by/3.0/"},
                          {"id": "CC-BY-4.0", "url": "https://creativecommons.org/licenses/by/4.0/"}],
@@ -138,7 +149,7 @@ def build(root, config, books, titles, outputs):
                   "reader_import_id": config["reader_import_id"], "archive_path": config["archive_path"],
                   "mapping_path": config["mapping_path"], "ordering": config["order"],
                   "story_count": len(chapters), "word_count": book["word_count"],
-                  "license_counts": dict(sorted(Counter(b["license"]["id"] for b in sources).items())),
+                  "license_counts": dict(sorted(Counter(b["license"]["id"] for b in selected).items())),
                   "reused_body_bytes": total_bytes, "new_body_bytes": 0,
                   "changes": "Arrangement only. Existing normalized English chapter bytes are reused without alteration. Original source and normalization notices remain per story."}
     files = {config["archive_path"]: json_bytes(sources),

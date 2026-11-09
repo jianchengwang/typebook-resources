@@ -7,11 +7,14 @@ in A Christmas Carol (5), A Study in Scarlet (14), and The Wind in the Willows (
 remain separate and unchanged. No text from The Little Prince or Sophie's World
 has been added.
 
-The anthology contains **100 stories / 100 chapters, 20,229 words** in total
-(21–687 words per story). Together with the three long-form readers, the public
-original resource set has 126 stored chapters. The final three additions are *The Big Juicy Mango*,
-*My new friends*, and *The day we saw the rainbow*, checked against the same
-pinned upstream and dataset.
+The anthology contains **64 stories / 64 chapters, 17,447 words** in total
+(102–687 words per story). To make the collection suitable for typing practice,
+stories under 100 words as well as non-narrative picture-book rhymes, pattern drills
+and vocabulary cards were filtered out, leaving complete narrative folktales, fables
+and everyday stories. All original 100 short readers remain fully preserved in
+`catalogs/standalone-readers.json` for compatibility. The four original books now
+expose 90 chapters in the public catalog (2,351 chapters across all 100 catalog
+books), while 2,387 unique chapter payloads remain stored.
 
 ## Structure and rights
 

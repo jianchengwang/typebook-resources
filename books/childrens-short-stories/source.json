@@ -10,13 +10,13 @@
   "archive_path": "catalogs/standalone-readers.json",
   "mapping_path": "catalogs/reader-migrations.json",
   "ordering": "word_count_then_legacy_id",
-  "story_count": 100,
-  "word_count": 20229,
+  "story_count": 64,
+  "word_count": 17447,
   "license_counts": {
-    "CC-BY-3.0": 64,
-    "CC-BY-4.0": 36
+    "CC-BY-3.0": 39,
+    "CC-BY-4.0": 25
   },
-  "reused_body_bytes": 107950,
+  "reused_body_bytes": 93096,
   "new_body_bytes": 0,
   "changes": "Arrangement only. Existing normalized English chapter bytes are reused without alteration. Original source and normalization notices remain per story."
 }

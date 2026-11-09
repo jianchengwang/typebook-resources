@@ -316,7 +316,7 @@ def make_plan(root, config, new_books, outputs):
     summary.update(books=len(books), chapters=sum(book["chapter_count"] for book in books))
     if anthology:
         summary.update(archived_standalone_books=len(new_books), archived_standalone_chapters=len(new_books),
-                       stored_chapter_payloads=len({c["body"]["path"] for b in books for c in b["chapters"]}))
+                       stored_chapter_payloads=len({c["body"]["path"] for b in existing for c in b["chapters"]}))
     outputs["catalogs/summary.json"] = json_bytes(summary)
     profile = json.loads((root / "profiles/default.json").read_text())
     profile["books"] = ([b["id"] for b in books] if anthology else
