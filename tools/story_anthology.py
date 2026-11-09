@@ -66,7 +66,7 @@ def build(root, config, books, titles, outputs):
                 if b["word_count"] >= min_words
                 and pathlib.PurePosixPath(b["source"]["path"]).parts[1] not in exclude_slugs]
     require(selected, "No short stories selected for anthology")
-    chapters, mappings, credit_sections, compact_credits, seen_bodies = [], [], [], [], set()
+    chapters, mappings, credit_sections, seen_bodies = [], [], [], set()
     existing_chapter_ids = {c["id"] for b in books for c in b["chapters"]}
     total_bytes = 0
     def data_at(path):
@@ -106,10 +106,6 @@ def build(root, config, books, titles, outputs):
                                f'Original IDs: `{book["id"]}`, `{original["id"]}`. '
                                f'Anthology chapter: `{chapter["id"]}`.\n\n'
                                + data_at(license_path).decode().removeprefix("# " + book["title"] + "\n").lstrip())
-        # Local consumers currently retain the book description, not chapter credit fields.
-        # Keep all contributor/publisher notices here as well, without touching practice text.
-        compact_credits.append(f'{number}. {book["title"]} | {original["attribution"]} '
-                               f'{original["license_label"]}: {original["license_url"]}')
         total_bytes += len(data)
     cover = (f'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">\n'
              '<rect width="480" height="640" fill="#f7f0db"/><rect x="20" y="20" width="440" height="600" rx="12" fill="none" stroke="#296b59" stroke-width="2"/>\n'
@@ -127,16 +123,15 @@ def build(root, config, books, titles, outputs):
                "The new typographic cover and arrangement are TypeBook editorial work.\n\n"
                + "\n".join(credit_sections)).encode()
     description = (f'{len(chapters)} complete English children\'s stories, one story per chapter, '
-                   f'ordered from shorter to longer ({min(b["word_count"] for b in selected)}–{max(b["word_count"] for b in selected)} words each). Original texts and credits '
-                   'are preserved. Individual stories are CC BY 3.0 or CC BY 4.0; no blanket license. '
-                   'Read each author, source, license and modification notice at: ' + CREDITS_URL
-                   + '\n\nPer-story credits (retained by legacy local importers):\n' + '\n\n'.join(compact_credits))
+                   f'ordered from shorter to longer ({min(b["word_count"] for b in selected)}–{max(b["word_count"] for b in selected)} words each). '
+                   'Original texts are preserved. Individual stories are CC BY 3.0 or CC BY 4.0; '
+                   'per-story author, source, license and modification notices: ' + CREDITS_URL)
     book = {"id": config["id"], "legacy_id": config["legacy_id"], "title": title["en"],
             "title_i18n": title, "author": "Various authors (see per-story credits)",
             "description": description,
             "description_i18n": {"en": description,
-                "zh-CN": f'{len(chapters)}篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。各篇作者、来源、CC BY 3.0/4.0许可及改编说明：' + CREDITS_URL,
-                "ja": f'{len(chapters)}編の英語の子ども向け短編を、1編1章で短い順に収録。各作品の著者、出典、CC BY 3.0/4.0ライセンスと変更内容：' + CREDITS_URL},
+                "zh-CN": f'{len(chapters)}篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。各篇作者、来源、CC BY 3.0/4.0许可及改编说明见：' + CREDITS_URL,
+                "ja": f'{len(chapters)}編の英語の子ども向け短編を、1編1章で短い順に収録。各作品の著者、出典、CC BY 3.0/4.0ライセンスと変更内容はこちら：' + CREDITS_URL},
             "tags": json.dumps(["english-learning", "childrens-stories", "anthology", "typing-practice"]),
             "word_count": sum(b["word_count"] for b in selected), "chapter_count": len(chapters),
             "revision": 1, "license_status": "verified-cc-by-per-chapter",

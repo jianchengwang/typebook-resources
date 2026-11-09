@@ -76,11 +76,13 @@ may use any safe manifest-listed path, including the unchanged original folders.
 There is no anthology chapter-count cap (the 32 MiB limit applies per file).
 
 The current local importer keeps only chapter title and content, dropping chapter
-translation, original IDs and license metadata. Therefore the anthology's English
-**book description also contains all per-story credit, source and license notices**,
-which that importer preserves, as well as a link to the complete combined credits.
-The long description is intentional for compatibility; future app work can render
-credits separately. Chapter `title_i18n` is additive and requires consumer support.
+translation, original IDs and license metadata. The book description is therefore
+kept short: a one-paragraph summary plus a link to the complete combined credits.
+Per-story credit, source and license notices live in
+`books/childrens-short-stories/LICENSE.md` and in the retained chapter-level
+`attribution`, `license_label` and `license_url` catalog fields; an earlier revision
+also embedded every notice in the description, which made imported book cards
+unreadably long. Chapter `title_i18n` is additive and requires consumer support.
 The official collection loader displays the flat `attribution`, `license_label`
 and `license_url` fields, which are retained; it replaces chapter author with book
 author, so the exact author is also retained within the attribution text.
