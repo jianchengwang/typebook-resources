@@ -64,8 +64,9 @@ class StoryAnthologyTests(unittest.TestCase):
             credits = (ROOT / 'books/childrens-short-stories/LICENSE.md').read_text()
             self.assertIn('per-story credits', credits)
             self.assertIn(f'## {chapter["chapter_number"]}. {chapter["title"]}', credits)
-            self.assertIn(anthology.CREDITS_URL, self.book['description'])
+            self.assertNotIn('http', self.book['description'])
             self.assertNotIn(chapter['attribution'], self.book['description'])
+            self.assertLess(len(self.book['description']), 200)
             self.assertEqual(reader.sha256((ROOT / chapter['body']['path']).read_bytes()), chapter['body']['sha256'])
 
     def test_no_story_body_copies_and_short_to_long_order(self):

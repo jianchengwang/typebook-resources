@@ -10,7 +10,6 @@ from import_hf_readers import body_ref, json_bytes, require, safe_path, sha256
 
 SUPPORT_FILES = {"tools/story_anthology.py", "tools/story_anthology.json",
                  "tests/test_story_anthology.py", "docs/childrens-short-stories.md"}
-CREDITS_URL = "https://github.com/jianchengwang/typebook-resources/blob/main/books/childrens-short-stories/LICENSE.md"
 
 
 def read_config(root, config):
@@ -123,15 +122,13 @@ def build(root, config, books, titles, outputs):
                "The new typographic cover and arrangement are TypeBook editorial work.\n\n"
                + "\n".join(credit_sections)).encode()
     description = (f'{len(chapters)} complete English children\'s stories, one story per chapter, '
-                   f'ordered from shorter to longer ({min(b["word_count"] for b in selected)}–{max(b["word_count"] for b in selected)} words each). '
-                   'Original texts are preserved. Individual stories are CC BY 3.0 or CC BY 4.0; '
-                   'per-story author, source, license and modification notices: ' + CREDITS_URL)
+                   f'ordered from shorter to longer ({min(b["word_count"] for b in selected)}–{max(b["word_count"] for b in selected)} words each).')
     book = {"id": config["id"], "legacy_id": config["legacy_id"], "title": title["en"],
             "title_i18n": title, "author": "Various authors (see per-story credits)",
             "description": description,
             "description_i18n": {"en": description,
-                "zh-CN": f'{len(chapters)}篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。各篇作者、来源、CC BY 3.0/4.0许可及改编说明见：' + CREDITS_URL,
-                "ja": f'{len(chapters)}編の英語の子ども向け短編を、1編1章で短い順に収録。各作品の著者、出典、CC BY 3.0/4.0ライセンスと変更内容はこちら：' + CREDITS_URL},
+                "zh-CN": f'{len(chapters)}篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。',
+                "ja": f'英語の子ども向け短編{len(chapters)}編を、1編1章で短い順に収録。'},
             "tags": json.dumps(["english-learning", "childrens-stories", "anthology", "typing-practice"]),
             "word_count": sum(b["word_count"] for b in selected), "chapter_count": len(chapters),
             "revision": 1, "license_status": "verified-cc-by-per-chapter",

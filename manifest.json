@@ -12,8 +12,8 @@
     },
     "books": {
       "path": "catalogs/books.json",
-      "bytes": 2608556,
-      "sha256": "35dee6a7e5404dad5b01a0656e170be598fce361627c62ef0acf0fcacf0c1d6f"
+      "bytes": 2607717,
+      "sha256": "24cae2a30d0368f5ebb73735c577c6ead14c08b3e34ae62f3e9425d698005bbd"
     },
     "collections": {
       "path": "catalogs/collections.json",
@@ -45,7 +45,7 @@
     "default": {
       "path": "profiles/default.json",
       "bytes": 185031,
-      "sha256": "66290d9cae56a5d0c325dd15dc0788f18016617c5f2f0edb1768481ac230229e"
+      "sha256": "4ceff3bc44af87d188191675a171d396c2d96bd80cf71ca80dfaca993da720fb"
     }
   },
   "counts": {
@@ -64,7 +64,7 @@
     "archived_standalone_chapters": 100,
     "stored_chapter_payloads": 2387
   },
-  "total_bytes": 360412301,
+  "total_bytes": 360410962,
   "compatibility": {
     "archived_books": {
       "path": "catalogs/standalone-readers.json",
@@ -85,6 +85,6 @@
   "file_inventory": {
     "path": "catalogs/files.json",
     "bytes": 717635,
-    "sha256": "4aaf11a6f7885d24a874333a4a642e62d2e8bd3bf762c334fcab5847ca26327e"
+    "sha256": "d4da90c79ffcff629b611fbdf1ed541c0c29fcfc371a14095d77d9d3f896a1a0"
   }
 }

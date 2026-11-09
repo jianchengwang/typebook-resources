@@ -77,8 +77,7 @@ There is no anthology chapter-count cap (the 32 MiB limit applies per file).
 
 The current local importer keeps only chapter title and content, dropping chapter
 translation, original IDs and license metadata. The book description is therefore
-kept short: a one-paragraph summary plus a link to the complete combined credits.
-Per-story credit, source and license notices live in
+kept to one short sentence. Per-story credit, source and license notices live in
 `books/childrens-short-stories/LICENSE.md` and in the retained chapter-level
 `attribution`, `license_label` and `license_url` catalog fields; an earlier revision
 also embedded every notice in the description, which made imported book cards

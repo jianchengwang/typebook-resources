@@ -50227,16 +50227,16 @@
       "ja": "子どもの短いお話集"
     },
     "author": "Various authors (see per-story credits)",
-    "description": "64 complete English children's stories, one story per chapter, ordered from shorter to longer (102–687 words each). Original texts are preserved. Individual stories are CC BY 3.0 or CC BY 4.0; per-story author, source, license and modification notices: https://github.com/jianchengwang/typebook-resources/blob/main/books/childrens-short-stories/LICENSE.md",
+    "description": "64 complete English children's stories, one story per chapter, ordered from shorter to longer (102–687 words each).",
     "description_i18n": {
-      "en": "64 complete English children's stories, one story per chapter, ordered from shorter to longer (102–687 words each). Original texts are preserved. Individual stories are CC BY 3.0 or CC BY 4.0; per-story author, source, license and modification notices: https://github.com/jianchengwang/typebook-resources/blob/main/books/childrens-short-stories/LICENSE.md",
-      "zh-CN": "64篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。各篇作者、来源、CC BY 3.0/4.0许可及改编说明见：https://github.com/jianchengwang/typebook-resources/blob/main/books/childrens-short-stories/LICENSE.md",
-      "ja": "64編の英語の子ども向け短編を、1編1章で短い順に収録。各作品の著者、出典、CC BY 3.0/4.0ライセンスと変更内容はこちら：https://github.com/jianchengwang/typebook-resources/blob/main/books/childrens-short-stories/LICENSE.md"
+      "en": "64 complete English children's stories, one story per chapter, ordered from shorter to longer (102–687 words each).",
+      "zh-CN": "64篇完整英文儿童短故事，每篇一章，按篇幅从短到长排列。",
+      "ja": "英語の子ども向け短編64編を、1編1章で短い順に収録。"
     },
     "tags": "[\"english-learning\", \"childrens-stories\", \"anthology\", \"typing-practice\"]",
     "word_count": 17447,
     "chapter_count": 64,
-    "revision": 4,
+    "revision": 5,
     "license_status": "verified-cc-by-per-chapter",
     "licenses": [
       {
