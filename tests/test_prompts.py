@@ -34,12 +34,13 @@ PRIOR_FIELDS = {'category',
  'tags',
  'title_i18n',
  'variables'}
-PRIOR_DIGESTS = {'builtin-english-companion': '7461e5659ee1aee95dfb8daefe33354d5c0a1e270fff634a4a9509013b861479',
+PRIOR_DIGESTS = {
+ 'builtin-english-companion': '7461e5659ee1aee95dfb8daefe33354d5c0a1e270fff634a4a9509013b861479',
  'builtin-english-only': 'b4753fd0df9aba9eb87ce952d9fd83cd0060ddd969ceb911150e2b55c97777b3',
  'builtin-typing-article': '5f5d918c70ffb5dc6f5923391f4c6d2fb6dcee4f8c0fceb4c34d13f107e56397',
- 'image-preposition-cards': 'fef0a9835641fe892b87467ca69327d42d1b3700d65304549dda11269b74facd',
- 'image-scene-vocabulary': '288ca1a4af29a06e28925e8a450e1321df431488ae6e6edf425392e270b2508a',
- 'image-story-sequence': '4f6f5efaf086cdf12f76da2a1c7504e60be58ecaf2e6da0321cca49592a1848f',
+ 'image-preposition-cards': '9694c8af245cbfe3250f5ca6914bbf19dea537da4628d68ef27e8edc146302e4',
+ 'image-scene-vocabulary': 'ed100dfa80125786844d990db20b40ee4999b1332f5c2a5a3d9a336702c4a018',
+ 'image-story-sequence': 'b116f84bfef29c18e60b5fbb1a72e0a5ebf0a569b6839dcb40921c9ebcb0e29a',
  'learn-collocation-lab': '8d081e620e998019ca0cc088a0f82f65cc60b51d85c038ac838f65e509ae6793',
  'learn-email-practice': 'c887061ff4f08264c35c7a360153044edebc1dc3a1a5c086ddb712833f71e027',
  'learn-everyday-roleplay': 'e7ca57a2f03729ba0e019c14bfb8af31f5506a4cdcbd28e698d839b5a003de3e',
@@ -51,13 +52,14 @@ PRIOR_DIGESTS = {'builtin-english-companion': '7461e5659ee1aee95dfb8daefe33354d5
 
 # Selection metadata is additive to every complete record in the 16-prompt catalog.
 SELECTION_FIELDS = {'description_i18n', 'selection_group', 'selection_group_i18n', 'selection_tier'}
-SELECTION_BASELINE_DIGESTS = {'builtin-english-companion': 'cc777972a104c943aa2a4fbdaaaa7756f14c47e422cc909c8578b3cb00f1d442',
+SELECTION_BASELINE_DIGESTS = {
+ 'builtin-english-companion': 'cc777972a104c943aa2a4fbdaaaa7756f14c47e422cc909c8578b3cb00f1d442',
  'builtin-english-only': '0630c81292eae482236d9978a77e6cb85e6c05200db3376fe612d62bc2f41eab',
  'builtin-typing-article': 'e77b6c0672a15ac896265efb1337e65cfc78619edc3de7de52326f3fcaae63bd',
- 'image-preposition-cards': '410a08cca120f1f0559c81f444f0606efa3e859204a30c2c73980ff60f6445b3',
- 'image-scene-vocabulary': '33e97c71770573804eb45bfd2fa800bf3cd30e1781aae8a6e2b3d3717a6cec12',
- 'image-story-sequence': 'c5047a5b1d231d2c759f7560589a66eef75bb43442c47d4028c403694f5e5b47',
- 'image-vocabulary-card': '67057585e8e7cee2fe9a4bce796ca11ada01fda93dacb1b2fda27743df3fdf43',
+ 'image-preposition-cards': '4fda076cb11f660c89be3c6b5c8a47f2662b2961cebb54bc499550d2fd5d6d9f',
+ 'image-scene-vocabulary': '0dca68253c38b4caa737a58a710f068a0ce4b64755322588222cc7d53f7e0c89',
+ 'image-story-sequence': 'f148b852ebe2db859a249baef02740f71f5cb32847124c19e67c54026e404e69',
+ 'image-vocabulary-card': '3cfe6c5d90724905da8ba070a9c5d93d3a9c51eaf1f5dc721d0dd56477ce675a',
  'learn-childrens-storybook': '344426e8b22ae18464de166f5b825e0143b884d46da7e88f3c40ee3297fb44ea',
  'learn-choose-your-story': 'd9cb440e6c638992bb7408e5eab38f031454de86a15946b062f07cc0d33feefa',
  'learn-collocation-lab': '76b89d6d6514158fa2daf2397d5d0820c5624b43e15cafebced82a42bff7ffe0',

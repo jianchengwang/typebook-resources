@@ -48,7 +48,7 @@ copy just to use them.
 | `reading-writing` | Reading and writing / 阅读与写作 / 読む・書く | Typing article (core); Reading Check, Summary and Paraphrase, and Email Practice (optional). |
 | `grammar` | Grammar / 语法课堂 / 文法レッスン | Grammar Repair (optional), kept as a separate lesson choice. |
 | `childrens-stories` | Children’s stories / 儿童故事 / 子ども向けの物語 | Storybook Builder and Choose Your Story (both optional). |
-| `learning-images` | Learning images / 学习图片 / 学習用画像 | Vocabulary Card, Scene Vocabulary, Preposition Cards, and Story Sequence (all optional; require an image-capable route). |
+| `learning-images` | Image prompts / 生图提示词 / 画像生成プロンプト | Vocabulary Card, Scene Vocabulary, Preposition Cards, and Story Sequence (all optional; sent directly to the user's image model). |
 
 The default distribution profile still contains all 16 prompts. A distribution
 profile is a list of available files, not a list of checked import boxes. This
@@ -120,6 +120,15 @@ For `image-vocabulary-card`, `label_layout` defaults to `word`. Use `letter-tile
 for a picture with one letter per tile, ideally with a word of 3–6 lowercase
 letters. An invalid layout falls back to `word` in the prompt instructions. This
 is a layout option for the same vocabulary-card task, not another catalog entry.
+
+These four entries are **direct image-model prompts, not chat instructions**:
+each English body is a complete instruction for an image generator once its
+`{{variables}}` are filled. Render variables with their `default` values, and
+let the learner's typed message replace the first variable (the main subject:
+`word`, `scene`, `object`, or `story`). A rendered prompt is ready to send to
+the configured image model as-is; do not wrap it in conversation instructions
+or ask a chat model to rewrite it first. Localized `prompt_i18n` bodies exist
+for display and preview only — image models should receive the English body.
 
 ### Retired IDs and migration
 

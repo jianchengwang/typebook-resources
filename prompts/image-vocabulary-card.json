@@ -9,7 +9,7 @@
     "zh-CN": "插画单词卡",
     "ja": "イラスト単語カード"
   },
-  "description": "Create one illustrated word card with either a whole-word label or ordered letter tiles.",
+  "description": "Draw one illustrated word card showing a single word, or one letter per tile for spelling.",
   "category": "image-generation",
   "tags": [
     "flashcard",
@@ -52,15 +52,15 @@
     "ja": "縦長の 4:5 の構図で、英単語のフラッシュカードを1枚作成してください。対象の単語：{{word}}。次の意味を絵で表してください：{{meaning}}。{{style}} を用い、無地の温かみのある白い背景、十分な余白、ひと目で何かわかる単一の中心的な物体を配置してください。被写体と文字を分離してください。\n下部の4分の1は、次のラベルだけのために確保し、指定された大文字・小文字の区別をそのまま保持してください：{{word}}。ラベルの配置：{{label_layout}}。'word' では、単語全体を一つのラベルとして1回だけ表示してください。'letter-tiles' では、同じ大きさの文字タイルを左から右に1列に並べ、各タイルに指定された文字をちょうど1文字ずつ、元の順序で配置してください。タイルが切れないよう、十分な間隔と余白を確保してください。文字の省略、重複、順序の入れ替え、結合、装飾をせず、単語全体を別の場所に重ねて印字しないでください。タイル形式は、3-6文字の小文字からなる短い単語に最適です。配置の値が不明な場合は 'word' を使ってください。どちらの配置でも、大きく装飾を抑えた読みやすい文字と高いコントラストを使ってください。訳、例文、発音ガイド、カードの見出し、その他の単語を含めないでください。イラストは、その単語の無関係な別の意味ではなく、指定された語義を伝えるものにしてください。\n初心者がひと目で認識できる程度に細部をシンプルにし、画面での閲覧や後日の印刷に適したカードにしてください。これは視覚的な下書きであり、正確な印刷寸法や綴りの正確性を保証するものではありません。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、追加のラベルを加えないでください。指定された文字だけを、明確な間隔と高いコントラストで描画してください。文字を確実に描画できない場合は、字形をでっち上げず、その文字領域を空白にしてください。生成された文字はすべて、学習や印刷に使用する前に確認する必要があります。"
   },
   "description_i18n": {
-    "en": "Create one illustrated word card with either a whole-word label or ordered letter tiles.",
-    "zh-CN": "生成一张插画单词卡，可选择完整单词标签或按顺序排列的字母方块。",
-    "ja": "イラスト付きの単語カードを一枚作成し、単語全体のラベルか、順番に並べた文字タイルを選べます。"
+    "en": "Draw one illustrated word card showing a single word, or one letter per tile for spelling.",
+    "zh-CN": "绘制一张插画单词卡：显示整个单词，或每格一个字母用于拼写。",
+    "ja": "イラスト付きの単語カードを描きます。単語全体、または1マス1文字のつづりタイル。"
   },
   "selection_group": "learning-images",
   "selection_group_i18n": {
-    "en": "Learning images",
-    "zh-CN": "学习图片",
-    "ja": "学習用画像"
+    "en": "Image prompts",
+    "zh-CN": "生图提示词",
+    "ja": "画像生成プロンプト"
   },
   "selection_tier": "optional"
 }

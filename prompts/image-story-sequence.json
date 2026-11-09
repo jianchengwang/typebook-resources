@@ -9,7 +9,7 @@
     "zh-CN": "四格故事表达图",
     "ja": "4コマで話すストーリー"
   },
-  "description": "Generate a wordless story sequence for describing events and writing short sentences.",
+  "description": "Draw a wordless four-panel story sequence for speaking and short-sentence writing practice.",
   "category": "image-generation",
   "tags": [
     "storytelling",
@@ -36,15 +36,15 @@
     "ja": "英語のスピーキングとタイピングの練習用に、横長の4コマの連続絵を作成してください。物語の概要：{{story}}。同じ大きさの4つのコマを左から右へ並べ、コマの間を明確に空けてください。各コマに重要な出来事を1つずつ描き、論理的に読み取れる順序にし、独自の登場人物、物体、舞台に一貫性を持たせてください。\nすっきりした親しみやすいイラストのスタイルを使い、目に見える行動、変化、因果関係を強調してください。A2-B1 レベルの学習者が何が起きているか説明できるよう、背景の細部は控えめにしてください。より上級の学習者は、自分で出来事のつながりを補えます。説明のない余分な出来事を加えたり、コマの間で登場人物を別人に変えたりしないでください。\n文字は一切使わないでください。キャプション、コマ番号、吹き出し、看板、ラベル、文字を含めないでください。あらかじめ書かれた答えを示すのではなく、学習者が自分で文を書く意欲を促すものにしてください。実在の人物を描いたり、見てわかる著作権で保護されたキャラクターを使ったりしないでください。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、ラベル、文字、数字を加えないでください。すべてのコマを完全に文字のない状態にしてください。"
   },
   "description_i18n": {
-    "en": "Generate a wordless story sequence for describing events and writing short sentences.",
-    "zh-CN": "生成无字连续故事画面，用于描述事件和练习短句写作。",
-    "ja": "出来事の説明や短文作りに使う、文字のない連続した物語の絵を作成します。"
+    "en": "Draw a wordless four-panel story sequence for speaking and short-sentence writing practice.",
+    "zh-CN": "绘制无字的四格连环故事，用于看图说话和短句写作练习。",
+    "ja": "セリフのない4コマの物語を描き、話す・短文を書く練習に使います。"
   },
   "selection_group": "learning-images",
   "selection_group_i18n": {
-    "en": "Learning images",
-    "zh-CN": "学习图片",
-    "ja": "学習用画像"
+    "en": "Image prompts",
+    "zh-CN": "生图提示词",
+    "ja": "画像生成プロンプト"
   },
   "selection_tier": "optional"
 }

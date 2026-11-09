@@ -9,7 +9,7 @@
     "zh-CN": "生活场景词汇图",
     "ja": "日常シーンの語彙イラスト"
   },
-  "description": "Make a simple scene with clearly located objects and restrained English labels.",
+  "description": "Draw one simple everyday scene with restrained English labels naming each object.",
   "category": "image-generation",
   "tags": [
     "scene",
@@ -41,15 +41,15 @@
     "ja": "{{scene}} を題材に、横長の 4:3 の教育用語彙イラストを作成してください。対象となる各物体を、それぞれ1つずつはっきり見えるように含めてください：{{labels}}。独自の親しみやすいフラットイラストにし、色数を抑え、物体を見分けやすくするために十分な空白を設けてください。\n指定された各英語ラベルを、対応する物体のそばにそれぞれちょうど1回ずつ、大きく装飾を抑えた文字で配置してください。対応関係がそれ以外では不明確になる場合に限り、短く交差しない引き出し線を使ってください。ラベルは物体の外側に置き、画面の端から離してください。追加の文字、看板の文字、ブランド名、見出し、訳は一切描画しないでください。\n装飾的な細部よりも、単純で正しい物体とラベルの対応関係を優先してください。ラベルが何を指すのか曖昧になるような、似た物体を複数含めないでください。レイアウトをすっきりさせ、後で物体の名前を声に出したり、単語をタイピングしたり、短い説明文を作ったりする際に役立つものにしてください。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、追加のラベルを加えないでください。指定された文字だけを、明確な間隔と高いコントラストで描画してください。文字を確実に描画できない場合は、字形をでっち上げず、その文字領域を空白にしてください。生成された文字はすべて、学習や印刷に使用する前に確認する必要があります。"
   },
   "description_i18n": {
-    "en": "Make a simple scene with clearly located objects and restrained English labels.",
-    "zh-CN": "生成简洁场景，清楚呈现物体位置，并添加少量英语标签。",
-    "ja": "物の位置が明確なシンプルな場面に、少数の英語ラベルを付けます。"
+    "en": "Draw one simple everyday scene with restrained English labels naming each object.",
+    "zh-CN": "绘制一个简洁的日常场景，并为每个物体标注英文名称。",
+    "ja": "日常の場面をシンプルに描き、それぞれの物に英語のラベルを付けます。"
   },
   "selection_group": "learning-images",
   "selection_group_i18n": {
-    "en": "Learning images",
-    "zh-CN": "学习图片",
-    "ja": "学習用画像"
+    "en": "Image prompts",
+    "zh-CN": "生图提示词",
+    "ja": "画像生成プロンプト"
   },
   "selection_tier": "optional"
 }

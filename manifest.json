@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "id": "typebook-official-resources",
-  "revision": "2026-11-09-curated-narratives",
+  "revision": "2026-11-09-image-prompt-routing",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -32,8 +32,8 @@
     },
     "prompts": {
       "path": "catalogs/prompts.json",
-      "bytes": 27098,
-      "sha256": "252d1da2d11293161dbddd203f95fb3e95858fa8194a532ad7a22d06a45c38ca"
+      "bytes": 27239,
+      "sha256": "0bf64755a7add70f5d1fc086dc92bedf7ab2a8cc9fdcdca092fec88cc5968730"
     },
     "summary": {
       "path": "catalogs/summary.json",
@@ -45,7 +45,7 @@
     "default": {
       "path": "profiles/default.json",
       "bytes": 185031,
-      "sha256": "4ceff3bc44af87d188191675a171d396c2d96bd80cf71ca80dfaca993da720fb"
+      "sha256": "5e3ca2070c12bf99476a84d595b816c0900de5afe4481363b4ae4c79dc29ceea"
     }
   },
   "counts": {
@@ -64,7 +64,7 @@
     "archived_standalone_chapters": 100,
     "stored_chapter_payloads": 2387
   },
-  "total_bytes": 360410962,
+  "total_bytes": 360411903,
   "compatibility": {
     "archived_books": {
       "path": "catalogs/standalone-readers.json",
@@ -85,6 +85,6 @@
   "file_inventory": {
     "path": "catalogs/files.json",
     "bytes": 717635,
-    "sha256": "d4da90c79ffcff629b611fbdf1ed541c0c29fcfc371a14095d77d9d3f896a1a0"
+    "sha256": "709af35ed1602804e63b11d5060b0bd15e5253e54b85aa9e5d7ccd6fa03c8bb4"
   }
 }

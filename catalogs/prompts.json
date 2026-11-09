@@ -135,7 +135,7 @@
       "zh-CN": "方位介词图卡",
       "ja": "絵で学ぶ位置の前置詞"
     },
-    "description": "Contrast spatial relationships using the same two objects across six panels.",
+    "description": "Draw six panels that contrast in, on, under, next to, behind, and in front of, using the same two objects.",
     "category": "image-generation",
     "tags": [
       "grammar",
@@ -161,15 +161,15 @@
       }
     ],
     "description_i18n": {
-      "en": "Contrast spatial relationships using the same two objects across six panels.",
-      "zh-CN": "在六格画面中使用同样的两个物体，对比不同空间关系。",
-      "ja": "同じ二つの物を使い、六つのコマで位置関係を比較します。"
+      "en": "Draw six panels that contrast in, on, under, next to, behind, and in front of, using the same two objects.",
+      "zh-CN": "用同样的两个物体画六格图，对比 in、on、under 等六个方位介词。",
+      "ja": "同じ2つの物で6枚のパネルを描き、in・on・under など6つの方位前置詞を対比します。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
-      "en": "Learning images",
-      "zh-CN": "学习图片",
-      "ja": "学習用画像"
+      "en": "Image prompts",
+      "zh-CN": "生图提示词",
+      "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
     "path": "prompts/image-preposition-cards.json"
@@ -184,7 +184,7 @@
       "zh-CN": "生活场景词汇图",
       "ja": "日常シーンの語彙イラスト"
     },
-    "description": "Make a simple scene with clearly located objects and restrained English labels.",
+    "description": "Draw one simple everyday scene with restrained English labels naming each object.",
     "category": "image-generation",
     "tags": [
       "scene",
@@ -211,15 +211,15 @@
       }
     ],
     "description_i18n": {
-      "en": "Make a simple scene with clearly located objects and restrained English labels.",
-      "zh-CN": "生成简洁场景，清楚呈现物体位置，并添加少量英语标签。",
-      "ja": "物の位置が明確なシンプルな場面に、少数の英語ラベルを付けます。"
+      "en": "Draw one simple everyday scene with restrained English labels naming each object.",
+      "zh-CN": "绘制一个简洁的日常场景，并为每个物体标注英文名称。",
+      "ja": "日常の場面をシンプルに描き、それぞれの物に英語のラベルを付けます。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
-      "en": "Learning images",
-      "zh-CN": "学习图片",
-      "ja": "学習用画像"
+      "en": "Image prompts",
+      "zh-CN": "生图提示词",
+      "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
     "path": "prompts/image-scene-vocabulary.json"
@@ -234,7 +234,7 @@
       "zh-CN": "四格故事表达图",
       "ja": "4コマで話すストーリー"
     },
-    "description": "Generate a wordless story sequence for describing events and writing short sentences.",
+    "description": "Draw a wordless four-panel story sequence for speaking and short-sentence writing practice.",
     "category": "image-generation",
     "tags": [
       "storytelling",
@@ -256,15 +256,15 @@
       }
     ],
     "description_i18n": {
-      "en": "Generate a wordless story sequence for describing events and writing short sentences.",
-      "zh-CN": "生成无字连续故事画面，用于描述事件和练习短句写作。",
-      "ja": "出来事の説明や短文作りに使う、文字のない連続した物語の絵を作成します。"
+      "en": "Draw a wordless four-panel story sequence for speaking and short-sentence writing practice.",
+      "zh-CN": "绘制无字的四格连环故事，用于看图说话和短句写作练习。",
+      "ja": "セリフのない4コマの物語を描き、話す・短文を書く練習に使います。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
-      "en": "Learning images",
-      "zh-CN": "学习图片",
-      "ja": "学習用画像"
+      "en": "Image prompts",
+      "zh-CN": "生图提示词",
+      "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
     "path": "prompts/image-story-sequence.json"
@@ -279,7 +279,7 @@
       "zh-CN": "插画单词卡",
       "ja": "イラスト単語カード"
     },
-    "description": "Create one illustrated word card with either a whole-word label or ordered letter tiles.",
+    "description": "Draw one illustrated word card showing a single word, or one letter per tile for spelling.",
     "category": "image-generation",
     "tags": [
       "flashcard",
@@ -317,15 +317,15 @@
       }
     ],
     "description_i18n": {
-      "en": "Create one illustrated word card with either a whole-word label or ordered letter tiles.",
-      "zh-CN": "生成一张插画单词卡，可选择完整单词标签或按顺序排列的字母方块。",
-      "ja": "イラスト付きの単語カードを一枚作成し、単語全体のラベルか、順番に並べた文字タイルを選べます。"
+      "en": "Draw one illustrated word card showing a single word, or one letter per tile for spelling.",
+      "zh-CN": "绘制一张插画单词卡：显示整个单词，或每格一个字母用于拼写。",
+      "ja": "イラスト付きの単語カードを描きます。単語全体、または1マス1文字のつづりタイル。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
-      "en": "Learning images",
-      "zh-CN": "学习图片",
-      "ja": "学習用画像"
+      "en": "Image prompts",
+      "zh-CN": "生图提示词",
+      "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
     "path": "prompts/image-vocabulary-card.json"

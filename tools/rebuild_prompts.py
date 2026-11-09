@@ -25,7 +25,7 @@ SELECTION_GROUPS = {
     "reading-writing": {"en": "Reading and writing", "zh-CN": "阅读与写作", "ja": "読む・書く"},
     "grammar": {"en": "Grammar", "zh-CN": "语法课堂", "ja": "文法レッスン"},
     "childrens-stories": {"en": "Children’s stories", "zh-CN": "儿童故事", "ja": "子ども向けの物語"},
-    "learning-images": {"en": "Learning images", "zh-CN": "学习图片", "ja": "学習用画像"},
+    "learning-images": {"en": "Image prompts", "zh-CN": "生图提示词", "ja": "画像生成プロンプト"},
 }
 TOKEN = re.compile(r"\{\{([a-z][a-z0-9_]*)\}\}")
 ID = re.compile(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*")
@@ -192,7 +192,7 @@ def make_plan(root, remove_ids=()):
     # This descriptive revision is supplied only on an intentional catalog update.
     # Later book-only imports preserve it when their generated book data is unchanged.
     if outputs["catalogs/prompts.json"] != (root / "catalogs/prompts.json").read_bytes():
-        manifest["revision"] = "2026-11-07-grouped-optional-prompts"
+        manifest["revision"] = "2026-11-09-image-prompt-routing"
     finish_manifest(manifest, outputs)
     return outputs
 

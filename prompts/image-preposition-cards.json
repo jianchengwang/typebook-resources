@@ -9,7 +9,7 @@
     "zh-CN": "方位介词图卡",
     "ja": "絵で学ぶ位置の前置詞"
   },
-  "description": "Contrast spatial relationships using the same two objects across six panels.",
+  "description": "Draw six panels that contrast in, on, under, next to, behind, and in front of, using the same two objects.",
   "category": "image-generation",
   "tags": [
     "grammar",
@@ -40,15 +40,15 @@
     "ja": "英語の前置詞を示す、横長の3列×2行の教育用カードシートを作成してください。すべてのコマで {{object}} と {{reference}} を一貫して使ってください。6つのコマは読む順に、次の関係を正確に描いてください：in, on, under, next to, behind, in front of。\n空間的な関係が物理的に明確で、それぞれ区別できるようにしてください。\"in\" では、ふたを開けるか断面図にして、物体が中にあることを見えるようにしてください。\"on\" では、ふたを閉じ、物体がその上面に接している様子を示してください。\"under\" では、単純な台で箱を持ち上げ、物体が明確に箱の下に位置できるようにしてください。\"behind\" では、位置が明確にわかるだけの物体の部分を見せてください。シンプルで共通の視点、柔らかな接地影を使い、気を散らす小道具は置かないでください。\n各コマの下には、対応する前置詞または語句だけを、上記の表記どおりに描画してください。大きく読みやすい文字、十分な間隔、同じ大きさのコマ、中立的な背景を使ってください。タイトル、訳、場面を隠す矢印、追加のラベルを含めないでください。\n\n独自の汎用的な題材を使い、ロゴやブランドのキャラクターを含めず、特定の名前を挙げたアーティストを模倣しないでください。透かし、装飾的な文字、追加のラベルを加えないでください。指定された文字だけを、明確な間隔と高いコントラストで描画してください。文字を確実に描画できない場合は、字形をでっち上げず、その文字領域を空白にしてください。生成された文字はすべて、学習や印刷に使用する前に確認する必要があります。"
   },
   "description_i18n": {
-    "en": "Contrast spatial relationships using the same two objects across six panels.",
-    "zh-CN": "在六格画面中使用同样的两个物体，对比不同空间关系。",
-    "ja": "同じ二つの物を使い、六つのコマで位置関係を比較します。"
+    "en": "Draw six panels that contrast in, on, under, next to, behind, and in front of, using the same two objects.",
+    "zh-CN": "用同样的两个物体画六格图，对比 in、on、under 等六个方位介词。",
+    "ja": "同じ2つの物で6枚のパネルを描き、in・on・under など6つの方位前置詞を対比します。"
   },
   "selection_group": "learning-images",
   "selection_group_i18n": {
-    "en": "Learning images",
-    "zh-CN": "学习图片",
-    "ja": "学習用画像"
+    "en": "Image prompts",
+    "zh-CN": "生图提示词",
+    "ja": "画像生成プロンプト"
   },
   "selection_tier": "optional"
 }
