@@ -18,8 +18,8 @@ LEGACY_FIELDS = {'id', 'name', 'source_type', 'display_type', 'prompt', 'legacy_
 LEGACY_DIGESTS = {'builtin-english-companion': 'fecc3ec6ef6b5c6b7a0cd0c5cf5449c756a09dfd596c77b341caf636720455a8', 'builtin-english-only': '090cd14e2441f79b632257f6df664994c508a8a9d3f995a6b8be4df9b304b0f6', 'builtin-typing-article': 'fd0865b94cc14fb29ac659174d2133f4cd4ef21c8b9eaf8a79a2c675bf48098d'}
 
 
-# Baseline fields for unchanged records from the earlier 18-record catalog.
-# Intentional retirements and the merged word card have separate contract tests.
+# Baseline fields for unchanged records from the earlier catalog. Revised image
+# prompts and the storybook have explicit behavioral contract checks below.
 PRIOR_FIELDS = {'category',
  'cefr_levels',
  'description',
@@ -38,9 +38,6 @@ PRIOR_DIGESTS = {
  'builtin-english-companion': '7461e5659ee1aee95dfb8daefe33354d5c0a1e270fff634a4a9509013b861479',
  'builtin-english-only': 'b4753fd0df9aba9eb87ce952d9fd83cd0060ddd969ceb911150e2b55c97777b3',
  'builtin-typing-article': '5f5d918c70ffb5dc6f5923391f4c6d2fb6dcee4f8c0fceb4c34d13f107e56397',
- 'image-preposition-cards': '9694c8af245cbfe3250f5ca6914bbf19dea537da4628d68ef27e8edc146302e4',
- 'image-scene-vocabulary': 'ed100dfa80125786844d990db20b40ee4999b1332f5c2a5a3d9a336702c4a018',
- 'image-story-sequence': 'b116f84bfef29c18e60b5fbb1a72e0a5ebf0a569b6839dcb40921c9ebcb0e29a',
  'learn-collocation-lab': '8d081e620e998019ca0cc088a0f82f65cc60b51d85c038ac838f65e509ae6793',
  'learn-email-practice': 'c887061ff4f08264c35c7a360153044edebc1dc3a1a5c086ddb712833f71e027',
  'learn-everyday-roleplay': 'e7ca57a2f03729ba0e019c14bfb8af31f5506a4cdcbd28e698d839b5a003de3e',
@@ -50,17 +47,15 @@ PRIOR_DIGESTS = {
  'learn-vocabulary-recall': '99c386c735e82f3f489aec94301a5c3c661a940a0e23d6345e25e0e999400e77'}
 
 
-# Selection metadata is additive to every complete record in the 16-prompt catalog.
+# Unchanged task bodies remain pinned; bilingual tasks have explicit tests.
+REVISED_PROMPTS = {'image-preposition-cards', 'image-scene-vocabulary', 'image-story-sequence',
+                   'image-vocabulary-card', 'learn-childrens-storybook'}
+NEW_PROMPTS = {'image-storybook-page'}
 SELECTION_FIELDS = {'description_i18n', 'selection_group', 'selection_group_i18n', 'selection_tier'}
 SELECTION_BASELINE_DIGESTS = {
  'builtin-english-companion': 'cc777972a104c943aa2a4fbdaaaa7756f14c47e422cc909c8578b3cb00f1d442',
  'builtin-english-only': '0630c81292eae482236d9978a77e6cb85e6c05200db3376fe612d62bc2f41eab',
  'builtin-typing-article': 'e77b6c0672a15ac896265efb1337e65cfc78619edc3de7de52326f3fcaae63bd',
- 'image-preposition-cards': '4fda076cb11f660c89be3c6b5c8a47f2662b2961cebb54bc499550d2fd5d6d9f',
- 'image-scene-vocabulary': '0dca68253c38b4caa737a58a710f068a0ce4b64755322588222cc7d53f7e0c89',
- 'image-story-sequence': 'f148b852ebe2db859a249baef02740f71f5cb32847124c19e67c54026e404e69',
- 'image-vocabulary-card': '3cfe6c5d90724905da8ba070a9c5d93d3a9c51eaf1f5dc721d0dd56477ce675a',
- 'learn-childrens-storybook': '344426e8b22ae18464de166f5b825e0143b884d46da7e88f3c40ee3297fb44ea',
  'learn-choose-your-story': 'd9cb440e6c638992bb7408e5eab38f031454de86a15946b062f07cc0d33feefa',
  'learn-collocation-lab': '76b89d6d6514158fa2daf2397d5d0820c5624b43e15cafebced82a42bff7ffe0',
  'learn-email-practice': 'cf3db96500d84c93aed6f96c91f4e564fb2961a75e5435b49dd515b3d371c58e',
@@ -95,9 +90,9 @@ class PromptTests(unittest.TestCase):
             'files': [{'path': name, 'source': {'kind': 'preserved-source'}} for name in files]}))
 
     def test_sources_and_counts(self):
-        self.assertEqual(len(self.sources), 16)
+        self.assertEqual(len(self.sources), 17)
         counts = {c: sum(p['category'] == c for p in self.sources) for c in prompts.CATEGORIES}
-        self.assertEqual(counts, {'english-learning': 11, 'typing-practice': 1, 'image-generation': 4})
+        self.assertEqual(counts, {'english-learning': 11, 'typing-practice': 1, 'image-generation': 5})
         for p in self.sources:
             prompts.validate_prompt(p)
             self.assertEqual(set(p['title_i18n']), {'en', 'zh-CN', 'ja'})
@@ -107,9 +102,11 @@ class PromptTests(unittest.TestCase):
             self.assertNotEqual(p['name'], p['title_i18n']['zh-CN'])
             self.assertNotEqual(p['name'], p['title_i18n']['ja'])
 
-    def test_selection_metadata_preserves_all_existing_fields(self):
-        self.assertEqual({p['id'] for p in self.sources}, set(SELECTION_BASELINE_DIGESTS))
+    def test_unmodified_prompt_fields_remain_unchanged(self):
+        self.assertEqual({p['id'] for p in self.sources}, set(SELECTION_BASELINE_DIGESTS) | REVISED_PROMPTS | NEW_PROMPTS)
         for p in self.sources:
+            if p['id'] not in SELECTION_BASELINE_DIGESTS:
+                continue
             with self.subTest(pid=p['id']):
                 original = {key: value for key, value in p.items() if key not in SELECTION_FIELDS}
                 digest = hashlib.sha256(json.dumps(original, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
@@ -122,13 +119,13 @@ class PromptTests(unittest.TestCase):
             'reading-writing': {'builtin-typing-article', 'learn-reading-check', 'learn-summary-paraphrase', 'learn-email-practice'},
             'grammar': {'learn-grammar-repair'},
             'childrens-stories': {'learn-childrens-storybook', 'learn-choose-your-story'},
-            'learning-images': {'image-vocabulary-card', 'image-scene-vocabulary', 'image-preposition-cards', 'image-story-sequence'},
+            'learning-images': {'image-vocabulary-card', 'image-scene-vocabulary', 'image-preposition-cards', 'image-story-sequence', 'image-storybook-page'},
         }
         self.assertEqual(set(expected), set(prompts.SELECTION_GROUPS))
         for group, ids in expected.items():
             self.assertEqual({p['id'] for p in self.sources if p['selection_group'] == group}, ids)
         self.assertEqual({p['id'] for p in self.sources if p['selection_tier'] == 'core'}, set(LEGACY_DIGESTS))
-        self.assertEqual(sum(p['selection_tier'] == 'optional' for p in self.sources), 13)
+        self.assertEqual(sum(p['selection_tier'] == 'optional' for p in self.sources), 14)
         for p in self.sources:
             self.assertEqual(set(p['description_i18n']), prompts.LOCALES)
             self.assertEqual(p['description_i18n']['en'], p['description'])
@@ -194,8 +191,45 @@ class PromptTests(unittest.TestCase):
             self.assertNotIn('{{', rendered)
             self.assertIn("'word'", self.prompt['prompt_i18n'][locale])
         self.assertIn('exactly one supplied letter per tile', self.prompt['prompt'])
-        self.assertIn("If the layout is unrecognized, use 'word'", self.prompt['prompt'])
+        self.assertIn('the layout is unrecognized', self.prompt['prompt'])
         self.assertEqual(self.prompt['output_type'], 'image')
+
+    def test_image_prompts_request_bilingual_learning_content(self):
+        image_prompts = [p for p in self.sources if p['output_type'] == 'image']
+        self.assertEqual(len(image_prompts), 5)
+        for prompt in image_prompts:
+            with self.subTest(pid=prompt['id']):
+                self.assertEqual(prompt['prompt_role'], 'user')
+                self.assertIn('English', prompt['prompt'])
+                self.assertIn('Chinese', prompt['prompt'])
+                self.assertNotIn('text-free', prompt['prompt'].lower())
+                self.assertNotIn('no text at all', prompt['prompt'].lower())
+                self.assertTrue(prompt['variables'])
+                self.assertNotIn('{{', prompts.render_prompt(prompt))
+        by_id = {p['id']: p for p in image_prompts}
+        four_panel = by_id['image-story-sequence']['prompt']
+        self.assertIn('each band', four_panel)
+        self.assertIn('translation', four_panel)
+        page = by_id['image-storybook-page']['prompt']
+        self.assertIn('one illustrated', page)
+        self.assertIn('not an entire book', page)
+        self.assertIn('translation', page)
+        scene = by_id['image-scene-vocabulary']
+        self.assertIn('objects that fit the requested scene', scene['variables'][1]['default'])
+        card = by_id['image-vocabulary-card']
+        self.assertIn('infer', card['variables'][1]['default'])
+        self.assertNotIn('apple', card['variables'][1]['default'])
+
+    def test_previous_version_hashes_are_validated(self):
+        self.assertEqual({p['id'] for p in self.sources if p.get('previous_prompt_versions')}, REVISED_PROMPTS)
+        bad = copy.deepcopy(self.prompt)
+        bad['previous_prompt_versions'][0]['prompt_i18n_sha256']['zh-CN'] = 'invalid'
+        with self.assertRaisesRegex(ValueError, 'Invalid previous prompt locale hashes'):
+            prompts.validate_prompt(bad)
+        bad = copy.deepcopy(self.prompt)
+        bad['previous_prompt_versions'].append(copy.deepcopy(bad['previous_prompt_versions'][0]))
+        with self.assertRaisesRegex(ValueError, 'Duplicate previous prompt hash'):
+            prompts.validate_prompt(bad)
 
     def test_storybook_metadata_routes_to_text_chat(self):
         by_id = {p['id']: p for p in self.sources}
@@ -219,6 +253,7 @@ class PromptTests(unittest.TestCase):
         interactive = prompts.render_prompt(by_id['learn-choose-your-story'])
         # These are editorial contract checks, not evidence of model compliance.
         for phrase in ('Character sheet', 'Numbered story pages', 'Illustration prompt',
+                       'Simplified Chinese translation', 'exact captions',
                        'self-contained', 'Reading-only copy', 'verbatim and in order',
                        'no images have been generated', 'do not guarantee exact text'):
             self.assertIn(phrase, book)
@@ -268,7 +303,7 @@ class PromptTests(unittest.TestCase):
 
     def test_retained_pre_localization_fields_unchanged(self):
         by_id = {p['id']: p for p in self.sources}
-        self.assertEqual(len(PRIOR_DIGESTS), 13)
+        self.assertEqual(len(PRIOR_DIGESTS), 10)
         self.assertTrue(set(PRIOR_DIGESTS) <= set(by_id))
         for pid, expected in PRIOR_DIGESTS.items():
             with self.subTest(pid=pid):

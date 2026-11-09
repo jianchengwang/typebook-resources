@@ -12,7 +12,7 @@ the application source remains in its existing repository.
 | Additional starter articles | 3 original articles retained in the official catalog |
 | Books | 100 public entries: 96 new English-original readers + 3 retained books + one 100-story anthology; 2,387 reading sections; 100 standalone records retained for compatibility |
 | Dictionaries | 28 dictionaries, 81,119 entries |
-| Learning prompts | 3 preserved built-ins + 13 distinct English learning, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
+| Learning prompts | 3 preserved built-ins + 14 distinct English learning, image and children's story tasks; titles and prompt bodies in English, Chinese and Japanese |
 | Live2D models | 8 models, 158 files |
 | Browser support assets | Existing speech model, WASM/runtime files, Live2D core and other public assets |
 
@@ -66,34 +66,24 @@ Application integration is separate; this resource update does not deploy the si
 
 ## Learning and typing prompts
 
-The 16-prompt catalog preserves the original 3 built-ins and includes 13 focused
-task templates. Six optional browsing groups make the collection easier to
-choose from: conversation, vocabulary, reading/writing, grammar, children's
-stories, and learning images. The original three are marked `core` starting
-points; all other tasks, including email writing and grammar lessons, remain
-individually selectable `optional` entries. These are recommendations, not an
-automatic import selection. No prompt ID or existing body is removed by this
-grouping update. Across all entries, there are 11 English learning prompts,
-1 English passage typing prompt and 4 image generation prompts. Practical
-role-play, vocabulary recall, grammar repair, reading, writing and two children's
-story workflows each serve a different learning activity. Image tasks cover a
-single vocabulary card, a labeled scene, spatial relationships and wordless story
-sequences. Spelling tiles are an optional vocabulary-card layout, not a separate
-task. Restricted-key, punctuation/number and typing-error-review drills have been
-retired; the existing typing-article built-in already generates English passages
-from a requested topic, level, approximate word count and genre.
-All prompts include additive `title_i18n` and `prompt_i18n` maps for `en`, `zh-CN`
-and `ja`, plus localized descriptions and group labels, selection recommendations,
-task, output and placeholder metadata. Existing `name` and `prompt`
-fields remain the English fallbacks. The three original built-ins remain unchanged;
-the vocabulary card intentionally merges the former spelling-tile option.
-Instruction translation does not change the target English practice language.
-See [task selection, field contracts and local rendering](docs/prompts.md). Image entries are templates,
-not generated images; a compatible consumer route is required. The current
-application importer still uses the legacy English fields; it does not yet
-preserve prompt translations, render variables, group choices, or route image
-tasks. This resource-only update does not implement those application features
-or deploy the site. See the documented importer compatibility audit before use.
+The 17-prompt catalog preserves the original 3 built-ins and includes 14 focused
+task templates across six browsing groups: conversation, vocabulary,
+reading/writing, grammar, children's stories, and image prompts. Across all
+entries, there are 11 English learning prompts, 1 English passage typing prompt
+and 5 image generation prompts.
+
+Image tasks cover vocabulary cards, scenes, spatial relationships, four-panel
+stories, and a single illustrated storybook page. They request readable English
+and Simplified Chinese labels or captions. Image models can still make spelling,
+translation or layout mistakes, so review the result before learning from it.
+The storybook manuscript is a text task that also supplies bilingual prompts for
+individual illustrated pages; it does not generate those images itself.
+
+All prompts include `title_i18n` and `prompt_i18n` maps for `en`, `zh-CN` and `ja`,
+plus localized descriptions and group labels, output types and placeholder
+metadata. The application can import the prompts and route image templates to
+the configured image model. See [task selection, field contracts and local
+rendering](docs/prompts.md).
 
 ## Layout
 

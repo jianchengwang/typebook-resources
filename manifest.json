@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "id": "typebook-official-resources",
-  "revision": "2026-11-09-image-prompt-routing",
+  "revision": "2026-11-09-bilingual-learning-images",
   "exported_on": "2026-11-02",
   "source_application_commit": "76344a98fc6abe4eac1b3f6c0710e80997a774a2",
   "catalogs": {
@@ -32,20 +32,20 @@
     },
     "prompts": {
       "path": "catalogs/prompts.json",
-      "bytes": 27239,
-      "sha256": "0bf64755a7add70f5d1fc086dc92bedf7ab2a8cc9fdcdca092fec88cc5968730"
+      "bytes": 30910,
+      "sha256": "7f69c0eb70209971df634fa591073b63443b75767c504360ee63602b86e07bea"
     },
     "summary": {
       "path": "catalogs/summary.json",
       "bytes": 380,
-      "sha256": "2a41dccba2d04360f189d4daa63f2a73a60dab47e20092fd99a5a4e4912df4be"
+      "sha256": "486658f70d9ecd66c43f34d99c0b81aba2b1ca4e0dfd08b17d347beb25f837e6"
     }
   },
   "profiles": {
     "default": {
       "path": "profiles/default.json",
-      "bytes": 185031,
-      "sha256": "5e3ca2070c12bf99476a84d595b816c0900de5afe4481363b4ae4c79dc29ceea"
+      "bytes": 185100,
+      "sha256": "ecad2566f26b1e9cfbc75b0b38fa66837a490015072c3a55c198df784ed3f99e"
     }
   },
   "counts": {
@@ -56,7 +56,7 @@
     "chapters": 2351,
     "dictionaries": 28,
     "dictionary_entries": 81119,
-    "prompts": 16,
+    "prompts": 17,
     "live2d_models": 8,
     "live2d_files": 158,
     "cloudflare_objects_verified": 218,
@@ -64,7 +64,7 @@
     "archived_standalone_chapters": 100,
     "stored_chapter_payloads": 2387
   },
-  "total_bytes": 360411903,
+  "total_bytes": 360422670,
   "compatibility": {
     "archived_books": {
       "path": "catalogs/standalone-readers.json",
@@ -79,12 +79,12 @@
   },
   "file_sources": {
     "path": "catalogs/file-sources.json",
-    "bytes": 264842,
-    "sha256": "d8251147132ac32e9943f662a3a051ebff1cafb72b2c8801f482ddf16b3a6ca5"
+    "bytes": 264882,
+    "sha256": "df22d81234f8ec61ec6d8ecaa41853f3aca4ca4b3a370bb7c45665952f3233bb"
   },
   "file_inventory": {
     "path": "catalogs/files.json",
-    "bytes": 717635,
-    "sha256": "709af35ed1602804e63b11d5060b0bd15e5253e54b85aa9e5d7ccd6fa03c8bb4"
+    "bytes": 717827,
+    "sha256": "dd4019da6c80cf645a162562fdfdf504ce75dbd1325f1e453a5e99568e49b499"
   }
 }

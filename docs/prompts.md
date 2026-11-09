@@ -1,6 +1,6 @@
 # Learning and typing prompts
 
-This catalog contains **16 prompts: 3 preserved built-ins and 13 task-specific
+This catalog contains **17 prompts: 3 preserved built-ins and 14 task-specific
 prompts**. Every entry has English, Simplified Chinese, and Japanese display
 titles **and full prompt instructions**. Original English `name` and `prompt`
 fields remain the English fallbacks. The three built-ins are unchanged; the
@@ -14,7 +14,7 @@ The three existing modes already cover ordinary English conversation,
 English-only conversation, and general level-targeted typing passages. The other
 items are selected for distinct practical workflows, not multiple versions of
 those modes. Across the catalog, categories total **11 English learning, 1 typing
-practice, and 4 image generation** entries. The English learning total includes
+practice, and 5 image generation** entries. The English learning total includes
 the two conversation built-ins and nine task templates.
 
 There is no new generic article template: `builtin-typing-article` already accepts
@@ -35,7 +35,7 @@ The collection is organized into **six groups, not reduced to six prompts**.
 Each source and catalog entry includes a stable `selection_group`, translated
 `selection_group_i18n` labels, a `selection_tier`, and `description_i18n` in
 English, Simplified Chinese, and Japanese. The three existing built-ins are
-`core` starting points. All 13 additional tasks are `optional`, including email
+`core` starting points. All 14 additional tasks are `optional`, including email
 writing and grammar lessons. Optional means available to choose, not hidden,
 unsupported, or removed. Core means a recommendation, not mandatory import.
 If the three built-ins are already present, users do not need to import another
@@ -48,9 +48,9 @@ copy just to use them.
 | `reading-writing` | Reading and writing / 阅读与写作 / 読む・書く | Typing article (core); Reading Check, Summary and Paraphrase, and Email Practice (optional). |
 | `grammar` | Grammar / 语法课堂 / 文法レッスン | Grammar Repair (optional), kept as a separate lesson choice. |
 | `childrens-stories` | Children’s stories / 儿童故事 / 子ども向けの物語 | Storybook Builder and Choose Your Story (both optional). |
-| `learning-images` | Image prompts / 生图提示词 / 画像生成プロンプト | Vocabulary Card, Scene Vocabulary, Preposition Cards, and Story Sequence (all optional; sent directly to the user's image model). |
+| `learning-images` | Image prompts / 生图提示词 / 画像生成プロンプト | Vocabulary Card, Scene Vocabulary, Preposition Cards, Story Sequence, and Bilingual Storybook Page (all optional; sent directly to the user's image model). |
 
-The default distribution profile still contains all 16 prompts. A distribution
+The default distribution profile contains all 17 prompts. A distribution
 profile is a list of available files, not a list of checked import boxes. This
 repository does not automatically select, import, overwrite, or delete any
 user's prompts. A future consumer may group and filter choices using this
@@ -78,9 +78,9 @@ learning actions and compatibility contracts in the remaining nearby choices:
 - **Children's stories:** the book builder produces all pages and illustration
   briefs at once; the interactive story waits for decisions that change the next
   scene. Neither replaces the other's pacing, variables, or reading-copy rules.
-- **Images:** one labeled object, a labeled scene, a spatial comparison, and a
-  wordless story sequence are distinct outputs. A shared image group does not
-  imply one combined prompt or an available image provider.
+- **Images:** a word card, a labeled scene, a spatial comparison, a four-panel
+  story and one storybook page are distinct outputs. Each requests English and
+  Simplified Chinese learning text; review generated text before using it.
 
 ### Preserved built-ins
 
@@ -104,24 +104,25 @@ Their original `id`, `name`, `source_type`, `display_type`, `prompt`, and
 | `learn-reading-check` | A topic and target level. | A short passage followed by separate detail, inference, and explanation questions without answer spoilers. |
 | `learn-summary-paraphrase` | A topic and target level. | A longer passage, a learner summary, feedback on meaning and concision, then a model answer after revision. |
 | `learn-email-practice` | A fictional low-stakes writing scenario. | A recipient/purpose/detail brief, learner draft, tone and clarity feedback, then a model revision. Nothing is sent. |
-| `learn-childrens-storybook` | Audience age range, English level, theme, 4-12 pages, target words, and a general illustration style. | A complete paginated story manuscript, character sheet, self-contained text-free illustration briefs, and a separate clean reading/typing copy. Text output, not generated images. |
+| `learn-childrens-storybook` | Audience age range, English level, theme, 4-12 pages, target words, and a general illustration style. | A bilingual story manuscript, character sheet, self-contained bilingual illustration prompts, and a separate clean English reading/typing copy. Text output, not generated images. |
 | `learn-choose-your-story` | Audience age range, English level, theme, and 3-6 scenes. | One story scene at a time; typed A/B choices, copied choice sentences, or original actions change the next scene. A clean copy of the actual chosen path is available afterward on request. |
 
-### Image generation tasks (4)
+### Image generation tasks (5)
 
 | ID | Input and situation | Distinct visual output |
 | --- | --- | --- |
-| `image-vocabulary-card` | One word, its concrete sense, a general style, and optional `label_layout`. | One isolated illustration with an exact English label: a whole word by default, or one ordered letter per tile. |
-| `image-scene-vocabulary` | An everyday setting and two to four object labels. | An integrated scene with unambiguous object-to-label relationships, for description and contextual vocabulary. |
-| `image-preposition-cards` | A small object and a box-like container with a lid. | Six consistent spatial relationships, for learning `in`, `on`, `under`, `next to`, `behind`, and `in front of`. |
-| `image-story-sequence` | A fictional four-step story. | Four text-free panels, for learner-authored narration and typed sentences. |
+| `image-vocabulary-card` | A word or subject, optional sense and visual style. | A bilingual vocabulary card with a short example sentence. |
+| `image-scene-vocabulary` | An everyday setting and optional object labels. | A scene with matching bilingual object names and a short bilingual sentence. |
+| `image-preposition-cards` | A small object and a box-like reference. | Six spatial relationships with English and Chinese labels. |
+| `image-story-sequence` | A story or theme. | Four connected panels, each with an English sentence and Chinese translation. |
+| `image-storybook-page` | A gentle event and a general visual style. | One illustrated children's storybook page with an English caption and Chinese translation. |
 
 For `image-vocabulary-card`, `label_layout` defaults to `word`. Use `letter-tiles`
 for a picture with one letter per tile, ideally with a word of 3–6 lowercase
 letters. An invalid layout falls back to `word` in the prompt instructions. This
 is a layout option for the same vocabulary-card task, not another catalog entry.
 
-These four entries are **direct image-model prompts, not chat instructions**:
+These five entries are **direct image-model prompts, not chat instructions**:
 each English body is a complete instruction for an image generator once its
 `{{variables}}` are filled. Render variables with their `default` values, and
 let the learner's typed message replace the first variable (the main subject:
@@ -197,7 +198,7 @@ For example (abridged):
   replacing it: browsing groups describe the learner's goal; `category` and
   `output_type` still describe the existing resource contract.
 - **`selection_tier`** is `core` for the three preserved built-ins and `optional`
-  for the 13 additional templates. It does not change `source_type`, message role,
+  for the 14 additional templates. It does not change `source_type`, message role,
   import permission, availability, or automatic checkbox state. Older consumers
   may ignore the new fields and continue showing the unchanged flat list.
 - **`category`** is `english-learning`, `typing-practice`, or `image-generation`.
@@ -210,7 +211,7 @@ For example (abridged):
   route. An older consumer ignoring this field will **not** automatically gain
   image generation; it should avoid offering image tasks until that route exists.
 - **`prompt_role`** is `system` for the three original built-in mode definitions
-  and `user` for the 13 standalone task templates. Use the existing conversation
+  and `user` for the 14 standalone task templates. Use the existing conversation
   setup for built-ins. Do not install every new task as a system prompt.
 - **`variables`** lists each `{{variable_name}}` used by the body, with a usable
   `default` and English `description`. Repeated occurrences use the same value.
@@ -229,34 +230,15 @@ configuration, database, frontend, or live deployment. Consumers pinned to an
 older commit must deliberately adopt the new commit and its manifest. Preserve
 the localized maps and template metadata during that later import.
 
-### Current application importer audit
+### Application import and updates
 
-The read-only review of TypeBook application commit
-`17755a7a4835fdf22ba55a1fe304b8ee9a16eef9` checked
-`frontend/src/utils/resourceImport.ts`,
-`frontend/src/components/ResourceImportDialog.vue`, and
-`shared/yukiBuiltinPrompts.ts`. No application files were changed.
-
-- The import dialog already lets users select individual prompts; it does not
-  implement these six groups or core/optional recommendations.
-- Prompt list titles and descriptions come from the existing English `name`
-  and `description`. Import stores `name`, `description`, `prompt`, `model_name`,
-  `display_type`, and an `origin_url` derived from the unchanged resource ID.
-  All 16 current paths, IDs, original fields, and full instruction maps are
-  preserved, so the grouping update does not break those existing field reads.
-- That importer does **not** yet preserve `title_i18n`, `prompt_i18n`, variables,
-  `prompt_role`, `output_type`, or selection metadata. It does not substitute
-  template placeholders or configure an image route. Consequently, successful
-  import alone does not prove the multilingual or image templates work end to
-  end. Render templates locally first, or implement those capabilities in a
-  separate application change before advertising full support.
-- Existing imports are identified by source origin and skipped rather than
-  upgraded. Publishing this revision does not migrate them. The import library
-  can follow the repository's `main` alias, while the built-in resource fallback
-  is separately pinned; neither route adds frontend capabilities on its own.
-
-This audit is source-level compatibility evidence, not a deployed browser test.
-No redirect, deletion, or legacy-ID migration is needed for this revision.
+The TypeBook importer preserves prompt titles, instruction translations, output
+kind and variables. It renders image template defaults, substitutes the learner's
+subject, and sends the English instruction directly to the configured image model.
+Existing imports can be re-imported from the official source: a previous unedited
+prompt is upgraded when its English and stored translated bodies match a recorded
+`previous_prompt_versions` hash; edited content remains personal. Model and display
+settings are retained. Imported prompts still need to be selected by the user.
 
 A consumer integration can keep its current English flow, then add locale
 selection in this order:
@@ -331,12 +313,14 @@ is needed for these exercises.
 
 These two tasks deliberately serve different purposes:
 
-- **Storybook Builder** produces the complete book manuscript at once. It gives
-  each page readable story text and a separate illustration brief; a shared
-  character sheet and repeated visual anchors help later images stay consistent.
-  The reading-only section repeats the page prose verbatim, without production
-  notes, so it can be copied into a typing exercise. Unlike `image-story-sequence`,
-  it writes a whole readable story rather than generating four wordless panels.
+- **Storybook Builder** produces a bilingual book manuscript at once. It gives
+  each page English text, its Chinese translation, and a self-contained image
+  prompt that asks for a short caption in both languages. A shared character sheet
+  and repeated visual anchors help later images stay consistent. The separate
+  reading-only section keeps the English prose for typing practice. Image creation
+  still requires an image-capable model; review spelling and translation.
+- **Bilingual Storybook Page** is a direct image prompt for one illustrated page;
+  it does not create a complete multi-page book.
 - **Choose Your Story** waits for the learner after every nonfinal scene. A/B,
   a copied choice sentence, and an original safe action are all valid inputs.
   Choices affect subsequent events; they are not comprehension questions with
@@ -355,10 +339,11 @@ A parent or teacher should review the result before a child uses it.
 
 The book builder's output is **text**, including image prompts, not a finished
 illustrated book, PDF, or print-ready layout. A separate image-capable route is
-needed to make pictures. Keep generated pictures text-free and typeset the
-verified English separately: image models do not guarantee exact lettering or
-character continuity. Check images, page ordering, word repetition, age suitability,
-and the reading-only copy before teaching or publishing. Counts and input ranges
+needed to make pictures. The illustration prompts request short bilingual captions;
+image models do not guarantee exact lettering or character continuity. Check the
+English and Chinese carefully, and replace incorrect text in a layout editor.
+Check images, page order, word repetition, age suitability and the reading-only
+copy before teaching or publishing. Counts and input ranges
 are prompt instructions; the local renderer checks structure, not model behavior
 or the semantic validity of a numeric string. The templates describe safe defaults
 for invalid age/level/count settings instead of requesting identifying details.

@@ -161,7 +161,8 @@
     "learn-summary-paraphrase",
     "learn-vocabulary-recall",
     "learn-childrens-storybook",
-    "learn-choose-your-story"
+    "learn-choose-your-story",
+    "image-storybook-page"
   ],
   "models": [
     "live2d:1"
@@ -3325,6 +3326,7 @@
     "prompts/image-preposition-cards.json",
     "prompts/image-scene-vocabulary.json",
     "prompts/image-story-sequence.json",
+    "prompts/image-storybook-page.json",
     "prompts/image-vocabulary-card.json",
     "prompts/learn-childrens-storybook.json",
     "prompts/learn-choose-your-story.json",
@@ -3342,5 +3344,5 @@
     "xlsx.mjs",
     "yuki-avatar.png"
   ],
-  "payload_bytes": 106169955
+  "payload_bytes": 106179613
 }

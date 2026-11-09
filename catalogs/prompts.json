@@ -135,7 +135,7 @@
       "zh-CN": "方位介词图卡",
       "ja": "絵で学ぶ位置の前置詞"
     },
-    "description": "Draw six panels that contrast in, on, under, next to, behind, and in front of, using the same two objects.",
+    "description": "Compare six spatial prepositions with paired English and Chinese labels.",
     "category": "image-generation",
     "tags": [
       "grammar",
@@ -161,9 +161,9 @@
       }
     ],
     "description_i18n": {
-      "en": "Draw six panels that contrast in, on, under, next to, behind, and in front of, using the same two objects.",
-      "zh-CN": "用同样的两个物体画六格图，对比 in、on、under 等六个方位介词。",
-      "ja": "同じ2つの物で6枚のパネルを描き、in・on・under など6つの方位前置詞を対比します。"
+      "en": "Compare six spatial prepositions with paired English and Chinese labels.",
+      "zh-CN": "用中英文标签对照学习六个常见方位介词。",
+      "ja": "6つの位置の前置詞を英語と中国語のラベルで比較します。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
@@ -172,6 +172,16 @@
       "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
+    "previous_prompt_versions": [
+      {
+        "prompt_sha256": "ada3ff1e74d0f4039dcedbbf931a409d6288ddbad5fd1e458853e962b91dff6b",
+        "prompt_i18n_sha256": {
+          "en": "ada3ff1e74d0f4039dcedbbf931a409d6288ddbad5fd1e458853e962b91dff6b",
+          "zh-CN": "47c4a8ce087441608944f321178ca9c70ff4be7bb364713cb21ea20a6125c71a",
+          "ja": "96f06baeb7a06edf054aec942348a97046369e34d4a1e226b1a50b94f35b1dcf"
+        }
+      }
+    ],
     "path": "prompts/image-preposition-cards.json"
   },
   {
@@ -184,7 +194,7 @@
       "zh-CN": "生活场景词汇图",
       "ja": "日常シーンの語彙イラスト"
     },
-    "description": "Draw one simple everyday scene with restrained English labels naming each object.",
+    "description": "Explore a scene through bilingual object labels and a short example sentence.",
     "category": "image-generation",
     "tags": [
       "scene",
@@ -206,14 +216,14 @@
       },
       {
         "name": "labels",
-        "default": "cup; plate; spoon; chair",
-        "description": "Two to four concrete English object labels, separated by semicolons."
+        "default": "choose three or four everyday objects that fit the requested scene",
+        "description": "Optional object names, or an instruction to choose objects appropriate to the scene."
       }
     ],
     "description_i18n": {
-      "en": "Draw one simple everyday scene with restrained English labels naming each object.",
-      "zh-CN": "绘制一个简洁的日常场景，并为每个物体标注英文名称。",
-      "ja": "日常の場面をシンプルに描き、それぞれの物に英語のラベルを付けます。"
+      "en": "Explore a scene through bilingual object labels and a short example sentence.",
+      "zh-CN": "在生活场景中学习中英物品名称，附一组双语例句。",
+      "ja": "日常の場面で英語と中国語の物の名前と短い対訳文を学びます。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
@@ -222,6 +232,16 @@
       "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
+    "previous_prompt_versions": [
+      {
+        "prompt_sha256": "a4b666f186afb583623eb10ce6af99829422c59c381f2f729074a54c15387de1",
+        "prompt_i18n_sha256": {
+          "en": "a4b666f186afb583623eb10ce6af99829422c59c381f2f729074a54c15387de1",
+          "zh-CN": "240a80ec03f88b26754ffa870c7c1178165f8696de62cfafa90e528695e60b67",
+          "ja": "f240b0434eef1be4829f5363f5d083a98f71ddfbe908861378123006c1ff64b0"
+        }
+      }
+    ],
     "path": "prompts/image-scene-vocabulary.json"
   },
   {
@@ -234,12 +254,12 @@
       "zh-CN": "四格故事表达图",
       "ja": "4コマで話すストーリー"
     },
-    "description": "Draw a wordless four-panel story sequence for speaking and short-sentence writing practice.",
+    "description": "Create a four-panel story with a short English sentence and Chinese translation in every panel.",
     "category": "image-generation",
     "tags": [
       "storytelling",
       "sequence",
-      "text-free"
+      "bilingual"
     ],
     "cefr_levels": [
       "A2",
@@ -256,9 +276,9 @@
       }
     ],
     "description_i18n": {
-      "en": "Draw a wordless four-panel story sequence for speaking and short-sentence writing practice.",
-      "zh-CN": "绘制无字的四格连环故事，用于看图说话和短句写作练习。",
-      "ja": "セリフのない4コマの物語を描き、話す・短文を書く練習に使います。"
+      "en": "Create a four-panel story with a short English sentence and Chinese translation in every panel.",
+      "zh-CN": "生成四格故事，每格附一句简短英文和对应中文翻译。",
+      "ja": "各コマに短い英文と中国語訳を添えた4コマの物語を作ります。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
@@ -267,6 +287,16 @@
       "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
+    "previous_prompt_versions": [
+      {
+        "prompt_sha256": "5687ca0e7090eb78b6aa81e078b38b54a62f1d668f37c7935ef24e1cf07fccd2",
+        "prompt_i18n_sha256": {
+          "en": "5687ca0e7090eb78b6aa81e078b38b54a62f1d668f37c7935ef24e1cf07fccd2",
+          "zh-CN": "9695cf46de22c3196a97a4cd672231cf276f091a406b22fd6e06cde63e4a7e6c",
+          "ja": "6bd5238e59af3bda9b4e8ae3b2c4336c6485bfed5311b21d05bc2f05635e8042"
+        }
+      }
+    ],
     "path": "prompts/image-story-sequence.json"
   },
   {
@@ -279,7 +309,7 @@
       "zh-CN": "插画单词卡",
       "ja": "イラスト単語カード"
     },
-    "description": "Draw one illustrated word card showing a single word, or one letter per tile for spelling.",
+    "description": "Create a bilingual illustrated word card with a short example sentence.",
     "category": "image-generation",
     "tags": [
       "flashcard",
@@ -302,8 +332,8 @@
       },
       {
         "name": "meaning",
-        "default": "a whole red apple with a green leaf",
-        "description": "A concrete visual sense, not a translation label."
+        "default": "infer the most relevant concrete meaning from the target word or subject",
+        "description": "A specific sense if needed; otherwise infer it from the target."
       },
       {
         "name": "style",
@@ -317,9 +347,9 @@
       }
     ],
     "description_i18n": {
-      "en": "Draw one illustrated word card showing a single word, or one letter per tile for spelling.",
-      "zh-CN": "绘制一张插画单词卡：显示整个单词，或每格一个字母用于拼写。",
-      "ja": "イラスト付きの単語カードを描きます。単語全体、または1マス1文字のつづりタイル。"
+      "en": "Create a bilingual illustrated word card with a short example sentence.",
+      "zh-CN": "生成中英文单词卡，配一条与画面对应的双语例句。",
+      "ja": "英語と中国語の単語カードに、絵に合う短い対訳例文を添えます。"
     },
     "selection_group": "learning-images",
     "selection_group_i18n": {
@@ -328,6 +358,16 @@
       "ja": "画像生成プロンプト"
     },
     "selection_tier": "optional",
+    "previous_prompt_versions": [
+      {
+        "prompt_sha256": "17c0fa93f9194d16ce91ad14ef828d4c62f30fcae84f6ea5950c8dfe224c1a4d",
+        "prompt_i18n_sha256": {
+          "en": "17c0fa93f9194d16ce91ad14ef828d4c62f30fcae84f6ea5950c8dfe224c1a4d",
+          "zh-CN": "fa575d1c5dace9eaf96a71c3be9dcea9a42124c3324d7b6ae5282c487d41d84d",
+          "ja": "b74ae9bdc5cc4ebaba5962449cdede800503e6b95c12b3f7e98f7ec881f51882"
+        }
+      }
+    ],
     "path": "prompts/image-vocabulary-card.json"
   },
   {
@@ -727,7 +767,7 @@
       "zh-CN": "儿童英语绘本创作",
       "ja": "子ども向け英語絵本づくり"
     },
-    "description": "Create a complete paginated English storybook manuscript with consistent-character illustration briefs and a clean reading copy.",
+    "description": "Write a bilingual storybook manuscript with per-page image prompts and a clean English reading copy.",
     "category": "english-learning",
     "tags": [
       "children",
@@ -776,9 +816,9 @@
       }
     ],
     "description_i18n": {
-      "en": "Create a complete paginated English storybook manuscript with consistent-character illustration briefs and a clean reading copy.",
-      "zh-CN": "生成完整分页的英语故事书文稿，附角色一致的插图说明和纯阅读副本。",
-      "ja": "ページ分けした英語の物語原稿を作成し、登場人物の一貫性を保つ挿絵指示と読み物用の本文を添えます。"
+      "en": "Write a bilingual storybook manuscript with per-page image prompts and a clean English reading copy.",
+      "zh-CN": "创作中英双语绘本文稿，附每页生图提示词和纯英文阅读副本。",
+      "ja": "英語と中国語の絵本原稿に、各ページの画像生成指示と英語だけの読書用本文を添えます。"
     },
     "selection_group": "childrens-stories",
     "selection_group_i18n": {
@@ -787,6 +827,16 @@
       "ja": "子ども向けの物語"
     },
     "selection_tier": "optional",
+    "previous_prompt_versions": [
+      {
+        "prompt_sha256": "b371c65f9b38981b1164cc6abd9dfd973b477f6269408afb29d47cb2c7ffbd93",
+        "prompt_i18n_sha256": {
+          "en": "b371c65f9b38981b1164cc6abd9dfd973b477f6269408afb29d47cb2c7ffbd93",
+          "zh-CN": "4e1b47cb429c013f895749e8f9939a36af573cdd60246324463da80cd99f68dc",
+          "ja": "c846815977a0e3d39736d25a99fbeffb5ed9733bd4898f3fe3528cdc50485f46"
+        }
+      }
+    ],
     "path": "prompts/learn-childrens-storybook.json"
   },
   {
@@ -855,5 +905,56 @@
     },
     "selection_tier": "optional",
     "path": "prompts/learn-choose-your-story.json"
+  },
+  {
+    "id": "image-storybook-page",
+    "name": "Bilingual Storybook Page",
+    "source_type": "official",
+    "display_type": "chat",
+    "title_i18n": {
+      "en": "Bilingual Storybook Page",
+      "zh-CN": "中英双语绘本页",
+      "ja": "英語・中国語の絵本ページ"
+    },
+    "description": "Draw one children’s storybook page with short English text and its Chinese translation.",
+    "category": "image-generation",
+    "tags": [
+      "children",
+      "storybook",
+      "bilingual",
+      "reading"
+    ],
+    "cefr_levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "output_type": "image",
+    "prompt_role": "user",
+    "variables": [
+      {
+        "name": "story",
+        "default": "A little rabbit finds a blue mitten and returns it to a friend.",
+        "description": "A gentle fictional event for one illustrated page."
+      },
+      {
+        "name": "style",
+        "default": "gentle watercolor picture-book illustration",
+        "description": "A general visual style without a named artist."
+      }
+    ],
+    "description_i18n": {
+      "en": "Draw one children’s storybook page with short English text and its Chinese translation.",
+      "zh-CN": "生成一张儿童绘本页，附简短英文故事和中文翻译。",
+      "ja": "短い英文と中国語訳を添えた子ども向け絵本の1ページを描きます。"
+    },
+    "selection_group": "learning-images",
+    "selection_group_i18n": {
+      "en": "Image prompts",
+      "zh-CN": "生图提示词",
+      "ja": "画像生成プロンプト"
+    },
+    "selection_tier": "optional",
+    "path": "prompts/image-storybook-page.json"
   }
 ]

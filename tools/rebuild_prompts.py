@@ -80,6 +80,21 @@ def validate_prompt(prompt):
     require(isinstance(bodies, dict) and set(bodies) == LOCALES, "Invalid prompt locales: " + pid)
     require(all(clean_text(v, multiline=True) for v in bodies.values()), "Invalid localized prompt: " + pid)
     require(bodies["en"] == body, "English prompt differs from prompt: " + pid)
+    previous = prompt.get("previous_prompt_versions", [])
+    require(isinstance(previous, list) and len(previous) <= 20, "Invalid prompt version history: " + pid)
+    hashes = set()
+    for version in previous:
+        require(isinstance(version, dict) and set(version) == {"prompt_sha256", "prompt_i18n_sha256"},
+                "Invalid prompt version history: " + pid)
+        digest = version["prompt_sha256"]
+        translations = version["prompt_i18n_sha256"]
+        require(isinstance(digest, str) and re.fullmatch(r"[a-f0-9]{64}", digest),
+                "Invalid previous prompt hash: " + pid)
+        require(isinstance(translations, dict) and set(translations) == LOCALES and
+                all(isinstance(value, str) and re.fullmatch(r"[a-f0-9]{64}", value) for value in translations.values()) and
+                translations["en"] == digest, "Invalid previous prompt locale hashes: " + pid)
+        require(digest not in hashes, "Duplicate previous prompt hash: " + pid)
+        hashes.add(digest)
     variables = prompt.get("variables")
     require(isinstance(variables, list), "Invalid variables: " + pid)
     names = []
@@ -192,7 +207,7 @@ def make_plan(root, remove_ids=()):
     # This descriptive revision is supplied only on an intentional catalog update.
     # Later book-only imports preserve it when their generated book data is unchanged.
     if outputs["catalogs/prompts.json"] != (root / "catalogs/prompts.json").read_bytes():
-        manifest["revision"] = "2026-11-09-image-prompt-routing"
+        manifest["revision"] = "2026-11-09-bilingual-learning-images"
     finish_manifest(manifest, outputs)
     return outputs
 
